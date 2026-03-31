@@ -70,8 +70,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     """
 
     def __init__(self, provider_def):
-        LOGGER.info("SwissGeoProvider.__init__ called")
+        LOGGER.info("SwissGeoProvider.__init__ called:")
         super().__init__(provider_def)
+        self.resource_id = provider_def.get("resource_id", self.name)
 
     def query(
         self,
@@ -109,7 +110,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         for feature in result.get("features", []):
             _apply_lang(feature["properties"], lang)
             links = feature.setdefault("links", [])
-            _ensure_self_link(links, self.index_name, feature.get("id", ""))
+            _ensure_self_link(links, self.resource_id, feature.get("id", ""))
             _patch_links(links, lang, fmt)
             for record in feature.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
@@ -127,7 +128,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         if result:
             _apply_lang(result["properties"], lang)
             links = result.setdefault("links", [])
-            _ensure_self_link(links, self.index_name, identifier)
+            _ensure_self_link(links, self.resource_id, identifier)
             _patch_links(links, lang, fmt)
             for record in result.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
@@ -159,10 +160,13 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
         return
     if not item_id:
         return
+    href = f"/collections/{collection_id}/items/{item_id}"
+    if _SERVER_URL:
+        href = f"{_SERVER_URL}{href}"
     links.insert(
         0,
         {
-            "href": f"/collections/{collection_id}/items/{item_id}",
+            "href": href,
             "rel": "self",
             "type": "application/geo+json",
         },

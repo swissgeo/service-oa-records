@@ -63,6 +63,7 @@ resources:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
         data: ${OS_URL:-http://localhost:9200}/swissgeo-catalog
+        resource_id: swissgeo-catalogue-os
         id_field: externalId
         time_field: recordCreated
         title_field: title
@@ -90,6 +91,7 @@ resources:
     providers:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
+        resource_id: swissgeo-distribution-os
         data: ${OS_URL:-http://localhost:9200}/swissgeo-distributions
         id_field: externalId
         time_field: recordCreated
@@ -118,30 +120,8 @@ resources:
     providers:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
+        resource_id: geoadmin-services-os
         data: ${OS_URL:-http://localhost:9200}/geoadmin-services
-        id_field: externalId
-        time_field: recordCreated
-        title_field: title
-        languages:
-          - en
-          - de
-          - fr
-          - it
-
-  sample-records:
-    type: collection
-    title: Sample Records
-    description: Sample records for testing (see sample-records directory)
-    keywords: [sample, records, testing]
-    links: []
-    extents:
-      spatial:
-        bbox: [5.9, 45.8, 10.5, 47.9]
-        crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
-    providers:
-      - type: record
-        name: swissgeo_provider.SwissGeoProvider
-        data: ${OS_URL:-http://localhost:9200}/sample-records
         id_field: externalId
         time_field: recordCreated
         title_field: title
