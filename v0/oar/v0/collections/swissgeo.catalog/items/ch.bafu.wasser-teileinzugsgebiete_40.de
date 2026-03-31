@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.wasser-teileinzugsgebiete_40",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wasser-teileinzugsgebiete_40?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wasser-teileinzugsgebiete_40?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/102e547e-6210-46ea-9246-123f966ba9be",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Datensatz ‹Einzugsgebiete 40 km²› ist eine von vier möglichen Aggregationsebenen des Geobasisdatensatzes ‹Topographische Einzugsgebiete der Schweizer Gewässer›. Er besteht aus einem flächendeckenden Mosaik aus rund 1200 topographisch definierten Teileinzugsgebieten. Diese sind -wo möglich- auf die Basisgebiete des hydrologischen Atlas der Schweiz (HADES) abgestimmt.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wasser-teileinzugsgebiete_40:wmts",
+    "title": "Teileinzugsgebiete 40 km²",
+    "type": "Dataset"
+  }
+}

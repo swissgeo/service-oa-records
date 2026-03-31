@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/en/home/topics/water/state-of-watercourses/national-surface-water-quality-monitoring-programme--nawa-.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/04193332-3a11-4fa6-bdc0-1bee0deb4bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Within the National Surface Water Quality Monitoring Programme (NAWA), water quality is recorded jointly by the federal and cantonal authorities at around 100 monitoring stations. The biological water status is assessed on the basis of diatom investigations by the diatom module in the Modular Step Procedure (www.modul-stufen-konzept.ch). The assessment system is linked to nutrient parameters such as ammonium, nitrite and total phosphorus. Diatoms are single-cell algae which live in both fresh and salt water and occasionally even on land. They are used as bioindicators of water quality because they occur all year round in all rivers and streams and their reaction to environmental changes is well known.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-biologischer_zustand_diatomeen:wms",
+    "title": "Diatoms",
+    "type": "Dataset"
+  }
+}

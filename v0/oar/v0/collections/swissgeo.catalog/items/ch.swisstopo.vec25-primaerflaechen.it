@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.vec25-primaerflaechen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec25-primaerflaechen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec25-primaerflaechen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/fb4c7281-bd58-4aae-b86a-3a73ba82e0aa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il livello Superfici primarie (abbreviazione pri) descrive il rivestimento topografico primario del suolo. I tipi di superfici di questo livello si escludono vicendevolmente (lago e foresta) e costituiscono una rete di superfici privo di lacune e ridondanze. A differenza della Carta nazionale, nelle superfici primarie sono contenute aree di insediamento interpretate. Gli edifici isolati sono gestiti nel livello Edifici. Gli oggetti lineari di questo livello costituiscono i confini tra le singole superfici. Essi possiedono tipi di oggetti a sé stanti che in genere non possono essere derivati dalle superfici (riva sinistra del fiume - riva destra del fiume - margine della foresta - margine della foresta aperto).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec25-primaerflaechen:wmts",
+    "title": "Superfici primarie VECTOR25",
+    "type": "Dataset"
+  }
+}

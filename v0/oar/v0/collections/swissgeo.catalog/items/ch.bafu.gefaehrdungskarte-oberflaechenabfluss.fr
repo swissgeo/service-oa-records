@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gefaehrdungskarte-oberflaechenabfluss?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gefaehrdungskarte-oberflaechenabfluss?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/ruissellement",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/6b59f9ee-9e5f-4b12-86cf-f8afb539ae5d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les zones inondées selon la carte de l'aléa ruissellement ont été déterminée sur l'ensemble de la suisse et du Liechtenstein par une méthode simplifiée. Elles ont été déterminées par modélisation sur l'entier de la Suisse sans vérification ou plausibilisation sur le terrain. La carte présente les zones potentiellement touchées par des événements rares à très rares. Elle livre une vue d'ensemble grossière des dangers liés au ruissellement. Elle ne prend pas en considération les inondations dues aux débordements des cours d'eau et ne tient pas compte des ouvrages de protection ou des passages sous les routes ou les remblais (par exemple passage sous un remblais CFF qui apparaitrait selon le MNT comme une digue sans voûtages). Cette carte permet en l'absence de carte de dangers plus détaillée une évaluation grossière de l'aléa ruissellement. Le temps de retour de l'événement représenté est estimé comme supérieur à 100 ans – soit un événement qui, sur une longue période d'observation, apparaitrait en moyenne une fois tous les 100 ans. On ne peut pas exclure que des zones non touchées selon la carte de l'aléa ruissellement puisse l'être. Elle ne doit pas être utilisée à une échelle plus détaillée que 1 :12'500 (Liechtenstein : 1:10'000), en raison du risque d'erreur d'interprétation des zones touchées respectivement non touchées. La carte n'est pas liant juridiquement. Les cantons sont libres de la reprendre comme carte indicative des dangers dans leur base de danger et de la publier dans le geoportail cantonal.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss:wmts",
+    "title": "Carte de l'aléa ruissellement",
+    "type": "Dataset"
+  }
+}

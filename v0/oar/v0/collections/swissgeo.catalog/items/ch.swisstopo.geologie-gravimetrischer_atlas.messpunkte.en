@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.sgpk.ethz.ch/opencms/opencms/publications/pub_contrib_ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/297a1958-3636-45af-a17c-e90120605132",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ein Netz von Schwerestationen mit einer Dichte von rund 0.5 Stationen pro Quadratkilometer über die gesamte Schweiz verteilt wurde aufgebaut, um hochauflösende Bouguerkarten (Massstäbe 1:100000 und 1:500000) herzustellen. Als Bouguer-Anomalie bezeichnet man die Differenz zwischen der in einem bestimmten Punkt auf der Erdoberfläche gemessenen Schwere und jenem Schwerewert, welchen man für eine schalenförmig homogene Erde am selben Punkt erwarten würde. Die Berechnungen der Schwereanomalien der Erdkruste basieren auf der internationalen Schwereformel von 1967. Die Geländeeinwirkung wurde mit einer konstanten Dichte von 2670 kg/m3 bis 167 km Entfernung (Zone O2 nach Hayford) berücksichtigt.- Der Gravimetrische Atlas der Schweiz (GRAV100) ist eine Publikation der Schweizerischen Geophysikalischen Kommission (Organ der Akademie der Naturwissenschaften).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte:wmts",
+    "title": "Gravimetric measuring points 100",
+    "type": "Dataset"
+  }
+}

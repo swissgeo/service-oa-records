@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-geomorphologie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomorphologie?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomorphologie?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.atlasderschweiz.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/1bf16162-a44c-4970-9da1-044383bacff8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Atlas of Switzerland",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Geomorphology includes all of the processes capable of typically shaping and dynamically reshaping the ground surface, e.g. through the effects of water (rivers, streams: fluvial and karst processes), ice (glaciers, permafrost: glacial and periglacial processes), wind (aeolian processes) and under the influence of gravity (e.g. sackung, landslides: denudation and gravitation processes). Data source: Atlas of Switzerland, Sheet 8, Geomorphology (1975)",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomorphologie:wmts",
+    "title": "Overview of geomorphology",
+    "type": "Dataset"
+  }
+}

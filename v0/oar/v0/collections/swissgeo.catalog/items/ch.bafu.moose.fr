@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.moose",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.moose?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.moose?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://swissbryophytes.ch/index.php/fr/mehr-ueber-moose/menaces-et-protection/liste-rouge",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/07b046a7-1b21-4cd0-b605-a113f2e5e94d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre toutes les stations de Suisse où ont été identifiées des mousses appartenant à des espèces menacées et protégées. Il s’agit de celles inscrites sur la liste rouge dans les catégories CR (en danger critique d’extinction), EN (en danger), VU (vulnérable) et RE (éteint en Suisse) et de toutes celles protégées au niveau national ou cantonal par l’ordonnance sur la protection de la nature et du paysage (OPN). Un point sur la carte correspond soit à l’emplacement exact d’une station (avec une précision de ± 10 m ou ± 100 m), ou, si seul le carré kilométrique de la station est connu, aux coordonnées géographiques de l’angle inférieur gauche de ce carré.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.moose:wmts",
+    "title": "Liste rouge mousses",
+    "type": "Dataset"
+  }
+}

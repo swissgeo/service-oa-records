@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-industrieminerale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-industrieminerale?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-industrieminerale?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.aramis.admin.ch/Texte/?ProjectID=57845",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ec3471db-6e86-4148-abbf-d702196381bd",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Gruppo georisorse svizzere",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Questo set di dati mostra le località in cui dei minerali industriali sono stati identificati o estratti in passato in Svizzera. Grazie alle loro proprietà chimiche e/o fisiche specifiche, i minerali industriali sono utilizzati in vari processi di produzione industriale. Il gesso e il sale sono minerali industriali comuni estratti e lavorati oggi in Svizzera. Vista la loro importanza, questi sono rappresentati separatamente sul Geoportale (si vedano i dataset <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung&topic=georessourcen\" target=\"_blank\">Gesso</a> e <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-salz_abbau_verarbeitung&topic=georessourcen\" target=\"_blank\">Sale</a>). Alcuni minerali industriali sono attualmente classificati come materie prime critiche (CRM) nell'<a href=\"https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32024R1252\" target=\"_blank\">Unione Europea</a> (e talvolta in altri paesi) e altri sono <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-rohstoffe-industrieminerale/pdf/IRENA_NUPI_2024_Ranking_critical_materials_for_the_energy%20transition.pdf\" target=\"_blank\">considerati assolutamente essenziali</a> per la transizione energetica. Diversi siti riportati in questo dataset indicano una mineralizzazione che potrebbe contenere una o più materie prime critiche. La concentrazione e il volume di queste mineralizzazioni sono generalmente sconosciuti o insignificanti. Allo stato attuale delle conoscenze, uno sfruttamento redditizio di questi giacimenti non sembra realizzabile. Ad eccezione del gesso e del sale, nessun minerale industriale è attualmente sfruttato commercialmente. Per una panoramica più dettagliata della situazione geologica relativa alle materie prime critiche in Svizzera, si invitano gli utenti a consultare il rapporto <a href=\"https://www.aramis.admin.ch/Texte/?ProjectID=57845\" target=\"_blank\">Critical Raw Materials in Switzerland – A Review</a>. Altre materie prime critiche sono riportate nel dataset <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-vererzungen&topic=georessourcen\" target=\"_blank\">Materie prime metalliche</a>. Nel caso si auspichi allo sviluppo di un sito di estrazione, è essenziale condurre un'indagine geologica dettagliata in loco. Questo set di dati è periodicamente aggiornamento e non pretende di essere completo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-industrieminerale:wms",
+    "title": "Altri minerali industriali",
+    "type": "Dataset"
+  }
+}

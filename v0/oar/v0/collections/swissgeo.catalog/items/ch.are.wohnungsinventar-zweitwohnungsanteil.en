@@ -1,0 +1,101 @@
+{
+  "id": "ch.are.wohnungsinventar-zweitwohnungsanteil",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.wohnungsinventar-zweitwohnungsanteil?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.wohnungsinventar-zweitwohnungsanteil?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/de/zweitwohnungen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ed80ebde-99a0-4523-bc8a-4ec23426d966",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for Spatial Development ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The apartment inventory map service shows the status in blue primer of the municipalities that are subject to the building regulations of the Second Housing Act (ZWG, SR 702) and are only allowed to set up second homes under strict conditions (ZWG Art. 7ff.). The Second Homes Act defines the limit of a second home proportion at 20 per cent. The Second Homes Act obliges all Swiss municipalities to create an annual apartment inventory to calculate the number of proportion of second apartments. The basis for this is the Swiss Federal Register of Buildings and Dwellings. The Swiss Federal Register of Buildings and Dwellings is maintained by the municipalities and evaluated by the Federal Office for Spatial Development by 31.12. The Federal Office for Spatial Development will publish the apartment inventory and number of second apartments at the end of March. Municipalities whose second apartment share in March was under or over the limit of 20 per cent will be subject to a procedure to check the second apartment share. The list of the state of proceedings (status) will be updated at the end of October. The percentages of the apartment inventory will remain unchanged until the next publication of the apartment inventories at the end of March, as the exact values ​​do not always have to be determined in the examination procedure for the decision below or above 20 percent second home share. For more precise information, the municipalities are responsible for ongoing proceedings. The municipalities have to show the total number of apartments and first apartments in the apartment inventory, however, there is no obligation to declare first apartments, equivalent apartments or second apartments as such in the RBD. Therefore, the data from the apartment inventory regarding second apartments cannot be compared with data from other municipalities.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.wohnungsinventar-zweitwohnungsanteil:wmts",
+    "title": "Housing inventory",
+    "type": "Dataset"
+  }
+}

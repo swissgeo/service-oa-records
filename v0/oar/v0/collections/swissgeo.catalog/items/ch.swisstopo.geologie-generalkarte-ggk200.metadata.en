@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-generalkarte-ggk200.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-generalkarte-ggk200.metadata?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-generalkarte-ggk200.metadata?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/geologische-generalkarte-der-schweiz-1-200000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/c17ba742-9a43-4ed2-9331-e776d6e9065d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Geological mapping of the whole country based on the Dufour Map of Switzerland. Comprised of eight sheets, published between 1942 and 1964, the General Geological Map of Switzerland (GGM200) is a historical document of the highest quality. The 1:200,000 division shows the perimeter, number and name of each sheet of the map. The perimeter corresponds to that of a standard sheet of a printed map.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-generalkarte-ggk200.metadata:wms",
+    "title": "Division GGK 200 Raster",
+    "type": "Dataset"
+  }
+}

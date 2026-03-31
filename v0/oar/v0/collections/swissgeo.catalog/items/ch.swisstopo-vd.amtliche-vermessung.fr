@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo-vd.amtliche-vermessung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo-vd.amtliche-vermessung?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo-vd.amtliche-vermessung?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/a3c0f7fb-1be0-4385-9c54-33b65ae3e1ae",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Mensuration Officielle Suisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La mensuration officielle (MO) décrit la position, la forme et le contenu d'un bien-fonds. Les données numériques de la MO sont subdivisées en plusieurs couches thématiques librement combinables entre elles. OpenData MO est basé sur le service de consultation de la mensuration officielle qui est créé avec les données du géoportail fédéral de la MO.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-vd.amtliche-vermessung:wms",
+    "title": "OpenData-MO",
+    "type": "Dataset"
+  }
+}

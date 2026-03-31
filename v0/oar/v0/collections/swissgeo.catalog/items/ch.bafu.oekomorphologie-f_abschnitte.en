@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.oekomorphologie-f_abschnitte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.oekomorphologie-f_abschnitte?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.oekomorphologie-f_abschnitte?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/mod-stepwise-procedure",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ea12e280-75cf-4b71-90f0-d2bcc9d7fdfa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "To enable watercourses to be fully protected, their status must be known. The Modular Stepwise Procedure provides the framework for standardised investigation and assessment of watercourses. The procedure is modular in structure and comprises surveys of hydrology, watercourse structure (ecomorphology), water chemistry and ecotoxicology, and the communities of animals, plants and microorganisms (biology). The Ecomorphology module surveys the structural characteristics of the streams and rivers in regions as a whole (e.g. cantons, regions, municipalities) (Level F). The “River Reaches” layer shows the classification of the individual watercourse reaches from natural to artificial and culverted (reference geometry VECTOR25 GWN). They are classified on the basis of the summary assessment of ecologically important features such as the nature of the banks.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.oekomorphologie-f_abschnitte:wmts",
+    "title": "Ecomorphology F – River reaches",
+    "type": "Dataset"
+  }
+}

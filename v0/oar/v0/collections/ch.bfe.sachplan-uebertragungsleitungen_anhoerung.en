@@ -1,0 +1,36 @@
+{
+  "id": "ch.bfe.sachplan-uebertragungsleitungen_anhoerung",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bfe.sachplan-uebertragungsleitungen_anhoerung:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.sachplan-uebertragungsleitungen_anhoerung?language=en",
+          "hreflang": "en",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.bfe.sachplan-uebertragungsleitungen_anhoerung:wms:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bfe.sachplan-uebertragungsleitungen_anhoerung",
+  "type": "Collection"
+}

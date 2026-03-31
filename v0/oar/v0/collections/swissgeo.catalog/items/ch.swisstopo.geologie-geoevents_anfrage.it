@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geoevents_anfrage",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geoevents_anfrage?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geoevents_anfrage?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.erlebnis-geologie.ch/it/chi-siamo/avventura-geologia/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/6f4fc3a9-8dc0-4cc2-b176-f804e5157dab",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Avventura geologia",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "«Avventura Geologia» è un'associazione che ha come scopo la promozione di eventi atti ad informare il grande pubblico sulla geologia. Per farlo, essa dispone di una piattaforma on-line (www.avventura-geologia.ch) sulla quale organizzatori di attività dedicate alla geologia possono proporre escursioni, visite guidate, esposizioni, sentieri geologici e conferenze. Questa messa in rete di attività geoscientifiche destinate al grande pubblico consente di assicurarne una maggiore diffusione e visibilità. Questi GeoEventi possono essere prenotati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geoevents_anfrage:wms",
+    "title": "GeoEventi su richiesta",
+    "type": "Dataset"
+  }
+}

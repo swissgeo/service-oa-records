@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_2085_trocken",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_2085_trocken?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-vegetationshoehenstufen_2085_trocken?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e5831dd1-301a-4c5a-aa9d-4d68ea8435ac",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Cette carte montre les étages de végétation forestière en Suisse pour la période 2070-2099 dans l'hypothèse d'un futur climat sec. Les étages de végétation suivants ne sont présents que dans les vallées méridionales: «méditerrané», «hyperinsubrique», «collinéen avec hêtre», et «montagnard inférieur/supérieur». La carte «Étages de végétation modélisés pour 1995» sert de base pour le déplacement des étages de végétation à l'avenir. Parmi les trajectoires de concentration représentatives, le trajectoire RCP 8.5 avec la combinaison de modèles CLMCOM-CCLM5_HADGEM_EUR44 a été choisi comme modèle «sec» (NCCS 2018). Ce modèle projète un réchauffement moyen de 4.4 °C (nord et sud de la Suisse), et une réduction des précipitations de 17.0 % (nord de la Suisse), resp. 24.9 % (sud de la Suisse) pour les mois avril à août, qui sont considérés comme les plus pertinents pour l'adéquation climatique des arbres, par rapport à la période 1981-2010 (Remund 2020). La limite supérieure naturelle de la forêt a été modélisée par une approche analogue (Könz et al. 2021). --- Source: Zischg et al. (subm.)",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_2085_trocken:wmts",
+    "title": "Etages de végétation 2085 sec",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-felslabore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-felslabore?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-felslabore?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f995a522-62cb-4316-a762-f6a319985ed7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les laboratoires souterrains de la Suisse sont des installations de recherche, dans lesquelles les propriétés des roches environnantes et les processus qui s'y déroulent peuvent être étudiés in situ. Ces recherches ont pour but d'évaluer l'adéquation des roches pour divers domaines d'application. L'utilisation potentielle des unités rocheuses du sous-sol pour le stockage à long terme des déchets radioactifs, pour la séquestration du CO2 ou pour des recherches sur l'exploitation des ressources géothermiques sont ainsi au cœur des travaux. Les recherches in situ poursuivent trois buts: 1) Développement de nouvelles méthodes et technologies pour la prospection et l'exploitation du sous-sol, 2) Caractérisation des roches, détermination des paramètres clefs et identification des processus thermiques, hydrauliques et mécaniques, et 3) Expériences de démonstration, validation de nouvelles technologies.Les laboratoires souterrains jouent un rôle important en ce qui concerne l'acceptation au sein de la société des technologies et processus mis en œuvre dans le sous-sol. Chacun peut ainsi se faire sa propre opinion sur la base d'une image concrète lors d'une visite sous terre.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-felslabore:wms",
+    "title": "Laboratoires souterrains",
+    "type": "Dataset"
+  }
+}

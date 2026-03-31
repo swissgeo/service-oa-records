@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.images-swissimage-dop10.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.images-swissimage-dop10.metadata?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.images-swissimage-dop10.metadata?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/orthobilder-swissimage-10-cm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3f340030-15de-4ab6-a1b1-5f33e09a997f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "SWISSIMAGE 10 cm will be available for the entire area of Switzerland and Liechtenstein from 2020. It also covers a small part of the neighbouring border regions. SWISSIMAGE is produced in 1 km2 tiles. The tiles are numbered based on the coordinates in kilometers of their southwest angle. Alongside the geometric and radiometric quality, the date on which the aerial photographs were taken is of great importance for the use of an orthophoto. Therefore, the flight year is given for each tile. At the edges of the surveying flight blocks, the tiles may not consist of pictures from the same year. As a result, these tiles contain pixels from different flight years. In these cases, the flight year that provided the majority of the pixels (more than 75% of all pixels) is given.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.images-swissimage-dop10.metadata:wms",
+    "title": "Division SWISSIMAGE 10 cm Raster",
+    "type": "Dataset"
+  }
+}

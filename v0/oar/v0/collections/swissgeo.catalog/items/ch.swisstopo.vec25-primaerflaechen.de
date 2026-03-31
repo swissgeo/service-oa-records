@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.vec25-primaerflaechen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec25-primaerflaechen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec25-primaerflaechen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/fb4c7281-bd58-4aae-b86a-3a73ba82e0aa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Ebene Primärflächen (Abkürzung pri) beschreibt die primäre topografische Bodenbedeckung. Die Flächenarten dieser Ebene schliessen sich gegenseitig aus (See und Wald) und bilden ein redundanzfreies, lückenloses Flächennetz. Im Gegensatz zur Landeskarte sind in den Primärflächen interpretierte Siedlungsgebiete enthalten. Einzelgebäude sind in der Ebene Gebäude verwaltet. Die linienförmigen Objekte dieser Ebene bilden die Grenzen zwischen den Flächen. Sie haben eigenständige Ob-jektarten, welche im Allgemeinen nicht aus den Flächen abgeleitet werden können (Flussufer links - Flussufer rechts, Waldrand - Waldrand offen).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec25-primaerflaechen:wmts",
+    "title": "Primärflächen VECTOR25",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.flora-weltensutter_atlas",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.flora-weltensutter_atlas?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.flora-weltensutter_atlas?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/09e50e6f-67ec-4892-b993-94686b0d9739",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Entre 1967 et 1979, l’ensemble du territoire suisse a été cartographié pour travailler à la création de l’atlas de distribution des ptéridophytes et phanérogames.La Suisse a été divisée en 593 surfaces de taille irrégulière selon des aspects topographiques. On distingue 350 surfaces de plaine, 215 surfaces de montagne et 28 surfaces lacustres. Le plus souvent, c’est la limite de la forêt qui sert à distinguer les surfaces de plaine des surfaces de montagne.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.flora-weltensutter_atlas:wmts",
+    "title": "Atlas Welten&Sutter",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ch.swisstopo.geologie-geomol-temperaturverteilung_2000",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol-temperaturverteilung_2000?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol-temperaturverteilung_2000?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ac604460-7a7a-44c5-bc5a-41062fbd21ff",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "One of the main parameters used in assessing the geothermal potential of the Swiss Molasse Basin is the subsurface distribution of temperature. This map shows the temperature distribution and position of the faults at a depth of 2000 m below ground level. It is one of a set of maps that shows the distribution of temperature on selected surfaces representing seismic marker horizons, fixed depths below ground level or isotherms. The horizon surfaces are taken from the GeoMol15 geological 3D model and the temperatures from the GeoMol15 temperature model, which is composed of regular cells that are 1000x1000x100 m in size. This temperature block model is derived from a FE-method temperature model (Geowatt AG, 2015), which is based primarily on 31 vertical temperature profiles and the horizon surfaces from the <a href=\"https://www.geologieportal.ch/en/themes/fundamentals-of-geology/geophysics/seismic-atlas.html\" target=\"_blank\">Seismic Atlas of the Swiss Molasse Basin (2012)</a>. The FE temperature modelling method assumes conductive heat flow only and does not consider convective heat flow. The GeoMol15 and associated temperature model are available for online viewing with the <a href=\"https://viewer.geomol.ch/webgui/gui2.php\" target=\"_blank\">GeoMol Viewer</a>. Please also see the associated «<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten&topic=geol\" target=\"_blank\">Temperature Model - Data</a>» map on map.geo.admin.ch.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol-temperaturverteilung_2000:wmts",
+    "title": "Temperatures 2000 m depth",
+    "type": "Dataset"
+  }
+}

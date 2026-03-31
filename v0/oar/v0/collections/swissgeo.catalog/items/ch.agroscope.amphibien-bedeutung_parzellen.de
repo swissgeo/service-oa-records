@@ -1,0 +1,97 @@
+{
+  "id": "ch.agroscope.amphibien-bedeutung_parzellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-bedeutung_parzellen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-bedeutung_parzellen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/0916243e-68d9-41c5-95f7-0f657e2ee07f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Schweizweite Karte mit landwirtschaftlichen Parzellen, die sich potenziell entweder als terrestrischer Lebensraum oder als Teil einer Ausbreitungsroute zwischen Amphibeinlaichgebieten für eine bis 11 Amphibienarten eignen. Für jede landwirtschaftliche Parzelle enthält der Datensatz in seinen Attributen Informationen, welche Arten (falls vorhanden) in einem Amphibienlaichgebiet in der Nähe der Parzelle (innerhalb von 200 m, 500 m oder 1 km) zu finden sind und die Parzelle wahrscheinlich als terrestrischen Lebensraum nutzen werden. Ebenso wird angegeben, welche Arten (falls vorhanden) mit hoher Wahrscheinlichkeit Ausbreitungsrouten zwischen den Laichgewässern haben, die durch die Parzelle verlaufen.In der Standardansicht der Karte werden alle Parzellen angezeigt, die als Landlebensraum für mindestens eine Art mit einem nahe gelegenen Laichort (innerhalb von 500 m) geeignet sind und/oder entlang einer Ausbreitungsroute mindestens einer Art liegen. Durch Auswahl einer Parzelle können Sie anhand der Spalten „species_suitXXX“ und „species_corridors“ (Alias: \"Landlebensraum XXXm\" und \"Ausbreitung\"), die eine Liste der lateinischen Namen jeder Art enthalten, sehen, welche Arten diese Parzelle nutzen. „species_suit200“ ist ein geeigneter Lebensraum für eine Art mit einem Laichort innerhalb von 200 m, ‚species_suit500‘ für 500 m und ‚species_suit1000‘ für 1000 m. Die Karte basiert auf der räumlichen Verknüpfung der Schweizer Landwirtschaftsparzellenkarte von 2021 (KGK-CGC. (2022). Agricultural Landuse 2021. https://geodienste.ch/) und den Eignungs- und Ausbreitungskarten für jede der 11 Amphibienarten. Die Landwirtschaftsparzellenkarte unterscheidet den landwirtschaftliche Grundparzellen und überlagernde Elemente wie Biodiversitätsförderflächen und Kleinstrukturen. In der BGDI ist nur der Datensatz mit den Grundparzellen erhältlich. Weitere Details in der beigefügten Datenbeschreibung. LIteratur: Churko G., Szerencsits E., Aldrich A., Schmidt B. R. (2024). Spatial analysis of the potential exposure of amphibians to plant protection products at the landscape scale. Basic and Applied Ecology, 76, 14-24. https://doi.org/10.1016/j.baae.2024.02.004",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.amphibien-bedeutung_parzellen:wmts",
+    "title": "Landwirtschaft und Amphibien",
+    "type": "Dataset"
+  }
+}

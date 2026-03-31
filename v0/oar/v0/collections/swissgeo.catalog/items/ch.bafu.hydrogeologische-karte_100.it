@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrogeologische-karte_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrogeologische-karte_100?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrogeologische-karte_100?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/geodati-idrogeologici",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b01523a1-9f61-43a2-95cb-be843cc1b18a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pubblicata dall’Ufficio federale dell’ambiente (UFAM), il servizio specializzato del Servizio geologico nazionale competente per l’idrogeologia.La carta idrogeologica 1:100 000 rappresenta il sottosuolo dalla prospettiva di tre discipline: la geologia, l’idrologia e l’idrogeologia. Il sottosuolo è classificato secondo criteri litologico-petrografici e in funzione della permeabilità. I dati lineari e puntiformi (sorgenti, pozzi, relazioni idrauliche, falde freatiche ecc.) mostrano le vie di circolazione delle acque sotterranee come pure la loro utilizzazione in pozzi di pompaggio e captazioni di sorgenti. La rappresentazione in scala 1:100 000 fornisce una panoramica delle caratteristiche idrogeologiche regionali. Sono disponibili le seguenti carte: 1. Bözberg/Beromünster, 1972; 2. Bodensee, 1980; 3. Panixerpass, 1985; 4. Biel, 1991/92; 5. Toggenburg, 1993/94; 6. Saane, 1999; 8. Vallorbe - Léman nord, 2006; 7. Basel, 2014. Per la Svizzera nord-occidentale è stato creato un set di dati vettoriali senza suddivisioni a partire dai fogli 4, 6, 7, 8. I dati possono essere richiesti all’UFAM (www.bafu.admin.ch  Dati, carte, indicatori).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologische-karte_100:wmts",
+    "title": "Carta idrogeologica 100",
+    "type": "Dataset"
+  }
+}

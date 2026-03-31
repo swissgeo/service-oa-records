@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.luftreinhaltung-stickstoffdeposition",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-stickstoffdeposition?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-stickstoffdeposition?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/en/home/topics/air/effects-of-air-pollution/effects-of-air-pollution-on-ecosystems/nitrogen-containing-air-pollutants-affect-biodiversity.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e96fe990-b20e-489e-b213-dc8c1fa6e255",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The time series shows the modelled total deposition of nitrogen for the years 1990, 2000, 2005, 2010, 2015 and 2020 in a resolution of 500m as a sum of wet, dry and gaseous deposition. Nationwide deposition in 2020 amounted to a total of 59'000 tonnes of nitrogen. On average, reduced nitrogen compounds (NH₃, NH₄⁺) accounted for two thirds of the deposition. This percentage can strongly vary locally depending on the amount of wet deposition and nearby emission sources. The modelled values are based on average meteorological conditions. Detailed information about the model can be found in the report Critical Loads of Nitrogen and their Exceedances. Actual nitrogen deposition can deviate from the modelled grid data. Single pixels must not be used for assessing deposition at single sites.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-stickstoffdeposition:wmts",
+    "title": "Nitrogen Deposition",
+    "type": "Dataset"
+  }
+}

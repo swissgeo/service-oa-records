@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.landwirtschaftliche-zonengrenzen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.landwirtschaftliche-zonengrenzen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.landwirtschaftliche-zonengrenzen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/it/home/instrumente/grundlagen-und-querschnittsthemen/landwirtschaftliche-zonen.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/6e4544bc-55f4-4aef-b36a-e36fe376eaf8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'agricoltura UFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La raccolta di geodati di base delle zone e regioni agricole consiste in sei zone di produzione agricola e dalla regione d'estivazione e costituisce il catasto della produzione agricola. Questo rileva le condizioni di produzione e di vita difficili che occorre considerare opportunamente nell'applicazione della legge sull'agricoltura. Le basi giuridiche sono disciplinate dall'articolo 4 della legge sull'agricoltura (RS 910.1) nonché dall'ordinanza concernente il catasto della produzione agricola e la delimitazione di zone (RS 912.1). Diverse misure nel campo della legge sull'agricoltura si basano sulla suddivisone per zone. Una parte dei pagamenti diretti a favore dell'agricoltura, ad esempio, è differenziata in funzione dell'appartenenza a una determinata zona.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.landwirtschaftliche-zonengrenzen:wms",
+    "title": "Limiti delle zone agricole",
+    "type": "Dataset"
+  }
+}

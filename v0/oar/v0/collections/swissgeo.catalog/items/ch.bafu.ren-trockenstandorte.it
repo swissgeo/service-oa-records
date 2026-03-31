@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.ren-trockenstandorte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.ren-trockenstandorte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.ren-trockenstandorte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/biodiversita/pubblicazioni/pubblicazioni-biodiversita/nationales-oekologisches-netzwerk-ren.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b5f7374b-2f4b-4d28-a23c-eb2d2a64b579",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Rete ecologica nazionale (REN) è stata sviluppata in stretta collaborazione con i servizi specializzati cantonali della protezione della natura e del paesaggio. Si tratta di un rapporto tecnico-scientifico che illustra il paesaggio svizzero dal punto di vista ecologico. La rete redige carte in scala 1:500 000 e 1:100 000 mettendo in luce sia le frammentazioni sia gli elementi di interconnessione degli habitat. Non tiene conto solo della situazione attuale ma anche del potenziale del paesaggio. Questa visione complessiva e orientata al futuro offre un quadro completo delle grandi reti ecologiche nazionali. Carte su reti specifiche: le 5 reti specifiche illustrano i territori chiave e di diffusione nonché le zone unitarie e i corridoi. L'interconnessione di ogni rete specifica è rappresentata su un ulteriore set di carte.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.ren-trockenstandorte:wmts",
+    "title": "REN ambienti secchi",
+    "type": "Dataset"
+  }
+}

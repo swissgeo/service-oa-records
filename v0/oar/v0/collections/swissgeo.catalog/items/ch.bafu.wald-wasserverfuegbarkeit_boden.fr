@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_boden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_boden?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-wasserverfuegbarkeit_boden?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/843579c9-927b-4691-b4b4-aa3a90c98007",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les arbres disposent toujours plus de moins en moins d'eau durant la période de végétation•Durant la période de végétation, l'eau joue un rôle crucial pour la croissance et la vitalité des arbres. La disponibilité en eau correspond à la différence entre les précipitations et l'évaporation potentielle. On parle alors de bilan hydrique climatique. Si l'on tient compte de la capacité de stockage des sols, on obtient le bilan hydrique de la station. •Le bilan hydrique de la station dépend étroitement de la présence d'arbres, de leur vitalité et de leur croissance. •Le besoin en eau varie d'une essence à l'autre. Si les chênes sont peu exigeants, les épicéas sont nettement plus gourmands en eau durant la période de végétation. •Tendance : les zones jaunes à rouges s'étendent de plus en plus d'une année à l'autre (période de 1981 à 2018). Période 1981-2018, avril à août, résolution 250 m x 250 m. Source : Remund et al. (2016)",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_boden:wmts",
+    "title": "Eau disponible dans les sols",
+    "type": "Dataset"
+  }
+}

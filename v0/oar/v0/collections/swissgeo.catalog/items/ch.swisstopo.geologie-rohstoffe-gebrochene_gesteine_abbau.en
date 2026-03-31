@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://georessourcen.ethz.ch/en",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/bb682732-ca6d-43f4-8c95-760b76004b22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Georesources Switzerland Group",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "This dataset shows the extraction and production sites of crushed-rock aggregates in Switzerland (in operation or decommissioned). Together with natural, uncrushed-rock aggregates (e.g. round gravel), crushed-rock aggregates are the most extracted and used construction raw material in Switzerland and worldwide (they are used in particular for the production of concrete). Given their importance for the national transportation infrastructure, the production and mining sites of hard rock aggregates are displayed in a dedicated dataset (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinabbau&topic=georessourcen\" target=\"_blank\">Hartstein: Produktions- und Abbaustandorte</a>).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau:wms",
+    "title": "Crushed-rock aggregates",
+    "type": "Dataset"
+  }
+}

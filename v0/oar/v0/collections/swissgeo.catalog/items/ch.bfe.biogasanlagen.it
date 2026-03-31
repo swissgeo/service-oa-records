@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.biogasanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.biogasanlagen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.biogasanlagen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/impianti-di-produzione-biogas",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d303ef3f-2ab2-4b83-9d81-7594173e3728",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Gli impianti di produzione di biogas trasformano la materia organica in gas attraverso un processo di fermentazione. La miscela di gas ottenuta è composta principalmente da metano ricco di energia (CH4) e da diossido di carbonio (CO2). Dal biogas è possibile ottenere elettricità, calore e carburante.In Svizzera esiste più di un centinaio di impianti di produzione di biogas. Il biogas prodotto nel nostro Paese proviene esclusivamente da rifiuti e residui derivanti dalle economie domestiche, dall'industria alimentare o dall'agricoltura. Questo tipo di energia è quindi sostenibile, rinnovabile e neutro dal punto di vista delle emissioni di CO2. Il biogas può essere utilizzato direttamente in una centrale di cogenerazione per produrre elettricità e calore, ma può anche essere purificato e reso biometano prima di essere immesso nella rete di gas naturale. In tal modo il biometano può nuovamente essere utilizzato per la produzione di elettricità, calore o carburante. I geodati degli impianti di produzione di biogas forniscono informazioni sullo stato attuale di questo tipo di installazioni per la produzione di energia in Svizzera. Attualmente i dati si basano esclusivamente sull'elenco dei beneficiari della rimunerazione per l'immissione in rete di energia elettrica (RIC). L'obiettivo, a termine, è rappresentare la totalità degli impianti di produzione di biogas in funzione in Svizzera, sia quelli che producono elettricità e calore in loco sia quelli che immettono biometano nella rete di gas naturale. Le informazioni servono ad informare il grande pubblico, ma non costituiscono informazioni ufficiali e nemmeno dichiarazioni di natura vincolante.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biogasanlagen:wms",
+    "title": "Impianti di produzione di biogas",
+    "type": "Dataset"
+  }
+}

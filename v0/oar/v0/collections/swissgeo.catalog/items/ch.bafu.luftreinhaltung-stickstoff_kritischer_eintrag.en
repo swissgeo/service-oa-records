@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/en/home/topics/air/effects-of-air-pollution/effects-of-air-pollution-on-ecosystems/nitrogen-containing-air-pollutants-affect-biodiversity.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/95e73bc3-da75-4356-9b04-2cc7c3b1cec9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Excessive deposition of reactive nitrogen compounds (NO₂, NO₃⁻, HNO₃, NH₃, NH₄⁺) causes eutrophication (over-fertilisation) of sensitive ecosystems, contributes to soil acidification and can lead to elevated nitrate leaching with associated leaching of nutrients in the soil. In addition, it also leads to increased production of nitrous oxide. Methods for establishing critical loads for nitrogen are developed and applied in the framework of the UNECE convention on long-range transboundary air pollution. The time series shows the exceedances of the critical loads for nitrogen for sensitive ecosystems for the years 1990, 2000, 2005, 2010, 2015 and 2020 in a resolution of 1 square kilometre. Critical loads only apply for areas containing sensitive ecosystems. The inventories of the following sensitive ecosystems were used for the map: i) Raised bogs and fens from the Federal Inventories of Raised and Transitional Bogs and Fenlands; ii) Dry grasslands from the National Inventory of Dry Grasslands; iii) Various types of vegetation declared worthy of protection, from the vegetation atlas by Hegg et al. (1993); iv) Sites containing mountain hay meadows that are part of the Swiss Biodiversity Monitoring (122 sites); v) Oligotrophic alpine lakes in southern Switzerland (100 lakes); vi) National Forest Inventory sites (10331 sites) and 301 additional sites used for dynamic modelling. Sensitive ecosystems that are not included in these datasets are not considered. Detailed information about the model can be found in the report Critical Loads of Nitrogen and their Exceedances. Actual critical load exceedances can deviate from the modelled grid data. Single pixels must not be used for assessing critical load exceedances at single sites.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag:wmts",
+    "title": "CLN Exceedance",
+    "type": "Dataset"
+  }
+}

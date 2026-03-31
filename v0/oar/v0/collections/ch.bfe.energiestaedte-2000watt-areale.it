@@ -1,0 +1,36 @@
+{
+  "id": "ch.bfe.energiestaedte-2000watt-areale",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bfe.energiestaedte-2000watt-areale:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energiestaedte-2000watt-areale?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.bfe.energiestaedte-2000watt-areale:wms:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bfe.energiestaedte-2000watt-areale",
+  "type": "Collection"
+}

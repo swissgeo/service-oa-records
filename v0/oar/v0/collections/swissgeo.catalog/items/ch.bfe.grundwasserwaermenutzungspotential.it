@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.grundwasserwaermenutzungspotential",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.grundwasserwaermenutzungspotential?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.grundwasserwaermenutzungspotential?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d64de95f-1b3d-4df3-b395-68b0404ac8ca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'energia termica immagazzinata nelle acque sotterranee può essere utilizzata per il riscaldamento. Con i sistemi a pompa di calore per acque sotterranee, il calore può essere estratto dalle acque sotterranee e trasferito al sistema di riscaldamento. Il potenziale delle acque sotterranee per il riscaldamento è ampio e può essere stimato. Il potenziale di utilizzo del calore delle acque sotterranee negli acquiferi non consolidati della Svizzera è stato stimato utilizzando un approccio di bilancio termico. Si tratta di determinare il calore utilizzabile da un bilancio termico semplificato, tenendo conto dei cambiamenti a lungo termine. Le acque sotterranee sono considerate un sistema aperto, cioè il calore viene scambiato con l'atmosfera, l'idrosfera e la geosfera. Il potenziale di utilizzo del calore calcolato è considerato come calore che può essere utilizzato in modo sostenibile nel medio termine. Va notato che è stato preso in considerazione solo il potenziale di recupero del calore dalle acque sotterranee; non è stato preso in considerazione l'utilizzo per il raffreddamento o l'accumulo stagionale di calore. Anche gli impianti di utilizzo esistenti non sono stati presi in considerazione. La base per il calcolo è stata fornita dai Cantoni e dal Governo federale. Il set di geodati \"Potenziale di sfruttamento del calore delle acque sotterranee nelle falde acquifere non consolidate della Svizzera\" mostra il calore massimo sostenibile che può essere estratto dalle acque sotterranee a medio termine.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.grundwasserwaermenutzungspotential:wmts",
+    "title": "Potenziale di utilizzo del calore delle acque sotterranee",
+    "type": "Dataset"
+  }
+}

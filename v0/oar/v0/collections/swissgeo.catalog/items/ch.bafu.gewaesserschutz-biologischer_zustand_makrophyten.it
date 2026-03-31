@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/acque/fiumi-e-ruscelli/osservazione-nazionale-della-qualita-delle-acque-nawa.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/0ecdff3c-29b0-4556-a641-2e95d54cd406",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel quadro dell’Osservazione nazionale della qualità delle acque superficiali (NAWA) la Confederazione e i Cantoni rilevano in modo congiunto la qualità delle acque presso un centinaio di punti di misurazione. La valutazione dello stato biologico delle acque fondata su analisi delle macrofite avviene applicando il metodo utilizzato dal Cantone di Zurigo (www.gewaesserqualitaet.zh.ch/fg_methoden). A causa della loro dipendenza dal luogo in cui vivono e della loro longevità, le macrofite quali le piante vascolari, i muschi e le alghe riconoscibili a occhio nudo forniscono informazioni sulle condizioni predominanti nelle acque. In tal senso sono indicatori di tutte le condizioni ambientali, in particolare delle proprietà idraulico-strutturali delle acque.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-biologischer_zustand_makrophyten:wms",
+    "title": "Macrofite",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.astra.winterwanderwege",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.winterwanderwege?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.winterwanderwege?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/474c22a1-ad98-4c65-a9b5-b64ae64c3a97",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Strassen ASTRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Datensatz «Winterwanderwege» umfasst die Best-of-Auswahl von SchweizMobil (dicken Linien) und die übrigen signalisierten Wege aus den Kantonen. Diese Auswahl wird mit dem Verband Schweizer Wanderwege, den Kantonen und dem Fürstentum Liechtenstein koordiniert. Es handelt sich aktuell (Stand 12. November 2025) um einen ersten Datensatz, der folgende Daten enthält: SchweizMobil-Wege der ganzen Schweiz, übrige signalisierte Routen in den Kantonen Jura, Schwyz, Graubünden sowie Fürstentum Liechtenstein.Für die Richtigkeit, Vollständigkeit und Aktualität der Weg- und Routendaten wird keine Gewähr geboten und es wird jede Haftung für die Verwendung dieser Daten ausgeschlossen. Massgebend sind die Signalisation sowie die Witterungs- und Weg- bzw. Routenverhältnisse vor Ort.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.winterwanderwege:wmts",
+    "title": "Winterwanderwege",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "geoadmin-stac-service",
+  "links": [
+    {
+      "href": "https://data.geo.admin.ch/api/stac/v1/",
+      "rel": "describes",
+      "title": "STAC API Landingpage",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "title": "Geoadmin Stac Service",
+    "type": "ogcapi:stac"
+  }
+}

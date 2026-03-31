@@ -1,0 +1,78 @@
+{
+  "id": "ch.bafu.silvaprotect-sturz",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bafu.silvaprotect-sturz:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.bafu.silvaprotect-sturz:wmts:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMTS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMTS",
+        "title": "OGC Web Map Tile Service (WMTS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.silvaprotect-sturz:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.silvaprotect-sturz:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bafu.silvaprotect-sturz",
+  "type": "Collection"
+}

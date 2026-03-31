@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftraeume-fluginformationsgebiet",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftraeume-fluginformationsgebiet?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftraeume-fluginformationsgebiet?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/sicurezza-e-spazio-aereo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/cde5d669-5c65-4338-9e7c-dc839df4a8b4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In virtù dell'articolo 40 della legge federale sulla navigazione aerea (LNA; RS 748.0) e dell'articolo 2 capoverso 1 dell'ordinanza concernente il servizio della sicurezza aerea (OSA; RS 748.132.1) l'UFAC definisce la struttura e le classi dello spazio aereo. Per ulteriori informazioni quali le classi dello spazio aereo, le condizioni di utilizzazione e altri dati relativi agli spazi aerei rappresentati si consulti la pubblicazione ufficiale (AIP).Lo spazio aereo svizzero è suddiviso come segue: regioni di controllo (CTA) Zurigo / Ginevra e regione d'informazione di volo (FIR) con linea di separazione Alto-piano-Giura / Alpi.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftraeume-fluginformationsgebiet:wmts",
+    "title": "Spazi aerei - FIR",
+    "type": "Dataset"
+  }
+}

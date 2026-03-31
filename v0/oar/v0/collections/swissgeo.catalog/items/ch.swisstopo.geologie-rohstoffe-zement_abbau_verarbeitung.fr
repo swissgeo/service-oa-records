@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.mat-min.ch/fr/ciment",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/9128ae2a-acdf-42cf-bb67-00755f0857fb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, Groupe géoressources suisses",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le ciment est un composant fondamental pour la fabrication du béton, un des matériaux de construction les plus utilisé en Suisse et dans le monde. Ce jeu de données montre les sites d'extraction et de production en activité ou désaffectés. Une vue d'ensemble au niveau national des gisements de calcaire et marne, les principales matières premières du ciment, est représentée à l'échelle 1:500'000. Les gisements de sable et d'argile, des composants secondaires qui sont occasionnellement utilisés, ne sont pas illustrés. Le <a href=\"https://map.geo.admin.ch/?topic=georessourcen&lang=fr&bgLayer=ch.swisstopo.pixelkarte-grau&catalogNodes=15165&layers=ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung\" target=\"_blank\">gypse</a> quant à lui fait l'objet d'un jeu de données propre. Pour plus d'information détaillées concernant la géologie à l'échelle 1:25'000, veuillez vous référer au jeu de donnée GeoCover. Dans le cas où il est envisagé de développer un site d'extraction de matières premières, il est indispensable de procéder à une étude géologique détaillée sur place. Les périmètres des sites d'extraction en activité sont à considérer comme indicatifs. Ils se basent sur le Modèle Topographique du Paysage (MTP) et les images aériennes SWISSIMAGE. Pour plus d'informations détaillées concernant les activités minières, veuillez contacter les autorités cantonales respectives. Cette carte est mise à jour périodiquement et ne prétend pas être exhaustive.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung:wms",
+    "title": "Matières premières du ciment",
+    "type": "Dataset"
+  }
+}

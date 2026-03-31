@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-standortsregionen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-standortsregionen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-standortsregionen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/cea10afc-8e6d-4a57-aeaf-01a49364ed14",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre les écorégions forestières. Ils diffèrent en ce qui concerne les facteurs climatiques, la végétation forestière et les étages de végétation. Le point le plus méridional du Tessin a un climat comparable à celui du Plateau. Les écorégions forestières ont été élaborées pour \"Gestion durable des forêts de protection\" (Frehner et al. 2005). Des informations détaillées sont disponibles sur https://www.gebirgswald.ch/fr/nais-download.html. Dans les régions \"Alpes intermédiaires du Nord sans hêtre\", \"Hautes alpes continentales\" et \"Alpes intermédiaires du Sud\", le hêtre n'est pas présent, dans toutes les autres régions il est présent.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-standortsregionen:wmts",
+    "title": "Ecorégions forestières",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e1a5a3ea-483e-4ccc-968e-0026d7df5e61",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Im Rahmen der Nationalen Beobachtung Oberflächengewässerqualität (NAWA) wird an rund 100 Messstellen die Gewässerqualität durch Bund und Kantone gemeinsam erfasst. Die Beurteilung des chemischen Gewässerzustandes aufgrund der Nitratkonzentration erfolgt nach der Methode „Chemisch-physikalische Erhebungen, Nährstoffe“ des Modul-Stufen-Konzepts (www.modul-stufen-konzept.ch). Stickstoff ist ein essentieller Nährstoff für Wasserorganismen und wird von den Pflanzen insbesondere über Nitrat (NO3-) aufgenommen. Der grösste Teil des anorganischen Stickstoffs liegt in Gewässern in Form von Nitrat vor. Eine Limitierung des Algen- und Pflanzenwachstums wegen einer geringen Nitratkonzentration ist für schweizerische Fliessgewässer die Ausnahme. Negative Auswirkungen auf die Lebensgemeinschaften in Oberflächengewässern durch Nitratkonzentrationen unter 10 mg/L N werden nicht beobachtet. Nitratkonzentrationen über 1.5 mg/L N lassen meist auf Abschwemmung und Auswaschung von landwirtschaftlich genutzten Flächen und auch auf die Einleitung von kommunalen Abwässern schliessen. Die nummerische Anforderung in der Gewässerschutzverordnung für Nitrat an Gewässer, die der Trinkwassernutzung dienen, beträgt 5.6 mg/L N.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat:wms",
+    "title": "Nitrat",
+    "type": "Dataset"
+  }
+}

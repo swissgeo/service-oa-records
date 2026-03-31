@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-aulav_jagdbanngebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-aulav_jagdbanngebiete?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-aulav_jagdbanngebiete?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/infrastruttura-ecol",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/e3cf990a-23d5-4876-b279-206f9eb5f4c9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Sono considerati zone protette ai sensi dell'ordinanza sugli atterraggi esterni (OAEs, RS 748.132.3), i parchi nazionali, le torbiere alte e le torbiere di transizione, le riserve d'uccelli acquatici e migratori, le paludi, le zone golenali e le bandite federali (art. 19 OAEs) e le zone palustri di importanza nazionale (art. 32 lett. h OAEs). Gli atterraggi esterni (intesi come decollo o atterraggio, carico o scarico di persone o cose al di fuori di un aerodromo nonché esercitazioni per gli atterraggi di emergenza) effettuati con aeromobili civili con occupanti sono per principio vietati nelle zone protette. Nelle pubblicazioni aeronautiche sono definite quattro categorie sulla base di restrizioni e oneri specifici legati agli atterraggi esterni: 1. Bandite federali, 2. Zone palustri 3. Zone golenali 4. Altre zone protette (torbiere alte e torbiere di transizione, paludi, riserve d'uccelli acquatici e migratori, parchi nazionali). Ogni categoria di zona protetta è suddivisa in due livelli di generalizzazione: nelle immagini in piccola scala, ai fini di una migliore leggibilità le zone protette sono rappresentate in una forma generalizzata e inversamente proporzionale alla superficie con una zona tampone da 1 m a 80 m. Nelle immagini in grande scala, i perimetri delle zone protette sono rappresentate secondo la loro dimensione legale. Gli atterraggi esterni e le esercitazioni per gli atterraggi di emergenza sono vietati nelle bandite federali su riserva degli articoli 19 capoverso 3, 28 e 46 capoverso 4 OAEs. Il divieto non si applica ai voli finalizzati alla protezione contro i pericoli naturali all'economia forestale e all'agricoltura, all'approvvigionamento di capanne accessibili al pubblico, alla costruzione o alla manutenzione di edifici e impianti di interesse pubblico. Il divieto non si applica nemmeno ai voli effettuati su mandato delle autorità cantonali competenti né a quelli effettuati per la costruzione o la manutenzione di edifici e impianti di interesse pubblico autorizzati dalle autorità medesime. Gli atterraggi esterni e i voli stazionari sono inoltre ammessi nelle bandite federali nel quadro di voli d'istruzione. Ai voli effettuati per altri scopi di lavoro si applica il divieto soltanto dal 1° novembre al 31 luglio.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-aulav_jagdbanngebiete:wmts",
+    "title": "Bandite federali OAEs",
+    "type": "Dataset"
+  }
+}

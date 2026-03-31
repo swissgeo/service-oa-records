@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.vec200-transportation-strassennetz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec200-transportation-strassennetz?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec200-transportation-strassennetz?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2816b787-2508-42c8-8dec-094d68f5f094",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La rete stradale fa parte del topic Transportation del prodotto swissTLMRegio di swisstopo e descrive i diversi elementi relativi al traffico e ai trasporti. Esso fornisce informazioni in merito a: uffici doganali (CustomsOffice), importanti nodi stradali (Interchange), rampe d'accesso (Ramp), strade e sentieri (Road), traghetti per auto (Ship) nonché informazioni sul traffico stradale (TrafficInfo). Il regime dettagliato dei trasporti (divieti di svolta, sensi unici ecc.) non è indicato.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec200-transportation-strassennetz:wmts",
+    "title": "Rete stradale swissTLMRegio",
+    "type": "Dataset"
+  }
+}

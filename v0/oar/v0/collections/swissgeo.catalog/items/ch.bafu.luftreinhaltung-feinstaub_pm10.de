@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-feinstaub_pm10",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-feinstaub_pm10?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-feinstaub_pm10?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/karten_der_luftbelastunginderschweiz-dokumentation.pdf.download.pdf/karten_der_luftbelastunginderschweiz-dokumentation.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/91760f74-8597-44d0-941c-6227121e5c11",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Unter PM10 versteht man Feinstaubpartikel, die kleiner sind als 10 Mikrometer. Dieser Staub entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus Schwefeldioxiden, Stickoxiden, Ammoniak, flüchtigen organischen Verbindungen). Alle Emittentengruppen wie der Verkehr, die Haushalte, die Industrie und die Landwirtschaft tragen zur Feinstaubbelastung bei. PM10 führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate. Die Zeitreihe zeigt die modellierten Karten der Jahresmittelwerte seit 1998 im 200 m Raster, ab 2020 im 100 m Raster. Lokal kann die PM10-Konzentration von den modellierten Daten abweichen. Einzelne Pixel sind nicht für die Bewertung von Einzelstandorten heranzuziehen. Der in der Luftreinhalte-Verordnung festgelegte Jahresgrenzwert für PM10 liegt bei 20 µg/m³.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-feinstaub_pm10:wmts",
+    "title": "Feinstaub PM10",
+    "type": "Dataset"
+  }
+}

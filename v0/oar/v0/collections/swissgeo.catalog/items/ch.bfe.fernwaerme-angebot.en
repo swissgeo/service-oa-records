@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.fernwaerme-angebot",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-angebot?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.fernwaerme-angebot?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/potential-heat-recovery-wwtp",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b6c8d9c6-a2ca-435a-af0a-6a8ac94199fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Wastewater treatment plants (WWTPs) treat and purify wastewater. Wastewater is water that has been polluted through activities such as cooking, doing laundry or showering and then transported through a sewer system. The average temperature of wastewater is between 10 and 20 °C. A heat pump can recover this heat in order for it to be used as a heat source in a district heating network. The map shows the heat potential of WWTPs in Switzerland. The heat potential is estimated with the number of connected residents. These figures are to be understood as a guideline and should therefore not be used as a definitive basis for planning.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.fernwaerme-angebot:wmts",
+    "title": "Potential heat recovery from WWTPs",
+    "type": "Dataset"
+  }
+}

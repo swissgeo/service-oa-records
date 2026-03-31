@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-tannenareale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-tannenareale?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-tannenareale?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5d6af36c-f883-4421-a2f0-a1934ca60a69",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre les aires de sapin blanc. Dans l'aire principale, le sapin contribue naturellement dans une large mesure à la structure du peuplement dans les étages de végétation de montagnard supérieur et de haute-montagnard. Dans l'aire secondaire, sa vitalité est plus faible que dans l'aire principale. Selon la région et l'écotype, il est encore impliqué à des degrés divers dans la structure du peuplement. Dans l'aire relictuelle, il se trouve tout au plus dans de petits peuplements isolés comme vestiges d'une zone du sapin autrefois plus grande.Les écorégions forestières ont été élaborées pour \"Gestion durable des forêts de protection\" (Frehner et al. 2005). Des informations détaillées sont disponibles sur https://www.gebirgswald.ch/de/nais-download.html",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-tannenareale:wmts",
+    "title": "Aires du sapin blanc",
+    "type": "Dataset"
+  }
+}

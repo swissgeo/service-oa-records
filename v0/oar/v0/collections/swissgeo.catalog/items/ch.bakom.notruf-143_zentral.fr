@@ -1,0 +1,102 @@
+{
+  "id": "ch.bakom.notruf-143_zentral",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.notruf-143_zentral?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.notruf-143_zentral?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/en/sr-78410111313-emergency-call-requirement",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5b41971f-599c-415e-9445-75b59f22a0bf",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la communication OFCOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Un appel d'urgence est un appel sur un numéro court à trois chiffres du service d'appel d'urgence composé par l'appelant : service d'urgence européen 112 ; police, appel d'urgence 117 ; feu, centrale d'alarme 118 ; aide aux victimes 142; main tendue 143 ; ambulances, appel d'urgence 144 ; secours téléphonique pour les enfants et les jeunes 147. Un appel d'urgence peut être effectué depuis un réseau fixe, un réseau mobile ou un réseau par satellite. L'appel d'urgence doit être acheminé vers la centrale d'alarme du service compétent selon le lieu et la nature du cas. Une région d'où les appels d'urgence sont acheminés vers une centrale d'alarme précise constitue une zone desservie. La carte représente l'emplacement des centrales d'alarme pour les appels d'urgence 143 effectués depuis un réseau fixe, mobile et par satellite. Pour chaque zone desservie on peut identifier les centrales d'alarme 143 et les numéros d'acheminement correspondants en sélectionnant la zone souhaitée. Les centrales d'alarme 143 fixe, mobile et par satellite de la zone desservie peuvent être une même centrale ou des centrales différentes.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.notruf-143_zentral:wmts",
+    "title": "143 Centrales d'alarme",
+    "type": "Dataset"
+  }
+}

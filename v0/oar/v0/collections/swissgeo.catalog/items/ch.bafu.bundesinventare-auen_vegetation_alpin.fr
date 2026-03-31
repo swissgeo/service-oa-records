@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-auen_vegetation_alpin",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-auen_vegetation_alpin?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-auen_vegetation_alpin?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/zones-alluviales",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/24ff96e5-0cda-485b-9ec0-365960a11190",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La protection des biotopes selon l‘art. 18a de la Loi sur la protection de la nature et du paysage (LPN, RS 451) vise la protection efficace des surfaces d'importance nationale pour les types de biotopes les plus importants. L'inventaire fédéral des zones alluviales d'importance nationale (inventaire des zones alluviales) est entré en vigueur en 1992. 169 zones alluviales étaient inscrites. Entre 1995 et 1998, un inventaire des marges proglaciaires et des plaines alluviales alpines a été réalisé. 52 marges proglaciaires et 14 plaines alluviales alpines ont ensuite été intégrées à l'inventaire des zones alluviales en 2001 en tant que zones alluviales d'importance nationale. Entre 2003 et 2005, un relevé plus détaillé de l'état des zones alluviales alpines a été effectué. Le jeu de géodonnées documente les données brutes des relevés de végétation, ainsi que des données complémentaires utiles à des utilisations spécifiques (par exemple : données relatives aux conflits).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-auen_vegetation_alpin:wms",
+    "title": "Végétation alluviales alpines",
+    "type": "Dataset"
+  }
+}

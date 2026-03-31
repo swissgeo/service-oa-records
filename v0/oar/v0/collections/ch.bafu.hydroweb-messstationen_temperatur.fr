@@ -1,0 +1,58 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_temperatur",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bafu.hydroweb-messstationen_temperatur:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_temperatur?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_fr.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bafu.hydroweb-messstationen_temperatur.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.hydroweb-messstationen_temperatur:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_temperatur?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bafu.hydroweb-messstationen_temperatur",
+  "type": "Collection"
+}

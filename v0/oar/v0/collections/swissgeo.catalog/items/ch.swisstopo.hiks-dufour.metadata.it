@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.hiks-dufour.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hiks-dufour.metadata?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hiks-dufour.metadata?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/digitale-dufourkarte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/bfa9994f-c8b1-4dc1-90b2-fe1211bf2d22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carta topografica della Svizzera 1:100 000 (Carta Dufour) è la prima opera cartografica della Svizzera. Essa fu pubblicata tra il 1845 e il 1865 e aggiornata fino al 1939. Il set di dati “Divisione della Carta Dufour”, comprende il perimetro, il numero e il nome di ogni foglio. I fogli, cui l'edizione cartacea comporta delle aggiunte, sono rappresentanti da superfici leggermente più grandi che i fogli standard. Il foglio di titolo cosi come le carte Fort de l'Ecluse, Rheineck e Bergamo sono state aggiunte.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hiks-dufour.metadata:wms",
+    "title": "Divisione carta Dufour Raster",
+    "type": "Dataset"
+  }
+}

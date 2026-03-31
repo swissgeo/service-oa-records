@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-feinstaub_pm2_5",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-feinstaub_pm2_5?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-feinstaub_pm2_5?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/karten_der_luftbelastunginderschweiz-dokumentation.pdf.download.pdf/karten_der_luftbelastunginderschweiz-dokumentation.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f38b6d2d-1c28-42cf-9535-046c81dfb98a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Vengono definite polveri fini (PM2.5) le particelle di polvere di dimensione inferiore a 2.5 micrometri. Questa polvere si forma nei processi di produzione industriali e artigianali, nei processi di combustione, nei processi meccanici (abrasione, sollevamento di polvere), nonché tramite processi secondari (da anidride solforosa, ossidi di azoto, ammoniaca e da composti organici volatili). All'inquinamento da polveri fini contribuiscono tutti i gruppi di emittenti quali il traffico, le economie domestiche, l'industria e l'agricoltura. Le PM2.5 provocano affezioni delle vie respiratorie e del sistema cardiocircolatorio nonché un aumento del rischio di cancro e della mortalità. Le serie temporali mostrano le mappe modellate dei valori medi annuali dal 2015 su una griglia di 100 m. Localmente, la concentrazione di PM2.5 può discostarsi dai dati modellati. I singoli pixel non devono essere utilizzati per la valutazione delle singole località. Il valore limite annuale per il PM2.5 indicato nell'Ordinanza contro l'inquinamento atmosferico è di 10 µg/m³.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-feinstaub_pm2_5:wmts",
+    "title": "Polveri fini PM2.5",
+    "type": "Dataset"
+  }
+}

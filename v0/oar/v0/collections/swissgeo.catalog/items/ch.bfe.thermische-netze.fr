@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.thermische-netze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.thermische-netze?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.thermische-netze?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/reseaux-thermiques",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/92b85345-4513-45a8-b64a-d7dbebd648a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "On entend par réseaux thermiques (y compris chauffage de proximité, chauffage et froid à distance) une infrastructure qui approvisionne en énergie thermique plusieurs bâtiments se trouvant sur des parcelles différentes. Les clients sont approvisionnés en chaleur fournie en réseau par le biais de l'eau ou de la vapeur. Outre les réseaux de chauffage à distance, il existe également des réseaux de froid à distance. C'est pourquoi on utilise aujourd'hui l'expression générique «réseaux thermiques». L'approvisionnement en énergie des réseaux thermiques n'est pas nécessairement renouvelable, mais elle se caractérise souvent par un bilan carbone faible, par exemple dans le cas d'usines d'incinération des ordures ménagères. Le chauffage à distance permet notamment d'exploiter les pertes de chaleur ou d'utiliser les énergies renouvelables, raison pour laquelle il gagne en importance. Le chauffage à distance désigne un approvisionnement en chaleur fournie en réseau à des clients par le biais de l'eau ou de la vapeur au moyen de chaleur produite de manière centralisée et couvre une large plage de puissance avec des puissances de raccordement allant de moins de 100 kW à plus de 1 GW. La distribution de chaleur effectuée uniquement par au sein d'un groupe de distribution n'est pas considérée comme de la chaleur à distance. Les géodonnées techniques «Réseaux thermiques» documentent l'état actuel des réseaux de chauffage à distance en Suisse. L'ensemble des informations s'appuient sur les renseignements fournis par les exploitants d'installation. Les indications servent à informer le grand public et ne constituent pas des informations officielles ni des déclarations juridiquement contraignantes.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.thermische-netze:wms",
+    "title": "Réseaux thermiques",
+    "type": "Dataset"
+  }
+}

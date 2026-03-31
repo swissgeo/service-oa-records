@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-gletschermaechtigkeit",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletschermaechtigkeit?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gletschermaechtigkeit?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.glamos.ch/en/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/57052989-5074-4841-abb6-22d1989d615f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Glacier Monitoring in Switzerland (GLAMOS) aims to document glacier changes in Switzerland in the long term. The Laboratory of Hydraulics, Hydrology and Glaciology (VAW) and other GLAMOS institutions systematically collect data not only on development of surface area and volume, but also on snow accumulation, melting of ice, glacier flow and ice temperatures. Determining the ice thickness and estimating the total ice volume in the Swiss Alps are based on georadar measurements combined with glaciological calculation methods. By 2015, around 1,500 km of georadar profiles had been recorded on Swiss glaciers as part of various projects. Thereafter, around 1,250 km of georadar profiles were acquired using a new helicopter-borne system developed at ETH Zurich. To interpolate between the measured georadar profiles and to calculate the total ice volume, ETH Zurich developed two different, independent algorithms based on the principles of ice flow. From the ice thickness measurements available up to 2020 and the knowledge of the glacier areas and surface topography, it was finally possible to determine the distribution of the ice thickness of all glaciers nationwide. In addition, the results allowed the topography of the glacier beds to be derived.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletschermaechtigkeit:wmts",
+    "title": "Glacier thickness",
+    "type": "Dataset"
+  }
+}

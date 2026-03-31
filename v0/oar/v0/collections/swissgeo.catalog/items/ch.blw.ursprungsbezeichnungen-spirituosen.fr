@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.ursprungsbezeichnungen-spirituosen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.ursprungsbezeichnungen-spirituosen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.ursprungsbezeichnungen-spirituosen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/fr/home/instrumente/kennzeichnung/ursprungsbezeichungen-und-geografische-angaben.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/bc34236a-ffe9-40af-9eae-d2cf1e0e96e6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'agriculture OFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le registre des appellations d’origine (AOP) et des indications géographiques (IGP) sert à protéger les noms géographiques et les dénominations traditionnelles qui désignent des produits agricoles (autres que le vin) dont l’identité et les principales caractéristiques sont déterminées par leur origine. Lorsqu’un nom est protégé, son utilisation est réservée aux producteurs de l’aire géographique définie, pour autant qu’ils respectent un cahier des charges détaillé. La protection de certaines désignations de produits agricoles vise à défendre les consommateurs contre la tromperie et à protéger les paysans contre la concurrence déloyale quant à l’utilisation de ces désignations. La réglementation applicable dans ce domaine permet la reconnaissance réciproque des produits de qualité entre la Suisse et l’Union européenne.Les AOP/IGP sont réparties en quatre catégories : fromages, produits à base de viande, produits végétaux et spiritueux. Environ 30 produits sont aujourd’hui inscrits au registre des appellations d’origine, qui en accueille en permanence de nouveaux.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.ursprungsbezeichnungen-spirituosen:wmts",
+    "title": "Spiritueux",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.fernwaerme-angebot",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-angebot?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.fernwaerme-angebot?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/potentiel-thermique-step",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/b6c8d9c6-a2ca-435a-af0a-6a8ac94199fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les stations d'épuration (STEP) servent à traiter et à épurer les eaux usées. Les eaux usées désignent l'eau polluée par la consommation (cuisine, lavage ou douche) et évacuée par les égouts. La température des eaux usées est comprise entre 10 et 20°C. Cette chaleur peut être exploitée grâce à une pompe à chaleur et servir de source de chaleur dans un réseau de chaleur à distance. La carte montre le potentiel thermique des STEP en Suisse. Ce dernier est estimé sur la base du nombre d'habitants raccordés. Les potentiels sont fournis à titre indicatif et ne doivent par conséquent pas servir de base de planification définitive.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.fernwaerme-angebot:wmts",
+    "title": "Potentiel thermique STEP",
+    "type": "Dataset"
+  }
+}

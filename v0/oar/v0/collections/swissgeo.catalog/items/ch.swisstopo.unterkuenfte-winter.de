@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.unterkuenfte-winter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.unterkuenfte-winter?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.unterkuenfte-winter?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/schneesport-thema",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/a49ed1a9-f6be-4c58-8160-147e5ebca70e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Unterkünfte Winter sind Bestandteil der Landeskarten mit Schneesportthematik für die Schweiz und das grenznahe Ausland. Der Datensatz wird in Zusammenarbeit mit dem Schweizer Alpen-Club SAC hergestellt und jährlich aktualisiert. Unterkünfte Winter sind zur Schneesportsaison geöffnet, liegen an bestehenden Schneesportrouten oder in erreichbarer Nähe, in Talorten für Querungen oder in schlecht erreichbaren Start- oder Zielorten einer Tour. Unterkünfte in Skigebieten werden in der Regel nicht abgebildet. Für die Richtigkeit, Vollständigkeit und Aktualität der Informationen übernehmen weder der Schweizer Alpen-Club SAC noch das Bundesamt für Landestopografie eine Gewähr. Eine sorgfältige Tourenplanung wird dringend empfohlen. Weitere Informationen zu den meisten Unterkünften Winter sind im SAC-Tourenportal oder der SAC-App zu finden: <a href=\"https://www.sac-cas.ch/de/\" target=\"_blank\">https://www.sac-cas.ch/de/</a>.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.unterkuenfte-winter:wmts",
+    "title": "Unterkünfte Winter",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geodaesie-bouguer_anomalien?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geodaesie-bouguer_anomalien?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/it/carte/carte-geologiche/geocarte-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/618c9697-129f-47c7-830a-7a256b4c2499",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'accelerazione di gravità (o accelerazione gravitazionale) dipende dalla posizione del punto di misurazione nonché dalla distribuzione della massa nel sottosuolo. L’anomalia di Bouguer esprime la differenza tra la gravità misurata e il relativo valore teorico per un modello terrestre ideale a crosta omogenea, tenuto conto di diversi parametri quali l’altitudine, la latitudine e l’influenza della topografia. Il calcolo delle anomalie di Bouguer si basa sull’applicazione della formula internazionale per la gravità del 1967 e tiene conto dell’effetto delle irregolarità del terreno fino a 167 km di distanza (zona O2 secondo Hayford) con una massa specifica costante di 2670 kg/m3. La carta evidenzia da un lato le anomalie regionali negative della gravità della catena alpina, dall’altro l’anomalia positiva della zona Sesia–Finero che esprime un'eccedenza di massa in profondità. E. KLINGELE & R. OLIVIER, 1979- Neue Ausgabe R. OLIVIER, B. DUMONT & E. KLINGELE, 2008",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien:wmts",
+    "title": "Anomalia di Bouguer 500",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrologie-hydromessstationen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrologie-hydromessstationen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrologie-hydromessstationen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/rete-di-misurazione-di-base-delle-acque-superficiali",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/bd377507-c61d-4fe2-bf81-9605b405d8ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'insieme dei dati rappresenta i siti delle stazioni della rete di misurazione gestita dalla divisione Idrologia dall'UFAM. Include i dati di tutte le stazioni attive pubblicate sul sito dell'UFAM. La rete di misurazione di base comprende attualmente circa 260 stazioni di misurazione delle acque di superficie. Oltre al livello dei laghi, la rete misura in 200 stazioni la portata dei fiumi. Il 90 per cento delle stazioni dispone della funzione di consultazione automatica remota.Il perimetro che compare cliccando sulla stazione di misurazione rappresenta il bacino imbrifero topografico della stazione in questione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-hydromessstationen:wmts",
+    "title": "Stazioni idrologiche",
+    "type": "Dataset"
+  }
+}

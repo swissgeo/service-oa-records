@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.naqua-grundwasser_voc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.naqua-grundwasser_voc?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.naqua-grundwasser_voc?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/idrocarburi-alogenati-volatili-nelle-acque-sotterranee",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c5f01eb1-d755-4450-bc4f-3871589de62f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I composti organici volatili comprendono diverse sostanze organiche artificiali, come ad esempio gli idrocarburi aromatici monociclici o gli idrocarburi alogenati volatili (VOX), impiegati e lavorati fra l’altro nell’ambito di attività industriali e artigianali sia come sol-venti o sostanze refrigeranti sia come materia prima. I COV sono presenti anche nei carburanti. Finiscono nelle acque sotterranee da un lato in seguito a produzione, trasporto e deposito e dall’altro a causa del loro impiego e smaltimento. Secondo l’ordinanza sulla protezione delle acque (OPAc) le concentrazioni nelle acque sotterranee sia degli idrocarburi aroma-tici monociclici che degli idrocarburi alogenati volatili non devono essere superiori a 1 microgrammi/l.Le concentrazioni nelle acque sotterranee della Svizzera di diversi composti organici volatili sono rilevati nell’ambito dell’Osservazione nazionale delle acque sot-terranee NAQUA. La rete di misurazione è costituita da oltre 500 stazioni ed è gestita dall’UFAM in stretta collaborazione con i Cantoni. Fonte: Osservazione nazionale delle acque sotterranee NAQUA",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.naqua-grundwasser_voc:wmts",
+    "title": "Acque sotterranee : COV",
+    "type": "Dataset"
+  }
+}

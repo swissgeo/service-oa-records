@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/de/karten/geologische-karten/geokarten-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f198f6f6-8efa-4235-a55f-99767ea0206c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Bundesamt für Umwelt BAFU ist die zuständige Fachstelle der Landesgeologie für Hydrogeologie. Die Hydrogeologische Karte 1:500'000 ist in die Serie Geokarten (GK500) integriert und gliedert sich in zwei Blätter. Das erste (GK500-Hydro) stellt die verschiedenen Grundwasservorkommen der Schweiz und deren Ergiebigkeit, das zweite (GK500-Hydro_Vul) die Empfindlichkeit der Grundwasservorkommen bezüglich möglicher Gefährdungen durch Schadstoffe dar. Das Blatt Grundwasservorkommen zeigt zudem die Art der Grundwasserzirkulation (Karst-, Kluft- und Lockergesteine), die wichtigsten Quell- und Grundwasserfassungen sowie hydrodynamische Angaben zu den Infiltrations- und Exfiltrationsgebieten. Die beiden Blätter wurden ursprünglich als Tafeln 8.6 und 8.7 des Hydrologischen Atlas der Schweiz HADES (BAFU, 2004 und 2007) herausgegeben.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen:wmts",
+    "title": "Grundwasservorkommen 500",
+    "type": "Dataset"
+  }
+}

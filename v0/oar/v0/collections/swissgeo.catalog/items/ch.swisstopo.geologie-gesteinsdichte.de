@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gesteinsdichte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gesteinsdichte?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gesteinsdichte?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://link.springer.com/article/10.1186/s00015-021-00389-3",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c4a7ceb5-8bf5-457d-ab0a-57216dafce53",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Eine wichtige physikalische Eigenschaft von Gestein ist die Dichte, welche vorwiegend von der Mineralogie und der Porosität abhängt. Über eine grosse Dichte verfügen Gesteine aus Mineralien, die einen hohen Anteil an Magnesium, Eisen oder anderen schweren metallischen Elementen aufweisen. Eine vergleichsweise geringe Dichte haben demgegenüber Gesteine, die einen grossen Anteil an Alkalien (z.B. Natrium, Kalium) und Siliziumdioxid besitzen. Des Weiteren weisen Gesteine mit einer kristallinen Struktur generell eine grössere Dichte auf als solche mit einer amorphen (glasartigen) Struktur. Die Dichte wird als Masse pro Volumeneinheit eines Materials definiert [kg/m3]. Während die so genannte Rohdichte («bulk density») das gesamte Volumen eines Steines umfasst, stellt die Reindichte (auch Korndichte genannt) das Volumen ohne die Leerräume dar, d.h. ohne die Porosität. Ausgehend von einer Datenbank mit rund 2000 Dichtewerten wurde eine Rohdichtekarte der Schweiz erstellt, welche für 21 Lithologiegruppen jeweils den Mittelwert und weitere statistische Angaben aus allen gemessenen Proben der jeweiligen Lithologiegruppe zeigt. Demzufolge zeigt die Dichtekarte an keinem Punkt die lokal zu erwartende absolute Rohdichte eines Gesteinstyps an. Vielmehr zeigt sie den Bereich an, in welchem sich die Dichte der lokal anstehenden Lithologie bewegt. Die Datenherkunft, Datenaufbereitung sowie die Methodik, welche für die Erstellung der Dichtekarte verwendet wurde, ist in der Publikation von <a href=\"https://sjg.springeropen.com/articles/10.1186/s00015-021-00389-3\" target=\"_blank\">Alba Zappone & Edi Kissling (2021, Swiss J. Geosciences)</a> zu finden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gesteinsdichte:wmts",
+    "title": "Dichte von Gesteinen",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.bergprodukte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.bergprodukte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.bergprodukte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/fr/home/instrumente/kennzeichnung/berg-und-alp.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c5bc9d6b-cafb-4617-97d7-868ab4cd5506",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'agriculture OFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pour pouvoir porter la désignation « produit de montagne » (p. ex. fromage de montagne), les matières premières utilisées doivent provenir de la région de montagne ou de la région d'estivage et avoir été également transformées dans des communes entièrement ou partiellement situées dans la région de montagne ou d'estivage.La transformation des produits suivants peut également avoir lieu en dehors de la région de montagne et d'estivage : lait prêt à la consommation ; crème prête à la consommation ; affinage des fromages ; abattage et découpage des animaux. La dénomination « montagne » peut aussi être utilisée dans l'étiquetage d'une denrée alimentaire composée de plusieurs ingrédients, même si la denrée alimentaire en tant que telle ne satisfait pas aux exigences requises pour l'utilisation de la dénomination « montagne ». La dénomination « montagne » peut uniquement se référer aux ingrédients concernés (p. ex. « yoghourt au lait de montagne »). (RS 910.19)",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.bergprodukte:wmts",
+    "title": "Produits montagne et alpage",
+    "type": "Dataset"
+  }
+}

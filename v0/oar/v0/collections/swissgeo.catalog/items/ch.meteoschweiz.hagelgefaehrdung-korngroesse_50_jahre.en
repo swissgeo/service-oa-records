@@ -1,0 +1,101 @@
+{
+  "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.hailclimatology.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/6a87d3b6-aec7-4905-94b9-894fb20bb6af",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The hail hazard maps show statistically estimated return values of the hailstone size LEHA-100 for the 50-year return period. LEHA-100 describes the largest hailstone size to be expected on a reference area of 100 m2. It is derived from the radar algorithm MESHS, which is the size of the maximum expected hailstone per square kilometre (radar data from MeteoSwiss for 2002 to 2020).The new hail hazard maps represent the hailstone size as a function of the return period T. They describe the hailstone size that is exceeded under current climate conditions, per reference area, with a probability of 1/T per year. Thus, the map for 50 years shows which hail size is to be exceeded on the long term on average once in 50 years or with a probability of 2% per year. These maps provide an updated basis for assessing the local hail hazard. The map of hail zones in Annex G1 of the standard SIA 261/1 (2020) remains valid. MESHS: Maximum Expected Severe Hail Size is defined as the maximum expected hail size per square kilometre. This means that most of the hail stones in this area of one square kilometre are smaller. LEHA: Largest Expected Hail on a reference Area is a mathematical derivation from the hail size MESHS, which refers to an area of one square kilometre. LEHA describes the largest expected hail size that can be expected on a smaller reference area. In extreme cases, a hail stone of size MESHS can occur on the smaller reference area, but this will rarely happen. DOI: https://doi.org/10.18751/Climate/Griddata/CHHC/1.0",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre:wms",
+    "title": "Hail hazard (size), 50 years",
+    "type": "Dataset"
+  }
+}

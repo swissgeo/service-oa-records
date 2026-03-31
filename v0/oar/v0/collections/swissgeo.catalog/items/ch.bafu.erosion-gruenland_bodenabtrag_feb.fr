@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.erosion-gruenland_bodenabtrag_feb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.erosion-gruenland_bodenabtrag_feb?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.erosion-gruenland_bodenabtrag_feb?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.tandfonline.com/doi/full/10.1080/17445647.2019.1585980",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/2ed54e2b-e0da-406b-a7d0-5b0fbcd7f62b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les cartes mensuelles des risques d'érosion des prairies permanentes suisses, d'une résolution spatiale de 100 m, indiquent la perte moyenne de sol en tonnes, par hectare et par mois. Les tons verts révèlent un risque d'érosion faible, les jaunes, un risque moyen et les rouges, un risque élevé. Le risque d'érosion a été calculé à l'aide de l'équation RUSLE (Revised Universal Soil Loss Equation) en tenant compte comme suit de la dynamique mensuelle de la couverture du sol (facteur C) et de l'action érosive des précipitations (facteur R) : A(mois) = R(mois)*K*C(mois)*L*S*P cependant A(mois) est la perte de sol en tonnes par hectare et par mois et R(mois) et C(mois) sont les facteurs mensuels R (MJ mm ha⁻¹ h⁻¹ mois⁻¹) et C (adimensionnel). L'érodibilité du sol (facteur K), la longueur et la déclivité des pentes (respectivement facteurs L et S) ainsi que les mesures de protection (facteur P) constituent d'autres facteurs influençant le risque d'érosion. Tous ont été adaptés aux conditions environnementales typiques des prairies permanentes suisses. Le facteur P a été intégré en tant que constante de valeur 1 dans le calcul, car les données spatiales concernant la gestion des pâturages et l'influence de celle-ci sur l'érosion du sol font défaut.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.erosion-gruenland_bodenabtrag_feb:wmts",
+    "title": "Risque d'érosion prairies perm. fév.",
+    "type": "Dataset"
+  }
+}

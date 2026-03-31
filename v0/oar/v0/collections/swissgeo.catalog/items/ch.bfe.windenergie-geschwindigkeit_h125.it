@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.windenergie-geschwindigkeit_h125",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.windenergie-geschwindigkeit_h125?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.windenergie-geschwindigkeit_h125?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/velocita-vento",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8d78a2a4-03fa-4d95-8a37-57594f2bf7d4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'atlante eolico svizzero descrive le condizioni di vento a cinque diverse altezze sopra il livello del terreno: 50 m, 75 m, 100 m, 125 m e 150 m. I dati si basano su una modellizzazione dell'intero territorio nazionale che utilizza una griglia con punti di ampiezza orizzontale pari a 100 m. Sulla carta viene riportato per ogni punto della griglia il valore medio annuo della velocità del vento calcolato attraverso la modellizzazione. La distribuzione delle velocità del vento secondo differenti classi può essere stabilita con approssimazione attraverso i parametri A (parametro di scala) e k (parametro di forma) della distribuzione di Weibull. Tali parametri non permettono di calcolare direttamente il valore medio della velocità del vento bensì solo un'approssimazione della distribuzione del vento, la quale non può essere rappresentata in modo sufficiente per ogni luogo. La rosa dei venti mostra la frequenza relativa delle direzioni del vento ricavate sulla base della modellizzazione. Per ogni settore sono visibili le velocità medie e i corrispondenti parametri di Weibull. Per la modellizzazione alla base del calcolo delle velocità e delle direzioni dei venti ci si è serviti delle misurazioni di diversi anni. Poiché la densità dei punti di misurazione presenti sul territorio svizzero non è sempre adeguata e in alcune zone caratterizzate da condizioni complesse la modellizzazione delle correnti dei venti presenta imprecisioni, i risultati sono affetti da incertezza. L'incertezza non supera l'ordine del +/- 0,5m/s sul Giura, +/- 0,7m/s nell'Altipiano, +/- 0,5m/s sulle Prealpi e +/- 1,3m/s sulle Alpi. Per le carte relative ad altezze che partono dai 100 m sopra il livello del terreno si dispone di un numero notevolmente inferiore di misurazioni necessarie alla modellizzazione, il che determina un maggiore grado di incertezza dei risultati. I valori forniti sono da ritenersi una stima approssimativa delle condizioni di vento, pertanto qualora vi sia l'interesse a sviluppare un progetto in una determinata ubicazione non si può prescindere da misurazioni in loco.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.windenergie-geschwindigkeit_h125:wms",
+    "title": "Velocità vento a 125 m dal suolo",
+    "type": "Dataset"
+  }
+}

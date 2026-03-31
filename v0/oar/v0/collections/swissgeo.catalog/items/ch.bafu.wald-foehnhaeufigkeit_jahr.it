@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-foehnhaeufigkeit_jahr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-foehnhaeufigkeit_jahr?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-foehnhaeufigkeit_jahr?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/12e6b1d6-b517-4919-b04c-5196947ac760",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carta mostra la frequenza media (in %) del numero di ore di favonio all'anno. Un valore ad esempio del 12 % significa che il favonio soffia 44 giorni all'anno, ancorché la durata degli eventi favonio possa variare. Come base di calcolo sono state utilizzate le stazioni climatiche di MeteoSvizzera nelle regioni del favonio (diversi periodi di tempo). Per ogni stazione è stato calcolato il numero di ore di favonio al giorno. I criteri per favonio erano i seguenti:- Umidità relativa: di giorno < 50 %, di notte < 55 %, - Velocità del vento: > 5 km/h, - Direzione del vento: direzione tipica del vento (in °) con favonio +/- 60°. Le valutazioni delle stazioni sono state poi interpolate nell'area per le regioni tipiche di favonio. Le regioni grigie non sono considerate regioni tipiche del favonio. La frequenza del favonio non è stata calcolata per queste regioni. La carta risultante ha una risoluzione spaziale di 25 m x 25 m. È stata utilizzata per modellare delle fasce altitudinali della vegetazione forestale.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-foehnhaeufigkeit_jahr:wmts",
+    "title": "Frequenza del favonio",
+    "type": "Dataset"
+  }
+}

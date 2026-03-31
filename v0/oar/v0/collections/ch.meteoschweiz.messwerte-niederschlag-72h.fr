@@ -1,0 +1,37 @@
+{
+  "id": "ch.meteoschweiz.messwerte-niederschlag-72h",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.meteoschweiz.messwerte-niederschlag-72h:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-niederschlag-72h?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-niederschlag-72h/ch.meteoschweiz.messwerte-niederschlag-72h_fr.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-niederschlag-72h.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.meteoschweiz.messwerte-niederschlag-72h",
+  "type": "Collection"
+}

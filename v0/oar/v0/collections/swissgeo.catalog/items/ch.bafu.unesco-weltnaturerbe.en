@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.unesco-weltnaturerbe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.unesco-weltnaturerbe?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.unesco-weltnaturerbe?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/de/home/themen/landschaft/landschaften-nationaler-bedeutung/unesco-welterbe.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4a571da5-c3af-47fe-99a1-f33fc29d1cd9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Convention concerning the Protection of the World Cultural and Natural Heritage (World Heritage Convention, SR 0.451.41) was signed at the UNESCO General Conference in 1972. Its objective is to conserve cultural and natural heritage sites of extraordinary universal value as components of world heritage for all humanity. By signing it, a state agrees to protect and preserve specific objects within its borders. To date, Switzerland has suggested 9 cultural and 5 natural heritage sites that UNESCO has added to its world heritage list.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.unesco-weltnaturerbe:wmts",
+    "title": "UNESCO World natural heritage",
+    "type": "Dataset"
+  }
+}

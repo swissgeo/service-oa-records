@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_flexibel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_flexibel?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_flexibel?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://opendata.swiss/perma/a4ed574c-62c6-45d7-a95b-1f89d19c614d@bundesamt-fur-energie-bfe",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/a4ed574c-62c6-45d7-a95b-1f89d19c614d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The map shows the percentage of plug-in vehicles (battery electric vehicles and plug-in hybrids) per selected municipality that will have no charging facilities at home or at work in 2035. The percentage of plug-in vehicles that cannot charge at home is also given (expressed as a decimal figure). The availability of private home charging points and charging facilities at the workplace depends on various assumptions regarding the implementation strategy, some of which are local. In order to show the range of possible developments, the three charging worlds \"Convenient\", \"Planned\" and \"Flexible\" were designed based on common industry assumptions in the SFOE study \"Understanding charging infrastructure 2050\" to show the direction in which the charging infrastructure in Switzerland could develop. In the \"Flexible\" charging world, many people cannot charge at home; they charge at various locations where their vehicle is parked - at work or when shopping.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_flexibel:wmts",
+    "title": "Charging requirements: Home charging availability - Flexible",
+    "type": "Dataset"
+  }
+}

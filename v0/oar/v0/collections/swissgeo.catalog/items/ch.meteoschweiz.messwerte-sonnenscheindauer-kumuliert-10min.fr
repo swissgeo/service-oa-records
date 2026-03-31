@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messwerte-sonnenscheindauer-kumuliert-10min",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-sonnenscheindauer-kumuliert-10min?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messwerte-sonnenscheindauer-kumuliert-10min?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteosuisse.admin.ch/meteo/systemes-de-mesure/stations-au-sol/reseau-de-mesures-automatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/351b2fa0-060b-4ca4-a10b-d49c69eb0091",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Valeurs actuelles de: Durée d'ensoleillement aujourd'hui [min]. Données actualisées toutes les 10 minutes. Les données contiennent tous les stations du réseau de mesures SwissMetNet de MétéoSuisse, qui comprend au total 160 stations de mesures automatiques complètes. Toutes les dix minutes, ces dernières fournissent de multiples données actuelles sur la météo et le climat en Suisse.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Durée d'ensoleillement aujourd'hui",
+    "type": "Dataset"
+  }
+}

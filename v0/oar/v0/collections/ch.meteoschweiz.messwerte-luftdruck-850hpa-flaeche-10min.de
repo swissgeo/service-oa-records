@@ -1,0 +1,58 @@
+{
+  "id": "ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min/ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min_de.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.meteoschweiz.messwerte-luftdruck-850hpa-flaeche-10min",
+  "type": "Collection"
+}

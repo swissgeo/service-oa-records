@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-biologischer_zustand_fische",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-biologischer_zustand_fische?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-biologischer_zustand_fische?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/acque/fiumi-e-ruscelli/osservazione-nazionale-della-qualita-delle-acque-nawa.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/16a81f2f-c2ce-4f6b-adf5-60c9a246819e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel quadro dell’Osservazione nazionale della qualità delle acque superficiali (NAWA) la Confederazione e i Cantoni rilevano in modo congiunto la qualità delle acque presso un centinaio di punti di misurazione. La valutazione dello stato biologico delle acque fondata su analisi dei pesci avviene applicando il relativo modulo del sistema basato su moduli e livelli (www.modul-stufen-konzept.ch). I pesci sono presenti in quasi tutti i torrenti e fiumi. Le loro esigenze complesse e specifiche in termini di spazi vitali sono indicatori importanti dello stato morfologico e idrologico delle acque. La mobilità e il comportamento migratorio di numerose specie ittiche consentono di trarre conclusioni sulla connettività e l’interconnessione delle acque.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-biologischer_zustand_fische:wms",
+    "title": "Pesci",
+    "type": "Dataset"
+  }
+}

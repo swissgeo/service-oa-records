@@ -1,0 +1,41 @@
+{
+  "id": "ch.swisstopo.swissnames3d_wms",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.swisstopo.swissnames3d:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissnames3d_wms?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissnames3d_wmts?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.swisstopo.swissnames3d_wms",
+  "type": "Collection"
+}

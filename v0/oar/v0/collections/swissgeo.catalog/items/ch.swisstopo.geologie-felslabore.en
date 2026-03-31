@@ -1,0 +1,96 @@
+{
+  "id": "ch.swisstopo.geologie-felslabore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-felslabore?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-felslabore?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f995a522-62cb-4316-a762-f6a319985ed7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Switzerland's rock laboratories are research facilities where the properties of the surrounding rocks and the processes taking place within them are studied beneath the earth's surface. The aim is to examine the rocks to see if they are suitable for various uses. The work focuses, for example, on the suitability of rock formations for the permanent disposal of radioactive waste or for storing CO2, or on investigations concerning the exploitation of geothermal resources. With regard to the work in situ, there are three objectives: 1) developing new methods and technologies for exploring and investigating the subsurface, 2) characterising the rock, determining the characteristic values and identifying the thermal, hydraulic and rock mechanical processes, and 3) validating new technologies through demonstration experiments. The rock laboratories play an important role with regard to social acceptance of technologies and methods applied in the subsurface. This allows visitors to visualise the underground for themselves and form an opinion.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-felslabore:wms",
+    "title": "Rock laboratories",
+    "type": "Dataset"
+  }
+}

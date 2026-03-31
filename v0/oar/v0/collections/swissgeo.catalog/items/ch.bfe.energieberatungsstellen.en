@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.energieberatungsstellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energieberatungsstellen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energieberatungsstellen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/energy-advice-services",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/26b94fae-3709-4436-901b-eb27546e9afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "There is a wide variety of public energy advice services available in Switzerland. They offer impartial advice (neutral relative to products and companies) to the public in general and are financed by the public sector. Depending on the canton, public energy advice services are organised either by the canton or by the region. Some towns and municipalities also provide their own local services for questions about energy. The technical core competence and thematic priorities of the various advice services lie in the sectors Buildings and Building Technology, Electrical Devices and Lighting, and Mobility. They offer different types of free and reasonably priced advice for various customers groups, such as private individuals, companies and municipalities. You can find an overview of the advice offered by public energy advice services and of the SwissEnergy Infoline (state advisory service) at www.energieschweiz.ch/beratung. The sponsoring organisation (cantonal, regional or municipal sponsorship indicated by the colour of the symbol) for each energy advice service and the catchment area (affiliated municipalities, indicated by the surface colour) are shown on the map. By mouse click you can find the complete contact details with the names of management and the website address and you are also informed about the main focus of the advice and the customer groups catered for.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieberatungsstellen:wms",
+    "title": "Energy advice services",
+    "type": "Dataset"
+  }
+}

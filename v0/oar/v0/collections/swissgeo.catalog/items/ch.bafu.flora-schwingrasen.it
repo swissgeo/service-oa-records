@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.flora-schwingrasen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.flora-schwingrasen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.flora-schwingrasen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/a46d05f2-036f-4ddb-8583-c6822fe9246b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'Inventario dei prati galleggianti della Svizzera comprende i prati galleggianti primari a carattere di torbiera di transizione e di torbiera alta (83 oggetti) che raggiungono determinate dimensioni minime. Specifica ulteriormente gli inventari delle torbiere di transizione, delle torbiere alte e basse e tiene conto maggiormente dei prati galleggianti, generalmente meno estesi. Si tratta di prati ricchi di boscaglia, di un unico appezzamento, impregnati d'acqua o galleggianti e che ondeggiano sensibilmente quando sono calpestati. Gli oggetti sono stati generati come una coverage di punti utilizzando le loro coordinate centrali (coordinate nazionali) provenienti dalla banca dati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.flora-schwingrasen:wmts",
+    "title": "Prati galleggianti",
+    "type": "Dataset"
+  }
+}

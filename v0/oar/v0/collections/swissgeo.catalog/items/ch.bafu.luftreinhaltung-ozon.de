@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ozon",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-ozon?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-ozon?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/karten_der_luftbelastunginderschweiz-dokumentation.pdf.download.pdf/karten_der_luftbelastunginderschweiz-dokumentation.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/88d9db83-6c8e-4d3e-a17b-9f86bd45df06",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Bodennahes Ozon hat negative Auswirkungen auf die menschliche Gesundheit wie auch auf die Vegetation. Hohe Belastungen führen insbesondere zu Reizungen der Atemwege und des Lungengewebes. Bei Pflanzen verursachen hohe Ozonkonzentrationen sichtbare Schäden an Blättern und Nadeln und können zu Ernteeinbussen führen. Bodennahes Ozon ist ein Sekundärschadstoff und entsteht unter Einwirkung von Sonnenlicht aus Stickoxiden und flüchtigen organischen Verbindungen. Die Zeitreihe zeigt die modellierten Karten der maximalen monatlichen 98 Perzentilen seit 1990 im 200 m Raster, ab 2020 im 100 m Raster. Lokal kann die Ozonkonzentration von den modellierten Daten abweichen. Einzelne Pixel sind nicht für die Bewertung von Einzelstandorten heranzuziehen. Der in der Luftreinhalte-Verordnung festgelegte Grenzwert für das 98-Perzentil der monatlichen Halbstundenwerte liegt bei 100 µg/m³.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-ozon:wmts",
+    "title": "Ozon mp98 Oᴣ",
+    "type": "Dataset"
+  }
+}

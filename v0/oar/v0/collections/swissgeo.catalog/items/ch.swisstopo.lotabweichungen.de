@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.lotabweichungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lotabweichungen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lotabweichungen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/konsortium-schwerefeld",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ef5df57e-8eb3-4b55-96e5-0e70adead7ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Lotabweichung ist der Winkel zwischen der auf das Schwerefeld bezogenen Lotrichtung und der auf das Bezugsellipsoid bezogenen Vertikalen. Dieser Winkel kann in der Schweiz bis zu ca. 1 Bogenminute betragen und muss für präzise geodätische Messungen berücksichtigt werden. Angegeben wir der Winkel in einer Süd-Nordkomponente (Xi) und einer West-Ost-Komponente (Eta). Die Lotabweichung ist auch eine wertvolle Information bei der Geoidbestimmung.Beobachtbar ist die Lotabweichung durch den Vergleich von astronomisch bestimmten Koordinaten (Längen und Breiten) mit Koordinaten wie sie z.B. mit GPS bestimmt werden. Die Genauigkeit einer Lotabweichungsmessung mit modernen digitalen Zenitkameras liegt in der Grössenordung von 0.1 Bogensekunden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lotabweichungen:wmts",
+    "title": "Lotabweichungen",
+    "type": "Dataset"
+  }
+}

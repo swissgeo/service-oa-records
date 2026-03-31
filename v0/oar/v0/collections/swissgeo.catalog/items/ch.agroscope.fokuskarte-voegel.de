@@ -1,0 +1,102 @@
+{
+  "id": "ch.agroscope.fokuskarte-voegel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.fokuskarte-voegel?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.fokuskarte-voegel?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/849ba7b6-25d3-40c1-bccd-c91bf3f84d39/attachments/Datenbeschreibung_Fokuskarte_V%C3%B6gel%20de_fr_engl.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/849ba7b6-25d3-40c1-bccd-c91bf3f84d39",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die publizierten Daten wurden im Rahmen von Klein et al. 2025 erstellt, Teile des Projekts und Co-Autoren wurden von Agroscope, dem Bundesamt für Umwelt (BAFU) // Bund im Rahmen des Projekts \"ValPar.CH: Werte der ökologischen Infrastruktur in Schweizer Pärken\" (Grant-Nr. A1.2) und BiodivERsA-Belmont Forum Call on \"Scenarios of Biodiversity and Ecosystem services\" (Grant-Nr. BiodivScen-157) finanziert. Ziel des Projekts war es, die Auswirkungen landwirtschaftlicher Aktivitäten auf Feldebene mit der potenziellen Verbreitung von prioritären Schweizer Vogelarten zu kombinieren. Der Druck der Bewirtschaftung wurden für das Jahr 2021 mit Hilfe des Swiss Agricultural Life Cycle Assessment for Biodiversity (SALCA-BD, Jeanneret et al. 2014) bewertet. Das Potenzial wurde durch die Aggregation von Vorhersagen aus Verbreitungsmodellen für 27 prioritäre Vogelarten, die im Rahmen des ValParCH-Projekts (Adde et al. 2023) modelliert wurden, unter Verwendung der SWECO25-Datenbank für Umweltprädiktoren (Külling et al. 2024) bewertet. Zunächst wurde eine optimierte Hot-Spot-Analyse mit ArcGIS pro separat für den geschätzten Druck und das Verbreitungspotenzial durchgeführt. Anschließend wurden sie mithilfe eines multivariaten Clustering mit K-Mittelwert-Statistiken kombiniert, um Cluster mit vergleichbaren Kombinationen aus hohem und niedrigem Druck der Bewirtschaftung und hohem und niedrigem Potenzial zu ermitteln. Die daraus resultierende Karte zeigt 7 Cluster mit unterschiedlichen Kombinationen von hohem/niedrigem Druck und Potenzial. Die räumliche Auflösung des Rasterdatensatzes beträgt 25 m. <br><br> Referenzen: <br> Adde, A., Rey, P. L., Brun, P., Külling, N., Fopp, F., Altermatt, F., Broennimann, O., Lehmann, A., Petitpierre, B., Zimmermann, N. E., Pellissier, L., & Guisan, A. (2023). N-SDM: A high-performance computing pipeline for nested species distribution modelling. Ecography, 2023, e06540. https://doi.org/10.1111/ecog.06540 Jeanneret, P., Baumgartner, D. U., Freiermuth Knuchel, R., Koch, B., & Gaillard, G. (2014). An expert system for integrating biodiversity into agricultural life-cycle assessment. Ecological Indicators, 46, 224–231. https://doi.org/10.1016/j.ecolind.2014.06.030 Klein N., Adde A., Grêt-Regamey A., Guisan A., Herzog F., Jeanneret P., Kay. S. Identifying focus zones for the conservation and promotion of priority birds in Swiss farmland. Conservation Science and Practice. 2025. https://doi.org/10.1111/csp2.13286 Külling, N., Adde, A., Fopp, F., Schweiger, A. K., Broennimann, O., Rey, P.-L., Giuliani, G., Goicolea, T., Petitpierre, B., Zimmermann, N. E., Pellissier, L., Altermatt, F., Lehmann, A., & Guisan, A. (2024). SWECO25: A cross-thematic raster database for ecological research in Switzerland. Scientific Data, 11, 21. https://doi.org/10.1038/s41597-023-02899-1",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.fokuskarte-voegel:wmts",
+    "title": "Fokuskarte Vögel",
+    "type": "Dataset"
+  }
+}

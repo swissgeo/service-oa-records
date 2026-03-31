@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.mittlere-abfluesse_zukunft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.mittlere-abfluesse_zukunft?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.mittlere-abfluesse_zukunft?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.nccs.admin.ch/nccs/it/home/cambiamenti-climatici-e-impatti/schweizer-hydroszenarien/synthesebericht.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/144e7781-cfff-404c-ae9c-474525ed9a1f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La mappa mostra le variazioni percentuali delle portate estive calcolato negli scenari idrologici Hydro-CH2018 verso la fine del secolo (2070-2099) rispetto al periodo di riferimento (1981 - 2010) per uno scenario senza protezione del clima (RCP8.5). Mostrata in ogni caso è la mediana dell'intera gamma di tutte le simulazioni. In estate, gli scenari idrologici mostrano una diminuzione media della portata del 30 - 50 % senza protezione del clima entro la fine del secolo. I responsabili di questa diminuzione sono la riduzione delle precipitazioni estive, la maggiore evaporazione e la diminuzione dell'acqua di fusione dei ghiacciai e delle nevi. Nel progetto Hydro-CH2018, che costituisce una tematica prioritaria del National Centre for Climate Services (NCCS, www.nccs.admin.ch) ed è diretto dall'UFAM, sono stati utilizzati diversi modelli idrologici specializzati a seconda del tema. Per questo motivo, è possibile che in alcune stazioni, per esempio Thur Andelfingen, siano disponibili diversi risultati leggermente diversi (i dettagli possono essere trovati nel rapporto di sintesi \"Impatti del cambiamento climatico sulle acque svizzere\"). Cliccando sul link nelle informazioni dell'oggetto si accede all'Atlante idrologico della Svizzera, dove si possono trovare tutti i risultati per tutte le stazioni, tutti gli scenari climatici e tutti i periodi di tempo, incluso l'intervallo di incertezza.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.mittlere-abfluesse_zukunft:wmts",
+    "title": "Deflussi medi in futuro",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfs.statistische-grundeinheiten_stufe1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.statistische-grundeinheiten_stufe1?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.statistische-grundeinheiten_stufe1?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.i14y.admin.ch/de/concepts/08dc9cec-2da5-649f-83c5-bd4ed85df12e/content",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4a2a7766-8a90-45f0-ade4-113cd7e1934e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Statistical Office FSO",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The first level of basic statistical spatial units (USPAT1) allows a detailed analysis of the territory. These units are stable over time, meaning that they are not affected by municipalities' mergers. In rural areas, they make it possible to distinguish between urbanized areas which generally have more than 250 inhabitants or more than 250 jobs and 20 establishments or more than 125 dwellings belonging to the same municipality. Urban areas with more than 15 000 inhabitants are further subdivided into urban sectors which generally have between 7 500 and 15 000 inhabitants.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.statistische-grundeinheiten_stufe1:wmts",
+    "title": "Basic statistical units level 1",
+    "type": "Dataset"
+  }
+}

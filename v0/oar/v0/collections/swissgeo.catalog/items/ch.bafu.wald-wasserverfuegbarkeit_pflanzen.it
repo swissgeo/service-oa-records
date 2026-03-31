@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/668e4c81-5926-4457-9097-b362244b2660",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Gli alberi hanno sempre più spesso una disponibilità d'acqua insufficiente:•La vegetazione e il suolo rilasciano acqua nell'atmosfera, in quantità più o meno elevata a seconda della temperatura e della secchezza dell'aria. L'acqua delle piante evapora attraverso le foglie. L'evapotraspirazione è la somma dell'acqua rilasciata nell'atmosfera. •L'evapotraspirazione attuale (ETa) dipende dalla disponibilità di acqua, ossia dalla quantità di precipitazioni e dalla capacità di assorbimento delle acque piovane da parte del suolo. L'evapotraspirazione potenziale (ETp) indica la quantità di acqua che sarebbe rilasciata nell'atmosfera in caso di approvvigionamento idrico sufficiente. •Un valore inferiore al rapporto ETa/ETp di 0,8 presume un danno da siccità poiché gli stomi delle foglie sono spesso chiusi, ciò che limita la fotosintesi degli alberi. •Nelle zone in celeste e, in particolare, in quelle in azzurro non sono presenti disturbi. •Nelle zone da giallo a rosso, gli alberi sono danneggiati dalla siccità. I danni più gravi sono presenti nelle zone bordeaux. •Tendenza: la frequenza e l'estensione nelle zone da giallo a rosso aumentano nel periodo 1981-2018. Periodo 1981-2018, da aprile ad agosto, risoluzione geografica 250 x 250 m. Fonte: Remund et al. (2016).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen:wmts",
+    "title": "Disponibilità di acqua per le piante",
+    "type": "Dataset"
+  }
+}

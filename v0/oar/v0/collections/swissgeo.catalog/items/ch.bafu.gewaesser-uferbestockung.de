@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.gewaesser-uferbestockung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesser-uferbestockung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesser-uferbestockung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c6c2b47d-f8ad-488a-9104-24773d3d2f6f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Uferbestockung erfüllt wichtige Funktionen. Sie beschattet die Flüsse und reduziert dadurch die maximalen Wassertemperaturen. Im Zusammenhang mit der Klimaerwärmung gewinnt dies an Bedeutung. Im Weiteren reduziert die Bestockung die Ufererosion und hält Schadstoffe zurück.Der Datensatz stellt den Anteil [%] der Bestockung der beiden 15 Meter breiten Uferstreifen dar. Bestockung wurde definiert als Vegetation über 2.5 Meter Höhe. Sie wurde für alle offenen Flüsse mit einer Breite ab 1 Meter berechnet. Als Datengrundlage diente das Vegetationshöhenmodell des Landesfortinventars.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesser-uferbestockung:wmts",
+    "title": "Uferbestockung der Flüsse",
+    "type": "Dataset"
+  }
+}

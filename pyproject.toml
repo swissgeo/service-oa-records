@@ -1,0 +1,16 @@
+[project]
+name = "service-oaf-pygeoadmin"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pygeoapi",
+    "tinydb",
+    "opensearch-py",
+    "opensearch-dsl",
+    "packaging>=26.0",
+    "uvicorn[standard]",
+    "starlette",
+]
+
+[tool.uv]
+dev-dependencies = []

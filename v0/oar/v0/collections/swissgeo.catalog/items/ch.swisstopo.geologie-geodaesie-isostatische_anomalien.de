@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geodaesie-isostatische_anomalien?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geodaesie-isostatische_anomalien?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.sgpk.ethz.ch/opencms/opencms/publications/pub_geoph_maps/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7234896a-842c-4524-8710-5d900953cb1d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Mit der Verwendung der Hypothese von Pratt oder Airy kann die isostatische Anomalie abgeleitet werden. Diese Anomalie entspricht der Abweichung des statischen Schwebens der Krustenstruktur in den oberen Erdmantel. Die Abweichung berücksichtigt die Wurzelstruktur unter der Krustenstruktur (Gebirgszug), aber die Form der Wurzelstruktur wird nicht immer klar definiert. Für die Karte wurden die Hypothese von Airy-Heiskanen und die folgenden Dichten verwendet: Erdmantel = 3.31 g/cm3, Erdkruste unterhalb von Ellipsoid = 2.81 g/cm3, Erdkruste oberhalb von Ellipsoid = 2.67 g/cm3.- Von E. KLINGELE, 1979",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien:wmts",
+    "title": "Isostatische Anomalien 500",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.bundesinventare-jagdbanngebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-jagdbanngebiete?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-jagdbanngebiete?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/jagdbanngebiete",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/200a2d0e-afe1-45d8-aeaf-ea3621cc6afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Federal hunting bans have existed since 1875 and served the purpose of raising the populations of chamois, red deer and roe deer as well as ibex (cloven-hoofed game), which had become rare at that time due to persecution by hunting and competition from cattle. The present situation is characterized by high and partly overshot populations of cloven-hoofed game with the resulting game damage problems on the one hand, and by the decline of sensitive species such as capercaillie, rock partridge, grey partridge and brown hare on the other. On April 1, 1988, the Federal Law on Hunting and the Protection of Wild Mammals and Birds (NHG, June 20, 1986) came into force. This also marked the beginning of the revision of the Ordinance on Banned Areas, which dates back to 1962. Today, these are aimed at regulating the populations of deer, roe deer, chamois and ibex, as well as protecting and promoting rare species and their habitats. The inventory contains 43 objects, some of which have been slightly modified since 1992. One object is added is 2023.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-jagdbanngebiete:wmts",
+    "title": "Hunting Ban Reserves",
+    "type": "Dataset"
+  }
+}

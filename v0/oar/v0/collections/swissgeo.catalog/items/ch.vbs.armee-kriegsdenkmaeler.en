@@ -1,0 +1,101 @@
+{
+  "id": "ch.vbs.armee-kriegsdenkmaeler",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.armee-kriegsdenkmaeler?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.armee-kriegsdenkmaeler?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vtg.admin.ch/de/die-schweizer-armee/geschichte-der-schweizer-armee/inventario.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/acc444ae-742f-4832-9dad-ec027f7b85b8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Armed Forces",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Inventory of memorials of war and of armed forces in Switzerland comprises around 1000 sculptures, commemorative stones and plaques, stelae, obelisks or statues that have been erected over the years in Switzerland to commemorate military-historical events and persons. They commemorate battles during the time of the Old Swiss Confederation, the presence of foreign armed forces in Switzerland, accidents within the armed forces, disbanded troop units, outstanding personalities of the armed forces or the two active services of the 20th century and they are categorised accordingly. Some events relevant to military history that cannot be assigned to these categories without doubt are also recorded in a special category.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.armee-kriegsdenkmaeler:wmts",
+    "title": "Memorials of war and of armed forces",
+    "type": "Dataset"
+  }
+}

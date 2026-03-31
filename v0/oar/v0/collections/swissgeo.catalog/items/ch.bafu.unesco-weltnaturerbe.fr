@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.unesco-weltnaturerbe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.unesco-weltnaturerbe?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.unesco-weltnaturerbe?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/paysage/landschaften-nationaler-bedeutung/patrimoine-mondial-de-lunesco.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4a571da5-c3af-47fe-99a1-f33fc29d1cd9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Convention pour la protection du patrimoine mondial culturel et naturel (RS 0.451.41) a été conclue par la Conférence générale de l'UNESCO en 1972. Elle vise à conserver les biens culturels et naturels qui ont une valeur universelle exceptionnelle en tant que partie du patrimoine de l'humanité. Les Etats signataires s'engagent à protéger et à conserver les objets situés sur leur territoire. La Suisse a proposé jusqu'à présent neuf sites culturels et cinq sites naturels que l'UNESCO a inscrits dans la Liste du patrimoine mondial.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.unesco-weltnaturerbe:wmts",
+    "title": "UNESCO Biens nat. du patrim. mond.",
+    "type": "Dataset"
+  }
+}

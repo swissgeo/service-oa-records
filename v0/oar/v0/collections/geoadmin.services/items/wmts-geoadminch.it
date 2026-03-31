@@ -1,0 +1,36 @@
+{
+  "id": "wmts-geoadminch",
+  "links": [
+    {
+      "href": "https://docs.geo.admin.ch/visualize-data/wmts.html",
+      "rel": "service-doc",
+      "title": "Geoadmin WMTS Docu"
+    }
+  ],
+  "linkTemplates": [
+    {
+      "uriTemplate": "https://wmts.geo.admin.ch/EPSG/{EPSG}/1.0.0/WMTSCapabilities.xml",
+      "rel": "about",
+      "title": "WMTS Capabilities File",
+      "type": "application/vnd.ogc.wmts_xml",
+      "variables": {
+        "EPSG": {
+          "enum": [
+            2056,
+            21781,
+            4326
+          ],
+          "type": "number",
+          "format": "integer",
+          "default": 2056,
+          "description": "EPSG"
+        }
+      }
+    }
+  ],
+  "type": "Feature",
+  "properties": {
+    "title": "WMTS geo.admin.ch",
+    "type": "ogc:wmts"
+  }
+}

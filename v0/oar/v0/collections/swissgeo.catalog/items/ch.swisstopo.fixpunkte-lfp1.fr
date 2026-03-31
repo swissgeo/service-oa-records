@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.fixpunkte-lfp1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-lfp1?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.fixpunkte-lfp1?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/cadres-de-reference-geodesiques",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7a49183b-9766-40dd-936c-fb09fdded185",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les points de mensuration constituent la base de toutes les données à référence spatiale. L’utilisation des points dits fixes est recommandée pour tous les travaux techniques nécessitant des mesures fiables et précises d’ouvrages. Par point fixe planimétrique, on entend un point matérialisé de façon durable à l'aide d'une borne ou d'une cheville (parfois située dans un regard) dont les coordonnées et éventuellement l'altitude sont connues. La mensuration nationale (swisstopo) est responsable des points fixes planimétriques de première catégorie. Il en existe plusieurs types: * Les points fixes planimétriques de la première catégorie (PFP1) composent le cadre de référence planimétrique de tous les travaux de mensuration effectués en Suisse. Les coordonnées MN03 des points fixes planimétriques historiques ont été déterminées par triangulation au début du 20ème siècle. * Les points d’appui pour la transformation (PAT1) sont des points fixes planimétriques dont les coordonnées ont été mesurées de façon précise dans les cadres de références MN03 et MN95. * Les points EUREF sont des points fixes planimétriques du réseau de référence GNSS européen EUREF (European Reference Frame). * Les points MN95 sont des points fixes planimétriques servant de base pour le nouveau cadre de référence MN95. Leurs coordonnées ont été mesurées de façon précise par GNSS. Puisqu'un point fixe peut être à la fois de plusieurs types, les symboles de la légende peuvent être superposés sur la carte.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-lfp1:wms",
+    "title": "Points fixes planimétriques PFP1",
+    "type": "Dataset"
+  }
+}

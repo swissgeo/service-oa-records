@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.envidat.ch/dataset/vegetation-height-model-nfi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/8b7c23ef-88a4-47d6-87dc-6f5b5d91928c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Für die Schweiz wurden landesweite Vegetationshöhenmodelle (VHM) auf der Grundlage von Stereo-Luftbildern erstellt, die vom Bundesamt für Landestopografie swisstopo aufgenommen wurden.Aus den ADS-80/100-Sensordaten wird zunächst ein digitales Oberflächenmodell (DSM) mit einer räumlichen Auflösung von 1 × 1 m verarbeitet. Dieses DSM wird dann unter Verwendung des digitalen Geländemodells (DTM) swissALTI3D (swisstopo) normalisiert. Gebäude und andere künstliche Objekte werden anhand von Informationen aus dem topografischen Landschaftsmodell TLM (swisstopo) aus dem normalisierten DSM (nDSM) ausgeblendet, um das eigentliche Vegetationshöhenmodell (VHM) zu erhalten. Diese VHM werden im Rahmen der Schweizerischen Nationalen Waldinventur (NFI) erstellt. Jedes Jahr wird etwa 1/6 der Fläche der Schweiz anhand der von swisstopo aufgenommenen Luftbilder mit Laubbedeckung (Mai – Oktober) aktualisiert. Weitere Informationen zur Erstellung des VHM NFI finden Sie in der Veröffentlichung von Ginzler und Hobi (2015, https://doi.org/10.3390/rs70404343).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell:wmts",
+    "title": "Vegetationshöhe LFI",
+    "type": "Dataset"
+  }
+}

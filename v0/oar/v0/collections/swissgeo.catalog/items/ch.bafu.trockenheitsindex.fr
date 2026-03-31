@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.trockenheitsindex",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.trockenheitsindex?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.trockenheitsindex?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.trockenheit.admin.ch/de/trockenheit/trockenheitsindex",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/df0d7761-5e2c-488f-91ca-e362d2f208de",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre l'indice de sécheresse composé (combined drought index, CDI) dans chaque région. Le CDI regroupe les différents aspects de la sécheresse en une seule valeur. Ces aspects comprennent les précipitations, les données modélisées d'humidité des sols et des débits (cours d'eau) ainsi que les niveaux d'eau (lacs). L'indice se fonde sur le calcul des écarts entre les valeurs réelles et les prévisions statistiques pour la période de mesure 1991-2020 (période de référence). Il montre avant tout la fréquence d'un événement et revêt des valeurs allant de 1 à 5. Des valeurs élevées correspondent à un déficit d'eau inhabituel, voire extrême, pour la saison.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.trockenheitsindex:wms",
+    "title": "Indice de sécheresse",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.neophyten-mahonie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.neophyten-mahonie?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.neophyten-mahonie?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/specie-esotiche",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/aac71816-fe8f-4621-aa32-fb51444edfdf",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il set Piante esotiche invasive contiene le carte di distribuzione potenziale di 56 specie di piante invasive non indigene presenti in Svizzera nonché di quelle dei Paesi vicini che hanno il potenziale di diffondersi in Svizzera. Le carte sono il frutto di una modellizzazione operata dall'Università di Losanna per prevedere la distribuzione delle piante invasive riportate nella lista nera, rispettivamente nella lista di osservazione. Il modello si basa sui dati disponibili della GBIF (Global Biodiversity Information Facility) combinati con dati climatici aggiornati di Worldclim (risoluzione 1km) nonché sui dati disponibili di InfoFlora combinati con dati climatici di WSL (risoluzione 100 m). Le carte con una risoluzione di 100 m contengono altre variabili, come lo sfruttamento del terreno e la geologia.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.neophyten-mahonie:wmts",
+    "title": "Maonia",
+    "type": "Dataset"
+  }
+}

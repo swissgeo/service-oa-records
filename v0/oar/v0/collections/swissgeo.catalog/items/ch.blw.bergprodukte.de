@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.bergprodukte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.bergprodukte?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.bergprodukte?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/instrumente/kennzeichnung/berg-und-alp.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c5bc9d6b-cafb-4617-97d7-868ab4cd5506",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landwirtschaft BLW",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Um die Bezeichnung „Bergprodukt“ (z.B. Bergkäse) verwenden zu können, müssen die Rohstoffe aus dem Berggebiet oder dem Sömmerungsgebiet stammen und in einer Gemeinde verarbeitet werden, die ganz oder teilweise im Berg- oder im Sömmerungsgebiet liegt.Die Verarbeitung folgender Produkte darf auch ausserhalb des Berg- und Sömmerungsgebiets stattfinden: genussfertige Milch; genussfertiger Rahm; Reifung der Käse sowie die Schlachtung und Zerlegung der Tiere. Die Bezeichnung „Berg“ darf auch in der Kennzeichnung eines aus mehreren Zutaten zusammengesetzten Lebensmit-tels verwendet werden, auch wenn das Lebensmittel selbst die Anforderungen für die Verwendung der Bezeichnung „Berg“ nicht erfüllt. Die Bezeichnung „Berg“ darf sich ausschliesslich auf die betreffenden Zutaten beziehen (z.B. „Jogurt aus Bergmilch“). (SR 910.19)",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.bergprodukte:wmts",
+    "title": "Bergprodukte",
+    "type": "Dataset"
+  }
+}

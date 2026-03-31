@@ -1,0 +1,96 @@
+{
+  "id": "ch.agroscope.feuchtflaechenpotential-kulturlandschaft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.feuchtflaechenpotential-kulturlandschaft?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.feuchtflaechenpotential-kulturlandschaft?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/5188235f-c5c3-4628-9173-055824b65539",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Feuchtflächenpotential wurde anhand der Prozesse Wasserakkumulation und Versickerung beurteilt. Aus dem Höhenmodell (Swissalti3d © swisstopo) wurden Reliefparameter berechnet und Ebenen und Mulden modelliert. Das Potential der Versickerung wurde von Bodenkarten abgeleitet. Wo keine detaillierten Bodenkarten vorhanden waren, wurden geologische Karten und andere Surrogate in einem Expertenmodell überlagert und gewichtet. Der Vektor-Datensatz ist auf die vorwiegend landwirtschaftlich genutzten Feldblöcke zugeschnitten.Versickerung: 4 Klassen; Wasserakkumulation: 5 Klassen. Zitat: Szerencsits, E., Prasuhn, V., Churko, G., Herzog, F., Utiger, C., Zihlmann, U. et al. (2018). Karte potenzieller Feucht-Acker-Flächen der Schweiz. Agroscope Science, 72, 67. https://www.feuchtacker.ch/",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.feuchtflaechenpotential-kulturlandschaft:wmts",
+    "title": "Wetness potential agricultural land",
+    "type": "Dataset"
+  }
+}

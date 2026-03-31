@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://georessourcen.ethz.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/bb682732-ca6d-43f4-8c95-760b76004b22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Gruppo georisorse svizzere",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Questo set di dati mostra i siti di estrazione e lavorazione di pietrisco frantumato in Svizzera (in funzione o dismessi). Il pietrisco frantumato è, insieme a quello non frantumato (ghiaia tonda), il materiale da costruzione più estratto e utilizzato in Svizzera e nel mondo (essi sono utilizzati in particolare per la produzione di calcestruzzo). Data la loro importanza per l'infrastruttura di trasporto nazionale, i siti di produzione e estrazione di rocce dure sono visualizzabili in un set di dati separato (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinabbau&topic=georessourcen\" target=\"_blank\">Hartstein: Produktions- und Abbaustandorte</a>).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau:wms",
+    "title": "Pietrisco frantumato",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/observation-nationale-de-la-qualite-des-eaux-de-surface-nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e1a5a3ea-483e-4ccc-968e-0026d7df5e61",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La qualité des eaux est contrôlée dans une centaine de stations de mesure dans le cadre de l’observation nationale de la qualité des eaux de surface (NAWA), programme conjoint de la Confédération et des cantons. L’appréciation de l’état chimique des eaux au regard des concentrations de nitrates s’effectue selon la méthode décrite dans le module « Analyses physico-chimiques, nutriments » du système modulaire gradué (www.modul-stufen-konzept.ch). L’azote est un nutriment essentiel pour les organismes aquatiques. Il est assimilé par les plantes sous la forme de nitrates (NO3-), sous laquelle la majeure partie de l’azote anorganique est présente en milieu aquatique. La limitation de la croissance des algues et des plantes en raison de concentrations réduites de nitrates constitue une exception dans les cours d’eau suisses. Aucun effet négatif sur la biocénose des eaux de surface n’est observé pour des concentrations inférieures à 10 mg/l N. Les concentrations supérieures à 1,5 mg/l N s’expliquent le plus souvent par des apports par ruissellement ou lessivage de surfaces agricoles, ainsi que des rejets des réseaux communaux d’eaux usées. Les exigences chiffrées visées dans l’ordonnance sur la protection des eaux pour les nitrates dans les eaux de surface servant à l’alimentation en eau potable sont de 5,6 mg/l N.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat:wms",
+    "title": "Nitrates",
+    "type": "Dataset"
+  }
+}

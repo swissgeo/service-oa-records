@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.alpweiden-herdenschutzhunde",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.alpweiden-herdenschutzhunde?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.alpweiden-herdenschutzhunde?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.protectiondestroupeaux.ch/fr/map/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/88ec92d4-409f-40ee-9c46-83aa4fb992aa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Depuis des millénaires, les chiens de protection sont utilisés afin de protéger les animaux de rente des grands prédateurs. Le retour des grands prédateurs sur notre territoire à conduit à l'utilisation de chiens de protection des troupeaux sur nos alpages. L'Office fédéral de l'environnement encourage la protection des troupeaux au moyen de chiens de protection des troupeaux, à condition que les chiens soient élevés, éduqués, détenus et employés correctement, conformément à l'art. 10 quater de l'OChP et aux directives s'y rapportant.La Confédération mandate le service chargé des chiens de protection des troupeaux (AGRIDEA) et des conseillers spécialisés en chiens de protection des troupeaux afin de garantir le savoir technique nécessaire relatif aux chiens de protection des troupeaux. Actuellement, 350 chiens de protection des troupeaux officiellement reconnus travaillent en Suisse. Ils sont utilisés sur des exploitations situées dans une zone à risques (où des animaux de rente ont déjà été victimes de grands prédateurs tels que le loup, l'ours, ou le lynx). Les pâturages sur lesquels travaillent des chiens de protection des troupeaux sont visualisables sur une carte interactive. Si la majorité des chiens sont utilisés pour protéger des troupeaux de moutons ou de chèvres, quelques-uns d'entre eux protègent des bovins.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.alpweiden-herdenschutzhunde:wmts",
+    "title": "Alpages protégés par des chiens",
+    "type": "Dataset"
+  }
+}

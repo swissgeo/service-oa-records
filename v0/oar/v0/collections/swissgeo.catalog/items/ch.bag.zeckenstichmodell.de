@@ -1,0 +1,102 @@
+{
+  "id": "ch.bag.zeckenstichmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bag.zeckenstichmodell?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bag.zeckenstichmodell?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://zecke-tique-tick.ch/de/zeckenstichkarte-schweiz/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/a30c52be-0d18-4b5f-8872-5981b0666376",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Gesundheit BAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Bundesamt für Gesundheit präsentiert das aktualisierte «Zeckenmodell» der Schweiz und des Fürstentums Liechtenstein. Es zeigt die statische geografische Verteilung von Gebieten, in denen sich Zecken in der Natur etablieren und überleben können. Die Darstellung der verschiedenen Stufen der Wahrscheinlich des Vorkommens von Zecken basiert auf einer Farbskala mit roten Zonen mit hoher und blauen Zonen mit niedriger Wahrscheinlichkeit. Die Bedingungen, auf die das Modell aufbaut, entsprechen dem Frühsommerwetter: milde und feuchte Wetterbedingungen mit Temperaturen von 15 bis 20 Grad Celsius und einer relativen Luftfeuchtigkeit von 80 %. Das Zeckenstichrisiko ist das Produkt aus der Wahrscheinlichkeit ihres Vorkommens und Exposition – wo und wie oft sich jemand draussen bewegt. Um einen Eindruck vom aktuellen Zeckenstichrisiko zu bekommen, muss das vorliegende \"Zeckenmodell\" mit der Outdoor-Aktivität und den aktuellen Wetterbedingungen kombiniert werden. Weiter unterliegt die Zeckenaktivität saisonalen Schwankungen; sie beginnt im frühen Frühling mit Temperaturen ab sieben Grad Celsius, nimmt im Frühjahr und Frühsommer bis zur ersten Sommerhitze stetig zu. Nach mehreren Tagen mit Temperaturen deutlich über 30 Grad Celsius und strahlendem Sonnenschein bricht die Zeckenaktivität und somit das Zeckenstichrisiko zusammen. Im Herbst, wenn die Temperaturen sinken und die relative Luftfeuchtigkeit wieder ansteigt, nimmt das Zeckenstichrisiko wieder zu. Liegen die Temperaturen unter sieben Grad Celsius sinkt das Zeckenrisiko, weil die Zecken ihre Körperfunktionen zurückfahren, um im Ruhestadium den Winter zu überdauern.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bag.zeckenstichmodell:wmts",
+    "title": "Zeckenmodell",
+    "type": "Dataset"
+  }
+}

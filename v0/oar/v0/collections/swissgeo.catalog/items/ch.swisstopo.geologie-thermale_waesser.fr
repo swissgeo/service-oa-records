@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-thermale_waesser",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-thermale_waesser?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-thermale_waesser?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/04fb057a-4c46-4d6d-8a64-8003df749762/attachments/Objektkatalog_Layer_Thermale_W%C3%A4sser_v3.2_Juni2025.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/04fb057a-4c46-4d6d-8a64-8003df749762",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ce jeu de données comprend des eaux souterraines situées en Suisse et qui ont été influencées par un réchauffement géothermique. L'augmentation de la température des eaux souterraines thermales est due à leur interaction avec les roches environnantes, lors de leur circulation à des profondeurs plus importantes dans la croûte terrestre. La température des eaux souterraines non thermales peu profondes est en contrepartie principalement influencée par l'atmosphère et présente des variations saisonnières au cours de l'année. Dans ce jeu de données, une eau souterraine est considérée comme thermale lorsque la température de l'eau est constamment supérieure de plus de 5°C par rapport à la température annuelle moyenne locale de l'air.Le jeu de données se divise en trois catégories principales, qui résultent du type de sortie/entrée d'eau : 1) eau de source, 2) eau de tunnel et 3) eau souterraine exploitée par forage. Au cours de sa circulation dans le sous-sol géologique, une eau souterraine acquiert une signature chimique caractéristique grâce aux interactions entre l'eau et la roche. Cette signature est représentée ici par le type chimique de l'eau, le degré de minéralisation, la valeur du pH et la conductivité électrique. Certaines des valeurs mesurées peuvent présenter une plus grande incertitude en raison d'une contamination par des eaux techniques (p. ex. boue de forage) et/ou par l'atmosphère (p. ex. échanges gazeux) ou pour des raisons liées à la méthode de mesure. La signification et les incertitudes des différents attributs sont abordées plus en détail dans le <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/04fb057a-4c46-4d6d-8a64-8003df749762/attachments/Objektkatalog_Layer_Thermale_W%C3%A4sser_v3.2_Juni2025.pdf?approved=true\" target=\"_blank\">catalogue d'objets</a>. Cet ensemble de données ne prétend pas être exhaustif. Pour tout renseignement concernant les différentes valeurs mesurées, veuillez vous adresser à l'auteur des données.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-thermale_waesser:wmts",
+    "title": "Eaux thermales",
+    "type": "Dataset"
+  }
+}

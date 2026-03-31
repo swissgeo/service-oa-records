@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.siedlung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.siedlung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.siedlung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.are.siedlung/siedlung.zip",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/4229c353-e780-42d8-9f8c-298c83920a3a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Raumentwicklung ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die «Siedlung» ist ein Geodatensatz der besiedelten Landschaft aus Sicht der Raumentwicklung. Der Datensatz dient als geometrische Referenz für verschiedene Indikatoren in der Raumbeobachtung. Als besiedelt gilt, was zu Wohn-, Arbeits- oder Freizeitzwecken bebaut wurde. Dazu gehören, insbesondere die Gebäude inklusive Umschwung sowie angrenzende Strassen und Verkehrsinfrastrukturen zu deren unmittelbaren Erschliessung. Lücken, welche mehr als 1500 m2 umfassen, bleiben als solche bestehen. Die Datenebene basiert auf Daten des topografischen Landschaftsmodells von swisstopo und des Gebäude- und Wohnungsregisters des BFS.Die Zeitstände ab 1919 können auf map.geo.admich.ch als Zeitreise betrachtet werden und auf map.geo.admich.ch als Zeitreise betrachtet werden und auf https://data.geo.admin.ch/browser/index.html#/collections/ch.are.siedlung als Jahresstände heruntergeladen werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.siedlung:wmts",
+    "title": "Siedlung",
+    "type": "Dataset"
+  }
+}

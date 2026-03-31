@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_boden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_boden?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-wasserverfuegbarkeit_boden?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/843579c9-927b-4691-b4b4-aa3a90c98007",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Durante il periodo vegetativo, gli alberi hanno sempre più spesso una disponibilità d'acqua insufficiente•La disponibilità di acqua nel periodo vegetativo è determinante per la crescita e la vitalità dei boschi. Essa può essere calcolata dalla differenza fra le precipitazioni e l'evaporazione potenziale, il cosiddetto bilancio idrico climatico. Aggiungendovi la capacità di assorbimento del suolo si ottiene il bilancio idrico della stazione. •Il bilancio idrico della stazione è in stretta correlazione con la presenza degli alberi, la loro vitalità e la crescita. •Le specie arboree hanno esigenze di disponibilità di acqua diverse. Se le querce sono parsimoniose, i pecci hanno bisogno di molta più acqua durante il periodo vegetativo. •Tendenza: la frequenza e l'estensione nelle zone da giallo a rosso aumentano nel periodo 1981-2018. Periodo 1981-2018, da aprile ad agosto, risoluzione geografica 250 x 250 m. Fonte: Remund et al. (2016).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_boden:wmts",
+    "title": "Disponibilità di acqua nel suolo",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.sachplan-geologie-tiefenlager",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.sachplan-geologie-tiefenlager?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.sachplan-geologie-tiefenlager?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/ps-depositi-strati-geol-profondi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/7162f14b-4c16-4ec3-8ac6-b158136e65c7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le scorie radioattive svizzere derivano in massima parte dalle cinque centrali nucleari, ma anche dalla medicina, dall'industria e dalla ricerca. Devono essere conservate per un periodo molto lungo in un luogo sicuro senza contatti con l'ambiente e le persone. Allo stato attuale delle conoscenze, la soluzione più sicura è rappresentata dallo stoccaggio in strati rocciosi sotterranei. La legge federale sull'energia nucleare prescrive quindi lo stoccaggio delle scorie radioattive in un deposito in strati geologici profondi. La procedura di selezione dei siti di questi depositi è disciplinata nel \"Piano settoriale dei depositi in strati geologici profondi\" e si svolge in tre tappe. Al termine della terza tappa, il Consiglio federale deciderà in merito al rilascio dell'autorizzazione di massima per due siti, uno per le scorie debolmente e mediamente radioattive (SDM) e uno per quelle altamente radioattive (SAA), oppure per un sito unico per tutte le categorie di scorie. I geodati contengono le aree geologiche di ubicazione per i depositi SDM e SAA e i siti per gli impianti di superficie conformemente all'attuale stato di coordinamento dei dati acquisiti.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.sachplan-geologie-tiefenlager:wms",
+    "title": "PS Depositi strati geol. profondi",
+    "type": "Dataset"
+  }
+}

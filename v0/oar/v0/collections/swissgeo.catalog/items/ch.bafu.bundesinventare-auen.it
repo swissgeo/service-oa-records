@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-auen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-auen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-auen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://opendata.swiss/de/perma/9d598c5d-11d8-4187-b452-7cea7b993c44@bundesamt-fur-umwelt-bafu",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d47dffc7-8072-40c2-bbf7-4fb47367bd29",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le zone golenali, biotopi naturali situati nell'area di inondazione dei corsi d'acqua, sono in diminuzione. L'inventario scientifico delle zone golenali è stato commissionato dal DFI nel maggio 1981 e realizzato presso l'Eidgenössische Anstalt für das forstliche Versuchswesen (oggi WSL) nel gruppo di ricerca sulla botanica. Secondo l'articolo 18a della legge federale del 1° luglio 1966 sulla protezione della natura e del paesaggio (LNP), in vigore dal 1° febbraio 1988, il Consiglio federale determina i biotopi d'importanza nazionale e indica gli scopi della protezione, soltanto però dopo aver sentito il parere dei Cantoni. Come secondo inventario federale secondo l'articolo 18a LPN, nel 1992 il Consiglio federale ha approvato l'inventario delle zone golenali con 169 oggetti, completato con tre integrazioni negli anni 2001, 2003 e 2007. Fra il 1995 e il 1997 è stato elaborato l'inventario scientifico delle zone golenali alpine e dei margini proglaciali (IGLES) che è alla base della prima integrazione. Come quarto inventario federale secondo l'articolo 18a LNP, il Consiglio federale nel 2001 ha approvato l'Inventario dei siti di riproduzione degli anfibi con 701 oggetti, che è stato completato negli anni 2003, 2007 e 2017 con due integrazioni e che ora conta 929 oggetti (835 oggetti fissi e 94 mobili). Nell'Allegato 3 sono inoltre riportati altri 30 oggetti i cui perimetri non sono stati ancora definitivamente rettificati. Sino alla decisione relativa al loro inserimento negli Allegati 1 o 2, la loro protezione si basa sull'articolo 29 capoversi 1 lettera a dell'ordinanza sulla protezione della natura e del paesaggio (OPN) e sull'articolo 10 dell'ordinanza sulla protezione dei siti di riproduzione di anfibi di importanza nazionale (OSRA). La scala giuridicamente vincolante per determinare la posizione dell'oggetto protetto è quella nella scheda dell'oggetto. I confini esatti degli oggetti sono fissati dai Cantoni.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-auen:wmts",
+    "title": "Zone golenali",
+    "type": "Dataset"
+  }
+}

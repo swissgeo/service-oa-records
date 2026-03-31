@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftfahrthindernis-klein",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftfahrthindernis-klein?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftfahrthindernis-klein?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/carte-numerique-des-obstacles-a-la-navigation-aerienne",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/9d11574a-6b9a-4a5e-863f-0f1ad0dfcd90",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ici sont représentés les obstacles liés à la sécurité aux alentours des aérodromes avec une hauteur inférieure à 25 mètres dans des zones non-construites ou inférieure à 60 mètres dans des zones construites. Il s'agit d'obstacles qui se trouvent dans une zone de sécurité et/ou qui traversent une surface de limitation d'obstacles, ou qui ont été désignés comme pertinents pour les opérations aériennes pour d'autres raisons.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftfahrthindernis-klein:wms",
+    "title": "Obstacles d'aerodrome < 25 / 60 m",
+    "type": "Dataset"
+  }
+}

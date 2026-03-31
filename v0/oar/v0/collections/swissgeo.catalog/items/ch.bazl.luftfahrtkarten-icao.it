@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftfahrtkarten-icao",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftfahrtkarten-icao?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftfahrtkarten-icao?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/de/karten/aeronautische-karten/luftfahrtkarte-icao-schweiz-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f27432fa-948b-4608-98d5-22ebe118c98a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carta aeronautica OACI ufficiale in scala 1:500'000 viene pubblicata in collaborazione con skyguide. La carta comprende gli aerodromi, gli aeroporti, gli spazi aerei con la relativa classificazione, le zone di blocco o quelle di pericolo nonché gli ostacoli alla navigazione aerea. La versione cartacea stampata è disponibile piegata. Ai margini della carta sono stampate ulteriori indicazioni sulla sicurezza aerea e un elenco delle frequenze radio. La carta aeronautica OACI viene in genere aggiornata annualmente. L'edizione digitale viene fornita sottoforma di file TIF georeferenziato (formato raster). È disponibile sia con colori combinati che con tre layer di colori tematici separati (carta di base, spazi aerei/informazioni per la sicurezza aerea, ostacoli alla navigazione aerea/fili dell'alta tensione) con una risoluzione di 254 dpi.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftfahrtkarten-icao:wmts",
+    "title": "Carta aeronautica OACI",
+    "type": "Dataset"
+  }
+}

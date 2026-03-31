@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.ladebedarfswelt-ladepunkte_geplant",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-ladepunkte_geplant?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.ladebedarfswelt-ladepunkte_geplant?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/742965f9-e842-4281-b9f1-9c228ca596a8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre le nombre de points de recharge accessibles à tous qui devraient être disponibles dans la commune sélectionnée en 2035 pour répondre aux besoins de recharge. Un point de charge est une installation de recharge de véhicules branchés (électrique à batterie ou hybride rechargeable) qui permet de recharger un seul véhicule à la fois. Le nombre de points de recharge est réparti entre différentes options de recharge qui se différencient sur la base des cinq besoins de recharge des détenteurs de véhicules branchés (recharge à domicile, recharge au travail, recharge dans le quartier, recharge à destination, recharge rapide) ainsi que du type de recharge (courant alternatif AC, courant continu DC) et de la puissance de recharge (en kilowatts [kW]). Les points de recharge pour la recharge dans le quartier, la recharge à destination et la recharge rapide sont désignés globalement comme points de recharge accessibles à tous. La couleur des surfaces se réfère au nombre de points de recharge accessibles requis par commune. Afin de montrer l'éventail des développements possibles, les trois mondes de recharge « Confortable », « Planifié » et « Flexible » ont été conçus sur la base d'hypothèses communes à la branche dans l'étude de l'OFEN « Conception Infrastructure de recharge 2050 », afin de montrer dans quelle direction l'infrastructure de recharge pourrait évoluer en Suisse. Dans l'univers de recharge « Planifié », un grand nombre de personnes ne peuvent pas recharger à domicile et rechargent principalement à des bornes rapides dans le quartier, sur le lieu de destination ou en chemin.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.ladebedarfswelt-ladepunkte_geplant:wmts",
+    "title": "Besoin en charge: Points de recharge - Planifié",
+    "type": "Dataset"
+  }
+}

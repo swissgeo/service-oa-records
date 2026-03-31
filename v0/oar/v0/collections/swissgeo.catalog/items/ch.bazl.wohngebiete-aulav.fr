@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.wohngebiete-aulav",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.wohngebiete-aulav?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.wohngebiete-aulav?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/hel-legislation-nat",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/053aa1d7-ca48-4763-862f-39295f961ba9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les zones d'habitation sont définies à l'article 2, lettre f de l'ordonnance sur les atterrissages en campagne (OSAC; RS 748.132.3). Sont considérées comme zones d'habitation, un territoire urbanisé ou un groupement d'au moins dix habitations y compris le terrain situé dans un rayon de 100 m alentour. Les atterrissages dans les zones d'habitation sont interdits pour les motifs suivants :<ul> <li>Transports de personnes à des fins touristiques ou sportives (art. 25, let. b, OSAC),</li> <li>Vols non commerciaux (art. 32, let. b, OSAC),</li> <li>Vols d'instruction (art. 34 let. b OSAC).</li> </ul> Les atterrissages en campagne à des fins de travail dans des zones d'habitation doivent être convenus à l'avance avec l'autorité compétente selon le droit cantonal (art. 31 OSAC). <br></br> Le jeu de données \"Milieu bâti\" de l'ARE constitue la base de l'identification et de la représentation des \"zones d'habitation\" et est mis à jour chaque année.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.wohngebiete-aulav:wmts",
+    "title": "Zones d'habitation selon l'OSAC",
+    "type": "Dataset"
+  }
+}

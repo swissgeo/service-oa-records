@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.biogeographische_regionen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.biogeographische_regionen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.biogeographische_regionen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/um-137-d",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/fc110d43-cfbc-4029-a73c-f24bd67c9689",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The basis for establishing the biogeographical regions (in 6 or 12 classes) were the homogeneous surfaces of the river basins, where relevant and adequately extensive species information from the Info Fauna, Info Flora, Swiss Ornithological Institute and Bryophyte data centres was analysed and classified by groups of similarity. The fauna data were processed based on the Wohlgemuth method (1996), with the addition of further procedures for calculating indices of dissimilarity, species matrices and tests. The majority of the analyses were carried out with the help of the R open source software. As a first step, the results were presented in six groups, and then in twelve groups as a second step. With a few exceptions, the boundaries of catchment areas were formed (FOEN, Hydrology Division, partial catchment areas 40 km² / 2 km², status 2020): In a minority of cases, topographical criteria and expert advice were used.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.biogeographische_regionen:wmts",
+    "title": "Biogeographical regions",
+    "type": "Dataset"
+  }
+}

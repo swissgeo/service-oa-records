@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.lubis-luftbilder-dritte-kantone",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lubis-luftbilder-dritte-kantone?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lubis-luftbilder-dritte-kantone?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5327cb7b-269b-4d02-b199-19418ee33d54",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Dans le cadre de différents projets des images aériennes de la Suisse sont saisies et publiées par des cantons. L'existence de ces images aériennes peut être communiquée à swisstopo. Elles sont alors publiées dans la couche \"images aériennes cantons\". La couche ne contient que les informations fournies à swisstopo et ne prétend pas à l'exhaustivité. Toutes ces images aériennes sont représentées sous la forme des coordonnées du centre de l'image, de la zone couverte par l'image (footprint) ainsi que par des métadonnées. Les images aériennes peuvent être commandées auprès des cantons concernés.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lubis-luftbilder-dritte-kantone:wmts",
+    "title": "Images aériennes de cantons",
+    "type": "Dataset"
+  }
+}

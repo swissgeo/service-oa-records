@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-moorlandschaften",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-moorlandschaften?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-moorlandschaften?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/moorlandschaften",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7ed73e2f-0a41-4e8b-a7ff-413f2d9b5ece",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Moorlandschaften sind in besonderem Masse durch Moore geprägte naturnahe Landschaften, die daneben auch andere bemerkenswerte Natur- und Kulturelemente beherbergen. Sie stellen für verschiedene Tier- und Pflanzenarten die letzten verbliebenen Lebensräume dar.Das wissenschaftliche Moorlandschaftsinventar wurde in den Jahren 1987 - 90 von der Hintermann & Weber AG im Auftrag des EDI erhoben. Gemäss Art. 23b des Bundesgesetzes vom 1. Juli 1966 über den Natur- und Heimatschutz (NHG) bezeichnet der Bundesrat unter Berücksichtigung der bestehenden Besiedlung und Nutzung die schützenswerten Moorlandschaften von besonderer Schönheit und von nationaler Bedeutung und bestimmt deren Lage. Er arbeitet dabei eng mit den Kantonen zusammen, welche ihrerseits die betroffenen Grundeigentümer anhören. Der Bundesrat setzte 1996 die Moorlandschaftsverordnung mit dem Bundesinventar mit 88 Objekten im Anhang in Kraft. Eine erste Revision erfolgte 2001 auf Antrag des Kantons VD, eine zweite mit der definitiven Aufnahme des Objektes Grimsel im Jahre 2004 und drei weitere 2007, 2015 und 2017. Aktuell sind 89 Objekte in Kraft. Der rechtverbindliche Massstab für die Lage des Schutzobjektes ist derjenige im Objektblatt. Die Festlegung des genauen Grenzverlaufs erfolgt durch die Kantone.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-moorlandschaften:wmts",
+    "title": "Moorlandschaften",
+    "type": "Dataset"
+  }
+}

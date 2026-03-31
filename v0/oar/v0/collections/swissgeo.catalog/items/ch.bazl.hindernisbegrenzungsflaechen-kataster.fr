@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.hindernisbegrenzungsflaechen-kataster",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.hindernisbegrenzungsflaechen-kataster?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.hindernisbegrenzungsflaechen-kataster?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/zones-de-securite-cslo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/87c13b99-b1a0-4822-a923-42f63067d48d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les surfaces de limitation d'obstacles recouvrent une série de surfaces tridimensionnelles qui délimitent, en direction du sol, l'espace aérien qui doit normalement être dépourvu d'obstacles pour que la sécurité de l'aviation soit assurée. Les objets qui font saillie au-dessus de ces surfaces sont qualifiés d'obstacles à la navigation aérienne. Ces surfaces visent à garantir que l'espace aérien est dépourvu d'obstacles susceptibles de compromettre la sécurité du trafic aérien. Le cadastre des surfaces de limitation d'obstacles se définit comme l'établissement officiel des surfaces de limitation d'obstacles valables pour un aérodrome, une installation de navigation aérienne ou une trajectoire de vol. L'Office fédéral de l'aviation civile (OFAC) gère un cadastre des surfaces de limitation d'obstacles (anglais: Obstacle Limitation Surfaces OLS) pour les installations civiles. Celui-ci représente de manière structurée et univoque tous les types de surfaces tridimensionnelles de limitation d'obstacles selon l'Annexe 14 de l'OACI. La couche ne contient que des données qui sont approuvées et conformes au modèle.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.hindernisbegrenzungsflaechen-kataster:wms",
+    "title": "Surfaces de limitation d'obstacles",
+    "type": "Dataset"
+  }
+}

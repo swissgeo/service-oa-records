@@ -1,0 +1,101 @@
+{
+  "id": "ch.bakom.notruf-143_mobilnetz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.notruf-143_mobilnetz?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.notruf-143_mobilnetz?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/en/sr-78410111313-emergency-call-requirement",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/c2c6114c-707d-424d-a860-ffe4e22330c6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Communications OFCOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "An emergency call is a call with a three digit short number of the emergency service selected by the caller: European emergency service 112; police, emergency call 117; fire, alarm center 118; victim support 142; friendly Hand 143; ambulance, emergency call 144; telephone help for children and young 147. An emergency call can be done from a fixed, mobile or satellite network. The emergency call must be routed to the alarm center of the competent service according to the location and nature of the case. A region from which the emergency calls are routed to a precise alarm center is an intervention region. Each intervention region has a routing number. The map shows the intervention regions of Switzerland for the emergency calls 143 originated from a mobile network. The alarm center and routing number of any intervention region are identified when selecting the targeted intervention region.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.notruf-143_mobilnetz:wmts",
+    "title": "143 Mobile network",
+    "type": "Dataset"
+  }
+}

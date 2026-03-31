@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftfahrthindernis",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftfahrthindernis?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftfahrthindernis?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/carta-degli-ostacoli-alla-navigazione-aerea-digitale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b43208df-1ac2-4d00-b559-d83e4d86ba1a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per dati relativi agli ostacoli alla navigazione aerea si intendono i dati di cui all'articolo 2 lett. k dell'ordinanza del 23 novembre 1994 sull'infrastruttura aeronautica (OSIA; RS 748.131.1). Gli ostacoli alla navigazione aerea sono costruzioni e impianti (ad es. antenne, edifici, cavi, gru, impianti a fune, linee aeree dell'alta tensione, impianti eolici), nonché piante, suscettibili di mettere in pericolo, rendere difficoltoso o addirittura impossibile l'esercizio di aeromobili o installazioni di sicurezza aerea. Detti ostacoli vengono rilevati nel quadro dell'obbligo di autorizzazione di cui all'articolo 63 OSIA o dell'obbligo di registrazione di cui all'articolo 65a OSIA. Questi dati contengono, ad eccezione delle piante, tutti gli ostacoli alla navigazione aerea permanenti e temporanei che raggiungono un'altezza pari o superiore a 25 metri nelle zone non edificate (nel caso delle gru mobili: 40 metri e più) o che raggiungono un'altezza di almeno 60 metri nelle zone edificate. Gli ostacoli rilevanti per la sicurezza in prossimità degli aerodromi al di sotto dei 25 / 60 metri sono indicati nel rappresentazione \"Ostacoli d'aerodromo < 25 / 60 m\".",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftfahrthindernis:wms",
+    "title": "Ostacoli alla navigazione aerea",
+    "type": "Dataset"
+  }
+}

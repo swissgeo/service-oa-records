@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.envidat.ch/dataset/vegetation-height-model-nfi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/8b7c23ef-88a4-47d6-87dc-6f5b5d91928c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Des modèles de hauteur de végétation (MHV) à l'échelle nationale ont été générés pour la Suisse à partir d'images aériennes stéréoscopiques acquises par l'Office fédéral de topographie swisstopo.À partir des données du capteur ADS-80/100, un modèle numérique de surface (MNS) avec une résolution spatiale de 1 × 1 m est d'abord traité. Ce MNS est ensuite normalisé à l'aide du modèle numérique de terrain (MNT) swissALTI3D (swisstopo). Les bâtiments et autres objets artificiels sont masqués à partir du MDS normalisé (MDSn) à l'aide des informations du modèle topographique du paysage - MTP (swisstopo) afin d'obtenir le modèle de hauteur de végétation (MHV) réel. Ces MHV sont produits dans le cadre de l'Inventaire forestier national suisse (IFN). Chaque année, environ 1/6 de la surface de la Suisse est mise à jour à l'aide des images aériennes acquises par swisstopo (mai - octobre). De plus amples informations sur la création du MHV IFN sont disponibles dans l'article de Ginzler et Hobi (2015, https://doi.org/10.3390/rs70404343).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell:wmts",
+    "title": "Hauteur de la végétation IFN",
+    "type": "Dataset"
+  }
+}

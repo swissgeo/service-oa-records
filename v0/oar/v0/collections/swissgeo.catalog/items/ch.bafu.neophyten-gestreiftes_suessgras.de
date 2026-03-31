@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.neophyten-gestreiftes_suessgras",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.neophyten-gestreiftes_suessgras?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.neophyten-gestreiftes_suessgras?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/gebietsfremde-arten",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/bb03e246-e1e0-4a05-a20c-c004047ab871",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Set Invasive gebietsfremde Pflanzen enthält die Karten der potentiellen Verbreitung von 56 in der Schweiz vorkommenden invasiven gebietsfremden Arten sowie solchen aus Nachbarländern mit dem Potential sich in die Schweiz auszudehnen. Die Karten sind das Ergebnis einer Modellierung der Uni Lausanne zur Vorhersage der Verbreitung von invasiven Pflanzen, welche in der Schwarzen Liste resp. der Watchliste aufgeführt sind. Das Modell basiert auf den verfügbaren Daten von GBIF (Global Biodiversity Information Facility), verknüpft mit aktuellen Klimadaten von Worldclim (1km Auflösung) sowie den verfügbaren Daten von InfoFlora verknüpft mit Klimadaten der WSL (100 m Auflösung). Die Karten mit 100 m Auflösung beinhalten weitere Variablen wie Landnutzung und Geologie.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.neophyten-gestreiftes_suessgras:wmts",
+    "title": "Gestreiftes Süssgras",
+    "type": "Dataset"
+  }
+}

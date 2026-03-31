@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-biosphaerenreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-biosphaerenreservate?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/biosphaerenreservate-modelle-fuer-sorgsame-bewirtschaftung-des-lebensraums",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c212a19c-6e06-4ca4-bdee-3ec62ccd7b1e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Biosphärenreservate dienen nicht nur dem Schutz und der Pflege von Ökosystemen, sondern auch der ökologischen Forschung, der umweltgerechten Landnutzung und der Umweltbildung. Es sind die herausragenden Zeugnisse der Geschichte der Menschheit und der Natur, die mit den Emblemen des UNESCO-Welterbes und der Biosphären ausgezeichnet werden: stumme und doch beredte Zeugen grossartiger Kulturleistungen und Naturphänomene. Über die Aufnahme eines Gebietes entscheidet nach Antrag des Staates der Internationale Koordinationsrat des MAB-Progammes der UNESCO basierend auf erlassenen Kriterien welche in einem Kriterienkatalog für die Schweiz konkretisiert wurden. Kriterien sind vorab Repräsentativität, Grösse, naturräumliche und politische Einheit, Zustimmung der Bevölkerung.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-biosphaerenreservate:wmts",
+    "title": "Biosphärenreservate",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ch.swisstopo.geologie-generalkarte-ggk200.metadata",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.swisstopo.geologie-generalkarte-ggk200.metadata:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-generalkarte-ggk200.metadata?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.swisstopo.geologie-generalkarte-ggk200.metadata",
+  "type": "Collection"
+}

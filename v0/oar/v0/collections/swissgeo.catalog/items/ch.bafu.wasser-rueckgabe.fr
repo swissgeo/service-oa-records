@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wasser-rueckgabe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wasser-rueckgabe?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wasser-rueckgabe?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/debitsresiduels",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ed1931ac-81bc-4517-9860-80090e530e33",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La loi fédérale du 24 janvier 1991 sur la protection des eaux (LEaux) est entrée en vigueur le 1er novembre 1992 et, avec elle, ses dispositions concernant les débits résiduels. Conformément aux art. 80 ss. LEaux, les débits résiduels doivent, sur ordre des autorités et dans la mesure du possible, être assainis. Dans cette perspective, une première étape consiste pour les cantons à dresser un inventaire des prélèvements d’eau existants et de transmettre celui-ci à la Confédération. Les cantons évaluent sur cette base les prélèvements d’eau effectués et décident si et dans quelle mesure un assainissement est nécessaire. Ils rassemblent les résultats de leurs investigations dans un rapport qu’ils remettent également à la Confédération. Pour garantir une vue d’ensemble de l’application de la LEaux dans le domaine des débits résiduels et de leur assainissement et afin d’informer la population et les autres organes concernés, les données portant sur les prélèvements d’eau transmises par les cantons sont présentées sur une carte nationale des débits résiduels (échelle 1 : 200’000).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wasser-rueckgabe:wmts",
+    "title": "Restitution",
+    "type": "Dataset"
+  }
+}

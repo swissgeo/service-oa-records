@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.grundwasserkoerper",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.grundwasserkoerper?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.grundwasserkoerper?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/de/sd-web/GSIMoaSTZ24X/2023%20Grundwasserk%C3%B6rper%20der%20Schweiz.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2bd1ab86-83ec-4c3e-b937-ab81b4968bc6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Lo stato masse d'acqua sotterranee mostra una suddivisione semplificata e capillare di unità idrogeologiche per tutto il territorio Svizzero. Le masse d'acqua sotterranee sono state considerate in questo contesto non come unità di gestione, bensì come elementi tecnico-specialistici del reporting ambientale pubblicato dall'Ufficio federale dell'ambiente (UFAM). Attualmente esse fungono da riferimento spaziale per la fornitura di dati nazionale sullo stato delle acque sotterranee a livello svizzero all'Agenzia europea dell'ambiente. La commisurazione delle masse d'acqua sotterranee è stata operata sulla base di SIG tenendo conto dei criteri principali bacini fluviali e tipo di acquifero predominante nonché di criteri dimensionali specifici. Tutti i parametri considerati provengono da set di dati disponibili per tutta la Svizzera, in particolare dallo strato Riserve acquifere 500. <a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/wasser/geodaten/2023%20Grundwasserk%C3%B6rper%20der%20Schweiz.pdf.download.pdf/2023%20Grundwasserk%C3%B6rper%20der%20Schweiz.pdf?approved=true\" target=\"_blank\">Grundwasserkörper der Schweiz – Aqua & Gass</a>",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.grundwasserkoerper:wmts",
+    "title": "Corpi idrici sotterranei",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.auen-vegetationskarten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.auen-vegetationskarten?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.auen-vegetationskarten?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/infrastruttura-ecol",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ab76361f-657d-4705-9053-95f89ecab126",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per offrire ai Cantoni la possibilità di prendere in mano il più rapidamente possibile la protezione delle zone golenali di probabile importanza nazionale, l'UFEFP ha fatto elaborare nel 1987 una carta di vegetazione dettagliata degli oggetti della versione posta in consultazione all'attenzione dei Cantoni. Per la maggioranza degli oggetti ingranditi in seguito alla consultazione sono state realizzate in seguito carte di vegetazione secondo lo stesso metodo. Un certo numero di questi oggetti nonché tutti gli altri oggetti accolti nell'inventario nell'ambito della seconda e della terza integrazione nonché della revisione 2007 (senza zone golenali alpine) sono stati cartografati secondo lo stesso sistema con l'aiuto di immagini aeree fotogrammetriche a infrarossi.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.auen-vegetationskarten:wmts",
+    "title": "Zone golenali carte di vegetazione",
+    "type": "Dataset"
+  }
+}

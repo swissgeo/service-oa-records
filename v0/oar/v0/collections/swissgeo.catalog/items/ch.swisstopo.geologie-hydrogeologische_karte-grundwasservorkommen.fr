@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/fr/cartes/cartes-geologiques/geocartes-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f198f6f6-8efa-4235-a55f-99767ea0206c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L’Office fédéral de l’environnement OFEV est l’office compétent du Service géologique national pour l'hydrogéologie. La Carte hydrogéologique 1:500'000 est dans la série GéoCartes (GK500) et composée de deux feuilles. La première (GK500-Hydro) est consacrée aux réservoirs aquifères et fournit des informations sur leur productivité. La seconde (GK500-Hydro_Vul) traite de la vulnérabilité de ces réservoirs et de leur sensibilité à des menaces possibles par des polluants. En outre la première feuille montre la nature des réservoirs aquifères (roches karstiques, meubles ou cohérentes), les principaux captages d'eau souterraine et d'eau de source et fournit des données hydrodynamiques sur les régions d'infiltration et d'exfiltration des eaux. Le contenu des deux feuilles est également publié comme Planche 8.6 et 8.7 de l'Atlas hydrologique de la Suisse HADES (OFEV, 2004 et 2007).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen:wmts",
+    "title": "Réservoirs aquifères 500",
+    "type": "Dataset"
+  }
+}

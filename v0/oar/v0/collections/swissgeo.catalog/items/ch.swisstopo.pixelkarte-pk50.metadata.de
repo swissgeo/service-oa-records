@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.pixelkarte-pk50.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-pk50.metadata?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-pk50.metadata?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/landeskarte-swiss-map-raster-50",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7cd16f54-34e9-43ba-b65c-39461c03495e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Swiss Map Raster 50 ist die digitale Landeskarte der Schweiz im Massstab 1:50 000 in Rasterformat.Die «Einteilung Swiss Map Raster 50» zeigt den Perimeter, die Nummer und den Namen jedes Kartenblattes. Der Perimeter entspricht demjenigen eines Standardblattes der gedruckten Kartenblätter. Die auf den gedruckten Kartenblättern enthaltene Ausbuchtungen (z.B. südlicher Teil des Blattes 270 Genève) werden in zusätzlichen Kartenblättern mit der Standardausdehnung abgebildet auch wenn diese nur in Teilgebieten Informationen enthalten. Die Swiss Map Raster wird als georeferenzierte TIF-Datei (Rasterformat) geliefert. Die Karteninformation ist nach Farbebenen getrennt, jedoch nicht nach thematischen Kartenelementen gegliedert. Die Pixelkarten stehen als Farbkombination (508dpi) oder als farbgetrennte Layer (Binärdaten 508 dpi) zur Verfügung, und sie können einzelblattweise oder als individueller Perimeterausschnitt bezogen werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-pk50.metadata:wms",
+    "title": "Einteilung Landeskarte 50 Raster",
+    "type": "Dataset"
+  }
+}

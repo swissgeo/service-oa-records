@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.sachplan-geologie-tiefenlager",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.sachplan-geologie-tiefenlager?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.sachplan-geologie-tiefenlager?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/ps-depots-couches-geol-profondes",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7162f14b-4c16-4ec3-8ac6-b158136e65c7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Si la majeure partie des déchets radioactifs en Suisse résulte de l'exploitation des cinq centrales nucléaires, une certaine quantité provient des activités de la médecine, de l'industrie et de la recherche. Ces déchets doivent être conservés très longtemps à l'abri des hommes et de l‘environnement. Selon l'état actuel des connaissances, le stockage dans des formations rocheuses souterraines constitue la solution la plus sûre.La loi sur l'énergie nucléaire prescrit donc le stockage des déchets radioactifs dans des dépôts en couches géologiques profondes. La recherche de sites d'implantation potentiels pour ces dépôts se déroule en trois étapes, dans le cadre du plan sectoriel «Dépôts en couches géologiques profondes». Le Conseil fédéral optera à l'issue de la troisième étape soit pour deux sites, l'un pour les déchets faiblement et moyennement radioactifs (DFMR) et l'autre pour les déchets hautement radioactifs (DHR), soit pour un seul site pour les déchets de toutes les catégories (autorisation générale). Les géodonnées répertorient les domaines d'implantation géologique pour les DFMR et les DHR ainsi que les emplacements pour les installations de surface, conformément au niveau de coordination actuel de la procédure de sélection.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.sachplan-geologie-tiefenlager:wms",
+    "title": "PS Dépôts couches géol. profondes",
+    "type": "Dataset"
+  }
+}

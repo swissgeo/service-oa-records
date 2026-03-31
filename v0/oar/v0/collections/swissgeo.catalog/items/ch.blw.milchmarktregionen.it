@@ -1,0 +1,97 @@
+{
+  "id": "ch.blw.milchmarktregionen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.milchmarktregionen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.milchmarktregionen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/545cbe85-8105-465b-88e9-429803e466bb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'agricoltura UFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Regioni dell'osservazione del mercato del latte e dei latticini sulla base delle quali sono pubblicati i prezzi alla produzione del latte. Le regioni sono definite nel seguente modo: Regione I: Ginevra, Vaud, Friburgo, Neuchâtel, Giura e parti del territorio francofono del Cantone di Berna (distretto amministrativo del Giura bernese). Regione II: Berna (tranne il distretto amministrativo del Giura bernese), Lucerna, Untervaldo (Sopraselva, Sottoselva), Uri, Zugo e una parte del Cantone di Svitto (distretti Svitto, Gersau e Küssnacht). Regione III: Basilea Campagna e Basilea Città, Argovia e Soletta. Regione IV: Zurigo, Sciaffusa, Turgovia, Appenzello (Interno ed Esterno), San Gallo, una parte del Cantone di Svitto (distretti Einsiedeln, March e Höfe), Glarona, Grigioni. Regione V: Vallese e Ticino.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.milchmarktregionen:wmts",
+    "title": "Regioni del mercato del latte",
+    "type": "Dataset"
+  }
+}

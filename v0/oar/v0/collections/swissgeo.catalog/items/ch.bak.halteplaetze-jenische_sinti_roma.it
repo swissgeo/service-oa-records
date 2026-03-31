@@ -1,0 +1,102 @@
+{
+  "id": "ch.bak.halteplaetze-jenische_sinti_roma",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.halteplaetze-jenische_sinti_roma?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.halteplaetze-jenische_sinti_roma?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/it/home/sprachen-und-gesellschaft/minoranza-nazionale--jenisch-e-sinti.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/51193e6b-d3d6-4202-8d1c-8bdb49f59535",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale della cultura UFC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La raccolta di geodati “Aree di sosta, passaggio e transito per Jenisch, Sinti e Roma” contiene informazioni sulle aree riservate al passaggio e allo stazionamento delle popolazioni Jenisch, Sinti e Roma, che conducono in prevalenza uno stile di vita nomade. La creazione e la gestione delle aree è prevalentemente di competenza dei Cantoni e dei Comuni. L'autorità federale competente in materia è l'Ufficio federale della cultura. Il Set di dati viene pubblicato dall'Ufficio federale della cultura in collaborazione con la Fondazione “Un futuro per i nomadi svizzeri” e l'Ufficio federale dello sviluppo territoriale ARE.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.halteplaetze-jenische_sinti_roma:wmts",
+    "title": "Aree per Jenisch, Sinti e Rom",
+    "type": "Dataset"
+  }
+}

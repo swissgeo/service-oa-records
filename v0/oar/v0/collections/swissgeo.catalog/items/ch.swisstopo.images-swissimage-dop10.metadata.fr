@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.images-swissimage-dop10.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.images-swissimage-dop10.metadata?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.images-swissimage-dop10.metadata?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/orthobilder-swissimage-10-cm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/3f340030-15de-4ab6-a1b1-5f33e09a997f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "SWISSIMAGE 10 cm sera disponible sur toute la surface de la Suisse et du Liechtenstein à partir de 2020, il recouvre légèrement les zones limitrophes de ces frontières. SWISSIMAGE 10 cm est produit en tuiles de 1 km2. La numérotation des tuiles correspond aux coordonnées kilométriques de leur angle sud-ouest. Outre la qualité géométrique et radiométrique, la date de vol des photos aériennes constitue un élément essentiel pour l'utilisation optimale d'une photo. L'année de vol est définie pour chaque tuile produite. Dans les zones situées à la limite entre différents blocs annuels tous les pixels d'une tuile ne proviennent pas toujours d'une seule et même année de vol. En effet, pour créer une mosaïque uniforme, il est parfois nécessaire de mélanger des pixels issus de différents vols. Dans ce cas, l'année de vol utilisée en majorité (à plus de 75%) est attribuée à la tuile.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.images-swissimage-dop10.metadata:wms",
+    "title": "Découpage SWISSIMAGE 10 cm Raster",
+    "type": "Dataset"
+  }
+}

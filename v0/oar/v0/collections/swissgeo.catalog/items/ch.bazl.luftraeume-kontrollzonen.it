@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftraeume-kontrollzonen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftraeume-kontrollzonen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftraeume-kontrollzonen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/sicurezza-e-spazio-aereo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ee7cdbda-996a-45f9-aeff-aa63fa0d446a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In virtù dell'articolo 40 della legge federale sulla navigazione aerea (LNA; RS 748.0) e dell'articolo 2 capoverso 1 dell'ordinanza concernente il servizio della sicurezza aerea (OSA; RS 748.132.1) l'UFAC definisce la struttura e le classi dello spazio aereo.Zone di controllo secondo l'ultima data di emissione della carta ICAO. Per ulteriori informazioni quali le classi dello spazio aereo, le condizioni di utilizzazione e altri dati relativi agli spazi aerei rappresentati si consulti la pubblicazione ufficiale (AIP e carta ICAO). Le delimitazioni degli spazi aerei vengono indicate in piedi / Flight Level (FL).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftraeume-kontrollzonen:wmts",
+    "title": "Spazi aerei - CTR",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ch.astra.winterwanderwege",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.winterwanderwege?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.winterwanderwege?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/474c22a1-ad98-4c65-a9b5-b64ae64c3a97",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Roads Office FEDRO",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The ‘Winter hiking trails' dataset comprises the best selection from SwitzerlandMobility (thick lines) and the other signposted trails from the cantons. This selection is coordinated with the Swiss Hiking Trail Association, the cantons and the Principality of Liechtenstein. This is currently (as of 12 November 2025) an initial data set containing the following data: SwitzerlandMobility trails throughout Switzerland, other signposted routes in the cantons of Jura, Schwyz, Graubünden and the Principality of Liechtenstein.No liability is accepted for the accuracy, completeness or up-to-dateness of the route and trail data, and any liability for the use of this data is excluded. The signage and the weather and trail or route conditions on site are decisive.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.winterwanderwege:wmts",
+    "title": "Winter hiking trails",
+    "type": "Dataset"
+  }
+}

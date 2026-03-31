@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/swissbedrock-de",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/99eb4571-4c34-48cc-bd6a-32fd9decc2a7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das nationale Mächtigkeitsmodell des Lockergesteins beschreibt die Mächtigkeit des Lockergesteins in Metern und hat eine Rasterzellengrösse von 10 x 10 m. Dieses Produkt wird aus dem Höhenmodell der Felsoberfläche abgeleitet. Durch Subtraktion des Höhenmodells der Felsoberfläche vom Basis-Geländemodell ergibt die Lockergesteinsmächtigkeit. Das dem Basis-Geländemodell ist eine Kombination aus <a href=\"https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d\" target=\"_blank\">swissALTI3D</a>, <a href=\"https://www.swisstopo.admin.ch/de/hoehenmodell-swissbathy3d\" target=\"_blank\">swissBATHY3D</a> und der <a href=\"https://www.glamos.ch/#/A50d-01\" target=\"_blank\">GLAMOS</a>-Gletscherbasis. Das Mächtigkeitsmodell des Lockergesteins ist Teil des grösseren Datensatzes swissBEDROCK, der auch das <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-felsoberflaeche_hoehenmodell&topic=geol\" target=\"_blank\">Höhenmodell der Felsoberfläche (BEM)</a>, Unsicherheitsschätzungen und Änderungen gegenüber früheren Versionen enthält. Der vollständige Datensatz swissBEDROCK kann <a href=\"https://www.swisstopo.admin.ch/de/swissbedrock-de\" target=\"_blank\">hier heruntergeladen</a> oder auf <a href=\"https://viewer.swissgeol.ch/?lon=8.41012&lat=46.83165&elevation=425641&heading=0&pitch=-90&map=ch.swisstopo.pixelkarte-grau&map_transparency=0.00&layers=ch.swisstopo.swissbedrock-geotiff&layers_visibility=true&layers_transparency=0.50&layers_timestamp=\" target=\"_blank\">viewer.swissgeol.ch</a> zellenweise angezeigt und abgefragt werden. Das Modell besteht aus Daten Dritter und aus Teilen, die vom Bundesamt für Landestopografie modelliert wurden. Eine Datei mit <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_ReleaseNotes_R1.pdf?approved=true\" target=\"_blank\">Versionshinweisen</a> enthält detaillierte Angaben zur Herkunft und zu den Eigenschaften der verschiedenen Modellkomponenten. Weitere Informationen zur Methodik und zum Arbeitsablauf finden Sie in der <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_model_description.pdf?approved=true\" target=\"_blank\">Modellbeschreibung</a>. 3D-Modelle stellen Vereinfachungen der realen Geologie dar. Der Nutzer anerkennt, dass die Autoren alle zumutbaren Aufwände unternommen haben, um die Informationen im geologischen 3D-Modell zu verifizieren. Es gibt keine Garantie, dass die angegebenen Daten an einem bestimmten Punkt im Untergrund korrekt sind. Der Herausgeber ist unter keinen Umständen für jegliche Verluste oder Schäden materieller oder immaterieller Art haftbar, welche aus dem Zugriff auf, die Nutzung oder Nichtnutzung der veröffentlichen Informationen, durch Missbrauch oder technische Störungen entstehen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell:wmts",
+    "title": "Mächtigkeit des Lockergesteins",
+    "type": "Dataset"
+  }
+}

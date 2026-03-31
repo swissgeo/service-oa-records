@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.meldungen-karten_geodaten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.meldungen-karten_geodaten?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.meldungen-karten_geodaten?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/segnalare-le-modifiche-nelle-carte-o-nei-geodati",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/37fe878e-f207-48f7-9d9a-a4192aeaef71",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pubblicazione delle segnalazioni di revisione su carte e geodati di swisstopo ricevute su map.revision.admin.ch. I temi tipici per le segnalazioni di revisione sono i percorsi stradali modificati, le nuove costruzioni o i nomi geografici. Alla voce “Segnalazioni su carte e geodati” vengono rappresentate le indicazioni sotto forma di punti. Per ogni punto è possibile richiamare i commenti obbligatori e le informazioni sullo stato di elaborazione attuale. Il mittente può così seguire la progressione della sua segnalazione. Una segnalazione di revisione può essere pubblicata solo se è stata registrata una geometria di punti o linee per la localizzazione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Segnalazioni su carte e geodati",
+    "type": "Dataset"
+  }
+}

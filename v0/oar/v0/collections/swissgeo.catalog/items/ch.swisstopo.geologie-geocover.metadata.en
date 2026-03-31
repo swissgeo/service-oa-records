@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-geocover.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geocover.metadata?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geocover.metadata?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/geologisches-modell-2d-geocover",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f7485f4f-2224-4b76-a43c-52cbf8883a42",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The GeoCover datasets are available according to the 1:25,000 national map grid. The «Division GeoCover» layer shows the perimeter, number and name of each sheet. Clicking on the perimeter of a sheet displays the specific metadata of the dataset (author, status, base used) in the «Object information» window.Sheets marked as updated, shown in green, have been revised with priority given to adapting the data to the new topography. For each updated dataset, a more detailed report on the performed work is available in the <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geocover&topic=geol\" target=\"_blank\">GeoCover - Vector Datasets</a> layer. Sheets marked in yellow are currently being updated or will be updated in the coming years. Finally, the sheets marked in blue will be replaced by new data as soon as the geological surveys are completed (without editorial work in the first instance).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geocover.metadata:wms",
+    "title": "Division GeoCover",
+    "type": "Dataset"
+  }
+}

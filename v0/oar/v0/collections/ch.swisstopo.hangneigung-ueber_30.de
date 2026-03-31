@@ -1,0 +1,57 @@
+{
+  "id": "ch.swisstopo.hangneigung-ueber_30",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.swisstopo.hangneigung-ueber_30:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hangneigung-ueber_30?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.swisstopo.hangneigung-ueber_30:wmts:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMTS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMTS",
+        "title": "OGC Web Map Tile Service (WMTS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.hangneigung-ueber_30:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hangneigung-ueber_30?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.swisstopo.hangneigung-ueber_30",
+  "type": "Collection"
+}

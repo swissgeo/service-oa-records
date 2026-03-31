@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.mittlere-abfluesse_zukunft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.mittlere-abfluesse_zukunft?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.mittlere-abfluesse_zukunft?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.nccs.admin.ch/nccs/de/home/klimawandel-und-auswirkungen/schweizer-hydroszenarien/synthesebericht.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/144e7781-cfff-404c-ae9c-474525ed9a1f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Karte zeigt die in den hydrologischen Szenarien Hydro-CH2018 berechneten prozentualen Veränderungen der Sommerabflüsse gegen Ende des Jahrhunderts (2070-2099) im Vergleich zur Referenzperiode (1981 – 2010) für ein Szenario ohne Klimaschutz (RCP8.5). Dargestellt ist jeweils der Median der gesamten Bandbreite aller Simulationen. Im Sommer zeigen die hydrologischen Szenarien eine mittlere Abflussabnahme von 30 - 50 % ohne Klimaschutz bis Ende des Jahrhunderts. Verantwortlich für diesen Rückgang sind verminderte Sommerniederschläge, höhere Verdunstung und die Abnahme des Gletscher- und Schneeschmelzwassers. Im Projekt Hydro-CH2018, das einen Themenschwerpunkt des National Centre for Climate Services (NCCS, www.nccs.admin.ch) bildet und vom BAFU geleitet wird, wurden je nach Fragestellung verschiedene, spezialisierte hydrologische Modelle eingesetzt. Aus diesem Grund ist es möglich, dass an gewissen Stationen mehrere, leicht unterschiedliche Resultate vorliegen, z.B. Thur bei Andelfingen (Details dazu können dem Synthesebericht «Auswirkungen des Klimawandels auf die Schweizer Gewässer » entnommen werden). Durch Anklicken des Links in den Objektinformationen gelangen Sie auf den Hydrologischen Atlas der Schweiz, wo sämtliche Resultate für alle Stationen, alle Klimaszenarien und alle Zeiträume inkl. Unsicherheitsbereich zu finden sind.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.mittlere-abfluesse_zukunft:wmts",
+    "title": "Mittlere Abflüsse in der Zukunft",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.treasurehunt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.treasurehunt?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.treasurehunt?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.schatz-karte.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ffda4480-52ca-4463-aac4-0a58bf87e5b5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "<a href=\"http://www.carte-tresor.ch\" target=\"_blank\">www.carte-tresor.ch</a> est un instrument pédagogique qui complète et enrichit l'enseignement de la géographie aux niveaux primaire et secondaire (élèves de 10 à 15 ans).En 9 leçons riches en aventures, les élèves se familiarisent de façon ludique avec la carte et les données géographiques de la Suisse (géodonnées) tout en découvrant certaines particularités de notre pays. Ils apprennent à explorer le territoire suisse au moyen de différentes géodonnées (par exemple les photographies aériennes, les cartes nationales, les limites nationales et cantonales ou les modèles d'altitude). Ils découvrent des applications cartographiques innovatrices, faciles d'utilisation et gratuites telles que map.geo.admin.ch ou map.lubis.admin.ch. Ils reçoivent une carte nationale au 1:25‘000 dès que l'ensemble de leur classe a fini la chasse au trésor. <a href=\"http://www.carte-tresor.ch\" target=\"_blank\">www.carte-tresor.ch</a> est un jeu mis à disposition des enseignantes et enseignants tout au long de l'année, il peut être ainsi intégré à tout moment dans le programme de l'année scolaire.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Carte-tresor",
+    "type": "Dataset"
+  }
+}

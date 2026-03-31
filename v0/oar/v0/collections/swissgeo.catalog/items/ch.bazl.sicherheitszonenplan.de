@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.sicherheitszonenplan",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.sicherheitszonenplan?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.sicherheitszonenplan?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/sizo-hbk",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f0ac2ddb-8b07-421b-ada6-8c192b593bca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Für jeden Flughafen ist eine Sicherheitszone zu errichten, welche den Luftraum vor Hindernissen schützt. Das BAZL entscheidet im Einzelfall, ob für Flugsicherungsanlagen und Flugwege eine Sicherheitszone erforderlich ist. Für die Festsetzung der Sicherheitszonen sind die Hindernisbegrenzungsflächen-Kataster massgebend. Die Sicherheitszone wird in einem Zonenplan dargestellt, aus dem die Eigentumsbeschränkungen nach Fläche und Höhe ersichtlich sind. Die genehmigten Sicherheitszonenpläne werden mit ihrer Veröffentlichung in den kantonalen Publikationsorganen verbindlich und stellen eine öffentlich-rechtliche Eigentumsbeschränkung dar.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sicherheitszonenplan:wms",
+    "title": "Sicherheitszonenplan",
+    "type": "Dataset"
+  }
+}

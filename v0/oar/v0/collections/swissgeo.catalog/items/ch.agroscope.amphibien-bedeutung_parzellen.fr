@@ -1,0 +1,97 @@
+{
+  "id": "ch.agroscope.amphibien-bedeutung_parzellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-bedeutung_parzellen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-bedeutung_parzellen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/0916243e-68d9-41c5-95f7-0f657e2ee07f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carte à l'échelle nationale des parcelles agricoles potentiellement adaptées, soit comme habitat terrestre, soit comme partie d'une voie de dispersion entre des sites de reproduction d'amphibiens pour une à 11 espèces d'amphibiens. Pour chaque parcelle agricole, l'ensemble de données contient des informations sur les espèces (le cas échéant) présentes dans un site de reproduction d'amphibiens à proximité de la parcelle (dans un rayon de 200 m, 500 m ou 1 km) et susceptibles d'utiliser la parcelle comme habitat terrestre. De même, il est indiqué quelles espèces ont une forte probabilité d'avoir des voies de dispersion entre les zones de reproduction qui traversent la parcelle.La vue standard de la carte affiche toutes les parcelles qui sont appropriées comme habitat terrestre pour au moins une espèce ayant un site de reproduction à proximité (dans un rayon de 500 m) et/ou qui se trouvent le long d'une voie de dispersion d'au moins une espèce. En sélectionnant une parcelle, vous pouvez voir quelles espèces utilisent cette parcelle grâce aux colonnes \"species_suitXXX\" et \"species_corridors\" (Alias: \"Habitat terrestre XXXm\" et \"Diffusion\"), qui contiennent une liste des noms latins de chaque espèce. \"species_suit200\" est un habitat approprié pour une espèce dont le site de reproduction se situe à moins de 200 m, \"species_suit500\" pour 500 m et \"species_suit1000\" pour 1000 m. La carte est basée sur le lien spatial de la Carte des parcelles agricoles suisses de 2021 (KGK-CGC. (2022). Agricultural Landuse 2021. https://geodienste.ch/) et les cartes d'aptitude et de répartition de chacune des 11 espèces d'amphibiens. La carte des parcelles agriocoles suisse distingue les parcelles agricoles de base et les élément superposés tels que les surfaces de promotion de la biodiversité (SPB) et les petites structures. Dans l'infrastructure des géodonnées, seul l'ensemble de données contenant les parcelles agricoles de base est disponible. Pour plus de détails, voir la description des données ci-jointe. Literature: Churko G., Szerencsits E., Aldrich A., Schmidt B. R. (2024). Spatial analysis of the potential exposure of amphibians to plant protection products at the landscape scale. Basic and Applied Ecology, 76, 14-24. https://doi.org/10.1016/j.baae.2024.02.004",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.amphibien-bedeutung_parzellen:wmts",
+    "title": "Agriculture et amphibiens",
+    "type": "Dataset"
+  }
+}

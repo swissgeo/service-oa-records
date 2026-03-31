@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrogeologische-karte_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrogeologische-karte_100?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrogeologische-karte_100?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/grundwasser-karten",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b01523a1-9f61-43a2-95cb-be843cc1b18a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Herausgegeben vom Bundesamt für Umwelt BAFU, der zuständigen Fachstelle der Landesgeologie für die Hydrogeologie. Die Hydrogeologische Karte 1:100‘000 zeigt den Untergrund aus der Sicht von drei Fachbereichen: der Geologie, Hydrologie und Hydrogeologie. Der Untergrund ist nach lithologisch-petrografischen Kriterien und der Durchlässigkeit klassiert. Punkt- und Liniendaten (Quellen, Brunnen, hydraulische Verbindungen, Grundwasservorkommen etc.) zeigen die Zirkulationswege des Grundwassers und dessen Nutzung an Förderbrunnen und Quellfassungen. Die Darstellung im Massstab 100'000 gibt Einblick in die regionalen hydrogeologischen Gegebenheiten. Folgende Karten sind verfügbar: 1. Bözberg/Beromünster, 1972; 2. Bodensee, 1980; 3. Panixerpass, 1985; 4. Biel, 1991/92; 5. Toggenburg, 1993/94; 6. Saane, 1999; 8. Vallorbe - Léman nord, 2006; 7. Basel, 2014. Für die NW-Schweiz wurde ein blattschnittfreier Vektordatensatz der Kartenblätter 4, 6, 7, 8 erstellt. Die Daten können beim BAFU bezogen werden (www.bafu.admin.ch  Daten, Karten, Indikatoren).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologische-karte_100:wmts",
+    "title": "Hydrogeologische Karte 100",
+    "type": "Dataset"
+  }
+}

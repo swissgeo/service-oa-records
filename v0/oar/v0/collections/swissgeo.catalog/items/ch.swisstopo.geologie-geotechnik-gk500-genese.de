@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geotechnik-gk500-genese",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotechnik-gk500-genese?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotechnik-gk500-genese?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://georessourcen.ethz.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/65652bdd-76e3-4df2-9329-140a04a2a66c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Fachgruppe Georessourcen Schweiz",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die lithologische Karte der Schweiz – Genese 1:500'000 liefert eine Übersicht des Untergrundes klassiert nach der Art der Entstehung der Gesteine, z.B. Ablagerungen von Flüssen und Gletschern, Erstarrung von Magmen oder Umwandlung kristalliner Gesteine durch Druck- und Temperatureinwirkung.Die Geometrie der Polygone wurde unverändert von der geologischen und tektonischen Karte der Schweiz übernommen. Die Polygone wurden mit Hilfe der lithologisch-petrografischen Karte 1:200'000 zusätzlich attribuiert.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotechnik-gk500-genese:wmts",
+    "title": "Entstehung der Gesteine 500",
+    "type": "Dataset"
+  }
+}

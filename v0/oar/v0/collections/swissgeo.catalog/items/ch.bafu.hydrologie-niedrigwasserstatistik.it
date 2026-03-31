@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrologie-niedrigwasserstatistik",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrologie-niedrigwasserstatistik?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrologie-niedrigwasserstatistik?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/statistica-sulle-magre",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/5cfc8b95-c901-44b9-baa3-b768a5edb647",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per la descrizione degli eventi di magra entrano in linea di conto numerosi parametri diversi. La statistica elaborata dalla divisione Idrologia dell’Ufficio federale dell'ambiente si basa sulle raccomandazioni dell’associazione tedesca di economia idrica e ingegneria rurale Deutscher Verband für Wasserwirtschaft und Kulturbau (DVWK 1982/1992; oggi DWA). Essa comprende i valori annuali della portata media minima nell’arco di un determinato numero di giorni x (NMxQ). L’indicatore NMxQ è rilevante per la pianificazione di prelevamenti o scarichi. I dati vengono aggiornati annualmente.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-niedrigwasserstatistik:wmts",
+    "title": "Statistica delle magre",
+    "type": "Dataset"
+  }
+}

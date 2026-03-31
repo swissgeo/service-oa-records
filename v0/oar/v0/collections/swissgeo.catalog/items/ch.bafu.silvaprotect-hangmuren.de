@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.silvaprotect-hangmuren",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-hangmuren?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.silvaprotect-hangmuren?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/silvaprotect",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e1f63878-1ddd-4a51-9d3b-f0f077990357",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Hangmuren ereignen sich am freien Hang, unabhängig von einem Gerinne. Sie sind oberflächlich abfahrende, schnell fliessende Gemische aus Lockergestein (meist nur Boden und Vegetation) und viel Wasser. Der verhältnismässig grosse Wasseranteil hat eine grosse Prozessgeschwindigkeit (1 - 10 m/s) mit entsprechend zerstörender Wirkung. Dadurch ist auch die von der Materialverfrachtung betroffene Fläche oft um einen Faktor von 10 bis 100 grösser als die oftmals sehr kleine Anrissfläche. Der vorliegende Layer zeigt eine Übersichts-Gefahrenhinweiskarte der potentiellen Hangmurenflächen beruhend auf Modellierungen des Prozesses Hangmuren im Projekt SilvaProtect-CH. Die Hangmurenprozesse sind ohne Wirkung des Waldes modelliert.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.silvaprotect-hangmuren:wmts",
+    "title": "Hangmuren (SilvaProtect-CH)",
+    "type": "Dataset"
+  }
+}

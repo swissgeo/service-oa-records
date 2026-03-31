@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wrz-wildruhezonen_portal",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wrz-wildruhezonen_portal?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wrz-wildruhezonen_portal?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wildruhezonen.ch/news/aenderungen-und-allgemeine-hinweise",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/4a0c8bc7-89d1-484e-a34a-454a31267c41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU, Kantone",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Wildtiere brauchen Rückzugsgebiete in welchen sie nicht gestört werden. Die Ausscheidung von Wildruhezonen dient der Vermeidung übermässiger Störung gemäss Art. 7 Abs 4 des JSG als Antwort auf die zunehmende Freizeitnutzung. Es gibt heute rechtsverbindliche Wildruhezonen und Schutzgebiete, die über den Rechtssetzungsprozess ausgeschieden sind (kantonales Jagdrecht, kommunale Zonenplanung, etc.), wie auch empfohlene Gebiete. Innerhalb von rechtsverbindlichen Wildruhezonen und Wildtierschutzgebieten dürfen nur die in der Karte eingezeichneten erlaubten Routen und Wege begangen werden. Nicht eingezeichnet sind präparierte (Langlauf-)Loipen, Winterwanderwege und im Winter geräumte oder befahrbare Strassen. Diese dürfen von Schneesportlern selbstverständlich begangen werden. In empfohlenen Wildruhezonen sind die erlaubten Routen und Wege als Empfehlungen zu verstehen. Der Stand der Arbeiten in den Kantonen ist zur Zeit sehr unterschiedlich, weshalb der Datensatz Lücken aufweist. Die Karte wird mindestens jährlich (zu Winterbeginn) aktualisiert. Bitte beachten Sie die allgemeinen Hinweise und Änderungen (z.B. Perimeteranpassungen) unten, welche in der Karte noch nicht berücksichtigt werden konnten. Die Kampagne \"Respektiere deine Grenzen\" setzt sich für den Schutz der Wildtiere und die Bekanntmachung der Wildruhezonen in der Bevölkerung ein.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-wildruhezonen_portal:wmts",
+    "title": "Wildruhezonen",
+    "type": "Dataset"
+  }
+}

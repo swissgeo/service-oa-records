@@ -1,0 +1,101 @@
+{
+  "id": "ch.blw.hang_steillagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.hang_steillagen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.hang_steillagen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/hanglagen.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/689dcf53-f025-4ea2-890a-dfcebca5812f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for Agriculture FOAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In order to take the difficult production and living conditions in agriculture adequately into consideration, slope subsidies have been established for areas eligible for direct payments. A slopes dataset has been created for general direct payments (GeoIV 152.1; DSO Art. 43) and a dataset for vineyards on slopes for viticulture payments (GeoIV 152.2; DSO Art. 45). There are different categories of slope gradient. The slopes dataset is part of the data used to calculate the agricultural direct payments on the basis of a geographic information system (GIS). Standardised calculations have been produced for the whole of Switzerland. The production is based on the \"SwissAlti3D\" terrain model from swisstopo. A distinction is made between the following slope gradient categories: <18; 18-35; 35-50; >50 percent. Sloping areas less than 100 square metres in size were not taken into consideration.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.hang_steillagen:wmts",
+    "title": "Hillside and steep slopes situation",
+    "type": "Dataset"
+  }
+}

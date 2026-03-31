@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrogeologie-uebersichtskarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrogeologie-uebersichtskarte?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrogeologie-uebersichtskarte?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/grundwasser-karten",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e238580b-a03d-45c2-9ea6-f6634ff9c64c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Grundwasser kommt in allen Gesteinen des Untergrundes vor. Die Karte gibt eine hydrogeologische Übersicht der Schweiz mit den verschiedenen Grundwasserleitertypen. Bedeutende Lockergesteins-Grundwasserleiter sind vor allem entlang der grossen Flüsse des Mittellandes sowie in den Alpentälern ausgebildet. Unterschiedliche Formen von Kluft-Grundwasserleitern sind in weiten Teilen des Mittellandes und der Alpen, Karst-Grundwasserleiter in den Alpen und entlang des Jura verbreitet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologie-uebersichtskarte:wmts",
+    "title": "Übersichtskarte Hydrogeologie",
+    "type": "Dataset"
+  }
+}

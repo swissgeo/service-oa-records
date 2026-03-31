@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.pixelkarte-pk25.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-pk25.metadata?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-pk25.metadata?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/78f00172-59ec-4b38-9106-cdddfb40e514",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Swiss Map Raster 25 est la carte nationale numérique de la Suisse au 1:25 000 en format raster. Le jeu de données «Découpage Swiss Map Raster 25» comprend le périmètre, le numéro et le nom de chaque feuille de carte. Pour chaque périmètre, l'état actuel du contenu de la carte ainsi que les éventuelles mises à jour individuelles sont indiqués. La fonction « Voyage dans le temps » permet de déterminer l'état passé des données des feuilles.Les Swiss Map Raster les plus récentes peuvent être téléchargées sous forme de fichier TIF géoréférencé (format raster), soit par feuille, soit par un découpage individualisé. Elles sont à dispositions en couleurs combinées (508 dpi) ainsi que par couches de couleurs séparées (données binaires 508 dpi).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-pk25.metadata:wms",
+    "title": "Découpage carte nationale 25 Raster",
+    "type": "Dataset"
+  }
+}

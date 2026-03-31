@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.klima-co2_ausstoss_gebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.klima-co2_ausstoss_gebaeude?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.klima-co2_ausstoss_gebaeude?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/calcolatore-co2-edifici",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/60ea1623-d68f-4deb-bce0-850a19b67e22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel loro insieme gli immobili svizzeri sono responsabili di circa un quarto delle emissioni di CO2. Le riduzioni in questo settore sono fondamentali per raggiungere gli obiettivi climatici. </p><p> LCon la mappa «Emissioni di CO2 degli edifici (SIA 380/1)» è possibile stimare le emissioni di CO2 prodotte da ogni edificio abitativo. Queste emissioni di CO2 sono calcolate per condizioni normali per il fabbisogno di calore per il riscaldamento e di acqua calda. Per il calcolo vengono messi a disposizione i dati di input ricavati dal Registro federale degli edifici e delle abitazioni (REA) dell'Ufficio federale di statistica . Questi dati non sono aggiornati ovunque e non includono informazioni sufficienti sulle ristrutturazioni degli edifici. Un calcolatore interattivo consente di simulare come cambiano le emissioni di CO2 quando si tiene conto di ristrutturazioni energetiche o di un cambiamento della fonte di energia. I dati inseriti non vengono memorizzati. È possibile utilizzare questo strumento per ogni edificio alla voce ”Informazioni oggetto”.</p><p> Le informazioni sono da intendersi come una stima approssimativa e non rappresentano dati ufficiali o vincolanti.</p><p> La visualizzazione della CO2 con il calcolatore di CO2 crea trasparenza e dimostra che è particolarmente importante mantenere aggiornati i dati del REA. I proprietari degli edifici possono contribuire a mantenere aggiornati i dati climatici ed energetici del proprio edificio nel REA. Un link alla voce \"Informazioni oggetto\" per ogni edificio contiene una descrizione di come segnalare eventuali dati obsoleti. </p><p> Per ulteriori informazioni, consultare il sito https://www.bafu.admin.ch/it/calcolatore-co2-edifici .",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Emissioni di CO₂ degli edifici (SIA 380/1)",
+    "type": "Dataset"
+  }
+}

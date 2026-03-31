@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wrz-wildruhezonen_portal",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wrz-wildruhezonen_portal?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wrz-wildruhezonen_portal?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wildruhezonen.ch/news/aenderungen-und-allgemeine-hinweise",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4a0c8bc7-89d1-484e-a34a-454a31267c41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les animaux sauvages ont besoin de sites de repli dans lesquels ils ne sont pas dérangés. Selon la loi fédérale sur la chasse (art. 7, al. 4 LChP) les zones de tranquillité pour la faune sauvage servent à éviter des dérangements excessifs causés par l’augmentation des activités de loisirs. Il existe des zones de tranquillité contraignantes et des zones de tranquillité recommandées. Les zones de tranquillité contraignantes sont délimitées par le biais d’un processus législatif (p. ex. via la loi cantonale sur la chasse ou le plan directeur communal). A l'intérieur des zones de tranquillité et des sites de protection contraignantes, seuls les routes et les chemins figurant sur la carte peuvent être empruntés. Les pistes (de ski de fond), les sentiers de randonnées hivernales et les itinéraires dégagés ou accessibles en hiver ne sont pas représentés. Naturellement, ceux-ci peuvent être empruntés par les randonneurs. Dans les zones de tranquillité recommandées, les routes et les chemins autorisés sont à comprendre comme recommandés. L'avancement de la saisie des données varient considérablement d'un canton à l'autre. C'est pourquoi le jeu de données actuel présente quelques lacunes. La carte est actualisée au moins une fois par an (au début de l’hiver).Merci de respecter les remarques générales ainsi que les modifications ci-dessous (ex. modification de périmètre) qui n'ont pas encore pu être prises en compte sur la carte. La campagne \"Respecter, c'est protéger\" s'engage pour la protection de la faune et pour faire connaître les zones de tranquillité au grand public.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-wildruhezonen_portal:wmts",
+    "title": "Zones de tranquillité",
+    "type": "Dataset"
+  }
+}

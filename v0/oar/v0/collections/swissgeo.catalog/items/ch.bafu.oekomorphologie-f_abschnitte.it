@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.oekomorphologie-f_abschnitte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.oekomorphologie-f_abschnitte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.oekomorphologie-f_abschnitte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/sist-mod-graduale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ea12e280-75cf-4b71-90f0-d2bcc9d7fdfa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per garantire una protezione globale di un corso d’acqua occorre conoscerne lo stato. Il sistema modulare graduale definisce il quadro per un’analisi e una valutazione standardizzate dei corsi d’acqua. Questo sistema include i seguenti moduli: idrologia, struttura dei corsi d’acqua (ecomorfologia), chimica delle acque, ecotossicologia e biocenosi animali, vegetali e di microrganismi (biologia). Il modulo Ecomorfologia permette di analizzare le proprietà strutturali dei corsi d’acqua di intere regioni, ad esempio Cantoni, regioni e Comuni (livello R). Il layer «Tratti» presenta la classificazione dei singoli tratti di corsi d’acqua (da naturali ad artificiali e coperti). Questa classificazione si basa sulla valutazione sommaria di criteri ecologici importanti quali ad esempio la natura della zona riparia.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.oekomorphologie-f_abschnitte:wmts",
+    "title": "Ecomorfologia R - Tratti",
+    "type": "Dataset"
+  }
+}

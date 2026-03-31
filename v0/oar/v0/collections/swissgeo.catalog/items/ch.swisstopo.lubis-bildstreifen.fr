@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.lubis-bildstreifen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lubis-bildstreifen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lubis-bildstreifen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/bildstreifen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7392cfbf-2f3b-446f-934f-604bc9410978",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pour la mise à jour de la carte nationale et la production de la mosaïque d'orthophotos SWISSIMAGE, swisstopo couvre toute la surface de la Suisse avec des bandes d’images aériennes dans un cycle de 3 ans. Depuis 2008, des caméras numériques de type ADS sont utilisées. Ce système réalise des prises de vue par bande, contrairement aux caméras à images individuelles. Toutes les bandes d’images aériennes comportent les canaux pan, infrarouge, rouge, vert et bleu. Les bandes d’images sont représentées par leur position, par la zone couverte (footprint) ainsi que par des métadonnées. Les bandes d’images aériennes peuvent être commandées sous forme de fichiers numériques incluant les éléments d’orientation.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lubis-bildstreifen:wms",
+    "title": "Bandes d'images aériennes swisstopo",
+    "type": "Dataset"
+  }
+}

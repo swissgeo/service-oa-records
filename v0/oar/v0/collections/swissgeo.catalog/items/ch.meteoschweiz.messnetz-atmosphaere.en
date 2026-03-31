@@ -1,0 +1,101 @@
+{
+  "id": "ch.meteoschweiz.messnetz-atmosphaere",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-atmosphaere?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-atmosphaere?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8a1f0d78-5415-4b25-ac08-f4c8d632af39",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "MeteoSwiss monitors the atmosphere and measures its properties and composition. To do so, it uses various instruments and methods, including radio soundings, remote sensing devices, aircraft measurements and satellites. This allows for total concentrations and profiles to be measured on the basis of various parameters (temperature, humidity, wind, aerosols, ozone) and thus also for the vertical dimension to be shown. The requirements relating to the collection of meteorological measurement data are derived from the Federal Law on Meteorology and Climatology (MetG). MeteoSwiss creates monitoring concepts which take account of the requirements of other Federal Offices. These concepts define which parameters are measured and for what purpose, as well as where the measurements are taken and using what system.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Atmosphere stations",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gletschermaechtigkeit",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletschermaechtigkeit?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gletschermaechtigkeit?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.glamos.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/57052989-5074-4841-abb6-22d1989d615f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Schweizerische Gletschermessnetz (GLAMOS) bezweckt die langfristige Dokumentation der Gletscher-Veränderungen in der Schweiz. Die Versuchsanstalt für Wasserbau, Hydrologie und Glaziologie (VAW) und andere GLAMOS-Institutionen erheben systematisch Daten zur Entwicklung der Fläche, des Volumens, aber auch der Schneeakkumulation und Schmelze von Eis sowie der Gletscherfliessbewegung und Eistemperaturen. Die Bestimmung der Eisdicke und die Schätzungen des gesamten Eisvolumens in den Schweizer Alpen basieren auf Georadar-Messungen kombiniert mit glaziologischen Berechnungs-Verfahren. Bis 2015 wurden im Rahmen von verschiedenen Projekten rund 1500 km Radarprofile auf Schweizer Gletschern erfasst. Danach wurden rund 1250 km Radarprofile mit einem an der ETH Zürich neu entwickelten, hubschraubergetragenen System erhoben. Um zwischen den gemessenen Radarprofilen zu interpolieren und das Gesamteisvolumen zu berechnen, hat die ETH Zürich zwei verschieden, unabhängige Algorithmen entwickelt, die sich auf die Prinzipien des Eisfliessens stützen. Aus den bis 2020 inzwischen vorliegenden Eisdickenmessungen und der Kenntnis der Gletscherflächen und Oberflächentopographie konnte so schliesslich die flächendeckende Verteilung der Eisdicke aller Gletscher ermittelt werden. Daraus wurde zudem auch die Topographie des Gletscherbettes abgeleitet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletschermaechtigkeit:wmts",
+    "title": "Gletschermächtigkeit",
+    "type": "Dataset"
+  }
+}

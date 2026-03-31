@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.envidat.ch/#/metadata/vegetation-height-model-sentinel-nfi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/da98f1ff-d427-4e8f-b4fc-691e6ff31ed0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I modelli di altezza della vegetazione (MAV) a livello nazionale sono stati generati per la Svizzera sulla base delle immagini Copernicus Sentinel-2 e del modello digitale del terreno (DTM) swissALTI3D dell'Ufficio federale di topografia swisstopo. È stato addestrato un modello di rete neurale convoluzionale (CNN) per stimare l'altezza massima della vegetazione alla risoluzione spaziale del pixel Sentinel-2 di 10 m. Le altezze della vegetazione ricavate dal MAV Lidar IFN, con una risoluzione spaziale più elevata, sono state utilizzate come dati di riferimento per l'addestramento della CNN. Nell'ambito dell'Inventario forestale nazionale svizzero (IFN), i MAV sono stati modellati annualmente sulla base delle immagini Sentinel-2 disponibili da maggio a settembre dell'anno corrispondente. Ulteriori dettagli sulla creazione del MAV Sentinel IFN sono disponibili nell'articolo di Jiang et al. (2023, https://doi.org/10.1016/j.srs.2023.100099). Contiene dati Copernicus Sentinel modificati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel:wmts",
+    "title": "Altezza della Vegetazione Sentinel IFN",
+    "type": "Dataset"
+  }
+}

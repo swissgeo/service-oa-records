@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messnetz-atmosphaere",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-atmosphaere?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-atmosphaere?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteosvizzera.admin.ch/tempo/i-sistemi-di-rilevamento/atmosfera.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8a1f0d78-5415-4b25-ac08-f4c8d632af39",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di meteorologia e climatologia MeteoSvizzera",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "MeteoSvizzera monitora l'atmosfera e ne misura le caratteristiche e la composizione avvalendosi di molteplici strumenti e metodi, tra cui i radiosondaggi, gli strumenti di telerilevamento, le misurazioni dagli aerei e i satelliti. In tal modo si rilevano il tenore complessivo e i profili di diversi parametri (temperatura, umidità, vento, aerosol, ozono), quindi anche la loro dimensione verticale. I requisiti del rilevamento di dati meteorologici sono stabiliti dalla Legge federale sulla meteorologia e la climatologia (LMet). MeteoSvizzera elabora i concetti di misurazione tenendo conto delle esigenze di altri uffici federali. In tali concetti si definisce quali grandezze meteorologiche sono misurate a quale scopo, dove e con quale sistema.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Stazioni atmosfera",
+    "type": "Dataset"
+  }
+}

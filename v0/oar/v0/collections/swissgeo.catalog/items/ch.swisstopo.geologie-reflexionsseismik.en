@@ -1,0 +1,96 @@
+{
+  "id": "ch.swisstopo.geologie-reflexionsseismik",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-reflexionsseismik?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-reflexionsseismik?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/61866340-a491-444a-8f60-9a6e70df37d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "This map shows the location of seismic reflection data acquired in Switzerland for the exploration of the geological subsurface. The majority of these are two-dimensional measurements (2D) along the profile traces shown. Three-dimensional measurements (3D) cover the areas within the shown perimeters. Seismic lines and surveys can be located by entering their name in the search field. Downloading is possible for many of the processed seismic datasets that are publicly available. For more detailed information on other seismic data (raw, non-public etc.), please contact the rights holder directly. This map is continuously updated and does not claim to be complete.<br><br> References: <ul> <li>Ebert, A., Genoni, O. & Häring, M. (2013): Structural geology of Central Switzerland – results of seismic campaign in 2011 in cantons Nid- and Obwalden. Swiss Bull. Angew. Geol., 18/1, 51-59.</li> <li>Fabbri S. et al. (2021): Active Faulting in Lake Constance (Austria, Germany, Switzerland) Unraveled by Multi-Vintage Reflection Seismic Data. Front. Earth Sci. 9:670532.</li> <li>Gruber, M. (2017): Structural investigations of the western Swiss Molasse Basin – From 2D seismic interpretation to a 3D geological model. – PhD Thesis Univ. Fribourg.</li> <li>Nagra (1993): Résultats des recherches effectuées sur le site potentiel du Bois de la Glaive (Commune d'Ollon, VD): Recherches sur l'aptitude des sites à accueillir un dépot final de déchets faiblement et moyennement radioactifs à vie courte. NTB 93-29.</li> <li>Nagra (1997): Geosynthese Wellenberg 1996 – Ergebnisse der Untersuchungsphasen I und II. Nagra Tech. Ber. NTB 96-01.</li> <li>Meier, B. P. (2010): Ergänzende Interpretation reflexionsseismischer Linien zwischen dem östlichen und westlichen Molassebecken. Gebiete Waadtland Nord, Fribourg, Berner Seeland und Jurasüdfuss zwischen Biel und Oensingen. – Nagra Arbeitsber. NAB 10-40.</li> <li>Roth, P., Naef, H. & Schnellmann, M. (2010): Kompilation und Interpretation der Reflexionsseismik im Tafeljura und Molassebecken der Zentral- und Nordostschweiz. – Nagra Arbeitsber. NAB 10-39.</li> <li>Sommaruga, A., Eichenberger, U. & Marillier, F. (2012): Seismic Atlas of the Swiss Molasse Basin. – Matér. Géol. Suisse, Géophys. 44.</li> </ul>",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-reflexionsseismik:wmts",
+    "title": "Reflection seismic",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ch.astra.sachplan-infrastruktur-strasse_anhoerung",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.astra.sachplan-infrastruktur-strasse_anhoerung:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.sachplan-infrastruktur-strasse_anhoerung?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.astra.sachplan-infrastruktur-strasse_anhoerung:wms:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.astra.sachplan-infrastruktur-strasse_anhoerung",
+  "type": "Collection"
+}

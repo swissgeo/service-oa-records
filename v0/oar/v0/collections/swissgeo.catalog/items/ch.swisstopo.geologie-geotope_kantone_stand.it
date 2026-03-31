@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geotope_kantone_stand",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotope_kantone_stand?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotope_kantone_stand?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://geo.scnat.ch/it/projects/wg_geotopes",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c4d2c1b0-b075-4d7b-be7c-54d26411cda3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SCNAT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il Gruppo di progetto Geotopi (Accademia svizzera di scienze naturali SCNAT) centralizza tutti i geodati relativi agli inventari cantonali dei geotopi in una banca dati SIG. L'obiettivo è quello di ottenere una panoramica nazionale degli inventari dei geotopi a livello cantonale. La mappa mostra lo stato attuale degli inventari cantonali dei geotopi. Essa facilita l'accesso alle informazioni e ai geodati degli inventari cantonali dei geotopi. «Inventario accessibile» indica gli inventari dei geotopi che sono accessibili prevalentemente attraverso un geoportale cantonale. «Inventario disponibile presso il Cantone» - in questo caso, gli interessati devono inviare le loro richieste agli uffici cantonali. «Nessun inventario» significa che il Cantone non dispone attualmente di un inventario dei geotopi, oppure, in alcuni casi, questi inventari sono in corso di elaborazione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotope_kantone_stand:wmts",
+    "title": "Stato dei geotopi cantonali",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.klima-co2_ausstoss_gebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.klima-co2_ausstoss_gebaeude?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.klima-co2_ausstoss_gebaeude?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/calculateur-co2-batiments",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/60ea1623-d68f-4deb-bce0-850a19b67e22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le parc immobilier suisse est responsable d'environ un quart des émissions de CO2. Des réductions dans ce domaine sont essentielles pour atteindre les objectifs climatiques.</p><p> La carte « Emissions de CO2 des bâtiments (SIA 380/1) » permet d'estimer les émissions de CO2 de chaque immeuble d'habitation. Ces émissions de CO2 sont calculées pour un besoin de chauffage et d'eau chaude dans des conditions normalisées. Pour le calcul, sont utilisées les données publiques du Registre fédéral des bâtiments et des logements RegBL de l'Office fédéral de la statistique. Ces données ne sont pas toutes à jour et ne contiennent pas suffisamment d'informations sur la rénovation des bâtiments. Un calculateur interactif de CO₂ permet de simuler comment la valeur de CO2 évolue si les rénovations énergétiques sont prises en compte ou si un changement de source d'énergie est effectué. Les données saisies ne sont pas sauvegardées. Vous pouvez utiliser cet outil pour chaque bâtiment sous \"Informations sur l'objet\". </p><p> Les données doivent être considérées comme une estimation approximative et ne constituent pas des données officielles ou contraignantes.</p><p> La visualisation du CO2 à l'aide du calculateur de CO2 crée de la transparence et montre qu'il est particulièrement important de tenir à jour les données RegBL. Les propriétaires fonciers peuvent contribuer à l'actualisation des données climatiques et énergétiques des bâtiments dans le RegBL. Un lien sous \"Information sur l'objet\" pour chaque bâtiment décrit comment signaler les éventuelles données obsolètes.</p><p> Vous trouverez de plus amples informations sous https://www.bafu.admin.ch/fr/calculateur-co2-batiments .",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Émissions de CO₂ des bâtiments (SIA 380/1)",
+    "type": "Dataset"
+  }
+}

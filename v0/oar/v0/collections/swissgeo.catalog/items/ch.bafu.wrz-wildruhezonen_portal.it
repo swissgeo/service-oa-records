@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wrz-wildruhezonen_portal",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wrz-wildruhezonen_portal?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wrz-wildruhezonen_portal?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wildruhezonen.ch/news/aenderungen-und-allgemeine-hinweise",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/4a0c8bc7-89d1-484e-a34a-454a31267c41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM, cantoni",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La fauna selvatica ha bisogno di zone in cui ritirarsi per poter vivere indisturbata. Conformemente alla legge sulla caccia (art. 7 cpv. 4 LCP), lo scopo di queste zone è prevenire un eccessivo disturbo della fauna selvatica a fronte della crescente utilizzazione del territorio per le attività del tempo libero. Esistono zone vincolanti e zone raccomandate. Le zone vincolanti sono istituite mediante processo legislativo (p. es. legislazione cantonale sulla caccia, pianificazione comunale delle zone). All’interno delle zone di tranquillità e delle siti de protezione vincolanti, solo strade e sentieri segnalate sulla carta possono essere percorsi. Non sono invece segnalati le piste per lo sci di fondo, i percorsi escursionistici invernali e le strade sgomberate dalla neve o rese percorribili d’inverno. L’accesso è consentito alle persone che praticano sport invernali. Nelle zone di tranquillità raccomandate, le strade e i percorsi autorizzati sono da ritenere come raccomandate. Lo stato dell’inserimento dei dati varia notevolmente da un cantone all'altro. Per questo motivo il set di dati attuale presenta alcune lacune. La carta viene aggiornata almeno una volta l’anno (a inizio della stagione invernale).Vi preghiamo di rispettare le osservazioni generali e le modifiche qui di seguito (per esempio modifica del perimetro) che non sono ancora state prese in considerazione sulla carta. La campagna \"Chi rispetta protegge\" è concepita per proteggere la fauna e per l'informazione alla popolazione in merito alle zone di tranquillità.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-wildruhezonen_portal:wmts",
+    "title": "Zone di tranquillità",
+    "type": "Dataset"
+  }
+}

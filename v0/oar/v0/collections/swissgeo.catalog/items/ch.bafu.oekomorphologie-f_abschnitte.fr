@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.oekomorphologie-f_abschnitte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.oekomorphologie-f_abschnitte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.oekomorphologie-f_abschnitte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/syst-mod-gradue",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ea12e280-75cf-4b71-90f0-d2bcc9d7fdfa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il est nécessaire de connaître l’état des cours d’eau pour en assurer une protection globale. Les données requises peuvent être obtenues grâce au système modulaire gradué, qui définit le cadre d’une analyse et d’une appréciation standardisées des cours d’eau. Ce système comprend les modules suivants: hydrologie, structure des cours d’eau (écomorphologie), chimie des eaux, écotoxicologie et biocénose animales, végétales et microorganismes (biologie).Le module Ecomorphologie permet d’analyser les propriétés structurelles des cours d’eau de régions entières, p.ex. des cantons, des régions et des communes (niveau R). La série de données « Tronçons » présente la classification des tronçons de cours d’eau de naturels à artificiels et endigués (géométrie de référence VECTOR25 GWN). Cette classification se base sur l’évaluation sommaire de critères écologiques importants tels que la nature des rives.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.oekomorphologie-f_abschnitte:wmts",
+    "title": "Ecomorphologie R - Tronçons",
+    "type": "Dataset"
+  }
+}

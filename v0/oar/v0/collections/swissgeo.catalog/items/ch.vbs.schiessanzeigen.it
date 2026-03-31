@@ -1,0 +1,97 @@
+{
+  "id": "ch.vbs.schiessanzeigen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.schiessanzeigen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.schiessanzeigen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/49b2cd7e-8513-4c8f-b3e6-ca8cd922b1cc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Esercito svizzero",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "C'è una rappresentazione delle zone di pericolo delle avvisi di tiro pubblicate dall'Esercito svizzero.Per ognuno di questi luoghi di tiro c'è la possibilità di vedere la pubblicazione di un avviso di tiro. Gli avvisi di tiro contengono l'occupazione prevista (giorni e orari di tiro) e altre informazioni sui pericoli (ad es. sbarramenti speciali, armi impegnate, altezza massima quando si sparano armi con traiettoria curva).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.schiessanzeigen:wmts",
+    "title": "Avvisi di tiro, zone pericolose pubblicato",
+    "type": "Dataset"
+  }
+}

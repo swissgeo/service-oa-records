@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.arealstatistik",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.arealstatistik?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.arealstatistik?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/fr/home/services/geostat/geodonnees-statistique-federale/sol-utilisation-couverture/statistique-suisse-superficie.assetdetail.32376297.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/8ac687ee-ad27-4ac7-8c1c-b64abee9e3b3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la statistique OFS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Utilisation du sol selon 72 catégories de base, agrégées en 27 ou 17 classes et 4 domaines principaux, relevée par interprétation visuelle de points d'échantillonnage distants de 100m et affichés sur des images aériennes digitales en 3 dimensions. On relève de manière distincte depuis 1979 la couverture et l'utilisation du sol, de sorte que chaque point d'échantillonnage se voit assorti de deux codes. On peut ainsi soit considérer seuls le type de couverture ou le mode d'utilisation, soit combiner ces deux caractères. La nomenclature standard (NOAS04) selon 17 classes est représentée ici visuellement.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.arealstatistik:wmts",
+    "title": "Statistique de la superficie standard",
+    "type": "Dataset"
+  }
+}

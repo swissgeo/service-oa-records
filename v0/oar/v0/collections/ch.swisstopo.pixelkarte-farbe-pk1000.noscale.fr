@@ -1,0 +1,73 @@
+{
+  "id": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk1000.noscale?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMTS",
+        "title": "OGC Web Map Tile Service (WMTS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk1000.noscale?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.pixelkarte-farbe-pk1000.noscale:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk1000.noscale?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.swisstopo.pixelkarte-farbe-pk1000.noscale",
+  "type": "Collection"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.erneuerbarheizen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.erneuerbarheizen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/conseil-incitatif",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/0f756190-b7f7-4a4b-94db-696ed67676a4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Dans le cadre du conseil incitatif « chauffez renouvelable », les propriétaires de bâtiments utilisant un système de chauffage au mazout, au gaz ou à l'électricité sont informés sur les sources de chaleur renouvelables permettant de chauffer de manière optimale leur bâtiment tout en minimisant les émissions de CO2. Un conseiller rend visite au propriétaire à domicile et discute, dans le cadre de l'entretien de conseil, des besoins en énergie du bâtiment, des facteurs propres au site ainsi que des souhaits du propriétaire. Le conseiller examine ces éléments et établit une check-list contenant des informations sur la situation actuelle du bâtiment et des recommandations sur le remplacement du système de chauffage. Cette check-list fournit au propriétaire une bonne base pour obtenir les offres adéquates et ainsi initier un projet de rénovation avec succès. Cette base de données contient tous les prestataires de conseil incitatif formés dans le cadre du programme « chauffez renouvelable » et répondant aux critères de qualité requis.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.erneuerbarheizen:wms",
+    "title": "Conseil incitatif petits bâtiments",
+    "type": "Dataset"
+  }
+}

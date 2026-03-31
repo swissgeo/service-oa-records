@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geosites",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geosites?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geosites?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.erlebnis-geologie.ch/ueber-uns/erlebnis-geologie/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/af46b0e7-25b4-49ca-a357-c0ab6e794dd6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Erlebnis Geologie",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "«Erlebnis Geologie» bezweckt die Bewusstseinsförderung der breiten Öffentlichkeit für die Bedeutung der Geologie. Dazu nutzt der Verein unter anderem eine Internetplattform (www.erlebnis-geologie.ch), auf der die Veranstalter von Anlässen mit einem Geologiebezug ihre eigenen Angebote bekannt machen können (Exkursionen, geowissenschaftliche Führungen für die breite Öffentlichkeit, geologische Lehrpfade, Vorträge). Diese Vernetzung von geowissenschaftlichen Aktivitäten auf einer Plattform ermöglicht eine verstärkte Verbreitung und Sichtbarkeit. Sie können Geosites ohne Voranmeldung besuchen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geosites:wms",
+    "title": "Geosites",
+    "type": "Dataset"
+  }
+}

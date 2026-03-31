@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.energieforschung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energieforschung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energieforschung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/bfe/de/home/forschung-und-cleantech/pilot-und-demonstrationsprogramm.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/5bbd5006-448d-48ce-86ec-d7d285257534",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Bundesamt für Energie BFE fördert mit dem Pilot- und Demonstrationsprogramm (P+D-Programm) die Entwicklung und Erprobung von neuen Technologien, Lösungen und Ansätzen im Bereich der sparsamen und effizienten Energienutzung, der Energieübertragung und -speicherung sowie der Nutzung erneuerbarer Energien. Das P+D-Programm positioniert sich an der Schnittstelle zwischen Forschung und Markt und hat das Ziel, den Reifegrad von neuen Technologien zu erhöhen, um sie letztendlich zur Marktreife zu bringen. Dieser Datenbestand enthält aktuelle Pilot- und Demonstrationsprojekte, welche vom Bundesamt für Energie unterstützt werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieforschung:wms",
+    "title": "Pilot- und Demonstrationsprojekte",
+    "type": "Dataset"
+  }
+}

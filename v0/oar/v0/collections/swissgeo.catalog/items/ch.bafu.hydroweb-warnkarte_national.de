@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydroweb-warnkarte_national",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-warnkarte_national?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-warnkarte_national?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.hydrodaten.admin.ch/de/hochwasserkarte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e1d0c17a-0dbd-4455-bc83-1606e1e04298",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Hochwasserwarnkarte zeigt die aktuelle Hochwassergefahr (Stufe 1 bis 5) für alle Fliessgewässer und Seen von gesamtschweizerischem Interesse sowie für die Regionen in Bezug auf kleine und mittlere Fliessgewässer.Die Fliessgewässer von gesamtschweizerischem Interesse sind in einzelne Flussabschnitte unterteilt. Zu jedem einzelnen Flussabschnitt ist eine Abflussmessstation definiert. Die Vorhersage beruht auf einem hydrologischen Modell und verschiedenen Wettermodellen. Abhängig von der Einschätzung und Interpretation der verschiedenen Modelle durch die Prognostikerinnen und Prognostiker werden die einzelnen Flussabschnitte und Seen entsprechend der Gefahrenstufe farblich gekennzeichnet. Bei Bedarf fordern die Prognostikerinnen und Prognostiker des BAFU bei MeteoSchweiz und/oder dem WSL-Institut für Schnee- und Lawinenforschung SLF genauere Auskünfte über die Wetterentwicklung und den Zustand der Schneedecke an. Das BAFU warnt und informiert auch dann, wenn lokal mit einem starken Anstieg der Abflüsse an kleinen und mittelgrossen Fliessgewässern zu rechnen ist. In solchen Fällen - insbesondere bei Gewittern mit Starkregen - kann nicht präzise vorausgesagt werden, welche Gewässer betroffen sein werden. Deshalb werden die voraussichtlich betroffenen Regionen auf der Hochwasserwarnkarte gekennzeichnet. Für kleine und mittelgrosse Fliessgewässer werden wegen den grösseren Unsicherheiten nur drei Gefahrenstufen unterschieden: keine oder geringe Gefahr (grün), mässige Hochwassergefahr (gelb) und grosse Hochwassergefahr (rot).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Hochwasserwarnkarte",
+    "type": "Dataset"
+  }
+}

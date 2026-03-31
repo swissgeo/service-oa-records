@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-hartsteinvorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hartsteinvorkommen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hartsteinvorkommen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/258c7ccf-5e7f-4759-9c09-519d41ba4d02",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Gruppo georisorse svizzere",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I granulati ottenuti dalla lavorazione della roccia dura svolgono un ruolo centrale nella costruzione e nella manutenzione della rete ferroviaria svizzera (massicciata ferroviaria) e di strade soggette a un forte carico di traffico. Per ulteriori informazioni: <a href=\"https://mat-min.ch/fr/rochesdures\" target=\"_blank\">www.mat-min.ch</a>. Questo set di dati (dimensioni delle celle raster: 50 x 50 m) fornisce una stima della distribuzione spaziale, della potenza (spessore) utilizzabile e della qualità delle unità geologiche contenenti roccia dura. Visualizzate sono solo le unità geologiche che si trovano a una quota inferiore a 1300 m s.l.m. e aventi una potenza superiore a 30 m. Il set di dati è stato sviluppato sulla base di profili geologici e descrizioni stratigrafiche e tramite un workflow automatizzato, applicato al set di dati GeoCover. Ulteriori informazioni sulle unità geologiche prese in considerazione sono consultabili nel <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf\" target=\"_blank\">Catalogo Rocce Dure</a>. Il workflow e la metodologia di valutazione applicata sono presentati nella <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_tech_doc_2024.pdf\" target=\"_blank\">Documentazione Tecnica</a> e in <a href=\"https://doi.org/10.1016/j.jsg.2023.104865\" target=\"_blank\">Nibourel et al. (2023)</a>. I siti di produzione e estrazione di rocce dure sono visualizzabili in un set di dati separato (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinabbau&topic=georessourcen\" target=\"_blank\">Roccia dura: siti di produzione e estrazione</a>).L'utente riconosce che gli autori hanno applicato tutti gli sforzi ragionevoli per verificare le informazioni contenute nel set di dati presentato. Non c'è alcuna garanzia che i dati siano corretti in qualsiasi punto del sottosuolo. In nessun caso l'editore sarà responsabile per qualsiasi perdita o danno di natura materiale o immateriale derivante dall'accesso, uso o non uso, abuso o difetti tecnici delle informazioni pubblicate. Nel caso si auspichi allo sviluppo di un sito di estrazione di materie prime, è essenziale condurre un'indagine geologica dettagliata in loco.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hartsteinvorkommen:wmts",
+    "title": "Roccia dura: Giacimenti",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-geomol-temperaturverteilung_4000",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol-temperaturverteilung_4000?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol-temperaturverteilung_4000?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/739e9095-77f6-462d-9a1e-438898cf0c9c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'un des principaux paramètres utilisé pour évaluer le potentiel géothermique du bassin molassique suisse est la répartition de la température sous la surface. Cette carte montre la distribution de la température et la position des failles à une profondeur de 4000 m sous la surface terrestre. Elle fait partie d'un ensemble de cartes montrant la répartition de la température sur des surfaces sélectionnées représentant des horizons marqueurs sismiques, des profondeurs fixes sous le niveau du sol ou des isothermes. Les surfaces des horizons géologiques sont extraites du modèle 3D GeoMol15 et les températures du modèle de température GeoMol15, composé de cellules régulières de taille 1000x1000x100 m. Ce modèle de température (en blocs) est dérivé du modèle de température en éléments finis (Geowatt AG, 2015), qui repose principalement sur 31 profils verticale de température et les horizons géologiques de <a href=\"https://www.geologieportal.ch/fr/themes/bases-de-la-geologie/geophysique/atlas-sismique.html\" target=\"_blank\">l'Atlas sismique du bassin molassique suisse (2012)</a>. La méthode de modélisation de la température en éléments finis se base uniquement sur un flux de chaleur par conduction et ne prend pas en compte de flux de chaleur par convection. Le modèle 3D GeoMol15 ainsi que le modèle de température associé sont disponibles pour une visualisation en ligne avec le <a href=\"https://viewer.geomol.ch/webgui/gui2.php\" target=\"_blank\">visualisateur GeoMol</a>. Veuillez également consulter la carte associée «<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten&topic=geol\" target=\"_blank\">Modèle de température - Données</a>» sur map.geo.admin.ch.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol-temperaturverteilung_4000:wmts",
+    "title": "Températures profondeur 4000 m",
+    "type": "Dataset"
+  }
+}

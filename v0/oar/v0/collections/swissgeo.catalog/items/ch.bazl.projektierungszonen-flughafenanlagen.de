@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.projektierungszonen-flughafenanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.projektierungszonen-flughafenanlagen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.projektierungszonen-flughafenanlagen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/projektierungszonen-flughafenanlagen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d76d6e8d-c6ac-40f3-92c0-2a953cb99d9f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Genau bezeichnetes Gebiet, in dem die Grundstücke für künftige Flughafenanlagen freizuhalten sind. Parzellenscharfe Darstellung mit einer Linie auf einem grossmassstäblichen Plan. Bauliche Veränderungen, die diesem Zweck widersprechen sind nicht gestattet. Befristete Wirkung von maximal 5 Jahren, mögliche Verlängerung um höchstens 3 Jahre. Rechtsgrundlage (LFG Art. 37n Abs. 1): «Das Bundesamt kann von Amtes wegen oder auf Antrag des Flugplatzhalters, des Kantons oder der Gemeinde für genau bezeichnete Gebiete Projektierungszonen festlegen, um Grundstücke für künftige Flughafenanlagen freizuhalten. …»",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.projektierungszonen-flughafenanlagen:wms",
+    "title": "Projektierungszonen Flughäfen",
+    "type": "Dataset"
+  }
+}

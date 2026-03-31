@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.solaranlagen-schutzinteressen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-schutzinteressen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-schutzinteressen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/it/impianti-fotovoltaici-al-suolo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2f2813b7-ca6c-44fc-a929-e5c107e48614",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dello sviluppo territoriale ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "È rappresentata una sintesi degli interessi di protezione rilevanti ai sensi del diritto federale e di altri interessi, in parte concorrenti, secondo il documento «Impianti fotovoltaici al suolo: base metodologica della Confederazione» (disponibile in tedesco o francese). La sintesi non è esaustiva, non fornisce ad esempio indicazioni complete in materia di protezione delle specie o della natura e non comprende in particolare gli interessi di protezione cantonali e comunali. Il contenuto della mappa non costituisce quindi una dichiarazione giuridicamente vincolante. Per designare le aree idonee (territori adeguati allo sfruttamento dell'energia solare ai sensi dell'articolo 10 della legge federale sull'energia), occorre tenere conto di ulteriori interessi di protezione non riportati nella presente carta.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-schutzinteressen:wmts",
+    "title": "Solare: interessi di protezione",
+    "type": "Dataset"
+  }
+}

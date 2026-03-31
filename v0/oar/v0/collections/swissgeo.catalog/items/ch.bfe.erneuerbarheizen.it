@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.erneuerbarheizen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.erneuerbarheizen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/prima-consulenza",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/0f756190-b7f7-4a4b-94db-696ed67676a4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel quadro della prima consulenza «calore rinnovabile», le proprietarie e i proprietari di immobili con un sistema di riscaldamento a gasolio, gas o elettrico vengono informati sulle possibili fonti di calore rinnovabile intelligenti e con un basso contenuto di CO2. Nell'ambito della consulenza un/a esperto/a si reca dal cliente (proprietario). Durante il colloquio di consulenza vengono discussi il fabbisogno energetico dell'edificio, i fattori specifici legati al luogo e i desideri delle proprietarie / dei proprietari. L'esperto verifica questi fattori ed elabora una checklist, che riporta informazioni sulla situazione dell'immobile e raccomandazioni sulla sostituzione del sistema di riscaldamento. Questa checklist rappresenta una buona base per la richiesta mirata di offerte e l'inizio di un progetto di costruzione di successo. Questa banca dati contiene tutti gli esperti/e «prima consulenza» formati nell'ambito del programma «calore rinnovabile» e che soddisfano i criteri di qualità.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.erneuerbarheizen:wms",
+    "title": "Prima consulenza calore rinnovabile",
+    "type": "Dataset"
+  }
+}

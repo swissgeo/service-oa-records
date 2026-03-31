@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.bodeneignung-wasserspeichervermoegen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.bodeneignung-wasserspeichervermoegen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.bodeneignung-wasserspeichervermoegen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/bodeneignungskarte.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/6caf4d0f-52da-433a-809f-92781316ad0e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landwirtschaft BLW",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Begriff bezieht sich auf das Wasser, das vom Boden durch Tensionskräfte festgehalten und durch die Pflanzen leicht aufnehmbar ist (Saugspannung 0,1 - 1 Atm). Überschlagsmässig kann pro 1 cm physiologische Gründigkeit mit 1 mm leicht verfügbarem Wasser (0,1 - 1 Atm Saugspannung) gerechnet werden. Die physiologische Gründigkeit ergibt sich aus der gesamten durchwurzelbaren Schicht, abzüglich Bodenskelett und grosse Hohlräume in Sand-Kiesböden, zudem Abzüge für kompaktes Gefüge und sauerstoffarme Horizonte.(Details: Bodeneignungskarte der Schweiz, März 1980)",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.bodeneignung-wasserspeichervermoegen:wmts",
+    "title": "Wasserspeichervermögen",
+    "type": "Dataset"
+  }
+}

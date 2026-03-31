@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.images-swissimage-dop10.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.images-swissimage-dop10.metadata?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.images-swissimage-dop10.metadata?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/orthobilder-swissimage-10-cm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/3f340030-15de-4ab6-a1b1-5f33e09a997f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "SWISSIMAGE 10 cm sarà disponibile per tutto il territorio della Svizzera e del Liechtenstein a partire dal 2020. Esso comprende inoltre una piccola parte delle regioni confinanti. SWISSIMAGE 10cm viene prodotto in tasselli di 1 km2. La loro numerazione corrisponde alle coordinate chilometriche del loro angolo sud-ovest. Oltre alla qualità geometrica e radiometrica, ai fini di un utilizzo ottimale di un'ortofoto riveste grande importanza anche la data del volo in cui l'ortofoto è stata scattata. L'anno del volo viene pertanto riportato su ogni tassello del mosaico di ortofoto. Nelle regioni marginali dei blocchi sorvolati può accadere che i tasselli non siano coperti da foto di uno stesso anno di volo. Questi tasselli presentano pertanto pixel di anni di volo diversi. In questi casi viene attribuito l'anno di volo che presenta la maggior parte dei pixel (oltre il 75% di tutti i pixel).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.images-swissimage-dop10.metadata:wms",
+    "title": "Divisione SWISSIMAGE 10 cm Raster",
+    "type": "Dataset"
+  }
+}

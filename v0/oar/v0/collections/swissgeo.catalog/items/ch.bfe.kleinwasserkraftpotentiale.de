@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.kleinwasserkraftpotentiale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.kleinwasserkraftpotentiale?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.kleinwasserkraftpotentiale?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/kleinwasserkraftpotentiale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c4b695b0-23ad-4d0d-a496-16fc0f597819",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Beim Geodatenprodukt «Kleinwasserkraftpotentiale der Schweizer Gewässer» handelt es sich um das Ergebnis einer GIS-gestützten Analyse, welche im Rahmen des Forschungsprojektes 102835 «Erhe-bung des Kleinwasserkraftpotentials der Schweiz» im Jahre 2012 durchgeführt wurde. Dabei wurde das theoretische hydroelektrische Potential aller natürlichen Fliessgewässer der Schweiz berechnet. Die Aussagen zum theoretischen Potential sind korrekt zu interpretieren, da unter Berücksichtigung technischer, ökologischer, wirtschaftlicher und rechtlicher Aspekte nur ein Teil des theoretischen Potentials für die Stromerzeugung tatsächlich nutzbar ist. Dazu ist einerseits die Dokumentation der Geodatenmodells und andererseits der Schlussbericht des Forschungsprojektes zu konsultieren.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.kleinwasserkraftpotentiale:wmts",
+    "title": "Kleinwasserkraftpotentiale",
+    "type": "Dataset"
+  }
+}

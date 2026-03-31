@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ozon",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-ozon?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-ozon?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/karten_der_luftbelastunginderschweiz-dokumentation.pdf.download.pdf/karten_der_luftbelastunginderschweiz-dokumentation.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/88d9db83-6c8e-4d3e-a17b-9f86bd45df06",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'ozone troposphérique a des effets négatifs sur la santé humaine et sur la végétation. Des taux élevés entraînent notamment des irritations des voies respiratoires et du tissu pulmonaire. Pour les plantes, des concentrations élevées d'ozone provoquent des dommages visibles sur les feuilles et les aiguilles et peuvent entraîner des pertes de récolte. L'ozone troposphérique est un polluant secondaire qui se forme sous l'effet de la lumière du soleil à partir d'oxydes d'azote et de composés organiques volatils. La série temporelle montre les cartes modélisées des percentiles 98 mensuels maximaux depuis 1990 sur une grille de 200 m, puis de 100 m à partir de 2020. Localement, la concentration de Oᴣ peut différer des données modélisées. Les pixels isolés ne doivent pas être utilisés pour l'évaluation de sites individuels. La valeur limite annuelle pour le percentile 98 des valeurs semi-horaires mensuelles de l'Oᴣ fixée dans l'ordonnance sur la protection de l'air est de 100 µg/m³.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-ozon:wmts",
+    "title": "Ozone mp98 Oᴣ",
+    "type": "Dataset"
+  }
+}

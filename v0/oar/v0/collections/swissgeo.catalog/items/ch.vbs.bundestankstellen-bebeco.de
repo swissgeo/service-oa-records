@@ -1,0 +1,102 @@
+{
+  "id": "ch.vbs.bundestankstellen-bebeco",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.bundestankstellen-bebeco?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.bundestankstellen-bebeco?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vtg.admin.ch/de/service/bundestankstellen.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7f8c99f2-7736-4fe6-8d69-0af201f01526",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Schweizer Armee",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Standorte der Bundestankstellen BEBECO <br>Hinweise für die Nutzung der AdBlue-Stationen:<br> Personenwagen und leichte Nutzfahrzeuge dürfen nicht an den Stationen betankt werden, Hoher Druck. Bitte wenden Sie sich hierzu an ihre Garage. Schmier- und Betriebsmittel werden nur auf telefonische Bestellung abgegeben. <br><br> <b>Anmerkungen für das Betanken:</b> <br> Die Treibstoffbezüge erfolgen mittels BEBECO-CARD an allen Tankstellen. <br> <br> a) Bezüge während der Betriebszeiten <ul> <li>Für Einzelfahrzeuge ohne Voranmeldung.</li> <li>Übrige Bezüge, insbesondere durch Truppenverbände, sind im Hinblick auf die unterschiedlichen und teilweise begrenzten Abgabemöglichkeiten der Tankstellen nur nach vorheriger Kontaktaufnahme mit den Abgabestellen anzuordnen. </ul> b) Bezüge ausserhalb der Betriebszeiten <ul> <li>Bei den mit 24 h / 7 bezeichneten Tankstellen ist der Bezug von Treibstoffen mit BEBECO- CARD im 24-Stunden-Betrieb und auch Samstags und Sonntags möglich. Diese Bezugsmöglichkeit gilt aus Rücksicht auf die Anwohner nur für Einzelfahrzeuge.</li> </ul> <br> <b>Kontakt</b> <br> Mail: <a href=\"mailto:lba.betrst.dienst@vtg.admin.ch\">lba.betrst.dienst@vtg.admin.ch</a>",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.bundestankstellen-bebeco:wms",
+    "title": "Tankstellen BEBECO",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.blw.landwirtschaftliche-nutzungsflaechen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.landwirtschaftliche-nutzungsflaechen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.landwirtschaftliche-nutzungsflaechen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ae183bc4-5c91-467e-89bc-85f390340efb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'agricoltura UFAG, cantoni",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il set di geodati \"Superfici d'utilizzazione agricole\" mostra la localizzazione spaziale delle superfici coltivate come prati, pascoli e seminativi in Svizzera. Contiene le superfici utilizzate per l'agricoltura secondo l'Ordinanza sulla terminologia agricola (LBV), l'Ordinanza sui pagamenti diretti (DZV) e le definizioni (compresa la codifica) dell'uso del suolo derivate da queste dalla Confederazione e dai Cantoni.Il set di dati si basa sui geodati ufficiali della legislazione federale \"Superfici agricole coltivate\" (GeoIV, Allegato 1, identificatore 153), che sono di competenza dei Cantoni. Il set di dati viene aggiornato una volta all'anno.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.landwirtschaftliche-nutzungsflaechen:wmts",
+    "title": "Superfici d'utilizzazione",
+    "type": "Dataset"
+  }
+}

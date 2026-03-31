@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/fr/a-propos-du-wsl/programmes-et-initiatives/programmes-clos/programme-de-recherche-forets-et-changements-climatiques.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/668e4c81-5926-4457-9097-b362244b2660",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les arbres disposent de toujours moins d'eau:•Les plantes et les sols rejettent de l'eau dans l'atmosphère ; plus l'air est chaud et sec, plus les volumes rejetés sont importants. L'eau s'évapore par les feuilles des plantes. L'évapotranspiration correspond à l'ensemble du volume d'eau rejeté dans l'atmosphère. •L'évapotranspiration actuelle (ET) dépend de la disponibilité effective en eau (quantités de précipitations et capacité des sols à stocker ces dernières). L'évapotranspiration potentielle (ETP) correspond à la quantité d'eau rejetée dans l'atmosphère lorsque l'eau est disponible en quantité suffisante. •Si le rapport ET/ETP est inférieur à 0,8, il faut s'attendre à des effets nuisibles dus à la sécheresse : les stomates restent souvent fermés, ce qui limite la photosynthèse. •Dans les zones bleues (surtout bleu foncé), la situation n'est pas problématique. •Dans les zones jaunes à rouges (surtout bordeaux), il faut s'attendre à des effets nuisibles dus à la sécheresse. •Tendance : les zones jaunes à rouges s'étendent de plus en plus d'une année à l'autre (période de 1981 à 2018). Période 1981-2018, avril à août, résolution 250 m x 250 m. Source : Remund et al. (2016)",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen:wmts",
+    "title": "Eau disponible pour les plantes",
+    "type": "Dataset"
+  }
+}

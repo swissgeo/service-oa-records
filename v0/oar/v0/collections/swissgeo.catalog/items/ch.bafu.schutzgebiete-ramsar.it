@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.schutzgebiete-ramsar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-ramsar?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-ramsar?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d960a5c8-44e4-4d10-a9f6-95f58568563c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel 1971, nella città iraniana di Ramsar, è stata firmata una convenzione di rilevanza internazionale per la protezione delle zone umide, in particolare come habitat per gli uccelli acquatici e limicoli. La Svizzera ha ratificato nel 1976 la convenzione, comunemente chiamata Convenzione di Ramsar, impegnandosi così a garantire l'uso sostenibile delle zone umide e a conferire a tali aree una protezione speciale. Finora, in quattro fasi, sono state iscritte alla Convenzione di Ramsar 11 aree, di cui 3 sono state nel frattempo adeguate a nuovi perimetri di protezione. La loro selezione si è basata soprattutto sulla loro importanza come habitat per gli uccelli acquatici. Le aree comprendono tratti di rive lacustri, delta fluviali, sezioni di fiumi sbarrati, una zona palustre e, in ambiente alpino, fronti glaciali e una torbiera. Esse fungono da documentazione ufficiale per l'iscrizione presso l'IUCN e per la registrazione dei singoli siti nella banca dati Ramsar.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-ramsar:wmts",
+    "title": "Ramsar",
+    "type": "Dataset"
+  }
+}

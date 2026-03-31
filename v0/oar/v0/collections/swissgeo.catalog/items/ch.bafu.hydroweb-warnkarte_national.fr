@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydroweb-warnkarte_national",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-warnkarte_national?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-warnkarte_national?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.hydrodaten.admin.ch/fr/hochwasserkarte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e1d0c17a-0dbd-4455-bc83-1606e1e04298",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte de vigilance crues présente la situation de danger actuelle en matière de crues (niveaux de danger 1 à 5) pour l'ensemble des lacs et des cours d'eau d'intérêt national et fournit des indications régionales concernant les petits et moyens cours d'eau.Les cours d'eau d'intérêt national sont divisés en tronçons, à chacun desquels est attribuée une station de mesure du débit. Les prévisions sont faites à l'aide d'un modèle hydrologique et de plusieurs modèles météorologiques. Les prévisionnistes évaluent et interprètent ces modèles et en déduisent un niveau de danger, en fonction duquel chaque tronçon de cours d'eau et chaque lac se voient attribuer une couleur. Au besoin, les prévisionnistes de l'OFEV demandent à MétéoSuisse ou à l'Institut fédéral pour l'étude de la neige et des avalanches des informations plus précises sur l'évolution météorologique ou l'état du manteau neigeux. L'OFEV informe et alerte également lorsqu'il faut s'attendre localement à une forte hausse des débits de petits et moyens cours d'eau. Dans ces cas, notamment lors d'abondantes précipitations orageuses, il n'est pas possible de dire avec précision quels seront les cours d'eau concernés. C'est pourquoi les régions susceptibles d'être touchées sont marquées sur la carte de vigilance. Pour les petits et moyens cours d'eau, en raison des incertitudes, on distingue trois niveaux de danger seulement : aucun ou faible danger en vert, danger de crues limité en jaune et fort danger de crues en rouge.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Carte vigilance crues",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.nagra.aeromagnetische-karte_1500",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.nagra.aeromagnetische-karte_1500?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.nagra.aeromagnetische-karte_1500?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.nagra.ch/fr/cat/publikationen/rapportstechniques-ntbs/telechargements.htm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b814401b-9eb2-4e6c-b4a9-f24df7b8bba6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Societŕ cooperativa nazionale per lo smaltimento delle scorie radioattive NAGRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La magnetizzazione complessiva di una roccia è composta dalla magnetizzazione indotta dal campo magnetico terrestre e dalla magnetizzazione residua prodotta dal campo terrestre al momento della formazione della roccia. Gli scostamenti locali o regionali del campo magnetico terrestre rispetto a un modello globale sono detti anomalie, e possono essere misurati da un aereo. Queste anomalie possono consentire l'identificazione di strutture geologiche e tettoniche, come anche la presenza di una concentrazione di minerali. Nell'ambito del progetto d'indagine geofisica della Cisra nel nord della Svizzera, la Commissione svizzera di Geofisica ha misurato con l'aereo una rete di linee aeromagnetiche di 6'250 km. Il risultato di queste misurazioni è stato rappresentato su quattro carte in scala 1:100'000: 2 carte mostrano il campo magnetico totale (misurato a un'altitudine di 1500 m e 1100 m), mentre le altre 2 carte mostrano il campo magnetico residuo dopo aver dedotto le tendenze regionali. Esse non evidenziano anomalie che consentirebbero la determinazione della profondità della superficie dello zoccolo cristallino e del bacino permocarbonifero al suo interno. - Carta stampata: E. KLINGELE, 1982. - Carta vettoriale: versione online, solo campo residuale, E. KLINGELE, 2010.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.nagra.aeromagnetische-karte_1500:wmts",
+    "title": "Carta aeromagn. Argovia 1500 m 100",
+    "type": "Dataset"
+  }
+}

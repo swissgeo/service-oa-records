@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.windenergie-potenzialgebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.windenergie-potenzialgebiete?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.windenergie-potenzialgebiete?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/areas-wind-power-potential",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/bf588f7f-7708-4518-932e-ef950e0c789a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The wind energy concept is a concept in accordance with Art. 13 of the Swiss Spatial Planning Act (SPA, SR 700). The concept defines both the principal federal government interests which must be taken into account when planning wind energy plants and the main areas with wind-power potential which must be investigated as part of cantonal structural planning. In this way, the wind energy concept increases planning reliability. The Swiss federal government has identified the main areas with wind-power potential, taking into account the high wind energy yields (basic data from the Wind Atlas of Switzerland, www.windatlas.ch), the principal federal government interests and sufficient spatial concentration. The rough analysis, which is subject to some uncertainty, does not take account of any cantonal or municipal interests and does not permit any assertions to be made about the specific feasibility of wind energy plants. The cartographical representation of the areas with potential should not therefore be seen as a positive plan by the federal government or as competition to structural plan entries that have already been approved; neither does it make any assertions beyond a 1:50,000 scale. The cantons are responsible for identifying suitable areas for wind energy use and the associated balancing of interests appropriate to the relevant levels. The geodata from the main areas with potential are not officially binding but are primarily to be considered as the federal government's basis for cantons which do not yet have any structural plans in place for wind energy or which want to adapt their structural plans accordingly. In the interests of completeness, the map must be consulted in parallel with the content of the wind energy concept and the associated explanatory report.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.windenergie-potenzialgebiete:wms",
+    "title": "Areas with wind-power potential",
+    "type": "Dataset"
+  }
+}

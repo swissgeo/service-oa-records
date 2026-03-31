@@ -1,0 +1,58 @@
+{
+  "id": "ch.meteoschweiz.messnetz-beobachtungen",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.meteoschweiz.messnetz-beobachtungen:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-beobachtungen?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_it.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messnetz-beobachtungen.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.meteoschweiz.messnetz-beobachtungen:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-beobachtungen?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.meteoschweiz.messnetz-beobachtungen",
+  "type": "Collection"
+}

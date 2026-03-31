@@ -1,0 +1,96 @@
+{
+  "id": "ch.bafu.schutzgebiete-ramsar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-ramsar?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-ramsar?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/d960a5c8-44e4-4d10-a9f6-95f58568563c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "To protect wetlands, particularly as habitats for waterbirds and waders, a convention of international importance was signed in 1971 in the Iranian city of Ramsar. Switzerland ratified the agreement—commonly referred to as the Ramsar Convention—in 1976, thereby committing itself to ensuring the sustainable use of wetlands and granting these areas special protection. So far, in four stages, 11 sites have been registered under the Ramsar Convention, with 3 of them subsequently adjusted to new protection perimeters. They were selected primarily because of their significance as habitats for waterbirds. The sites include lakeshore sections, river deltas, dammed river stretches, a fen area, and, in the alpine region, glacier forefields and a moorland area. They serve as official documentation for submission to the IUCN and for recording the individual wetlands in the Ramsar database.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-ramsar:wmts",
+    "title": "Ramsar",
+    "type": "Dataset"
+  }
+}

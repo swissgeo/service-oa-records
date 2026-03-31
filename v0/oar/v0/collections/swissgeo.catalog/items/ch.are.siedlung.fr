@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.siedlung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.siedlung?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.siedlung?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.are.siedlung/siedlung.zip",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4229c353-e780-42d8-9f8c-298c83920a3a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral du développement territorial ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le \"Millieu bâti\" est une géodonnée la quelle représente le paysage habité du point de vue du développement territorial. Le jeu de données sert de référence géométrique pour différents indicateurs dans le domaine de l'observation du territoire. L'habitat est défini comme tout ce qui a été construit à des fins d'habitation, de travail ou de loisirs. En font partie, en particulier, les bâtiments, y compris leurs abords, ainsi que les routes et les infrastructures de transport adjacentes pour leur desserte directe. Les espaces vides de plus de 1500m2 sont considérés comme tels. La couche de données se base sur les données du modèle topographique du paysage de swisstopo et du registre des bâtiments et des logements de l'OFS. La donnée est actualisée et publiée chaque année. Les états temporels à partir de 1919 peuvent être consultés sur map.geo.admich.ch comme voyage dans le temps et téléchargés sur map.geo.admich.ch comme voyage dans le temps et téléchargés sur https://data.geo.admin.ch/browser/index.html#/collections/ch.are.siedlung en tant états annuels.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.siedlung:wmts",
+    "title": "Milieu bâti",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.vbs.sachplan-infrastruktur-militaer_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.sachplan-infrastruktur-militaer_kraft?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.sachplan-infrastruktur-militaer_kraft?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vbs.admin.ch/de/sachplan-militaer",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5263bc47-8723-4c02-988a-4ae0d425099c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Secrétariat général DDPS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le plan sectoriel militaire (PSM) est un instrument de planification et de coordination de la Confédération au sens de l`art. 13 de la loi fédérale sur l`aménagement du territoire (LAT; RS 700). Il contribue à la sécurité territoriale ainsi qu’à l`harmonisation des infrastructures et activités militaires avec les exigences sectorielles civiles. Il fixe en outre - conformément au concept de stationnement actuel - les objectifs et les instructions, contraignants pour les autorités, en matière d’infrastructures militaires soumises au PSM. Avec l`évolution de la politique de sécurité et militaire, les besoins d’infrastructures et d’utilisation du territoire de l`armée sont confrontés en permanence au changement. Le PSM est de ce fait régulièrement soumis à des vérifications et à des adaptations. Le PSM comprend différentes catégories d`objets : places d`armes, places de tir, places d`exercice, bases aériennes, sites logistiques de l`armée, centres de recrutement, postes de franchissement et installations spéciales. Les infrastructures militaires de moindre dimension et celles qui sont soumises à loi fédérale concernant la protection des ouvrages militaires (RS 510.518) ne figurent pas dans le PSM.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.sachplan-infrastruktur-militaer_kraft:wms",
+    "title": "PS militaire",
+    "type": "Dataset"
+  }
+}

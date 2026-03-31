@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-aulav_auen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-aulav_auen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-aulav_auen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/oekol-infrastruktur",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/54d007ed-2ab9-4cb3-9b41-b3c74a519eae",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Schutzgebiete beinhalten gemäss Art. 19 der Aussenlandeverordnung (AuLaV; SR 748.132.3) Nationalparks, Hoch- und Übergangsmoore, Wasser- und Zugvogelreservate, Flachmoore, Auengebiete und Eidgenössische Jagdbanngebiete sowie gemäss Art. 32h die Moorlandschaften von nationaler Bedeutung. Aussenlandungen (das Abfliegen oder Landen sowie das Aufnehmen oder Absetzen von Sachen oder Personen ausserhalb von Flugplätzen, sowie Notlandeübungen) sind für zivile, bemannte Luftfahrtzeuge in Schutzgebieten grundsätzlich verboten. Auf Grund spezifischer Einschränkungen und Auflagen für Aussenlandungen werden in Luftfahrtpublikationen 4 Kategorien unterschieden: 1. Jagdbanngebiete 2. Moorlandschaften 3. Auengebiete 4. Übrige Schutzgebiete (Hoch- und Übergangsmoore, Flachmoore, Wasser- und Zugvogelreservate, Nationalpark). Jede Kategorie von Schutzgebieten ist in zwei Generalisierungsstufen unterteilt: In kleinmassstäblichen Ansichten werden die Schutzgebiete hinsichtlich Lesbarkeit in generalisierter Form und umgekehrt proportional zur Fläche mit einem lateralen Puffer zwischen 1 bis 80 m dargestellt. In den grossmassstäblichen Ansichten sind die Schutzgebietsperimeter in der rechtlich gültigen Ausdehnung dargestellt. Aussenlandungen und Notlandeübungen in Auengebieten sind unter Vorbehalt von Art. 19 Abs. 3 sowie Art. 28 nicht zulässig. Aussenlandungen für die Abwehr von Naturgefahren, für den Bau oder den Unterhalt von Bauten und Anlagen im öffentlichen Interesse und Aussenlandungen im Auftrag der zuständigen kantonalen Behörden sowie von diesen Behörden bewilligte Aussenlandungen für den Bau oder Unterhalt von Bauten und Anlagen sind zulässig.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-aulav_auen:wmts",
+    "title": "Auengebiete AuLaV",
+    "type": "Dataset"
+  }
+}

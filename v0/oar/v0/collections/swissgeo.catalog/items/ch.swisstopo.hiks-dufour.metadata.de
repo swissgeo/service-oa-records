@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.hiks-dufour.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hiks-dufour.metadata?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hiks-dufour.metadata?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/digitale-dufourkarte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/bfa9994f-c8b1-4dc1-90b2-fe1211bf2d22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Topographische Karte der Schweiz 1:100 000 (Dufourkarte) ist das erste amtliche Kartenwerk, das die Schweiz landesweit abdeckt. Sie wurde zwischen 1845 und 1865 publiziert und bis 1939 nachgeführt. Der Datensatz «Blatteinteilung der Dufourkarte» zeigt den Perimeter, die Nummer und den Namen jedes Kartenblattes. Die Blätter mit Ausbuchtungen auf den gedruckten Ausgaben werden mit einer etwas grösseren Fläche als bei den Standardblättern dargestellt. Das Titelblatt und die Karten Fort de l'Ecluse, Rheineck und Bergamo werden zusammen mit einer Nachbarkarte dargestellt.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hiks-dufour.metadata:wms",
+    "title": "Einteilung Dufourkarte Raster",
+    "type": "Dataset"
+  }
+}

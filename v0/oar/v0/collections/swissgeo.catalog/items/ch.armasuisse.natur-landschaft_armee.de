@@ -1,0 +1,102 @@
+{
+  "id": "ch.armasuisse.natur-landschaft_armee",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.armasuisse.natur-landschaft_armee?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.armasuisse.natur-landschaft_armee?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vbs.admin.ch/de/programm-natur-landschaft-armee",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b7ed249a-0ee4-4430-acd4-de34097955ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Rüstung armasuisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das VBS ist einer der bedeutendsten Grundeigentümer der Schweiz. Ein grosser Teil der militärisch genutzten Flächen befindet sich im Perimeter von Natur- und Landschaftsschutzinventaren. Die militärische Nutzung begünstigt vielerorts den Erhalt von Naturwerten, beispielsweise von Amphibienlaichgebieten. Sie kann aber auch nachteilige Auswirkungen haben, die es zu minimieren gilt. Die Interessen der Landesverteidigung und des Naturschutzes sind in der Bundesverfassung gleichrangig.Seit 25 Jahren schützt und fördert das VBS die Vielfalt der Arten und ihrer Lebensräume auf den Armeearealen mit dem Programm Natur – Landschaft – Armee (NLA). Im Rahmen dieses Programms sind auf den grösseren Arealen wie Waffenplätzen, Schiessplätzen oder Flugplätzen die Naturwerte sowie die Nutzungen der Armee und von Dritten aufgenommen worden, die Konflikte eruiert sowie Massnahmen zu deren Entschärfung definiert und umgesetzt worden. Die entsprechenden Dossiers werden periodisch oder bei grösseren Veränderungen aktualisiert. Die NLA Daten stellen die kartierten wertvollen Naturwerte und Lebensräume auf militärisch genutztem Gelände dar. Wertvoll heisst zum einen alle Lebensräume, welche einen Schutzstatus haben. Entweder ist der Lebensraum per NHG (Bundesgesetz über den Natur- und Heimatschutz) geschützt oder die Fläche liegt in einem nationalen, kantonalen oder kommunalen Inventar. Zusätzlich zu diesen geschützten Lebensräumen sind auch weitere schützenswerte Lebensräume/ Flächen erfasst, wie artenreiche Flächen oder Flächen deren Hauptzweck die Biodiversitätsförderung ist.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.armasuisse.natur-landschaft_armee:wmts",
+    "title": "NLA Naturwerte/ Lebensräume",
+    "type": "Dataset"
+  }
+}

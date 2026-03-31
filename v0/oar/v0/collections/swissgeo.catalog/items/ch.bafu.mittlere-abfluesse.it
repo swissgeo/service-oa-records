@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.mittlere-abfluesse",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.mittlere-abfluesse?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.mittlere-abfluesse?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/mq-gwn-ch-i",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/75c48c9d-34ec-4a11-bdd8-6dc019f0ec9e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per l'intera rete idrica svizzera sono stati simulati i deflussi (m³/s) naturali medi mensili e annui, nonché determinati i relativi tipi di regime di deflusso. «MQ-GWN-CH» fornisce una base di informazioni estesa sui deflussi medi dei corsi d'acqua di media grandezza dell'intera rete idrica svizzera. Non include informazioni per i corsi d'acqua che presentano un bacino imbrifero < 3 km² (limitazione delle basi idrologiche usate per la simulazione) o ≥ 500 km²(per questi corsi d'acqua solitamente esiste una stazione idrometrica appropriata). Di principio, i dati misurati in una stazione idrometrica sono da preferire ai valori stimati/simulati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.mittlere-abfluesse:wmts",
+    "title": "Deflussi medi (m³/s) e regime",
+    "type": "Dataset"
+  }
+}

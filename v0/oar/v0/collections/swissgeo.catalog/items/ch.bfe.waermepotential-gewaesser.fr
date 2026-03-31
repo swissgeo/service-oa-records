@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.waermepotential-gewaesser",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.waermepotential-gewaesser?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.waermepotential-gewaesser?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://opendata.swiss/perma/f51ab0db-c25c-4211-ab07-365734380066@bundesamt-fur-energie-bfe",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f51ab0db-c25c-4211-ab07-365734380066",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'exploitation des lacs et des rivières en tant que source d'énergie thermique n'est guère développée malgré le grand potentiel qu'elle recèle. En Suisse, cette source d'énergie renouvelable pourrait être utilisée pour chauffer (via le prélèvement de chaleur) et pour refroidir (via le déversement de chaleur) étant donné le grand nombre d'agglomérations situées aux abords d'un lac ou d'une rivière et le fait que la technique ad hoc est bien établie. Le potentiel des plus grands lacs et rivières de Suisse par rapport au prélèvement et au déversement de chaleur a été évalué sur la base d'hypothèses simplifiées. Les caractéristiques de ces eaux n'ont en effet été que partiellement prises en compte. Leurs potentiels ainsi estimés doivent être considérés comme des valeurs indicatives et non pas comme des bases de planification définitives. L'évaluation a été effectuée par l'Eawag (ou Institut fédéral suisse des sciences et technologies de l'eau). Elle est financée par l'Office fédéral de l'environnement. Ce jeu de données représente le potentiel des plus grands lacs et rivières de Suisse par rapport au prélèvement et au déversement de chaleur.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.waermepotential-gewaesser:wms",
+    "title": "Potentiel thermique des eaux",
+    "type": "Dataset"
+  }
+}

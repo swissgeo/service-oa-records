@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-industrieminerale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-industrieminerale?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-industrieminerale?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.aramis.admin.ch/Texte/?ProjectID=57845",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ec3471db-6e86-4148-abbf-d702196381bd",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Fachgruppe Georessourcen Schweiz",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Dieser Datensatz zeigt die Standorte, an denen in der Vergangenheit Industrieminerale in der Schweiz identifiziert oder abgebaut wurden. Industrieminerale werden aufgrund ihrer spezifischen chemischen und/oder physikalischen Eigenschaften in verschiedenen industriellen Produktionsprozessen eingesetzt. Gips und Salz sind gängige Industrieminerale, die heute in der Schweiz abgebaut und verarbeitet werden. Aufgrund ihrer Bedeutung werden sie im Geoportal separat dargestellt (siehe Datensätze <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung&topic=georessourcen\" target=\"_blank\">Gips</a> und <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-salz_abbau_verarbeitung&topic=georessourcen\" target=\"_blank\">Salz</a>). Einige Industrieminerale werden derzeit in der <a href=\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1252\" target=\"_blank\">Europäischen Union</a> als kritische Rohstoffe (CRM) eingestuft, und manche gelten <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-rohstoffe-industrieminerale/pdf/IRENA_NUPI_2024_Ranking_critical_materials_for_the_energy%20transition.pdf\" target=\"_blank\">als absolut notwendig</a> für die Energiewende. Mehrere Standorte in diesem Datensatz weisen auf eine Mineralisierung hin, die einen oder mehrere kritische Rohstoffe enthalten könnte. Die Konzentration und die Volumina dieser Mineralisierungen sind im Wesentlichen nicht bekannt oder unbedeutend. Nach heutiger Sachlage scheint eine wirtschaftliche Gewinnung dieser Vorkommen nicht realisierbar. Aktuell werden ausser Gips und Salz keine weiteren Industrieminerale kommerziell gewonnen. Für einen detaillierteren Überblick über die geologische Situation bezüglich kritischer Rohstoffe in der Schweiz wird auf den Bericht <a href=\"https://www.aramis.admin.ch/Texte/?ProjectID=57845\" target=\"_blank\">Critical Raw Materials in Switzerland – A Review</a> verwiesen. Weitere kritische Rohstoffe sind im Datensatz <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-vererzungen&topic=georessourcen\" target=\"_blank\">Metallrohstoffe</a> aufgeführt. Für eine Standortentwicklung eines Rohstoffabbaus ist eine detaillierte geologische Untersuchung der Vorkommen vor Ort unumgänglich. Dieser Datensatz wird periodisch aktualisiert und stellt keinen Anspruch auf Vollständigkeit.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-industrieminerale:wms",
+    "title": "Weitere Industrieminerale",
+    "type": "Dataset"
+  }
+}

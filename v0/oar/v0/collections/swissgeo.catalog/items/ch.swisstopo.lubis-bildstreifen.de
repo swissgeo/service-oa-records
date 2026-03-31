@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.lubis-bildstreifen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lubis-bildstreifen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lubis-bildstreifen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/bildstreifen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7392cfbf-2f3b-446f-934f-604bc9410978",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "swisstopo erfasst die gesamte Fläche der Schweiz im Rahmen der Nachführung der Landeskarte und zur Produktion des Orthofotomosaiks SWISSIMAGE in einem Dreijahreszyklus mit Luftbildstreifen. Seit 2008 werden dazu digitale Luftbildkameras vom Typ ADS eingesetzt. Dabei erfolgt die Bilderfassung im Gegensatz zu Einzelbildkameras streifenweise. Sämtliche Bildstreifen weisen die Kanäle Pan, Infrarot, Rot, Grün und Blau auf. Die Luftbildstreifen sind in Form ihrer Lage, des jeweiligen abgedeckten Bodensegments (Footprint) sowie mit Metainformationen dargestellt. Die Luftbildstreifen können als digitale Datei inkl. Orientierungselementen bestellt werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lubis-bildstreifen:wms",
+    "title": "Luftbildstreifen swisstopo",
+    "type": "Dataset"
+  }
+}

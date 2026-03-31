@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/parchi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/bc4bd921-cec6-4f29-a784-29049c9f8026",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM, cantoni",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Oltre ai progetti di parchi annunciati all'UFAM, il record Parchi include anche la zona protetta «Parco Nazionale Svizzero», protetta secondo la legge del 19 dicembre 1980 sul Parco nazionale (RS 454). La revisione della legge sulla protezione della natura e del paesaggio (LPN; RS 451) entrata in vigore il 1° dicembre 2007 definisce tre categorie di parchi d'importanza nazionale: i parchi nazionali, i parchi naturali regionali e i parchi naturali periurbani. A seconda dello stato del progetto, le regioni del parco possono richiedere il marchio «Candidato» per l'istituzione di un parco o il marchio protetto «Parco» per la gestione vera e propria del parco. I parchi d'importanza nazionale contribuiscono alla protezione e alla valorizzazione di spazi vitali naturali straordinari. Al contempo, favoriscono lo sviluppo economico di una regione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter:wmts",
+    "title": "Parchi svizzeri (Perimetro)",
+    "type": "Dataset"
+  }
+}

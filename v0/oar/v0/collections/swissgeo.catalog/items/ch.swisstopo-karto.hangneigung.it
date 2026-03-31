@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo-karto.hangneigung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo-karto.hangneigung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo-karto.hangneigung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c37cbfbf-0d87-4ae8-8c21-8932130eb3fa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Rappresentazione derivata dai modelli altimetrici digitali swissALTI3D e quelli (i rispettivi) della Francia, dell'Italia, dell'Austria e della Germania, che permette l'identificazione delle pendenze dei versanti superiori a 30°. Questa informazione è utile nell'ambito della prevenzione degli incidenti causati da valanghe. Essa è stata calcolata a partire da un modello altimetrico digitale con una risoluzione di 10m, costituito da swissALTI3D per la Svizzera e il Liechtenstein, RGE ALTI per la Francia, TINITALY/01 per l'Italia, DGM10 per l'Austria, DGM1 per la Baviera e EU-DEM per il Baden-Württemberg. Nella zona transitoria tra i due modelli di base, la precisione dei valori delle pendenze non è garantita. È esclusa qualsiasi richiesta di responsabilità basata sulla rappresentazione delle pendenze superiori a 30°.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-karto.hangneigung:wmts",
+    "title": "Pendenza maggiori 30°",
+    "type": "Dataset"
+  }
+}

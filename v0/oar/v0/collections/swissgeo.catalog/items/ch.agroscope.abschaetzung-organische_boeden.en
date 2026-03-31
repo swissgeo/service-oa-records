@@ -1,0 +1,101 @@
+{
+  "id": "ch.agroscope.abschaetzung-organische_boeden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.abschaetzung-organische_boeden?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.abschaetzung-organische_boeden?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/0572e842-7e34-409a-90d9-526d012a1c2d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The map of organic soils in Switzerland is an update of the first map published in 2015. It provides an estimate of the distribution of (former) moorland soils that still exist today and are sufficiently humus-rich and deep to meet the criteria for organic soil.<br> The map was produced in four steps: First, soil maps, geological maps, national inventories of fens, raised bogs and transition mires, forest site maps, historical maps and documents were evaluated. Data newly available since 2015 were also included in this update. In a second step, all data sets were harmonised and incorporated into a data model allowing the various data sets to be combined. In a third step, the spatial data sets were overlaid and a rule-based method was used to identify the resulting surfaces as organic soil or not organic soil. In the final step, reliable information on the occurrence of mineral soils was used to delete surfaces for which the evidence of organic soil was considered less reliable. The total area of organic soils (including the ‘certain' and ‘less certain' estimates) is 32,702 ha. For many applications, this is the best estimate of the current occurrence of organic soils. The category ‘only documented in historical sources' refers to areas for which no current relevant information was found – neither in relation to mineral nor organic soils. The category ‘ambiguously documented' covers areas for which the evidence of organic soils is unclear; it is shown here solely for reasons of consistency with the previous surface estimate from 2015. <br> Due to the heterogeneous nature of the information sources used to create the map, it is not possible to define the scale for which this map is suitable. However, the following recommendation can be made: The map is suitable for use at national and regional levels (e.g. canton or district); it is not suitable for use at parcel level. <br> Two publications describe the methods and updated data sets in detail. It is recommended to read both publications before using the map. Parts of the data are subject to a licence; please refer to the ‘readme.txt' file in the download folder. <br><br> Literature <ul> <li> Wüst-Galley, C. and J. Leifeld (2025) ‘The distribution and (future) use of Switzerland's organic soils' Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819</li> <li> Wüst-Galley, C., A. Grünig and J. Leifeld (2015) ‘Locating organic soils for the greenhouse gas inventory' Agroscope Science 26, 100 pp.</li> <ul>",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.abschaetzung-organische_boeden:wms",
+    "title": "Organic soils CH 2025",
+    "type": "Dataset"
+  }
+}

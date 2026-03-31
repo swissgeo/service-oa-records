@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.schienennetz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.schienennetz?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.schienennetz?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/fr/home/modes-de-transport/chemin-de-fer.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4545b545-cdc9-4713-809c-210ee84436b0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des transports OFT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le jeu de géodonnées de base « réseau ferré » représente le réseau suisse des transports guidéspar rail sous surveillance fédérale. Il comprend les tronçons à voie normale et étroite des chemins de fer, des trams et des chemins de fer à crémaillère sur lesquels des voyageurs sont transportés régulièrement et à titre professionnel ou sur lesquels l’accès au réseau est possible. Il ne contient pas les voies de raccordement ni les tronçons de funiculaires (jeu de données spécial Installations de transport à câbles), modèles réduits, circuits miniatures pour enfants, circuits de chemin de fer ou chemins de fer industriels.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.schienennetz:wmts",
+    "title": "Réseau ferré",
+    "type": "Dataset"
+  }
+}

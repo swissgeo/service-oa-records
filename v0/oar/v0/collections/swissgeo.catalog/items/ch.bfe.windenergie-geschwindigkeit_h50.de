@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.windenergie-geschwindigkeit_h50",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.windenergie-geschwindigkeit_h50?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.windenergie-geschwindigkeit_h50?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/windgeschwindigkeit",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/69f9bf6d-f168-4250-8c5a-77398fa750cb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Windatlas Schweiz beschreibt die Windverhältnisse auf fünf Höhen über Grund: 50, 75, 100, 125 und 150 m. Die Daten basieren auf einer schweizweiten Modellierung mit einer horizontalen Gitterweite von 100 m. In der Karte ist für jeden Gitterpunkt der modellierte Jahresmittelwert der Windgeschwindigkeit dargestellt. Die Verteilung der Windgeschwindigkeiten in Windgeschwindigkeitsklassen kann mit den Weibullparametern A (Skalenparameter) und k (Formparameter) angenähert werden. Aus den Weibullparametern kann nicht direkt auf den Mittelwert der Windgeschwindigkeit geschlossen werden, da es sich um eine Annäherung an eine Windverteilung handelt und diese nicht für jeden Standort ausreichend wiedergegeben werden kann. Die Windrose zeigt die relative Häufigkeit der modellierten Windrichtungen. Pro Sektor sind die gemittelten Windgeschwindigkeiten und zugehörigen Weibullparameter ersichtlich. Für die Berechnung der Windgeschwindigkeiten und Windrichtungen sind langjährige Messungen in die Modellierung eingeflossen. Da die Messpunkte schweizweit nicht überall in einer angemessenen Dichte vorhanden sind und Ungenauigkeiten bei der Modellierung von Windströmungen im komplexen Gelände auftreten, sind die Resultate mit Unsicherheiten behaftet. Die Grössenordnung der Unsicherheiten liegen im Jurabogen bei bis zu +/- 0.5m/s, im Mittelland bei bis zu +/- 0.7m/s, in den Voralpen bei bis zu +/- 0.5m/s und in den Alpen bei bis zu +/- 1.3m/s. Für die Karten ab 100m Höhe über Grund stehen markant weniger Messungen für die Modellierung zu Verfügung. Dies resultiert in einer höheren Unsicherheit der Ergebnisse. Die Angaben sind als grobe Einschätzung der Windverhältnisse zu verstehen. Bei Interesse an einer Standortentwicklung ist eine Messung vor Ort unumgänglich.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.windenergie-geschwindigkeit_h50:wms",
+    "title": "Windgeschwindigkeit 50 m Höhe",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.wald-lufttemperatur_juli_2085_gering",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-lufttemperatur_juli_2085_gering?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-lufttemperatur_juli_2085_gering?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/7d63d7e7-66fa-4889-92b9-84c432140e8d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Mean daily temperature high in July (period 2070-2099). The temperature increase of the climate scenario was added to the map «Air temperature July 1981-2010». Among the representative concentration pathways, RCP 2.6 with the model combination DMI_HIRHAM_ECEARTH_EUR11 was selected as a projection for slight climate change (NCCS 2018; Provision of the data by Remund et al. 2020) to calculate the temperature increase in the future. The resulting map has a spatial resolution of 25 m x 25 m. It was used for modelling altitudinal belts of forest vegetation.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-lufttemperatur_juli_2085_gering:wmts",
+    "title": "Air temperature July 2085, RCP 2.6",
+    "type": "Dataset"
+  }
+}

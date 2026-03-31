@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.grundwasserwaermenutzungspotential",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.grundwasserwaermenutzungspotential?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.grundwasserwaermenutzungspotential?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/grundwasserwaermanutzungspotenzial",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d64de95f-1b3d-4df3-b395-68b0404ac8ca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die im Grundwasser gespeicherte thermische Energie kann für Heizzwecke benutzt werden. Mit Grundwasser-Wärmepumpenanlagen kann die Wärme aus dem Grundwasser entnommen und ans Heizsystem abgegeben werden. Das Potenzial von Grundwasser fürs Heizen ist gross und kann abgeschätzt werden. Das Grundwasser-Wärmenutzungspotenzial in den Lockergesteins-Grundwasserleitern der Schweiz wurde anhand eines Wärmebilanz-Ansatzes abgeschätzt. Dabei wird die nutzbare Wärme aus einer vereinfachten Wärmebilanz unter Betrachtung langfristiger Veränderungen ermittelt. Das Grundwasser wird als offenes System betrachtet, d.h. es findet ein Wärmeaustausch mit Atmosphäre, Hydrosphäre und Geosphäre statt. Das ermittelte Wärmenutzungspotenzial wird als mittelfristig nachhaltig nutzbare Wärme betrachtet. Es ist zu beachten, dass nur das Potenzial für die Wärmegewinnung aus dem Grundwasser berücksichtigt wurde, allfällige Nutzungen zu Kühlzwecken oder zur saisonalen Wärmespeicherung wurden nicht berücksichtigt. Bestehende Nutzungsanlagen wurden auch nicht berücksichtigt. Grundlagen für die Berechnung wurden von den Kantonen und vom Bund zugestellt. Der Geodatensatz «Grundwasserwärmenutzungspotenzial in den Lockergesteins-Grundwasserleitern der Schweiz» zeigt die maximale mittelfristig nachhaltig nutzbare Wärme, die man aus dem Grundwasser entnehmen kann.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.grundwasserwaermenutzungspotential:wmts",
+    "title": "Grundwasserwärmenutzungspotenzial",
+    "type": "Dataset"
+  }
+}

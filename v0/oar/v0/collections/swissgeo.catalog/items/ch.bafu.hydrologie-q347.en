@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.hydrologie-q347",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrologie-q347?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrologie-q347?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/en/information-systems-and-methods-q347-flow-rate",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/83e6752a-e668-4ade-9ad5-fd9d555d35da",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Water Protection Act specifies how appropriate residual flows can be determined. This applies to new water withdrawals and also to existing withdrawals for which concessions have to be renewed. Anyone who withdraws water from a permanent (non-seasonal) watercourse - for power generation, irrigation or cooling purposes - requires a licence. This will only be granted if appropriate residual flows are maintained in the river- or streambed. The residual flow regulations are only applicable to new water withdrawals and to existing withdrawals when a concession expires and has to be renewed. The Q347 discharge is one of the fundamental parameters for setting minimum residual water flow. Measurements or suitable estimation methods are required to determine the Q347. The map “Grundlagen zur Bestimmung der Abflussmenge Q347” combines measured and modelled data. The modelled data represents rough estimates which can be improved by application of more advanced methods. In general, an estimate obtained in this way must be checked by performing a short-term measurement.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-q347:wmts",
+    "title": "Basis for determining Q347",
+    "type": "Dataset"
+  }
+}

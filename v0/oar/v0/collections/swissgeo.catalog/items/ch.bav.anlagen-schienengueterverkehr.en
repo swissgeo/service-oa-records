@@ -1,0 +1,101 @@
+{
+  "id": "ch.bav.anlagen-schienengueterverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.anlagen-schienengueterverkehr?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.anlagen-schienengueterverkehr?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/de/home/verkehrsmittel/eisenbahn/gueterverkehr/guterverkehr-in-der-flache.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/dda92878-86a1-4191-a073-9721671d6bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Transport FOT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The concept for freight transport by rail is a concept in accordance with Art. 3 of the Swiss Goods Carriage Act (GCarA, SR 742.41) and Art. 13 of the Swiss Spatial Planning Act (SPA, SR 700). The concept defines the most important federal government interests which must be taken into account when planning rail freight traffic systems and also contains an index of the rail freight traffic systems already in place at the time the concept was adopted. These systems are displayed in this map. The contents of the map are not legally binding. When you use the query function, details of the queried system are shown. In the interests of completeness, the map and the query results must be consulted in parallel with the content of the concept for freight transport by rail and the associated explanatory report.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.anlagen-schienengueterverkehr:wms",
+    "title": "Rail freight transport systems",
+    "type": "Dataset"
+  }
+}

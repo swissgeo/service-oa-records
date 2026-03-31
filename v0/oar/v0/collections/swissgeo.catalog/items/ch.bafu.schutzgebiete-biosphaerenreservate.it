@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-biosphaerenreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-biosphaerenreservate?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/riserve-della-biosfera-modelli-per-una-gestione-attenta-dello-spazio-vitale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c212a19c-6e06-4ca4-bdee-3ec62ccd7b1e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le riserve di biosfera non servono solo a proteggere e a curare gli ecosistemi, ma sono utili anche per la ricerca ecologica, l'utilizzazione ecocompatibile del suolo e l'educazione ambientale. Sono testimoni eccezionali della storia dell'umanità e della natura, premiati con gli emblemi del patrimonio mondiale dell'UNESCO e delle biosfere: testimoni silenziosi e al contempo eloquenti di prestazioni culturali e di fenomeni naturali magnifici. L'inclusione di un territorio viene decisa, su richiesta dello Stato, dal Consiglio internazionale di coordinamento del programma MAB dell'UNESCO, sulla base di criteri stabiliti e concretizzati in un catalogo di criteri specifico per la Svizzera. I criteri comprendono in primo luogo la rappresentatività, la dimensione, l'unità naturale e politica del territorio nonché il consenso della popolazione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-biosphaerenreservate:wmts",
+    "title": "Riserve di biosfera",
+    "type": "Dataset"
+  }
+}

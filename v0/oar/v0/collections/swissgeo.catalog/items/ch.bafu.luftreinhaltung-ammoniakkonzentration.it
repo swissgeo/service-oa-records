@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ammoniakkonzentration",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-ammoniakkonzentration?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-ammoniakkonzentration?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/aria/effetti-dell-inquinamento-atmosferico/effetti-dell-inquinamento-atmosferico-sugli-ecosistemi/gli-inquinanti-atmosferici-azotati-pregiudicano-anche-la-biodive.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/47b30108-d19e-4ac1-ab93-cba6a777003b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'ammoniaca può nuocere alle piante e agli animali e contribuisce a incrementare la deposizione di azoto. Per l'ammoniaca, i livelli critici (critical levels) sono stati fissati nel quadro della Convenzione sull'inquinamento atmosferico transfrontaliero a lunga distanza dell'ECE-ONU. I livelli critici valgono soltanto per le superfici con ecosistemi sensibili. Per licheni e muschi la concentrazione annuale media critica si attesta a 1 µg/m³, per le piante superiori tra 2 e 4 µg/m³. La serie temporale mostra le concentrazioni medie di ammoniaca per gli anni 1990, 2000, 2005, 2010, 2015 e 2020, rappresentati in una griglia di 500m. La modellizzazione è basata sulle emissioni nazionali di ammoniaca, più di 90 per cento delle quali proviene dall'agricoltura. I dettagli della modellizzazione sono descritti nel rapporto Critical Loads of Nitrogen and their Exceedances (disponibile solo in inglese). Sul sito del modello Agrammon sono disponibili informazioni sul calcolo delle emissioni di ammoniaca (in tedesco, inglese e francese). A livello locale la concentrazione di ammoniaca può divergere dai dati modellizzati. I singoli pixel non devono essere usati per valutare singoli siti.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-ammoniakkonzentration:wmts",
+    "title": "Concentrazione di ammoniaca",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo-vd.ortschaftenverzeichnis_plz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo-vd.ortschaftenverzeichnis_plz?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo-vd.ortschaftenverzeichnis_plz?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/elenco-ufficiale-delle-localita",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/972cd117-f1ed-4818-be14-233d89ab9fdf",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Con l'articolo 24 dell'Ordinanza sui nomi geografici (ONGeo) l'Ufficio federale di topografia è stato incaricato di realizzare, amministrare e pubblicare il nuovo elenco ufficiale delle località con il numero postale d'avviamento e il perimetro. Questo set di dati è gestito a livello centralizzato presso swisstopo. Il set di dati è capillare per tutto il territorio svizzero e può essere ottenuto gratuitamente (aggiornato con cadenza mensile).I dati sono stati pubblicati in un nuovo modello di dati dal 1° gennaio 2024.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-vd.ortschaftenverzeichnis_plz:wms",
+    "title": "Elenco ufficiale delle località",
+    "type": "Dataset"
+  }
+}

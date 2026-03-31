@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.wasser-rueckgabe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wasser-rueckgabe?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wasser-rueckgabe?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/restwasser",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ed1931ac-81bc-4517-9860-80090e530e33",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Federal Act of 24 January 1991 on the Protection of Water against Pollution (LPEP) and its provisions on residual flows came into force on November 1, 1992 in Kraft getreten. Under Article 80 ff LPEP, remedial measures must be taken, where possible, on existing residual flows by order of the authorities. The first step in the remedial process for cantons is to build an inventory of existing water catchments and submit it to the federal government. Cantons evaluate the indexed water catchments and decide whether and how necessary it is to take remedial actions. They record the results of their analysis and submit the report to the federal government. In order to review enforcement of the LPEP as concerns residual flows / remedial measures and provide information to the public and other interested bodies, the data on the water catchments submitted by the cantons is presented in a national residual flow map (Scale 1 : 200,000).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wasser-rueckgabe:wmts",
+    "title": "Return flows",
+    "type": "Dataset"
+  }
+}

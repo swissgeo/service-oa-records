@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.ivs-nat_abgrenzungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-nat_abgrenzungen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-nat_abgrenzungen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ivs.admin.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/aab3c0bf-bfa3-48e0-84d7-1a7b86e04509",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale delle strade USTRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le delimitazioni fanno parte della carta dell'inventario, indipendentemente dalla classificazione (nazionale, regionale, locale). Le delimitazioni indicano sulla carta l'inizio e la fine di un tratto (di una via). Le delimitazioni sono oggetti puntuali. Durante la verifica degli oggetti IVS d'importanza regionale e locale i cantoni di Berna e Sciaffusa hanno in parte integrato nuovi tracciati o suddiviso diversamente tracciati già esistenti. Per i nuovi tracciati o per quelli modificati sono state rilevate nuove delimitazioni che sono contenute nel presente database.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-nat_abgrenzungen:wmts",
+    "title": "IVS Delimitazioni",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.schutzgebiete-ramsar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-ramsar?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-ramsar?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/d960a5c8-44e4-4d10-a9f6-95f58568563c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pour protéger les zones humides, en particulier en tant qu'habitats pour les oiseaux d'eau et les oiseaux limicoles, une convention d'importance internationale a été signée en 1971 dans la ville iranienne de Ramsar. La Suisse a ratifié cette convention, généralement appelée Convention de Ramsar, en 1976 et s'engage ainsi à garantir l'utilisation durable des zones humides et à accorder une protection particulière à ces milieux. Jusqu'à présent, onze sites ont été inscrits auprès de la Convention de Ramsar en quatre étapes, dont trois ont été adaptés entre-temps à de nouveaux périmètres de protection. Ils ont été sélectionnés principalement en raison de leur importance en tant qu'habitats pour les oiseaux d'eau. Les sites comprennent des rives lacustres, des deltas de rivières, des tronçons de cours d'eau endigués, une zone de roselière et, en milieu alpin, des avant-pays glaciaires ainsi qu'une zone marécageuse. Ils servent de documents officiels pour l'inscription auprès de l'UICN et la documentation des différentes zones humides dans la base de données Ramsar.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-ramsar:wmts",
+    "title": "Ramsar",
+    "type": "Dataset"
+  }
+}

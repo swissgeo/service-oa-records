@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.hindernisbegrenzungsflaechen-kataster",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.hindernisbegrenzungsflaechen-kataster?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.hindernisbegrenzungsflaechen-kataster?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/sizo-hbk",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/87c13b99-b1a0-4822-a923-42f63067d48d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Hindernisbegrenzungsflächen sind eine Serie von dreidimensionalen Flächen, welche den für die Flugsicherheit in der Regel erforderlichen hindernisfreien Luftraum nach unten abgrenzen. Objekte, die diese Begrenzungsflächen durchstossen, bezeichnet man als Luftfahrthindernisse. Ziel ist es, den Luftraum vor Hindernissen zu schützen, damit ein sicherer Flugbetrieb gewährleistet werden kann. Beim Hindernisbegrenzungsflächen-Kataster (HBK) handelt sich um eine amtliche Feststellung der Hindernisbegrenzungsflächen für einen Flugplatz, eine Flugsicherungsanlage oder einen Flugweg. Das Bundesamt für Zivilluftfahrt (BAZL) führt über die zivilen Anlagen einen Kataster der Hindernisbegrenzungsflächen (engl. Obstacle Limitation Surfaces OLS). Dieser bildet sämtliche Typen von dreidimensionalen Hindernisbegrenzungsflächen gemäss ICAO Annex 14 strukturiert und eindeutig ab. Der Layer beinhaltet nur Daten die genehmigt und modellkonform sind.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.hindernisbegrenzungsflaechen-kataster:wms",
+    "title": "Hindernisbegrenzungsflächen",
+    "type": "Dataset"
+  }
+}

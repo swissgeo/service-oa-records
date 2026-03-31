@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_doc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_doc?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_doc?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7ecace17-ab1a-4629-b80c-cb8599e8d07b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Im Rahmen der Nationalen Beobachtung Oberflächengewässerqualität (NAWA) wird an rund 100 Messstellen die Gewässerqualität durch Bund und Kantone gemeinsam erfasst. Im vorliegenden Datensatz wurde zur Beurteilung die nummerische Anforderung von 4 mg/L verwendet. Der gelöste organische Kohlenstoff (DOC = dissolved organic carbon) kann ein Indikator für die zivilisatorische Belastung eines Gewässers sein. Der DOC setzt sich aus einem natürlicherweise vorhandenen und einem zivilisatorisch bedingten Anteil zusammen. Die Gewässerschutzverordnung gibt als nummerische Anforderung einen Bereich für DOC von 1 bis 4 mg/L C vor. Die Beurteilung des chemischen Gewässerzustandes aufgrund der DOC-Konzentration erfolgt nach der Methode „Chemisch-physikalische Erhebungen, Nährstoffe“ des Modul-Stufen-Konzepts (www.modul-stufen-konzept.ch).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_doc:wms",
+    "title": "Gelöster organ. Kohlenstoff (DOC)",
+    "type": "Dataset"
+  }
+}

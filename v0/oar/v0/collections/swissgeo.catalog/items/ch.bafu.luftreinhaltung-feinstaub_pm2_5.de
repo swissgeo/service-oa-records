@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-feinstaub_pm2_5",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-feinstaub_pm2_5?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-feinstaub_pm2_5?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/dam/bafu/de/dokumente/luft/fachinfo-daten/karten_der_luftbelastunginderschweiz-dokumentation.pdf.download.pdf/karten_der_luftbelastunginderschweiz-dokumentation.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f38b6d2d-1c28-42cf-9535-046c81dfb98a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Unter PM2.5 versteht man Feinstaubpartikel, die kleiner sind als 2.5 Mikrometer. Dieser Staub entsteht bei industriellen und gewerblichen Produktionsprozessen, Verbrennungsprozessen, mechanischen Prozessen (Abrieb, Aufwirbelung) sowie durch sekundäre Bildung (aus Schwefeldioxid, Stickoxide, Ammoniak, flüchtige organische Verbindungen). Alle Emittentengruppen wie der Verkehr, die Haushalte, die Industrie und die Landwirtschaft tragen zur Feinstaubbelastung bei. PM2.5 führt zu Erkrankungen der Atemwege, des Herz-Kreislaufsystems, zu einer Zunahme des Krebsrisikos und der Sterberate. Die Zeitreihe zeigt die modellierten Karten der Jahresmittelwerte seit 2015 im 100 m Raster. Lokal kann die PM2.5-Konzentration von den modellierten Daten abweichen. Einzelne Pixel sind nicht für die Bewertung von Einzelstandorten heranzuziehen. Der in der Luftreinhalte-Verordnung festgelegte Jahresgrenzwert für PM2.5 liegt bei 10 µg/m³.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-feinstaub_pm2_5:wmts",
+    "title": "Feinstaub PM2.5",
+    "type": "Dataset"
+  }
+}

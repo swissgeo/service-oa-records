@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.sicherheitszonenplan",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.sicherheitszonenplan?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.sicherheitszonenplan?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/zone-di-sicurezza-cslo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f0ac2ddb-8b07-421b-ada6-8c192b593bca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per ogni aeroporto deve essere fissata una zona di sicurezza volta a proteggere lo spazio aereo da ostacoli. L’UFAC decide caso per caso se è necessario fissare una zona di sicurezza per gli impianti della navigazione aerea e le traiettorie di volo. Per la delimitazione delle zone di sicurezza è determinante il catasto delle superfici di limitazione degli ostacoli. La zona di sicurezza è illustrata in un piano di zona che indica le restrizioni della proprietà in superficie e in altezza. I piani delle zone di sicurezza approvati diventano vincolanti con la pubblicazione negli organi cantonali ufficiali e rappresentano una restrizione di diritto pubblico della proprietà.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sicherheitszonenplan:wms",
+    "title": "Piano delle zone di sicurezza",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.fischerei-krebspest",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.fischerei-krebspest?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.fischerei-krebspest?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/de/home/themen/wasser/aufwertung-und-schutz-der-gewaesser/fischerei.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/722d70aa-8404-47ca-ae5d-1e521e4229e9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Krebspest-Nachweis in der Schweiz: Georeferenzierte Standorte von Populationen mit Untersuchungsergebnissen. Die für die europäischen Arten verhängnisvollste Krankheit ist die Krebspest (Erreger: Aphanomyces astaci; Oamycetes). Diese Pilzkrankheit wurde 1880 vom amerikanischen Kontinent nach Europa verschleppt und hat danach einen Grossteil der einheimischen Krebsbestände in Europa zerstört, denn die europäischen Krebsarten sterben daran. Die amerikanischen Arten können den Erreger jedoch mit sich tragen und Populationen von einheimischen Arten durch ins Wasser ausgeschiedene Sporen anstecken. Diese Krankheit tritt unregelmässig da und dort in der Schweiz auf.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fischerei-krebspest:wmts",
+    "title": "Krebspest",
+    "type": "Dataset"
+  }
+}

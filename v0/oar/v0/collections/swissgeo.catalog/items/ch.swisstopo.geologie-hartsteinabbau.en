@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-hartsteinabbau",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hartsteinabbau?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hartsteinabbau?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://mat-min.ch/de/hartstein",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/fa939fea-8a3f-4911-ad83-33be66daa45c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Georesources Switzerland Group",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Hard rock aggregates play a central role particularly for the construction and maintenance of the Swiss railway network (railway ballast) as well as of high-performance roads. For further information: <a href=\"https://mat-min.ch/de/hartstein\" target=\"_blank\">www.mat-min.ch</a>. This dataset shows the location of the production and mining sites of hard rock aggregates in Switzerland (in operation, in the planning phase or decommissioned). A national overview of the geological occurrences of hard rock is displayed in a dedicated dataset (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinvorkommen&topic=georessourcen\" target=\"_blank\">Hard rock aggregates: Thickness and quality of geological occurrences</a>). The perimeters of the active mining sites have to be considered as indications. These are based on the Topographic Landscape Model (TLM) and SWISSIMAGE aerial photographs. For detailed information on mining activities, please contact the relevant cantonal authorities. This dataset is periodically updated and does not claim to be exhaustive.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hartsteinabbau:wms",
+    "title": "Hard rock: Production sites",
+    "type": "Dataset"
+  }
+}

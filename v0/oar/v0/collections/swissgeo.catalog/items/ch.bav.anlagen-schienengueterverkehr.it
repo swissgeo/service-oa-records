@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.anlagen-schienengueterverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.anlagen-schienengueterverkehr?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.anlagen-schienengueterverkehr?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/it/home/modi-di-trasporto/ferrovia/traffico-merci/traffico-merci-sull-intero-territorio-nazionale.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/dda92878-86a1-4191-a073-9721671d6bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dei trasporti UFT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La concezione del trasporto di merci per ferrovia è una concezione ai sensi dell'articolo 3 della legge sul trasporto di merci (LTM; RS 742.41) e dell'articolo 13 della legge federale sulla pianificazione del territorio (LPT; RS 700). Essa definisce da una parte i principali interessi della Confederazione che vanno tenuti in considerazione nell'ambito della pianificazione di impianti del traffico merci ferroviario e dall'altra contiene un elenco de gli impianti esistenti al momento dell'adozione della concezione. La carta sottostante riporta questi impianti. Il contenuto della carta non ha carattere giuridicamente vincolante. Attivando la funzione di interrogazione si ottengono informazioni di dettaglio sull'impianto selezionato. Per una corretta interpretazione della carta e dei risultati dell'interrogazione è bene tener conto delle informazioni contenute nella concezione del trasporto di merci per ferrovia e nel relativo rapporto esplicativo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.anlagen-schienengueterverkehr:wms",
+    "title": "Impianti traffico merci ferroviario",
+    "type": "Dataset"
+  }
+}

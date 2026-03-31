@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.vec25-gewaessernetz_referenz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec25-gewaessernetz_referenz?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec25-gewaessernetz_referenz?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/0351bc2e-3cdc-4e8a-b422-0142e494e7b4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il livello Rete idrica comprende una rete di linee orientate, i relativi nodi della rete dei corsi d'acqua e una tabella priva di geometria. Questi oggetti costituiscono, sul territorio della Svizzera e del Principato del Liechtenstein, la base del sistema d'informazione delle acque in Svizzera GEWISS. GEWISS è gestito dall'Ufficio federale dell'ambiente (UFAM). Nell'ambito del progetto GWN07 il livello Rete idrica è stato sottoposto a un'intensa rielaborazione. La versione 2007 di VECTOR25 gwn è pubblicata come riferimento.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec25-gewaessernetz_referenz:wmts",
+    "title": "Rete idrica VECTOR25",
+    "type": "Dataset"
+  }
+}

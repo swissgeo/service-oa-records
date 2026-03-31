@@ -1,0 +1,101 @@
+{
+  "id": "ch.blw.erosion-quantitativ",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.erosion-quantitativ?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.erosion-quantitativ?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/nachhaltige-produktion/umwelt/boden.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/14c92382-adf0-45d9-ad07-d41bd976c2a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for Agriculture FOAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Erosion risk map for arable land, with average soil erosion in tonnes /(ha*year) (Federal Office for Agriculture)Erosion risk map for arable land in Switzerland in a 2x2-metre grid based on SwissALTI3D and cantonal surface-area data on arable land (status 2021). The map shows the long-term average potential soil erosion in tonnes per hectare and year, calculated on the basis of bare fallow (erosion which theoretically could occur if the soil were permanently bare). Shades of green, yellow and red mean a slight, average and high risk of erosion, respectively. The values calculated in the model are consistently much higher than in actual fact (by around a factor of 10), since soil tillage and management (C-factor) were excluded and incorporated in the calculation as a constant with the value of 1. Calculating the erosion risk with multiple-flow algorithms allows us to illustrate the structure of the terrain in great detail – e.g. the shape of basins or of steep transverse slopes – and hence e.g. also to identify the risk of thalweg erosion. This is shown in detail in the flow-path map (which see). Field blocks (see field-block map) constitute the basis of the spatial calculation.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.erosion-quantitativ:wmts",
+    "title": "Erosion risk crop quantitative",
+    "type": "Dataset"
+  }
+}

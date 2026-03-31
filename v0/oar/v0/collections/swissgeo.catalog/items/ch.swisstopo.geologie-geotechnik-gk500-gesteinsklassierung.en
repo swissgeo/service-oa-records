@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://georessourcen.ethz.ch/en",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f2c81b93-f0c5-4899-83a9-974ce36c48e6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Georesources Switzerland Group",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Lithological map of Switzerland – Groups of rocks 1:500,000 provides an overview of the subsurface subdivided into three groups of rocks: unconsolidated rocks, sedimentary rocks and crystalline rocks.The geometry of the polygons was reproduced unmodified from the Geological and Tectonic maps of Switzerland 1:500,000. Additional attributes were assigned to the polygons on the basis of the Lithological-petrographic map 1:200,000.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung:wmts",
+    "title": "Groups of rocks 500",
+    "type": "Dataset"
+  }
+}

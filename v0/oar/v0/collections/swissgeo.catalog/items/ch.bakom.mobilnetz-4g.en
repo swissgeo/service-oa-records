@@ -1,0 +1,101 @@
+{
+  "id": "ch.bakom.mobilnetz-4g",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.mobilnetz-4g?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.mobilnetz-4g?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/en/broadband-atlas",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4d42230c-c187-40d2-9b16-4dc247a2e154",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Communications OFCOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The broadband map provides an overview of Switzerland's access to modern telecommunications networks. The coverage situation of mobile communication networks is shown in the form of statistical data per grid square (100 x 100 metres). For each cell, you can see the number of operators theoretically providing an outdoor 4G connection (on the street, in a public square, etc.). The coverage shown on the map is an compilation of the data provided by the different mobile network operators. Information on the coverage is calculated using predictive models and does not guarantee accuracy. The actual coverage situation should be determined by making enquiries with the service providers: <a href=\"https://www.salt.ch/fr/coverage/\">Salt</a>, <a href=\"https://sunrise.mapplus.ch/\">Sunrise UPC</a>, <a href=\"https://scmplc.begasoft.ch/plcapp/pages/gis/netzabdeckung.jsf\">Swisscom</a>",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.mobilnetz-4g:wmts",
+    "title": "4G - LTE / LTE-A",
+    "type": "Dataset"
+  }
+}

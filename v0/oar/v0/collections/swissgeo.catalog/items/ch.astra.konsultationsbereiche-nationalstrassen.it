@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.konsultationsbereiche-nationalstrassen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.konsultationsbereiche-nationalstrassen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.konsultationsbereiche-nationalstrassen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.astra.admin.ch/astra/de/home/fachleute/weitere-bereiche/geoinformation/geobasisdaten.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/92fa644c-ca5c-4edf-a3d1-114d27720475",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale delle strade USTRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'ordinanza sugli incidenti rilevanti (OPIR, RS 814.012) ha lo scopo di proteggere la popolazione e l'ambiente dai gravi danni derivanti da incidenti rilevanti. Essa stabilisce che i titolari di una via di comunicazione, di un'azienda o di un impianto di trasporto tramite condotte devono attuare, sotto la propria responsabilità, misure di sicurezza e disciplina la procedura di controllo e valutazione svolta dalle autorità. Sono soggette all'OPIR le strade di grande transito ai sensi dell'ordinanza concernente le strade di grande transito, sulle quali vengono trasportate o movimentate merci pericolose conformemente all'ordinanza del 17 aprile 1985 sul trasporto di merci pericolose su strada (SDR) o ai corrispondenti accordi internazionali relativi al trasporto internazionale di merci pericolose su strada (ADR). Conformemente all'articolo 1 dell'ordinanza concernente le strade di grande transito, sono aperte al grande transito le autostrade, le semiautostrade e le strade principali.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.konsultationsbereiche-nationalstrassen:wmts",
+    "title": "Area di consultazione delle strade nazionali",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.swissimage-product.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissimage-product.metadata?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissimage-product.metadata?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/orthobilder-swissimage-10-cm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/1fc43fd9-f43f-4779-aa59-51e8f4833372",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "SWISSIMAGE ist seit 1926 bis heute verfügbar. Bei allen Kacheln wird immer die Kachelnummer sowie das jeweilige Flugjahr angegeben. In den Randgebieten von Befliegungsblöcken kann es vorkommen, dass die Kacheln nicht mit Bildern eines Flugjahres abgedeckt werden können. Diese Kacheln weisen daher Pixel unterschiedlicher Flugjahre auf, wobei jeweils dasjenige Flugjahr attribuiert wird, das die Mehrheit der Pixel aufweist (mehr als 75% aller Pixel). Mit der Anzeige von Bildzeitständen, der sogenannten «Zeitreise», lässt sich die Einteilung von SWISSIMAGE ab 1926 bis heute interaktiv ermitteln.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swissimage-product.metadata:wmts",
+    "title": "Einteilung SWISSIMAGE Zeitreise",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.vbs.bundestankstellen-bebeco",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.bundestankstellen-bebeco?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.bundestankstellen-bebeco?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vtg.admin.ch/de/service/bundestankstellen.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7f8c99f2-7736-4fe6-8d69-0af201f01526",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Armée suisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Emplacements des stations-service de la Confédération BEBECO<br>Indication concernant l'utilisation des stations AdBlue:<br> Les véhicules de tourisme et les véhicules utilitaires légers ne peuvent pas faire le plein à ces stations, Haute pression. Veuillez pour cela vous adresser à votre garage. Lubrifiants et produits d'entretien ne peut être livré que sur commande téléphonique. <br><br> <b>Remarques concernant le ravitaillement:</b> <br> Les stations-service sont équipées d'automates permettant de se ravitailler au moyen de la CARD - BEBECO. <br> <br> a) Ravitaillement pendant les heures d'exploitation <ul> <li>Véhicules isolés: sans préavis.</li> <li>Autres ravitaillements, en particulier pour la troupe: seulement après entente avec la station-service concernée, car les possibilités de distribution sont diverses, voire limitées. </ul> b) Ravitaillement en dehors des heures d'exploitation <ul> <li>Stations marquées avec 24 h / 7: moyennant BEBECO-CARD, elles offrent la possibilité de se ravitailler en carburant 24 h sur 24, y compris le samedi et le dimanche. Par égard aux riverains, cette possibilité est limitée aux véhicules isolés.</li> </ul> <br> <b>Contact</b> <br> Mail: <a href=\"mailto:lba.betrst.dienst@vtg.admin.ch\">lba.betrst.dienst@vtg.admin.ch</a>",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.bundestankstellen-bebeco:wms",
+    "title": "Stations-service BEBECO",
+    "type": "Dataset"
+  }
+}

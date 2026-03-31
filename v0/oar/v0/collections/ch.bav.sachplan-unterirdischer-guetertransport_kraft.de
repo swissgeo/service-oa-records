@@ -1,0 +1,52 @@
+{
+  "id": "ch.bav.sachplan-unterirdischer-guetertransport_kraft",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bav.sachplan-unterirdischer-guetertransport_kraft:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.sachplan-unterirdischer-guetertransport_kraft?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bav.sachplan-unterirdischer-guetertransport_kraft:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.sachplan-unterirdischer-guetertransport_kraft?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bav.sachplan-unterirdischer-guetertransport_kraft",
+  "type": "Collection"
+}

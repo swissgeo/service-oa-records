@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geodaesie-isostatische_anomalien?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geodaesie-isostatische_anomalien?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.sgpk.ethz.ch/opencms/opencms/publications/pub_geoph_maps/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/7234896a-842c-4524-8710-5d900953cb1d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Applicando l'ipotesi di Pratt o Airy è possibile derivare l'anomalia isostatica. Questa anomalia corrisponde alla deviazione della fluttuazione statica della crosta nel mantello terrestre superiore. La deviazione tiene conto della struttura delle radici sotto la struttura della crosta (catena montuosa), ma la forma della struttura delle radici non è sempre definita chiaramente. Per la carta sono state utilizzate l'ipotesi di Airy-Heiskanen e le seguenti densità: mantello terrestre = 3.31 g/cm3, crosta terrestre al di sotto dell'ellissoide = 2.81 g/cm3, crosta terrestre al di sopra dell'ellissoide = 2.67 g/cm3.- E. KLINGELE, 1979",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geodaesie-isostatische_anomalien:wmts",
+    "title": "Anomalie isostatiche 500",
+    "type": "Dataset"
+  }
+}

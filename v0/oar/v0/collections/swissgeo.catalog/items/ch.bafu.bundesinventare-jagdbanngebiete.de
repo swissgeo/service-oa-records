@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-jagdbanngebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-jagdbanngebiete?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-jagdbanngebiete?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/jagdbanngebiete",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/200a2d0e-afe1-45d8-aeaf-ea3621cc6afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Eidgenössische Jagdbanngebiete gibt es seit 1875. Sie dienten dem Zweck der Hebung der Bestände von Gämsen, Rothirschen und Rehen sowie von Steinböcken (Schalenwild), die damals wegen Verfolgung durch die Jagd und Konkurrenz durch Vieh selten geworden waren. Die heutige Situation ist gekennzeichnet durch hohe und teilweise übersetzte Schalenwildbestände mit den dadurch bedingten Wildschadenproblemen einerseits und durch den Rückgang empfindlicher Arten wie Auerhuhn, Steinhuhn, Rebhuhn und Feldhase andererseits. Am 1. April 1988 erfolgte die Inkraftsetzung des Bundesgesetzes über die Jagd und den Schutz wild lebender Säugetiere und Vögel (NHG, 20. Juni 1986). Damit wurde auch die Revision der aus dem Jahre 1962 stammenden Verordnung über die Banngebiete eingeleitet. Diese haben heute die Regulierung der Bestände von Hirschen, Rehen, Gämsen und Steinböcken sowie den Schutz und die Förderung seltener Arten sowie deren Lebensräume zum Ziel. Das Inventar enthält 43 Objekte, welche seit 1992 teilweise leicht modifiziert worden sind. Ein Objekt wurde 2023 neu ausgewiesen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-jagdbanngebiete:wmts",
+    "title": "Jagdbanngebiete",
+    "type": "Dataset"
+  }
+}

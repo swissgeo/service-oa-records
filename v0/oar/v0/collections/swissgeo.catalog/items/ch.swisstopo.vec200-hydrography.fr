@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.vec200-hydrography",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec200-hydrography?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec200-hydrography?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f22843ce-ee17-43b3-adc8-ad7015043984",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le Topic Hydrography contient les différents éléments en rapport avec les eaux. Il comprend six feature classes et une table. Les lignes de \"FlowingWater\" et \"StagnantWater\" et les points de \"GWK_FW_Node\" sont liés topologiquement selon une structure de type arcs – noeuds, dans laquelle les arcs (lignes) sont reliés entre eux par des noeuds (points). Chaque arc a ainsi exactement deux noeuds, un par extrémité. Les arcs et les noeuds forment ensemble un réseau géométrique. En collaboration avec l'Office fédéral de l’environnement (OFEV), les noeuds et les arcs situés en Suisse ont été structurés et adressés selon GEWISS (système d'information suisse des eaux). A cette fin, les ainsi nommés Attributs-GEWISS ont été intégrés. Une feature class de point contenant des informations sur les chutes d’eau, les écluses et divers autres objets situés le long des cours d’eau est intégrée dans ce topic.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec200-hydrography:wmts",
+    "title": "Hydrologie swissTLMRegio",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,62 @@
+services:
+  pygeoapi:
+    build: .
+    image: pygeoapi-custom
+    ports:
+      - "5000:80"
+    volumes:
+      - ./pygeoapi-config.yml:/pygeoapi/pygeoapi-config.yml
+      - ./pygeoapi-openapi.yml:/pygeoapi/pygeoapi-openapi.yml
+      - ./data:/pygeoapi/data
+    env_file:
+      - .env-docker
+    depends_on:
+      opensearch:
+        condition: service_healthy
+
+  opensearch:
+    image: opensearchproject/opensearch:2
+    environment:
+      - discovery.type=single-node
+      - DISABLE_SECURITY_PLUGIN=true
+      - OPENSEARCH_JAVA_OPTS=-Xms256m -Xmx256m
+    volumes:
+      - osdata:/usr/share/opensearch/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -sf http://localhost:9200/_cluster/health || exit 1",
+        ]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  catalogue-loader:
+    build: .
+    image: pygeoapi-custom
+    volumes:
+      - ./v0:/pygeoapi/v0
+      - ./scripts:/opt
+    environment:
+      - OS_URL=http://opensearch:9200
+    command: ["python3", "/opt/load-opensearch-catalogue.py"]
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    restart: on-failure
+
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:2
+    ports:
+      - "5602:5601"
+    environment:
+      - OPENSEARCH_HOSTS=http://opensearch:9200
+      - DISABLE_SECURITY_DASHBOARDS_PLUGIN=true
+    depends_on:
+      opensearch:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  osdata:

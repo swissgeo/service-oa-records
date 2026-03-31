@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-vererzungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-vererzungen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-vererzungen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.aramis.admin.ch/Texte/?ProjectID=57845",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/46dd5d50-6f7e-4175-ab64-051b16750e38",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Fachgruppe Georessourcen Schweiz",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Metallrohstoffe sind wirtschaftlich bedeutsame Ressourcen, die typischerweise aus metallhaltigen Mineralien gewonnen werden. Dieser Datensatz zeigt die Standorte, an denen in der Vergangenheit Metallrohstoffe in der Schweiz lokalisiert oder abgebaut wurden. Zurzeit werden in der Schweiz kommerziell keine Metallrohstoffe gewonnen. Aufgrund ihrer spezifischen chemischen, elektrischen oder magnetischen Eigenschaften werden Metallrohstoffe in verschiedenen industriellen Produktionsprozessen eingesetzt. Beispiele hierfür sind die Produktion von Metalllegierungen, Halbleitern (Chips), starken Permanentmagneten, hochleistungsfähigen Energiespeichersystemen und weiteren High-Tech-Komponenten. Einige Metallrohstoffe werden derzeit in der <a href=\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1252\" target=\"_blank\">Europäischen Union</a> als kritische Rohstoffe (CRM) eingestuft, und manche gelten <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-rohstoffe-industrieminerale/pdf/IRENA_NUPI_2024_Ranking_critical_materials_for_the_energy%20transition.pdf\" target=\"_blank\">als absolut notwendig</a> für die Energiewende. Mehrere Standorte in diesem Datensatz weisen auf eine Mineralisierung hin, die einen oder mehrere kritische Rohstoffe enthalten könnte. Die Konzentration und die Volumina dieser Mineralisierungen sind im Wesentlichen nicht bekannt oder unbedeutend. Nach heutiger Sachlage scheint eine wirtschaftliche Gewinnung dieser Vorkommen nicht realisierbar. Für einen detaillierteren Überblick über die geologische Situation bezüglich kritischer Rohstoffe in der Schweiz wird auf den Bericht <a href=\"https://www.aramis.admin.ch/Texte/?ProjectID=57845\" target=\"_blank\">Critical Raw Materials in Switzerland – A Review</a> verwiesen. Weitere kritische Rohstoffe sind im Datensatz <a href=\"https://map.geo.admin.ch/#/map?lang=de&center=2617121.4,1182798.62&z=1&topic=georessourcen&layers=ch.swisstopo.geologie-rohstoffe-industrieminerale&bgLayer=ch.swisstopo.pixelkarte-grau&catalogNodes=georessourcen,15162,15165,15164\" target=\"_blank\">Weitere Industrieminerale</a> aufgeführt. Für eine Standortentwicklung eines Rohstoffabbaus ist eine detaillierte geologische Untersuchung der Vorkommen vor Ort unumgänglich. Dieser Datensatz wird periodisch aktualisiert und hat keinen Anspruch auf Vollständigkeit.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-vererzungen:wms",
+    "title": "Metallrohstoffe",
+    "type": "Dataset"
+  }
+}

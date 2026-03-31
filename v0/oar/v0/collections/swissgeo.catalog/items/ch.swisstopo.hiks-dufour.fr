@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.hiks-dufour",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hiks-dufour?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hiks-dufour?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/carte-dufour-digitale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/d12f970f-6a83-4c33-8cfe-7504b6a5dca9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Entre 1844 et 1864, la première série de cartes officielles de la Suisse a été publiée à l'échelle 1:100'000 sous la direction du général Henri-Guillaume Dufour. Dufour a été également le fondateur et le premier directeur du Bureau topographique fédéral qu'il établit à Genève en 1838. Les 25 feuilles de la « carte Dufour » ne comportaient qu'une couleur et utilisaient le mode de reproduction de la gravure sur cuivre. Une fois la première édition terminée en 1865, cette série de cartes a été distinguée à plusieurs reprises sur la scène internationale et mise à jour jusqu'à son remplacement par la nouvelle carte nationale au 1:100'000. Depuis 2006, toutes les éditions sont disponibles sous forme numérique pour des analyses du développement du paysage et d'autres applications.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hiks-dufour:wmts",
+    "title": "Carte Dufour Première édition",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.erosion-gruenland_bodenabtrag_apr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.erosion-gruenland_bodenabtrag_apr?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.erosion-gruenland_bodenabtrag_apr?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.tandfonline.com/doi/full/10.1080/17445647.2019.1585980",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/6007a86c-7e1d-4f3c-a7d9-4eae01cac9c0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Monthly soil erosion risk maps for Swiss permanent grassland with a spatial resolution of 100m. The maps show the average soil loss in tonnes per hectare and month. Shades of green, yellow and red mean a low, average and high risk of erosion, respectively.The monthly soil erosion risk maps were calculated using the Revised Universal Soil Loss Equation (RUSLE). For this RUSLE application, the monthly dynamic of the rainfall erosivity factor (R-factor) and cover and management factor (C-factor) was considered as follows: A(month)= R(month)*K*C(month)*L*S*P where A(month) is the soil loss in tons per hectare and month and R(month) and C(month) are the monthly R-factor (MJ mm ha⁻¹ h⁻¹ month⁻¹) and C-factor (dimensionless). The other erosion factors are soil erodibility (K-factor), slope length (L-factor), slope steepness (S-factor) and support practices (P-factor). The RUSLE factors were tailored to the specific environmental conditions of Swiss permanent grassland. The P-factor was included in the calculation as a constant with value 1 due to a lack of spatial information on grazing management and its effect on soil erosion.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.erosion-gruenland_bodenabtrag_apr:wmts",
+    "title": "Erosion risk permanent grassland Apr.",
+    "type": "Dataset"
+  }
+}

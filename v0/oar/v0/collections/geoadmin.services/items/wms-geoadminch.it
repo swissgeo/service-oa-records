@@ -1,0 +1,36 @@
+{
+  "id": "wms-geoadminch",
+  "links": [
+    {
+      "href": "https://docs.geo.admin.ch/visualize-data/wms.html#web-map-service-wms",
+      "rel": "service-doc",
+      "title": "Geoadmin WMS Docu"
+    }
+  ],
+  "linkTemplates": [
+    {
+      "uriTemplate": "https://wms.geo.admin.ch/?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=text/xml&lang={lang}",
+      "rel": "about",
+      "title": "WMS Capabilities File",
+      "type": "application/xml",
+      "variables": {
+        "lang": {
+          "enum": [
+            "de",
+            "fr",
+            "en",
+            "it"
+          ],
+          "type": "string",
+          "default": "de",
+          "description": "Language"
+        }
+      }
+    }
+  ],
+  "type": "Feature",
+  "properties": {
+    "title": "WMS geo.admin.ch",
+    "type": "ogc:wms"
+  }
+}

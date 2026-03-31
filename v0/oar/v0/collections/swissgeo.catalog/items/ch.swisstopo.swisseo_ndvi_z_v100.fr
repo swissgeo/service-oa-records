@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.swisseo_ndvi_z_v100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisseo_ndvi_z_v100?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisseo_ndvi_z_v100?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/imagesatellite-swisseo-ndviz",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/07f332fb-f728-4120-b6f1-488631555296",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carte de l'anomalie NDVI (Normalized Difference Vegetation Index), qui représente la vitalité de la végétation en comparant l'état actuel à la période de référence 1991-2020. Les valeurs sont basées sur des données satellitaires (Landsat 5, 7, 8 et Sentinel-2) et offrent, dans le produit final, une résolution spatiale de dix mètres. L'anomalie de l'indice indique une modification de la densité et/ou de la teneur en chlorophylle (\"vert\") de la végétation. Une augmentation du NDVI peut être due à la croissance et à une productivité accrue, tandis qu'une diminution du NDVI résulte généralement de la gestion ou de perturbations naturelles (dégâts causés par les tempêtes, sécheresse, dégâts d'insectes, etc.). L'anomalie est représentée par le Z-Score. Plus l'état actuel s'éloigne de l'état normal de la période de référence, plus la valeur du Z-Score est élevée. Par exemple, un Z-Score de +1 signifie que la végétation est plus vitale que lors de 68 % des années de comparaison, tandis qu'une valeur de +2 indique déjà une vitalité supérieure à celle de 95 % des années de comparaison. Ce jeu de données a été développé en collaboration avec la BFH-HAFL et l'Office fédéral de l'environnement (OFEV) pour waldmonitoring.ch et le portail sécheresse de la Confédération. Contient des données Copernicus Sentinel modifiées.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisseo_ndvi_z_v100:wms",
+    "title": "swissEO NDVIz",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ch.swisstopo.lubis-luftbilder-dritte-firmen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lubis-luftbilder-dritte-firmen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lubis-luftbilder-dritte-firmen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f614decc-a4f2-480f-b007-b8d9b99bdde5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography, privates",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Within the framework of various projects of public and private clients, aerial images of Switzerland are collected and offered by third parties. These aerial images can be reported to swisstopo and are published in the \" Aerial images third parties\" layer. The layer contains only the information supplied to swisstopo and makes no claim to completeness. All aerial photographs are presented in the form of the image centre coordinates and the ground segment covered by the aerial image, as well as the attributed meta-information. The aerial images can be ordered or obtained from the respective third party.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lubis-luftbilder-dritte-firmen:wmts",
+    "title": "Aerial images third parties",
+    "type": "Dataset"
+  }
+}

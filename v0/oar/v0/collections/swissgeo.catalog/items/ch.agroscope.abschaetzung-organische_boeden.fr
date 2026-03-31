@@ -1,0 +1,102 @@
+{
+  "id": "ch.agroscope.abschaetzung-organische_boeden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.abschaetzung-organische_boeden?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.abschaetzung-organische_boeden?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/0572e842-7e34-409a-90d9-526d012a1c2d/attachments/W%C3%BCst-Galley%20Leifeld%202025%20org%20soils%20map.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/0572e842-7e34-409a-90d9-526d012a1c2d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte des sols organiques en Suisse est une mise à jour de la première carte publiée en 2015. Elle fournit une estimation de la répartition des (anciens) sols de tourbières qui existent encore aujourd'hui et qui sont suffisamment riches en humus et profonds pour répondre aux critères des sols organiques. La carte a été réalisée en quatre étapes. <br> Dans un premier temps, les cartes des sols, les cartes géologiques, les inventaires nationaux des fens, des tourbières hautes et des marais de transition, les cartes des sites forestiers, les cartes et les documents historiques ont été évalués. Les données nouvellement disponibles depuis 2015 ont également été incluses dans cette mise à jour. Dans un deuxième temps, toutes les données ont été harmonisées et intégrées dans un modèle de données permettant de combiner l' ensemble des données. Dans un troisième temps, les données spatiales ont été superposées et une méthode fondée sur des règles a été utilisée pour identifier les surfaces résultantes comme étant des sols organiques ou non organiques. Dans la dernière étape, des informations fiables sur la présence de sols minéraux ont été utilisées pour supprimer les surfaces pour lesquelles les preuves de la présence de sols organiques étaient jugées moins fiables. <br> La superficie totale des sols organiques (incluant les estimations « certaines » et « moins certaines ») est de 32 702 ha. Pour de nombreuses applications, il s'agit de la meilleure estimation de la présence actuelle de sols organiques. <br> La catégorie « uniquement documentée dans des sources historiques » fait référence aux zones pour lesquelles aucune information actuelle pertinente n'a été trouvée, ni en ce qui concerne les sols minéraux ni en ce qui concerne les sols organiques. La catégorie « documentée de manière ambiguë » couvre les zones pour lesquelles les preuves de la présence de sols organiques ne sont pas claires ; elle est indiquée ici uniquement pour des raisons de cohérence avec l'estimation précédente de la superficie datant de 2015. <br> En raison de la nature hétérogène des sources d'information utilisées pour créer la carte, il n'est pas possible de définir l'échelle à laquelle cette carte est adaptée. Toutefois, la recommandation suivante peut être faite : la carte est adaptée à une utilisation aux niveaux national et régional (par exemple, canton ou district) ; elle n'est pas adaptée à une utilisation au niveau des parcelles. <br> Deux publications décrivent en détail les méthodes et les données actualisées. Il est recommandé de lire les deux publications avant d'utiliser la carte. Une partie des données est soumise à une licence ; veuillez vous référer au fichier « readme.txt » dans le dossier de téléchargement. <br><br> Literature <ul> <li>Wüst-Galley, C. et J. Leifeld (2025) « The distribution and (future) use of Switzerland's organic soils » Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819</li> <li>Wüst-Galley, C., A. Grünig et J. Leifeld (2015) « Localisation des sols organiques pour l'inventaire des gaz à effet de serre » Agroscope Science 26, 100 pp.</li> <ul>",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.abschaetzung-organische_boeden:wms",
+    "title": "Sols organiques CH 2025",
+    "type": "Dataset"
+  }
+}

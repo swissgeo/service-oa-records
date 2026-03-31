@@ -1,0 +1,101 @@
+{
+  "id": "ch.blw.alpprodukte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.alpprodukte?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.alpprodukte?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/instrumente/kennzeichnung/berg-und-alp.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/843b3f48-ec98-4143-b9e6-1db1ad6ddac0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for Agriculture FOAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Um die Bezeichnung „Alpprodukt“ (z.B. Alpkäse) verwenden zu können, müssen die Rohstoffe aus dem Sömmerungsgebiet stammen und auch dort verarbeitet werden. Die Verarbeitung folgender Produkte darf auch ausserhalb des Sömmerungsgebiets stattfinden: genussfertige Milch; genussfertiger Rahm; Reifung der Käse sowie die Schlachtung und Zerlegung der Tiere. Die Bezeichnung „Alp“ darf auch in der Kennzeichnung eines aus mehreren Zutaten zusammengesetzten Lebensmittels verwendet werden, auch wenn das Lebensmittel selbst die Anforderungen für die Verwendung der Bezeichnung „Alp“ nicht erfüllt. Die Bezeichnung „Alp“ darf sich ausschliesslich auf die betreffenden Zutaten beziehen (z.B. „Jogurt aus Alpmilch“) (SR 910.19).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.alpprodukte:wmts",
+    "title": "Alpine products",
+    "type": "Dataset"
+  }
+}

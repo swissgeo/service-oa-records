@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftraeume-fluginformationsgebiet",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftraeume-fluginformationsgebiet?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftraeume-fluginformationsgebiet?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/navigation-aerienne-et-espace-aerien",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/cde5d669-5c65-4338-9e7c-dc839df4a8b4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Conformément à l'art. 40 de la loi fédérale du 21 décembre 1948 sur l'aviation (LA ; RS 748.0) en relation avec l'art. 2, al. 1 de l'ordonnance sur le service de la navigation aérienne (OSNA ; RS 748.132.1), il incombe à l'OFAC d'établir la structure de l'espace aérien et les classes d'espace aérien. Les informations complémentaires telles que la classe d'espace aérien, les conditions d'utilisation et d'autres informations concernant les espaces aériens représentés figurent dans la publication officielle (AIP).L'espace aérien suisse se compose des régions de contrôle (CTA) Zurich et Genève et d'une région d'information de vol (FIR) avec ligne de séparation Plateau-Jura / Alpes.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftraeume-fluginformationsgebiet:wmts",
+    "title": "Espaces aériens - FIR",
+    "type": "Dataset"
+  }
+}

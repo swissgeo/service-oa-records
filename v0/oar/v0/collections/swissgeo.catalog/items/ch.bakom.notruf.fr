@@ -1,0 +1,102 @@
+{
+  "id": "ch.bakom.notruf",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.notruf?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.notruf?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/en/sr-78410111313-emergency-call-requirement",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7f3287d8-6ae7-491c-b8e1-1d9f81b194b4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la communication OFCOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Un appel d'urgence est un appel sur un numéro court à trois chiffres du service d'appel d'urgence composé par l'appelant : service d'urgence européen 112 ; police, appel d'urgence 117 ; feu, centrale d'alarme 118 ; aide aux victimes 142; main tendue 143 ; ambulances, appel d'urgence 144 ; secours téléphonique pour les enfants et les jeunes 147. Un appel d'urgence peut être effectué depuis un réseau fixe, un réseau mobile ou un réseau par satellite. Dans chaque commune, l'appel d'urgence 1XX doit être acheminé vers une centrale d'alarme précise du service d'urgence compétent. Un numéro d'acheminement est attribué pour chaque service d'appel d'urgence 1XX. Certaines communes peuvent être divisées en différentes parties, les parties ayant des numéros d'acheminement différents pour tous ou pour certains services d'appels d'urgence 1XX. Ces parties peuvent aussi avoir différentes centrales d'alarme. On parle alors de territoires spéciaux. Cette carte permet d'identifier pour chaque commune suisse et pour les territoires spéciaux les numéros d'acheminement et les centrales d'alarme pour tous les appels d'urgence 1XX effectués depuis un réseau fixe, mobile ou par satellite. Les territoires spéciaux sont identifiés sur la carte par une couleur spécifique.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.notruf:wmts",
+    "title": "Appels d'urgence par commune",
+    "type": "Dataset"
+  }
+}

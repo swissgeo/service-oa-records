@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.landschaftsruhezonen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.landschaftsruhezonen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.landschaftsruhezonen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/rumore",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8af95971-c458-4f4e-bfe4-2d541a1274e8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Secondo la strategia \"Zone di silenzio nel paesaggio nell'ambito aeronautico\" del gennaio 2011, le zone di silenzio nel paesaggio sono unità paesaggistiche di grandi dimensioni con poche fonti di rumore di origine antropica. In tali zone, l'obiettivo di protezione è costituito dalla salvaguardia della varietà dei rumori di origine naturale e del silenzio necessario al riposo delle persone. La delimitazione di zone di silenzio è effettuata sulla base degli inventari e degli oggetti meritevoli di protezione in virtù della legge federale sulla protezione della natura e del paesaggio (LPN; RS 451) e della legge sulla caccia (LCO; RS 922.0). Sorvolare queste zone con aeromobili a motore deve essere, per quanto possibile, evitato o, al limite, i sorvoli devono essere effettuati ben al di sopra della quota minima di volo prevista e per tragitti il più possibile brevi.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.landschaftsruhezonen:wmts",
+    "title": "Zone di calma nel paesaggio",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ch.bfe.shared-mobility",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bfe.shared-mobility:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.shared-mobility?language=fr",
+          "hreflang": "fr",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.bfe.shared-mobility/ch.bfe.shared-mobility_fr.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bfe.shared-mobility.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bfe.shared-mobility",
+  "type": "Collection"
+}

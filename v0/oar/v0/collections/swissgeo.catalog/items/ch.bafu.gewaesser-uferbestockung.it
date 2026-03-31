@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.gewaesser-uferbestockung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesser-uferbestockung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesser-uferbestockung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c6c2b47d-f8ad-488a-9104-24773d3d2f6f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La vegetazione svolge importanti funzioni. Fa ombra ai fiumi, riducendo così le temperature di picco dell'acqua. Nel contesto del riscaldamento globale, questo aspetto è sempre più importante. Inoltre, l'imboschimento riduce l'erosione delle sponde e trattiene gli inquinanti.La base dati rappresenta la quota [%] di vegetazione nei due argini con larghezza di 15 metri. L'imboschimento è stato definito come vegetazione di altezza superiore a 2,5 metri. È stato calcolato per tutti i fiumi a scorrimento libero con una larghezza maggiori di 1 metro. Come base per i dati è stato utilizzato il modello di altezza della vegetazione dell'inventario forestale nazionale.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesser-uferbestockung:wmts",
+    "title": "Rivegetazione degli argini dei fiumi",
+    "type": "Dataset"
+  }
+}

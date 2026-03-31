@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-obere_waldgrenze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-obere_waldgrenze?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-obere_waldgrenze?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/4b185207-12c4-4d49-9b3e-7870054685ae",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Beschreibung (it) Questa carta mostra il limite superiore naturale della foresta (senza influssi antropogenici né arbusteti) modellato per i periodi 1961-1990, 1981-2010 e 2070-2099. Per la modellizzazione del futuro limite superiore della foresta sono stati applicati i percorsi di concentrazione rappresentativi e i modelli combinati seguenti:<br> - RCP 2.6 (scenario per il rispetto dell'Accordo di Parigi) con il modello combinato DMI_HIRHAM_ECEARTH_EUR11 quale proiezione per un cambiamento climatico ridotto, <br> - RCP 4.5 (scenario per una protezione limitata del clima) con il modello combinato SMHI-RCA_MPIESM_EUR44 quale proiezione per un cambiamento climatico moderato, <br> - RCP 8.5 (scenario per nessuna protezione del clima) con il modello combinato CLMCOM-CCLM5_HADGEM_EUR44 quale proiezione per un cambiamento climatico elevato. <br> La posizione del limite superiore della foresta secondo il modello altimetrico digitale (DHM25) è una funzione dei valori massimi medi della temperatura dell'aria in luglio, delle precipitazioni medie in luglio, del periodo medio senza neve, dell'esposizione, della pendenza e del substrato roccioso.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-obere_waldgrenze:wmts",
+    "title": "Limite superiore della foresta",
+    "type": "Dataset"
+  }
+}

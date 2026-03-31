@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.lotabweichungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.lotabweichungen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.lotabweichungen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/consorzio-svizzero-per-il-campo-di-gravita",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ef5df57e-8eb3-4b55-96e5-0e70adead7ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La deviazione della verticale descrive l'angolo tra la verticale relativa al campo gravitazionale e quella relativa all'ellissoide di riferimento. In Svizzera quest'angolo può raggiungere circa 1 minuto d'arco e deve essere considerato ai fini della precisione delle misurazioni geodetiche. L'angolo è formato da una componente sud-nord (Xi) e da una componente ovest-est (Eta). La deviazione della verticale costituisce inoltre un'informazione preziosa per la determinazione del geoide. Tale deviazione può essere determinata attraverso il confronto di coordinate rilevate per via astronomica (lunghezze e larghezze) con coordinate come quelle determinate ad esempio con il GPS. La precisione di una misurazione della deviazione della verticale effettuata con moderne fotocamere Zenit digitali è nell'ordine di 0.1 secondi d'arco.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.lotabweichungen:wmts",
+    "title": "Deviazione della verticale",
+    "type": "Dataset"
+  }
+}

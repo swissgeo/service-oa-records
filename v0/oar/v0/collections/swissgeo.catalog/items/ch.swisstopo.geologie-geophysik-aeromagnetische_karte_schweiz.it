@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.sgpk.ethz.ch/opencms/opencms/publications/pub_geoph_maps/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/4cc706a2-0005-4cc6-8326-7b944a1d5b05",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La magnetizzazione totale di una roccia è costituita dalla magnetizzazione indotta generata dal campo magnetico terrestre e dalla magnetizzazione residua di cui la roccia è stata dotata al momento della sua formazione. Gli scostamenti del campo geomagnetico limitati a livello locale o regionale rispetto a un modello globale, detti anche anomalie, vengono misurati da un aereo. Queste anomalie possono consentire l'identificazione di strutture geologiche e tettonichema possono anche rilevare la presenza di concentrazioni di minerali utili . La carta aeromagnetica della Svizzera indica l'intensità totale del campo magnetico (epoca 1981.5), misurata da un'altezza di volo di 5000 metri s.l.m. - Carta in formato cartaceo: campo totale, E. KLINGELE, 1982. - Carta vettoriale: versione online, le anomalie aeromagnetiche residue(sottrazione delle tendenze regionali), E. KLINGELE, 2009.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geophysik-aeromagnetische_karte_schweiz:wmts",
+    "title": "Aeromagnetismo 500",
+    "type": "Dataset"
+  }
+}

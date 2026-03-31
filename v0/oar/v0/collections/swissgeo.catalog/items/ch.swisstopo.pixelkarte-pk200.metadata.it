@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.pixelkarte-pk200.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-pk200.metadata?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-pk200.metadata?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/landeskarte-swiss-map-raster-200",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/59d2f908-51ab-40f5-912b-c446b3c3994f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Swiss Map Raster 200 è la carta nazionale digitale della Svizzera in scala 1:200 000 in formato raster. La «Divisione Swiss Map Raster 200» mostra il perimetro, il numero e il nome di ogni foglio della carta. La Swiss Map Raster viene fornita sottoforma di file TIF (formato raster). Le informazioni della carta sono suddivise per livelli cromatici, ma non per elementi tematici della carta. Le carte pixel sono disponibili sottoforma di combinazione di colori (508 dpi) oppure di layer separati per colori (dati binari 508 dpi) e possono essere fornite sia per fogli che sottoforma di estratto del perimetro personalizzato.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-pk200.metadata:wms",
+    "title": "Divisione carta nazionale 200 Raster",
+    "type": "Dataset"
+  }
+}

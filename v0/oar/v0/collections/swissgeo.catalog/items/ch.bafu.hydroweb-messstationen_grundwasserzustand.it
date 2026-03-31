@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_grundwasserzustand",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_grundwasserzustand?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-messstationen_grundwasserzustand?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/livelli-delle-acque-sotterranee-e-portate-delle-sorgenti",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f87d692e-8d65-4188-94ba-61b4c61d621c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La mappa fornisce una panoramica sui livelli attuali delle acque sotterranee e delle sorgenti in Svizzera. Per collocare la situazione attuale nello sviluppo pluriennale vengono utilizzati i percentili basati sui dati giornalieri del periodo di riferimento 1991-2020 o, in caso di serie di dati più brevi, del periodo di riferimento disponibile dall'inizio delle misurazioni al 2020. A) Livelli bassi delle acque sotterranee o portata della sorgente: si raggiunge una condizione significativamente più bassa del regime medio quando il valore attuale misurato è inferiore al 10° percentile pluriennale del periodo di riferimento. B) Condizioni normali: il livello attuale delle acque sotterranee o la portata della sorgente si colloca tra il 10° e il 90° percentile del periodo di riferimento. C) Livelli alti delle acque sotterranee o portata della sorgente: si raggiunge una condizione significativamente più alta del regime medio pluriennale quando il valore attuale misurato è superiore al 90° percentile del periodo di riferimento. La tendenza indica se, nei sette giorni precedenti, il livello delle acque sotterranee o la portata della sorgente presso una stazione di misurazione sono stati in aumento o in diminuzione o se non si delinea una tendenza. Nel giorno di misurazione attuale t la tendenza viene definita come segue: valori di misurazione medi dei giorni t-8 e t-7 meno i valori di misurazione dei giorni t-2 e t-1. Fonte: Osservazione nazionale delle acque sotterranee NAQUA.</p><p> <a href=\"https://www.bafu.admin.ch/bafu/it/home/temi/acque/acque-sotterranee/osservazione-nazionale-delle-acque-sotterranee-naqua/modulo-quant.html\" target=\"_blank\">NAQUA, Modulo QUANT: Quantità delle acque sotterranee (livello delle acque sotterranee e portate delle sorgenti) - Informazioni di base sulla rete di misurazione dell'UFAM</a>",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Acque sotterranee: livelli/portate",
+    "type": "Dataset"
+  }
+}

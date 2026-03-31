@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messnetz-manuell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-manuell?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-manuell?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteosuisse.admin.ch/meteo/systemes-de-mesure/stations-au-sol/reseau-pluviometrique-manuel.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f83b7866-de32-41a7-a398-c5b8908b8853",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "En plus des mesures automatiques des précipitations, MétéoSuisse exploite un réseau pluviométrique manuel. Les quantités de précipitation sont mesurées une fois par jour et transmises à MétéoSuisse par SMS. Plus de 270 sites font partie de ce réseau (230 stations mesurent la pluie et 40 uniquement la neige). Les premières stations ont été établies en 1879. Du fait de leurs longues séries de mesures, ils revêtent une grande importance climatologique. Près de 60 totalisateurs servent dans les régions montagneuses présentant un accès difficile et ils enregistrent le volume des précipitations de toute une année.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Stations pluviométrique manuel",
+    "type": "Dataset"
+  }
+}

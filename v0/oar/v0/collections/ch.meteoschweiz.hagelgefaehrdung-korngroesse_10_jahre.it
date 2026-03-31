@@ -1,0 +1,57 @@
+{
+  "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre:wms:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/ch.admin.geo.data",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:STAC",
+        "title": "STAC Download Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.meteoschweiz.hagelgefaehrdung-korngroesse_10_jahre",
+  "type": "Collection"
+}

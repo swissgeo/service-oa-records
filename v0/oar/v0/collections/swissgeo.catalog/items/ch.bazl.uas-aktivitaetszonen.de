@@ -1,0 +1,97 @@
+{
+  "id": "ch.bazl.uas-aktivitaetszonen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.uas-aktivitaetszonen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.uas-aktivitaetszonen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d3528da5-c074-4ff6-bc70-53ab7983d46d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die UAS Aktivitätszonenkarte (UAS Awareness map) zeigt Gebiete mit genehmigten Betriebsaktivitäten von unbemannten Luftfahrzeugen (UAS).Zweck der Veröffentlichung dieser Gebiete ist es, das Situationsbewusstsein der bemannten Luftfahrt zu erhöhen und relevante Kontaktinformationen bereitzustellen. Die Konsultation dieser Informationen über die UAS Aktivitätszonenkarte (UAS Awareness Map) hat keinen Einfluss auf die Flugsicherheit und ist nicht verpflichtend. Die UAS Aktivitätszonenkarte (UAS Awareness Map) stellt ausschliesslich ausgewählte UAS-Operationen dar, insbesondere permanente oder regelmässig wiederkehrende Einsätze sowie Aktivitäten in lokal identifizierten Hotspot-Gebieten, die nicht für eine offizielle Veröffentlichung als luftfahrtbezogene Information qualifizieren. Wichtiger Hinweis: - Der UAS-Betreiber / Fernpilot bleibt vollständig verantwortlich für die Luftraumüberwachung und die Gewährleistung der Staffelung gegenüber bemannten Luftfahrzeugen.[UAS.SPEC.060 (3) Annex der Durchführungsverordnung (EU) 2019/947 / SERA.3201]. - Die dargestellten Gebiete dienen ausschliesslich der situativen Information. - Die dargestellten Betriebsvolumina entsprechen Einsätzen, die in der Spezifischen Kategorie genehmigt wurden, mit Verfahren, die entsprechend dem bewerteten lokalen Risikoniveau festgelegt und validiert sind und den Anforderungen der Verordnung (EU) 2019/947 entsprechen. Bei Fragen oder Koordinationsanfragen wenden Sie sich bitte an den jeweiligen Betreiber. Die Kontaktdaten sind im Informationspanel der Zonen verfügbar.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.uas-aktivitaetszonen:wms",
+    "title": "UAS Aktivitätszonen",
+    "type": "Dataset"
+  }
+}
