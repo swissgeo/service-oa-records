@@ -108,7 +108,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         for feature in result.get("features", []):
             _apply_lang(feature["properties"], lang)
-            _patch_links(feature.get("links", []), lang, fmt)
+            links = feature.setdefault("links", [])
+            _ensure_self_link(links, self.index_name, feature.get("id", ""))
+            _patch_links(links, lang, fmt)
             for record in feature.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
 
@@ -124,7 +126,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         if result:
             _apply_lang(result["properties"], lang)
-            _patch_links(result.get("links", []), lang, fmt)
+            links = result.setdefault("links", [])
+            _ensure_self_link(links, self.index_name, identifier)
+            _patch_links(links, lang, fmt)
             for record in result.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
 
@@ -147,6 +151,22 @@ def _apply_lang(props: dict, lang: str) -> None:
 
 
 _SERVER_URL = os.environ.get("PYGEOAPI_SERVER_URL", "").rstrip("/")
+
+
+def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
+    """Insert a ``rel=self`` link if none is present in *links*."""
+    if any(link.get("rel") == "self" for link in links):
+        return
+    if not item_id:
+        return
+    links.insert(
+        0,
+        {
+            "href": f"/collections/{collection_id}/items/{item_id}",
+            "rel": "self",
+            "type": "application/geo+json",
+        },
+    )
 
 
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
