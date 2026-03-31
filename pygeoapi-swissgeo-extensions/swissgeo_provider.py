@@ -191,5 +191,7 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
         is_relative = not parsed.scheme
         is_same_host = _SERVER_URL and href.startswith(_SERVER_URL)
         if is_relative or is_same_host:
+            if is_relative and _SERVER_URL:
+                href = f"{_SERVER_URL}{href}"
             sep = "&" if "?" in href else "?"
             link["href"] = f"{href}{sep}{qs}"
