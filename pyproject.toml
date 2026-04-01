@@ -19,4 +19,7 @@ extra-paths = ["pygeoapi-swissgeo-extensions"]
 dev = [
     "ruff",
     "ty",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
 ]
