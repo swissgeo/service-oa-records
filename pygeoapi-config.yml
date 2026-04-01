@@ -64,8 +64,9 @@ resources:
     providers:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
-        data: ${OS_URL:-http://localhost:9200}/swissgeo-catalog
+        data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-catalog
         resource_id: swissgeo-catalogue-os
+        aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
         id_field: externalId
         time_field: recordCreated
         title_field: title
@@ -94,7 +95,8 @@ resources:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
         resource_id: swissgeo-distribution-os
-        data: ${OS_URL:-http://localhost:9200}/swissgeo-distributions
+        data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-distributions
+        aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
         id_field: externalId
         time_field: recordCreated
         title_field: title
@@ -123,7 +125,8 @@ resources:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
         resource_id: geoadmin-services-os
-        data: ${OS_URL:-http://localhost:9200}/geoadmin-services
+        data: ${OPENSEARCH_URL:-http://localhost:9200}/geoadmin-services
+        aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
         id_field: externalId
         time_field: recordCreated
         title_field: title

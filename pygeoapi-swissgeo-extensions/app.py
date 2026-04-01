@@ -11,7 +11,11 @@ Usage:
 """
 
 import pygeoapi.starlette_app as _starlette_mod
-from pygeoapi.starlette_app import APP  # noqa: F401
+from pygeoapi.starlette_app import APP as _pygeoapi_app
+from starlette.applications import Starlette
+from starlette.requests import Request
+from starlette.responses import RedirectResponse
+from starlette.routing import Mount, Route
 from swissgeo_provider import set_request_params
 
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
@@ -32,3 +36,15 @@ def _call_api_threadsafe_with_lang(loop, api_function, actual_api, api_request, 
 
 
 _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignore[invalid-assignment]
+
+
+async def _redirect_to_api(request: Request) -> RedirectResponse:
+    return RedirectResponse(url="/ogc/records")
+
+
+APP = Starlette(
+    routes=[
+        Route("/", _redirect_to_api),
+        Mount("/", app=_pygeoapi_app),
+    ]
+)
