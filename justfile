@@ -1,9 +1,11 @@
 set shell := ["bash", "-c"]
 
-run-local:
+update-openapi:
     set -a; source .env-local; set +a
     PYTHONPATH=`pwd`:`pwd`/pygeoapi-swissgeo-extensions PYGEOAPI_CONFIG=pygeoapi-config.yml PYGEOAPI_OPENAPI=pygeoapi-openapi.yml \
         uv run pygeoapi openapi generate pygeoapi-config.yml --output-file pygeoapi-openapi.yml
+
+run-local: update-openapi
     PYTHONPATH=`pwd`:`pwd`/pygeoapi-swissgeo-extensions PYGEOAPI_CONFIG=pygeoapi-config.yml PYGEOAPI_OPENAPI=pygeoapi-openapi.yml \
         uv run pygeoapi serve
 
