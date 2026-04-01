@@ -21,4 +21,4 @@ ENV PATH="/pygeoapi/.venv/bin:$PATH"
 
 EXPOSE 80
 
-CMD ["uvicorn", "app:APP", "--host", "0.0.0.0", "--port", "80", "--app-dir", "/pygeoapi/pygeoapi-swissgeo-extensions"]
+CMD ["uvicorn", "app:APP", "--host", "0.0.0.0", "--port", "8080", "--app-dir", "/pygeoapi/pygeoapi-swissgeo-extensions"]
