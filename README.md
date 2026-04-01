@@ -32,6 +32,10 @@ SwissGeoProvider          ← extends OpenSearchCatalogueProvider
 OpenSearch  (swissgeo-catalog / swissgeo-distributions index)
 ```
 
+## swissgeo_provider.py
+
+
+
 ## Language handling
 
 OpenSearch records carry per-language fields alongside the generic ones:

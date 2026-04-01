@@ -18,9 +18,13 @@ _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 
 
 def _call_api_threadsafe_with_lang(loop, api_function, actual_api, api_request, *args):
+    headers = api_request.headers
+    host = headers.get("host", "")
+    scheme = headers.get("x-forwarded-proto", "https")
     set_request_params(
         lang=api_request._args.get("lang", None),
         fmt=api_request._args.get("f", None),
+        server_url=f"{scheme}://{host}" if host else None,
     )
     return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
 

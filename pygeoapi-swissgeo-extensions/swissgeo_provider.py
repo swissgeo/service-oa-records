@@ -24,7 +24,6 @@ Usage in pygeoapi-config.yml:
 """
 
 import logging
-import os
 import threading
 from urllib.parse import urlencode, urlparse
 
@@ -37,10 +36,13 @@ _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 _local = threading.local()
 
 
-def set_request_params(lang: str | None, fmt: str | None) -> None:
+def set_request_params(
+    lang: str | None, fmt: str | None, server_url: str | None = None
+) -> None:
     """Called by app.py in the executor thread before the API call."""
     _local.lang = lang
     _local.fmt = fmt
+    _local.server_url = server_url
 
 
 def _get_lang_and_fmt() -> tuple[str, str | None]:
@@ -59,6 +61,24 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
         return "en", fmt
     primary = lang.split("-")[0].split("_")[0].lower()
     return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
+
+
+def _get_server_url() -> str:
+    """Return the server base URL for the current request.
+
+    Priority: thread-local (set by app.py from Host header) →
+    Flask request host_url → empty string (links stay relative).
+    """
+    server_url = getattr(_local, "server_url", None)
+    if server_url is not None:
+        return server_url.rstrip("/")
+    try:
+        from flask import request as flask_request
+
+        return flask_request.host_url.rstrip("/")
+    except RuntimeError:
+        pass
+    return ""
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
@@ -151,18 +171,16 @@ def _apply_lang(props: dict, lang: str) -> None:
             props.pop(f"{field}_{language}", None)
 
 
-_SERVER_URL = os.environ.get("PYGEOAPI_SERVER_URL", "").rstrip("/")
-
-
 def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
     """Insert a ``rel=self`` link if none is present in *links*."""
     if any(link.get("rel") == "self" for link in links):
         return
     if not item_id:
         return
+    server_url = _get_server_url()
     href = f"/collections/{collection_id}/items/{item_id}"
-    if _SERVER_URL:
-        href = f"{_SERVER_URL}{href}"
+    if server_url:
+        href = f"{server_url}{href}"
     links.insert(
         0,
         {
@@ -176,12 +194,13 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     """
     Append ``lang`` (and ``f`` if present) to relative links and links
-    starting with PYGEOAPI_SERVER_URL. External links are left untouched.
+    starting with the request's server URL. External links are left untouched.
     """
     params = {"lang": lang}
     if fmt:
         params["f"] = fmt
     qs = urlencode(params)
+    server_url = _get_server_url()
 
     for link in links:
         href = link.get("href", "")
@@ -189,9 +208,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
             continue
         parsed = urlparse(href)
         is_relative = not parsed.scheme
-        is_same_host = _SERVER_URL and href.startswith(_SERVER_URL)
+        is_same_host = server_url and href.startswith(server_url)
         if is_relative or is_same_host:
-            if is_relative and _SERVER_URL:
-                href = f"{_SERVER_URL}{href}"
+            if is_relative and server_url:
+                href = f"{server_url}{href}"
             sep = "&" if "?" in href else "?"
             link["href"] = f"{href}{sep}{qs}"
