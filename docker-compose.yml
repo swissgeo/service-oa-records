@@ -41,7 +41,7 @@ services:
       - ./v0:/pygeoapi/v0
       - ./scripts:/opt
     environment:
-      - OS_URL=http://opensearch:9200
+      - OPENSEARCH_URL=http://opensearch:9200
     command: ["python3", "/opt/load-opensearch-catalogue.py"]
     depends_on:
       opensearch:

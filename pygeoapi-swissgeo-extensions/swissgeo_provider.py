@@ -79,8 +79,8 @@ def _get_server_url() -> str:
         from flask import request as flask_request
 
         return flask_request.host_url.rstrip("/")
-    except RuntimeError:
-        pass
+    except RuntimeError as e:
+        LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
     return ""
 
 
@@ -96,13 +96,15 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         LOGGER.info("SwissGeoProvider.__init__ called:")
         super().__init__(provider_def)
         self.resource_id = provider_def.get("resource_id", self.name)
-        if provider_def.get("aws4auth"):
+        if str(provider_def.get("aws4auth", "false")).lower() == "true":
             self._apply_aws4auth(provider_def)
 
     def _apply_aws4auth(self, provider_def: dict) -> None:
         region = provider_def.get("aws_region", "eu-central-2")
         service = provider_def.get("aws_service", "es")
-        LOGGER.info("Configuring AWS SigV4 auth (region=%s service=%s)", region, service)
+        LOGGER.info(
+            "Configuring AWS SigV4 auth (region=%s service=%s)", region, service
+        )
         credentials = boto3.Session().get_credentials().get_frozen_credentials()
         awsauth = AWS4Auth(
             credentials.access_key,

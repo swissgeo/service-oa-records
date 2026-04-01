@@ -7,7 +7,7 @@ Index three OpenSearch collections:
 
 Usage:
     python3 load-opensearch-catalogue.py
-    OS_URL=http://localhost:9200 python3 load-opensearch-catalogue.py
+    OPENSEARCH_URL=http://localhost:9200 python3 load-opensearch-catalogue.py
     FORCE=1 python3 load-opensearch-catalogue.py   # delete and recreate indices
     COLLECTIONS_DIR=aws-s3-records/oar/v0/collections python3 load-opensearch-catalogue.py
 
@@ -22,7 +22,7 @@ from pathlib import Path
 
 from opensearchpy import OpenSearch, helpers
 
-OS_URL = os.environ.get("OS_URL", "http://localhost:9200")
+OPENSEARCH_URL = os.environ.get("OPENSEARCH_URL", "http://localhost:9200")
 CATALOG_INDEX = os.environ.get("OS_CATALOG_INDEX", "swissgeo-catalog")
 DISTRIBUTIONS_INDEX = os.environ.get("OS_DISTRIBUTIONS_INDEX", "swissgeo-distributions")
 SERVICES_INDEX = os.environ.get("OS_SERVICES_INDEX", "geoadmin-services")
@@ -340,7 +340,7 @@ def main():
     print(f"Items dir:         {ITEMS_DIR}")
     print(f"Collections dir:   {COLLECTIONS_DIR}")
     print(f"Services items dir:{SERVICES_ITEMS_DIR}")
-    print(f"Target:            {OS_URL}")
+    print(f"Target:            {OPENSEARCH_URL}")
     print()
 
     if not ITEMS_DIR.exists():
@@ -353,9 +353,9 @@ def main():
         print(f"ERROR: Services items directory not found: {SERVICES_ITEMS_DIR}")
         sys.exit(1)
 
-    client = OpenSearch(OS_URL, verify_certs=False)
+    client = OpenSearch(OPENSEARCH_URL, verify_certs=False)
     if not client.ping():
-        print(f"ERROR: Cannot connect to OpenSearch at {OS_URL}")
+        print(f"ERROR: Cannot connect to OpenSearch at {OPENSEARCH_URL}")
         sys.exit(1)
 
     # --- swissgeo-catalog ---

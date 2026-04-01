@@ -63,7 +63,7 @@ Provider registration in `pygeoapi-config.yml`:
 providers:
   - type: record
     name: swissgeo_provider.SwissGeoProvider
-    data: ${OS_URL:-http://localhost:9200}/swissgeo-catalog
+    data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-catalog
     id_field: externalId
     time_field: recordCreated
     title_field: title
@@ -79,7 +79,7 @@ Key environment variables:
 | Variable | Default | Purpose |
 |---|---|---|
 | `PYGEOAPI_SERVER_URL` | `/` | Base URL used to identify same-host links for patching |
-| `OS_URL` | `http://localhost:9200` | OpenSearch base URL |
+| `OPENSEARCH_URL` | `http://localhost:9200` | OpenSearch base URL |
 | `PYGEOAPI_CONFIG` | `/pygeoapi/pygeoapi-config.yml` | pygeoapi config file path |
 | `PYGEOAPI_OPENAPI` | `/pygeoapi/pygeoapi-openapi.yml` | OpenAPI spec file path |
 
