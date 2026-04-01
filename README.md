@@ -90,7 +90,7 @@ docker compose up
 ```
 
 This starts:
-- **pygeoapi** on `http://localhost:5000` (uvicorn, via `app.py`)
+- **pygeoapi** on `http://localhost:8080/ogc/records` (uvicorn, via `app.py`)
 - **OpenSearch** on port 9200
 - **catalogue-loader** — one-shot container that loads records from `v0/` into OpenSearch
 - **OpenSearch Dashboards** on `http://localhost:5602`
