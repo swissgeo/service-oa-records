@@ -31,4 +31,4 @@ def _call_api_threadsafe_with_lang(loop, api_function, actual_api, api_request, 
     )
 
 
-_starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang
+_starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignore[invalid-assignment]

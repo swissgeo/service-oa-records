@@ -12,5 +12,11 @@ dependencies = [
     "starlette",
 ]
 
-[tool.uv]
-dev-dependencies = []
+[tool.ty.environment]
+extra-paths = ["pygeoapi-swissgeo-extensions"]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "ty",
+]
