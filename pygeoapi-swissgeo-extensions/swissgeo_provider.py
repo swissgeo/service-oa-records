@@ -55,8 +55,8 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
 
             lang = flask_request.args.get("lang", "")
             fmt = fmt or flask_request.args.get("f", None)
-        except RuntimeError:
-            pass
+        except RuntimeError as e:
+            LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
     if not lang:
         return "en", fmt
     primary = lang.split("-")[0].split("_")[0].lower()
