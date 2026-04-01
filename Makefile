@@ -69,7 +69,7 @@ test-ci: $(LOGS_DIR) ## Run tests in the CI
 
 
 .PHONY: test
-test: $(LOGS_DIR) ## Run tests locally
+test:
 	$(TEST) --cov --cov-branch --cov-report=html
 
 

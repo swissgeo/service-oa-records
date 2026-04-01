@@ -1,12 +1,8 @@
-FROM ghcr.io/osgeo/gdal:ubuntu-small-latest
+FROM python:3.14-slim
 
 WORKDIR /pygeoapi
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3-pip \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN pip install uv --break-system-packages
+RUN pip install uv
 
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev
