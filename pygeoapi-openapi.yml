@@ -1123,7 +1123,7 @@ paths:
         - server
 servers:
   - description: Minimal OGC API Records PoC
-    url: ogc/records
+    url: /api/oar/v1
 tags:
   - description: Minimal OGC API Records PoC
     externalDocs:
