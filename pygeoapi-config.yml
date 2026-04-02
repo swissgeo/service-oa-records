@@ -4,7 +4,7 @@ server:
     port: 5000
   url: /
   api_rules:
-    url_prefix: /ogc/records
+    url_prefix: /api/oar/v1
   mimetype: application/json; charset=UTF-8
   encoding: utf-8
   language: en
