@@ -95,23 +95,21 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
     def __init__(self, provider_def):
         LOGGER.info("SwissGeoProvider.__init__ called:")
-        aws4auth_env = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in (
-            "1",
-            "true",
-            "yes",
-        )
-        LOGGER.info(
-            "aws4auth provider_def=%r env=%r",
-            provider_def.get("aws4auth"),
-            aws4auth_env,
-        )
-        if aws4auth_env or str(provider_def.get("aws4auth", "false")).lower() == "true":
-            self._apply_aws4auth(provider_def)
-        super().__init__(provider_def)
+        if str(provider_def.get("aws4auth", "false")).lower() == "true":
+            self._inject_aws4auth(provider_def)  # calls super() internally
+        else:
+            super().__init__(provider_def)
         self.resource_id = provider_def.get("resource_id", self.name)
 
-    def _apply_aws4auth(self, provider_def: dict) -> None:
-        region = provider_def.get("aws_region", "eu-central-2")
+    def _inject_aws4auth(self, provider_def: dict) -> None:
+        """Monkey-patch the OpenSearch constructor in the parent module so that
+        super().__init__() builds an AWS4Auth-authenticated client instead of
+        an unauthenticated one."""
+        import pygeoapi.provider.opensearch_ as _os_mod
+
+        region = provider_def.get(
+            "aws_region", os.environ.get("AWS_DEFAULT_REGION", "eu-central-1")
+        )
         service = provider_def.get("aws_service", "es")
         LOGGER.info(
             "Configuring AWS SigV4 auth (region=%s service=%s)", region, service
@@ -124,13 +122,23 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
             service,
             session_token=credentials.token,
         )
-        self.os_ = OpenSearch(
-            hosts=[self.os_host],
-            http_auth=awsauth,
-            use_ssl=True,
-            verify_certs=True,
-            connection_class=RequestsHttpConnection,
-        )
+
+        _original_opensearch = _os_mod.OpenSearch
+
+        def _aws_opensearch(host, **kwargs):
+            return OpenSearch(
+                hosts=[host],
+                http_auth=awsauth,
+                use_ssl=True,
+                verify_certs=True,
+                connection_class=RequestsHttpConnection,
+            )
+
+        _os_mod.OpenSearch = _aws_opensearch
+        try:
+            super(SwissGeoProvider, self).__init__(provider_def)
+        finally:
+            _os_mod.OpenSearch = _original_opensearch
 
     def query(
         self,
