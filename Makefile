@@ -14,6 +14,12 @@ GIT_DIRTY := $(shell git status --porcelain)
 GIT_TAG := $(shell git describe --tags || echo "no version info")
 AUTHOR := $(USER)
 
+# Docker variables
+DOCKER_REGISTRY = 074597099015.dkr.ecr.eu-central-1.amazonaws.com
+DOCKER_IMG_LOCAL_TAG := $(DOCKER_REGISTRY)/swissgeo/$(SERVICE_NAME):local-$(USER)-$(GIT_HASH_SHORT)
+
+# AWS variables
+AWS_DEFAULT_REGION = eu-central-1
 
 # Flask specific
 APP_SRC_DIR := app
@@ -52,6 +58,15 @@ ci-check-format: format ## Check the format (CI)
 .PHONY: dockerbuild
 dockerbuild:
 	docker compose build
+
+.PHONY: dockerlogin
+dockerlogin: ## Login to the AWS Docker Registry (ECR)
+	aws --profile swisstopo-swissgeo-builder ecr get-login-password --region $(AWS_DEFAULT_REGION) | docker login --username AWS --password-stdin $(DOCKER_REGISTRY)
+
+.PHONY: dockerpush
+dockerpush: dockerlogin dockerbuild ## Push to the docker registry
+	docker tag pygeoapi-custom $(DOCKER_IMG_LOCAL_TAG)
+	docker push $(DOCKER_IMG_LOCAL_TAG)
 
 .PHONY: dockerrun
 dockerrun: dockerbuild

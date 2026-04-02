@@ -8,6 +8,8 @@ COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev
 
 COPY pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
+COPY pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
+COPY pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
 COPY scripts /pygeoapi/scripts
 
 ENV PYGEOAPI_CONFIG=/pygeoapi/pygeoapi-config.yml
