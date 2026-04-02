@@ -24,6 +24,7 @@ Usage in pygeoapi-config.yml:
 """
 
 import logging
+import os
 import threading
 from urllib.parse import urlencode, urlparse
 
@@ -94,10 +95,20 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
     def __init__(self, provider_def):
         LOGGER.info("SwissGeoProvider.__init__ called:")
+        aws4auth_env = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in (
+            "1",
+            "true",
+            "yes",
+        )
+        LOGGER.info(
+            "aws4auth provider_def=%r env=%r",
+            provider_def.get("aws4auth"),
+            aws4auth_env,
+        )
+        if aws4auth_env or str(provider_def.get("aws4auth", "false")).lower() == "true":
+            self._apply_aws4auth(provider_def)
         super().__init__(provider_def)
         self.resource_id = provider_def.get("resource_id", self.name)
-        if str(provider_def.get("aws4auth", "false")).lower() == "true":
-            self._apply_aws4auth(provider_def)
 
     def _apply_aws4auth(self, provider_def: dict) -> None:
         region = provider_def.get("aws_region", "eu-central-2")
