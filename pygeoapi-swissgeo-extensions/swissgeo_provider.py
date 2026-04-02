@@ -28,7 +28,10 @@ import os
 import threading
 from urllib.parse import urlencode, urlparse
 
+import boto3
+from opensearchpy import OpenSearch, RequestsHttpConnection
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
+from requests_aws4auth import AWS4Auth
 
 LOGGER = logging.getLogger(__name__)
 
@@ -37,10 +40,13 @@ _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 _local = threading.local()
 
 
-def set_request_params(lang: str | None, fmt: str | None) -> None:
+def set_request_params(
+    lang: str | None, fmt: str | None, server_url: str | None = None
+) -> None:
     """Called by app.py in the executor thread before the API call."""
     _local.lang = lang
     _local.fmt = fmt
+    _local.server_url = server_url
 
 
 def _get_lang_and_fmt() -> tuple[str, str | None]:
@@ -53,12 +59,30 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
 
             lang = flask_request.args.get("lang", "")
             fmt = fmt or flask_request.args.get("f", None)
-        except RuntimeError:
-            pass
+        except RuntimeError as e:
+            LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
     if not lang:
         return "en", fmt
     primary = lang.split("-")[0].split("_")[0].lower()
     return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
+
+
+def _get_server_url() -> str:
+    """Return the server base URL for the current request.
+
+    Priority: thread-local (set by app.py from Host header) →
+    Flask request host_url → empty string (links stay relative).
+    """
+    server_url = getattr(_local, "server_url", None)
+    if server_url is not None:
+        return server_url.rstrip("/")
+    try:
+        from flask import request as flask_request
+
+        return flask_request.host_url.rstrip("/")
+    except RuntimeError as e:
+        LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
+    return ""
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
@@ -70,8 +94,51 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     """
 
     def __init__(self, provider_def):
-        LOGGER.info("SwissGeoProvider.__init__ called")
-        super().__init__(provider_def)
+        LOGGER.info("SwissGeoProvider.__init__ called:")
+        if str(provider_def.get("aws4auth", "false")).lower() == "true":
+            self._inject_aws4auth(provider_def)  # calls super() internally
+        else:
+            super().__init__(provider_def)
+        self.resource_id = provider_def.get("resource_id", self.name)
+
+    def _inject_aws4auth(self, provider_def: dict) -> None:
+        """Monkey-patch the OpenSearch constructor in the parent module so that
+        super().__init__() builds an AWS4Auth-authenticated client instead of
+        an unauthenticated one."""
+        import pygeoapi.provider.opensearch_ as _os_mod
+
+        region = provider_def.get(
+            "aws_region", os.environ.get("AWS_DEFAULT_REGION", "eu-central-1")
+        )
+        service = provider_def.get("aws_service", "es")
+        LOGGER.info(
+            "Configuring AWS SigV4 auth (region=%s service=%s)", region, service
+        )
+        credentials = boto3.Session().get_credentials().get_frozen_credentials()
+        awsauth = AWS4Auth(
+            credentials.access_key,
+            credentials.secret_key,
+            region,
+            service,
+            session_token=credentials.token,
+        )
+
+        _original_opensearch = _os_mod.OpenSearch
+
+        def _aws_opensearch(host, **kwargs):
+            return OpenSearch(
+                hosts=[host],
+                http_auth=awsauth,
+                use_ssl=True,
+                verify_certs=True,
+                connection_class=RequestsHttpConnection,
+            )
+
+        _os_mod.OpenSearch = _aws_opensearch  # ty: ignore[invalid-assignment]
+        try:
+            super(SwissGeoProvider, self).__init__(provider_def)
+        finally:
+            _os_mod.OpenSearch = _original_opensearch
 
     def query(
         self,
@@ -108,7 +175,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         for feature in result.get("features", []):
             _apply_lang(feature["properties"], lang)
-            _patch_links(feature.get("links", []), lang, fmt)
+            links = feature.setdefault("links", [])
+            _ensure_self_link(links, self.resource_id, feature.get("id", ""))
+            _patch_links(links, lang, fmt)
             for record in feature.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
 
@@ -124,7 +193,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         if result:
             _apply_lang(result["properties"], lang)
-            _patch_links(result.get("links", []), lang, fmt)
+            links = result.setdefault("links", [])
+            _ensure_self_link(links, self.resource_id, identifier)
+            _patch_links(links, lang, fmt)
             for record in result.get("records", []):
                 _patch_links(record.get("links", []), lang, fmt)
 
@@ -146,18 +217,36 @@ def _apply_lang(props: dict, lang: str) -> None:
             props.pop(f"{field}_{language}", None)
 
 
-_SERVER_URL = os.environ.get("PYGEOAPI_SERVER_URL", "").rstrip("/")
+def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
+    """Insert a ``rel=self`` link if none is present in *links*."""
+    if any(link.get("rel") == "self" for link in links):
+        return
+    if not item_id:
+        return
+    server_url = _get_server_url()
+    href = f"/collections/{collection_id}/items/{item_id}"
+    if server_url:
+        href = f"{server_url}{href}"
+    links.insert(
+        0,
+        {
+            "href": href,
+            "rel": "self",
+            "type": "application/geo+json",
+        },
+    )
 
 
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     """
     Append ``lang`` (and ``f`` if present) to relative links and links
-    starting with PYGEOAPI_SERVER_URL. External links are left untouched.
+    starting with the request's server URL. External links are left untouched.
     """
     params = {"lang": lang}
     if fmt:
         params["f"] = fmt
     qs = urlencode(params)
+    server_url = _get_server_url()
 
     for link in links:
         href = link.get("href", "")
@@ -165,7 +254,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
             continue
         parsed = urlparse(href)
         is_relative = not parsed.scheme
-        is_same_host = _SERVER_URL and href.startswith(_SERVER_URL)
+        is_same_host = server_url and href.startswith(server_url)
         if is_relative or is_same_host:
+            if is_relative and server_url:
+                href = f"{server_url}{href}"
             sep = "&" if "?" in href else "?"
             link["href"] = f"{href}{sep}{qs}"

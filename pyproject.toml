@@ -7,10 +7,21 @@ dependencies = [
     "tinydb",
     "opensearch-py",
     "opensearch-dsl",
+    "requests-aws4auth",
+    "boto3",
     "packaging>=26.0",
     "uvicorn[standard]",
     "starlette",
 ]
 
-[tool.uv]
-dev-dependencies = []
+[tool.ty.environment]
+extra-paths = ["pygeoapi-swissgeo-extensions"]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "ty",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+]

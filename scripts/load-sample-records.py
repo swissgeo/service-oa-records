@@ -4,7 +4,7 @@ Index all JSON files from the sample-records/ directory into OpenSearch.
 
 Usage:
     python3 load-sample-records.py
-    OS_URL=http://localhost:9200 RECORDS_DIR=sample-records python3 load-sample-records.py
+    OPENSEARCH_URL=http://localhost:9200 RECORDS_DIR=sample-records python3 load-sample-records.py
     FORCE=1 python3 load-sample-records.py   # delete and recreate index
 
 Requires: opensearch-py
@@ -17,7 +17,7 @@ from pathlib import Path
 
 from opensearchpy import OpenSearch, helpers
 
-OS_URL = os.environ.get("OS_URL", "http://localhost:9200")
+OPENSEARCH_URL = os.environ.get("OPENSEARCH_URL", "http://localhost:9200")
 INDEX = os.environ.get("OS_INDEX", "sample-records")
 RECORDS_DIR = Path(os.environ.get("RECORDS_DIR", "sample-records"))
 FORCE = os.environ.get("FORCE", "").lower() in ("1", "true", "yes")
@@ -80,16 +80,16 @@ def main():
     print(" Indexing sample records into OpenSearch")
     print("=" * 60)
     print(f"Source:  {RECORDS_DIR}")
-    print(f"Target:  {OS_URL}/{INDEX}")
+    print(f"Target:  {OPENSEARCH_URL}/{INDEX}")
     print()
 
     if not RECORDS_DIR.exists():
         print(f"ERROR: Records directory not found: {RECORDS_DIR}")
         sys.exit(1)
 
-    client = OpenSearch(OS_URL, verify_certs=False)
+    client = OpenSearch(OPENSEARCH_URL, verify_certs=False)
     if not client.ping():
-        print(f"ERROR: Cannot connect to OpenSearch at {OS_URL}")
+        print(f"ERROR: Cannot connect to OpenSearch at {OPENSEARCH_URL}")
         sys.exit(1)
 
     if client.indices.exists(index=INDEX):

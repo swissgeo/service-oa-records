@@ -7,7 +7,7 @@ Index three OpenSearch collections:
 
 Usage:
     python3 load-opensearch-catalogue.py
-    OS_URL=http://localhost:9200 python3 load-opensearch-catalogue.py
+    OPENSEARCH_URL=http://localhost:9200 python3 load-opensearch-catalogue.py
     FORCE=1 python3 load-opensearch-catalogue.py   # delete and recreate indices
     COLLECTIONS_DIR=aws-s3-records/oar/v0/collections python3 load-opensearch-catalogue.py
 
@@ -20,9 +20,14 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from opensearchpy import OpenSearch, helpers
+from opensearchpy import OpenSearch, RequestsHttpConnection, helpers
 
-OS_URL = os.environ.get("OS_URL", "http://localhost:9200")
+OPENSEARCH_URL = os.environ.get("OPENSEARCH_URL", "http://localhost:9200")
+OPENSEARCH_AWS4AUTH = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in (
+    "1",
+    "true",
+    "yes",
+)
 CATALOG_INDEX = os.environ.get("OS_CATALOG_INDEX", "swissgeo-catalog")
 DISTRIBUTIONS_INDEX = os.environ.get("OS_DISTRIBUTIONS_INDEX", "swissgeo-distributions")
 SERVICES_INDEX = os.environ.get("OS_SERVICES_INDEX", "geoadmin-services")
@@ -340,7 +345,7 @@ def main():
     print(f"Items dir:         {ITEMS_DIR}")
     print(f"Collections dir:   {COLLECTIONS_DIR}")
     print(f"Services items dir:{SERVICES_ITEMS_DIR}")
-    print(f"Target:            {OS_URL}")
+    print(f"Target:            {OPENSEARCH_URL}")
     print()
 
     if not ITEMS_DIR.exists():
@@ -353,9 +358,30 @@ def main():
         print(f"ERROR: Services items directory not found: {SERVICES_ITEMS_DIR}")
         sys.exit(1)
 
-    client = OpenSearch(OS_URL, verify_certs=False)
+    if OPENSEARCH_AWS4AUTH:
+        import boto3
+        from requests_aws4auth import AWS4Auth
+
+        region = os.environ.get("AWS_DEFAULT_REGION", "eu-central-1")
+        credentials = boto3.Session().get_credentials().get_frozen_credentials()
+        auth = AWS4Auth(
+            credentials.access_key,
+            credentials.secret_key,
+            region,
+            "es",
+            session_token=credentials.token,
+        )
+        client = OpenSearch(
+            OPENSEARCH_URL,
+            http_auth=auth,
+            use_ssl=OPENSEARCH_URL.startswith("https"),
+            verify_certs=True,
+            connection_class=RequestsHttpConnection,
+        )
+    else:
+        client = OpenSearch(OPENSEARCH_URL, verify_certs=False)
     if not client.ping():
-        print(f"ERROR: Cannot connect to OpenSearch at {OS_URL}")
+        print(f"ERROR: Cannot connect to OpenSearch at {OPENSEARCH_URL}")
         sys.exit(1)
 
     # --- swissgeo-catalog ---
