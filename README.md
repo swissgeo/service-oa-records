@@ -4,8 +4,8 @@ OGC API Records service for SwissGeo, built on [pygeoapi](https://pygeoapi.io/) 
 
 | Branch | Status |
 |--------|-----------|
-| develop | ![Build Status](CODEBUILD_BADGE_URL) |
-| main | ![Build Status](CODEBUILD_BADGE_URL) |
+| develop | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop)) |
+| main | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)) |
 
 ## Overview
 
