@@ -23,7 +23,11 @@ from pathlib import Path
 from opensearchpy import OpenSearch, RequestsHttpConnection, helpers
 
 OPENSEARCH_URL = os.environ.get("OPENSEARCH_URL", "http://localhost:9200")
-OPENSEARCH_AWS4AUTH = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in ("1", "true", "yes")
+OPENSEARCH_AWS4AUTH = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in (
+    "1",
+    "true",
+    "yes",
+)
 CATALOG_INDEX = os.environ.get("OS_CATALOG_INDEX", "swissgeo-catalog")
 DISTRIBUTIONS_INDEX = os.environ.get("OS_DISTRIBUTIONS_INDEX", "swissgeo-distributions")
 SERVICES_INDEX = os.environ.get("OS_SERVICES_INDEX", "geoadmin-services")
@@ -360,7 +364,13 @@ def main():
 
         region = os.environ.get("AWS_DEFAULT_REGION", "eu-central-1")
         credentials = boto3.Session().get_credentials().get_frozen_credentials()
-        auth = AWS4Auth(credentials.access_key, credentials.secret_key, region, "es", session_token=credentials.token)
+        auth = AWS4Auth(
+            credentials.access_key,
+            credentials.secret_key,
+            region,
+            "es",
+            session_token=credentials.token,
+        )
         client = OpenSearch(
             OPENSEARCH_URL,
             http_auth=auth,
