@@ -134,7 +134,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
                 connection_class=RequestsHttpConnection,
             )
 
-        _os_mod.OpenSearch = _aws_opensearch
+        _os_mod.OpenSearch = _aws_opensearch  # ty: ignore[invalid-assignment]
         try:
             super(SwissGeoProvider, self).__init__(provider_def)
         finally:
