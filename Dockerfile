@@ -7,7 +7,7 @@ RUN pip install uv
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev
 
-FROM python:3.14-slim
+FROM python:3.14-slim AS production
 
 WORKDIR /pygeoapi
 
