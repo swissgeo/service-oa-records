@@ -12,6 +12,7 @@ dependencies = [
     "packaging>=26.0",
     "uvicorn[standard]",
     "starlette",
+    "debugpy",
 ]
 
 [tool.ty.environment]

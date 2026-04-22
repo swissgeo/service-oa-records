@@ -2,6 +2,8 @@ services:
   pygeoapi:
     build: .
     image: pygeoapi-custom
+    profiles:
+      - default
     ports:
       - "8080:8080"
     volumes:
@@ -13,6 +15,38 @@ services:
     depends_on:
       opensearch:
         condition: service_healthy
+
+  pygeoapi-debug:
+    build: .
+    profiles:
+      - debug
+    ports:
+      - "8080:8080"
+      - "5678:5678"
+    volumes:
+      - ./pygeoapi-config.yml:/pygeoapi/pygeoapi-config.yml
+      - ./pygeoapi-openapi.yml:/pygeoapi/pygeoapi-openapi.yml
+      - ./data:/pygeoapi/data
+    env_file:
+      - .env-docker
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    command:
+      - python
+      - -m
+      - debugpy
+      - --listen
+      - "0.0.0.0:5678"
+      - -m
+      - uvicorn
+      - app:APP
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8080"
+      - --app-dir
+      - /pygeoapi/pygeoapi-swissgeo-extensions
 
   opensearch:
     image: opensearchproject/opensearch:2
