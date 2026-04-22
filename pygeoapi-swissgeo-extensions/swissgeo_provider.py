@@ -1,9 +1,8 @@
 """SwissGeo OpenSearch catalogue provider for OGC API Records.
 
 Extends OpenSearchCatalogueProvider with language-aware field selection:
-when a locale is requested via the ``language`` kwarg, ``title`` and
-``description`` are transparently swapped for their per-language variants
-(``title_de``, ``title_fr``, …) before handing results back to pygeoapi.
+``title`` and ``description`` are transparently swapped for their per-language
+variants (``title_de``, ``title_fr``, …) before handing results back to pygeoapi.
 
 Also patches same-host links to carry ``lang`` and ``f`` query params.
 
@@ -51,17 +50,9 @@ def set_request_params(
 
 
 def _get_lang_and_fmt() -> tuple[str, str | None]:
-  """Read lang and fmt from thread-local (Starlette) or Flask request args."""
+  """Read lang and fmt from thread-local set by app.py."""
   lang = getattr(_local, "lang", None)
   fmt = getattr(_local, "fmt", None)
-  if lang is None:
-    try:
-      from flask import request as flask_request  # noqa: PLC0415
-
-      lang = flask_request.args.get("lang", "")
-      fmt = fmt or flask_request.args.get("f", None)
-    except RuntimeError as e:
-      LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
   if not lang:
     return "en", fmt
   primary = lang.split("-")[0].split("_")[0].lower()
@@ -69,21 +60,9 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
 
 
 def _get_server_url() -> str:
-  """Return the server base URL for the current request.
-
-  Priority: thread-local (set by app.py from Host header) →
-  Flask request host_url → empty string (links stay relative).
-  """
+  """Return the server base URL set by app.py, or empty string."""
   server_url = getattr(_local, "server_url", None)
-  if server_url is not None:
-    return server_url.rstrip("/")
-  try:
-    from flask import request as flask_request  # noqa: PLC0415
-
-    return flask_request.host_url.rstrip("/")
-  except RuntimeError as e:
-    LOGGER.debug("Could not read server_url from Flask request context: %s", e)
-  return ""
+  return server_url.rstrip("/") if server_url else ""
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):

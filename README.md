@@ -97,6 +97,18 @@ This starts:
 
 Copy `.env-docker` (or create one from `.env-local`) to configure environment variables before starting.
 
+## Debugging
+
+Start `pygeoapi-debug` instead of the default `pygeoapi` service:
+
+```bash
+docker compose --profile debug up
+```
+
+This runs pygeoapi under [debugpy](https://github.com/microsoft/debugpy) listening on port 5678, with the local `pygeoapi-swissgeo-extensions/` directory mounted into the container so edits are reflected without a rebuild.
+
+Then attach your debugger (e.g. **"Attach to Docker (swissgeo_provider)"** in Zed) to `localhost:5678`.
+
 ## Project structure
 
 ```
