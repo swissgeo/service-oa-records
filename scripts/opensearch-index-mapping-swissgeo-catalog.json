@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {"type": "keyword"},
+      "type": {"type": "keyword"},
+      "geometry": {"type": "geo_shape"},
+      "properties": {
+        "properties": {
+          "type": {"type": "keyword"},
+          "title_de": {"type": "text"},
+          "title_en": {"type": "text"},
+          "title_fr": {"type": "text"},
+          "title_it": {"type": "text"},
+          "description_de": {"type": "text"},
+          "description_en": {"type": "text"},
+          "description_fr": {"type": "text"},
+          "description_it": {"type": "text"},
+          "keywords": {"type": "keyword"},
+          "preferredDistributionId": {"type": "keyword"}
+        }
+      }
+    }
+  }
+}

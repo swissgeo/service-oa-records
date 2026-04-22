@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {"type": "keyword"},
+      "type": {"type": "keyword"},
+      "properties": {
+        "properties": {
+          "title": {"type": "text"}
+        }
+      },
+      "records": {"type": "object", "enabled": false}
+    }
+  }
+}

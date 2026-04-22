@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "properties": {
+      "id": {"type": "keyword"},
+      "type": {"type": "keyword"},
+      "links": {"type": "object", "enabled": false},
+      "linkTemplates": {"type": "object", "enabled": false},
+      "properties": {
+        "properties": {
+          "title": {"type": "text"},
+          "type": {"type": "keyword"}
+        }
+      }
+    }
+  }
+}

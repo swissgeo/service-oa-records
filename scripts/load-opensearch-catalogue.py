@@ -25,12 +25,16 @@ from opensearchpy import OpenSearch, RequestsHttpConnection, helpers
 
 log = logging.getLogger(__name__)
 
+_TRUTHY = frozenset(("1", "true", "yes"))
+
+
+def _env_bool(name: str) -> bool:
+    """Return True if the env var is set to a truthy value (1, true, yes)."""
+    return os.environ.get(name, "").lower() in _TRUTHY
+
+
 OPENSEARCH_URL = os.environ.get("OPENSEARCH_URL", "http://localhost:9200")
-OPENSEARCH_AWS4AUTH = os.environ.get("OPENSEARCH_AWS4AUTH", "").lower() in (
-    "1",
-    "true",
-    "yes",
-)
+OPENSEARCH_AWS4AUTH = _env_bool("OPENSEARCH_AWS4AUTH")
 CATALOG_INDEX = os.environ.get("OS_CATALOG_INDEX", "swissgeo-catalog")
 DISTRIBUTIONS_INDEX = os.environ.get(
     "OS_DISTRIBUTIONS_INDEX", "swissgeo-distributions",
@@ -51,68 +55,13 @@ SERVICES_ITEMS_DIR = Path(
         "static-s3/api/oar/v0/collections/geoadmin.services/items",
     ),
 )
-FORCE = os.environ.get("FORCE", "").lower() in ("1", "true", "yes")
+FORCE = _env_bool("FORCE")
 
 LANGUAGES = ["de", "en", "fr", "it"]
 
 LANG_PARTS = 2
 
-CATALOG_INDEX_MAPPING = {
-    "mappings": {
-        "properties": {
-            "id": {"type": "keyword"},
-            "type": {"type": "keyword"},
-            "geometry": {"type": "geo_shape"},
-            "properties": {
-                "properties": {
-                    "type": {"type": "keyword"},
-                    "title_de": {"type": "text"},
-                    "title_en": {"type": "text"},
-                    "title_fr": {"type": "text"},
-                    "title_it": {"type": "text"},
-                    "description_de": {"type": "text"},
-                    "description_en": {"type": "text"},
-                    "description_fr": {"type": "text"},
-                    "description_it": {"type": "text"},
-                    "keywords": {"type": "keyword"},
-                    "preferredDistributionId": {"type": "keyword"},
-                },
-            },
-        },
-    },
-}
-
-DISTRIBUTIONS_INDEX_MAPPING = {
-    "mappings": {
-        "properties": {
-            "id": {"type": "keyword"},
-            "type": {"type": "keyword"},
-            "properties": {
-                "properties": {
-                    "title": {"type": "text"},
-                },
-            },
-            "records": {"type": "object", "enabled": False},
-        },
-    },
-}
-
-SERVICES_INDEX_MAPPING = {
-    "mappings": {
-        "properties": {
-            "id": {"type": "keyword"},
-            "type": {"type": "keyword"},
-            "links": {"type": "object", "enabled": False},
-            "linkTemplates": {"type": "object", "enabled": False},
-            "properties": {
-                "properties": {
-                    "title": {"type": "text"},
-                    "type": {"type": "keyword"},
-                },
-            },
-        },
-    },
-}
+_MAPPINGS_DIR = Path(__file__).parent
 
 OGC_SCHEMA = (
     "https://schemas.opengis.net/ogcapi/records/part1/1.0/openapi/schemas/"
@@ -367,15 +316,19 @@ def main() -> None:
         log.error("Cannot connect to OpenSearch at %s", OPENSEARCH_URL)
         sys.exit(1)
 
-    if ensure_index(client, CATALOG_INDEX, CATALOG_INDEX_MAPPING):
+    def _mapping(index_name: str) -> dict:
+        path = _MAPPINGS_DIR / f"opensearch-index-mapping-{index_name}.json"
+        return json.loads(path.read_text())
+
+    if ensure_index(client, CATALOG_INDEX, _mapping(CATALOG_INDEX)):
         catalog_records = load_catalog_records(ITEMS_DIR)
         index_documents(client, CATALOG_INDEX, catalog_records)
 
-    if ensure_index(client, DISTRIBUTIONS_INDEX, DISTRIBUTIONS_INDEX_MAPPING):
+    if ensure_index(client, DISTRIBUTIONS_INDEX, _mapping(DISTRIBUTIONS_INDEX)):
         dist_records = load_distribution_records(COLLECTIONS_DIR)
         index_documents(client, DISTRIBUTIONS_INDEX, dist_records)
 
-    if ensure_index(client, SERVICES_INDEX, SERVICES_INDEX_MAPPING):
+    if ensure_index(client, SERVICES_INDEX, _mapping(SERVICES_INDEX)):
         service_records = load_services_records(SERVICES_ITEMS_DIR)
         index_documents(client, SERVICES_INDEX, service_records)
 
