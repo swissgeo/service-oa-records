@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.agroscope.abschaetzung-organische_boeden:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.abschaetzung-organische_boeden/items/ch.agroscope.abschaetzung-organische_boeden:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.abschaetzung-organische_boeden?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.abschaetzung-organische_boeden",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.agroscope.abschaetzung-organische_boeden:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.abschaetzung-organische_boeden/items/ch.agroscope.abschaetzung-organische_boeden:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.abschaetzung-organische_boeden?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.abschaetzung-organische_boeden",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

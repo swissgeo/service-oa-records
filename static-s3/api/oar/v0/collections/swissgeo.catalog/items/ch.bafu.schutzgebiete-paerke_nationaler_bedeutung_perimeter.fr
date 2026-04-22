@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/parcs",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/bc4bd921-cec6-4f29-a784-29049c9f8026",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le fichier Parcs contient le Parc national suisse qui est une aire protégée par la loi du 19 décembre 1980 sur le Parc national (RS 454) et les projets de parc déposés à l'OFEV. Ces projets de parc déposés à l'OFEV sont régis par la loi sur la protection de la nature et du paysage révisée le 1er décembre 2007 (RS 451). Cette loi définit trois catégories de parcs nationaux: les parcs nationaux, les parcs naturels régionaux et les parcs naturels périurbains.Selon l'état d'avancement du projet, les régions peuvent demander l'attribution du label « Candidat » (phase de création) pour la création d'un parc ou du label protégé « Parc » pour le fonctionnement d'un parc actuel (phase d'exploitation). Les parcs nationaux favorisent la protection et la valorisation des milieux naturels exceptionnels. Enfin, de tels parcs contribuent au développement économique des régions.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter:wmts",
+    "title": "Parcs suisses (Perimetre)",
+    "type": "Dataset"
+  }
+}

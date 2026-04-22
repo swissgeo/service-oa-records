@@ -1,0 +1,34 @@
+{
+  "id": "ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze/items/ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze"
+    ]
+  }
+}

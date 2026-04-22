@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-vererzungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-vererzungen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-vererzungen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.aramis.admin.ch/Texte/?ProjectID=57845",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/46dd5d50-6f7e-4175-ab64-051b16750e38",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, Groupe géoressources suisses",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les matières premières métalliques sont des ressources économiquement importantes typiquement obtenues à partir de minéraux riches en métaux. Ce jeu de données montre les sites où des matières premières métalliques ont été localisées ou extraites dans le passé en Suisse. Actuellement, aucune matière première métallique n'est exploitée commercialement. En raison de leurs propriétés chimiques, électriques ou magnétiques spécifiques, les matières premières métalliques sont utilisées dans divers secteurs de production industriels. Parmi ces secteurs, on peut citer la production d'alliages métalliques, de semi-conducteurs (chips), d'aimants permanents puissants, de systèmes de stockage d'énergie à haute performance et d'autres composants high-tech. Un certain nombre de matières premières métalliques sont actuellement classées comme matières premières critiques (CRM) dans l'<a href=\"https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1252\" target=\"_blank\">Union européenne</a> et certaines sont <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-rohstoffe-industrieminerale/pdf/IRENA_NUPI_2024_Ranking_critical_materials_for_the_energy%20transition.pdf\" target=\"_blank\">considérées comme absolument essentielles</a> pour la transition énergétique. Plusieurs sites répertoriés dans ce jeu de données indiquent une minéralisation susceptible de contenir une ou plusieurs matières premières critiques. La concentration et le volume de ces minéralisations sont généralement inconnus ou insignifiants. Dans l'état actuel des connaissances, une exploitation rentable de ces gisements ne semble pas réalisable. Pour un aperçu plus détaillé de la situation géologique concernant les matières premières critiques en Suisse, les utilisateurs sont invités à consulter le rapport <a href=\" https://www.aramis.admin.ch/Texte/?ProjectID=57845\" target=\"_blank\">Critical Raw Materials in Switzerland – A Review</a>. D'autres matières premières critiques sont répertoriées dans le jeu de données <a href=\"https://map.geo.admin.ch/#/map?lang=fr&center=2617121.4,1182798.62&z=1&topic=georessourcen&layers=ch.swisstopo.geologie-rohstoffe-industrieminerale&bgLayer=ch.swisstopo.pixelkarte-grau&catalogNodes=georessourcen,15162,15165,15164\" target=\"_blank\">Autres minéraux industriels</a>. Dans le cas où il est envisagé de développer un site d'extraction, il est indispensable de procéder à une étude géologique détaillée sur place. Ce jeu de données est régulièrement mis à jour et ne prétend pas être exhaustif.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-vererzungen:wms",
+    "title": "Matières premières métalliques",
+    "type": "Dataset"
+  }
+}

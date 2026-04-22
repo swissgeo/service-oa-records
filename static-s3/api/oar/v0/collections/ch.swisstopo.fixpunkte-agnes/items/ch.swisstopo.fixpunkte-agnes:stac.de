@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.fixpunkte-agnes:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.fixpunkte-agnes/items/ch.swisstopo.fixpunkte-agnes:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-agnes?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.fixpunkte-agnes",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.swisstopo.fixpunkte-agnes"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant:wmts?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

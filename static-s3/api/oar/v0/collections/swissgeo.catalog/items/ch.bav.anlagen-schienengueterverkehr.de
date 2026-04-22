@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.anlagen-schienengueterverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.anlagen-schienengueterverkehr?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.anlagen-schienengueterverkehr?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/de/home/verkehrsmittel/eisenbahn/gueterverkehr/guterverkehr-in-der-flache.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/dda92878-86a1-4191-a073-9721671d6bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Verkehr BAV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Konzept für den Gütertransport auf der Schiene ist ein Konzept nach Artikel 3 des Gütertransportgesetzes (GüTG, SR 742.41) und Artikel 13 des Bundesgesetzes über die Raumplanung (RPG, SR 700). Das Konzept definiert einerseits die wichtigsten Bundesinteressen, welche bei der Planung von Anlagen für den Schienengüterverkehr zu berücksichtigen sind und enthält andererseits ein Verzeichnis mit den bei der Verabschiedung des Konzepts bestehenden Anlagen für den Schienengüterverkehr. Diese Anlagen sind in der vorliegenden Karte abgebildet. Die Karteninhalte stellen keine rechtsverbindliche Aussage dar. Bei der Nutzung der Abfragefunktion werden Details zur abgefragten Anlagen angezeigt. Die Karte und die Abfrageergebnisse entfalten ihre volle Aussagekraft nur unter Einbezug der Ausführungen im Konzept für den Gütertransport auf der Schiene sowie dem dazugehörigen Erläuterungsbericht.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.anlagen-schienengueterverkehr:wms",
+    "title": "Anlagen Gütertransport Schiene",
+    "type": "Dataset"
+  }
+}

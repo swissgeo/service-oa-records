@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.naqua-grundwasser_voc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.naqua-grundwasser_voc?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.naqua-grundwasser_voc?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/hydrocarbures-halogenes-volatils-dans-les-eaux-souterraines",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c5f01eb1-d755-4450-bc4f-3871589de62f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Au nombre des composés organiques volatils (COV) on compte plusieurs substances organiques d’origine anthropique, p. ex. les hydrocarbures monocycliques aromatiques ou les hydrocarbures halogénés volatils. Ces derniers sont notamment employés comme solvants, réfrigérants ou comme matières premières dans des processus industriels et artisanaux. Les COV entrent également dans la composition des carburants. Ils peuvent polluer les eaux souterraines aussi bien lors de leur production, transport ou stockage, que lors de leur emploi et de leur élimination. S’agissant des hydrocarbures monocycliques aromatiques et des hydrocarbures halogénés volatils, l’ordonnance sur la protection des eaux (OEaux) exige de respecter une concentration maximale de 1 microgrammes/l par substance dans les eaux souterraines. Plusieurs COV font ainsi l’objet d’un suivi dans toute la Suisse par l’Observation nationale des eaux souterraines NAQUA. Le réseau de l’Observation nationale des eaux souterraines regroupe plus de 500 stations de mesure. Il est géré par la Confédération, en étroite collaboration avec les cantons. Source: Observation nationale des eaux souterraines NAQUA, Office fédéral de l’environnement.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.naqua-grundwasser_voc:wmts",
+    "title": "Eaux souterraines : COV",
+    "type": "Dataset"
+  }
+}

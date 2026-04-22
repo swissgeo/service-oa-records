@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.agroscope.amphibien-bedeutung_parzellen:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-bedeutung_parzellen/items/ch.agroscope.amphibien-bedeutung_parzellen:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-bedeutung_parzellen?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.amphibien-bedeutung_parzellen",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.agroscope.amphibien-bedeutung_parzellen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-bedeutung_parzellen/items/ch.agroscope.amphibien-bedeutung_parzellen:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-bedeutung_parzellen?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.amphibien-bedeutung_parzellen",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.agroscope.amphibien-bedeutung_parzellen:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-bedeutung_parzellen/items/ch.agroscope.amphibien-bedeutung_parzellen:stac?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-bedeutung_parzellen?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.amphibien-bedeutung_parzellen",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

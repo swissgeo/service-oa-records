@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.wohngebiete-aulav",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.wohngebiete-aulav?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.wohngebiete-aulav?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/eli-legislazione-naz",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/053aa1d7-ca48-4763-862f-39295f961ba9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le zone residenziali sono definite nell'articolo 2 lettera f dell'ordinanza sugli atterraggi esterni (OAEs; RS 748.132.3). Le zone residenziali sono definite come aree d'insediamento o gruppi di almeno dieci edifici abitati, compresa l'area entro un raggio di 100 metri. Gli atterraggi nelle zone residenziali sono vietati per i seguenti scopi:<ul> <li>Trasporto di passeggeri a scopo turistico o sportivo (art. 25 lett. b OAEs),</li> <li>Voli non commerciali (art. 32 lett. b OAEs),</li> <li>Voli d'istruzione (art. 34 lett. b OAEs).</li> </ul> Gli atterraggi esterni per motivi di lavoro in zone residenziali devono essere preventivamente concordati con l'autorità competente ai sensi del diritto cantonale (art. 31 OAEs). <br></br> Il set di dati “Insediamento” dell'ARE costituisce la base per l'identificazione e la rappresentazione delle “zone residenziali” e viene aggiornato annualmente.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.wohngebiete-aulav:wmts",
+    "title": "Zone residenziali secondo l'OAEs",
+    "type": "Dataset"
+  }
+}

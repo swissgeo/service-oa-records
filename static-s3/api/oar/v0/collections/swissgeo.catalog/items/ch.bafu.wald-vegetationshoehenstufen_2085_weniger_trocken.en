@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/en/about-wsl/programmes-and-initiatives/completed-programmes-and-large-projects/research-programme-forests-and-climate-change.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/c63a8513-7d77-4e11-9f6f-8d36debb036b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "This map shows the altitudinal vegetation belts of forest vegetation in Switzerland for the period 2070-2099 assuming a less dry future climate. The following altitudinal vegetation belts only occur in the southern valleys: «mediterranean», «hyperinsubric», «colline with beech», and «lower/upper montane». The map «Modelled altitudinal vegetation belts for 1995» serves as a basis for the shift of the altitudinal vegetation belts into the future. Among the Representative concentration pathways, RCP 4.5 with the model combination SMHI-RCA_MPIESM_EUR44 was selected as the «less dry» projection (NCCS 2018). This model projects an average warming of 1.8 °C (northern Switzerland) or 2.3 °C (southern Switzerland) and a reduction in precipitation of 4.0% (northern Switzerland) or 0.5% (southern Switzerland) for the months April-August, which are considered most relevant for the climate suitability of trees, compared to the period 1981-2010 (Remund 2020). The natural upper timberline was also modelled using an analogous procedure (Könz et al. 2021). --- Source: Zischg et al. (subm.)",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken:wmts",
+    "title": "Altitudinal zones 2085 less dry",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.mat-min.ch/fr/ciment",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/9128ae2a-acdf-42cf-bb67-00755f0857fb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Gruppo georisorse svizzere",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il cemento è un componente fondamentale per la produzione di calcestruzzo, uno dei materiali da costruzione più utilizzati in Svizzera e nel mondo. Questo set di dati mostra i siti di estrazione e di produzione in funzione o dismessi. Una panoramica nazionale dei depositi di calcare e marna, le materie prime più importanti per la produzione di cemento, è raffigurata in scala 1:500'000. I depositi di sabbia e argilla, materie prime occasionalmente utilizzate, non sono rappresentati. Il <a href=\"https://map.geo.admin.ch/?topic=georessourcen&lang=it&bgLayer=ch.swisstopo.pixelkarte-grau&catalogNodes=15165&layers=ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung\" target=\"_blank\">gesso</a> è rappresentato da un proprio set di dati. Per informazioni geologiche dettagliate in scala 1:25'000, si rimanda al set di dati GeoCover. Nel caso si auspichi allo sviluppo di un sito di estrazione di materie prime, è essenziale condurre un'indagine geologica dettagliata in loco. I perimetri dei siti di estrazione in attività sono da considerarsi come indicativi. Essi si basano sul Modello Topografico del Paesaggio (MTP) e immagini aeree SWISSIMAGE. Per informazioni dettagliate concernenti l'attività estrattiva, si prega di contattare le rispettive autorità cantonali. Questo set di dati è periodicamente aggiornato e non pretende di essere completo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-zement_abbau_verarbeitung:wms",
+    "title": "Materie prime per il cemento",
+    "type": "Dataset"
+  }
+}

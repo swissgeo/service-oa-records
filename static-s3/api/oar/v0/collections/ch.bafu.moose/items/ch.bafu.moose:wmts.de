@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.moose:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.moose/items/ch.bafu.moose:wmts?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.moose?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.moose",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bafu.moose"
+    ]
+  }
+}

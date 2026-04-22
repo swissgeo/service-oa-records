@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.schutzgebiete-aulav_auen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-aulav_auen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.schutzgebiete-aulav_auen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/oekol-infrastruktur",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/54d007ed-2ab9-4cb3-9b41-b3c74a519eae",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Under Art. 19 of the Off-Airport Landing Ordinance (AuLaV; SR 748.132.3), protected areas comprise national parks, raised and transition bogs, water and migratory bird reserves, fens, floodplains, federal hunting ban reserves, and mire landscapes of national importance in accordance with Art. 32h. Off-airport landings (taking off or landing, and picking up or setting down cargo or persons outside aerodromes as well as emergency landing exercises) is basically prohibited for manned aircraft on protected areas. Based on the specific restrictions and conditions that apply to off-airport landings, a distinction is made in air navigation publications between 4 categories: 1. Game reserves 2. Mire landscapes 3. Floodplains 4. Other protected areas (raised and transition bogs, fens, water and migratory bird reserves, national parks). Each category of protected area is divided into two generalisation levels: in small-scale views, the protected areas are displayed for readability in generalised form and inversely proportional to area, with a lateral buffer of between 1 and 80 m. In the large-scale views, the perimeters of the protected site are displayed in the legally valid dimensions. Off-aerodrome landings and emergency landing exercises on floodplains are not permitted, subject to Art. 19 para. 3 and Art. 28. Off-airport landings in order to prevent natural hazards, for the construction or maintenance of buildings and installations in the public interest, off-airport landings on behalf of the competent cantonal authorities, and off-airport landings authorised by such authorities for the construction of maintenance of buildings and installations are permitted.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-aulav_auen:wmts",
+    "title": "Floodplains AuLaV",
+    "type": "Dataset"
+  }
+}

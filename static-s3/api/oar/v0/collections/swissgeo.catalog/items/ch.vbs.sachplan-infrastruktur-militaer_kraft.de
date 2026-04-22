@@ -1,0 +1,102 @@
+{
+  "id": "ch.vbs.sachplan-infrastruktur-militaer_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.sachplan-infrastruktur-militaer_kraft?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.sachplan-infrastruktur-militaer_kraft?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.vbs.admin.ch/de/sachplan-militaer",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/5263bc47-8723-4c02-988a-4ae0d425099c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Generalsekretariat VBS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Sachplan Militär (SPM) ist ein Planungs- und Koordinationsinstrument des Bundes im Sinne von Art. 13 des Raumplanungsgesetzes (RPG; SR 700). Er dient der räumlichen Sicherung und Abstimmung der militärischen Infrastrukturen und Tätigkeiten mit den zivilen Raumansprüchen und legt – übereinstimmend mit dem aktuellen Stationierungskonzept – die Ziele und Vorgaben für die sachplanrelevanten Militärinfrastrukturen behördenverbindlich fest. Dem sicherheitspolitischen und militärischen Wandel folgend sind die Infrastrukturbedürfnisse und Raumansprüche der Armee ständigen Veränderungen unterworfen. Der SPM wird dementsprechend regelmässig überprüft und angepasst. Der SPM umfasst verschiedene Objektkategorien: Waffenplätze, Schiessplätze, Übungsplätze, Militärflugplätze, Armeelogistikstandorte, Rekrutierungszentren, Übersetzstellen und besondere Anlagen. Kleinere oder dem Anlageschutzgesetz (SR 510.518) unterstellte Militärinfrastrukturen werden im SPM nicht abgebildet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.sachplan-infrastruktur-militaer_kraft:wms",
+    "title": "SP Militär",
+    "type": "Dataset"
+  }
+}

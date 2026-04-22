@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bag.zeckenstichmodell:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bag.zeckenstichmodell/items/ch.bag.zeckenstichmodell:wmts?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bag.zeckenstichmodell?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bag.zeckenstichmodell",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bag.zeckenstichmodell:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bag.zeckenstichmodell/items/ch.bag.zeckenstichmodell:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bag.zeckenstichmodell?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bag.zeckenstichmodell",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bag.zeckenstichmodell:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bag.zeckenstichmodell/items/ch.bag.zeckenstichmodell:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bag.zeckenstichmodell?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bag.zeckenstichmodell",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

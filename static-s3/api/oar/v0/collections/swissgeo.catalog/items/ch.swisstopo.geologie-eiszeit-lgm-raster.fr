@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-eiszeit-lgm-raster",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-eiszeit-lgm-raster?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-eiszeit-lgm-raster?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/fr/cartes/cartes-geologiques/geocartes-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f1455593-7571-48b0-8603-307ec59a6702",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte (GK500-LGM) représente la plus grande extension des glaciers en Suisse lors de la culmination de la dernière période glaciaire, il y a environ 24'000 ans. Elle présente les derniers résultats de la recherche glaciaire avec un rendu cartographique de haute qualité. La formation et la fonte des glaciers permettent de tirer des conclusions sur les changements écologiques dûs au climat durant le passé géologique récent. - Par \"Schlüchter, C. (compil.) 2009. La Suisse durant le dernier maximum glaciaire (LGM), 1:500'000. GeoCartes500, Office fédéral de topographie, swisstopo, Wabern.\"",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-eiszeit-lgm-raster:wmts",
+    "title": "Dernier max. glaciaire (carte) 500",
+    "type": "Dataset"
+  }
+}

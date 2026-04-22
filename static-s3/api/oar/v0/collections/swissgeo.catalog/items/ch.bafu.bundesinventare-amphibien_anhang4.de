@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-amphibien_anhang4",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-amphibien_anhang4?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-amphibien_anhang4?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/amphibienlaichgebiete",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2a701f93-3bd3-4068-a6a8-59d7383a3b30",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In der Schweiz leben heute 19 Amphibienarten – fast alle befinden sich auf der Roten Liste der gefährdeten Tierarten. Die Fläche der Feuchtgebiete als Lebensraum der Amphibien schrumpfte in den letzten 100 Jahren auf weniger als einen Zehntel zusammen. Die noch erhaltenen Lebensräume sollten deshalb gesichert werden. Als Laichgewässer bevorzugen die meisten Arten stehende Kleingewässer wie Tümpel und Weiher. Neben kleineren Tümpeln bis zu grossen Feuchtgebietskomplexen bilden Kies- und Lehmgruben einen wichtigen Anteil (rund ein Fünftel der Gesamtobjekte) des Inventars. Im Laufe der Nutzung haben sie sich zu schützenswerten naturnahen Standorten entwickelt.Die ortsfesten Objekte (AM_L) sind in zwei verschiedene Bereiche eingeteilt: Der Bereich A ist dem Naturschutz unterstellt. Der Bereich B umfasst den engeren Bereich der Landlebensräume und die Pufferzonen. Es sind meist land- und forstwirtschaftlich genutzte Flächen. Die Wanderobjekte (AM_G) beinhalten genutzte Gruben, innerhalb deren die dynamische Voraussetzung für eine Erhaltung der vorkommenden Amphibienbestände erhalten werden soll. Als viertes Bundesinventar gemäss Art. 18a NHG setzte der Bundesrat 2001 das Bundesinventar der Amphibienlaichgebiete mit 701 Objekten in Kraft, welches in den Jahren 2003, 2007, 2017 und 2025 revidiert wurde. Aktuell sind 969 Objekte (873 Ortsfeste und 96 Wanderobjekte) in Kraft. Weiter sind im Anhang 3 25 Objekte aufgeführt deren Perimeter noch nicht definitiv bereinigt sind. Deren Schutz richtet sich bis zum Entscheid ihrer Aufnahme in Anhang 1 oder 2 nach Artikel 29 Absatz 1 Buchstabe a der Natur- und Heimatschutzverordnung (NHV) und nach Artikel 10 der Amphibienlaichgebiete-Verordnung (AlgV).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-amphibien_anhang4:wmts",
+    "title": "Amphibien Anhang 3",
+    "type": "Dataset"
+  }
+}

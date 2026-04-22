@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.solaranlagen-pruefenswerte_gebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-pruefenswerte_gebiete?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-pruefenswerte_gebiete?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/fr/installations-photovoltaiques-au-sol",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5a1735b9-4ffc-450e-b034-ecfcafb2489c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral du développement territorial ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ce jeu de données représente la part des zones à examiner selon la Confédération. Il donne une première indication pour la Suisse où des surfaces à examiner sont localisées - surfaces identifiées sur la base de la méthode utilisée dans le document « Installations photovoltaïques isolées : base méthodologique de la Confédération ». Ce jeu de données est conçu pour une échelle de 1:100 000 ou une échelle plus petite. Pour des informations plus détaillées et la représentation de périmètres concrets, il convient de consulter le jeu de données « Zones dignes d'examen ». Les deux jeux de données vont de pair et fournissent des informations différentes dans une perspective nationale ou régionale.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-pruefenswerte_gebiete:wmts",
+    "title": "Solaire: part zones dignes d'examen",
+    "type": "Dataset"
+  }
+}

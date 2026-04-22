@@ -1,0 +1,34 @@
+{
+  "id": "ch.kantone.cadastralwebmap-farbe:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.kantone.cadastralwebmap-farbe/items/ch.kantone.cadastralwebmap-farbe:wms?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.kantone.cadastralwebmap-farbe?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.kantone.cadastralwebmap-farbe",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.kantone.cadastralwebmap-farbe"
+    ]
+  }
+}

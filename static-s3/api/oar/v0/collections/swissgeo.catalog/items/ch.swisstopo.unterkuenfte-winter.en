@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.unterkuenfte-winter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.unterkuenfte-winter?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.unterkuenfte-winter?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/en/snowsport-topic",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/a49ed1a9-f6be-4c58-8160-147e5ebca70e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The winter accommodations are part of the national maps with snow sports theme for Switzerland and adjacent parts of its neighbouring countries. The data set is produced in collaboration with the Swiss Alpine Club SAC and updated annually. Winter accommodations are open during the snow sports season, are located on existing snow sports routes or in the immediate vicinity, in valley locations for crossings or in starting or finishing locations of a tour that are difficult to reach. Accommodations in ski resorts are not shown. Neither the Swiss Alpine Club SAC nor the Federal Office of Topography can accept liability for the accuracy, completeness or up-to-dateness of the information. Detailed tour planning is highly recommended. Further information on most winter accommodation can be found on the SAC route portal or the SAC-CAS app: <a href=\"https://www.sac-cas.ch/en/\" target=\"_blank\">https://www.sac-cas.ch/en/</a>.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.unterkuenfte-winter:wmts",
+    "title": "Accommodations winter",
+    "type": "Dataset"
+  }
+}

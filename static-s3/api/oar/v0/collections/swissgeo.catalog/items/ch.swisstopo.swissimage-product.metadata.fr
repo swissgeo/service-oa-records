@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.swissimage-product.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissimage-product.metadata?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissimage-product.metadata?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/orthobilder-swissimage-10-cm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/1fc43fd9-f43f-4779-aa59-51e8f4833372",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "SWISSIMAGE est disponible depuis 1926 à nos jours. Le numéro de tuile ainsi que l'année de vol sont définis pour toutes les tuiles et pour chaque année. Dans les zones situées à la limite entre différents blocs annuels, tous les pixels d'une tuile ne proviennent pas toujours d'une seule et même année de vol. En effet, pour créer une mosaïque uniforme, il est parfois nécessaire de mélanger des pixels issus de différents vols. Dans ce cas, l'année de vol utilisée en majorité (à plus de 75%) est attribuée à la tuile. Avec l'outil de représentation historique des données – nommé « voyage dans le temps » - l'évolution du découpage SWISSIMAGE de 1926 à nos jours peut être perçue de manière interactive.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swissimage-product.metadata:wmts",
+    "title": "Découpage SWISSIMAGE Voyage temp.",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.amphibienwanderung-verkehrskonflikte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.amphibienwanderung-verkehrskonflikte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.amphibienwanderung-verkehrskonflikte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.infofauna.ch/it/servicio-di-consulenza/anfibi-karch/migrazione/migrazioni-di-anfibi#gsc.tab=0",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8dc1e2a5-eab0-467a-a570-d994830f8340",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Dalla metà degli anni 50, la mortalità stradale degli anfibi è aumentata drammaticamente. Ogni anno, in Svizzera, centinaia di migliaia di anfibi attraversano le strade durante la loro migrazione tra gli habitat terrestri e i luoghi di riproduzione e in assenza di misure di protezione vengono spesso uccisi sulle strade. Questo non costituisce solo un problema di sicurezza per il traffico, ma anche una causa del massiccio declino della popolazione di anfibi. Le migrazioni all'interno delle popolazioni avvengono sempre più o meno lungo le stesse rotte di migrazione. Sono stagionali e permettono l'uso temporaneo di diversi tipi di habitat geograficamente separati. Questi movimenti migratori sono essenziali per il mantenimento delle popolazioni. Dalla metà degli anni 50, Info fauna karch gestisce un database di siti di migrazione degli anfibi che sono in conflitto con le infrastrutture della circolazione. Attualmente sono noti circa 2000 siti di conflitto, chiamati in gergo tecnico «siti di migrazione degli anfibi». A seconda delle dimensioni della popolazione di anfibi, della densità del traffico e delle condizioni locali, vengono attuate misure di protezione, come l'installazione di gallerie per piccoli animali o dispositivi di guida, barriere temporanee per anfibi, chiusure temporanee delle strade o pattuglie temporanee. I siti di conflitto noti per la migrazione degli anfibi in Svizzera sono inclusi in questo set di geodati e possono essere visualizzati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.amphibienwanderung-verkehrskonflikte:wmts",
+    "title": "Migrazioni di anfibi con conflitti",
+    "type": "Dataset"
+  }
+}

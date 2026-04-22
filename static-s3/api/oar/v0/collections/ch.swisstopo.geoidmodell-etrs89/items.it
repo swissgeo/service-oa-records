@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.swisstopo.geoidmodell-etrs89:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geoidmodell-etrs89/items/ch.swisstopo.geoidmodell-etrs89:wmts?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geoidmodell-etrs89?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.geoidmodell-etrs89",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.geoidmodell-etrs89:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geoidmodell-etrs89/items/ch.swisstopo.geoidmodell-etrs89:wms?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geoidmodell-etrs89?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.geoidmodell-etrs89",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.geoidmodell-etrs89:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geoidmodell-etrs89/items/ch.swisstopo.geoidmodell-etrs89:stac?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geoidmodell-etrs89?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.geoidmodell-etrs89",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

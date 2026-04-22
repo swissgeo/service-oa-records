@@ -1,0 +1,101 @@
+{
+  "id": "ch.bazl.reflektierende-flaechen_flugplaetze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.reflektierende-flaechen_flugplaetze?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.reflektierende-flaechen_flugplaetze?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/dam/de/sd-web/JUUFwvLEqtmU/Grundlagen%20reflektierende%20Fl%C3%A4chen%20im%20Nahbereich%20von%20Flugpl%C3%A4tzen.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ea34bd50-9731-471a-87b7-da24d879d062",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Civil Aviation FOCA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Depending on the angle of the sun's rays, glare caused by reflective surfaces (e.g. solar panels or reflective facades) can become a disturbing source of light for pilots. In the case of planned installations within the relevant areas according to ICAO Annex 14, Vol. I, chapter 5.3.1.3, whose installation area [m2] is greater than 100 m2 and also greater than the distance [m] of the project to the nearest point of an aerodrome runway (e.g. an installation larger than 300 m2 at a distance of 300 m from the nearest point of a runway), possible disruptive glare effects should be investigated and mitigated if necessary to ensure aviation safety. Guidelines for the investigation of planned installations within the relevant areas can be requested from the responsible FOCA section «Aerodromes and air navigation obstacles»: aerodromes@bazl.admin.ch",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.reflektierende-flaechen_flugplaetze:wmts",
+    "title": "Reflective surfaces aerodromes",
+    "type": "Dataset"
+  }
+}

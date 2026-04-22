@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.thermische-netze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.thermische-netze?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.thermische-netze?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/thermische-netze",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/92b85345-4513-45a8-b64a-d7dbebd648a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Unter Thermischen Netzen - auch Fernwärme-, Nahwärme- oder Fernkältenetze - versteht man eine Infrastruktur, welche mehrere Gebäude auf verschiedenen Grundstücken mit thermischer Energie versorgt. Es ist eine leitungsgebundene Wärmeversorgung von Kunden über Wasser oder Dampf. Neben Fernwärmenetzen existieren auch Fernkältenetze – deshalb verwendet man heute den allgemeineren Begriff Thermische Netze. Die Energieversorgung von Thermischen Netzen ist dabei nicht zwangsläufig erneuerbar, aber sie zeichnet sich oft – so zum Beispiel bei Kehrichtverbrennungsanlagen – durch eine geringe Bilanz an CO2-Emissionen aus. So ermöglicht Fernwärme z.B. die Nutzung von Abwärme oder den Einsatz von erneuerbaren Energien und gewinnt deshalb zunehmend an Bedeutung. Fernwärme beschreibt eine leitungsgebundene Wärmeversorgung von Kunden über Wasser oder Dampf mit zentral erzeugter Wärme und deckt einen breiten Leistungsbereich mit Anschlussleistungen von weniger als 100 kW bis zu über 1 GW ab. Eine Wärmeverteilung einzig über eine Verteilergruppe gilt nicht als Fernwärme. Die Geofachdaten «Thermische Netze» dokumentieren den aktuellen Bestand der Fernwärmenetze in der Schweiz. Sämtliche Informationen basieren auf den Auskünften der Anlagenbetreibenden. Die Angaben dienen als Informationsmaterial für die Öffentlichkeit und stellen keine amtliche Auskunft oder rechtsverbindliche Aussage dar.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.thermische-netze:wms",
+    "title": "Thermische Netze",
+    "type": "Dataset"
+  }
+}

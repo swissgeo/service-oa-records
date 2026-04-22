@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.landesforstinventar-waldmischungsgrad",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-waldmischungsgrad?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-waldmischungsgrad?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b07a4589-159b-4c3a-b1e7-dbdad11f7e62",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Informationen zum Waldmischungsgrad LFI werden mit Methoden der Fernerkundung modelliert. Auf der Basis von den frei verfügbarenen Copernicus (ESA) Sentinel-1 und -2 Satellitendaten (Bildstapel der vergangenen Jahre) wird der Laub- beziehungsweise Nadelgehölzanteil landesweit ausgewertet in Rasterzellen mit einer räumlichen Auflösung von 10 Metern. Hierzu wird ein Machine Learning Verfahren verwendet. Als Referenzdaten für die Modellierung dienen interpretierte Polygone Luftbildern. Jede Rasterzelle trägt die Information zum Laubbaumanteil. Der Datensatz bezieht sich landesweit auf alle Bestockungen, nicht nur auf das LFI Waldareal, Der räumlich explizite Waldmischungsgrad LFI kann sich vom Mischungsgrad LFI der terrestrischen Stichprobenerhebung unterscheiden. Bei der terrestrischen Bestimmung des Mischungsgrades wird das Basalflächenverhältnis von Laub- und Nadelbäumen verwendet. Beim Waldmischungsgrad LFI basierend auf den Sentinel-1 und -2 Satellitendaten wird das Verhältnis der sichtbaren Baumkronen von Laub- und Nadelbaumanteilen berechnet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-waldmischungsgrad:wmts",
+    "title": "Waldmischungsgrad LFI",
+    "type": "Dataset"
+  }
+}

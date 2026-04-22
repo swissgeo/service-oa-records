@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-moorlandschaften",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-moorlandschaften?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-moorlandschaften?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/paesaggio/landschaften-nationaler-bedeutung/zone-palustri-d_importanza-nazionale.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/7ed73e2f-0a41-4e8b-a7ff-413f2d9b5ece",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le zone palustri sono paesaggi seminaturali caratterizzati in particolare dalla presenza di paludi e che ospitano anche altri elementi naturali e culturali di pregio. Per diverse specie di animali e piante rappresentano gli ultimi biotopi rimasti. L'inventario scientifico delle zone palustri è stato rilevato negli anni 1987 - 1990 dalla Hintermann & Weber AG su incarico del DFI. Secondo l'articolo 23b della legge federale del 1° luglio 1966 sulla protezione della natura e del paesaggio (LPN), il Consiglio federale designa e delimita le zone palustri di particolare bellezza e d'importanza naziona-le, meritevoli di protezione, tenendo conto dell'insediamento e dell'utilizzazione. A tal fine collabora strettamente con i Cantoni i quali, dal canto loro, consultano i proprietari fondiari interessati. Nel 1996 il Consiglio federale ha approvato l'ordinanza sulle paludi il cui allegato contiene l'inventario federale costituito da 88 oggetti. Una prima revisione dell'ordinanza è avvenuta nel 2001 su proposta del Canton VD, una seconda nel 2004 con l'inclusione definitiva dell'oggetto Grimsel e tre ulteriori nel 2007, nel 2015 e nel 2017. Attualmente sono in vigore 89 oggetti. La scala giuridicamente vincolante per determinare la posizione dell'oggetto protetto è quella nella scheda dell'oggetto. I confini esatti degli oggetti sono fissati dai Cantoni.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-moorlandschaften:wmts",
+    "title": "Zone palustri",
+    "type": "Dataset"
+  }
+}

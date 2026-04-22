@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-geothermische_potenzialstudien_regional",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geothermische_potenzialstudien_regional?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geothermische_potenzialstudien_regional?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/1c050393-fe3a-41b1-a31e-3173f51181d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Cette carte inventorie les études de potentiel géothermique recensées en Suisse (par canton) et au Liechtenstein. Les données de base ayant permis la réalisation de cette carte proviennent du rapport « Geothermie für die Nah- und Fernwärmeversorgung – Überblick über die kantonalen und nationalen Geothermie-Potenzialstudien, Nutzungsmöglichkeiten und Anwendungsbeispiele » réalisé par K. Link et O. Zingg sur mandat de SuisseEnergie. Ce rapport est disponible sous le lien suivant : <a href=\"https://geothermie-schweiz.ch/geothermie-fuer-die-nah-und-fernwaermeversorgung\" target=\"_blank\">https://geothermie-schweiz.ch</a>. Les données de base ont été contrôlées et mises à jour dans le but de garantir la meilleure exactitude possible des informations représentées.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geothermische_potenzialstudien_regional:wms",
+    "title": "Etudes de potentiel géothermique",
+    "type": "Dataset"
+  }
+}

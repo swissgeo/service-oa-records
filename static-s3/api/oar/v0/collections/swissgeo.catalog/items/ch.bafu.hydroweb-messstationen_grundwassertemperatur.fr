@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_grundwassertemperatur",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_grundwassertemperatur?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-messstationen_grundwassertemperatur?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.hydrodaten.admin.ch/de/grundwasser/messstationen-temperatur",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/81345667-1dff-404a-a80c-74dd87d11134",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte donne une vue d'ensemble des températures actuelles des eaux souterraines suisses. Le calcul se fonde sur les centiles du jeu de données portant sur les années 1991 à 2020 ou, pour les périodes de mesure plus courtes, les années 2001 à 2020 (données de base en °C). Une valeur est nettement inférieure à la moyenne (température des eaux souterraines basse) lorsqu'elle est en deçà du 10e centile pluriannuel, c'est-à-dire qu'elle se situe dans les 10% les plus bas de l'ensemble des valeurs mesurées durant la période de référence pour le mois en question. Des températures considérées comme normales se situent entre le 10e et le 90e Une valeur est nettement supérieure à la moyenne pluriannuelle (température des eaux souterraines élevée) lorsqu'elle est supérieure au 90e",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Température des eaux souterraines",
+    "type": "Dataset"
+  }
+}

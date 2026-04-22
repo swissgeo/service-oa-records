@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.schwerverunfallte-kanton_pro_einwohner:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.schwerverunfallte-kanton_pro_einwohner/items/ch.astra.schwerverunfallte-kanton_pro_einwohner:wms?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.schwerverunfallte-kanton_pro_einwohner?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.schwerverunfallte-kanton_pro_einwohner",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.astra.schwerverunfallte-kanton_pro_einwohner"
+    ]
+  }
+}

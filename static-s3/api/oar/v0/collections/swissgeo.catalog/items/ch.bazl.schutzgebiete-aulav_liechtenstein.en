@@ -1,0 +1,101 @@
+{
+  "id": "ch.bazl.schutzgebiete-aulav_liechtenstein",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.schutzgebiete-aulav_liechtenstein?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.schutzgebiete-aulav_liechtenstein?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.gdi.llv.li/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/25c6e9dd-b658-41fa-8f8d-3fc2775e3a6f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Civil Aviation FOCA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Protected areas as defined in the Nature Conservation Act (Naturschutzgesetz; NSchG), and other protected areas in which off-airport landings, emergency landing exercises and hovering for training purposes are prohibited. This dataset contains a compilation of the following legally protected areas in accordance with Art. 1, 4 and 8 of the Ordinance of 18 October 2016 on Aircraft Taking Off and Landing outside Aerodromes (Off-Aerodrome Landing Ordinance; OALO): a) protected landscapes (Art. 18 NSchG); b) nature reserves (Art. 19 NSchG); c) flora conservation areas (Art. 21 NSchG); d) low-nutrition meadows (Art. 22 NSchG); e) rest areas (Art. 23 NSchG). The dataset also lists highly sensitive areas as specified by the government (in accordance with Art. 4 para. 2 OALO). These include areas which contain protected objects, protected habitats or protected assets in accordance with the Nature Conservation Act (NSchG), as well as major wildlife corridors.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.schutzgebiete-aulav_liechtenstein:wmts",
+    "title": "Protected areas Liechtenstein AuLaV",
+    "type": "Dataset"
+  }
+}

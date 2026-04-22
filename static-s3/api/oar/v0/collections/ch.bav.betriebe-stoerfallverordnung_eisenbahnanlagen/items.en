@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:wms?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:wmts?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:stac?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

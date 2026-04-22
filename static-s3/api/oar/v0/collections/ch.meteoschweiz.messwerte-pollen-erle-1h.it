@@ -1,0 +1,37 @@
+{
+  "id": "ch.meteoschweiz.messwerte-pollen-erle-1h",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.meteoschweiz.messwerte-pollen-erle-1h:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-pollen-erle-1h?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-pollen-erle-1h/ch.meteoschweiz.messwerte-pollen-erle-1h_it.json",
+          "rel": "data",
+          "title": "GeoJSON Feature Data"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-pollen-erle-1h.json",
+          "rel": "styledby",
+          "title": "GeoJSON Style Definition"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:GeoJSON",
+        "title": "GeoJSON Feature Service",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.meteoschweiz.messwerte-pollen-erle-1h",
+  "type": "Collection"
+}

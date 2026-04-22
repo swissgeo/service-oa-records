@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.trockenheitswarnkarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.trockenheitswarnkarte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.trockenheitswarnkarte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.trockenheit.admin.ch/it/siccita/avvisi-di-siccita-e-raccomandazioni-di-comportamento",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8e08af81-0724-4997-98c6-1626af3f31c1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carta delle allerte siccità indica l'attuale livello di pericolo (1, 2 o 4) per tutte le regioni della Svizzera. Esso viene determinato su base settimanale attraverso un'analisi accurata della situazione e delle previsioni, condotta da esperti dell'UFAM e di MeteoSvizzera.La valutazione si basa sull'evoluzione dei dati rilevati e modellati relativi a tutti i parametri rilevanti per la siccità, quali il cumulo delle precipitazioni, l'umidità del suolo e la portata/il livello delle acque. Le allerte vengono emesse unicamente per i livelli 1 (pericolo nullo o debole), 2 (pericolo moderato) e 4 (pericolo forte). I livelli 3 (pericolo marcato) e 5 (pericolo molto forte) non vengono utilizzati per le allerte siccità.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.trockenheitswarnkarte:wmts",
+    "title": "Carta delle allerte siccità",
+    "type": "Dataset"
+  }
+}

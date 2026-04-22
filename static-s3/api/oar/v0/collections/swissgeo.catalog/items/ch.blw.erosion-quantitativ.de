@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.erosion-quantitativ",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.erosion-quantitativ?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.erosion-quantitativ?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/nachhaltige-produktion/umwelt/boden.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/14c92382-adf0-45d9-ad07-d41bd976c2a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landwirtschaft BLW",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Erosionsrisikokarte des Ackerlandes, mittlerer Bodenabtrag in Tonnen/(ha*Jahr) (Bundesamt für Landwirtschaft)Erosionsrisikokarte des Ackerlandes der Schweiz im 2x2-Meter-Raster auf der Basis von SwissALTI3D und kantonalen Flächendaten zum Ackerland (Stand 2021). Die Karte zeigt den langjährigen mittleren potentiellen Bodenabtrag in Tonnen pro Hektare und Jahr, berechnet auf der Basis von Schwarzbrache (Erosion, die theoretisch eintreten könnte, wenn der Boden dauernd nackt wäre). Grüne Farbtöne bedeuten ein geringes, gelbe ein mittleres und rote ein hohes Erosionsrisiko. Die im Modell berechneten Werte sind durchwegs viel höher als in der Realität (ca. um den Faktor 10), weil die Bodenbearbeitung und -bewirtschaftung (C-Faktor) ausgeklammert wurden und als Konstante mit dem Wert 1 in die Berechnung eingeflossen sind. Die Berechnung des Erosionsrisikos mit Multiple-Flow-Algorithmen erlaubt die Struktur des Geländes detailgenau darzustellen – z. B. den Verlauf von Geländemulden oder von steilen Querhängen – und damit z. B. auch das Risiko von Talwegerosion zu erkennen. Dies ist in der Fliesswegkarte (siehe Fliesswegkarte) detailliert dargestellt. Die räumliche Berechnungsgrundlage bilden Feldblöcke (siehe Feldblockkarte).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.erosion-quantitativ:wmts",
+    "title": "Erosionsrisiko Acker quantitativ",
+    "type": "Dataset"
+  }
+}

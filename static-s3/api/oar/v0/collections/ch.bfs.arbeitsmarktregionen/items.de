@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfs.arbeitsmarktregionen:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.arbeitsmarktregionen/items/ch.bfs.arbeitsmarktregionen:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.arbeitsmarktregionen?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.arbeitsmarktregionen",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.arbeitsmarktregionen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.arbeitsmarktregionen/items/ch.bfs.arbeitsmarktregionen:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.arbeitsmarktregionen?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.arbeitsmarktregionen",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

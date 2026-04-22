@@ -1,0 +1,102 @@
+{
+  "id": "ch.bakom.notruf-112_zentral",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.notruf-112_zentral?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.notruf-112_zentral?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/en/sr-78410111313-emergency-call-requirement",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/cb6d8528-ef3d-4412-8962-03f5ce6bfad3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Kommunikation BAKOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ein Notruf ist ein Anruf auf eine dreistellige Kurznummer des Notrufdienstes, die von den Anrufenden gewählt wird: Europäische Notrufnummer 112; Poli-zeinotruf 117; Feuerwehrnotruf 118; Opferhilfe 142; Dargebotene Hand 143; Sanitätsnotruf 144; Telefonhilfe für Kinder und Jugendliche 147. Ein Notruf kann über ein Festnetz, Mobilnetz oder Satellitennetz erfolgen. Der Notruf muss zur Alarmzentrale des für den Fall sachlich und örtlich zuständigen Notrufdienstes geleitet werden. Eine Region, aus der die Notrufe auf eine bestimmte Alarmzentrale geleitet werden ist ein Einzugsgebiet. Die Karte stellt die Lage der Alarmzentralen in der Schweiz für ausgeführte Notrufe 112 im Festnetz, Mobilnetz und Satellitennetz dar. Für jedes Einzugsgebiet sieht man die 112 Alarmzentralen und die entsprechenden Routing-Nummer, wenn man dieses Einzugsgebiet auswählt. Die 112 fest, mobil und satellit Alarmzentralen eins Einzugsgebiets können die gleiche Alarmzentrale oder unterschiedliche Alarmzentralen sein.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.notruf-112_zentral:wmts",
+    "title": "112 Alarmzentralen",
+    "type": "Dataset"
+  }
+}

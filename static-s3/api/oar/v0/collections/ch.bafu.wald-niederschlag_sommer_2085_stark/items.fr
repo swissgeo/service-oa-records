@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.wald-niederschlag_sommer_2085_stark:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-niederschlag_sommer_2085_stark/items/ch.bafu.wald-niederschlag_sommer_2085_stark:wmts?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_sommer_2085_stark?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.wald-niederschlag_sommer_2085_stark",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.wald-niederschlag_sommer_2085_stark:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-niederschlag_sommer_2085_stark/items/ch.bafu.wald-niederschlag_sommer_2085_stark:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_sommer_2085_stark?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.wald-niederschlag_sommer_2085_stark",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.wald-niederschlag_sommer_2085_stark:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-niederschlag_sommer_2085_stark/items/ch.bafu.wald-niederschlag_sommer_2085_stark:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_sommer_2085_stark?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.wald-niederschlag_sommer_2085_stark",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

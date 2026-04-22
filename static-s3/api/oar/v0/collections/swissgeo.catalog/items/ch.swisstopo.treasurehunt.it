@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.treasurehunt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.treasurehunt?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.treasurehunt?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.schatz-karte.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ffda4480-52ca-4463-aac4-0a58bf87e5b5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La caccia al tesoro è rivolta ai ragazzi della scuola elementare e della scuola media (dai 10 ai 15 anni). Nelle 9 tappe ricche di esperienze, gli studenti scoprono divertendosi la carta geografica e i numerosi geodati della Svizzera. Inoltre, acquisiscono dimestichezza con le applicazioni geografiche messe a disposizione gratuitamente da swisstopo. Alla fine del gioco gli allievi sapranno utilizzare efficacemente gli strumenti e i geodati di swisstopo anche in maniera autonoma su map.geo.admin.ch. La partecipazione al gioco online è gratuita e non comporta alcun impegno. L'unica condizione è l'iscrizione della classe da parte dell'insegnante sul sito www.mappa-tesoro.ch. Alla conclusione del gioco, gli allievi ricevono come ricompensa una carta nazionale 1:25 000, che l'insegnante può ordinare gratuitamente presso swisstopo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Mappa-Tesoro",
+    "type": "Dataset"
+  }
+}

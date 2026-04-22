@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min/items/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min:geojson?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min_de.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-schneehoehe-automatisch-10min.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

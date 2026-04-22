@@ -1,0 +1,102 @@
+{
+  "id": "ch.vbs.patrouilledesglaciers-a_rennen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.patrouilledesglaciers-a_rennen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.patrouilledesglaciers-a_rennen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.pdg.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/30c41be6-0f35-4caa-aeda-45f8705911fb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Esercito svizzero",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Patrouille des Glaciers (PDG) è una gara militare internazionale di sci alpinismo dell'esercito svizzero, alla quale possono partecipare pattuglie sia militari che civili. I due percorsi di gara, rispettivamente da Zermatt a Verbier (Percorso Z) e da Arolla a Verbier (Percorso A), devono essere coperti in una sola tappa. Questa gara straordinaria è caratterizzata dalla lunghezza del percorso, dalle difficoltà della cornice d'alta montagna, nonché dall'altitudine e dal profilo dell'itinerario.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.patrouilledesglaciers-a_rennen:wmts",
+    "title": "Patrouille des Glaciers (Percorso A)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.solarenergie-einstrahlung_90_grad",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.solarenergie-einstrahlung_90_grad?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.solarenergie-einstrahlung_90_grad?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/solare-einstrahlung",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/bbeb85d4-8b3f-4424-9088-f35cca42c5e5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Einstrahlungskarten zeigen die solare Strahlung auf eine nach Süden ausgerichtete Fläche für vier verschiedene Neigungen: Horizontal, 30°, 75° und 90°. Die Daten basieren auf einer schweizweiten Modellierung mit einer horizontalen Gitterweite von 50m. Zu Grunde liegen Messdaten aus dem Zeitraum 2000-2020. Der Einfluss des Horizonts wurde aus einem 10 m aufgelösten Höhenmodell der Schweiz und dem grenznahen Ausland abgeleitet. Dargestellt wird für die jeweiligen Einstrahlungsebenen neben der Globalstrahlung auch die erwartete Photovoltaik-Produktion pro kW installierte Leistung. Die Angaben können als erste Einschätzung der möglichen PV-Produktion dienen. Je nach lokalen Gegebenheiten und Anlagendesign kann der Wert jedoch höher oder tiefer ausfallen. So wurden beispielsweise allfällige Mehrerträge durch den Einsatz von bifazialen Modulen nicht berücksichtigt. Unter «Zusatzinformationen» können pro Gitterpunkt die monatlichen Werte der Globalstrahlung (pro m2) und der erwarteten Photovoltaik-Produktion (pro kW installierte Leistung) abgefragt werden. Weitere Informationen zur Modellierung können dem Bericht unter dem Link «Datenbezug» entnommen werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.solarenergie-einstrahlung_90_grad:wmts",
+    "title": "Solare Einstrahlung 90°Neigung Süd",
+    "type": "Dataset"
+  }
+}

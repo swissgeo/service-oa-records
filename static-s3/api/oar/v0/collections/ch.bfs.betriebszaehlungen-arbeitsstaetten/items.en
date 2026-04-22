@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfs.betriebszaehlungen-arbeitsstaetten:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-arbeitsstaetten/items/ch.bfs.betriebszaehlungen-arbeitsstaetten:wms?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-arbeitsstaetten?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-arbeitsstaetten",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.betriebszaehlungen-arbeitsstaetten:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-arbeitsstaetten/items/ch.bfs.betriebszaehlungen-arbeitsstaetten:wmts?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-arbeitsstaetten?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-arbeitsstaetten",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.betriebszaehlungen-arbeitsstaetten:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-arbeitsstaetten/items/ch.bfs.betriebszaehlungen-arbeitsstaetten:stac?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-arbeitsstaetten?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-arbeitsstaetten",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

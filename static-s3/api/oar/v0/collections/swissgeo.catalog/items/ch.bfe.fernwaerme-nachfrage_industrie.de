@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.fernwaerme-nachfrage_industrie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-nachfrage_industrie?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.fernwaerme-nachfrage_industrie?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/waerme-kaeltenachfrage-industrie",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/25de2a79-1714-4db8-a7ad-48efc8a4f5c7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Wärme- und Kältenachfrage ist für die strategische Planung von thermischen Netzen von zentraler Bedeutung. Der Bau eines thermischen Netzes in einem Gebiet lohnt sich erst bei genügendem Wärme- und/oder Kälteabsatz. .Die Wärmenachfrage dient in der strategischen Planung zur Identifizierung von grösseren zusammenhängenden Gebieten, die sich für ein thermisches Netz eignen können. Ab einer Wärmedichte von 700 MWh/a pro Hektare gilt ein Gebiet als geeignet. Neben der Wärmedichte ist auch das erforderliche Temperaturniveau für die Wärmeversorgung wichtig. In der Industrie und Gewerbe wird zum Teil Prozesswärme auf sehr hohem Niveau (z.T. 1'000 °C und mehr) benötigt, die mit einem thermischen Netz nicht bereitgestellt werden kann. Deshalb wurde die Wärmenachfrage von Industrie und Gewerbe in einen eigenen Datensatz erfasst. Die Datengrundlage bildet die Statistik der Unternehmensstruktur (STATENT) des BFS aus dem Jahr 2013, ergänzt mit Zahlen aus dem jährlichen Bericht «Energieverbrauch in der Industrie und im Dienstleistungssektor» des BFE. Die Wärmenachfrage wird als Wärmedichte im Hektarraster dargestellt. Die Wärmedichte ist anhand einer Farbskala ersichtlich. Die Angaben dienen als Informationsmaterial für die Öffentlichkeit und stellen keine amtliche Auskunft oder rechtsverbindliche Aussage dar.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.fernwaerme-nachfrage_industrie:wmts",
+    "title": "Wärme-/Kältenachfrage Industrie",
+    "type": "Dataset"
+  }
+}

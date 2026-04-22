@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.silvaprotect-sturz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.silvaprotect-sturz?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/silvaprotect-f",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/238d97d6-8853-4e26-af30-dc5cbadd58dc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les chutes de pierres et de blocs sont caractérisées par des mouvements brusques (chutes, rebonds, roulements) de pierres ou de blocs isolés pouvant mesurer plusieurs mètres cubes et dont la vitesse peut atteindre 30 m/s. En principe, les pierres et les blocs s’immobilisent lorsque la déclivité de la pente devient inférieure à 30°. L’énergie cinétique des blocs peut être fortement réduite par les forêts. Ce thème donne un aperçu sous forme de carte indicative des surfaces potentiellement touchées par les pierres, établi sur la base de la modélisation de ce processus dans le projet SilvaProtect-CH. Les processus de chutes de pierres sont modélisés sans tenir compte de l'effet de la forêt.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.silvaprotect-sturz:wmts",
+    "title": "Chutes de pierre (SilvaProtect-CH)",
+    "type": "Dataset"
+  }
+}

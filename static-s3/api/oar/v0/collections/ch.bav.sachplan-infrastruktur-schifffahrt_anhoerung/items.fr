@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung/items/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung/items/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

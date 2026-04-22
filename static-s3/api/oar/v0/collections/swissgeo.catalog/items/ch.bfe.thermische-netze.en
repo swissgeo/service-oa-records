@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.thermische-netze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.thermische-netze?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.thermische-netze?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/thermal-networks",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/92b85345-4513-45a8-b64a-d7dbebd648a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Thermal networks – including district heating-, local heating- or district cooling networks – are systems that provide a number of separate buildings with thermal energy. They supply heat to customers through pipelines that carry water or steam. As well as district heating networks there are also district cooling networks – which is why the more general term ‘thermal networks' is now used. The energy supplied by thermal networks does not necessarily come from renewable sources, but these systems are often characterised by their low CO2 emissions, for example when based on heat recovered from waste incineration . District heating is an excellent way of making use of waste heat or renewable energies and is therefore becoming increasingly important. District heating is defined as a system that provides customers with heat that is generated in a central plant and supplied through pipes in the form of hot water or steam; the performance of individual systems varies widely, from less than 100 kW to over 1 GW. The supply of heat to one group of recipients only is not regarded as district heating. The geodata on thermal networks document the district heating networks currently operating in Switzerland, and are based entirely on information provided by the network operators. The data are unofficial, are not legally binding, and are provided simply as information for the public.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.thermische-netze:wms",
+    "title": "Thermal networks",
+    "type": "Dataset"
+  }
+}

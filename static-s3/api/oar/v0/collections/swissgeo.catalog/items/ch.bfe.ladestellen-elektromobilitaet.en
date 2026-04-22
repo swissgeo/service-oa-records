@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.ladestellen-elektromobilitaet",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.ladestellen-elektromobilitaet?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.ladestellen-elektromobilitaet?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://github.com/SFOE/ichtankestrom_Documentation",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/deb77904-21ff-4ff4-b53d-b6ddb4615168",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Electric mobility is a key technology for more sustainable mobility, contributing to the achievement of ambitious energy and climate policy goals. Electric motors are efficient and can run on electricity from renewable energy sources. The website <a href=\"https://www.uvek-gis.admin.ch/BFE/storymaps/MO_Kennzahlen_Fahrzeuge/Ladeinfrastruktur_Elektromobilitaet/?lang=en#:~:text=time%20data%20from-,recharge%2Dmy%2Dcar.ch.,-ch%20is%20analyzed\">www.charge-my-car.ch</a> displays the availability of charging points for electric vehicles in real time. The SFOE invites other providers offering publicly accessible charging points to list their locations on this website. Supported by <a href=\"https://www.energieschweiz.ch/mobilitaet/ \">SwissEnergy</a> as part of <a href=\"https://www.laden-punkt.ch\">PointRefill</a>, prices are provided by <a href=\"https://www.swiss-emobility.ch/fr/elektromobilitaet/Laden#preiskarte\">Swiss eMobility</a>, which allows its members to display them on the map. Contact point: ich-tanke-strom@bfe.admin.ch.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Charging points for electric cars",
+    "type": "Dataset"
+  }
+}

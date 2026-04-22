@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geotope",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotope?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotope?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.geotope.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e7dd54e9-fc98-4e5c-b46a-694d1ba6c84e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, SCNAT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Geotope sind geowissenschaftliche Naturdenkmäler. Erdgeschichtliche Geotope erzählen uns von der Entwicklung der Landschaft, des Klimas und des Lebens, vom Werden und Vergehen der Gebirge und vom Entstehen der Gesteine. Andere Geotope werfen ein Licht auf Vorgänge an der Erdoberfläche oder im Erdinnern. Sie schliessen auch das verborgene Reich der Höhlen und des Grundwassers ein. Eine letzte Gruppe von Geotopen umfasst aktive Landschaftselemente, wie z.B. Schutthalden, Flussauen oder Grundwasseraufstösse. Geotope sind räumlich begrenzte Teile der festen, unbelebten Erde (Geosphäre). Je nach ihrem thematischen Inhalt können sie ein einzelnes, punktuelles Vorkommen oder eine ganze Landschaftskammer bezeichnen. Sie sind vor Einflüssen zu bewahren, die ihre Substanz, Struktur, Form oder natürliche Weiterentwicklung beeinträchtigen. Die hier aufgeführten Geotope nationaler Bedeutung entstammen dem informellen Inventar der Arbeitsgruppe Geotope Schweiz (Akademie der Naturwissenschaften SCNAT). Das Inventar basiert nicht auf einer systematischen Erhebung und erhebt somit keinen Anspruch auf Vollständigkeit. Quellen: Felber, M. (1999): Inventar der Geotope nationaler Bedeutung. Geologia Insubrica 4/1. Reynard, E., Berger, J.-P., Constandache, M., Felber, M., Grangier, L., Häuselmann, P., Jeannin, P.-Y. & Martin, S. (2012): Révision de l'inventaire des géotopes suisses: rapport final. – Geosciences, Platform of the Swiss Academy of Science.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotope:wmts",
+    "title": "Geotope der Schweiz",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-totalintensitaet:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geophysik-totalintensitaet/items/ch.swisstopo.geologie-geophysik-totalintensitaet:wmts?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-totalintensitaet?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.geologie-geophysik-totalintensitaet",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.swisstopo.geologie-geophysik-totalintensitaet"
+    ]
+  }
+}

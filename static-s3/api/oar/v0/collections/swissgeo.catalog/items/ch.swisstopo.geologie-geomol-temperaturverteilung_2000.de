@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-geomol-temperaturverteilung_2000",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol-temperaturverteilung_2000?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol-temperaturverteilung_2000?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ac604460-7a7a-44c5-bc5a-41062fbd21ff",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Ein wichtiger Parameter für die Beurteilung des geothermischen Potenzials des Schweizer Molassebeckens ist die Temperaturverteilung unter der Erdoberfläche. Diese Karte zeigt die Temperaturverteilung und die Position der Störungen in einer Tiefe von 2000 m unter der Erdoberfläche. Diese gehört zu einer Serie, die die Temperaturverteilung auf ausgewählten Oberflächen zeigt (repräsentierend seismische Markerhorizonte, konstante Tiefen unter der Erdoberfläche oder Isothermen). Die Horizontoberflächen stammen aus dem geologischen 3D-Modell GeoMol15 und dem darauf basierenden GeoMol15-Temperaturmodell, das aus regelmässigen Zellen mit einer Grösse von 1000x1000x100 m besteht. Dieses Temperaturblockmodell ist abgeleitet von einem FE-Methode-Temperaturmodell (Geowatt AG, 2015), das vor allem auf 31 vertikalen Temperaturprofilen und den Horizontoberflächen des <a href=\"https://www.geologieportal.ch/de/themen/grundlagen-der-geologie/geophysik/seismischer-atlas.html\" target=\"_blank\">Seismischen Atlas des Schweizerischen Molassebeckens (2012)</a> basiert. Die FE-Temperaturmodellierungsmethode nimmt nur den konduktiven Wärmestrom an und berücksichtigt den konvektiven Wärmestrom nicht. Das Modell GeoMol15 und das zugehörige Temperaturmodell stehen zur Online-Ansicht über den <a href=\"https://viewer.geomol.ch/webgui/gui2.php\" target=\"_blank\">GeoMol-Viewer</a> zur Verfügung. Siehe auch die zugehörige Karte «<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten&topic=geol\" target=\"_blank\">Temperaturmodell - Daten</a>» auf map.geo.admin.ch.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol-temperaturverteilung_2000:wmts",
+    "title": "Temperaturen 2000 m Tiefe",
+    "type": "Dataset"
+  }
+}

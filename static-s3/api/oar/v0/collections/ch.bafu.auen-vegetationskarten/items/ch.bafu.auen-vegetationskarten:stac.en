@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.auen-vegetationskarten:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.auen-vegetationskarten/items/ch.bafu.auen-vegetationskarten:stac?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.auen-vegetationskarten?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.auen-vegetationskarten",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.bafu.auen-vegetationskarten"
+    ]
+  }
+}

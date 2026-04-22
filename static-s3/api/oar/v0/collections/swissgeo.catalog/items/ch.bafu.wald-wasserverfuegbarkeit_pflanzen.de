@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.wsl.ch/de/ueber-die-wsl/organisation/programme-und-initiativen/abgeschlossene-programme-und-grossprojekte/forschungsprogramm-wald-und-klimawandel.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/668e4c81-5926-4457-9097-b362244b2660",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Den Bäumen steht immer öfter zu wenig Wasser zur Verfügung: •Die Vegetation und der Boden geben Wasser an die Atmosphäre ab, je wärmer und trockener die Luft, desto mehr. Pflanzen verdunsten über ihre Blätter Wasser. Die Evapotranspiration ist die Summe des an die Atmosphäre abgegebenen Wassers. •Die aktuelle Evapotranspiration (ETa) hängt von der Wasserverfügbarkeit ab, das heisst von der Niederschlagsmenge sowie der Fähigkeit der Böden, das Niederschlagswasser zu speichern. Die potenzielle Evapotranspiration (ETp) ist die Wassermenge, die bei ausreichender Wassernachlieferung an die Atmosphäre abgegeben würde. •Unterhalb von einem ETa/ETp-Verhältnis von 0.8 ist mit Beeinträchtigungen durch Trockenheit zu rechnen, da die Spaltöffnungen in den Blättern dann oft geschlossen sind und die Bäume die Photosynthese einschränken. •In hell- und speziell dunkelblauen Gebieten ist nicht mit Störungen zu rechnen. •In gelb bis rot markierten Gebieten ist mit Beeinträchtigungen der Bäume durch Trockenheit zu rechnen, am stärksten in den weinroten Bereichen. •Trend: Wiederkehr und Ausdehnung gelb bis roter Gebiete nehmen in der Periode 1981-2018 zu. Periode 1981-2018, April bis August, räumliche Auflösung 250m x 250m. Quelle: Remund et al. (2016).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen:wmts",
+    "title": "Wasserverfügbarkeit für Pflanzen",
+    "type": "Dataset"
+  }
+}

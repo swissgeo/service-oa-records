@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.gebaeude_wohnungs_register",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.gebaeude_wohnungs_register?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.gebaeude_wohnungs_register?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/de/home/register/gebaeude-wohnungsregister.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/56553efe-4a2c-449d-93ba-cf7edd518d56",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di statistica UST",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il Registro federale degli edifici e delle abitazioni (REA), creato sulla base delle informazioni raccolte dal censimento della popolazione 2000 per fini statistici.Il REA si è imposto – in particolare grazie alla revisione totale dell'ordinanza (OREA) entrata in vigore il 1° luglio 2017 – come sistema nazionale d'informazione nel settore degli edifici. Il REA contiene informazioni sui progetti di costruzione, sugli edifici, sulle abitazioni, sulle entrate e sulle vie. I dati di livello A sono pubblici e possono essere utilizzati senza restrizioni. Il livello di dati \"REA: stato degli edifici\" illustra graficamente lo stato degli edifici ed i/il loro numero/i d'entrata.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "REA: stato dell'edificio",
+    "type": "Dataset"
+  }
+}

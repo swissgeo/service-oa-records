@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-tektonische_karte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-tektonische_karte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-tektonische_karte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/donnees-de-base",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/a4cdef47-505e-41ab-b6a7-ad5b92d80e41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Carte tectonique de la Suisse (TK500) illustre les unités tectoniques et des éléments structuraux de tout le territoire suisse et des régions avoisinantes. Les unités regroupent des roches ayant une histoire géodynamique commune et sont séparées les unes des autres par des discontinuités tectoniques. Au sein de certaines unités, une distinction a été faite entre socle cristallin et une ou plusieurs séries successives de couverture sédimentaire. Les unités sont regroupées en domaines structuraux séparés par des discontinuités tectoniques majeures. Les unités et sous-unités peuvent être localisées en écrivant leur nom dans le champ de recherche, de même pour certaines lignes structurales (toutes n'ont pas de nom). La carte actuelle (4e édition, 2024) est accompagnée d'une <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500-ERL.pdf?approved=true\" target=\"_blank\">notice explicative</a> qui donne une brève définition de chaque unité représentée. Une planche annexe présente trois <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500_Plate-II_Profile.pdf?approved=true\" target=\"_blank\">coupes tectoniques</a> d'orientation NW–SE à N–S, traversant tout le secteur de la carte et montrant les grandes structures en profondeur. Une autre planche réunit une série de <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500_Plate-III_Paleogeography.pdf?approved=true\" target=\"_blank\">schémas paléogéographiques</a> depuis le Jurassique moyen (170 Ma) jusqu'à aujourd'hui, qui montrent l'évolution des relations spatiales entre les différents domaines tectoniques couverts par la carte.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-tektonische_karte:wmts",
+    "title": "Tectonique 500",
+    "type": "Dataset"
+  }
+}

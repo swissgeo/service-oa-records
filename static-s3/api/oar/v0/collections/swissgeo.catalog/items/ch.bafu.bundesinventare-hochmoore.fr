@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-hochmoore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-hochmoore?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-hochmoore?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/marais",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/2ce98519-dd40-4cc1-bd95-8f4234d78492",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les tourbières comptent parmi les milieux naturels les plus sensibles de Suisse. Ils sont fortement en recul : seuls 10 à 20 % de la surface initiale subsistent aujourd'hui. L'inventaire scientifique des tourbières a été effectué entre 1978 et1984 par la division Paysage du WSL (Institut fédéral de recherches sur la forêt, la neige et le paysage) sur mandat de Pro Natura Helvetica.Conformément à l'art. 18a de la loi fédérale du 1er juillet 1966 sur la protection de la nature et du paysage (LPN), entrée en vigueur le 1er février 1988, le Conseil fédéral, après avoir pris l'avis des cantons, désigne les biotopes d'importance nationale, détermine leur situation et précise les buts visés par la protection. Le premier inventaire fédéral selon l'art. 18a LPN fut celui des hauts-marais et marais de transition, entré en vigueur en 1991. Il comptait 514 objets à l'origine ; après avoir été complété par une 2e série en 2003 et révisé en 2007, 2017 et en 2025, il compte désormais 552 objets. L'échelle juridiquement contraignante pour déterminer la situation de l'objet à protéger est celle de la feuille d'objet. Les limites précises des objets sont fixées par les cantons.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-hochmoore:wmts",
+    "title": "Hauts-marais",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode/items/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.meteoschweiz.klimanormwerte-niederschlag_aktuelle_periode"
+    ]
+  }
+}

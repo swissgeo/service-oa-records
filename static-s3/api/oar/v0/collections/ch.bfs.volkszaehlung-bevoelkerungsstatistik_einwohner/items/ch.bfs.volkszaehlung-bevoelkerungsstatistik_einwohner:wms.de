@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner/items/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner"
+    ]
+  }
+}

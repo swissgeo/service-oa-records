@@ -1,0 +1,101 @@
+{
+  "id": "ch.pronatura.naturschutzgebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.pronatura.naturschutzgebiete?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.pronatura.naturschutzgebiete?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.pronatura.ch/en",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/db4b251f-d431-457d-9ed6-4abf59d2a54a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Pro Natura",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Pro Natura sichert mit Verträgen über 770 Naturschutzgebiete in der Schweiz mit einer Gesamtfläche von rund 270 km2. Aus unterschiedlichen Gründen dürfen öffentlich nur 763 Gebiete dargestellt werden. In einem Teil dieser Gebiete führt Pro Natura die professionelle Betreuung selbst aus. Über 69 km2 davon sind im Eigentum von Pro Natura. Damit ist Pro Natura die grösste private Landbesitzerin der Schweiz. Für einen besseren Schutz oder zur Arrondierung und Aufwertung von Naturschutzgebieten sichert Pro Natura jedes Jahr zusätzliche Flächen oder kauft neue Parzellen. Eine Übersicht darüber gibt der jährliche Leistungsbericht. Sie verzichtet aber auch auf die Erneuerung von Verträgen, wenn der Schutz des Gebietes durch andere Massnahmen gewährleistet ist. Mit ihren Naturschutzgebieten sichert Pro Natura Lebensräume für unzählige Tier- und Pflanzenarten und schenkt Ihnen und den folgenden Generationen attraktive, unverbaute Landschaftselemente. Die Naturschutzgebiete von Pro Natura umfassen unter anderem auch Waldreservate.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.pronatura.naturschutzgebiete:wmts",
+    "title": "Pro Natura: Nature Preserves",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.anlagen-schienengueterverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.anlagen-schienengueterverkehr?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.anlagen-schienengueterverkehr?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/fr/home/modes-de-transport/chemin-de-fer/trafic-marchandises/trafic-marchandises--sur-tout-le-territoire.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/dda92878-86a1-4191-a073-9721671d6bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des transports OFT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La conception relative au transport ferroviaire de marchandises est une conception au sens de l'art. 3 de la loi fédérale sur le transport de marchandises (LTM, RS 742.41) et de l'art. 13 de la loi fédérale sur l'aménagement du territoire (LAT ; RS 700). Elle définit d'une part les principaux intérêts de la Confédération dont il faut tenir compte lors de la planification d'installations du fret ferroviaire, d'autre part un répertoire des installations du fret ferroviaire existantes lors de l'adoption de la conception. Ces installations sont indiquées sur cette carte. Les contenus des cartes n'ont aucun caractère juridique contraignant. L'activation de la fonction d'interrogation fait apparaître les détails concernant l'installation concernée. Pour comprendre pleinement la pertinence de la carte et des résultats fournis lors de son interrogation, il faut se référer aux explications données dans la conception relative au transport ferroviaire de marchandises ainsi qu'au rapport explicatif.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.anlagen-schienengueterverkehr:wms",
+    "title": "Installations fret ferroviaire",
+    "type": "Dataset"
+  }
+}

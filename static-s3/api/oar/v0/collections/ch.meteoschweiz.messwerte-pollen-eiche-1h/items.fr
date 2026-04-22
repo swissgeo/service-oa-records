@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.meteoschweiz.messwerte-pollen-eiche-1h:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messwerte-pollen-eiche-1h/items/ch.meteoschweiz.messwerte-pollen-eiche-1h:geojson?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-pollen-eiche-1h?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.messwerte-pollen-eiche-1h",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-pollen-eiche-1h/ch.meteoschweiz.messwerte-pollen-eiche-1h_fr.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-pollen-eiche-1h.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.wald-lufttemperatur_juli_1981_2010:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-lufttemperatur_juli_1981_2010/items/ch.bafu.wald-lufttemperatur_juli_1981_2010:wmts?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-lufttemperatur_juli_1981_2010?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.wald-lufttemperatur_juli_1981_2010",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bafu.wald-lufttemperatur_juli_1981_2010"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/osservazione-nazionale-della-qualita-delle-acque-superficiali-nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/359e590e-4c29-494a-80ba-182a9682173c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nel quadro dell’Osservazione nazionale della qualità delle acque superficiali (NAWA) la Confederazione e i Cantoni rilevano in modo congiunto la qualità delle acque presso un centinaio di punti di misurazione. La valutazione dello stato chimico delle acque fondata sulla concentrazione di fosforo totale avviene applicando il metodo «Rilevamenti chimico-fisici, nutrienti» del sistema basato su moduli e livelli (www.modul-stufen-konzept.ch). Il fosforo è un nutriente essenziale per gli organismi acquatici. Il fosforo finisce nelle acque in modo diffuso dall’agricoltura o in modo puntuale dalle immissioni delle acque di scarico o dall’alterazione di roccia contenente fosforo. Contrariamente ai laghi, di regola, il fosforo nei corsi d’acqua non inibisce la crescita delle alghe e dei vegetali. Dato che gli apporti da fonti naturali sono di regola esigui, il fosforo totale costituisce innanzitutto un indicatore per i carichi di origine antropica.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt:wms",
+    "title": "Fosforo totale",
+    "type": "Dataset"
+  }
+}

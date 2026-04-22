@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-bln",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-bln?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-bln?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bln",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/bc3f1564-1e56-44e9-98b6-f0d8c5130410",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Artikel 5 des Bundesgesetzes über den Natur- und Heimatschutz (NHG) vom 1. Juli 1966 weist den Bundesrat an, Inventare mit Objekten von nationaler Bedeutung (Bundesinventare) zu erstellen. Beim Erlass dieser Inventare sind die Kantone anzuhören. Das Bundesinventar der Landschaften und Naturdenkmäler (BLN) stellt das erste Bundesinventar nach NHG dar. Vorstufe ist das KLN-Inventar (Inventar der zu erhaltenden Landschaften und Naturdenkmäler von nationaler Bedeutung), eine von privaten Organisationen in erster Auflage 1963 herausgegebene Arbeit, die periodisch ergänzt und überarbeitet wurde. Das BLN-Inventar wurde etappenweise in Rechtskraft gesetzt. Bisher hat der Bundesrat vier Inventarfolgen genehmigt: - eine 1. Serie 1977 mit 65 Objekten - eine 2. Serie 1983 mit 55 Objekten und 5 revidierten Objekten - eine 3. Serie 1996 mit 33 Objekten und 10 revidierten Objekten - eine 4. Serie 1998 mit 9 Objekten und 15 revidierten Objekten. In der Revision 2017 wurde ein Flächenabtausch zwischen den Objekten 1605 und 1606 vorgenommen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-bln:wmts",
+    "title": "BLN",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.agglomerationsverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.agglomerationsverkehr?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.agglomerationsverkehr?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/de/agglomerationsprogramme-6-generation",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f4b72bb8-aff0-4eab-b1e8-48e698c0e8fb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Raumentwicklung ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Liste der Beitragsberechtigten Städte und Agglomerationen bildet ab, welche Gemeinden im Rahmen des Programms Agglomerationsverkehr für Beiträge des Bundes beitragsberechtigt sind (gemäss Anhang der Verordnung des UVEK über das Programm Agglomerationsverkehr [PAVV, SR 725.116.214]). Die Grundlage für die Liste bildet die Definition des «Raums mit städtischem Charakter» des Bundesamts für Statistik BFS (2012). Dabei wurde die Beitragsberechtigung für alle Gemeinden erhalten, die aufgrund der Agglomerationsdefinition von 2000 beitragsberechtigt waren. Die Anzahl Gürtelgemeinden wurde gegenüber der Definition des BFS von 2012 durch die Anwendung statistischer Kriterien reduziert. Überdies wurden die Gemeinden Sarnen und Appenzell als Kantonshauptorte in die Liste der Beitragsberechtigten Städte und Agglomerationen aufgenommen. Mit Arrondierungen und Lückenfüllungen wurden noch kleine Bereinigungen durchgeführt.Die Aktualisierung vom 01.08.2025 basiert auf der Agglomerationsdefinition 2020 und umfasst die berücksichtigten Vorschläge der Kantone und Agglomerationen auf Aufnahme oder Streichung von Gemeinden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.agglomerationsverkehr:wmts",
+    "title": "Städte und Agglomerationen BeSA",
+    "type": "Dataset"
+  }
+}

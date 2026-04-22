@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.swisstopo.swissboundaries3d-land-flaeche.fill:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissboundaries3d-land-flaeche.fill/items/ch.swisstopo.swissboundaries3d-land-flaeche.fill:wmts?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissboundaries3d-land-flaeche.fill?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.swissboundaries3d-land-flaeche.fill",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.swisstopo.swissboundaries3d-land-flaeche.fill:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissboundaries3d-land-flaeche.fill/items/ch.swisstopo.swissboundaries3d-land-flaeche.fill:wms?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissboundaries3d-land-flaeche.fill?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.swissboundaries3d-land-flaeche.fill",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

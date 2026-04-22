@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.meteoschweiz.messnetz-atmosphaere:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-atmosphaere/items/ch.meteoschweiz.messnetz-atmosphaere:geojson?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-atmosphaere?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.messnetz-atmosphaere",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messnetz-atmosphaere/ch.meteoschweiz.messnetz-atmosphaere_it.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messnetz-atmosphaere.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.unterkuenfte-winter:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.unterkuenfte-winter/items/ch.swisstopo.unterkuenfte-winter:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.unterkuenfte-winter?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.unterkuenfte-winter",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.unterkuenfte-winter"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.vec25-primaerflaechen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.vec25-primaerflaechen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.vec25-primaerflaechen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/fb4c7281-bd58-4aae-b86a-3a73ba82e0aa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La couche Surfaces primaires (abréviation pri) décrit la couverture du sol. Les différents types de surface de cette couche (lac et forêt) se délimitent réciproquement et forment un réseau de surfaces sans redondance et sans lacune. Contrairement à la Carte nationale, la couche Surfaces primaires présente les zones d'habitation sous la forme de surface (interprétée). Les bâtiments isolés sont proposés en tant que couche thématique séparée. Les objets-lignes de cette couche constituent les limites entre les surfaces. Ils ont des catégories d'objet indépendantes qui ne peuvent en principe pas être dérivés des surfaces (Rive gauche de la rivière, Rive droite de la rivière, Limite de forêt, Limite de forêt ouverte).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.vec25-primaerflaechen:wmts",
+    "title": "Surfaces primaires VECTOR25",
+    "type": "Dataset"
+  }
+}

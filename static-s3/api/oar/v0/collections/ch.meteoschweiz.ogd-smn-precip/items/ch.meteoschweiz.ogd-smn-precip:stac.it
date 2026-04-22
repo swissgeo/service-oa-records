@@ -1,0 +1,34 @@
+{
+  "id": "ch.meteoschweiz.ogd-smn-precip:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.ogd-smn-precip/items/ch.meteoschweiz.ogd-smn-precip:stac?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.ogd-smn-precip?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.meteoschweiz.ogd-smn-precip",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.meteoschweiz.ogd-smn-precip"
+    ]
+  }
+}

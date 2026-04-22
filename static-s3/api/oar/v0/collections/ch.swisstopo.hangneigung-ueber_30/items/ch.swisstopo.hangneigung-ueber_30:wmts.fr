@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.hangneigung-ueber_30:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hangneigung-ueber_30/items/ch.swisstopo.hangneigung-ueber_30:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hangneigung-ueber_30?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.hangneigung-ueber_30",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.swisstopo.hangneigung-ueber_30"
+    ]
+  }
+}

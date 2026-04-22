@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.gewaesser-uferbestockung_vegetation:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesser-uferbestockung_vegetation/items/ch.bafu.gewaesser-uferbestockung_vegetation:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesser-uferbestockung_vegetation?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.gewaesser-uferbestockung_vegetation",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bafu.gewaesser-uferbestockung_vegetation"
+    ]
+  }
+}

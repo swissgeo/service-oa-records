@@ -1,0 +1,38 @@
+{
+  "id": "ch.bafu.hydroweb-warnkarte_national:geojson",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-warnkarte_national/items/ch.bafu.hydroweb-warnkarte_national:geojson?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-warnkarte_national?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.hydroweb-warnkarte_national",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.bafu.hydroweb-warnkarte_national/ch.bafu.hydroweb-warnkarte_national_fr.json",
+      "rel": "about",
+      "title": "Link to GeoJSON file",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bafu.hydroweb-warnkarte_national.json",
+      "rel": "styled-by",
+      "title": "Link to style file for the GeoJSON layer",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "GeoJSON Layer",
+    "protocol": "geojson"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-foehnhaeufigkeit_jahr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-foehnhaeufigkeit_jahr?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-foehnhaeufigkeit_jahr?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/12e6b1d6-b517-4919-b04c-5196947ac760",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Karte zeigt die durchschnittliche Häufigkeit (in %) von Anzahl Föhnstunden im Jahr. Ein Wert von z.B. 12 % bedeutet, dass zusammengenommen an 44 Tagen im Jahr der Föhn weht, wobei die Dauer der Föhnereignisse variiert. Als Grundlage für die Berechnung wurden die Klimastationen von MeteoSchweiz in den Föhnregionen verwendet (unterschiedliche Zeiträume). Für jede Station wurde die Anzahl Stunden mit Föhn pro Tag berechnet. Als Kriterien für Föhn galten:- Relative Luftfeuchtigkeit: am Tag < 50 %, in der Nacht < 55 %, - Windgeschwindigkeit: > 5 km/h, - Windrichtungsbereich: typische Windrichtung (in °) bei Föhn +/- 60°. Die Auswertungen an den Stationen wurden anschliessend für die typischen Föhnregionen in die Fläche interpoliert. Die grau eingefärbten Regionen gelten nicht als typische Föhnregionen. Für diese Regionen wurde die Föhnhäufigkeit deshalb nicht berechnet. Die resultierende Karte hat eine räumliche Auflösung von 25 m x 25 m. Sie wurde für die Modellierung von Vegetationshöhenstufen verwendet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-foehnhaeufigkeit_jahr:wmts",
+    "title": "Föhnhäufigkeit",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.nagra.aeromagnetische-karte_1500",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.nagra.aeromagnetische-karte_1500?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.nagra.aeromagnetische-karte_1500?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.nagra.ch/en/cat/publikationen/technicalreports-ntbs/downloadcentre.htm",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b814401b-9eb2-4e6c-b4a9-f24df7b8bba6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "National Cooperative for the Disposal of Radioactive Waste NAGRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The overall magnetisation of a rock consists of induced magnetisation caused by the Earth's magnetic field and of remanent magnetisation acquired by the rock during its formation. Regional or local differences in the geomagnetic field on the basis of a global model, referred to as anomalies, are measured from aircraft. These anomalies can make it possible to identify the geological and tectonic structures and the presence of mineral deposits. As part of Nagra's programme of geophysical investigations in northern Switzerland, the Swiss Geophysical Commission (SGPK) flew a 6,250-km grid to acquire aeromagnetic measurements. The results of these recordings are represented on four maps at a 1:100,000 scale: two maps of the total field (from altitudes of 1,500 m and 1,100 m) and two maps of the residual field after removal the regional trend. The maps do not show any anomalies that would allow determination of the depth to bedrock with its Permo-Carboniferous troughs. - Paper map: E. KLINGELE, 1982. - Vector map: online version, residual field only, E. KLINGELE, 2010.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.nagra.aeromagnetische-karte_1500:wmts",
+    "title": "Aeromagnetic Aargau 1500 m 100",
+    "type": "Dataset"
+  }
+}

@@ -22,3 +22,6 @@ load-sample-records:
 
 cp-data:
     kubectl cp v0 oa-records/$(kubectl get pods -n oa-records -o jsonpath='{.items[0].metadata.name}'):/pygeoapi
+
+fetch-api-from-s3:
+    aws s3 --profile swisstopo-swissgeo-dev sync s3://oa-records-static-dev-swissgeo static-s3

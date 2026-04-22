@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.hydroweb-messstationen_zustand:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-messstationen_zustand/items/ch.bafu.hydroweb-messstationen_zustand:geojson?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_zustand?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.hydroweb-messstationen_zustand",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_zustand/ch.bafu.hydroweb-messstationen_zustand_de.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bafu.hydroweb-messstationen_zustand.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_temperatur:geojson",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-messstationen_temperatur/items/ch.bafu.hydroweb-messstationen_temperatur:geojson?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_temperatur?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.hydroweb-messstationen_temperatur",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_it.json",
+      "rel": "about",
+      "title": "Link to GeoJSON file",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bafu.hydroweb-messstationen_temperatur.json",
+      "rel": "styled-by",
+      "title": "Link to style file for the GeoJSON layer",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "GeoJSON Layer",
+    "protocol": "geojson"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.nationalstrassenachsen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.nationalstrassenachsen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.nationalstrassenachsen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://map.geo.admin.ch/?layers=ch.astra.nationalstrassenachsen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/cc9bb928-851d-4ecd-8dd8-ba6abcad19a4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Strassen ASTRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Nationalstrassenachsen werden vom Bundesamt für Strassen verwaltet und unterhalten. Die Strassen sind anhand von ihrer Achse gekennzeichnet.Als Besonderheit haben die Achsen neben ihrer planaren, geometrischen Ausprägung eine lineare Beschreibung (Räumliches Basisbezugssystem, RBBS). Nationalstrassenachsen werden nachgeführt wenn bauliche Veränderungen stattgefunden haben oder wenn das RBBS verändert werden muss. Dazu gehören unter anderem das Setzen von zusätzlichen Bezugspunkten (Sektorunterteilung) oder das Nachführen von Eigentumsänderungen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.nationalstrassenachsen:wms",
+    "title": "Nationalstrassenachsen",
+    "type": "Dataset"
+  }
+}

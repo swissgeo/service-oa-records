@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-vererzungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-vererzungen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-vererzungen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.aramis.admin.ch/Texte/?ProjectID=57845",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/46dd5d50-6f7e-4175-ab64-051b16750e38",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Georesources Switzerland Group",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Metallic raw materials are resources of economic value that are typically sourced from metal-bearing minerals. This dataset shows the sites where metallic raw materials have been located or mined in the past in Switzerland. Currently, no metallic raw materials are commercially exploited. Because of their specific chemical, electrical, or magnetic properties, metallic raw materials are used in various industrial production processes. Examples include the production of metal alloys, semiconductors (chips), strong permanent magnets, high-performance energy storage systems and other high-tech components. Some metallic raw materials are currently classified as Critical Raw Materials (CRMs) in the <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1252/oj/eng\" target=\"_blank\">European Union</a> and some are <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-rohstoffe-industrieminerale/pdf/IRENA_NUPI_2024_Ranking_critical_materials_for_the_energy%20transition.pdf\" target=\"_blank\">considered absolutely essential</a> for the energy transition. Several sites listed in this dataset indicate a mineralization that may contain one or more critical raw materials. The concentration and volume of these mineralizations are essentially unknown or insignificant. Based on current knowledge, it does not appear feasible to exploit these occurrences commercially. Users are invited to consult the report <a href=\" https://www.aramis.admin.ch/Texte/?ProjectID=57845\" target=\"_blank\">Critical Raw Materials in Switzerland — A Review</a> for a more detailed geological overview of the situation regarding CRMs. Other critical raw materials are shown in the <a href=\"https://map.geo.admin.ch/#/map?lang=en&center=2617121.4,1182798.62&z=1&topic=georessourcen&layers=ch.swisstopo.geologie-rohstoffe-industrieminerale&bgLayer=ch.swisstopo.pixelkarte-grau&catalogNodes=georessourcen,15162,15165,15164\" target=\"_blank\">Other industrial minerals</a> dataset. In case it is desired to develop a mining site, it is essential to conduct a detailed geological investigation on the location of interest. This dataset is periodically updated and does not claim to be exhaustive.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-vererzungen:wms",
+    "title": "Metallic raw materials",
+    "type": "Dataset"
+  }
+}

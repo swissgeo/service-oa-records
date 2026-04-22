@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.hoheitsgrenzpunkte-landesvermessung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hoheitsgrenzpunkte-landesvermessung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hoheitsgrenzpunkte-landesvermessung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/landesgrenze",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/0691a148-2f17-4791-a4d0-29bd0e12e2f3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Datensatz «Hoheitsgrenzpunkte LV» enthält die Punkte, die die Eckpunkte der Landesgrenze (Hoheitsgrenze MN) markieren, und wird von der Landesvermessung verwaltet. Diese Punkte begrenzen sowohl das Gebiet der Schweiz gegenüber dem Ausland als auch die Aussengrenzen der Kantone, Bezirke, Gemeinden und Grundstücke der Schweiz. Sie werden in der amtlichen Vermessung als Grenzpunkte (Geodatenmodell DMAV_Grundstuecke_V1_0) verwaltet und als Dienst zur Verfügung gestellt. Die Daten werden ohne Höhenangaben geliefert.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hoheitsgrenzpunkte-landesvermessung:wmts",
+    "title": "Grenzpunkte der Schweiz",
+    "type": "Dataset"
+  }
+}

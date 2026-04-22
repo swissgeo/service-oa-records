@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.sachplan-infrastruktur-strasse_kraft:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.sachplan-infrastruktur-strasse_kraft/items/ch.astra.sachplan-infrastruktur-strasse_kraft:wms?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.sachplan-infrastruktur-strasse_kraft?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.sachplan-infrastruktur-strasse_kraft",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.astra.sachplan-infrastruktur-strasse_kraft"
+    ]
+  }
+}

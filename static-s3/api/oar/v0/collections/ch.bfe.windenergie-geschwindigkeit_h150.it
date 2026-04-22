@@ -1,0 +1,36 @@
+{
+  "id": "ch.bfe.windenergie-geschwindigkeit_h150",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bfe.windenergie-geschwindigkeit_h150:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.windenergie-geschwindigkeit_h150?language=it",
+          "hreflang": "it",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oas/v0/styles/ch.bfe.windenergie-geschwindigkeit_h150:wms:style",
+          "rel": "styledby",
+          "title": "Style Hints for WMS Raster Layer (Maplibre Style Spec)"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bfe.windenergie-geschwindigkeit_h150",
+  "type": "Collection"
+}

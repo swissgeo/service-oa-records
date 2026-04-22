@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfs.erreichbarkeit-restaurants",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.erreichbarkeit-restaurants?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.erreichbarkeit-restaurants?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/dienstleistungen-bevoelkerung-erreichbarkeit.assetdetail.32029919.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8f48d5dd-270b-46c5-bf82-c8e7929d08f6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Statistical Office FSO",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Measuring the distance to services for each inhabited hectare in Switzerland provides a wide range of statistical information on access to goods, services and recreation areas.Sufficient access to basic goods and services needed in everyday life, as well as access to places of retreat such as lakeshores or forests, are of great importance for the quality of life. The calculation of accessibility to these services is a method to measure this phenomenon. Accessibility is operationalised by the distance travelled on the road network between the place of residence and the location of the nearest service provider or the nearest recreation area. The places of residence are not considered individually, but are aggregated by inhabited hectares.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.erreichbarkeit-restaurants:wmts",
+    "title": "Accessibility of restaurants",
+    "type": "Dataset"
+  }
+}

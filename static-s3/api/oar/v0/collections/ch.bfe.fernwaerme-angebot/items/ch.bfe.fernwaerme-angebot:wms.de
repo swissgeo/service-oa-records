@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfe.fernwaerme-angebot:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.fernwaerme-angebot/items/ch.bfe.fernwaerme-angebot:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-angebot?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfe.fernwaerme-angebot",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bfe.fernwaerme-angebot"
+    ]
+  }
+}

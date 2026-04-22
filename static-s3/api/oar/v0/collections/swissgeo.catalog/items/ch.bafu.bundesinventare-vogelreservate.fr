@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-vogelreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-vogelreservate?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-vogelreservate?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/reserves-doiseaux-deau-et-de-migrateurs",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/8fc6f748-80ce-47b2-8d49-b05a0c8ba975",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Suisse est un lieu d'hivernage et de repos particulièrement important pour diverses espèces d'oiseaux d'eau migrateurs. Conscient de cette importance, le Conseil Fédéral a signé en 1974 la Convention relative aux zones humides d'importance internationale, conclue à Ramsar en 1971 et ratifiée par l'Assemblée fédérale en 1975.Un inventaire des réserves d'oiseaux d'eau d'importance internationale pour la Suisse a été élaboré en 1976 sur la base de critères antérieurs. La Station ornithologique de Sempach a présenté en 1995 la deuxième version révisée de cet inventaire, comprenant aussi les objets d'importance nationale. Conformément à l'art. 11 de la nouvelle loi fédérale sur la chasse et la protection des mammifères et oiseaux sauvages (LChP), la Confédération est tenue de délimiter des réserves d'oiseaux d'eau et de migrateurs d'importance internationale. Le présent inventaire contient, aprés les révisions de 1992, 2001, 2009, 2015 et 2023, les principales régions figurant dans l'inventaire de la Station ornithologique, dont dix zones d'importance internationale et 25 d'importance nationale.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-vogelreservate:wmts",
+    "title": "Réserves d'oiseaux d'eau",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.sturm-staudruck_300",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.sturm-staudruck_300?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.sturm-staudruck_300?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/stuerme",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/d416fce6-2319-4afc-9d28-3455083b2f40",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Windstorm Risk Maps show peak wind gusts and their dynamic pressure and the corresponding uncertainties. The maps provide a country-wide basis for the estimation of the regional windstorm risk, however they do not replace the Dynamic Pressure Reference (Standard SIA 261 Annex E). The windstorm risk is calculated on the basis of 83 winter storm periods between 1871 and 2011 and the 20th Century Reanalysis global data. Local influences, summer storms and thunder squalls were not taken into account in the calculations. The values specified for the peak wind gusts should not, therefore, be interpreted as absolutely accurate values and do not replace any location-specific reports. The peak wind gusts are underestimated for exposed Alpine locations (e.g. Jungfraujoch), in particular.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.sturm-staudruck_300:wmts",
+    "title": "Windstorm Dynamic Pressure 300",
+    "type": "Dataset"
+  }
+}

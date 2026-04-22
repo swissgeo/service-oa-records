@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:wmts?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:wms?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:stac?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

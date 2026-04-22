@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.swisstlm3d-karte-grau:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisstlm3d-karte-grau/items/ch.swisstopo.swisstlm3d-karte-grau:wms?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisstlm3d-karte-grau?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.swisstlm3d-karte-grau",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.swisstlm3d-karte-grau"
+    ]
+  }
+}

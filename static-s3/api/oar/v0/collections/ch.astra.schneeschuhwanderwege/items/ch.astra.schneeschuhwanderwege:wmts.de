@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.schneeschuhwanderwege:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.schneeschuhwanderwege/items/ch.astra.schneeschuhwanderwege:wmts?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.schneeschuhwanderwege?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.schneeschuhwanderwege",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.astra.schneeschuhwanderwege"
+    ]
+  }
+}

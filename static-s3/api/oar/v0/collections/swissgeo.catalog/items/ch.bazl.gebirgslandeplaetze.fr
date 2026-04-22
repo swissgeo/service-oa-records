@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.gebirgslandeplaetze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.gebirgslandeplaetze?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.gebirgslandeplaetze?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/places-atterrissage-montagne",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/d31ecd5b-e00c-430b-ab2e-d9148a199b9c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les places d'atterrissage en montagne (PAM) sont des terrains d'atterrissage situés en dehors des aérodromes - donc sans infrastructure - et à plus de 1100 m d'altitude. Elles sont utilisées d'une part pour l'instruction et l'entraînement, d'autre part pour le transport de personnes à des fins touristiques. La liste déterminante des places d'atterrissage en montagne agréées par l'OFAC, accompagnée d'informations détaillées, est publiée dans le feuillet AGA 3-3-1 du VFR Manual. Utilisation des places d'atterrissage en montagne par des avions: uniquement si la place s'y prête. Utilisation des places d'atterrissage en montagne par des hélicoptères: le lieu d'atterrissage peut être choisi à une distance raisonnable, soit un rayon pouvant aller jusqu'à 400 m du point déterminé par les coordonnées dans les limites de la description topographique (décision du Conseil fédéral du 7 mai 1980). Remarque: il ne s'agit pas d'une publication officielle des données aéronautiques. Les données publiées peuvent différer des dernières données en date.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.gebirgslandeplaetze:wmts",
+    "title": "Places d'atterrissage en montagne",
+    "type": "Dataset"
+  }
+}

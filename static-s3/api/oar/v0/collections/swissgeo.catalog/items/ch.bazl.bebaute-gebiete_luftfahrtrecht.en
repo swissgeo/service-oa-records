@@ -1,0 +1,101 @@
+{
+  "id": "ch.bazl.bebaute-gebiete_luftfahrtrecht",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.bebaute-gebiete_luftfahrtrecht?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.bebaute-gebiete_luftfahrtrecht?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/bebaute-gebiete-vil",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/13a1d280-d6ee-4c57-8ee4-ffcebedcfc2e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Civil Aviation FOCA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In Swiss civil aviation legislation, the term \"built-up areas\" refers to the definition of areas, in both quantitative terms and with respect to aviation criteria, that is applied in Articles 63 and 65a of the Federal Ordinance of 23 November 1994 on Civil Aviation Infrastructure (SR 748.131.1). A licensing requirement in built-up and non-built-up areas applies for objects with a height of 100 metres or more (or 60 metres or more for high-voltage power lines, wind turbines turbines, slacklines), as well as for the penetration of an obstacle-free zone or a security zone. A registration requirement applies for objects with a height of 60 metres or more in a built-up area, and a height of 25 metres or more in a non-built-up area (or in the case of mobile cranes, a height of 40 metres or more). Owners are required to notify the FOCA in advance of the construction or alteration of such buildings and installations or temporary objects. This vector dataset for Switzerland and the Principality of Liechtenstein is automatically generated from the building plans incorporated in \"swissTLM3D\" – the Swiss 3D topographic landscape model produced by the Federal Office of Topography (swisstopo) – and is periodically updated.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.bebaute-gebiete_luftfahrtrecht:wmts",
+    "title": "Built-up areas VIL",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.meteorologische-vereisung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.meteorologische-vereisung?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.meteorologische-vereisung?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/frequence-givrage",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/94cedad7-6d19-46b2-9ecf-0d1d1a58bea8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "En Suisse, les zones propices à l’exploitation de l’énergie éolienne se trouvent notamment sur les hauteurs du Jura, dans les Apes et les Préalpes, soit des régions où la température demeure régulièrement et longtemps au-dessous de 0 °C en hiver. Les effets du givre sur les instruments de mesure et les pales des éoliennes entrent donc en considération.Le givrage influence la planification et l’exploitation d’une éolienne de diverses façons: son dépôt sur les pales peut nuire à l’aérodynamisme de celles-ci et entraîner des pertes de production. Les charges supplémentaires et les déséquilibres qui en résultent entraînent une fatigue de la structure de l’éolienne. Pour des raisons de sécurité (glaçons) et en raison de la fatigue du matériel, les éoliennes sont désactivées en cas de givrage. La présence de givre sur les instruments de mesure d’une éolienne peut par ailleurs perturber le fonctionnement de celle-ci Les calculs de la fréquence de givrage se fondent sur des données exhaustives concernant l’eau des nuages, la température et le vent issues de l’analyse du modèle de prévisions météorologiques COSMO-2 de MétéoSuisse. Le modèle de givrage calcule le dépôt de givre sur une structure cylindrique en rotation libre. La fréquence de givrage est présentée sur une grille de 2,2 km. Elle a été vérifiée sur la base de mesures de stations IMIS situées dans les Alpes et de mesures effectuées dans le Jura. La carte affiche la fréquence du givrage météorologique à 100 m du sol pour la période d’août 2007 à juillet 2009. Sur une période de 10 ans, le givrage moyen baisse d’environ 5%. Les indications de fréquence sont des valeurs modélisées. Elles donnent des indications sur les endroits où le givrage peut se manifester en Suisse. Il ne s’agit pas de valeurs exactes très précises. Les reliefs de petite superficie, comme ceux que l’on trouve fréquemment dans les Alpes centrales, présentent des écarts. La valeur de givrage est plus élevée que celle figurant sur la carte dans les endroits fortement exposés et moins élevée dans les zones ombragées. La carte présente le givrage météorologique, les périodes de givrage instrumental durent en moyenne plus longtemps. En cas d'intérêt pour le développement d’un site, il est indispensable d'effectuer des mesures sur place.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.meteorologische-vereisung:wmts",
+    "title": "Fréquence de givrage",
+    "type": "Dataset"
+  }
+}

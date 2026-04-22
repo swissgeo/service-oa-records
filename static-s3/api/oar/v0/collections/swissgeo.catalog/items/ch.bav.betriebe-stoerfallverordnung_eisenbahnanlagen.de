@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/de/home/allgemeine-themen/umwelt/gefahrgut/stoerfallvorsorge.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d739172b-c203-4368-932b-a06081404345",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Verkehr BAV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Lage und angrenzender Bereich der störfallrelevanten Betriebe des Eisenbahnverkehrs gemäss Störfallverordnung. Die Erstellung neuer Bauten oder Anlagen im angrenzenden Bereich (Konsultationsbereich) kann zu einer erheblichen Erhöhung des Risikos führen. Bei Nutzungsplanungen, die ganz oder teilweise im angrenzenden Bereich liegen, ist ein Koordinationsverfahren Raumplanung und Störfall durchzuführen",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.betriebe-stoerfallverordnung_eisenbahnanlagen:wmts",
+    "title": "Eisenbahnbetriebe StFV",
+    "type": "Dataset"
+  }
+}

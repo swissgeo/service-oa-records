@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-dosisleistung-terrestrisch",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-dosisleistung-terrestrisch?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-dosisleistung-terrestrisch?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bag.admin.ch/bag/de/home/gesund-leben/umwelt-und-gesundheit/strahlung-radioaktivitaet-schall/radioaktivitaet-in-der-umwelt/in-situ-messungen-radioaktivitaet.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/eccbc751-9928-4221-89e1-1184cbb3aff5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Eidgenössisches Nuklearsicherheitsinspektorat ENSI",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In Böden und Gesteinen kommen natürliche instabile Isotope verschiedener Elemente – zum Beispiel Uran, Thorium oder Kalium – vor, die bei ihrem Zerfall radioaktive Strahlung abgeben. Die obersten 30 bis 40 cm des Bodens liefern den Hauptteil der an der Oberfläche gemessenen Strahlung. Erfasst wird die terrestrische Dosisleistung einen Meter über dem Boden in der Masseinheit Nanosievert pro Stunde (nSv/h). In der Schweiz findet man vor allem in den Alpen Gesteine mit höheren Konzentrationen an Uran, Thorium und Kalium. Der Karte der terrestrischen Dosisleistung liegen verschiedene Messmethoden zugrunde: Zum einen wird die Radioaktivität anhand von Bodenproben durch gammaspektrometrische Messungen im Labor bestimmt. Die Aktivitäten werden aber auch mit Hilfe aeroradiometrischer und in-situ-gammaspektrometrischer Messungen vorgenommen. Da die Messpunkte heterogen über die Schweiz verteilt sind, wurden die vorhandenen Daten auf ein Gitternetz von 2 × 2 km interpoliert.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-dosisleistung-terrestrisch:wmts",
+    "title": "Terrestrische Strahlung",
+    "type": "Dataset"
+  }
+}

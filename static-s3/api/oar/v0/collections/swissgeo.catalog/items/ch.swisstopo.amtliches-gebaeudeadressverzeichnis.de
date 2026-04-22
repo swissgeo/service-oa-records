@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.amtliches-gebaeudeadressverzeichnis?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.amtliches-gebaeudeadressverzeichnis?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/amtliches-verzeichnis-der-gebaeudeadressen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/150c38c5-2650-4018-b5c7-939e2cdd56ce",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Offizieller Datensatz für «Amtliches Verzeichnis der Gebäudeadressen», ID197, gemäss Katalog der Geobasisdaten nach Bundesrecht. Das amtliche Verzeichnis der Gebäudeadressen beinhaltet sämtliche offiziellen und damit behördenverbindlichen Gebäudeadressen der Schweiz. Alle Gebäude müssen eine oder mehrere eindeutige Adressen aufweisen. Gebäude mit Wohnnutzung, Arbeitsstätten sowie Gebäude von allgemein öffentlichem Interesse müssen zwingend im amtlichen Verzeichnis der Gebäudeadressen erscheinen.Es handelt sich um eine Collection, die sowohl Zugriff auf die Gebäudeadressen der Schweiz als auch Liechtensteins bietet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis:wms",
+    "title": "Amtliches Gebäudeadressverzeichnis",
+    "type": "Dataset"
+  }
+}

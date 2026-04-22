@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.ren-extensive_landwirtschaftsgebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.ren-extensive_landwirtschaftsgebiete?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.ren-extensive_landwirtschaftsgebiete?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/de/home/themen/biodiversitaet/publikationen-studien/publikationen/nationales-oekologisches-netzwerk-ren.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d60ff6a8-4b80-4535-aa89-cfad26916b80",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das nationale ökologische Netzwerk REN wurde in enger Zusammenarbeit mit den kantonalen Fachstellen für Natur- und Landschaftsschutz erarbeitet. Es handelt sich dabei um einen technisch/wissenschaftlichen Bericht, der die Landschaft der Schweiz aus ökologischer Sicht aufzeigt. Er stellt auf Karten im Massstab 1:500'000 und 1:100'000 sowohl die Zerschneidung als auch die Vernetzungselemente der Lebensräume dar. Dabei wird nicht nur die aktuelle Situation betrachtet, sondern auch das Potenzial der Landschaft berücksichtigt. Diese zukunftsorientierte und gesamtheitliche Vision bietet ein Gesamtbild der grossen ökologischen Netzwerke des Landes.Karten zu den spezifischen Netzwerken: Sie zeigen für die 5 spezifischen Netzwerke die entsprechenden Kern- und Ausbreitungsgebiete sowie die Kontinua und Korridore. Die Vernetzungssituation für jedes spezifische Netzwerk ist auf einem weiteren Kartensatz dargestellt.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.ren-extensive_landwirtschaftsgebiete:wmts",
+    "title": "REN  Extensives Landwirtschaftsgebiet",
+    "type": "Dataset"
+  }
+}

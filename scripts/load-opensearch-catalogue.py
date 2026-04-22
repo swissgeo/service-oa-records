@@ -32,12 +32,16 @@ CATALOG_INDEX = os.environ.get("OS_CATALOG_INDEX", "swissgeo-catalog")
 DISTRIBUTIONS_INDEX = os.environ.get("OS_DISTRIBUTIONS_INDEX", "swissgeo-distributions")
 SERVICES_INDEX = os.environ.get("OS_SERVICES_INDEX", "geoadmin-services")
 ITEMS_DIR = Path(
-    os.environ.get("ITEMS_DIR", "v0/oar/v0/collections/swissgeo.catalog/items")
+    os.environ.get(
+        "ITEMS_DIR", "static-s3/api/oar/v0/collections/swissgeo.catalog/items"
+    )
 )
-COLLECTIONS_DIR = Path(os.environ.get("COLLECTIONS_DIR", "v0/oar/v0/collections"))
+COLLECTIONS_DIR = Path(
+    os.environ.get("COLLECTIONS_DIR", "static-s3/api/oar/v0/collections")
+)
 SERVICES_ITEMS_DIR = Path(
     os.environ.get(
-        "SERVICES_ITEMS_DIR", "v0/oar/v0/collections/geoadmin.services/items"
+        "SERVICES_ITEMS_DIR", "static-s3/api/oar/v0/collections/geoadmin.services/items"
     )
 )
 FORCE = os.environ.get("FORCE", "").lower() in ("1", "true", "yes")

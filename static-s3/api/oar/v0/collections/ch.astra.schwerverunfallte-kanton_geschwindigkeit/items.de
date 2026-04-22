@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.astra.schwerverunfallte-kanton_geschwindigkeit:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.schwerverunfallte-kanton_geschwindigkeit/items/ch.astra.schwerverunfallte-kanton_geschwindigkeit:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.schwerverunfallte-kanton_geschwindigkeit?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.astra.schwerverunfallte-kanton_geschwindigkeit",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.astra.schwerverunfallte-kanton_geschwindigkeit:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.schwerverunfallte-kanton_geschwindigkeit/items/ch.astra.schwerverunfallte-kanton_geschwindigkeit:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.schwerverunfallte-kanton_geschwindigkeit?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.astra.schwerverunfallte-kanton_geschwindigkeit",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

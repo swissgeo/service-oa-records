@@ -17,6 +17,7 @@ COPY pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
 COPY pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
 COPY pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
 COPY scripts /pygeoapi/scripts
+COPY static-s3 /pygeoapi/static-s3
 
 ENV PYGEOAPI_CONFIG=/pygeoapi/pygeoapi-config.yml
 ENV PYGEOAPI_OPENAPI=/pygeoapi/pygeoapi-openapi.yml

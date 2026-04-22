@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.ivs-nat_wegbegleiter:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-nat_wegbegleiter/items/ch.astra.ivs-nat_wegbegleiter:wms?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-nat_wegbegleiter?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.ivs-nat_wegbegleiter",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.astra.ivs-nat_wegbegleiter"
+    ]
+  }
+}

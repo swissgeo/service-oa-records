@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gefahren-baugrundklassen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gefahren-baugrundklassen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gefahren-baugrundklassen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/terremoti",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/812485e6-821c-412d-8504-459c6b314d1c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La classe del suolo di fondazione è necessaria per determinare l'azione sismica di una struttura secondo la norma SIA 261. Le carte delle classi del suolo di fondazione sono da considerarsi come carte indicative e non sono precise a livello di particella. Da un punto di vista metodologico, la classe del suolo di fondazione è mappata sul lato della sicurezza in caso di incertezze. Le carte sono utili principalmente per i pre-studi. Nel caso di un progetto di costruzione, la plausibilità della classe del suolo di fondazione deve essere verificata sulla base di studi locali. Nel caso di una discrepanza sostanziale, dovrebbe essere usata la classe del suolo di fondazione determinata sulla base di studi locali.Le carte delle classi di suolo di fondazione sono prodotte e aggiornate dai cantoni di propria iniziativa sulla base delle linee guida metodologiche dell'UFAM. In accordo con i cantoni interessati, l'UFAM rende questi dati disponibili a livello centrale. Qualsiasi richiesta di correzione o commento deve essere indirizzata ai cantoni interessati, ad eccezione della città di Berna e del Rheintal San Gallo (mappe pilota dell'UFAM). La maggior parte delle carte sono basate sulla descrizione delle classi del suolo di fondazione nella norma SIA 261 del 2003. Questa descrizione è stata modificata nel 2014. Le differenze nella descrizione delle classi del suolo di fondazione tra lo standard SIA attualmente in vigore e la sua edizione del 2003 devono quindi essere prese in considerazione. Lo standard di riferimento (SIA261:2003 o SIA261:2020) utilizzato per la mappatura è indicato nelle informazioni dell'oggetto.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gefahren-baugrundklassen:wmts",
+    "title": "Classe dei terreni di fondazione",
+    "type": "Dataset"
+  }
+}

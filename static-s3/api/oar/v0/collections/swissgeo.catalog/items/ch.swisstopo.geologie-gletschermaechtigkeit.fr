@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gletschermaechtigkeit",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletschermaechtigkeit?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gletschermaechtigkeit?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.glamos.ch/fr/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/57052989-5074-4841-abb6-22d1989d615f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le réseau des relevés glaciologiques suisse (GLAMOS) a pour but l'étude à long terme des changements des glaciers dans les Alpes suisses. Le Versuchsanstalt für Wasserbau, Hydrologie und Glaziologie (VAW) et d'autres institutions de GLAMOS collectent des données systématiquement sur la variation de la longueur, le volume de glace, l'accumulation et la fonte de la neige, ainsi que sur le mouvement de surface des glaciers et la température de la glace. La détermination de l'épaisseur de la glace et les estimations du volume total de glace dans les Alpes suisses sont basées sur des mesures par géoradar combinées à des méthodes de calcul glaciologique. Jusqu'en 2015, environ 1500 km de profils par géoradar des glaciers suisses ont été récoltés dans le cadre de différents projets. Par la suite, environ 1250 km profils par géoradar supplémentaires ont été collectés à l'aide d'un système héliporté, développé dernièrement par l'EPFZ. Pour réaliser une interpolation des profils radar et calculer le volume total de glace, l'EPFZ a développé deux algorithmes différents et indépendants basés sur les principes de l'écoulement de la glace. En se basant sur les mesures de l'épaisseur de la glace jusqu'en 2020 et sur la connaissance des surfaces des glaciers et de la topographie du terrain, il a finalement été possible de déterminer la répartition de l'épaisseur de la glace de l'ensemble des glaciers. La topographie du lit du glacier en a également été dérivée.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletschermaechtigkeit:wmts",
+    "title": "Épaisseur des glaciers",
+    "type": "Dataset"
+  }
+}

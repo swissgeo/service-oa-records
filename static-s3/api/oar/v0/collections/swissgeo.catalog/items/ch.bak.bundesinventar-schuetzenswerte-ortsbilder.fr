@@ -1,0 +1,102 @@
+{
+  "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/fr/home/baukultur/isos-und-ortsbildschutz.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/954451d0-f68a-4785-92e1-60aff077dd91",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la culture OFC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'Inventaire fédéral des sites construits d'importance nationale à protéger en Suisse (ISOS) recense les sites construits les plus précieux et les plus importants du pays et les documente. Il permet de comprendre l'histoire et l'identité des sites construits et constitue ainsi une base essentielle pour un développement de qualité des agglomérations. Les travaux relatifs à l'Inventaire ISOS ont commencé en 1973 avec le développement d'une méthode appropriée au recensement des sites construits – la méthode ISOS. En 2016, l'Office fédéral de la culture (OFC) a actualisé cette méthode et a adapté la présentation de l'Inventaire fédéral aux technologies SIG. La méthode originelle (ISOS I) et la méthode adaptée (ISOS II) reposent sur les mêmes principes et les mêmes règles de base. Le présent portail présente les relevés ISOS actuellement en vigueur. Ces derniers se composent de deux types de données: 1. les relevés élaborés selon la méthode ISOS I, uniquement disponibles sous forme de PDF; 2. les relevés établis selon la méthode ISOS II, disponibles sous forme de PDF et de géodonnées vectorielles. Attention: seuls les PDFs ont valeur légale. Les géodonnées ont uniquement une valeur informative. Leur degré de détail augmente avec l'échelle. L'ISOS est actuellement en cours de révision. Cette révision s'effectue par étapes. Pendant un certain temps, les relevés élaborés selon la méthode ISOS I et les relevés établis selon la méthode ISOS II coexisteront donc sur le géoportail. Une fois l'ISOS révisé dans toute la Suisse, seuls les relevés établis selon la méthode ISOS II seront disponibles. Cette couche présente les relevés de sites ISOS. Elle est mise à jour une fois par année. Pour une lisibilité optimale des informations, il est conseillé de la placer sous la couche \"photos\". Toutes les données ISOS (plans, textes, photos) sont la propriété intellectuelle du gouvernement fédéral (© OFC, Berne). Pour des informations détaillées sur l'ISOS, voir www.isos.ch.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wmts",
+    "title": "ISOS - Relevés de site",
+    "type": "Dataset"
+  }
+}

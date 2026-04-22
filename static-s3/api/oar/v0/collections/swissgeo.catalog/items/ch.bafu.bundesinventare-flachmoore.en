@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.bundesinventare-flachmoore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-flachmoore?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-flachmoore?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/moore",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/c98723f6-4c76-480b-bada-c8a5ce3d20d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Fens are vestiges of earlier natural and cultural landscapes and are in sharp decline. They are home to highly-adapted symbiotic communities of plants and animals that include a large number of endangered plant and animal species. The scientific fen inventory was conducted from 1987 to 90 by a work group on behalf of the FDHA. Under Art. 18a of Article 18a of the Federal Act of 1 Juli 1966 on the Protection of Nature and Cultural Heritage (NCHA), the Federal Council designates the biotopes of national importance, assesses their situation and sets conservation objectives for them. However, this occurs only after the cantons have been heard. In 1994, the Federal Council implemented the Fen Ordinance with the federal inventory, whose first series contained 728 sites. Its second series with 364 sites followed in 1997, and the third and final series with 71 sites in 1998. Some of the sites were revised in 2001, 2004, 2007, 2017, 2021 and 2025. The inventory now contains 1371 Objects.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-flachmoore:wmts",
+    "title": "Fens",
+    "type": "Dataset"
+  }
+}

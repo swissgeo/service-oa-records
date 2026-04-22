@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.swisstopo.meldungen-karten_geodaten:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.meldungen-karten_geodaten/items/ch.swisstopo.meldungen-karten_geodaten:geojson?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.meldungen-karten_geodaten?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.meldungen-karten_geodaten",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.swisstopo.meldungen-karten_geodaten/ch.swisstopo.meldungen-karten_geodaten_de.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.swisstopo.meldungen-karten_geodaten.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

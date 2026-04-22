@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.silvaprotect-sturz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.silvaprotect-sturz?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/silvaprotect-i",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/238d97d6-8853-4e26-af30-dc5cbadd58dc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La caduta di sassi e di blocchi è caratterizzata da crolli isolati (caduta, distacco, rotolamento) di singole pietre e massi anche di più metri cubi. Essi possono raggiungere anche velocità fino a 30 metri al secondo. Di regola, con pendenze inferiori a 30 gradi, i sassi e i blocchi in movimento si fermano da soli. Il bosco può ridurre drasticamente l’energia cinetica dei sassi. Il layer della cartina indicativa dei pericoli evidenzia le potenziali traiettorie di caduta di sassi e blocchi definite in base a modellizzazioni del relativo processo nel progetto SilvaProtect-CH. I modelli di processi di crollo non tengono conto dell'effetto del bosco.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.silvaprotect-sturz:wmts",
+    "title": "Crolli (SilvaProtect-CH)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.are.belastung-personenverkehr-strasse_zukunft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.belastung-personenverkehr-strasse_zukunft?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.belastung-personenverkehr-strasse_zukunft?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/en/transport-outlook",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/5cd6d93e-3fbc-4ce9-b32b-136affb6baca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for Spatial Development ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Vehicles on the Swiss road network, divided into passenger cars (PW), delivery vehicles (LI), lorries (LW) and articulated lorries (LZ) in 2050. Daily values for average workday traffic (AWDT) and average daily traffic (ADT) as well as values for the morning peak hour (7h-8h, MPH) and evening peak hour (17h-18h, EPH). Source: Transport outlook 2050, Scenario Basis.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.belastung-personenverkehr-strasse_zukunft:wmts",
+    "title": "Passenger/freight traffic road 2050",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/it/home/baukultur/isos-und-ortsbildschutz.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/954451d0-f68a-4785-92e1-60aff077dd91",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale della cultura UFC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'Inventario federale degli insediamenti svizzeri da proteggere d'importanza nazionale (ISOS) rileva e documenta gli insediamenti di maggior valore e importanza del paese. L'ISOS permette di comprendere la storia e l'identità dei diversi insediamenti, ed è quindi una base importante per consentirne uno sviluppo di alta qualità. L'avvio dei lavori per l'allestimento dell'ISOS risale al 1973 con lo sviluppo di un metodo adeguato per l'inventariazione di insediamenti – il metodo ISOS. Nel 2016, l'Ufficio federale della cultura (UFC) ha rielaborato tale metodo e adeguato la rappresentazione dell'Inventario federale alle tecnologie GIS. Il metodo originario (ISOS I) e il suo aggiornamento (ISOS II) hanno gli stessi principi e le stesse regole di base. Questo portale presenta i rilevamenti ISOS attualmente in vigore che consistono in due tipi di dati: 1. rilevamenti allestiti secondo il metodo ISOS I, disponibili unicamente sotto forma di PDF 2. rilevamenti allestiti secondo il metodo ISOS II, disponibili sotto forma di PDF e di geodati vettoriali. Attenzione: solo i PDF hanno forza giuridica. I geodati sono a solo titolo informativo. Il loro livello di dettaglio cresce con l'aumentare della scala di rappresentazione. Attualmente, l'ISOS è in fase di revisione che avviene per tappe. Di conseguenza, per un certo periodo di tempo, i rilevamenti elaborati secondo il metodo ISOS I e i rilevamenti allestiti secondo il metodo ISOS II coesisteranno su questo portale. Una volta che l'ISOS sarà stato rivisto in tutta la Svizzera, saranno disponibili solo i rilevamenti realizzati secondo il metodo ISOS II. Questo livello presenta i rilevamenti degli insediamenti ISOS. Sarà aggiornato una volta all'anno. Per una leggibilità ottimale delle informazioni è consigliabile porlo al di sotto del livello \"foto\". Tutti i dati ISOS (piani, testi, foto) sono proprietà intellettuale della Confederazione (© UFC, Berna). Per informazioni approfondite sull'ISOS, si vada su www.isos.ch.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wmts",
+    "title": "ISOS - Rilevamenti",
+    "type": "Dataset"
+  }
+}

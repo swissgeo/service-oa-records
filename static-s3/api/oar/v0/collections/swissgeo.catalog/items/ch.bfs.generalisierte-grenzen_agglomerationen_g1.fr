@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.generalisierte-grenzen_agglomerationen_g1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.generalisierte-grenzen_agglomerationen_g1?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.generalisierte-grenzen_agglomerationen_g1?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/fr/home/services/geostat/geodonnees-statistique-federale/niveaux-geographiques/limites-communales-generalisees.assetdetail.36390126.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/68924d22-bc42-425e-bbcc-a2f75c5c796c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la statistique OFS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les limites administratives, dont le degré de détail est faible, servent souvent à établir des représentations à petite échelle et des cartes thématiques. Les limites communales numériques de la Suisse et de la Principauté du Liechtenstein, mises à jour chaque année par l'Office fédéral de la topographie, sont souvent trop détaillées pour ce genre de travaux. Pour cette raison, GEOSTAT met à disposition des limites numériques des communes, districts, cantons, grandes régions, lacs de plus de 5km2 et des limites nationales selon des généralisations différentes. En complément aux limites administratives, les limites des espaces à caractère urbain (agglomérations incluant les communes de l'étranger ainsi que les centres hors des agglomérations) sont ajoutés dans une couche séparée. Le niveau de généralisation G1 est surtout approprié pour des représentations cartographiques à l'échelle entre 1:250'000 et 1:500'000.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.generalisierte-grenzen_agglomerationen_g1:wmts",
+    "title": "Limites administratives G1, agglomérations",
+    "type": "Dataset"
+  }
+}

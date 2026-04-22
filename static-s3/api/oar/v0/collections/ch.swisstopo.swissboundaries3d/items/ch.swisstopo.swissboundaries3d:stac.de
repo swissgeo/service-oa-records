@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.swissboundaries3d:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissboundaries3d/items/ch.swisstopo.swissboundaries3d:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissboundaries3d?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.swissboundaries3d",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.swisstopo.swissboundaries3d"
+    ]
+  }
+}

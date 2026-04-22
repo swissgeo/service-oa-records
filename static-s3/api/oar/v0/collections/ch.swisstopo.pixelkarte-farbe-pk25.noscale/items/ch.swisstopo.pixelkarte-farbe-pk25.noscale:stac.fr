@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.pixelkarte-farbe-pk25.noscale:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale/items/ch.swisstopo.pixelkarte-farbe-pk25.noscale:stac?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk25.noscale?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.swisstopo.pixelkarte-farbe-pk25.noscale"
+    ]
+  }
+}

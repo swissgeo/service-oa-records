@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.aquaprotect_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.aquaprotect_100?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.aquaprotect_100?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/pericoli-naturali/documentazione-sui-pericoli-e-utilizzazione-del-territorio/carte/aquaprotect.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/a71453bf-e515-4f70-98cc-c939510dd4b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le aree inondabili in Aquaprotect sono una pano-ramica sommaria elaborata con strumenti semplici delle aree potenzialmente inondate in Svizzera in caso di portate di piena rare o molto rare. Forniscono una panoramica sommaria sui pericoli e sui rischi e non sostituiscono quindi le carte dei pericoli dettagliate. Questi dati non tengono ad esempio conto delle misure di protezione contro le piene e laddove mancano le carte dei pericoli consentono quindi solo una valutazione sommaria di una possibile minaccia contro le piene.Le aree inondabili in Aquaprotect sono disponibili per portate di piena con frequenze di 50, 100, 250 e 500 anni. La portata di piena con, ad esempio, una frequenza di 100 anni è un volume di portata che, considerato su un lasso di tempo molto lungo, viene raggiunto in media una volta ogni cento anni. Il fatto che una determinata area non è inclusa nelle aree inondabili di Aquaprotect non consente di escludere che in tale area non sussista un pericolo di piena. In base alla visualizzazione semplificata, le superfici considerate forniscono solo una panoramica sommaria. Con scale più dettagliate di 1:50 000, le aree inondabili sono rappresentate solo con tratteggi. In tal modo si vogliono evitare interpretazioni errate per le aree interessate o non interessate.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.aquaprotect_100:wmts",
+    "title": "Aree inondabili Aquaprotect 100",
+    "type": "Dataset"
+  }
+}

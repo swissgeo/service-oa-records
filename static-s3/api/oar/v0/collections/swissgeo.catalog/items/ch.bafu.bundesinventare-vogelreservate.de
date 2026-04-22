@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-vogelreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-vogelreservate?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-vogelreservate?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/wasser-und-zugvogelreservate",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/8fc6f748-80ce-47b2-8d49-b05a0c8ba975",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Schweiz weist eine besondere Bedeutung als Überwinterungs- und Rastplatz für verschiedene ziehende Wasservogelarten auf. In Erkenntnis dieser Bedeutung hat der Bundesrat 1974 das „Übereinkommen über Gewässer und Feuchtgebiete von internationaler Bedeutung“ unterzeichnet. Das Übereinkommen wurde 1971 in Ramsar abgeschlossen (Ramsarkonvention). 1975 hat es die Bundesversammlung ratifiziert. 1976 wurde aufgrund früherer Kriterien ein Inventar der Wasservogelreservate von internationaler Bedeutung für die Schweiz erarbeitet. Die Schweizerische Vogelwarte Sempach hat 1995 die zweite revidierte Fassung dieses Inventars inklusive den Objekten von nationaler Bedeutung vorgelegt. Gemäss Artikel 11 des neuen Bundesgesetzes über die Jagd und den Schutz wildlebender Säugetiere und Vögel (JSG) ist der Bund verpflichtet, Wasser- und Zugvogelreservate von internationaler Bedeutung auszuscheiden. Das vorliegende Inventar enthält nach den Revision von 1992, 2001, 2009, 2015 und 2023 die wichtigsten der im Inventar der Vogelwarte enthaltenen Gebiete, wovon 10 von internationaler und 25 von nationaler Bedeutung.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-vogelreservate:wmts",
+    "title": "Wasser- und Zugvogelreservate",
+    "type": "Dataset"
+  }
+}

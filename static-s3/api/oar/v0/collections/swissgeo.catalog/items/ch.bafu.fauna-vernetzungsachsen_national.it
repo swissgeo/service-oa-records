@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.fauna-vernetzungsachsen_national",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.fauna-vernetzungsachsen_national?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.fauna-vernetzungsachsen_national?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/it/corridoi-faunistici",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/6241112d-25c1-48bb-a6bf-c8b98805b5fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In una prima fase dai dati esistenti sono stati estrapolati i corridoi faunistici noti di ogni Cantone e individuati mediante SIG i corridoi potenziali, a loro volta classificati in corridoi faunistici di interesse sovraregional, regionale e locale. Successivamente è stato visualizzato a grandi linee il sistema di collegamento sovraregional e regionale per tutta la Svizzera. I corridoi sono poi stati classificati d'interesse sovraregional o regionale, a seconda dell'importanza dell’asse su cui si trovano. I dati per gli assi di collegamento e i corridoi faunistici sono stati rilevati ed elaborati nel sistema SIG dalla Stazione ornitologica svizzera di Sempach. I corridoi faunistici d’importanza sovraregionale e gli assi di collegamento sono stati attualizzati 2012 dall’UFAM sulla base dei dati forniti dagli uffici cantonali della caccia.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fauna-vernetzungsachsen_national:wmts",
+    "title": "Sistema di collegamento fauna",
+    "type": "Dataset"
+  }
+}

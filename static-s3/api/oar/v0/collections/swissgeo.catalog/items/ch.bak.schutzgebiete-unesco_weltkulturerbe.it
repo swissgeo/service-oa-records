@@ -1,0 +1,102 @@
+{
+  "id": "ch.bak.schutzgebiete-unesco_weltkulturerbe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.schutzgebiete-unesco_weltkulturerbe?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.schutzgebiete-unesco_weltkulturerbe?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/it/home/baukultur/archaeologie-und-denkmalpflege/patrimonie-mondial-de-l-unesco.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/fb349ad4-5e01-43b7-9fcd-a0f60ae9c4db",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale della cultura UFC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Convenzione per la protezione del patrimonio mondiale culturale e naturale (RS 0.451.41) è stata adottata nel 1972 dalla Conferenza generale dell'UNESCO. Ha lo scopo di conservare il patrimonio culturale e naturale di straordinario valore universale a beneficio dell'intera umanità. Con la ratifica della convenzione lo Stato si impegna a proteggere e a conservare gli oggetti situati nel suo territorio. Finora dalla Svizzera sono stati proposti 9 siti culturali e 3 siti naturali che sono stati inclusi nella lista del patrimonio mondiale dall'UNESCO.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.schutzgebiete-unesco_weltkulturerbe:wmts",
+    "title": "UNESCO siti culturali",
+    "type": "Dataset"
+  }
+}

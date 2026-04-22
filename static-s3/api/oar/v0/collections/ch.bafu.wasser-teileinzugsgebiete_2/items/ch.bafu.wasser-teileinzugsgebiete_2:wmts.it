@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.wasser-teileinzugsgebiete_2:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wasser-teileinzugsgebiete_2/items/ch.bafu.wasser-teileinzugsgebiete_2:wmts?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wasser-teileinzugsgebiete_2?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.wasser-teileinzugsgebiete_2",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bafu.wasser-teileinzugsgebiete_2"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-jagdbanngebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-jagdbanngebiete?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-jagdbanngebiete?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bandite-caccia",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/200a2d0e-afe1-45d8-aeaf-ea3621cc6afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le bandite federali di caccia sono state introdotte nel 1875 allo scopo di aumentare gli effettivi di camosci, cervi, caprioli e stambecchi (ungulati) all'epoca divenuti rari a causa della caccia e della concorrenza di altri animali. La situazione odierna è caratterizzata da popolazioni di ungulati numerose e in parte sature che provocano danni al territorio e la riduzione di specie sensibili come il gallo cedrone, la coturnice, la starna e la lepre. Il 1° aprile 1988 è entrata in vigore la legge federale sulla caccia e la protezione dei mammiferi e degli uccelli selvatici (LCP, 20 giugno 1986). Contestualmente è stata avviata la revisione dell'ordinanza sulle bandite federali del 1962. Queste disposizioni hanno oggi lo scopo di regolare gli effettivi di cervi, caprioli, camosci e stambecchi e di proteggere e promuovere le specie rare e i loro habitat. L'inventario comprende 43 oggetti che dal 1992 sono stati leggermente modificati. Un oggetto è stato aggiunto di recente nel 2023.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-jagdbanngebiete:wmts",
+    "title": "Bandite federali di caccia",
+    "type": "Dataset"
+  }
+}

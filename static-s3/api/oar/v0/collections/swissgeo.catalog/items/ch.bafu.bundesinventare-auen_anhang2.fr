@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-auen_anhang2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-auen_anhang2?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-auen_anhang2?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/zones-alluviales",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5b5b3700-245d-4c15-aabb-5fb177860db5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "On entend par zones alluviales les zones inondables en bordure de lacs et cours d'eaux, ces zones constituant des biotopes naturels. En mai 1981, le mandat d'établir l'inventaire scientifique des zones alluviales a été donné par le DFI à l'Institut fédéral des recherches forestières (aujourd'hui Institut fédéral de recherches sur la forêt, la neige et le paysage, FNP). Ce mandat a été élaboré par le groupe \"Vegetationskunde\" (géographie botanique).Conformément à l'article 18a de la loi fédérale du 1er juillet 1966 sur la protection de la nature et du paysage (LPN) - en vigueur depuis le 1er février 1988 - le Conseil fédéral désigne les biotopes d'importance nationale, en détermine la situation et précise les buts visés par la protection. Il ne le fait toutefois qu'après avoir pris l'avis des cantons. Conformément à l'article 18a LPN, le Conseil fédéral a arrêté en 1992 l'entrée en vigueur de l'inventaire fédéral des zones alluviales en tant que deuxième inventaire fédéral. Cet inventaire compte 169 objets, et a été révisé en 2001, 2003, 2007 et 2017. Entre 1995 et 1997, il a été révisé et complété d'un point de vue objectif par l'inventaire des marges proglaciaires et des plaines alluviales alpines. Il compte actuellement 326 objets. De plus, l'annexe 2 comprend 27 objets dont la mise au net n'est pas terminée. Leur protection est soumise à la décision de leur inclusion dans l'annexe 1 en vertu de l'ordonnance sur la protection de la nature et du paysage (OPN) et de l'article 7 de l'ordonnance sur les zones alluviales.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-auen_anhang2:wmts",
+    "title": "Zones alluviales - Annexe 2",
+    "type": "Dataset"
+  }
+}

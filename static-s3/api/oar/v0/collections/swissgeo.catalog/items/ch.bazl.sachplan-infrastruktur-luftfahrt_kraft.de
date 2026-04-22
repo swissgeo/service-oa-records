@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/sachplan-infrastruktur-luftfahrt",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ae5fa63c-c153-496a-b8a6-c896126398b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Sachplan Verkehr, Teil Infrastruktur Luftfahrt (SIL) ist das Planungs- und Koordinationsinstrument des Bundes für die zivile Luftfahrt. Er legt die Ziele und Vorgaben für die Infrastruktur der Zivilluftfahrt der Schweiz für die Behörden verbindlich fest. Für die einzelnen Flugplätze bestimmt er den Zweck, das beanspruchte Areal, die Grundzüge der Nutzung, die Erschliessung sowie die Rahmenbedingungen zum Betrieb. Er stellt zudem die Auswirkungen auf Raum und Umwelt dar (Verordnung über die Infrastruktur der Luftfahrt VIL Art. 3a). Der SIL bildet somit die Grundlage für die Genehmigung der Bauten und des Betriebs aller Infrastrukturanlagen der zivilen Luftfahrt: Landesflughäfen, Regionalflugplätze, zivil mitbenutzte Militärflugplätze, Flugfelder, Heliports, Gebirgslandeplätze und Flugsicherungsanlagen. Der SIL besteht aus zwei Teilen: dem Konzeptteil mit den generellen Zielen und Vorgaben sowie einem Objektteil, mit den konkreten Festlegungen für jede Anlage.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft:wms",
+    "title": "SP Infrastruktur Luftfahrt",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "org.epsg.grid_2056",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "org.epsg.grid_2056:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/org.epsg.grid_2056?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for org.epsg.grid_2056",
+  "type": "Collection"
+}

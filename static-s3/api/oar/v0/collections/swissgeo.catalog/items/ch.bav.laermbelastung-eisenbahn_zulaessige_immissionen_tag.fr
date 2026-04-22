@@ -1,0 +1,102 @@
+{
+  "id": "ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bav.admin.ch/bav/fr/home/modes-de-transport/chemin-de-fer/infrastructure-ferroviaire/programmes-d-amenagement/assainissement-phonique/cadastre-d-exposition-au-bruit.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/1abcda60-f48d-4340-bc53-4611d49d716c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des transports OFT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le cadastre indique les valeurs contraignantes d'exposition au bruit ferroviaire (valeurs d'émission et d'immission). Les immissions admissibles Lr,e en [dB(A)] ont été consignées dans une décision de l'OFT (OPB, Art. 37a).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag:wmts",
+    "title": "Bruit ferrov., immissions admiss. J",
+    "type": "Dataset"
+  }
+}

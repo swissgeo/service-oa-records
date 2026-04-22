@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo-karto.schneeschuhrouten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo-karto.schneeschuhrouten?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo-karto.schneeschuhrouten?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/sports-de-neige-theme",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/449d2ee9-8807-4a64-9844-4e310d28ed2e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les itinéraires en raquette numériques contiennent des informations spécifiques aux sports de neige en Suisse et dans les régions limitrophes. Le jeu de données est produit en collaboration avec le Club Alpin Suisse CAS. Les itinéraires en raquette sont représentés de manière aussi fiable que possible, contrôlés par les services cantonaux de la chasse quant à leur compatibilité avec la faune et actualisés chaque année. Le tracé effectif des itinéraires sur le terrain dépend toutefois des conditions actuelles. Ni le Club Alpin Suisse CAS, ni l'Office fédéral de topographie ne garantissent l'exactitude, l'exhaustivité et l'actualité des données relatives aux itinéraires. Ils déclinent également toute responsabilité en cas d'éventuels accidents résultant de l'utilisation des informations relatives aux itinéraires. Il est vivement recommandé de planifier minutieusement ses courses. De plus amples informations sur les itinéraires sont disponibles dans le portail des courses du CAS ou dans l'application SAC-CAS: <a href=\"https://www.sac-cas.ch/fr/\" target=\"_blank\">https://www.sac-cas.ch/fr/</a>.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-karto.schneeschuhrouten:wmts",
+    "title": "Itinéraires en raquette",
+    "type": "Dataset"
+  }
+}

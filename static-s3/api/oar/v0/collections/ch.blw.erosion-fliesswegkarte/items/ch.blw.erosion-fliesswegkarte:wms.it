@@ -1,0 +1,34 @@
+{
+  "id": "ch.blw.erosion-fliesswegkarte:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.erosion-fliesswegkarte/items/ch.blw.erosion-fliesswegkarte:wms?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.erosion-fliesswegkarte?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.blw.erosion-fliesswegkarte",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.blw.erosion-fliesswegkarte"
+    ]
+  }
+}

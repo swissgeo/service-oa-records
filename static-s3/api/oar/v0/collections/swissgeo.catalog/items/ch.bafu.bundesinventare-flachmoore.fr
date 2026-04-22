@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-flachmoore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-flachmoore?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-flachmoore?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/marais",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c98723f6-4c76-480b-bada-c8a5ce3d20d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les bas-marais, témoins des paysages d'autrefois, régressent fortement. Ils abritent une biocénose composée de plantes et d'animaux étroitement liés les uns aux autres et parmi lesquels on trouve un grand nombre d'espèces menacées.L'inventaire scientifique des bas-marais a été réalisé de 1987 à 1990 par une communauté de travail mandatée par le DFI. Aux termes de l'art. 18a de la loi fédérale du 1er juillet 1966 sur la protection de la nature et du paysage (LPN), le Conseil fédéral désigne les biotopes d'importance nationale, détermine la situation de ces derniers et précise les buts visés par la protection. Il ne le fait qu'après avoir pris l'avis des cantons. C'est en 1994 que le Conseil fédéral a mis en vigueur l'ordonnance sur les bas-marais ainsi que l'inventaire, qui comprenait alors une première série de 728 objets. Une deuxième série de 364 objets suivait en 1997 et la troisième série de 71 objets en 1998. Cet inventaire a été révisé en 2001, 2004,2007, 2017, 2021 et 2025 et compte actuellement 1371 objets. L'échelle juridiquement contraignante pour déterminer la situation de l'objet à protéger est celle de la feuille d'objet. Les limites précises des objets sont fixées par les cantons.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-flachmoore:wmts",
+    "title": "Bas-marais",
+    "type": "Dataset"
+  }
+}

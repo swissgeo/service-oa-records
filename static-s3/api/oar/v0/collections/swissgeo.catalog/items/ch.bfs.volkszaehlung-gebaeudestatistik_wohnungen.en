@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/gebaeude-wohnungen-ab-2010.assetdetail.32411360.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/987a55d8-fcc5-497a-b553-da1f1517e5c4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Statistical Office FSO",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Since 1990, the residential buildings recorded in federal national censuses have been given coordinates. Since 2010, the Buildings and Dwellings statistic (BDS) replaces the buildings and dwellings survey that used to take place every 10 years as part of the population census (PC). The BDS is annually updated, mainly based on the Federal Register of Buildings and Dwellings (RBD). It provides information on the structure of the whole buildings and dwellings stock and on the population's living conditions (e.g. occupation density per room or dwelling, floor space per person).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen:wmts",
+    "title": "Dwellings",
+    "type": "Dataset"
+  }
+}

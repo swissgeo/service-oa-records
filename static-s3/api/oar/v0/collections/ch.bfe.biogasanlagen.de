@@ -1,0 +1,31 @@
+{
+  "id": "ch.bfe.biogasanlagen",
+  "itemType": "record",
+  "links": [],
+  "records": [
+    {
+      "id": "ch.bfe.biogasanlagen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.biogasanlagen?language=de",
+          "hreflang": "de",
+          "rel": "dataset",
+          "title": "Dataset Record"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "service"
+        }
+      ],
+      "properties": {
+        "protocol": "OGC:WMS",
+        "title": "OGC Web Map Service (WMS)",
+        "type": "Distribution"
+      },
+      "type": "Feature"
+    }
+  ],
+  "recordsArrayName": "records",
+  "title": "Distributions for ch.bfe.biogasanlagen",
+  "type": "Collection"
+}

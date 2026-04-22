@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag/items/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag/items/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bav.laermbelastung-eisenbahn_zulaessige_immissionen_tag",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

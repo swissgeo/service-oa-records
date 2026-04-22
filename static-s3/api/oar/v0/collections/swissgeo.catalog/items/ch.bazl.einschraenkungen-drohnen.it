@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.einschraenkungen-drohnen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.einschraenkungen-drohnen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.einschraenkungen-drohnen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/it/restrizioni-geografiche-volo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c3ebd7ba-0fd5-411a-9074-3d0cdc46bc4d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Una zona geografica unica dell'UAS è una porzione di spazio aereo stabilita dall'autorità competente che agevola, limita o esclude le operazioni di aeromobili o di sistemi senza occupanti (in inglese Unmanned Aircraft System, UAS), al fine di far fronte ai rischi connessi alla sicurezza, alla riservatezza, alla protezione dei dati personali, alla sicurezza o all'ambiente derivanti dalle operazioni UAS. In virtù degli articoli 27 e 28 dell'ordinanza del DATEC sulle categorie speciali di aeromobili (OACS), è proibito l'esercizio di aeromobili senza occupanti nelle zone UAS stabilite. I servizi competenti possono autorizzare eccezioni (art. 29 OACS). Inoltre, in virtù dell'articolo 34 OACS, per gli aeromobili senza occupanti di peso inferiore a 25 kg i Cantoni possono emanare prescrizioni per ridurre l'impatto ambientale e i rischi per persone e cose a terra.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.einschraenkungen-drohnen:wmts",
+    "title": "Restrizioni per droni",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.bav.sachplan-infrastruktur-schiene_ausgangslage:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bav.sachplan-infrastruktur-schiene_ausgangslage/items/ch.bav.sachplan-infrastruktur-schiene_ausgangslage:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bav.sachplan-infrastruktur-schiene_ausgangslage?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bav.sachplan-infrastruktur-schiene_ausgangslage",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.bav.sachplan-infrastruktur-schiene_ausgangslage"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.landschaftstypen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.landschaftstypen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.landschaftstypen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/it/tipologia-dei-paesaggi-svizzeri",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/27a33007-d187-41d9-97b7-6dc733a06e9b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dello sviluppo territoriale ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La tipologia dei paesaggi svizzeri costituisce una pase paesaggistica per diverse questioni con un impatto sul territorio. La tipologia dei paesaggi svizzeri mette in primo piano i compiti della Confederazione. Per questo motivo è stata scelta una scala di rappresentazione di 1:100'000. I tipi di paesaggio sono stati selezionati in base a diversi criteri. Si distingue tra i tipi di paesaggio del Giura, dell'Altipiano e delle Alpi nonché tra tipi di paesaggio indipendenti da queste regioni geografiche.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.landschaftstypen:wmts",
+    "title": "Tipologia dei paesaggi svizzeri",
+    "type": "Dataset"
+  }
+}

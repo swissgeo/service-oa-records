@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.hydroweb-messstationen_grundwasserzustand:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydroweb-messstationen_grundwasserzustand/items/ch.bafu.hydroweb-messstationen_grundwasserzustand:geojson?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_grundwasserzustand?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.hydroweb-messstationen_grundwasserzustand",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_grundwasserzustand/ch.bafu.hydroweb-messstationen_grundwasserzustand_fr.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.bafu.hydroweb-messstationen_grundwasserzustand.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

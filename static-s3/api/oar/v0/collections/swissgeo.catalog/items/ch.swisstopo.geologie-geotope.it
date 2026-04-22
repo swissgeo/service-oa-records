@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geotope",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotope?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotope?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.scienzenaturali.ch/organisations/geosciences/projects/wg_geotopes",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/e7dd54e9-fc98-4e5c-b46a-694d1ba6c84e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SCNAT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I geotopi sono monumenti geoscientifici naturali. I geotopi della storia della terra sono una testimonianza dell'evoluzione del paesaggio, del clima e della vita, del divenire e della scomparsa delle montagne e della formazione delle rocce. Altri geotopi forniscono informazioni sui processi verificatisi sulla superficie terrestre o nelle viscere della terra. Essi comprendono anche il regno nascosto delle caverne e delle acque sotterranee. Un ultimo gruppo di geotopi comprende infine elementi attivi del paesaggio, come ad esempio il materiale detritico, le golene o gli affioramenti di acqua sotterranea. I geotopi sono porzioni della geosfera, la parte minerale non vivente della terra. A seconda del loro contenuto tematico, i geotopi possono indicare un singolo giacimento puntuale oppure un intero lembo di paesaggio. Devono essere protetti contro le influenze che ne deteriorano la sostanza, la struttura, la forma o lo sviluppo naturale. I geotopi d'importanza nazionale menzionati qui, provengono dall'inventario informale del Gruppo di lavoro protezione dei geotopi in Svizzera (Accademia di scienze naturali SCNAT). L'inventario non si basa su un rilevamento sistematico e non ha pertanto alcuna pretesa di esaustività. Fonti: Felber, M. (1999): Inventar der Geotope nationaler Bedeutung. Geologia Insubrica 4/1. Reynard, E., Berger, J.-P., Constandache, M., Felber, M., Grangier, L., Häuselmann, P., Jeannin, P.-Y. & Martin, S. (2012): Révision de l'inventaire des géotopes suisses: rapport final. – Geosciences, Platform of the Swiss Academy of Science.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotope:wmts",
+    "title": "Geotopi svizzeri",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/it/carte/carte-geologiche/geocarte-500000",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f198f6f6-8efa-4235-a55f-99767ea0206c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'Ufficio federale dell'ambiente (UFAM) è il servizio competente per l’idrogeologia del Servizio geologico nazionale. La carta idrogeologica 1:500'000 è integrata nella serie Geocarte500 (GK500) ed è strutturata in due fogli. Il primo foglio (GK500-Hydro) è dedicato alle diverse falde acquifere della Svizzera e al loro rendimento, il secondo (GK500-Hydro_Vul) alla vulnerabilità delle falde acquifere con riferimento a potenziali pericoli da parte di agenti inquinanti. Il primo foglio mostra inoltre il tipo di circolazione delle falde acquifere (rocce carsiche, coerenti e incoerenti), i principali tipi di falde acquifere nonché informazioni idrodinamiche sulle zone di infiltrazione e di esfiltrazione. I due fogli sono stati pubblicati in origine sottoforma di tavole 8.6 e 8.7 dell'Atlante idrologico della Svizzera HADES (UFAM, 2004 e 2007).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen:wmts",
+    "title": "Falde acquifere 500",
+    "type": "Dataset"
+  }
+}

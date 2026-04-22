@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.ivs-reg_loc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-reg_loc?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-reg_loc?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ivs.admin.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f59f9e16-1f67-47bf-ade0-fcce715ce6fe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des routes OFROU, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'inventaire des voies de communication de la Suisse (IVS) offre une mine d'informations sur leur tracé, leur histoire, leur état et leur importance conformément aux dispositions de la loi fédérale du 1er juillet 1996 sur la protection de la nature et du paysage (LPN). Outre les objets d'importance nationale qui figurent dans l'inventaire fédéral (à savoir ceux dotés d'une signification historique exceptionnelle) ou apparaissent à titre d'information complémentaire (à savoir ceux dont la portée architecturale est limitée, voire inexistante), l'IVS comprend également les objets d'importance régionale ou locale. Les cantons déterminent le classement de ces derniers par le biais de la législation, de la planification ou de toute autre mesure jugée adéquate. Les objets peuvent être intégrés dans la publication électronique de l'OFROU même lorsque les cantons n'ont pas encore déterminé leur classement définitif. Dans ce cas, les données publiées sont basées sur une estimation provisoire de la Confédération et la publication se fonde sur leur importance conformément aux critères applicables aux aides financières (Art. 12 OIVS) et aux atteintes (Art. 7 OIVS). Dans les données présentes sont comprises les déterminations des objets d'importance régionales et locales pour les cantons suivantes: Berne, Bâle-Campagne, Soleure, Schaffhouse. Dans le canton de Berne la protection des objets d'importance régionale et locale s'oriente aux dispositions générales de la loi fédérale sur la protection de la nature et du paysage (LPN) respectivement d'apres l'article 10 de la loi sur les constructions du canton de Berne. Ces objets ont besoin d' un égard particulier.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-reg_loc:wmts",
+    "title": "IVS Régional et local",
+    "type": "Dataset"
+  }
+}

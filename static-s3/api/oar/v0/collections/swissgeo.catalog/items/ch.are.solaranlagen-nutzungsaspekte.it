@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.solaranlagen-nutzungsaspekte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-nutzungsaspekte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-nutzungsaspekte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/it/impianti-fotovoltaici-al-suolo",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/19a3d556-20eb-44a2-88aa-5266a0d7734d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dello sviluppo territoriale ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Sono stati presi in considerazione gli aspetti relativi all'utilizzo secondo il documento «Impianti fotovoltaici al suolo: base metodologica della Confederazione» (disponibile in tedesco o francese), in particolare per quanto riguarda l'irradiazione, la topografia, la composizione del suolo e l'accessibilità. Al momento della realizzazione della mappa (2025) non erano disponibili geodati adeguati a livello nazionale su altri aspetti importanti, quali il collegamento alla rete elettrica o i pericoli naturali. Il contenuto della mappa rappresenta quindi una prima valutazione da parte degli uffici federali coinvolti. Per designare le aree idonee (territori adeguati allo sfruttamento dell'energia solare ai sensi dell'articolo 10 della legge federale sull'energia), occorre tenere conto di ulteriori interessi di utilizzo non riportati nella presente carta.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-nutzungsaspekte:wmts",
+    "title": "Solare: aspetti di utilizzo",
+    "type": "Dataset"
+  }
+}

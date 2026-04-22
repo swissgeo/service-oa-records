@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.bodeneignung-kulturland",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.bodeneignung-kulturland?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.bodeneignung-kulturland?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/de/home/politik/datenmanagement/geografisches-informationssystem-gis/bodeneignungskarte.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/843de9c9-6feb-4577-ab3b-e4fb62a9c56a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landwirtschaft BLW",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In der Bodeneignungskarte ist jede Kartierungseinheit mit einem Code aus einem Grossbuchstaben und einer Zahl versehen. Die Buchstaben stehen für 25 verschiedene physiographische Einheiten. Die Zahlen geben verschiedene Formelemente der Landschaften wieder, geordnet nach Muttergestein, Hanglage und Hangneigung. Jede Kartierungseinheit entspricht zudem einem oder mehreren Bodentypen. Die insgesamt 144 Kartierungseinheiten sind in der Karte nach dem Gesichtspunkt der Bodeneignung in 18 unterschiedlich eingefärbten Gruppen zusammengefasst. Für diese Klassierung wurden in erster Linie landwirtschaftliche Kriterien verwendet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.bodeneignung-kulturland:wmts",
+    "title": "Bodeneignung für Kulturland",
+    "type": "Dataset"
+  }
+}

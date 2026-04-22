@@ -1,0 +1,102 @@
+{
+  "id": "ch.agroscope.abschaetzung-organische_boeden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.abschaetzung-organische_boeden?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.abschaetzung-organische_boeden?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.agroscope.admin.ch/agroscope/de/home/themen/umwelt-ressourcen/klima-lufthygiene/co2-treibhausgase-landwirtschaftliche-boeden/organische-boeden/flaeche.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/0572e842-7e34-409a-90d9-526d012a1c2d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Karte der organischen Böden der Schweiz ist eine eine Aktualisierung ersten Erhebung aus dem Jahr 2015. Sie stellt eine Abschätzung der Verbreitung der gegenwärtig noch vorhandenen (ehemaligen) Moorböden dar, welche ausreichend humushaltig und tiefgründig sind, um die Kriterien für einen organischen Boden zu erfüllen.<br> Die Erhebung erfolgte in vier Schritten: Zunächst wurden Bodenkarten, geologische Karten, die nationalen Inventare der Flachmoore sowie der Hoch- und Übergangsmoore, Waldstandortskarten sowie historische Karten und Dokumente ausgewertet. Für diese Aktualisierung wurden auch die seit 2015 neu verfügbaren Daten einbezogen. In einem zweiten Schritt wurden alle Datensätze harmonisiert und in ein Datenmodell eingefügt, das die Kombination der verschiedenen Datensätze ermöglicht. In einem dritten Schritt wurden die räumlichen Datensätze überlagert und eine regelbasierte Methode verwendet, um die resultierenden Flächen als organischen oder nicht-organischen Boden auszuweisen. Im letzten Schritt wurden gesicherte Informationen über das Vorkommen mineralischer Böden verwendet um Flächen, für welche der Nachweis als organischer Boden als wenig gesichert gilt, zu löschen. <br> Die Summe der Flächen von organischen Böden, die «sicher» und «weniger sicher» belegt sind, ergibt 32.702 ha. Für viele Fragestellungen ist dies die beste Schätzung für das aktuelle Vorkommen von organischen Böden. Die Kategorie «nur in historischen Quellen belegt» bezeichnet Flächen, für die keine aktuellen relevanten Informationen gefunden wurden – weder in Bezug auf mineralische noch auf organische Böden. Die Kategorie «unzureichend belegt» umfasst Flächen, für welche die Hinweise auf organische Böden nicht eindeutig sind; sie wird hier lediglich aus Gründen der Konsistenz mit der früheren Flächenabschätzung aus dem Jahr 2015 gezeigt. <br> Aufgrund der heterogenen Natur der Informationsquellen, die zur Erstellung dieser Indikatorkarte verwendet wurden, ist es nicht möglich, den Massstab zu definieren, für den diese Karte geeignet ist. Es kann jedoch folgende Empfehlung ausgesprochen werden: Die Karte eignet sich für die Verwendung auf nationaler und regionaler Ebene (z. B. Kanton oder Bezirk); sie ist für die Verwendung Auf Parzellenebene ungeeignet. <br> Zwei Publikationen beschreiben die Methoden und die aktualisierten Datensätze im Detail. Es wird empfohlen, beide Publikationen vor einer Nutzung der Karte zu lesen. Teile der Daten sind mit einer Lizenz belegt; dafür ist die «readme.txt» Datei im Download Ordner zu beachten. <br><br> Literatur <ul> <li>Wüst-Galley, C. and J. Leifeld (2025), The distribution and (future) use of Switzerland's organic soils, Mires and Peat 32(4): 1-17, DOI: 10.19189/001c.130819</li> <li>Wüst-Galley, C., A. Grünig and J. Leifeld (2015) , Locating organic soils for the greenhouse gas inventory, Agroscope Science 26, 100 pp.</li> </ul>",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.abschaetzung-organische_boeden:wms",
+    "title": "Organische Böden CH 2025",
+    "type": "Dataset"
+  }
+}

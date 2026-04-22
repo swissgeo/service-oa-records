@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.energieberatungsstellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energieberatungsstellen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energieberatungsstellen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/servizi-di-consulenza-energetica",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/26b94fae-3709-4436-901b-eb27546e9afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In Svizzera vi sono numerosi servizi di consulenza energetica pubblici che offrono consulenze a un vasto pubblico e che sono finanziati dagli enti pubblici. Sono caratterizzati da un approccio neutrale rispetto a prodotti e aziende. A seconda dei Cantoni, i servizi di consulenza energetica pubblici sono organizzati su base cantonale o regionale. Alcune città e comuni gestiscono anche propri servizi di consulenza comunali sulle questioni energetiche. I temi su cui si concentrano le competenze e l'attività di consulenza dei singoli servizi sono quelli degli edifici e dell'impiantistica, degli apparecchi elettrici e dell'illuminazione oppure della mobilità. I servizi di consulenza energetica offrono ai vari gruppi di clienti (privati, imprese e comuni) diverse forme di consulenza gratuita o a basso prezzo. All'indirizzo www.svizzeraenergia.ch/consulenza troverete una panoramica sull'offerta dei servizi di consulenza energetica pubblici e della Infoline di SvizzeraEnergia (offerta di consulenza della Confederazione). Per ogni servizio di consulenza energetica è indicato sulla carta l'ente responsabile (cantone, regione o comune, caratterizzato dal colore del simbolo) e il bacino di utenza (comuni aderenti, contrassegnati dalla superficie colorata). Le informazioni che compaiono cliccando con il mouse includono i dati di contatto completi, incluso il nome del responsabile e il sito web, e informano sui temi di competenza e i gruppi target cui sono rivolte le consulenze.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieberatungsstellen:wms",
+    "title": "Servizi di consulenza energetica",
+    "type": "Dataset"
+  }
+}

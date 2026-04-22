@@ -38,7 +38,7 @@ services:
     build: .
     image: pygeoapi-custom
     volumes:
-      - ./v0:/pygeoapi/v0
+      - ./static-s3:/pygeoapi/static-s3
       - ./scripts:/opt
     environment:
       - OPENSEARCH_URL=http://opensearch:9200

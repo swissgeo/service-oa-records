@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-hartsteinvorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hartsteinvorkommen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hartsteinvorkommen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/258c7ccf-5e7f-4759-9c09-519d41ba4d02",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo, Georesources Switzerland Group",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Hard rock aggregates play a central role particularly for the construction and maintenance of the Swiss railway network (railway ballast) as well as of high-performance roads. For further information: <a href=\"https://mat-min.ch/de/hartstein\" target=\"_blank\">www.mat-min.ch</a>. This dataset (raster cell size: 50 x 50 m) shows an estimation of the spatial distribution, the usable thickness and the quality of the hard rock-bearing geological units situated at a ground elevation lower than 1300 m a.s.l. and with a thickness exceeding 30 m. The dataset has been produced based on geological profiles, stratigraphic descriptions and through an automated workflow applied to the GeoCover dataset. Explanatory notes regarding the geological units considered and their characteristics can be found in the <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf\" target=\"_blank\">Hard rock catalog</a>. The workflow and methodology used for the compilation of the dataset are described in the <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_tech_doc_2024.pdf\" target=\"_blank\">Technical documentation</a> and in <a href=\"https://doi.org/10.1016/j.jsg.2023.104865\" target=\"_blank\">Nibourel et al. (2023)</a>. The hard rock aggregates production and mining sites are displayed in a dedicated dataset (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinabbau&topic=georessourcen\" target=\"_blank\">Hard rock aggregates: Production and mining sites</a>).The user acknowledges that the authors have taken every reasonable effort to ensure that information contained in this dataset is as accurate as possible. There is no guarantee that the given data related to a definite point in the subsurface is completely accurate. Under no circumstances will the publisher be liable for any loss or damage of a material or immaterial nature arising from access to, use or non-use of published information, or from misuse or technical breakdown. In case it is desired to develop a mining site, it is essential to conduct a detailed geological investigation on the location of interest.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hartsteinvorkommen:wmts",
+    "title": "Hard rock: Occurrences",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.elektrizitaetsproduktionsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.elektrizitaetsproduktionsanlagen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.elektrizitaetsproduktionsanlagen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/elektrizitaetsproduktionsanlagen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e5a00bdb-5022-4856-ad4a-d1afe7bf38b0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Eine Elektrizitätsproduktionsanlage ist eine technische Einrichtung zur Erzeugung von Strom.Es ist von allgemeinem Interesse, eine räumliche Übersicht über sämtliche Elektrizitätsproduktionsanlagen der Schweiz zu haben. Insbesondere soll der Zubau an Produktionsanlagen, die Elektrizität aus erneuerbaren Energien produzieren, transparent dargestellt werden. Zudem kann das Verhältnis der Anlagen, die Elektrizität aus erneuerbaren Energien produzieren, zu den Anlagen, die Elektrizität aus nicht erneuerbaren Energien produzieren, sichtbar gemacht werden. Man unterscheidet zwischen Wasserkraft, Photovoltaik, Windenergie, Biomasse, Geothermie, Kernenergie, Erdöl, Erdgas und Kohle. Dieser Datenbestand enthält alle Elektrizitätsproduktionsanlagen, welche im Schweizerischen Herkunftsnachweissystem registriert sind. Darunter fallen zum einen alle Anlagen mit einer Leistung grösser 30 Kilovoltampere (kVA), sowie Kleinanlagen (grösser als 2 Kilowatt), welche freiwillig für die Ausstellung von Herkunftsnachweisen (HKN) registriert worden sind. Zum anderen enthält der Datenbestand Anlagen, die durch eine Einspeisevergütung, Einmalvergütung, Mehrkostenfinanzierung oder einen Investitionsbeitrag geförderten werden (gemäss Art. 19 und 24; EnG). Es sind nur Elektrizitätsproduktionsanlagen enthalten, welche in Betrieb sind.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.elektrizitaetsproduktionsanlagen:wms",
+    "title": "Elektrizitätsproduktionsanlagen",
+    "type": "Dataset"
+  }
+}

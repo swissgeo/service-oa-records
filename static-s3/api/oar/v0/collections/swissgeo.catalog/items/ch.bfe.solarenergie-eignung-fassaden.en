@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.solarenergie-eignung-fassaden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.solarenergie-eignung-fassaden?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.solarenergie-eignung-fassaden?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/solar-energy-suitability-facade",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3849f57d-9bdd-428c-8d13-08be446e197a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The sun's energy that reaches the Earth's surface can be used, via two proven forms of solar technology – photovoltaics (electric current) and solar thermal energy (heat) – to generate renewable energy. Solar power has considerable potential: by 2050, around 20 per cent of the present demand for electricity could be generated using photovoltaics. Solar heat is an interesting option thanks to various types of standardised installation for warm water and heating support. The suitability map shows how well-suited individual façades are to using solar energy and what yield would be possible. To determine this, the course of the sun over the year is simulated and the solar radiation that reaches each façade calculated. The specified surface equals the entire surface of the façade and does not involve a reduction due to windows or similar. Radiation data from the Federal Office of Meteorology and Climatology MeteoSchweiz and 3D building data from the Federal Office of Topography swisstopo (product swissBUILDINGS3D 2.0) was used in these calculations.<br><br> From 2023 onwards, updated data bases will be used to calculate the solar potential. With each annual update, a part of Switzerland is updated with the new data basis. The model documentation contains an overview of the areas that have already been updated. In addition, the module efficiency of photovoltaic systems was increased from 17% to 20% for the whole of Switzerland from 1.1.2023.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.solarenergie-eignung-fassaden:wmts",
+    "title": "Solar energy: suitability of façades",
+    "type": "Dataset"
+  }
+}

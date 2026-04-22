@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.astra.strassenverkehrszaehlung-uebergeordnet:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.strassenverkehrszaehlung-uebergeordnet/items/ch.astra.strassenverkehrszaehlung-uebergeordnet:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.strassenverkehrszaehlung-uebergeordnet?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.astra.strassenverkehrszaehlung-uebergeordnet",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.astra.strassenverkehrszaehlung-uebergeordnet:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.strassenverkehrszaehlung-uebergeordnet/items/ch.astra.strassenverkehrszaehlung-uebergeordnet:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.strassenverkehrszaehlung-uebergeordnet?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.astra.strassenverkehrszaehlung-uebergeordnet",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.astra.strassenverkehrszaehlung-uebergeordnet:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.strassenverkehrszaehlung-uebergeordnet/items/ch.astra.strassenverkehrszaehlung-uebergeordnet:wmts?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.strassenverkehrszaehlung-uebergeordnet?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.astra.strassenverkehrszaehlung-uebergeordnet",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

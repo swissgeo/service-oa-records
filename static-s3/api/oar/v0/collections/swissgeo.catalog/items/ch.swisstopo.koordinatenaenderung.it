@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.koordinatenaenderung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.koordinatenaenderung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.koordinatenaenderung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/quadri-di-riferimento-locali-svizzeri",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d749d5c4-d362-489b-a6c1-a8ee68aeeaab",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I cambiamenti di coordinate tra il vecchio quadro di riferimento MN03 e il nuovo quadro di riferimento MN95, rispettivamente le distorsioni di MN03 rispetto a Zimmerwald presso Berna sono visibili: i cambiamenti di coordinate più significativi, pari a a circa 1.5 m, sono riscontrabili nel Sud del Ticino e nella parte meridionale della Val Poschiavo. Tutto attorno a Berna le differenze sono invece minime, poiché sia MN03 che MN95 hanno la loro origine presso il vecchio osservatorio di Berna. Le differenze relative alle coordinate X e Y spostate (cosiddetti \"falsi\" valori: MN03: 600'000 / 200'000 e MN95: 2'600'000 / 1'200'000) sono state eliminate ai fini della rappresentazione grafica.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.koordinatenaenderung:wmts",
+    "title": "MN95 Cambiamenti di coordinate",
+    "type": "Dataset"
+  }
+}

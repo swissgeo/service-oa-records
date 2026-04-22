@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.nationalstrassenachsen:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.nationalstrassenachsen/items/ch.astra.nationalstrassenachsen:stac?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.nationalstrassenachsen?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.nationalstrassenachsen",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.astra.nationalstrassenachsen"
+    ]
+  }
+}

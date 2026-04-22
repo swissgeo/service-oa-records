@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.hydrogeologische-karte_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrogeologische-karte_100?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrogeologische-karte_100?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/en/groundwater-maps",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b01523a1-9f61-43a2-95cb-be843cc1b18a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Published by the Federal Office for the Environment FOEN, the specialist office of the Swiss Geological Survey responsible for hydrogeology.The hydrogeological map 1:100,000 shows the subsurface from the perspective of three disciplines: geology, hydrology and hydrogeology. The subsurface is classified according to lithological-petrographical criteria and permeability. Point and line data (springs, wells, hydraulic connections, groundwater resources, etc.) indicate the flow paths of groundwater and its exploitation at wells and tapped springs. The representation at a scale of 100,000 provides insight into the regional hydrogeological conditions. The following maps are available: 1. Bözberg/Beromünster, 1972; 2. Lake Constance, 1980; 3. Panixerpass, 1985; 4. Biel-Bienne, 1991/92; 5. Toggenburg, 1993/94; 6. Saane, 1999; 8. Vallorbe - Léman nord, 2006; 7. Basel, 2014. For North West Switzerland, a seamless vector data set of maps 4, 6, 7 and 8 was created. The data can be obtained from the FOEN (www.bafu.admin.ch Data, indicators, maps).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologische-karte_100:wmts",
+    "title": "Hydrogeological map 100",
+    "type": "Dataset"
+  }
+}

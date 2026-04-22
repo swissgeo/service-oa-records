@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.geochemischer-bodenatlas_schweiz_eisen:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.geochemischer-bodenatlas_schweiz_eisen/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen:wmts?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.geochemischer-bodenatlas_schweiz_eisen",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.geochemischer-bodenatlas_schweiz_eisen:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.geochemischer-bodenatlas_schweiz_eisen/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen:wms?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.geochemischer-bodenatlas_schweiz_eisen",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bafu.geochemischer-bodenatlas_schweiz_eisen:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.geochemischer-bodenatlas_schweiz_eisen/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen:stac?language=fr",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.geochemischer-bodenatlas_schweiz_eisen?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.geochemischer-bodenatlas_schweiz_eisen",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

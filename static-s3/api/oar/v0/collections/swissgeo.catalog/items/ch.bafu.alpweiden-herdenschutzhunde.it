@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.alpweiden-herdenschutzhunde",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.alpweiden-herdenschutzhunde?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.alpweiden-herdenschutzhunde?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.protectiondestroupeaux.ch/it/map/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/88ec92d4-409f-40ee-9c46-83aa4fb992aa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Da millenni, i cani da protezione delle greggi vengono impiegati per proteggere gli animali da reddito dai grandi predatori. Il ritorno dei grandi predatori sul nostro territorio ha spinto all'utilizzo dei cani da protezioni delle greggi anche sulle nostre Alpi. L'Ufficio federale dell'ambiente incoraggia la protezione delle greggi con i cani, a condizione che i cani siano allevati, educati, detenuti e impiegati correttamente, conformemente all'art. 10 quater dell'OCP e alle direttive relative. Inoltre, la Confederazione ha dato mandato al servizio responsabile per i cani di protezione delle greggi (AGRIDEA) e ai consulenti specializzati in cani da protezioni delle greggi di garantire le conoscenze tecniche necessarie relative ai cani da protezione delle greggi. Attualmente, 350 cani da protezione delle greggi sono riconosciuti ufficialmente e vengono impiegati negli alpeggi situati nelle zone a rischio (dove degli animali da reddito sono state vittime dei grandi predatori come il lupo, l'orso o la lince). I pascoli sui quali lavorano i cani da protezione delle greggi sono consultabili su una carta interattiva. La maggioranza dei cani da protezione sono impiegati per proteggere le greggi di pecore o capre, alcuni per i bovini.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.alpweiden-herdenschutzhunde:wmts",
+    "title": "Alpeggi con cani da guardiania",
+    "type": "Dataset"
+  }
+}

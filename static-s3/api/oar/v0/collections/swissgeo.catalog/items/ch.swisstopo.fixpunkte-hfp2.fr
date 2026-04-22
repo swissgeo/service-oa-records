@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.fixpunkte-hfp2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-hfp2?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.fixpunkte-hfp2?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://geodienste.ch/services/fixpunkte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/06044c35-4164-41c6-a4df-297749c03227",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les points de mensuration constituent la base de toutes les données à référence spatiale. Ces points fixes (points fixes planimétriques (PFP) et points fixes altimétriques (PFA)) sont utilisés pour tous les travaux de mensuration nécessitant une détermination fiable et précise. Par point fixe altimétrique, on entend un point matérialisé de façon durable à l'aide d'une cheville dont l'altitude est connue. Les points fixes de catégorie 2 (PFA2) servent à densifier le réseau de points national et constituent la base de la mensuration officielle. Les cantons sont compétents pour les points fixes de catégorie 2. Les données se basent sur le modèle « Service de données sur les points fixes 2.0 » de la CGC (modèle de données KGKCGC_FPDS2_V1_1, version 1.1).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-hfp2:wms",
+    "title": "Points fixes altimétriques PFA2",
+    "type": "Dataset"
+  }
+}

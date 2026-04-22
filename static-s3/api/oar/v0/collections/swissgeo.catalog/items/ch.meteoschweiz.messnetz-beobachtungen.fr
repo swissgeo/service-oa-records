@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messnetz-beobachtungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-beobachtungen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-beobachtungen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteosuisse.admin.ch/meteo/systemes-de-mesure/stations-au-sol/reseau-des-observations-visuelles.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/bb2c81cc-0f41-4bd0-919e-c7671e27cd12",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les observations visuelles humaines complètent les informations météorologiques automatiques. L'état de l'atmosphère dans la région du site d'observation est décrire de manière détaillée. Une observation visuelle consiste à décrire l'état de l'atmosphère. Les observations visuelles ainsi que des relevés d'instruments de mesure sont faites de trois à huit fois par jour, 365 jours par an, par des observateurs et observatrices météorologiques et transmises en ligne à MétéoSuisse. Ces messages sont transcrits sous la forme de codes internationaux et diffusés dans le monde entier.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Observations visuelles",
+    "type": "Dataset"
+  }
+}

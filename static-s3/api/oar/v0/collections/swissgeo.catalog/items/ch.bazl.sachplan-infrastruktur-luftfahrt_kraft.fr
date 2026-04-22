@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/fr/plan-sectoriel-infrastructure-aeronautique",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ae5fa63c-c153-496a-b8a6-c896126398b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'aviation civile OFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le plan sectoriel des transports, partie Infrastructure aéronautique (PSIA) est l'instrument de planification et de coordination de la Confédération pour l'aviation civile. Il fixe de manière contraignante pour les autorités les objectifs et exigences relatifs à l'infrastructure de l'aviation civile suisse. Pour chaque installation aéronautique il définit le but, le périmètre requis, les grandes lignes de l'affectation, l'équipement ainsi que les conditions opérationnelles générales. Il décrit en outre les effets sur l'aménagement du territoire et l'environnement (Ordonnance sur l'infrastructure aéronautique OSIA Art. 3a). Le PSIA constitue la référence en matière d'autorisation et d'exploitation de toutes les infrastructures aéronautiques civiles: aéroports nationaux, aérodromes régionaux, aérodromes militaires avec utilisation civile, champs d'aviation, places d'atterrissage en montagne et installations de navigation aériennes. Le PSIA se compose de deux parties: la partie conceptionnelle, qui présente les exigences et objectifs généraux, et la partie exigences et objectifs par installation incluant les fiches détaillées pour chaque aérodrome.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft:wms",
+    "title": "PS Infrastructure aéronautique",
+    "type": "Dataset"
+  }
+}

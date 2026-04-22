@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.minergiegebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.minergiegebaeude?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.minergiegebaeude?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.minergie.ch/it/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ad60a67c-f0a0-41fa-84f2-20b8565c9da9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Minergie è dal 1998 lo standard di costruzione svizzero per comfort, efficienza e mantenimento del valore nel tempo. Il marchio è supportato dal mondo economico, dai Cantoni e dalla Confederazione ed è protetto contro l'uso improprio. Al centro viene posto il comfort abitativo e lavorativo per gli utenti, sia per nuove costruzioni che per ammodernamenti. Un ruolo particolare lo gioca l'involucro edilizio di grande qualità e un ricambio dell'aria controllato. Le costruzioni Minergie si contraddistinguono inoltre per un fabbisogno energetico molto basso e una quota parte di energia rinnovabile elevata. La qualità costruttiva viene quantificata attraverso il fabbisogno energetico specifico per metro quadrato della superficie di riferimento energetica (AE). I tre noti standard di costruzione Minergie, Minergie-P e Minergie-A assicurano già nella fase di progettazione un'elevata qualità ed efficienza. Lo standard Minergie si rivolge a costruttori e progettisti con esigenze superiori alla media in termini di energia, qualità e comfort. Minergie-P designa edifici a basso consumo energetico e soddisfa esigenze massime in termini di qualità, comfort ed energia. In particolare grazie a un ottimale involucro edilizio. Minergie-A combina i più elevati requisiti in termini di qualità e comfort con la massima indipendenza energetica, grazie a un impianto fotovoltaico combinato con una batteria o un sistema di gestione dei carichi. Essi vengono completati da tre prodotti complementari, combinabili liberamente: ECO considera i temi della salute e l'ecologia nella costruzione; SQM costruzione si indirizza a committenti e progettisti che desiderano avere garantiti gli esigenti requisiti durante la fase di costruzione; SQM esercizio ottimizza l'impiego degli impianti tecnici domestici e assicura grazie a ciò il massimo comfort. Attualmente in Svizzera sono oltre 39‘600 gli edifici certificati secondo lo standard Minergie, più di 3'600 quelli Minergie-P e più di 550 quelli Minergie-A.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.minergiegebaeude:wms",
+    "title": "Minergie",
+    "type": "Dataset"
+  }
+}

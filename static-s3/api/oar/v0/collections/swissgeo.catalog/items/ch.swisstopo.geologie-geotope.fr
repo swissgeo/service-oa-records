@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geotope",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotope?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geotope?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.geotopes.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e7dd54e9-fc98-4e5c-b46a-694d1ba6c84e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, SCNAT",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les géotopes sont des monuments naturels géoscientifiques. Certains d'entre eux, qui témoignent de l'histoire de la Terre, nous racontent l'évolution du paysage, du climat et de la vie, la genèse et la disparition des montagnes, ainsi que la formation des roches. D'autres géotopes nous révèle des processus qui se déroulent à la surface ou à l'intérieur de la Terre. Les géotopes incluent également le monde caché des cavernes et des nappes d'eau souterraine. Un dernier groupe comprend des formes actives qui modèlent le paysage, telles qu'éboulis, zones alluviales ou émergences d'eau souterraine.Les géotopes sont des portions de la géosphère (partie minérale, non vivante de la Terre) délimitées dans l'espace. Ce terme peut recouvrir une occurrence unique, ponctuelle, ou tout un pan de paysage, selon son contenu thématique. Il faut les protéger contre les actions qui portent atteinte à leur contenu, leur structure, leur forme ou leur évolution naturelle. Les géotopes d'importance nationale mentionnés ici proviennent de l'inventaire informel dressé par le groupe de travail pour la protection des géotopes suisses (Académie des sciences naturelles SCNAT). N'étant pas basé sur un recensement systématique, il ne prétend pas être exhaustif. Sources: M. Felber (1999): Inventaire des géotopes d'importance nationale. Geologia Insubrica 4/1. Reynard, E., Berger, J.-P., Constandache, M., Felber, M., Grangier, L., Häuselmann, P., Jeannin, P.-Y. & Martin, S. (2012): Révision de l'inventaire des géotopes suisses: rapport final. – Geosciences, Platform of the Swiss Academy of Science.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotope:wmts",
+    "title": "Géotopes suisses",
+    "type": "Dataset"
+  }
+}

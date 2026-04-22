@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.envidat.ch/#/metadata/vegetation-height-model-sentinel-nfi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/da98f1ff-d427-4e8f-b4fc-691e6ff31ed0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Des modèles de hauteur de végétation (MHV) à l'échelle nationale ont été générés pour la Suisse à partir des images Copernicus Sentinel-2 et du modèle numérique de terrain (MNT) swissALTI3D de l'Office fédéral de topographie swisstopo. Un modèle de réseau neuronal convolutif (CNN) a été entraîné pour estimer la hauteur maximale de la végétation à la résolution spatiale du pixel Sentinel-2 de 10 m. Les hauteurs de végétation issues du MHV Lidar IFN, dont la résolution spatiale est plus élevée, ont été utilisées comme données de référence pour l'entraînement du CNN. Dans le cadre de l'Inventaire forestier national suisse (IFN), les MHV ont été modélisés chaque année à partir des images Sentinel-2 disponibles entre mai et septembre de l'année correspondante. Pour plus de détails sur la création du MHV Sentinel IFN, voir l'article de Jiang et al. (2023, https://doi.org/10.1016/j.srs.2023.100099). Contient des données Copernicus Sentinel modifiées.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel:wmts",
+    "title": "Hauteur de la végétation Sentinel IFN",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.dreiecksvermaschung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.dreiecksvermaschung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.dreiecksvermaschung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/trasformazioni-3d-posizione",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/fb7fe701-04b1-4a0c-ba3a-90dbc5bd23d3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La magliatura triangolare a livello di misurazione nazionale (FINELTRA-MN) è stata ultimata negli anni Novanta e consentiva di convertire geodati a MN95 e viceversa con un grado di precisione di un decimetro circa. Negli ultimi anni questa magliatura triangolare è stata sistematicamente addensata dai cantoni e riunita da swisstopo in 2006 in un unico set di dati denominato CHENyx06. Grazie a CHENyx06 è possibile trasformare geodati da MN03 a MN95 e viceversa con un grado di precisione medio di 2 cm. Le magliature triangolari sono elaborate a partire da punti d'appoggio per la trasformazione (PAT). I PAT sono dei punti misurati in modo preciso nei quadri di riferimento MN03 e MN95. I PAT di categoria 1 e 2 sono disponibili nel servizio dati sui punti fissi (FPDS) o sotto la categoria \"Punti fissi planimetrici” del geoportale della Confederazione map.geo.admin.ch. Le informazioni concernenti altri PAT sono disponibili presso i cantoni.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.dreiecksvermaschung:wmts",
+    "title": "MN95 Magliatura triangolare",
+    "type": "Dataset"
+  }
+}

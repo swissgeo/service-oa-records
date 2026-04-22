@@ -1,0 +1,97 @@
+{
+  "id": "ch.agroscope.amphibien-ausbreitungskarten_hyla_arborea",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-ausbreitungskarten_hyla_arborea?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-ausbreitungskarten_hyla_arborea?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/1515556a-6a2a-4e30-97ca-7cdf4ad234ba",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carte de la Suisse montrant la probabilité de dispersion du Rainette verte (Hyla arborea).Chaque cellule de la grille indique la probabilité relative que des individus traversent cet hectare sur leur trajet entre des sites de reproduction connus. La carte montre la probabilité de dispersion qui augmente le long d'une échelle allant du bleu au rouge en passant par le jaune. Ces cartes devraient être considérées comme des cartes de chaleur de l'activité de dispersion des populations existantes. En pratique, ces cartes indiquent également les endroits où les nouveaux sites de reproduction d'amphibiens potentiels ont le plus de chances d'être colonisés. Les zones avec de nombreuses populations à proximité immédiate apparaissent en rouge plus foncé, ce qui reflète une plus grande probabilité de dispersion, car plusieurs voies de dispersion entre les populations se chevauchent. Cette caractéristique des cartes mérite une attention particulière. Des nuances plus claires sur les bords de la distribution des espèces ne signifient pas nécessairement un lien plus faible entre les populations, mais sont plutôt la conséquence d'une densité plus faible de sites de reproduction d'amphibiens sur les bords de la distribution. L'échelle de couleurs doit être considérée dans le contexte de l'environnement immédiat. La carte de dispersion a été calculée avec Circuitscape et se base sur une matrice de résistance du paysage dérivée du MDS le mieux évalué pour chaque espèce. Pour plus de détails, voir la description des données ci-jointe. Litérature: Churko G., Szerencsits E., Aldrich A., Schmidt B. R. (2024). Spatial analysis of the potential exposure of amphibians to plant protection products at the landscape scale. Basic and Applied Ecology, 76, 14-24. https://doi.org/10.1016/j.baae.2024.02.004",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.amphibien-ausbreitungskarten_hyla_arborea:wmts",
+    "title": "Cartes de dispersion Hyla arborea",
+    "type": "Dataset"
+  }
+}

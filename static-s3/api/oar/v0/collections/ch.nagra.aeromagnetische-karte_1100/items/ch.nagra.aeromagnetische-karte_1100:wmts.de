@@ -1,0 +1,34 @@
+{
+  "id": "ch.nagra.aeromagnetische-karte_1100:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.nagra.aeromagnetische-karte_1100/items/ch.nagra.aeromagnetische-karte_1100:wmts?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.nagra.aeromagnetische-karte_1100?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.nagra.aeromagnetische-karte_1100",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.nagra.aeromagnetische-karte_1100"
+    ]
+  }
+}

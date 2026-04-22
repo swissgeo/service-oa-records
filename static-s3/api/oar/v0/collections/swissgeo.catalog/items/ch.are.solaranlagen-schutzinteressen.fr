@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.solaranlagen-schutzinteressen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-schutzinteressen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-schutzinteressen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/fr/installations-photovoltaiques-au-sol",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/2f2813b7-ca6c-44fc-a929-e5c107e48614",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral du développement territorial ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il s'agit d'une synthèse d'intérêts de protection importants selon le droit fédéral ainsi que d'autres intérêts, en partie concurrents, selon le document « Installations photovoltaïques au sol : base méthodologique de la Confédération ». La synthèse n'est pas exhaustive, elle ne fait par exemple aucune déclaration ou aucune déclaration complète sur la protection des espèces ou de la nature et ne comprend notamment aucun intérêt de protection cantonal ou communal. Le contenu de la carte ne constitue donc pas une déclaration juridiquement contraignante. D'autres intérêts de protection, non représentés sur cette carte, doivent être pris en compte pour la délimitation, dans le cadre de l'aménagement du territoire, de zones qui se prêtent à l'exploitation d'installations solaires au sens de l'article 10 de la loi sur l'énergie.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-schutzinteressen:wmts",
+    "title": "Solaire: intérêts de protection",
+    "type": "Dataset"
+  }
+}

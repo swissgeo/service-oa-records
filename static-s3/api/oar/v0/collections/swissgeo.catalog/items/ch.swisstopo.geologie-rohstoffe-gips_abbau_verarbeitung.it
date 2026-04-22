@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://rawmaterials.swissgeol.ch/fr/gypse",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/33f974a7-8852-449d-ba68-646b10710f60",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, Gruppo georisorse svizzere",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il gesso viene principalmente impiegato nell'edilizia e per la fabbricazione di cemento, ma anche nell'artigianato e nell'industria ceramica. Questo set di dati mostra i siti di estrazione e di produzione in funzione o dismessi dell'industria del gesso in Svizzera. È inoltre presentata una panoramica delle unità geologiche contenenti gesso. Quest'ultima si basa su il set di dati GeoCover. Nel caso si auspica allo sviluppo di un giacimento, è essenziale condurre un'indagine geologica dettagliata in loco. I perimetri dei siti di estrazione in attività sono da considerarsi come indicativi. Essi si basano sul Modello Topografico del Paesaggio (MTP) e immagini aeree SWISSIMAGE. Per dettagliate informazioni concernenti l'attività estrattiva, si prega di contattare le rispettive autorità cantonali. Questa set di dati è periodicamente aggiornamento e non pretende di essere completo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-gips_abbau_verarbeitung:wms",
+    "title": "Gesso",
+    "type": "Dataset"
+  }
+}

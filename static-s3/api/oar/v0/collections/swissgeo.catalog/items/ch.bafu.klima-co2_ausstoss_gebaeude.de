@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.klima-co2_ausstoss_gebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.klima-co2_ausstoss_gebaeude?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.klima-co2_ausstoss_gebaeude?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/de/co2-rechner-gebaeude",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/60ea1623-d68f-4deb-bce0-850a19b67e22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Schweizer Gebäudepark ist für rund einen Viertel der CO2-Emissionen verantwortlich. Reduktionen in diesem Bereich sind zentral für die Erreichung der Klimaziele.</p><p> Mit der Karte «CO2-Emissionen Gebäude (SIA 380/1)» kann für jedes Wohngebäude abgeschätzt werden, wie viel CO2 ausgestossen wird. Diese CO2-Emissionen werden für Normbedingungen für den Heizwärme- und Warmwasserbedarf gerechnet. Für die Berechnung werden die öffentlich zugänglichen Input-Daten aus dem eidgenössischen Gebäude- und Wohnungsregister GWR des Bundesamtes für Statistik beigezogen. Diese Daten sind nicht überall aktuell und beinhalten keine ausreichenden Informationen zu Gebäudesanierungen. Mit einem interaktiven CO₂-Rechner kann simuliert werden, wie sich der CO2-Wert verändert, wenn energetische Sanierungen mitberücksichtigt werden oder ein Energieträgerwechsel vorgenommen wird. Die eingegebenen Daten werden nicht gespeichert. Dieses Tool können Sie bei jedem Gebäude unter «Objekt-Information» nutzen.</p><p> Die Angaben sind als grobe Einschätzung zu verstehen und stellen keine amtlichen oder verbindlichen Angaben dar.</p><p> Die CO2-Visualisierung mit dem CO2-Rechner schafft Transparenz und zeigt auf, dass es besonders wichtig ist, die GWR-Daten aktuell zu halten. Gebäudebesitzende können selber mithelfen, die klima- und energierelevanten Gebäudedaten im GWR aktuell zu halten. In einem Link bei «Objekt-Information» zu jedem Gebäude findet sich der Beschrieb, wie allfällige veraltete Angaben gemeldet werden können.</p><p> Weitere Informationen finden Sie unter https://www.bafu.admin.ch/de/co2-rechner-gebaeude.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "CO₂-Emissionen Gebäude (SIA 380/1)",
+    "type": "Dataset"
+  }
+}

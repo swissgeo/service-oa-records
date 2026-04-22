@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bazl.laermbelastungskataster-zivilflugplaetze_klein-grossflugzeuge",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

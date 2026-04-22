@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.niederschlagserosivitaet-okt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.niederschlagserosivitaet-okt?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.niederschlagserosivitaet-okt?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.researchgate.net/publication/309429881_Regionalization_of_monthly_rainfall_erosivity_patterns_in_Switzerland",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/73d7de96-ba8c-4b89-946a-97733df8f4f9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "<p>Monthly rainfall erosivity maps (R-factor maps) of Switzerland with a spatial resolution of 100 m. The maps show the spatial and seasonal variability of rainfall erosivity in MJ mm ha⁻¹ h⁻¹ month⁻¹. Light shades of blue indicate a low erosive impact of rainfall and dark shades a high impact.</p> <p>The monthly R-factors are based on precipitation measurements from 87 automatic gauging stations with measurement intervals of 10 minutes (average measuring period of 19.5 years per station). The stations cover all agricultural zones in Switzerland. To exclude the influence of snow, temperatures are also recorded at an hourly resolution for 71 stations or are derived from the nearest station.</p> <p>A comparison of the 12 monthly R-factor maps shows that the summer months (June, July and August) have the highest rainfall erosivity values during the year. The Southern Alps (canton of Ticino), the mountain zones of the Northern Alps and parts of the valley zone have particularly high R-factors in this period. A proportion of 62% of Switzerland's annual rainfall erosivity is recorded between June and September. Identifying regions and periods in which rainfall with an increased erosive impact occurs enables targeted erosion control and a better understanding of the dynamics of erosion processes over the course of a year.</p> The development of monthly rainfall erosivity maps of Switzerland is described in detail in 'Regionalization of monthly rainfall erosivity patterns in Switzerland' by Schmidt et al. (Hydrology and Earth System Sciences: 20. 2016. pp. 4359–4373).",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.niederschlagserosivitaet-okt:wmts",
+    "title": "Rainfall erosivity Oct.",
+    "type": "Dataset"
+  }
+}

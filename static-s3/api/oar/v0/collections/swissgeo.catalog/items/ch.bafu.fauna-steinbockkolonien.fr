@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.fauna-steinbockkolonien",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.fauna-steinbockkolonien?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.fauna-steinbockkolonien?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/biodiversite/etat/cartes.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/9c762bb5-4d8c-4174-9b77-95e85b962439",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Réintroduit en 1906, le Bouquetin des Alpes vit en colonies d’extension variable localisées dans le Jura et l’arc alpin. La croissance des populations a entraîné dans certaines colonies des effets néfastes sur d’autres espèces et sur la végétation, rendant nécessaire la prise de mesures de régulation. Les prescriptions relatives à la planification des tirs de bouquetins se fondent sur la loi fédérale du 20 juin 1986 sur la chasse et la protection des mammifères et oiseaux sauvages. Conformément aux prescriptions concernant le recensement des populations dans l’ordonnance du 30 avril 1990 sur la régulation des populations de bouquetins, les colonies sont recensées et constituent, avec le recensement des populations, la base de la planification des tirs.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fauna-steinbockkolonien:wmts",
+    "title": "Colonies de bouquetins",
+    "type": "Dataset"
+  }
+}

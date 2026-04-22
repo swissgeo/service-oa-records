@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.niederschlagserosivitaet-jul:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.niederschlagserosivitaet-jul/items/ch.bafu.niederschlagserosivitaet-jul:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.niederschlagserosivitaet-jul?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.niederschlagserosivitaet-jul",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bafu.niederschlagserosivitaet-jul"
+    ]
+  }
+}

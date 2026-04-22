@@ -1,0 +1,101 @@
+{
+  "id": "ch.ensi.zonenplan-notfallschutz-kernanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.ensi.zonenplan-notfallschutz-kernanlagen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.ensi.zonenplan-notfallschutz-kernanlagen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ensi.ch/index.php?id=46&L=0",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/60e40dd3-a00b-4b34-a9c6-8813f21711b9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Nuclear Safety Inspectorate ENSI",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The zone plans for emergency planning in the vicinity of nuclear facilities show the breakdown of the municipalities close to the nuclear facilities into zones 1 and 2. The Swiss Federal Nuclear Safety Inspectorate (ENSI) creates and maintains the zone plans in accordance with Article 3, Paragraph 4 of the Emergency Protection Ordinance (SR 732.33). Zone 1 is the area around a nuclear facility where there can be a risk to the population in the event of a serious incident, which means that protective measures must be taken immediately. Zone 2 is connected to zone 1 and consists of the area where there can be a risk to the population in the event of a serious incident, which means that protective measures must be taken. It is divided into risk sectors. The remainder of Switzerland is categorised as zone 3. A separate PSI/ZWILAG risk zone has been established for the federal interim storage facility at PSI-Ost and the ZWILAG interim storage facility in Würenlingen.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.ensi.zonenplan-notfallschutz-kernanlagen:wmts",
+    "title": "Plans for Emergency protection",
+    "type": "Dataset"
+  }
+}

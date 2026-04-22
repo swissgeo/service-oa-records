@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.energieberatungsstellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energieberatungsstellen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energieberatungsstellen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/services-de-conseil-en-energie",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/26b94fae-3709-4436-901b-eb27546e9afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Suisse dispose d'une offre diversifiée en services publics de conseil en énergie. Ces services proposent des conseils énergétiques de manière neutre et indépendante. Ils s'adressent à un large public et sont financés par les pouvoirs publics. Selon les cantons, les services publics de conseil en matière d'énergie sont organisés en entités cantonales ou régionales. Quelques villes et communes ont aussi leur propre service communal de conseil énergétique. Les compétences techniques et les spécialisations de ces services se concentrent sur les domaines suivants: bâtiments & technique du bâtiment, appareils électriques & éclairage, mobilité. Ils offrent une large palette de conseils gratuits (ou à prix abordable) à différents groupes de clients (particuliers, entreprises et communes). Les offres des services de conseil cantonaux et de l'Infoline de SuisseEnergie (offre de conseil de la Confédération) sont décrites sur le site www.suisseenergie.ch/conseil. Pour chaque service de conseil en énergie, la carte indique l'organisation responsable (entités cantonales, régionales ou communales, représentées par la couleur du symbole) et son rayon d'activité (communes associées, représentées par une surface colorée). Des informations détaillées peuvent être visualisées en cliquant sur la carte: coordonnées complètes, y compris nom de la direction du service et adresse de son site Internet, spécialisations et public cible.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieberatungsstellen:wms",
+    "title": "Services de conseil en énergie",
+    "type": "Dataset"
+  }
+}

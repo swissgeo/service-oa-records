@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.laerm-bahnlaerm_nacht",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.laerm-bahnlaerm_nacht?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.laerm-bahnlaerm_nacht?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/bruit/etat-de-l_exposition-au-bruit-en-suisse.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/93814e81-2466-4690-b54d-c1d958f1c3b8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre l'exposition de la population au bruit ferroviaire pendant la nuit. Le calcul du bruit est fondé sur les données relatives aux émissions effectives de l'année 2021, telles qu'elles figurent dans le cadastre de bruit pour les installations ferroviaires. Elles ont été déterminées pour le réseau des CFF, de la Société du chemin de fer des Alpes bernoises Berne-Loetschberg-Simplon, des Chemins de fer du Sud-Est, de Sihltal Zürich Uetliberg Bahn, de Zentralbahn et des Chemins de fer rhétiques sur la base des données du trafic calculées par les CFF et consignées dans le cadastre des émissions de 2021 (EK 2021) Celui-ci recense environ 4165 km sur un total de 5800 km de sillons pour la circulation sur rails sous la surveillance de la Confédération. Ces données n'ont pas force de loi. Les charges sonores et données d'assainissement officielles sont fournies par l'autorité d'exécution en charge, l'Office fédéral des transports (OFT).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.laerm-bahnlaerm_nacht:wmts",
+    "title": "Bruit ferroviaire nuit",
+    "type": "Dataset"
+  }
+}

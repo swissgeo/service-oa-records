@@ -1,0 +1,101 @@
+{
+  "id": "ch.bfe.meteorologische-vereisung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.meteorologische-vereisung?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.meteorologische-vereisung?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/icing-frequency",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/94cedad7-6d19-46b2-9ecf-0d1d1a58bea8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Swiss Federal Office of Energy SFOE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "In Switzerland, the mountain regions (Jura, Alps and Alpine foothills) are the most suitable regions for exploiting wind energy potential. But here, the air temperature during the winter months is frequently below 0° C for lengthy periods, and this can cause measuring instruments and rotor blades to ice up. Icing influences the planning and operation of a wind power plant in a variety of ways: ice formation on the rotor blades interferes with their aerodynamics and results in production losses. The additional weight and imbalance associated with ice formation also burden the structural elements of a wind turbine. For safety reasons (ice fall-off), and in view of the additional burden placed on their components, wind turbines have to be turned off when they ice up. Ice formation on a wind turbine’s measuring instruments can also give rise to faulty operation. Calculations of icing frequency are based on comprehensive data relating to cloud water, temperature and wind obtained from analyses of the MeteoSwiss COSMO-2 weather forecasting model. The icing model calculates the ice load on a cylindrical, freely rotating structure. The icing frequency is depicted on a 2.2-kilometre raster and has been verified on the basis of measurements carried out at IMIS stations in the Alps and readings recorded in the Jura range. The map depicts the frequency of meteorological icing at a height of 100 metres above the ground for the period from August 2007 to July 2009. The 10-year average is around 5 percent lower. The frequency data are based on calculations made with the aid of models, and they indicate where icing can occur in Switzerland. However, the data cannot be regarded as absolutely precise for a given location, because deviations can occur in confined spaces such as those frequently encountered in the central Alps. The frequency of icing is higher in exposed areas and lower in protected areas than the levels shown on the map. The map depicts meteorological icing, while the periods of measured icing tend to be longer on average. To assess the icing conditions at a specific location, measurement on site is thus essential.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.meteorologische-vereisung:wmts",
+    "title": "Icing Frequency",
+    "type": "Dataset"
+  }
+}

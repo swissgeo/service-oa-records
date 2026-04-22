@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.are.solaranlagen-pruefenswerte_gebiete_vektor:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-pruefenswerte_gebiete_vektor/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.are.solaranlagen-pruefenswerte_gebiete_vektor",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.are.solaranlagen-pruefenswerte_gebiete_vektor:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-pruefenswerte_gebiete_vektor/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.are.solaranlagen-pruefenswerte_gebiete_vektor",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.are.solaranlagen-pruefenswerte_gebiete_vektor:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-pruefenswerte_gebiete_vektor/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor:stac?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.are.solaranlagen-pruefenswerte_gebiete_vektor",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

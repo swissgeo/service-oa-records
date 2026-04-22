@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/en/national-surface-water-quality-monitoring-programme-nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/359e590e-4c29-494a-80ba-182a9682173c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Within the National Surface Water Quality Monitoring Programme (NAWA), water quality is recorded jointly by the federal and cantonal authorities at around 100 monitoring stations. The chemical water status is assessed on the basis of the total phosphorus concentration by the “Physicochemical Water Quality, Nutrients” method in the Modular Stepwise Procedure (www.modul-stufen-konzept.ch). Phosphorus is an essential nutrient for aquatic organisms. Phosphorus can enter a watercourse in a diffuse manner from agricultural land, and at specific points through wastewater infiltration and stormwater overflows, or by erosion of rock containing phosphorus due to weathering. In contrast to lakes, phosphorus in rivers and streams is not normally limiting for algae and plant growth. As inputs from natural sources are generally low, total phosphorus is primarily an indicator of anthropogenic pollution.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt:wms",
+    "title": "Total Phosphorus",
+    "type": "Dataset"
+  }
+}

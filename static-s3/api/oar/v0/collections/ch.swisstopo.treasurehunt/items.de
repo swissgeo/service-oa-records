@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.swisstopo.treasurehunt:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.treasurehunt/items/ch.swisstopo.treasurehunt:geojson?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.treasurehunt?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.swisstopo.treasurehunt",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.swisstopo.treasurehunt/json/2056/ch.swisstopo.treasurehunt.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.swisstopo.treasurehunt.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

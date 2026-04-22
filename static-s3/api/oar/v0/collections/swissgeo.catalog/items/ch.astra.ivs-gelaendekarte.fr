@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.ivs-gelaendekarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-gelaendekarte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-gelaendekarte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ivs.admin.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c99e4a84-b340-4c83-ad3f-f5bcb15a1bf1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des routes OFROU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'inventaire initial est basé sur la carte topographique qui fournit des indications supplémentaires sur les objets définis à l'article 3 de l'ordonnance sur l'inventaire fédéral des voies de communication historiques de la Suisse (OIVS) ainsi que ceux d'importance régionale et locale. Etant donné que, dans un premier temps, la carte topographique n'est pas mise à jour, elle ne figure qu'à titre d'information complémentaire dans la publication électronique et en tant qu'élément séparé dans l'édition imprimée (cf. art. 4 OIVS). Lors de la réévaluation des objets d'importance régionale ou locale, le canton de Soleure a remanié ses cartes de terrain. Ces cartes remaniées sont comprises dans les cartes présentées.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-gelaendekarte:wmts",
+    "title": "IVS Carte de terrain",
+    "type": "Dataset"
+  }
+}

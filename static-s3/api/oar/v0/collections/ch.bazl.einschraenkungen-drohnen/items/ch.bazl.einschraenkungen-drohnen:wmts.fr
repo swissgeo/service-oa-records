@@ -1,0 +1,34 @@
+{
+  "id": "ch.bazl.einschraenkungen-drohnen:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.einschraenkungen-drohnen/items/ch.bazl.einschraenkungen-drohnen:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.einschraenkungen-drohnen?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bazl.einschraenkungen-drohnen",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bazl.einschraenkungen-drohnen"
+    ]
+  }
+}

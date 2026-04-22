@@ -1,0 +1,97 @@
+{
+  "id": "ch.vbs.waldschadenkarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.waldschadenkarte?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.waldschadenkarte?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2ff2299e-55b5-4ec7-bb92-fbb06e7ee422",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Generalsekretariat VBS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Web-Applikation PROJEKTIL dient der Visualisierung von:- bisherigen Schiessschäden am Holz inkl. Folgeschäden, welche durch das Militär verursacht wurden, sowie - Schiessplätzen. Durch die Visualisierung über das Internet, wird den Chefexperten Forst ein effizientes Tool zur Verfügung gestellt, um sich einen Überblick über bisherige Schiessschäden und Schiessplätze zu verschaffen. Dies mit dem Ziel, zukünftige Schäden und damit verbundene Entschädigungszahlungen zu reduzieren (Prävention).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.waldschadenkarte:wmts",
+    "title": "Waldschadenkarte - Projektil",
+    "type": "Dataset"
+  }
+}

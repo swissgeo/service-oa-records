@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.erosion",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.erosion?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.erosion?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/fr/home/nachhaltige-produktion/umwelt/boden.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/02210bb3-1c51-4c2c-a665-a696286b945c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'agriculture OFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carte des risques d'érosion des terres arables, classification qualitative (Office fédéral de l'agriculture)Carte des risques d'érosion des terres arables de la Suisse au raster 2x2 m, sur la base du modèle swissALTI3D et des données cantonales sur les terres arables (situation en 2021). La carte indique le risque d'érosion qualitatif potentiel. L'attribution à l'un des trois niveaux de risque (pas de risque, risque avéré, risque élevé) est évaluée globalement, sans tenir compte de l'utilisation ou du mode d'exploitation du sol. Les pertes de sol moyennes sur le long terme sont calculées sur la base du modèle Universal Soil Loss Equation (USLE).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.erosion:wmts",
+    "title": "Risque d'érosion ter. arab. qualit.",
+    "type": "Dataset"
+  }
+}

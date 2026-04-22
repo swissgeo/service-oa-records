@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_ammonium?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-chemischer_zustand_ammonium?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/en/national-surface-water-quality-monitoring-programme-nawa",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/35fe15e6-ea42-467e-928c-ce2b75512972",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Within the National Surface Water Quality Monitoring Programme (NAWA), water quality is recorded jointly by the federal and cantonal authorities at around 100 monitoring stations.The chemical water status is assessed on the basis of the ammonium concentration by the “Physicochemical Water Quality, Nutrients” method in the Modular Stepwise Procedure (www.modul-stufen-konzept.ch). Nitrogen is an essential nutrient for aquatic organisms. Most of the inorganic nitrogen present in surface waters is in the form of nitrate. Anoxic conditions can lead to the formation of nitrogen compounds reduced from nitrate, e.g. ammonium (NH4+). As the pH value of the water rises, so does the ammonium content, present as ammonia (NH3) which is toxic to fish. The ammonium concentration is indicative of the water pollution from municipal wastewater and infiltration due to drainage and leaching from agricultural land. The numerical requirement in the Waters Protection Ordinance for ammonium is 0.2 mg/l N for water temperatures above 10°C and 0.4 mg/l N for temperatures below 10°C.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_ammonium:wms",
+    "title": "Ammonium",
+    "type": "Dataset"
+  }
+}

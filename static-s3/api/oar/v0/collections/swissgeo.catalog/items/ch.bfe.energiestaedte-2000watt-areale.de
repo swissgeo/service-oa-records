@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.energiestaedte-2000watt-areale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energiestaedte-2000watt-areale?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energiestaedte-2000watt-areale?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/2000-watt-areale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d11e76bf-7df2-4057-8fa8-71a0a19523ea",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Label für 2000-Watt-Areale zeichnet Siedlungsgebiete aus, die einen nachhaltigen Umgang mit Ressourcen für die Erstellung von Gebäuden, deren Betrieb und Erneuerung und die durch den Betrieb verursachte Mobilität gesamthaft nachweisen können. Das Zertifikat ist auf Grundlage des bekannten Energiestadt-Labels in Kombination mit dem SIA-Effizienzpfad Energie für Gebäude aufgebaut. Für die Arealentwicklung kann das Zertifikat schon in einer frühen Projektphase beantragt werden und wird nach der Bewertung der Projektziele und der verpflichtenden Vereinbarung zur Einhaltung dieser Ziele erteilt. Das Zertifikat für eine Arealentwicklung kann solange erteilt werden, bis mehr als 50% der Gebäudeflächen der bestimmungsgemässen neuen Nutzung übergeben sind. Folgend muss sich das Areal einer neu aufgelegten Zertifizierung im Betrieb beweisen. Das Label beruht auf der Beurteilung vom Management-System, von Kommunikation und Kooperation, der Gebäudeerstellung und des Betriebs, der Ver- und Entsorgung sowie der Mobilität.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energiestaedte-2000watt-areale:wms",
+    "title": "2000-Watt-Areale",
+    "type": "Dataset"
+  }
+}

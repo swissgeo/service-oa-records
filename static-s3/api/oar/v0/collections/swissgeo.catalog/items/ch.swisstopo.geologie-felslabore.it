@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-felslabore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-felslabore?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-felslabore?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f995a522-62cb-4316-a762-f6a319985ed7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "I laboratori sotterranei della Svizzera sono delle istallazioni di ricerca nei quali si studiano le proprietà e i processi intrinseci delle rocce circostanti. L'obbiettivo è quello di studiare l'idoneità delle rocce per varie applicazioni. La ricerca è incentrata, tra l'altro, sull'idoneità delle unità rocciose per lo stoccaggio a lungo termine delle scorie radioattive e per lo stoccaggio di CO2, ma anche sulle indagini relative allo sfruttamento delle risorse geotermiche. Per quanto riguarda il lavoro in situ, sono stati fissati 3 obiettivi: 1) sviluppo di nuovi metodi e tecnologie per l'esplorazione e l'utilizzo del sottosuolo, 2) caratterizzazione della roccia, determinazione dei valori caratteristici e identificazione dei processi termici, idraulici e meccanici, e 3) esperimenti di dimostrazione, convalida delle nuove tecnologie. I laboratori sotterranei giocano un ruolo importante per facilitare l'accettazione sociale delle tecnologie e dei processi tecnici applicati nel sottosuolo.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-felslabore:wms",
+    "title": "Laboratori sotterranei",
+    "type": "Dataset"
+  }
+}

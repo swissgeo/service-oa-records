@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.solarenergie-eignung-fassaden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.solarenergie-eignung-fassaden?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.solarenergie-eignung-fassaden?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/solare-idoneita-facciate",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/3849f57d-9bdd-428c-8d13-08be446e197a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'energia solare che incontra la superficie terrestre può essere sfruttata per mezzo di due affermate tecnologie solari, quella fotovoltaica (corrente elettrica) e il solare termico (calore) per produrre energia rinnovabile. Il potenziale offerto dall'elettricità di origine solare è notevole: da qui al 2050 circa il 20 per cento dell'attuale fabbisogno di energia elettrica potrebbe essere generato attraverso il fotovoltaico. Il calore solare costituisce un'opzione interessante grazie a tipologie di impianti standardizzate per l'acqua calda e il sostegno al riscaldamento. Una carta dell'idoneità indica quanto efficientemente una determinata facciata potrebbe essere utilizzata per lo sfruttamento dell'energia solare e quale resa sarebbe possibile ottenerne. A questo scopo viene simulata la traiettoria solare nell'arco dell'anno e calcolata l'insolazione relativa a ciascuna facciata. Il valore indicato rappresenta la superficie totale della facciata, compresi elementi quali le finestre. I calcoli si basano sui valori relativi all'insolazione forniti dall'Ufficio federale di meteorologia e di climatologia (MeteoSuisse) nonché sui dati in 3D forniti dall'Ufficio federale di topografia swisstopo (prodotto swissBUILDINGS3D 2.0).<br><br> A partire dal 2023, il potenziale solare viene calcolato sulla base di nuovi dati. Ad ogni aggiornamento annuale, una parte della Svizzera verrà aggiornata con questi nuovi dati. La documentazione del modello contiene una panoramica delle aree già aggiornate. Inoltre, l'efficienza dei moduli degli impianti fotovoltaici è stata aumentata dal 17% al 20% per tutta la Svizzera a partire dall'1.1.2023.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.solarenergie-eignung-fassaden:wmts",
+    "title": "Energia solare: idoneità delle facciate",
+    "type": "Dataset"
+  }
+}

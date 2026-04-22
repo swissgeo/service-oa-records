@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.waldschadenflaechen-lothar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.waldschadenflaechen-lothar?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.waldschadenflaechen-lothar?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.bafu.waldschadenflaechen-lothar/waldschadenflaechen-lothar/waldschadenflaechen-lothar.zip",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/82f9d51a-7050-4ef2-8bcf-6364967eb845",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The aim of the federal government’s “Lothar” storm damage inventory was to produce a complete and uniform database of total and partial damage to forests throughout Switzerland. The following criteria and conditions were defined for this purpose: Area of total damage: Destroyed forest with a maximum degree of vegetation cover of the residual stand of <= 0.2 (20%), regardless of the previous vegetation cover of the forest. Area of partial damage: Partially destroyed forest with a residual stand in the upper layer and a degree of vegetation cover between 0.2 and 0.6; areas with a degree of vegetation cover >= 0.6 no longer qualify as areas of storm damage. Examples of delimitation problems relating to areas of total and partial damage are presented in chapter 8 (red boundaries on slides), together with the corresponding solutions. Areas of forest which had a low degree of vegetation cover before the occurrence of storm damage (e.g. woodlands with loose stands) represent particularly difficult challenges in terms of aerial photo interpretation. The examples shown in chapter 7.5 served as aids for estimating degrees of cover. Minimal areas: 1 hectare per recorded area. A template (slide) for various aerial image scales was used for verifying the elimination of stands. Collective forest areas: If areas of different types of damage existed, the entire area had to exceed 1 hectare. In some cases, a partial area may be less than 1 hectare.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.waldschadenflaechen-lothar:wmts",
+    "title": "Lothar storm damage",
+    "type": "Dataset"
+  }
+}

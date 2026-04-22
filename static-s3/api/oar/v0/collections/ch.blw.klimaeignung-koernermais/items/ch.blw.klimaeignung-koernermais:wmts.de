@@ -1,0 +1,34 @@
+{
+  "id": "ch.blw.klimaeignung-koernermais:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.klimaeignung-koernermais/items/ch.blw.klimaeignung-koernermais:wmts?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.klimaeignung-koernermais?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.blw.klimaeignung-koernermais",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.blw.klimaeignung-koernermais"
+    ]
+  }
+}

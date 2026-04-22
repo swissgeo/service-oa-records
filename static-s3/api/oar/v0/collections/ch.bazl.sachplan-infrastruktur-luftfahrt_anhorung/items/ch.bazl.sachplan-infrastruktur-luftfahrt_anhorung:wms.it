@@ -1,0 +1,34 @@
+{
+  "id": "ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung/items/ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung:wms?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bazl.sachplan-infrastruktur-luftfahrt_anhorung"
+    ]
+  }
+}

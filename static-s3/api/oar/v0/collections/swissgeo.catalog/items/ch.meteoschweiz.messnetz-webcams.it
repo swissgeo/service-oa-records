@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messnetz-webcams",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-webcams?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-webcams?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteosvizzera.admin.ch/tempo/i-sistemi-di-rilevamento/stazioni-al-suolo/rete-di-telecamere.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d3fb5971-b21b-433f-aa27-2fa8adb76248",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di meteorologia e climatologia MeteoSvizzera",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per disporre di informazioni sull'attuale situazione meteorologica lungo le principali rotte di volo svizzere, MeteoSvizzera dispone una trentina di telecamere panoramiche meteorologiche. Le telecamere consentono di sorvegliare la situazione meteorologica soprattutto lungo le principali rotte di volo. L'angolazione della visuale e la posizione delle telecamere devono consentire l'osservazione di quanto avviene nell'atmosfera nelle vallate e sui passi alpini, in particolare nelle zone rilevanti per il traffico aereo. Ogni dieci minuti le telecamere salvano un'immagine panoramica. A partire dal 2021 MeteoSvizzera ha rinnovato successivamente le varie telecamere introducendo una nuova, moderna, tecnologia. Le nuove telecamere permettono la ripresa di immagini panoramiche in risoluzione 4k, fino a 100 megapixel, con ottima qualità anche di notte. Ciò permette un'osservazione continua dell'evoluzione meteorologica e contribuisce a elaborare affidabili previsioni per il mondo dell'aviazione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Telecamere meteorologiche",
+    "type": "Dataset"
+  }
+}

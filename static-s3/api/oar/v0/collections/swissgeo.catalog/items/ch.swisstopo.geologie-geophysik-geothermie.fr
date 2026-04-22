@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-geothermie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-geothermie?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geophysik-geothermie?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/fr/livres-et-publications/service-geologique-national/materiaux-pour-la-geologie-de-la-suisse/serie-geophysique",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/2d8174b2-8c4a-44ea-b470-cb3f216b90d1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte géothermique rend compte de l'énergie thermique produite dans le sous-sol qui traverse 1 m2 de surface terrestre (mW/m2). Les valeurs du flux de chaleur sont calculées à partir du gradient thermique (en moyenne environ 30 K/km) et de la conductivité thermique des roches (en moyenne environ 3 W/(m·K). Une grande partie de la chaleur est libérée par des processus de désintégration radioactive qui se déroulent dans la croûte terrestre (environ 30 km). En Suisse, le flux de chaleur moyen est d'environ 90 mW/m2. Le flux de chaleur est le plus élevé dans le nord de la Suisse, et il est le plus faible dans l'arc alpin et dans le Jura. Les écarts sont généralement dus à des eaux souterraines qui circulent en profondeur dans des roches perméables. - Source: <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/2d8174b2-8c4a-44ea-b470-cb3f216b90d1/attachments/Beitrag_GP_030_Medici-Rybach.pdf?approved=true\" target=\"_blank\">F. MEDICI & L. RYBACH, Geothermal map of Switzerland 1995 (heat flow density), Matériaux pour la Géologie de la Suisse, Série géophysique, no. GP-30</a>.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geophysik-geothermie:wmts",
+    "title": "Densité de flux thermique 500",
+    "type": "Dataset"
+  }
+}

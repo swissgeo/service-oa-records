@@ -1,0 +1,102 @@
+{
+  "id": "ch.bakom.uplink1000",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.uplink1000?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.uplink1000?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/de/breitbandatlas",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/69404fc3-9be6-4479-a09e-48f47e51588f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Kommunikation BAKOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Breitbandatlas gibt eine Übersicht über die Versorgung der Schweiz mit modernen Telekommunikationsnetzen. Die Versorgungssituation wird in Form von statistischen Daten pro Planquadrat (250x250 Meter) dargestellt. Die Karte zeigt, in wie vielen Gebäuden eine Internet-Upload-Geschwindigkeit von 1000 Mbit/s oder mehr über Festnetz angeboten wird (in Prozent der Gebäudeeingänge gemäss Datenbestand des Bundesamtes für Statistik). Die Darstellung der Versorgungssituation erfolgt ohne Gewähr. Die reale Versorgungssituation ist bei den Anbietern zu erfragen. Siehe diesbezüglich die Zusatzinformationen zur Karte \"Anzahl Leitungsanbieter\".",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.uplink1000:wmts",
+    "title": "Upload ≥ 1000 Mbit/s",
+    "type": "Dataset"
+  }
+}

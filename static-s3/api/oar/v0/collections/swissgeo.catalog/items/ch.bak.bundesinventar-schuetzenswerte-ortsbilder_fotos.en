@@ -1,0 +1,101 @@
+{
+  "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/en/home/baukultur/isos-und-ortsbildschutz.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b9c1d690-008f-494c-a47f-ec96d9a8d84f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Culture FOC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "The Inventory of Swiss Heritage Sites (ISOS) designates and documents the most valuable sites of national importance.Work on the ISOS began in 1973 with the development of a suitable method for cataloguing sites – the ISOS method. In 2016, the Federal Office of Culture (FOC) updated this method and adapted the presentation of the inventory in line with GIS technology. The original method (ISOS I) and the adapted method (ISOS II) are based on the same basic principles and rules. This portal presents the ISOS site records currently in use. There are two kinds of data: 1. the site records prepared using the ISOS I method, which are only available as PDFs; 2. the site records updated using the ISOS II method, which are available as PDFs and geodata. Please be aware that only the PDFs are legally valid. The geodata are for information purposes only. The level of detail increases as the scale increases. The ISOS is currently being revised and the revision is taking place in stages. This means that for a certain period of time, site records compiled using the ISOS I method and those updated using the ISOS II method will coexist on this portal. Once the revision for the whole of Switzerland has been completed, only the site records compiled using the ISOS II method will be available. This layer presents the photos for the site records updated using the ISOS II method. It is updated once a year. The information is clearest when this layer is placed over the “site records” layer. The photos can be viewed from a scale of 1: 50,000. All ISOS data (plans, texts, photos) are the intellectual property of the Swiss federal government (© FOC, Bern). For detailed information on ISOS, see www.isos.ch.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos:wmts",
+    "title": "ISOS - Photos",
+    "type": "Dataset"
+  }
+}

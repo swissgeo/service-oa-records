@@ -1,0 +1,97 @@
+{
+  "id": "ch.vbs.waldschadenkarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.vbs.waldschadenkarte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.vbs.waldschadenkarte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/2ff2299e-55b5-4ec7-bb92-fbb06e7ee422",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Secrétariat général DDPS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le programme PROJEKTIL vous permet de visualiser:- les dommages causés aux arbres par des impacts de tirs, y compris les dommages subséquents provoqués par les militaires, et - les places de tir. Grâce à cette visualisation par le biais d'Internet, l'utilisateur dispose d'un outil efficace pour acquérir une vue d'ensemble sur les dégâts occasionnés par des tirs et sur les places de tir. L'objectif, à l'avenir, est de réduire les dégâts et le versement d'indemnisations y relatives (prévention).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.waldschadenkarte:wmts",
+    "title": "Carte des dégâts aux forêts",
+    "type": "Dataset"
+  }
+}

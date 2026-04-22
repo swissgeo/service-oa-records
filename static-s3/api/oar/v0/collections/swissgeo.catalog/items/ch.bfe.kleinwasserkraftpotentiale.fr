@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.kleinwasserkraftpotentiale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.kleinwasserkraftpotentiale?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.kleinwasserkraftpotentiale?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/potentiel-petite-hydraulique",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c4b695b0-23ad-4d0d-a496-16fc0f597819",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le produit de géodonnées «Kleinwasserkraftpotentiale der Schweizer Gewässer» (potentiel des cours d'eau suisses pour la petite hydraulique) est le résultat d'une analyse SIG menée en 2012 dans le cadre du programme de recherche 102835 «Erhebung des Kleinwasserkraftpotentials der Schweiz» (Relevé du potentiel de la petite hydraulique en Suisse). Il calcule le potentiel hydroélectrique théo-rique de tous les cours d'eau naturels de la Suisse. Pour pouvoir interpréter les données sur le poten-tiel théorique, il convient de tenir compte du fait que seule une partie de ce potentiel est vraiment utilisable pour la production d'électricité, compte tenu des aspects techniques, écologiques, scientifiques et juridiques. Il faut pour cela consulter la documentation relative au modèle de géodonnées d'une part, et le rapport final du projet de recherche d'autre part.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.kleinwasserkraftpotentiale:wmts",
+    "title": "Potentiel petite hydraulique",
+    "type": "Dataset"
+  }
+}

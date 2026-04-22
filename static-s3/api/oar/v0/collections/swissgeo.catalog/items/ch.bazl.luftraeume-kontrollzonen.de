@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.luftraeume-kontrollzonen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.luftraeume-kontrollzonen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.luftraeume-kontrollzonen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/de/flugsicherung-und-luftraum",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ee7cdbda-996a-45f9-aeff-aa63fa0d446a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Zivilluftfahrt BAZL",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Gestützt auf die Artikel 40 des Luftfahrtgesetzes (LFG; SR 748.0) sowie Artikel 2 Absatz 1 der Verordnung über den Flugsicherungsdienst (VFSD; SR 748.132.1) legt das BAZL die Luftraumstruktur und die Luftraumklassen fest.Kontrollzonen gemäss dem letzten Ausgabedatum der ICAO-Karte. Die zusätzlichen Informationen, wie die Luftraumklasse, Konditionen zur Nutzung und weitere Informationen der dargestellten Lufträume ist der offiziellen Publikation (AIP und ICAO-Karte) zu entnehmen. Die Abgrenzungen der Lufträume werden in Fuss / Flight Level (FL) angegeben.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftraeume-kontrollzonen:wmts",
+    "title": "Lufträume - CTR",
+    "type": "Dataset"
+  }
+}

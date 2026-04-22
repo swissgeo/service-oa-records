@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.geochemischer-bodenatlas_schweiz_blei",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.geochemischer-bodenatlas_schweiz_blei?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.geochemischer-bodenatlas_schweiz_blei?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.agroscope.admin.ch/agroscope/en/home/topics/environment-resources/soil-bodies-water-nutrients/nabo/geochemischer-bodenatlas.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/52d72cde-cc23-4f60-bd88-3dbd0bda1bdf",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Interpolierte Blei-Konzentrationen (mg/kg Feinerde) in den Oberböden (0–20 cm) der Schweiz. Für die Ordinary Kriging Interpolationen (1 km x 1 km) wurden Messdaten von insgesamt 1'201 Standorten des Biodiversitätsmonitorings Schweiz, der Nationalen Bodenbeobachtung und des europäischen geochemischen Bodenatlas berücksichtigt. Die Element-Konzentrationen wurden in Königswasser Aufschlüssen (HNO₃:HCl:H₂O) von getrockneten (40°C), gesiebten (< 2 mm) und anschliessend gemahlenen Bodenproben mittels induktiv gekoppelter Plasma Massenspektrometrie analysiert. Standorte mit bekannter anthropogener Überprägung der Element-Konzentrationen (Punktquellen) wurden vorgängig ausgeschlossen. Bei den Ergebnissen des geochemischen Bodenatlas handelt es sich um eine Momentaufnahme der Element-Konzentrationen in den Oberböden der Schweiz (Probenahmezeitraum 2011–2015). Die interpolierten Karten dienen der verbesserten Visualisierung von Regionen mit erhöhten resp. tiefen Konzentrationen. Es können daraus jedoch keine parzellenscharfen Informationen oder definitive Rückschlüsse auf die Geologie, die Bioverfügbarkeit, die prozentualen Verteilung der geogenen und anthropogenen Quellen sowie die Belastung des Bodens abgeleitet werden. Zitat Publikation: J. E. Reusser, M. B. Siegenthaler, L. H. E. Winkel, D. Wächter, R. Kretzschmar, R. G. Meuli: Geochemischer Bodenatlas der Schweiz. Agroscope, Zürich, 2023.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.geochemischer-bodenatlas_schweiz_blei:wmts",
+    "title": "Concentrations of Lead in the soil",
+    "type": "Dataset"
+  }
+}

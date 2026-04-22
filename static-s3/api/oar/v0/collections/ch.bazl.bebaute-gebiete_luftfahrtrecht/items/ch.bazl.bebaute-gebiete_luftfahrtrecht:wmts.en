@@ -1,0 +1,34 @@
+{
+  "id": "ch.bazl.bebaute-gebiete_luftfahrtrecht:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.bebaute-gebiete_luftfahrtrecht/items/ch.bazl.bebaute-gebiete_luftfahrtrecht:wmts?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.bebaute-gebiete_luftfahrtrecht?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bazl.bebaute-gebiete_luftfahrtrecht",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bazl.bebaute-gebiete_luftfahrtrecht"
+    ]
+  }
+}

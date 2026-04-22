@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.messnetz-flugwetter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-flugwetter?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messnetz-flugwetter?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.meteoschweiz.admin.ch/wetter/messsysteme/bodenstationen/beobachtungsnetz-fuer-flugwetter.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7a069711-0dbf-45c4-9b43-60b66d407e74",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Meteorologie und Klimatologie MeteoSchweiz",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "MeteoSchweiz ist für die Flugsicherheit in meteorologischer Sicht verantwortlich und leistet mit meteorologischen Messungen einen wichtigen Beitrag zur Sicherheit in der Aviatik. Ohne genaue Kenntnisse der aktuellen Wettersituation ist der rege Flugverkehr von heute nicht denkbar. Damit die Flieger abheben können, überwachen die Mitarbeitenden von MeteoSchweiz die Wetterbedingungen am Flughafen Zürich und Genf rund um die Uhr. Neben der noch immer wichtigen Augenbeobachtung kommt dabei eine Reihe spezifischer Messgeräte zum Einsatz. Dazu zählen unter anderem Ceilometer zur Bestimmung der Wolkenschichten, Transmissometer zur Messung der Sichtweite sowie diverse Sensoren zur Bestimmung des aktuellen Wetters. Diese Instrumente sind neben den beiden internationalen Flughäfen in Genf und Kloten auch auf acht regionalen Flugplätzen in Betrieb. Die Informationen dieser Instrumente werden verwendet, um Meldungen für Piloten und die Flugsicherung zu erstellen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Flugplatzstationen",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.minergiegebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.minergiegebaeude?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.minergiegebaeude?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.minergie.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ad60a67c-f0a0-41fa-84f2-20b8565c9da9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Minergie ist seit 1998 der Schweizer Baustandard für Komfort, Effizienz und Wert- erhalt. Die Marke wird von der Wirtschaft, den Kantonen und dem Bund gemeinsam getragen und ist vor Missbrauch geschützt. Im Zentrum steht der Wohn- und Arbeitskomfort für die Gebäudenutzenden, sowohl in Neubauten als auch bei Erneuerungen. Eine besondere Rolle spielen dabei die hochwertige Gebäudehülle und ein kontrollierter Luftwechsel. Minergie-Bauten zeichnen sich zudem durch einen sehr geringen Energiebedarf und einen möglichst hohen Anteil an erneuerbaren Energien aus. Die Quantifizierung der Bauqualität wird durch den spezifischen Energieverbrauch pro Quadratmeter Energiebezugsfläche (EBF) festgelegt. Die drei bekannten Baustandards Minergie, Minergie-P und Minergie-A stellen bereits in der Planungsphase höchste Qualität und Effizienz sicher. Der Minergie Standard für Niedrigenergie-Bauten richtet sich an Bauherren und Planer mit überdurchschnittlichen Ansprüchen an Qualität, Komfort und Energie. Minergie-P bezeichnet Niedrigstenergie-Bauten und genügt maximalen Ansprüchen an Qualität, Komfort und Energie. Insbesondere wegen einer herausragenden Gebäudehülle. Minergie-A kombiniert höchste Anforderungen an Qualität und Komfort mit maximaler energetischer Unabhängigkeit, dank grosser Photovoltaikanlage, Batterie und Lastmanagement. Ergänzt werden sie durch drei frei kombinierbare Zusatzprodukte: ECO berücksichtigt die Themen Gesundheit und Bauökologie. MQS Bau richtet sich an Bauherren und Planende, welche die anspruchsvollen Vorgaben am Bau garantiert haben möchten. MQS Betrieb optimiert die Nutzung der haustechnischen Anlagen und gewährleistet dadurch einen maximalen Komfort. Zurzeit sind in der Schweiz mehr als 39‘600 Gebäude mit dem Zertifikat Minergie, mehr als 3‘600 Gebäude mit dem Zertifikat Minergie-P und mehr als 550 Gebäude mit dem Zertifikat Minergie-A ausgezeichnet.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.minergiegebaeude:wms",
+    "title": "Minergie",
+    "type": "Dataset"
+  }
+}

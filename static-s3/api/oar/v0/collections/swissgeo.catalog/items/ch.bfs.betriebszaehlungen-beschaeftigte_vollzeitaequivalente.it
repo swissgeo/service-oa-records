@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/fr/home/services/geostat/geodonnees-statistique-federale/etablissements-emplois/statistique-structurel-entreprises-statent-depuis-2011.assetdetail.32258833.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/1a764cdd-9d11-4cfe-b440-66d7caef7fa4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di statistica UST",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Dal 1995 per tutte le sedi di lavoro rilevate nell'ambito dei censimenti federali delle aziende vengono determinate delle coordinate. Numerose caratteristiche relative ad aziende e impieghi di tutti i settori economici, suddivise tra tempo pieno e parziale e secondo la NOGA (nomenclatura generale delle attività economiche), vengono aggregate all'ettaro dopo ogni rilevamento e sono disponibili sotto forma di geodati.Dal 2011, il censimento delle aziende è sostituito dalla statistica strutturale delle imprese (STATENT), cioé un rilevamento dettagliato realizzato sulla base di dati tratti dai registri delle casse di compensazione AVS. La STATENT fornisce informazioni chiave sulla struttura dell'economia svizzera (p.es. numero di imprese, numero di stabilimenti, numero di addetti ecc.) dando una visione generale del panorama economico svizzero. Gli addetti in equivalenti a tempo pieno (EPT) risultano dalla conversione del volume di lavoro (misurato in termini di addetti o di ore di lavoro) in impieghi a tempo pieno.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wmts",
+    "title": "Addetti (EPT)",
+    "type": "Dataset"
+  }
+}

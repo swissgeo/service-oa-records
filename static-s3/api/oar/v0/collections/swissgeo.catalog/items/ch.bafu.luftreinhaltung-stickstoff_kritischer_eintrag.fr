@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/air/effets-de-la-pollution-atmospherique/effets-de-la-pollution-atmospherique-sur-les-ecosystemes/les-polluants-atmospheriques-azotes-portent-atteinte-a-la-biodiv.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/95e73bc3-da75-4356-9b04-2cc7c3b1cec9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les dépôts excessifs de composés azotés réactifs (NO₂, NO₃⁻, HNO₃, NH₃, NH₄⁺) entraînent une eutrophisation (surfertilisation) des écosystèmes sensibles, contribuent à l'acidification des sols et augmentent la lixiviation des nitrates et le lessivage des éléments nutritifs dans les sols. En outre, ces dépôts accroissent la production de protoxyde d'azote dans les sols. Les méthodes de détermination des charges critiques (« critical loads ») d'azote sont développées et appliquées dans le cadre de la Convention CEE-ONU sur la pollution atmosphérique transfrontière à longue distance. La série temporelle montre les cartes de dépassement des charges critiques d'azote dans les écosystèmes sensibles pour les années 1990, 2000, 2005. 2010, 2015 et 2020 sur une grille de 1x1 km. Ces charges critiques ne s'appliquent toutefois qu'aux surfaces contenant des écosystèmes sensibles. Pour ces cartes, les écosystèmes sensibles suivants, répertoriés dans des inventaires, ont été utilisés : i) hauts-marais et bas-marais des inventaires fédéraux des hauts-marais et des bas-marais d'importance nationale ; ii) prairies sèches de l'inventaire fédéral des prairies et pâturages secs d'importance nationale ; iii) surfaces de 21 types de végétation dignes de protection de l'Atlas de la végétation à protéger en Suisse (Hegg et al. 1993) ; iv) surfaces présentant des prairies de fauche de l'étage montagnard et faisant partie du Monitoring de la biodiversité en Suisse (122 surfaces) ; v) lacs alpins oligotrophes dans le sud de la Suisse (100 lacs) ; vi) surfaces forestières de l'inventaire forestier national (10 331 surfaces) et surfaces forestières utilisées pour les modélisations dynamiques (301). Les écosystèmes sensibles qui ne sont pas répertoriés dans ces inventaires ne sont pas pris en considération. Des informations détaillées concernant les charges critiques utilisées ainsi que la modélisation des dépassements sont présentées dans le rapport Critical Loads of Nitrogen and their Exceedances (disponible uniquement en anglais). Les dépassements des charges critiques peuvent localement diverger des données modélisées. Les pixels individuels ne doivent pas être utilisés pour l'évaluation de sites uniques.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-stickstoff_kritischer_eintrag:wmts",
+    "title": "Dépassement CLN",
+    "type": "Dataset"
+  }
+}

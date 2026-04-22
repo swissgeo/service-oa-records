@@ -1,0 +1,34 @@
+{
+  "id": "ch.astra.strassenverkehrszaehlung-uebergeordnet:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.strassenverkehrszaehlung-uebergeordnet/items/ch.astra.strassenverkehrszaehlung-uebergeordnet:wms?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.strassenverkehrszaehlung-uebergeordnet?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.strassenverkehrszaehlung-uebergeordnet",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.astra.strassenverkehrszaehlung-uebergeordnet"
+    ]
+  }
+}

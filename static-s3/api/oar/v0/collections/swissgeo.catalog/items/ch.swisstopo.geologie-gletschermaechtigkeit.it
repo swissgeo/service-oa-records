@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gletschermaechtigkeit",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletschermaechtigkeit?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gletschermaechtigkeit?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.glamos.ch/it/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/57052989-5074-4841-abb6-22d1989d615f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La rete di monitoraggio dei ghiacciai svizzeri (GLAMOS) mira a documentare a lungo termine i cambiamenti dei ghiacciai in Svizzera. Il Laboratorio di Idraulica, Idrologia e Glaciologia (VAW) e altre istituzioni della GLAMOS raccolgono sistematicamente dati sullo sviluppo della superficie, del volume, ma anche dell'accumulo di neve e dello scioglimento dei ghiacci, così come dil flusso e le temperature del ghiaccio. La determinazione dello spessore e le stime del volume totale del ghiaccio nelle Alpi svizzere si basano su misure georadar combinate con metodi di calcolo glaciologico. Fino al 2015, sono stati registrati circa 1500 km di profili radar sui ghiacciai svizzeri nell'ambito di vari progetti. In seguito, circa 1250 km di profili radar sono stati raccolti utilizzando un nuovo sistema sviluppato presso il Politecnico federale di Zurigo montato a bordo di un elicottero. Per interpolare i profili radar misurati e calcolare il volume totale del ghiaccio, il Politecnico di Zurigo ha sviluppato due diversi algoritmi indipendenti basati sui principi del flusso di ghiaccio. Dalle misurazioni dello spessore del ghiaccio ora disponibili fino al 2020 e dalla conoscenza delle aree dei ghiacciai e della topografia della superficie, è stato finalmente possibile determinare la distribuzione capillare dello spessore di tutti i ghiacciai. Da quest'ultima è stata derivata anche la topografia del letto del ghiacciaio.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletschermaechtigkeit:wmts",
+    "title": "Spessore dei ghiacciai",
+    "type": "Dataset"
+  }
+}

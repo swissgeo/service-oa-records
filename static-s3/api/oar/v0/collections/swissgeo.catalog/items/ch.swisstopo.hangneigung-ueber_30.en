@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.hangneigung-ueber_30",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hangneigung-ueber_30?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hangneigung-ueber_30?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/77f0637f-8d52-45bc-b824-d6e5719de55b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Derivate representation of the digital terrain model swissALTI3D and models from France, Italy, Austria and Germany, which allows for the identification of inclinations over 30°. According to the recommendation of the Institute for Snow and Avalanche Research SLF the slopes are categorized into 4 classes. They were calculated from a combined digital terrain with a resolution of 10m made up from swissALTI3D for Switzerland and Liechtenstein, RGE ALTI for France, TINITALY for Italy, DGM10 for Austria, DGM1 for Bavaria and EU-DEM for Baden-Württemberg. The precision of the inclination values in the transistional area between the different base models cannot be guaranteed. Liability claims for the representation of gradients over 30° cannot be asserted.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hangneigung-ueber_30:wmts",
+    "title": "Slope classes over 30°",
+    "type": "Dataset"
+  }
+}

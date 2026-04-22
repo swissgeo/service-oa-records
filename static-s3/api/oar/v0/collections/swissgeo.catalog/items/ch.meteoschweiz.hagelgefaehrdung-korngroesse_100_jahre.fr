@@ -1,0 +1,102 @@
+{
+  "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_100_jahre",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_100_jahre?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.hagelgefaehrdung-korngroesse_100_jahre?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.climatologie-grele.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f4339ba8-1421-4fb9-8d41-3650bb873a84",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les cartes du danger de grêle montrent les valeurs de retour de la taille des grêlons LEHA-100 statistiquement estimées pour la période de retour de 100 ans. LEHA-100 décrit la plus grande taille des grêlons attendue sur une surface de référence de 100 m2. LEHA est dérivé de la taille de grêle maximale estimée par kilomètre carré avec l'algorithme radar MESHS (données radar de MétéoSuisse pour la période de 2002 à 2020).Les nouvelles cartes du danger de grêle représentent la taille des grêlons en fonction de la période de retour T. Ils décrivent la taille des grêlons qui sera dépassée dans les conditions climatiques actuelles, par surface de référence, avec une probabilité de 1/T par an. Ainsi, la carte pour 50 ans montre quelle taille de grêlon peut être attendue sur le long terme en moyenne une fois tous les 50 ans, ou avec une probabilité de 2% par an. Ces cartes fournissent une base actualisée pour évaluer le danger de grêle local. La carte des zones de grêle de l'annexe G1 de la norme SIA 261/1 (2020) reste valable sans modification. MESHS : Maximum Expected Severe Hail Size est défini comme la taille maximale de la grêle estimée par kilomètre carré. Cela signifie que la plupart des grêlons à l'intérieur de cette surface sont plus petits. LEHA : Largest Expected Hail on a Reference Area est une dérivation mathématique de la taille de la grêle MESHS définie pour un kilomètre carré. Il décrit le plus gros grêlon attendu sur une zone de référence plus petite. Dans des cas extrêmes, un grêlon MESHS peut avoir un impact sur la zone de référence petite, mais cela se produit rarement. DOI: https://doi.org/10.18751/Climate/Griddata/CHHC/1.0",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_100_jahre:wms",
+    "title": "Danger grêle (taille), 100 ans",
+    "type": "Dataset"
+  }
+}

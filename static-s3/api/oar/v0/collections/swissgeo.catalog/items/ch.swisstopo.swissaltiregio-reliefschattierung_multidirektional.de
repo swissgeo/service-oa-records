@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.swissaltiregio-reliefschattierung_multidirektional",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swissaltiregio-reliefschattierung_multidirektional?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swissaltiregio-reliefschattierung_multidirektional?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ee980a56-7792-45c6-8b77-d6470ea91c72",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Reliefschattierung ist ein Derivat aus dem digitalen Höhenmodell swissALTIRegio. Es erlaubt die Visualisierung des Reliefs der Schweiz und des Fürstentums Liechtenstein, sowie des angrenzenden Auslands. Die Reliefschattierung ist ein digitales Schummerungsbild bei einem oder mehreren berechneten Lichteinfällen. Für die Darstellung der vorliegenden Reliefschattierung aus swissALTIRegio wurden sechs verschiedene Sonnenstände kombiniert. Der mittlere Sonnenstand befindet sich im Nordwesten.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swissaltiregio-reliefschattierung_multidirektional:wmts",
+    "title": "swissALTIRegio multidirektionales Relief",
+    "type": "Dataset"
+  }
+}

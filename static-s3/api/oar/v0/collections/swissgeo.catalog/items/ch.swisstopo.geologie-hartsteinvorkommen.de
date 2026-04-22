@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-hartsteinvorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hartsteinvorkommen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-hartsteinvorkommen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/258c7ccf-5e7f-4759-9c09-519d41ba4d02",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Fachgruppe Georessourcen Schweiz",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Rohstoff Hartstein spielt beim Bau und Unterhalt des Schweizer Schienennetzes (Gleisschotter) sowie von Hochleistungs- und Hauptverkehrsstrassen (Hartsplitt) eine zentrale Rolle. Mehr dazu: <a href=\"https://mat-min.ch/de/hartstein\" target=\"_blank\">www.mat-min.ch</a>. Dieser Datensatz (Rasterzellengrösse: 50 x 50 m) zeigt die geschätzte räumliche Verteilung, nutzbare Mächtigkeit und Qualität der Hartstein führenden geologischen Einheiten unterhalb einer Terrainhöhe von 1300 m ü.M. und mächtiger als 30 m. Der Datensatz wurde auf der Grundlage von geologischen Profilen, stratigrafischen Beschreibungen und durch einen automatisierten Workflow erstellt, der auf den GeoCover-Datensatz angewendet wurde. Weitere Informationen zu den berücksichtigten geologischen Einheiten befinden sich im <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_catalog_2024.pdf\" target=\"_blank\">Hartstein-Katalog</a>. Der Workflow und die Evaluationsmethodik für die gezeigten Daten sind in der <a href=\"https://api3.geo.admin.ch/featureattachments/ch.swisstopo.geologie-hartsteinvorkommen/pdf/Hard_rock_tech_doc_2024.pdf\" target=\"_blank\">Technischen Dokumentation</a> und in <a href=\"https://doi.org/10.1016/j.jsg.2023.104865\" target=\"_blank\">Nibourel et al. (2023)</a> dokumentiert. Die Hartstein-Produktions- und Abbaustandorte werden in einem eigenen Datensatz angezeigt (<a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-hartsteinabbau&topic=georessourcen\" target=\"_blank\">Hartstein: Produktions- und Abbaustandorte</a>).Nutzende anerkennen, dass die Autoren alle zumutbaren Aufwände unternommen haben, um die Informationen des Datensatzes zu verifizieren. Es gibt keine Garantie, dass die angegebenen Daten an einem bestimmten Punkt korrekt sind. Die Herausgebenden sind unter keinen Umständen für jegliche Verluste oder Schäden materieller oder immaterieller Art haftbar, welche aus dem Zugriff auf, die Nutzung oder Nichtnutzung der veröffentlichen Informationen, durch Missbrauch oder technische Störungen entstehen. Für eine Standortentwicklung eines Rohstoffabbaus ist eine detaillierte geologische Untersuchung der Vorkommen vor Ort unumgänglich.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hartsteinvorkommen:wmts",
+    "title": "Hartstein: Vorkommen",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-totalintensitaet",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-totalintensitaet?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geophysik-totalintensitaet?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geologieportal.ch/it/temi/nozioni-di-base-sulla-geologia/Geofisica.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/132d9ff6-92de-4c02-87a7-72df26bcb33e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le carte geomagnetiche sono ottenute dalle misurazioni dell'intensità totale, della declinazione e dell'inclinazione. Il campo magnetico terrestre viene definito con un vettore rappresentato attraverso la sua direzione e intensità (nT). Poiché il campo magnetico terrestre si modifica nel tempo, le indicazioni contenute in queste carte si riferiscono sempre a un determinato lasso di tempo. I valori possono essere adeguati con l'aiuto di formule correttive, i cui coefficienti sono stati determinati per via sperimentale. Carta in formato cartaceo: G. FISCHER & P.-A. SCHNEGG, 1979 (testo esplicativo sul retro della carta). - Carta vettoriale: 2001.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geophysik-totalintensitaet:wmts",
+    "title": "Intensità campo magnetico 500",
+    "type": "Dataset"
+  }
+}

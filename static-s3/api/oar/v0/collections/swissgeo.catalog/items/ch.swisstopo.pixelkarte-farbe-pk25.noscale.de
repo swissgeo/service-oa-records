@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk25.noscale?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://shop.swisstopo.admin.ch/de/products/maps/national/lk25",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2987a492-a097-46f3-b162-abc1b3115f85",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Die Landeskarte 1:25'000 ist eine topografische Karte der Schweiz mit sehr detaillierter Verkehrs-, Siedlungs-, Gewässer-, Gelände- und Vegetationsdarstellung. Die Nachführung erfolgt sektorenweise. Im Kartenviewer des Bundes wird standardmässig der aktuellste Stand der Karte angezeigt. Mit der «Zeitreise»-Funktion lassen sich alle verfügbaren Datenstände seit 1952 anzeigen. Die detaillierten Datenstände zeigt der Layer \"<a href=\"https://map.geo.admin.ch/?lang=de&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.swisstopo.pixelkarte-pk25.metadata\" target=\"_blank\">Einteilung Landeskarte 25 Raster</a>\". Die aktuelle Landeskarte 1:25'000 ist in analoger (Papierkarte) und in digitaler Form (Swiss Map Raster, Swiss Map Vector) verfügbar.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-farbe-pk25.noscale:wmts",
+    "title": "Landeskarte 1:25'000 | LK25",
+    "type": "Dataset"
+  }
+}

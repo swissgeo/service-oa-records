@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geocover.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geocover.metadata?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geocover.metadata?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/geologisches-modell-2d-geocover",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f7485f4f-2224-4b76-a43c-52cbf8883a42",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les jeux de données GeoCover sont mis à disposition selon le découpage de la carte nationale au 1:25'000. La couche «Découpage GeoCover» indique le périmètre, le numéro et le nom de chaque feuille. En cliquant dans le périmètre d'une feuille, les métadonnées spécifiques au jeu de données (auteur, état, base utilisée) apparaissent dans l'«Information Objet».Les feuilles décrites comme actualisées, symbolisées par une couleur verte, ont été retravaillées avec une priorisation sur l'adaptation des données à la nouvelle topographie. Pour chaque jeu de données actualisé, un rapport un plus détaillé sur les travaux effectués est disponible sur la couche <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geocover&topic=geol\" target=\"_blank\">GeoCover - données vectorielles</a>. Les feuilles symbolisées en jaune sont en cours d'actualisation ou le seront ces prochaines années. Finalement les feuilles symbolisées en bleu seront remplacées par des données nouvelles dès que les levés seront terminés (sans travail rédactionnel dans un premier temps).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geocover.metadata:wms",
+    "title": "Découpage GeoCover",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.waldschadenflaechen-vivian",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.waldschadenflaechen-vivian?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.waldschadenflaechen-vivian?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.bafu.waldschadenflaechen-vivian/waldschadenflaechen-vivian/waldschadenflaechen-vivian.zip",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/34fdf24c-b275-4d48-852b-f79d86358318",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Federal government inventory of damage caused by “Vivian” in February 1990: database of areas of total damage in forests. Defined criteria and conditions: Area of total damage: Destroyed forest with a maximum vegetation cover of the residual stand of <= 0.2 (20%), regardless of the previous vegetation cover of the forest. Minimal area: 0.2 hectares per recorded area. Location characteristics: For each area of damage, the main characteristics for input were slope steepness, altitude and exposure. Input and evaluation units: The smallest input unit was area of storm damage, while the smallest evaluation unit was the political municipality. The digitised municipal boundary data of the Federal Office of Topography were adopted for the territorial allocation of these two units.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.waldschadenflaechen-vivian:wmts",
+    "title": "Vivian storm damage",
+    "type": "Dataset"
+  }
+}

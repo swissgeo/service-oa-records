@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.hoheitsgrenze-landesvermessung:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hoheitsgrenze-landesvermessung/items/ch.swisstopo.hoheitsgrenze-landesvermessung:stac?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hoheitsgrenze-landesvermessung?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.hoheitsgrenze-landesvermessung",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.swisstopo.hoheitsgrenze-landesvermessung"
+    ]
+  }
+}

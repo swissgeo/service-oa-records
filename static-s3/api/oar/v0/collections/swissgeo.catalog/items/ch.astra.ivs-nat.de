@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.ivs-nat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-nat?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-nat?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ivs.admin.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/70b6e2ac-c7ea-4699-a22e-65792aa3b0b9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Strassen ASTRA",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Inventar der historischen Verkehrswege der Schweiz IVS enthält umfangreiche Informationen zum Verlauf der historischen Wege, ihrer Geschichte, ihrem Zustand und ihrer Bedeutung gemäss NHG. Das IVS besteht aus zwei Teilen: dem Bundesinventar und den weiteren historischen Verkehrswegen (Verordnung über das Bundesinventar der historischen Verkehrswege der Schweiz VIVS, Art. 3). Die Objekte von nationaler Bedeutung mit sichtbarer historischer Substanz bilden das rechtlich geschützte Bundesinventar. Objekte, die im historischen Kontext von nationaler Bedeutung sind, jedoch keine oder nur geringe bauliche Substanz aufweisen sind nicht Teil des Bundesinventars. Ebenfalls zum IVS, aber nicht zum Bundesinventar, gehören überdies zahlreiche Objekte, welche von den Kantonen als solche von regionaler oder lokaler Bedeutung bezeichnet werden. Nähere Informationen zum Inventar finden Sie unter folgendem Link: http://www.ivs.admin.ch/. Den kompletten Datensatz des Inventars können Sie in der folgenden WebGIS-Anwendung betrachten, sowie als Download beziehen: http://ivs-gis.admin.ch (vgl. VIVS, Art. 4).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-nat:wmts",
+    "title": "IVS National",
+    "type": "Dataset"
+  }
+}

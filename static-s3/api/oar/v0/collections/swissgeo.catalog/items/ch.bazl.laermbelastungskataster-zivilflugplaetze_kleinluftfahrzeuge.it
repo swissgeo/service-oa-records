@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/bazl/it/home/themen/umwelt/laerm/catasto-dei-rumori.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/88237a28-1e39-440f-89c4-a26c8a605243",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Conformemente al diritto ambientale svizzero (OIF; RS 814.41), gli aerodromi che producono inquinamento fonico devono rappresentare e dichiarare tale inquinamento nella forma di curve del rumore nel catasto dei rumori. I catasti forniscono unicamente un'istantanea della situazione e non hanno ripercussioni giuridiche dirette per i proprietari fondiari interessati. Questo strumento serve agli esercenti degli aerodromi per elaborare piani di misure contro carichi fonici eccessivi e alle autorità per il coordinamento con la pianificazione del territorio. Sulle carte nazionali, l'inquinamento fonico è rappresentato mediante curve di pari livello sonoro. Le curve indicano la media giornaliera dell'esposizione al rumore in un giorno di traffico di punta medio. Esse sono calcolate sulla base dei movimenti di volo effettivi o previsti e delle emissioni foniche rilevate per i diversi tipi di aerei.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge:wms",
+    "title": "Inquinam. fonico velivoli piccoli",
+    "type": "Dataset"
+  }
+}

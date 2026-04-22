@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_lidar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_lidar?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_lidar?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://envidat.ch/#/metadata/vegetation-height-model-lidar-nfi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2cabe809-dee5-4939-9d6d-e06e313efbc7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Sono stati generati modelli di altezza della vegetazione (MAV) a livello nazionale per la Svizzera sulla base dei dati LiDAR acquisiti nell'ambito della campagna swissSURFACE3D (swisstopo). Per ricavare l'altezza della vegetazione, la nuvola di punti classificata è stata normalizzata calcolando l'altezza dal suolo per tutti i punti non appartenenti alla classe suolo (2). I punti di vegetazione (classi 3, 4, 5) sono stati poi rasterizzati con una dimensione della griglia di 0,5 m utilizzando una distanza di interpolazione di una cella della griglia. Le celle raster non appartenenti a una classe di vegetazione sono state impostate a 0 m dal suolo. Questi MAV sono prodotti nell'ambito dell'Inventario forestale nazionale svizzero (IFN). Ogni anno circa 1/6 della superficie della Svizzera viene aggiornata utilizzando i dati swissSURFACE3D in stato di fogliame caduto.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_lidar:wmts",
+    "title": "Altezza della Vegetazione Lidar IFN",
+    "type": "Dataset"
+  }
+}

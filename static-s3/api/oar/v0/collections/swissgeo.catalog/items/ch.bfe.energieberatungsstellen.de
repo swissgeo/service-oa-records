@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.energieberatungsstellen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.energieberatungsstellen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.energieberatungsstellen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/energieberatungsstellen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/26b94fae-3709-4436-901b-eb27546e9afe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Angebot an öffentlichen Energieberatungsstellen in der Schweiz ist vielfältig. Sie bieten produkte- und firmenneutrale Beratungen in Energiefragen für ein breites Publikum an und werden von der öffentlichen Hand finanziert. Je nach Kanton sind die öffentlichen Energieberatungsstellen kantonal oder regional organisiert. Einige Städte und Gemeinden unterhalten auch eigene kommunale Beratungsstellen für Energiefragen. Die fachlichen Kernkompetenzen und thematischen Beratungsschwerpunkte der einzelnen Beratungsstellen liegen in den Bereichen Gebäude & Gebäudetechnik, Elektrogeräte & Beleuchtung oder Mobilität. Für die verschiedenen Kundengruppen Private, Unternehmen und Gemeinden bieten sie unterschiedliche kostenlose und kostengünstige Beratungen an. Einen Überblick über die Beratungsangebote der öffentlichen Energieberatungsstellen und der Infoline von EnergieSchweiz (Beratungsangebot des Bundes) findet sich auf www.energieschweiz.ch/beratung. Für jede Energieberatungsstelle wird ihre Trägerorganisation (kantonale, regionale oder kommunale Trägerschaft, gekennzeichnet durch Farbe des Symbols) und ihr Einzugsgebiet (angeschlossene Gemeinden, gekennzeichnet durch eingefärbte Fläche) auf der Karte dargestellt. Die Informationen bei Mouseklick beinhalten die vollständigen Kontaktdaten, inklusive Name der Leitung und Adresse der Webseite, und geben Auskunft über die Beratungsschwerpunkte und die Kundengruppen, für die Beratungen angeboten werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieberatungsstellen:wms",
+    "title": "Energieberatungsstellen",
+    "type": "Dataset"
+  }
+}

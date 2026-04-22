@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.hiks-dufour",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.hiks-dufour?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.hiks-dufour?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/carte-dufour-digitale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d12f970f-6a83-4c33-8cfe-7504b6a5dca9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Tra il 1844 e il 1864 è stata pubblicata la prima serie di carte ufficiali della Svizzera in scala 1:100'000, sotto la direzione del generale Henri-Guillaume Dufour. Dufour è stato inoltre il fondatore e il primo direttore dell'Ufficio topografico federale, che fondò a Ginevra nel 1838. I 25 fogli della Carta Dufour erano realizzati in un solo colore mediante incisione su rame. Terminata la prima edizione, nel 1865, questa serie di carte si è distinta molte volte a livello internazionale ed è stata aggiornata fino alla sua sostituzione da parte della nuova Carta nazionale 1:100'000. Dal 2006, tutte le edizioni sono disponibili in formato digitale per le analisi dell'evoluzione del paesaggio e altre applicazioni. Formato della carta: 70 x 48 cm = 3360 km2. Tipo di riproduzione: incisione su rame. Metodo di stampa: calcografia (dal 1905 anche stampa in piano). Numero di colori: 1 (dal 1908 2 e dal 1938 3). Rappresentazione del suolo: ombre tratteggiate proiezione conica equivalente non rigorosa. Ellissoide: Schmidt 1828. Altitudine di partenza: Repère Pierre du Niton 376,2 m. s.l.m.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hiks-dufour:wmts",
+    "title": "Carta Dufour Prima edizione",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/geostat/geodaten-bundesstatistik/gebaeude-wohnungen-haushalte-personen/bevoelkerung-haushalte-ab-2010.assetdetail.32266058.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/4bfbbf20-d90e-4131-8fe2-4c454ad45c16",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Statistik BFS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Seit 1990 werden für die im Rahmen der Eidgenössischen Volkszählungen erfassten Gebäuden mit Wohnzweck Koordinaten bestimmt. Seit 2010 wird die Volkszählung auf der Grundlage einer Auswertung der Personenregister der Gemeinden und Kantone jährlich aktualisiert und mit Stichprobenerhebungen ergänzt. Die Statistik der Bevölkerung und der Haushalte (STATPOP) liefert Kennzahlen zum Bestand, zur Struktur (Alter, Geschlecht, Zivilstand, Staatsangehörigkeit usw.), zur Entwicklung und zur räumlichen Verteilung der Bevölkerung sowie Angaben zur Zahl und Grösse der Haushalte.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner:wmts",
+    "title": "Bevölkerung (Einwohner)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.agroscope.amphibien-ausbreitungskarten:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.amphibien-ausbreitungskarten/items/ch.agroscope.amphibien-ausbreitungskarten:stac?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.amphibien-ausbreitungskarten?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.agroscope.amphibien-ausbreitungskarten",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.agroscope.amphibien-ausbreitungskarten"
+    ]
+  }
+}

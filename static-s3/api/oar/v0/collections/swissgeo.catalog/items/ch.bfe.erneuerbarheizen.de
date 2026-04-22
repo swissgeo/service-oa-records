@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.erneuerbarheizen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.erneuerbarheizen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/impulsberatung",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/0f756190-b7f7-4a4b-94db-696ed67676a4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Gebäudebesitzer und Gebäudebesitzerinnen mit einer Öl-, Gas- oder Elektroheizung erfahren mit der Impulsberatung «erneuerbar heizen», mit welchen erneuerbaren Wärmequellen ihr Gebäude sinnvoll und CO2-arm beheizt werden kann. Bei der Impulsberatung erneuerbar heizen kommt ein Berater oder eine Beraterin zum Kunden (Hauseigentümer) nach Hause. Im Beratungsgespräch wird der Energiebedarf des Gebäudes, die standortspezifischen Faktoren und die Wünsche der Eigentümer diskutiert. Der Berater prüft diese Faktoren und überliefert dem Hauseigentümer / der Hauseigentümerin eine Checkliste mit der Ausgangslage und den Empfehlungen zum Heizsystemwechsel. Die Checkliste ist eine gute Basis, um sich die richtigen Offerten einzuholen und ein erfolgreiches Bauprojekt zu starten. Dieser Datenbestand enthält alle im Rahmen des Programms «erneuerbar heizen» geschulten Impulsberater und Impulsberaterinnen, welche die Qualitätskriterien erfüllen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.erneuerbarheizen:wms",
+    "title": "Impulsberatung EFH und kleine MFH",
+    "type": "Dataset"
+  }
+}

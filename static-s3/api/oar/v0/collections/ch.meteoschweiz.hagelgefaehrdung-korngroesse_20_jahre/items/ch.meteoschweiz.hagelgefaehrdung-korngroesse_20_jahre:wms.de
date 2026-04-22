@@ -1,0 +1,34 @@
+{
+  "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.meteoschweiz.hagelgefaehrdung-korngroesse_20_jahre"
+    ]
+  }
+}

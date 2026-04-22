@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.trockenheitswarnkarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.trockenheitswarnkarte?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.trockenheitswarnkarte?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.trockenheit.admin.ch/fr/secheresse/alertes-de-secheresse-et-attitudes-a-adopter",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/8e08af81-0724-4997-98c6-1626af3f31c1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte d'alerte en cas de sécheresse montre le niveau de danger actuel (niveau 1, 2 ou 4) pour toutes les régions de Suisse. Le niveau de danger est évalué à l'aide d'une estimation hebdomadaire de la situation actuelle et d'une prévision établie par des spécialistes de l'Office fédéral de l'environnement et de MétéoSuisse. L'évaluation se base sur l'évolution mesurée et modélisée de toutes les valeurs pertinentes en matière de sécheresse, telles que le cumul des précipitations, l'humidité des sols, les débits et les niveaux d'eau. Les niveaux de danger attribués sont les niveaux 1 (aucun danger ou faible danger), 2 (danger limité) et 4 (danger fort). Les niveaux 3 (danger marqué) et 5 (danger très fort) ne sont pas utilisés pour la sécheresse.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.trockenheitswarnkarte:wmts",
+    "title": "Carte d'alerte en cas de sécheresse",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.pixelkarte-farbe-pk25.noscale:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.pixelkarte-farbe-pk25.noscale/items/ch.swisstopo.pixelkarte-farbe-pk25.noscale:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe-pk25.noscale?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.pixelkarte-farbe-pk25.noscale",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.pixelkarte-farbe-pk25.noscale"
+    ]
+  }
+}

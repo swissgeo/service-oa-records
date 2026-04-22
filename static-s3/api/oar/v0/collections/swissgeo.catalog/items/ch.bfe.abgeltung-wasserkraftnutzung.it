@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.abgeltung-wasserkraftnutzung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.abgeltung-wasserkraftnutzung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.abgeltung-wasserkraftnutzung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/abbandono-idroelettricita",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/6c5acaa7-ac82-414a-a2bc-490f60c82580",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Siti protetti ai sensi dell'Ordinanza del 25 ottobre 1995 sull'indennizzo delle perdite subite nell'utilizzazione delle forze idriche (OIFI), basata sugli accordi contrattuali tra la Confederazione, il Cantone e i Comuni interessati. L'ordinanza contiene disposizioni precise in merito ai requisiti che danno diritto a esigere un indennizzo compensativo per la rinuncia all'utilizzazione delle forze idriche a favore della conservazione di siti d'importanza nazionale. Questi contributi sono vincolati a obiettivi di tutela concordati contrattualmente e vengono corrisposti annualmente. Per verificare i rapporti contrattuali, l'Ufficio federale dell'energia (UFE) effettua regolari controlli dei risultati. Attualmente nei Cantoni del Vallese e dei Grigioni sono state approvate nove richieste e stipulati i relativi contratti: Baltschiedertal (VS), Bietschbach-Jolibach (VS), Binntal (VS), Gredetschtal (VS), Greina (GR), Laggintal (VS), Oberaletsch (VS), Val Frisal (GR) e Vallon de Réchy (VS).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.abgeltung-wasserkraftnutzung:wms",
+    "title": "Abbandono dell'idroelettricitá",
+    "type": "Dataset"
+  }
+}

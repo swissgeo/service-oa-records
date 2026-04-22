@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/pps-f",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/9391d96a-280b-4e7b-bcc7-7836007b30f1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les prairies et pâturages secs doivent leur existence à l'agriculture. Ils sont en effet le résultat de plusieurs siècles d'exploitation extensive et d'agriculture traditionnelle. Depuis la fin du 19e siècle, les prairies et pâturages secs ont régressé de près de 90 %.Parallèlement, les espèces qu'ils abritent depuis toujours subissent de plus en plus de pression : presque 40 % de toutes les espèces végétales et 50 % de toutes les espèces animales qui sont tributaires des terrains secs figurent sur les listes rouges nationales. Il existe plusieurs inventaires cantonaux mais il manquait une vue d'ensemble nationale des milieux naturels des prairies sèches qui permette de fixer des priorités pour la conservation et le suivi. Le dernier inventaire fédéral selon l'art. 18a LPN fut celui des prairies et pâturages secs, entré en vigueur en 2010. A l'origine, il comptait 2934 objets en vigueur ; après avoir été révisé en 2012, 2017, 2021 et en 2025, il compte désormais 4083 objets. De plus, l'annexe 2 comprend 38 objets dont la mise au net n'est pas terminée. Leur protection est soumise à la décision de leur inclusion dans l'annexe 1 en vertu de l'article 29, paragraphe 1, point a), de l'ordonnance sur la protection de la nature et du paysage (OPN) et de l'article 10 de l'ordonnance sur les prairies sèches (OPPS).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-trockenwiesen_trockenweiden_anhang2:wmts",
+    "title": "PPS annexe 2",
+    "type": "Dataset"
+  }
+}

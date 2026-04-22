@@ -1,0 +1,102 @@
+{
+  "id": "ch.sbfi.sachplan-cern_anhoerung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.sbfi.sachplan-cern_anhoerung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.sbfi.sachplan-cern_anhoerung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.sbfi.admin.ch/sbfi/it/home.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/23c1e2d4-8f60-4700-8689-6e39e0b6dd1f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Segreteria di Stato per la formazione, la ricerca e l'innovazione SEFRI",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "È importante che la Svizzera promuova il potenziale di sviluppo a lungo termine del Centro europeo per la ricerca nucleare (CERN), in particolare per quanto riguarda la pianificazione del territorio. Per questo motivo, il Consiglio federale ha avviato i lavori relativi a un piano settoriale della Confederazione incentrato sui progetti del CERN. Con un piano settoriale, il Consiglio federale intende rendere più semplici e chiare le procedure amministrative per la pianificazione del territorio e migliorare la sicurezza della pianificazione per tutti i progetti del CERN, compreso il FCC se sarà realizzato. Questo piano fornirà un quadro di riferimento che permetterà di tenere adeguatamente in considerazione gli obiettivi della politica della ricerca, della Svizzera in quanto Stato che ospita il CERN e della politica di pianificazione territoriale. Inoltre, il piano risponde a una richiesta del Cantone di Ginevra.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.sbfi.sachplan-cern_anhoerung:wms",
+    "title": "Piano settoriale CERN consultazione",
+    "type": "Dataset"
+  }
+}

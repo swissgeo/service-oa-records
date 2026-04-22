@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre:wms?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre:stac?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.hagelgefaehrdung-korngroesse_50_jahre",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

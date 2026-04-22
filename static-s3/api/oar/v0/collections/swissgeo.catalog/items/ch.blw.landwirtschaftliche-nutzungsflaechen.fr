@@ -1,0 +1,97 @@
+{
+  "id": "ch.blw.landwirtschaftliche-nutzungsflaechen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.landwirtschaftliche-nutzungsflaechen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.landwirtschaftliche-nutzungsflaechen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ae183bc4-5c91-467e-89bc-85f390340efb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'agriculture OFAG, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le jeu de géodonnées \"surfaces d'utilisation agricole\" représente la situation spatiale des surfaces cultivées telles que les prairies, les pâturages et les terres arables de la Suisse. Il contient les surfaces utilisées à des fins agricoles selon l'ordonnance sur la terminologie agricole (OTerm), l'ordonnance sur les paiements directs (OPD) et les définitions qui en découlent (y compris la codification) des utilisations par la Confédération et les cantons.Le jeu de données se base sur les jeux de géodonnées de base du droit fédéral \"Surfaces agricoles cultivées\" établis sous la responsabilité des cantons (OGéo, annexe 1, identifiant 153). L'ensemble des données est mis à jour une fois par an.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.landwirtschaftliche-nutzungsflaechen:wmts",
+    "title": "Surfaces d'utilisation",
+    "type": "Dataset"
+  }
+}

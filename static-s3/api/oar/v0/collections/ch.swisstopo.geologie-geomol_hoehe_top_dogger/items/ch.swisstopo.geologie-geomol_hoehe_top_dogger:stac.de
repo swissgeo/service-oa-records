@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.geologie-geomol_hoehe_top_dogger:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol_hoehe_top_dogger/items/ch.swisstopo.geologie-geomol_hoehe_top_dogger:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol_hoehe_top_dogger?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.geologie-geomol_hoehe_top_dogger",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.swisstopo.geologie-geomol_hoehe_top_dogger"
+    ]
+  }
+}

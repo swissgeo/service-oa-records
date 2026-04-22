@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.geologie-tiefengeothermie_projekte:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-tiefengeothermie_projekte/items/ch.swisstopo.geologie-tiefengeothermie_projekte:wms?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-tiefengeothermie_projekte?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.geologie-tiefengeothermie_projekte",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.geologie-tiefengeothermie_projekte"
+    ]
+  }
+}

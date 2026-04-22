@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-lufttemperatur_juli_1961_1990",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-lufttemperatur_juli_1961_1990?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-lufttemperatur_juli_1961_1990?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/3f128c98-955d-4efa-9412-c152a9f84093",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Beschreibung (it) Per il calcolo della superficie sono stati utilizzati i valori misurati dalle stazioni di misurazione di MeteoSvizzera nel periodo 1961-1990. La temperatura più alta è selezionata dalla curva di temperatura giornaliera, che a causa della radiazione solare si verifica in tutte le stazioni intorno alle 15 del pomeriggio. Il valore massimo medio della variazione giornaliera si discosta leggermente dal valore massimo giornaliero medio della temperatura. Il valore massimo della variazione giornaliera è stato considerato rilevante per la vegetazione in quanto associato ad un'elevata irradiazione. Le temperature sono state interpolate per area e verticalmente a diversi livelli di altitudine utilizzando i gradienti. Sono stati presi in considerazione anche l'esposizione, le radiazioni, le aree dei ghiacciai e i punti di aria fredda. La carta risultante ha una risoluzione spaziale di 25 m x 25 m. È stata utilizzata per modellare delle fasce altitudinali della vegetazione forestale.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-lufttemperatur_juli_1961_1990:wmts",
+    "title": "Temp. dell'aria luglio 1961-1990",
+    "type": "Dataset"
+  }
+}

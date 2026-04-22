@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.ivs-reg_loc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.ivs-reg_loc?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.ivs-reg_loc?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.ivs.admin.ch",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f59f9e16-1f67-47bf-ade0-fcce715ce6fe",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Strassen ASTRA, Kantone",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Inventar der historischen Verkehrswege der Schweiz IVS enthält umfangreiche Informationen zum Verlauf der historischen Verkehrswege, ihrer Geschichte, ihrem Zustand und ihrer Bedeutung gemäss NHG. Nebst den Objekten von nationaler Bedeutung, welche im Bundesinventar (Objekte mit sichtbarer historischer Substanz) und als Zusatzinformation (Objekte mit keiner oder nur geringer baulicher Substanz) verzeichnet sind, umfasst das IVS auch die Objekte von regionaler und lokaler Bedeutung. Diese Objekte können von den Kantonen auf dem Wege der kantonalen Gesetzgebung, der Planung oder auf andere geeignete Weise als bedeutend bezeichnet werden. Sie können in die durch das ASTRA geführte elektronische Publikation aufgenommen werden, auch wenn noch keine definitive Bezeichnung durch die Kantone festliegt. Bis zu einer solchen definitiven Bezeichnung durch den Kanton beruhen die Einträge auf einer provisorischen Einschätzung des Bundes. Die Publikation dieser durch die jeweiligen Kantone noch nicht definitiv bezeichneten Objekte begründet sich durch die Bedeutung für die Beurteilung von Finanzhilfen (Art. 12 VIVS) und von Eingriffen (Art. 7 VIVS). Für folgende Kantone liegt eine definitive Bezeichnung der Objekte von regionaler/lokaler Bedeutung vor, welche im aktuellen Datensatz enthalten ist: Bern, Basel - Landschaft, Solothurn, Schaffhausen. Im Kanton Bern richtet sich der Schutz der Objekte von regionaler und lolaler Bedeutung nebst den Bestimmungen des Bundesgesetzes über den Natur- und Heimatschutz zusätzlich nach Artikel 10 des kantonalen Baugesetzes. Auf diese Objekte ist in besonderem Masse Rücksicht zu nehmen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-reg_loc:wmts",
+    "title": "IVS Regional und Lokal",
+    "type": "Dataset"
+  }
+}

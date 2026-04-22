@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.hydrogeologische-karte_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.hydrogeologische-karte_100?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.hydrogeologische-karte_100?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/fr/cartes-des-eaux-souterraines",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/b01523a1-9f61-43a2-95cb-be843cc1b18a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Publiée par l’Office fédéral de l’environnement (OFEV), office compétent du Service géologique national pour l’hydrogéologie.La carte hydrogéologique 1:100 000 présente le sous-sol dans la perspective des trois domaines spécialisés : géologie, hydrologie et hydrogéologie. Le sous-sol est classé d’après des critères lithologiques-pétrographiques et de perméabilité. Les données ponctuelles et linéaires (sources, puits, liaisons hydrauliques, nappes phréatiques, etc.) montrent les voies de circulation des eaux souterraines ainsi que l'utilisation actuelle de ces eaux et des eaux de source. La représentation à l’échelle 1:100 000 donne une vue d’ensemble des caractéristiques hydrogéologiques régionales. Voici les cartes disponibles : 1. Bözberg/Beromünster, 1972; 2. Bodensee, 1980; 3. Panixerpass, 1985; 4. Biel, 1991/92; 5. Toggenburg, 1993/94; 6. Saane, 1999; 8. Vallorbe - Léman nord, 2006; 7. Basel, 2014. Un jeu de données vectorielles, indépendant du découpage en feuilles, a été créé à partir des feuilles 4, 6, 7 et 8 pour le Nord-ouest de la Suisse. Les données peuvent être commandées à l’OFEV (www.bafu.admin.ch  Données, indicateurs, cartes).",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologische-karte_100:wmts",
+    "title": "Carte hydrogéologique au 100",
+    "type": "Dataset"
+  }
+}

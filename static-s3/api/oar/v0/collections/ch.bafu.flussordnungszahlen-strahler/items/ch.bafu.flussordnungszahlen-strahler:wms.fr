@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.flussordnungszahlen-strahler:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.flussordnungszahlen-strahler/items/ch.bafu.flussordnungszahlen-strahler:wms?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.flussordnungszahlen-strahler?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.flussordnungszahlen-strahler",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bafu.flussordnungszahlen-strahler"
+    ]
+  }
+}

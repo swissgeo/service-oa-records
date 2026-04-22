@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-flachmoore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-flachmoore?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-flachmoore?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/paludi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c98723f6-4c76-480b-bada-c8a5ce3d20d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le paludi rappresentano dei resti del paesaggio naturale e culturale originario e sono in forte diminuzione. Sono particolarmente ricche di organismi specializzati e rappresentano delle zone di rifugio per numerose specie animali e vegetali rare o minacciate. L'inventario scientifico delle paludi è stato rilevato negli anni 1987 - 1990 da un gruppo di lavoro incaricato dal DFI. Secondo l'articolo 18a della legge federale del 1° luglio 1966 sulla protezione della natura e del paesaggio (LNP), in vigore dal 1° febbraio 1988, il Consiglio federale determina i biotopi d'importanza nazionale, stabilisce la situazione di questi biotopi e indica gli scopi della protezione, soltanto però dopo aver sentito il parere dei Cantoni. Nel 1994 il Consiglio federale ha approvato l'ordinanza sulle paludi con l'inventario che comprendeva una prima serie di 728 oggetti nell'allegato, cui è seguita una seconda serie di 364 oggetti nel 1997 e una terza serie finale di 71 oggetti nel 1998. Alcuni oggetti sono stati sottoposti a revisione negli anni 2001, 2004, 2007, 2017, 2021 e 2025. Attualmente sono in vigore 1371 oggetti. La scala giuridicamente vincolante per determinare la posizione dell'oggetto protetto è quella nella scheda dell'oggetto. I confini esatti degli oggetti sono fissati dai Cantoni.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-flachmoore:wmts",
+    "title": "Paludi",
+    "type": "Dataset"
+  }
+}

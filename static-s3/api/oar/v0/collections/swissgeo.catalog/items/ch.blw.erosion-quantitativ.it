@@ -1,0 +1,102 @@
+{
+  "id": "ch.blw.erosion-quantitativ",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.blw.erosion-quantitativ?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.blw.erosion-quantitativ?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.blw.admin.ch/blw/it/home/nachhaltige-produktion/umwelt/boden.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/14c92382-adf0-45d9-ad07-d41bd976c2a3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'agricoltura UFAG",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carta del rischio di erosione dei terreni coltivi, perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno (Ufficio federale dell'agricoltura)Carta del rischio di erosione dei terreni coltivi della Svizzera realizzata con un reticolo a celle di 2x2 metri sulla base di SwissALTI3D e dei dati cantonali sulle superfici riguardanti i terreni coltivi (stato 2021). La carta riporta la potenziale perdita di suolo media sul lungo periodo, espressa in tonnellate per ettaro e anno, calcolata sulla base del maggese nero (erosione che potrebbe teoricamente verificarsi, se il suolo venisse lasciato permanentemente senza vegetazione). Le tonalità verdi si riferiscono a un ridotto rischio di erosione, quelle gialle a un rischio medio e quelle rosse a un rischio elevato. I valori calcolati nel modello sono sempre più alti di quelli riscontrabili nella realtà (di un coefficiente 10 circa), poiché la lavorazione e la gestione del suolo (coefficiente C) non sono state tenute in considerazione, bensì figurano come costante con il valore 1 nel calcolo. Il calcolo del rischio di erosione con algoritmi a flusso multiplo consente di rappresentare la struttura del terreno in maniera dettagliata (p.es. l'andamento di conche del terreno o di versanti trasversali con declività notevoli) e quindi anche di riconoscere il rischio di erosione del talweg, rappresentato dettagliatamente nella carta delle vie di deflusso idrico (vedi Carta delle vie di deflusso idrico). I blocchi di particelle costituiscono la base di calcolo spaziale (vedi Carta dei blocchi di particelle).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.erosion-quantitativ:wmts",
+    "title": "Rischio erosione ter. colt. quant.",
+    "type": "Dataset"
+  }
+}

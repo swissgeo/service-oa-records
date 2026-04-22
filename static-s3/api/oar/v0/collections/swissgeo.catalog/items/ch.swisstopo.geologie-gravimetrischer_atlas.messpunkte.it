@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.sgpk.ethz.ch/opencms/opencms/publications/pub_contrib_ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/297a1958-3636-45af-a17c-e90120605132",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo, SGPK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Per poter elaborare carte di Bouguer ad alta risoluzione (in scala 1:100'000 e 1:500'000) è stata realizzata una rete di stazioni gravimetriche distribuite in modo da avere all'incirca 1 stazione ogni 2 chilometri quadrati su tutto il territorio svizzero. L'anomalia di Bouguer esprime la differenza tra la gravità misurata e il relativo valore teorico per un modello terrestre ideale a crosta omogenea. I calcoli delle anomalie gravitazionali della crosta terrestre si basano sulla formula internazionale della gravità del 1967. L'incidenza della topografia è stata considerata con una densità costante di 2'670 kg/m3 fino a un raggio di 167 km (zona O2 di Hayford). L'Atlante gravimetrico della Svizzera (GRAV100) è una pubblicazione della Commissione svizzera di geofisica (organo dell'Accademia svizzera di scienze naturali).",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte:wmts",
+    "title": "Punti di misurazione gravim. 100",
+    "type": "Dataset"
+  }
+}

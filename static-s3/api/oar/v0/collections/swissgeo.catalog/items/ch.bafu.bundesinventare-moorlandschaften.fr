@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.bundesinventare-moorlandschaften",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-moorlandschaften?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-moorlandschaften?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/paysage/landschaften-nationaler-bedeutung/sites-marecageux-dimportance-nationale.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7ed73e2f-0a41-4e8b-a7ff-413f2d9b5ece",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les sites marécageux sont des paysages proches de l'état naturel, caractérisés par la présence de marais et abritant également d'autres éléments culturels et naturels remarquables. Pour nombre d'espèces animales et végétales, ils constituent les derniers pour nombre d'espèces animales et végétales.L'inventaire scientifique des sites marécageux a été dressé dans les années 1987 à 1990 par Hintermann & Weber AG, sur mandat du DFI. Conformément à l'art. 23b de la loi fédérale du 1er juillet 1966 sur la protection de la nature et du paysage (LPN), le Conseil fédéral désigne les sites marécageux d'une beauté particulière et d'importance nationale et en détermine la situation en tenant compte de l'utilisation du sol et des constructions existantes. Ce faisant, il travaille en étroite collaboration avec les cantons qui, pour leur part, prennent l'avis des propriétaires fonciers concernés. Le Conseil fédéral a mis en vigueur en 1996 l'ordonnance sur les sites marécageux ainsi que l'inventaire fédéral correspondant, qui comprend 88 objets. Une première révision a été faite en 2001 à la demande du canton de Vaud, une deuxième a eu lieu en 2004 avec l'inscription définitive de l'objet Grimsel et trois autres en 2007, 2015 et 2017. Il compte actuellement 89 objets. L'échelle juridiquement contraignante pour déterminer la situation de l'objet à protéger est celle de la feuille d'objet. Les limites précises des objets sont fixées par les cantons.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-moorlandschaften:wmts",
+    "title": "Sites marécageux",
+    "type": "Dataset"
+  }
+}

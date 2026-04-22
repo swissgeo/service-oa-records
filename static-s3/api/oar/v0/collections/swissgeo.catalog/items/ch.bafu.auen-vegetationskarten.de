@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.auen-vegetationskarten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.auen-vegetationskarten?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.auen-vegetationskarten?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/oekol-infrastruktur",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ab76361f-657d-4705-9053-95f89ecab126",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Um den Kantonen die Möglichkeit zu geben, den Schutz der Auengebiete von wahrscheinlich nationaler Bedeutung möglichst rasch an die Hand zu nehmen, liess das BAFU 1987 gemäss der im technischen Bericht SRU 199 (BUWAL, 1993) beschriebenen Methode eine detaillierte Vegetationskartierung der Objekte der Inventar-Vernehmlassungsversion ausarbeiten. Sie wurde auf der Grundlage einer Luftbildauswertung mit nachfolgender Verifizierung und Kartierung im Feld im Massstab 1:10‘000 erstellt. In den Karten ist festgehalten, welche Vegetationseinheiten (Primärvegetation und z. T. Begleitvegetation) und welche anthropogenen Einflüsse (Nutzungen respektive „Eingriffe“) zur Zeit der Kartierung festgestellt wurden. Von den nach der Vernehmlassung vergrösserten Objekten wurden in 23 Fällen in einer zweiten Kartierrunde die zusätzlichen Flächen nach den gleichen Kriterien erfasst und kartiert. Seither wurden fast alle der im Rahmen der 2. Ergänzung des Aueninventars (Etappe a von 2003, Etappe b von 2017) neu ins Inventar aufgenommenen Objekte mit Hilfe von photogrammetrierten Infrarot-Luftbildern im Massstab 1:5000 erfasst und nach der gleichen Methode im Feld kartiert. Die alpinen Auen (1. Ergänzung des Aueninventars von 2001) sind nach einer spezifischen, auf diese Höhenstufe angepassten Methode kartiert und ebenfalls auf map.geo.admin.ch publiziert worden (Datensatz „Vegetation alpine Auen“).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.auen-vegetationskarten:wmts",
+    "title": "Auen Vegetationskarten",
+    "type": "Dataset"
+  }
+}

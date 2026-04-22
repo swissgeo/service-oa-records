@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.swisseo_s2-sr_v100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisseo_s2-sr_v100?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisseo_s2-sr_v100?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/satellitenbilder-swisseo-s2-sr",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7ae5cd5b-e872-4719-92c0-dc2f86c4d471",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Optische Satellitendaten (Sentinel-2) welche unter anderem die Reflektanzen der Landoberfläche (surface reflectance - SR) für die vier Kanäle Rot, Grün, Blau und nahes Infrarot in einer räumlichen Auflösung von zehn Metern darstellen. Die Schweiz wird von vier Bahnen des Satellitenüberfluges (Orbits) abgebildet. Die überlappenden Bahnen ergeben ca. alle drei bis fünf Tage eine vollständige Aufnahme der Schweiz, allerdings ist die Brauchbarkeit der Daten stark von den meteorologischen Bedingungen abhängig, da der Aufnahmesensor nicht durch Wolken hindurchsehen kann. Zusätzlich zu der bereits angewendeten Verortung der Daten wird eine auf die Schweiz optimierte Ko-Registrierung der Daten für eine sub-Pixel Lagegenauigkeit angewendet und die Daten werden in einer einheitlichen Projektion geliefert. Ebenso mitgeliefert werden optimierte Qualitätslayer mit Masken für Wolken(-schatten) und topographischen Schattenwurf.Enthält geänderte Copernicus Sentinel-Daten.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisseo_s2-sr_v100:wms",
+    "title": "swissEO S2-SR",
+    "type": "Dataset"
+  }
+}

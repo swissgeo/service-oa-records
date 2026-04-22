@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.siedlung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.siedlung?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.siedlung?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.are.siedlung/siedlung.zip",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/4229c353-e780-42d8-9f8c-298c83920a3a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dello sviluppo territoriale ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'“insediamento” è un set di geodati che rappresenta il paesaggio costruito dal punto di vista dello sviluppo territoriale. Il set di dati serve come riferimento geometrico per vari indicatori nel campo dell'osservazione del territorio. Per insediamento si intende tutto ciò che viene costruito per scopi abitativi, lavorativi o ricreativi. Ciò include, in particolare, gli edifici, compresi i loro dintorni, nonché le strade e le infrastrutture di trasporto adiacenti che li collegano direttamente. Gli spazi vuoti di oltre 1500 m2 rientrano in questa categoria. Il layer si basa sui dati del modello topografico del paesaggio di swisstopo e del registro degli edifici e delle abitazioni dell'UST. I dati vengono aggiornati e pubblicati annualmente. I dati relativi al periodo a partire dal 1919 possono essere visualizzati su map.geo.admich.ch come ”viaggio nel tempo” e scaricate da https://data.geo.admin.ch/browser/index.html#/collections/ch.are.siedlung sotto forma di rapporto annuale.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.siedlung:wmts",
+    "title": "Insediamento",
+    "type": "Dataset"
+  }
+}

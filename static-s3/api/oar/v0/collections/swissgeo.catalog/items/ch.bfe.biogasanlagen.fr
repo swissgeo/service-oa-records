@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.biogasanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.biogasanlagen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.biogasanlagen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/installations-biogaz",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/d303ef3f-2ab2-4b83-9d81-7594173e3728",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'énergie OFEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les installations de biogaz transforment la matière organique en gaz par un processus de fermentation. Le mélange gazeux obtenu est composé principalement de méthane riche en énergie (CH4) et de dioxyde de carbone (CO2). Electricité, chaleur et carburant peuvent être obtenus à partir du biogaz.La Suisse dispose de plus d'une centaine d'installations de biogaz. Le biogaz produit dans notre pays provient exclusivement de déchets et de résidus issus des ménages, de l'industrie alimentaire ou encore de l'agriculture. Cette énergie est donc durable en plus d'être renouvelable et neutre en CO2. Le biogaz peut être utilisé directement dans une centrale de cogénération pour produire de l'électricité et de la chaleur. Il peut également être purifié en biométhane avant d'être injecté dans le réseau de gaz naturel. Ce biométhane peut alors à nouveau servir à produire de l'électricité, de la chaleur ou du carburant. Les géodonnées des installations de biogaz renseignent sur l'état actuel de ce type d'installations de production d'énergie en Suisse. Pour le moment, les données se fondent uniquement sur la liste des récipiendaires de la RPC. L'objectif, à terme, est de pouvoir représenter l'ensemble des installations de biogaz en activité en Suisse, que celles-ci produisent de l'électricité et de la chaleur sur site ou qu'elles injectent du biométhane dans le réseau de gaz naturel. Les informations servent à informer le grand public et ne constituent pas des informations officielles ni des déclarations de nature contraignante.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biogasanlagen:wms",
+    "title": "Installations de biogaz",
+    "type": "Dataset"
+  }
+}

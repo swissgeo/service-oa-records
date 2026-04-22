@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.fixpunkte-hfp2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-hfp2?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.fixpunkte-hfp2?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://geodienste.ch/services/fixpunkte",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/06044c35-4164-41c6-a4df-297749c03227",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo, Kantone",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Vermessungspunkte bilden die Grundlage aller Daten mit Raumbezug. Diese Fixpunkte (Lagefixpunkte (LFP) und die Höhenfixpunkte (HFP)) werden für alle vermessungstechnischen Arbeiten genutzt, die eine zuverlässige und präzise Bestimmung erfordern. Unter einem Höhenfixpunkt versteht man einen dauerhaft mit einem Bolzen gekennzeichneten Punkt mit bekannter Höhe. Die Höhenfixpunkte der Kategorien 2 (HFP2) dienen zur Verdichtung des Punktnetzes und bilden die Grundlage der amtlichen Vermessung. Die Kantone sind zuständig für die Fixpunkte der Kategorie 2. Die Daten basieren auf dem Modell Fixpunkt-Datenservice 2.0 der KGK (Datenmodell KGKCGC_FPDS2_V1_1, Version 1.1).",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-hfp2:wms",
+    "title": "Höhenfixpunkte HFP2",
+    "type": "Dataset"
+  }
+}

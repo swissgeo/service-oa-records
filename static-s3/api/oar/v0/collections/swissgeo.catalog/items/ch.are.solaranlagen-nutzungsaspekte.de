@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.solaranlagen-nutzungsaspekte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.solaranlagen-nutzungsaspekte?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.solaranlagen-nutzungsaspekte?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/de/freistehende-photovoltaikanlagen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/19a3d556-20eb-44a2-88aa-5266a0d7734d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Raumentwicklung ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Berücksichtigt sind Nutzungsaspekte gemäss Dokument «Freistehende Photovoltaikanlagen: Methodische Grundlage des Bundes», insbesondere aus den Bereichen Einstrahlung, Topographie, Bodenbeschaffenheit und Erschliessung. Zu wichtigen weiteren Aspekten wie der Anbindung ans Elektrizitätsnetz oder Naturgefahren haben zum Zeitpunkt der Kartenproduktion (2025) zweckmässige, schweizweit verfügbare Geodaten gefehlt. Der Karteninhalt stellt somit eine erste Einschätzung der beteiligten Bundesstellen dar. Für das raumplanerische Ausweisen von Eignungsgebieten gemäss Artikel 10 Energiegesetz sind weitere, in dieser Karte nicht dargestellte Nutzungsinteressen zu berücksichtigen.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-nutzungsaspekte:wmts",
+    "title": "Solar: Nutzungsaspekte",
+    "type": "Dataset"
+  }
+}

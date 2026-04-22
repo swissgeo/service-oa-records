@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfs.statistische-grundeinheiten_stufe1:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.statistische-grundeinheiten_stufe1/items/ch.bfs.statistische-grundeinheiten_stufe1:wmts?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.statistische-grundeinheiten_stufe1?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfs.statistische-grundeinheiten_stufe1",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bfs.statistische-grundeinheiten_stufe1"
+    ]
+  }
+}

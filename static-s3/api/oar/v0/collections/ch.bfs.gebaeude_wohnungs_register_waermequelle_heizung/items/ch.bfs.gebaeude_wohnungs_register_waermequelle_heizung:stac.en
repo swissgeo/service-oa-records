@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung/items/ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung:stac?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung"
+    ]
+  }
+}

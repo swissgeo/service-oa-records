@@ -1,0 +1,102 @@
+{
+  "id": "ch.bakom.anschlussart-koaxialkabel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bakom.anschlussart-koaxialkabel?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bakom.anschlussart-koaxialkabel?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bakom.admin.ch/fr/atlas-de-la-large-bande",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/aed73a77-fc04-4406-8ba3-fd998e2625db",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la communication OFCOM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'atlas large bande donne un aperçu de la desserte de la Suisse en réseaux modernes de télécommunication. La situation est représentée sous la forme de données statistiques par cellule (250x250 mètres). La carte montre dans combien de bâtiments un raccordement par câble coaxial (raccordement TV câblée) est offert (en pour cent des entrées de bâtiment selon les données de l'Office fédéral de la statistique). Il se peut que l'image représentant la situation de la desserte ne corresponde pas tout à fait à la réalité. La situation effective peut être demandée aux fournisseurs. Voir à ce propos les informations relatives à la carte \"Nombre de fournisseurs d'accès\".",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.anschlussart-koaxialkabel:wmts",
+    "title": "Câble coaxial",
+    "type": "Dataset"
+  }
+}

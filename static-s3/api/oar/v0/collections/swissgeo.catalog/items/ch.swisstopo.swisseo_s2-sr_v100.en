@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.swisseo_s2-sr_v100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisseo_s2-sr_v100?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisseo_s2-sr_v100?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/en/satelliteimage-swisseo-s2-sr",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/7ae5cd5b-e872-4719-92c0-dc2f86c4d471",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Optical satellite data (Sentinel-2) which, among other things, show the reflectances of the land surface for the four channels Red, Green, Blue and near Infrared in a spatial resolution of 10 metres. Switzerland is mapped by four orbits of the satellite overflight. The overlapping orbits result in a complete image of Switzerland approximately every three to five days, but the usefulness of the data is heavily dependent on meteorological conditions, as the imaging sensor cannot see through clouds. In addition to the already applied localisation of the data, a co-registration of the data optimised for Switzerland is applied for a sub-pixel positional accuracy and the data is delivered in a uniform projection. Also included are optimised quality layers with masks for clouds (and cloud shadows) and topographic shadows.Contains modified Copernicus Sentinel data.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisseo_s2-sr_v100:wms",
+    "title": "swissEO S2-SR",
+    "type": "Dataset"
+  }
+}

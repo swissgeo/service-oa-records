@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.wohnungsinventar-zweitwohnungsanteil",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.wohnungsinventar-zweitwohnungsanteil?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.wohnungsinventar-zweitwohnungsanteil?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/it/abitazionisecondarie",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ed80ebde-99a0-4523-bc8a-4ec23426d966",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dello sviluppo territoriale ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Nella mappa Inventario delle abitazioni sono contrassegnati in blu i Comuni soggetti alle disposizioni edilizie previste dalla legge sulle abitazioni secondarie (LASec; RS 702) e autorizzati a costruire abitazioni secondarie solo nel rispetto di severe condizioni (art. 7 segg. LASec). La LASec fissa un limite del 20 per cento per la quota delle abitazioni secondarie. Per poter calcolare questa quota la LASec obbliga tutti i Comuni svizzeri a stilare ogni anno un inventario delle abitazioni, che si basa sul Registro federale degli edifici e delle abitazioni (REA). Il REA è curato dai Comuni ed esaminato dall'ARE, che prende come data di riferimento il 31 dicembre. A fine marzo l'ARE pubblica gli inventari delle abitazioni e le quote di abitazioni secondarie. Per i Comuni la cui quota di abitazioni secondarie a marzo risulta, diversamente dall'anno precedente, superiore o inferiore al limite del 20 per cento viene avviato un procedimento di verifica della quota di abitazioni secondarie. Alla fine di ottobre viene aggiornato nella lista lo stato della procedura. Le percentuali indicate nell'Inventario delle abitazioni rimangono invariate fino alla pubblicazione successiva di fine marzo, dal momento che per il suddetto procedimento di verifica della quota di abitazioni secondarie non devono sempre essere forniti valori esatti. Informazioni più dettagliate sui procedimenti in corso possono essere richieste ai Comuni. I Comuni devono indicare nell'Inventario delle abitazioni il numero totale di abitazioni e le abitazioni primarie, mentre non hanno l'obbligo di dichiarare nel REA le abitazioni equiparate ad abitazioni primarie né le abitazioni secondarie. Per tale ragione i dati sulle abitazioni secondarie contenuti negli Inventari delle abitazioni non sono comparabili tra un Comune e l'altro.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.wohnungsinventar-zweitwohnungsanteil:wmts",
+    "title": "Inventario delle abitazioni",
+    "type": "Dataset"
+  }
+}

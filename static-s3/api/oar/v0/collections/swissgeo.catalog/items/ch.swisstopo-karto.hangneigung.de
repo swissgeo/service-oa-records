@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo-karto.hangneigung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo-karto.hangneigung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo-karto.hangneigung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c37cbfbf-0d87-4ae8-8c21-8932130eb3fa",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Derivat aus dem digitalen Höhenmodell swissALTI3D und aus den Modellen von Frankreich, Italien, Österreich und Deutschland welches die Identifikation von Hangneigungen von 30° und mehr erlaubt. Diese Information ist bei der Unfall- und Lawinenprävention hilfreich. Sie wurden aus einem kombinierten digitalen Höhenmodell bestehend aus swissALTI3D für die Schweiz und Liechtenstein, RGE ALTI für Frankreich, TINITALY/01 für Italien, DGM10 für Österreich, DGM1 für Bayern und EU-DEM für Baden-Württemberg und mit einer Auflösung von 10m abgeleitet. Im Übergangsbereich zwischen den zwei Basismodellen kann die Genauigkeit der Hangneigungswerte nicht garantiert werden. Haftungsansprüche aufgrund der Darstellung der Hangneigungen können nicht geltend gemacht werden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-karto.hangneigung:wmts",
+    "title": "Hangneigung ab 30°",
+    "type": "Dataset"
+  }
+}

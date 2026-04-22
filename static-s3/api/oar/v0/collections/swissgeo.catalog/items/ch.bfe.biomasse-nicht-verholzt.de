@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.biomasse-nicht-verholzt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.biomasse-nicht-verholzt?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.biomasse-nicht-verholzt?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/biomassepotenziale",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/a1e28820-056f-4371-9bb3-8c17b846e56f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Energie BFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Biomasse ist eine erneuerbare Energiequelle, die in verschiedene Energieformen umgewandelt werden kann: Wärme, Strom, Biogas oder flüssige Treibstoffe. Biomasse ist meist speicherbar und kann daher verwendet werden, um die schwankende Energieproduktion von Wind und Sonne auszugleichen. Nicht-verholzte Arten von Biomasse wurden mit methodisch vergleichbaren Ansätzen untersucht: Hofdünger, Nebenprodukte aus dem landwirtschaftliche Pflanzenbau, Organischer Anteil Kehricht, Grüngut aus Haushalt und Landschaft, organischen Abfälle aus Industrie und Gewerbe und Klärschlamm. Im Rahmen der Umsetzung der Energiestrategie 2050 sieht die Schweizer Regierung eine massive Erhöhung des Anteils der erneuerbaren Energien vor. Das Schweizerische Kompetenzzentrum für Energieforschung (SCCER) Biosweet (Biomass for Swiss Energy Future) sucht nach Lösungen für die technischen, sozialen und politischen Herausforderungen des Energiewandels im Bereich Biomasse. Die Eidgenössische Forschungsanstalt für Wald, Schnee und Landschaft WSL hat das Potenzial wichtiger Biomassenressourcen in der Schweiz quantifiziert und lokalisiert, insbesondere im Hinblick auf ihre nachhaltige Verfügbarkeit. Die Ergebnisse dienen als Grundlage für (i) die Optimierung von Umwandlungsprozessen unter Berücksichtigung technologischer Entwicklungen und (ii) die Identifizierung vielversprechender Biomassenutzungspfade und der besten Standorte für deren Umsetzung. Die Daten (https://www.envidat.ch/dataset/swiss-biomass-potentials) und ein detaillierter Bericht sind online verfügbar (https://www.dora.lib4ri.ch/wsl/islandora/object/wsl%3A13277/datastream/PDF/Thees-2017-Biomassepotenziale_der_Schweiz_f%C3%BCr_die-%28published_version%29.pdf). Diese Karte zeigt das nachhaltige Potenzial (maximale Menge an national produzierter Biomasse, die nach Abzug ökologischer, wirtschaftlicher, rechtlicher und politischer Restriktionen genutzt werden kann) der nicht verholzten Biomassen für Bioenergie in der Schweiz auf Gemeindeebene in Primärenergie (maximale Menge an Energie, die in einer Ressource ohne Umwandlung verfügbar ist) in Terajoule.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biomasse-nicht-verholzt:wmts",
+    "title": "Nicht-verholzte Biomassen",
+    "type": "Dataset"
+  }
+}

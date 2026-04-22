@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfe.erneuerbarheizen-mehrfamilienhaeuser:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser/items/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser:wms?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfe.erneuerbarheizen-mehrfamilienhaeuser",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfe.erneuerbarheizen-mehrfamilienhaeuser:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser/items/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser:stac?language=en",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfe.erneuerbarheizen-mehrfamilienhaeuser",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

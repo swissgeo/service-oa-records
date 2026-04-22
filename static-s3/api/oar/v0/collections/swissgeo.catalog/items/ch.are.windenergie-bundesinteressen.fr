@@ -1,0 +1,102 @@
+{
+  "id": "ch.are.windenergie-bundesinteressen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.are.windenergie-bundesinteressen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.are.windenergie-bundesinteressen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.are.admin.ch/energieeolienne",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/171a7520-27b2-4a60-9251-acf9b450d6b6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral du développement territorial ARE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Conception énergie éolienne est une conception au sens de l'art. 13 de la loi fédérale sur l'aménagement du territoire (LAT ; RS 700). Elle définit, d'une part les principaux intérêts de la Confédération dont il faut tenir compte lors de la planification d'installations éoliennes, de l'autre les principales zones à potentiel éolien qu'il s'agit d'examiner dans le cadre de la planification directrice cantonale. La Conception énergie éolienne augmente de la sorte la sécurité de la planification.Les indications relatives aux intérêts de la Confédération à prendre en compte lors de la planification d'installations éoliennes se réfèrent à une synthèse des restrictions dans les domaines suivants : protection contre le bruit, plans sectoriels de la Confédération, protection du paysage, de la nature et du patrimoine, protection des espèces ainsi qu'installations techniques relevant de la compétence de la Confédération. Il faut noter que, pour différents intérêts de la Confédération et faute de données, il n'a pas été possible de fournir les informations spatiales ou alors celles-ci ne sont pas exhaustives. C'est pourquoi, dans le cadre des planifications directrices et d'affectation des cantons, il faut à chaque fois procéder, à chaque niveau, à des analyses supplémentaires des intérêts de la Confédération. Les contenus des cartes n'ont aucun caractère juridique contraignant. Bien que certains contenus reposent sur des informations revêtant un caractère obligatoire pour les autorités, p. ex. les objets apparaissant dans les inventaires de la Confédération, la carte ne revêt pas un caractère obligatoire pour les autorités. L'activation de la fonction d'interrogation fait apparaître les détails concernant la cellule concernée. Pour comprendre pleinement la pertinence de la carte et des résultats fournis lors de son interrogation, il faut se référer aux explications données dans la Conception énergie éolienne ainsi qu'au rapport explicatif s'y référant.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.are.windenergie-bundesinteressen:wms",
+    "title": "Eolien: Intérêts de la Confédération",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.wald-niederschlag_april_august_2085_gering",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_april_august_2085_gering?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.wald-niederschlag_april_august_2085_gering?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.research-collection.ethz.ch/handle/20.500.11850/124748",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/fa6960ab-794e-42c5-ac9f-14895a5f2b3a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carte montre la somme des précipitations (en mm) pour les mois d'avril à août calculée pour la période 2070-2099. Les anomalies de précipitations du scénario climatique ont été ajoutées à la carte «Précipitations avril-août 1981-2010», déduite des cartes des normales saisonnières pour les précipitations de MétéoSuisse. Parmi les trajectoires de concentration représentatives, la trajectoire RCP 2.6 avec la combinaison de modèles DMI_HIRHAM_ECEARTH_EUR11 a été choisie comme projection d'un changement climatique faible (NCCS 2018; fourniture des données par Remund et al. 2020) pour le calcul de la somme des précipitations dans le futur. La carte qui en résulte présente une résolution spatiale de 25 m x 25 m. Elle a été utilisée pour la modélisation des étages de végétation forestière.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-niederschlag_april_august_2085_gering:wmts",
+    "title": "Précipitations avril-août 2085, RCP 2.6",
+    "type": "Dataset"
+  }
+}

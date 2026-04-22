@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.landesforstinventar-waldmischungsgrad",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-waldmischungsgrad?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.landesforstinventar-waldmischungsgrad?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/b07a4589-159b-4c3a-b1e7-dbdad11f7e62",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les informations sur la composition de la forêt LFI sont modélisées à l'aide de méthodes de télédétection. Sur la base des données du satellite Copernicus (ESA) Sentinel-1 et -2, disponibles gratuitement (piles d'images des dernières années), la proportion du bois à feuilles caduques et de conifères est évaluée à l'échelle nationale dans des cellules de grille avec une résolution spatiale de 10 mètres. Une méthode de machine learning est utilisée à cet effet. Les polygones interprétés des photographies aériennes servent de données de référence pour la modélisation. Chaque cellule matricielle porte l'information sur la proportion de feuillus. L'ensemble de données se réfère à tous les peuplements à l'échelle nationale, et pas seulement à la zone forestière LFI. Le rapport de mélange forestier LFI spatialement explicite peut différer du rapport de mélange LFI de l'enquête d'échantillonnage terrestre. La détermination terrestre du degré de mélange utilise le rapport de la surface basale des feuillus et des conifères. Dans le cas du rapport de mélange forestier LFI basé sur les données des satellites Sentinel-1 et -2, le rapport des couronnes visibles des feuillus et des conifères est calculé.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-waldmischungsgrad:wmts",
+    "title": "Mixité des forêts IFN",
+    "type": "Dataset"
+  }
+}

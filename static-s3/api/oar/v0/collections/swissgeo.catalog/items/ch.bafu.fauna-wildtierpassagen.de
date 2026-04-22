@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.fauna-wildtierpassagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.fauna-wildtierpassagen?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.fauna-wildtierpassagen?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "http://www.bafu.admin.ch/wildtierpassagen",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/889fe239-f7e8-421f-9e5f-c437df3f4d98",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Wildtiere nutzen verschiedenartige Teile ihres Lebensraumes im saisonalen Verlauf. Diese Ansprüche variieren von Tierart zu Tierart, genauso wie die zwischen den Lebensräumen zurückgelegten Distanzen, die mehrere Meter bis Dutzende von Kilometern betragen können. Sei es, um neue Gebiete zu besiedeln oder um die genetische Durchmischung zu gewährleisten, die für das langfristige Überleben der Populationen notwendig ist, müssen sich die Tiere frei bewegen können. Heute stellen anthropogene Infrastrukturen wie Verkehrsinfrastrukturen (insbesondere das Nationalstrassennetz) und Siedlungsgebiete physische Barrieren dar, die für die Fauna meist unüberwindbar sind. Wenn Verkehrsinfrastrukturen Wildtierkorridore unterbrechen, ist der Bau von Wildtierpassagen erforderlich, um die Infrastrukturen passierbar zu machen. Eine Vielzahl der erfassten Wildtierpassagen wurde von den Kantonen vor 2001 gebaut, während die neueren vom ASTRA im Rahmen seines Teilprogramms zur Sanierung von Wildtierkorridoren realisiert wurden.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fauna-wildtierpassagen:wmts",
+    "title": "Wildtierpassagen",
+    "type": "Dataset"
+  }
+}

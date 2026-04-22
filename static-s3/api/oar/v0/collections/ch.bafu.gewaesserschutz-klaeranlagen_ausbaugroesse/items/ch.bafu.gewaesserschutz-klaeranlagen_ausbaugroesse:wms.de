@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse/items/ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse:wms?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bafu.gewaesserschutz-klaeranlagen_ausbaugroesse"
+    ]
+  }
+}

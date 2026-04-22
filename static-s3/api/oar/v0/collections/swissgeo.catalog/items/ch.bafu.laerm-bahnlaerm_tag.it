@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.laerm-bahnlaerm_tag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.laerm-bahnlaerm_tag?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.laerm-bahnlaerm_tag?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/it/home/temi/rumore/stato-dell_inquinamento-fonico-in-svizzera.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c335f61e-1e94-4a59-b0e7-94bb158f5a48",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Il piano mostra l'esposizione della popolazione al rumore del traffico ferroviario diurno. Il calcolo del rumore si basa sui dati di emissione relativi al 2021 indicati come emissioni effettive nel catasto dei rumori degli impianti ferroviari. Tali dati sono stati calcolati dalle Ferrovie federali svizzere per le reti di FFS, BLS, SOB, SZU, Ferrovia centrale e RhB sulla base dei dati sul traffico e sono stati inseriti nel catasto delle emissioni 2021 Quest'ultimo contempla circa 4165 km dei 5800 km complessivi di linea ferroviaria sotto la sorveglianza federale. Dati vincolanti relativi all'inquinamento e al risanamento fonico sono pubblicati dall'Ufficio federale dei trasporti (UFT) in qualità di autorità esecutiva della Confederazione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.laerm-bahnlaerm_tag:wmts",
+    "title": "Rumore ferroviario di giorno",
+    "type": "Dataset"
+  }
+}

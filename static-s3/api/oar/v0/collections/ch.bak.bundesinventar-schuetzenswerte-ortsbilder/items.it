@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wms?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bak.bundesinventar-schuetzenswerte-ortsbilder",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder:stac?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bak.bundesinventar-schuetzenswerte-ortsbilder",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder:wmts?language=it",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bak.bundesinventar-schuetzenswerte-ortsbilder",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

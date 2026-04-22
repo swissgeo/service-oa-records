@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-geomol_hoehe_top_keuper",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol_hoehe_top_keuper?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol_hoehe_top_keuper?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/b8cacfe8-1af6-419f-bee1-c2d5aba84ad8/attachments/Bericht_Geomol_FR.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4968cd39-bf89-4b6c-aac9-eac296f62fb7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Cette carte correspond à la vue en 2D de la surface modélisée de l'horizon stratigraphique Toit de Keuper, ainsi que de la position des failles modélisées au niveau de la surface de cet horizon. Les cartes des isohypses présentées dans le modèle GeoMol17 ont été établies pour la publication du rapport final GeoMol et correspondent donc à l'état de 2017. Le modèle géologique 3D est continuellement mis à jour avec de nouvelles données et est disponible en ligne à l'adresse <a href=\"https://viewer.swissgeol.ch/?lon=7.58406&lat=45.38694&elevation=251358&heading=1&pitch=-59&map=ch.swisstopo.pixelkarte-grau&map_transparency=0.90&layers=base_permocarboniferous%2Cbase_permocarboniferous_supposed%2Ctop_muschelkalk%2Ctop_dogger%2Cbase_mesozoic%2Ctop_lias%2Ctop_keuper%2Ctop_cretaceous%2Ctop_upper_malm%2Ctop_lower_malm%2Ctop_umm%2Ctop_usm%2Ctop_omm%2Cfaults_geomol&layers_visibility=true%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue&layers_transparency=0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.41\" target=\"_blank\">viewer.swissgeol.ch</a>. GeoMol17 est un modèle géologique 3D détaillé du bassin molassique suisse, réalisé par swisstopo en collaboration avec cinq partenaires. Ce modèle géologique 3D présente une interprétation géologique uniforme de l'ensemble du Plateau suisse. GeoMol17 se compose de 12 horizons stratigraphiques (du Cénozoïque, du Mésozoïque et du Permo-Carbonifère) et d'environ 550 surfaces de failles. Le <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/b8cacfe8-1af6-419f-bee1-c2d5aba84ad8/attachments/Bericht_Geomol_FR.pdf\" target=\"_blank\">Rapport GeoMol – Modèle géologique 3D du bassin molassique suisse</a> renferme une documentation détaillée des données d'entrées, de la méthodologie et des résultats, ainsi que des incertitudes et des domaines d'application. Cette carte numérique des isohypses est constituée par une grille dont la largeur de maille est de 100 mètres et indique les altitudes en mètres au-dessus du niveau de la mer. Les modèles géologiques 3D sont des représentations simplifiées de la réalité géologique. L'utilisateur reconnaît que les auteurs ont déployé tous les efforts raisonnables pour vérifier les informations contenues dans le modèle géologique 3D. Il n'y a aucune garantie que les données présentées soient correctes à un point précis du sous-sol. L'éditeur ne peut en aucun cas être tenu responsable pour toutes pertes ou dommages matériels ou immatériels résultant de l'accès, de l'utilisation ou de la non-utilisation des informations publiées, d'une mauvaise utilisation de celles-ci ou de défaillances techniques.<ul> Autres jeux de données GeoMol: <ul> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_omm&topic=geol\" target=\"_blank\">Toit de l'OMM</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_usm&topic=geol\" target=\"_blank\">Toit de l'USM</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_basis_kaenozoikum&topic=geol\" target=\"_blank\">Base du «Cénozoïque»</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_kreide&topic=geol\" target=\"_blank\">Toit du «Crétacé»</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_oberer_malm&topic=geol\" target=\"_blank\">Toit du Malm supérieur</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_unterer_malm&topic=geol\" target=\"_blank\">Toit du Malm inférieur</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_dogger&topic=geol\" target=\"_blank\">Toit du Dogger</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_lias&topic=geol\" target=\"_blank\">Toit du Lias</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_muschelkalk&topic=geol\" target=\"_blank\">Toit du Muschelkalk</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_basis_mesozoikum&topic=geol\" target=\"_blank\">Base du «Mésozoïque»</a></li>",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol_hoehe_top_keuper:wms",
+    "title": "Toit du Keuper",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-dosisleistung-terrestrisch",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-dosisleistung-terrestrisch?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-dosisleistung-terrestrisch?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bag.admin.ch/bag/fr/home/gesund-leben/umwelt-und-gesundheit/strahlung-radioaktivitaet-schall/radioaktivitaet-in-der-umwelt/in-situ-messungen-radioaktivitaet.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/eccbc751-9928-4221-89e1-1184cbb3aff5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ispettorato federale della sicurezza nucleare IFSN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Gli elementi naturali instabili, come l’uranio, il torio e il potassio, nei primi 30 - 40 cm di suolo forniscono la maggior parte della radiazione misurata in superficie. L’intensità della radiazione terrestre si misura a un metro dal suolo ed e espressa in nano-Sievert l’ora (nSv/h). In Svizzera le concentrazioni più elevate di uranio, torio e potassio si trovano soprattutto nelle rocce delle Alpi. La mappa dell’intensità della radiazione terrestre sfrutta diversi metodi di misurazione: quello spettrometrico di tipo gamma in laboratorio su campioni di terreno, quello aeroradiometrico e spettrometrico di tipo gamma in situ. I dati dei punti di misura sono interpolati su una griglia di 2 × 2 km.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-dosisleistung-terrestrisch:wmts",
+    "title": "Radiazione terrestre",
+    "type": "Dataset"
+  }
+}

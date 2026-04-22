@@ -1,0 +1,102 @@
+{
+  "id": "ch.astra.veloland-sperrungen_umleitungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.astra.veloland-sperrungen_umleitungen?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.astra.veloland-sperrungen_umleitungen?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.schweizmobil.org",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c1293eab-eeb0-45a5-b79f-0909129c7e5a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral des routes OFROU, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Le jeu de données contient les fermetures et les déviations sur le réseau de «La Suisse à vélo» de la Suisse et de la Principauté du Liechtenstein, qui ont été communiquées à SuisseMobile. Il complète les géodonnées «La Suisse à vélo» (Mobilité douce – La Suisse à vélo), et il est publié par l'Office fédéral des routes OFROU, l'Office fédéral de topographie swisstopo, SuisseMobile et les cantons.Lien vers le disclaimer: https://schweizmobil.ch/fr/fermetures-deviations",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.veloland-sperrungen_umleitungen:wms",
+    "title": "Fermetures Vélo",
+    "type": "Dataset"
+  }
+}

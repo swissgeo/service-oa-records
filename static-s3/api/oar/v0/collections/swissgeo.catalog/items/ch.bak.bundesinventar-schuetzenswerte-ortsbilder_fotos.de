@@ -1,0 +1,102 @@
+{
+  "id": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bak.admin.ch/bak/de/home/baukultur/isos-und-ortsbildschutz.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b9c1d690-008f-494c-a47f-ec96d9a8d84f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Kultur BAK",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Bundesinventar der schützenswerten Ortsbilder der Schweiz von nationaler Bedeutung (ISOS) bezeichnet die wertvollsten, landesweit bedeutenden Ortsbilder und dokumentiert sie.Die Arbeiten am ISOS begannen 1973 mit der Entwicklung einer für die Inventarisierung von Ortsbildern geeigneten Methode – der ISOS-Methode. Im Jahr 2016 hat das Bundesamt für Kultur (BAK) diese Methode aktualisiert und die Darstellung des Bundesinventars an die GIS-Technologie angepasst. Die ursprüngliche Methode (ISOS I) und die angepasste Methode (ISOS II) beruhen auf denselben Grundprinzipien und Regeln. Dieses Portal präsentiert die ISOS-Aufnahmen, die zurzeit in Kraft sind. Es gibt zwei Arten von Daten: 1. die nach Methode ISOS I erarbeiteten Aufnahmen, die lediglich als PDF verfügbar sind; 2. die nach Methode ISOS II erarbeiteten Aufnahmen, die als PDF und vektorielle Geodaten verfügbar sind. Bitte beachten Sie: Nur die PDF sind rechtsgültig. Die Geodaten dienen lediglich der Information. Ihr Detaillierungsgrad nimmt mit wachsendem Massstab zu. Das ISOS wird zurzeit revidiert. Die Revision erfolgt etappenweise. Folglich werden während einer gewissen Zeit Aufnahmen, die nach der Methode ISOS I erarbeitet wurden, und Aufnahmen, die mit der Methode ISOS II erstellt wurden, auf diesem Portal koexistieren. Nach Abschluss der Revision in der ganzen Schweiz werden nur noch Aufnahmen verfügbar sein, die nach der Methode ISOS II erarbeitet wurden. Dieser Layer präsentiert die Fotos zu den nach der Methode ISOS II aktualisierten Aufnahmen. Er wird jährlich aktualisiert. Die beste Übersichtlichkeit der Informationen wird erreicht, wenn er über dem Layer \"Ortsbildaufnahmen\" liegt. Die Fotos sind ab dem Massstab 1: 50'000 zu sehen. Alle ISOS-Daten (Pläne, Texte, Fotos) sind geistiges Eigentum der Bundesregierung (© BAK, Bern) Für detaillierte Informationen zum ISOS siehe www.isos.ch.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.bundesinventar-schuetzenswerte-ortsbilder_fotos:wmts",
+    "title": "ISOS - Bilder",
+    "type": "Dataset"
+  }
+}

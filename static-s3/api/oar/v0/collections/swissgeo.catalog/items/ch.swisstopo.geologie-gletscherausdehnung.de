@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-gletscherausdehnung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletscherausdehnung?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-gletscherausdehnung?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.glamos.ch/",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f6fb6139-f13e-4a56-bf01-01b7dd4358d5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Landestopografie swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Das Schweizerische Gletschermessnetz (GLAMOS) bezweckt die langfristige Dokumentation der Gletscher-Veränderungen in der Schweiz. Es werden systematisch Daten zur Entwicklung der Fläche, des Volumens, aber auch der Schneeakkumulation und Schmelze von Eis sowie der Gletscherfliessbewegung und Eistemperaturen erhoben. Diese Informationen sind wichtig um die Wechselwirkung zwischen Gletschern und Klima zu verstehen. Sie dienen dazu Wasserressourcen, Naturgefahren und den künftigen Meeresspiegelanstieg abzuschätzen. Gletscherinventare umfassen die Umrisse, Flächen und weitere Kenngrössen zu einem bestimmten Zeitpunkt für sämtliche Gletscher eines Gebietes. Für die Schweizer Alpen liegen solche vollständigen Inventare für die Zeitstände 1850 (nachträglich rekonstruiert), 1973, 2010 und 2016 (aus Luftbildern abgeleitet) vor.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletscherausdehnung:wmts",
+    "title": "Gletscherausdehnung",
+    "type": "Dataset"
+  }
+}

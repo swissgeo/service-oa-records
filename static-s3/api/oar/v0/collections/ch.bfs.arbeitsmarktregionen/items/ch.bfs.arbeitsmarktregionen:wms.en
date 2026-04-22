@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfs.arbeitsmarktregionen:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.arbeitsmarktregionen/items/ch.bfs.arbeitsmarktregionen:wms?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.arbeitsmarktregionen?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfs.arbeitsmarktregionen",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bfs.arbeitsmarktregionen"
+    ]
+  }
+}

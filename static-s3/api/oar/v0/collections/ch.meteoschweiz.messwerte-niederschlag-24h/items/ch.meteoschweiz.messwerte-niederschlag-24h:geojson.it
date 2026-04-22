@@ -1,0 +1,38 @@
+{
+  "id": "ch.meteoschweiz.messwerte-niederschlag-24h:geojson",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.meteoschweiz.messwerte-niederschlag-24h/items/ch.meteoschweiz.messwerte-niederschlag-24h:geojson?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-niederschlag-24h?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.meteoschweiz.messwerte-niederschlag-24h",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-niederschlag-24h/ch.meteoschweiz.messwerte-niederschlag-24h_it.json",
+      "rel": "about",
+      "title": "Link to GeoJSON file",
+      "type": "application/geo+json"
+    },
+    {
+      "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-niederschlag-24h.json",
+      "rel": "styled-by",
+      "title": "Link to style file for the GeoJSON layer",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "GeoJSON Layer",
+    "protocol": "geojson"
+  }
+}

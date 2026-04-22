@@ -1,0 +1,84 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wmts?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wms?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    },
+    {
+      "id": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:stac",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:stac?language=de",
+          "rel": "self",
+          "title": "Link to this distribution record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.bundesinventare-auen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-auen?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-auen?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://opendata.swiss/de/perma/9d598c5d-11d8-4187-b452-7cea7b993c44@bundesamt-fur-umwelt-bafu",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/d47dffc7-8072-40c2-bbf7-4fb47367bd29",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Floodplains, namely natural habitats in the flood zones of watercourses, are in decline. The scientific inventory of floodplains was commissioned by the FDHA in May 1981 and compiled by vegetation research group of the Swiss Federal Institute for Foresty (now FSL). In accordance with Article 18a of the Federal Act of 1 July 1966 on the Protec-tion of Nature and Cultural Heritage (NCHA), which came into force on 1 February 1988, the Federal Council designates biotopes of national importance, assesses their situa-tion and sets conservation objectives for them. However, this occurs after the cantons have been heard. As the second federal inventory under Article 18a NCHA, in 1992 the Federal Council implemented the Federal Inventory of Floodplains with 169 floodplain sites. It has been expanded in 2001, 2003, 2007 and 2017. Between 1995 and 1997, the Inventory of Glacier Forelands and Alpine Floodplains (IGLES), a scientific inventory, developed the bases for the first expansion. Currently 326 objects are contained in the inventory and protected by law.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-auen:wmts",
+    "title": "Floodplains",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude/items/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude:wmts?language=fr",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude"
+    ]
+  }
+}

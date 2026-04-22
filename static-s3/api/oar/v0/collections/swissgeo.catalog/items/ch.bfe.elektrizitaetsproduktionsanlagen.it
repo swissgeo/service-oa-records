@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfe.elektrizitaetsproduktionsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.elektrizitaetsproduktionsanlagen?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.elektrizitaetsproduktionsanlagen?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfe.admin.ch/impianti-produzione-elettrica",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/e5a00bdb-5022-4856-ad4a-d1afe7bf38b0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'energia UFE",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Un impianto di produzione di energia elettrica è un dispositivo tecnico per la produzione di energia elettrica. È di interesse generale avere una panoramica spaziale di tutti gli impianti di produzione di energia elettrica presenti in Svizzera. In particolare, l'espansione degli impianti di produzione che generano elettricità da fonti energetiche rinnovabili dovrebbe essere presentata in modo trasparente. Inoltre, è possibile rendere visibile il rapporto tra gli impianti che producono elettricità da fonti energetiche rinnovabili e quelli che producono elettricità da fonti energetiche non rinnovabili. Si distingue tra energia idroelettrica, fotovoltaica, eolica, biomassa, geotermica, nucleare, petrolio, gas naturale e carbone. Questo set di dati comprende tutti gli impianti di produzione di energia elettrica registrati nel sistema svizzero delle garanzie di origine. Da un lato, questo include tutti gli impianti con una capacità superiore a 30 kilovolt-ampere (kVA), così come i piccoli impianti (superiori a 2 kilowatt) che sono stati registrati a titolo volontario per il rilascio di garanzie di origine. Dall'altro lato, il set di dati include impianti che sono sovvenzionati tramite una rimunerazione per l'immissione di elettricità, un versamento unico, un finanziamento dei costi aggiuntivi o un contributo d'investimento (secondo gli art. 19 e 24; LEne). Sono inclusi solo gli impianti di produzione di elettricità che sono in funzione.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.elektrizitaetsproduktionsanlagen:wms",
+    "title": "Impianti produzione elettrica",
+    "type": "Dataset"
+  }
+}

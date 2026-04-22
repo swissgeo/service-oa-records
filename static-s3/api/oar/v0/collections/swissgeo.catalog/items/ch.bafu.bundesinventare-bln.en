@@ -1,0 +1,101 @@
+{
+  "id": "ch.bafu.bundesinventare-bln",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-bln?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.bundesinventare-bln?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bln",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/bc3f1564-1e56-44e9-98b6-f0d8c5130410",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office for the Environment FOEN",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Article 5 of the Federal Act of 1 July 1966 on the Protection of Nature and Cultural Heritage (NCHA) orders the Federal Council to compile inventories of sites of national importance (federal inventories). The cantons must be heard when these inventories are enacted. The Federal Inventory of Landscapes and Natural Monuments of National Importance (ILNM) is the first federal inventory under the NCHA. The preliminary stage is the CLN Inventory (Inventory of Landscapes and Natural Monuments of National Importance), a reference whose first edition was released by private organizations in 1963 and has been periodically expanded and revised. The ILNM inventory has gradually taken legal effect. To date, the Federal Council has approved four inventory development series: the first series in 1977 with 65 sites; the second series in 1983 with 54 sites; the third series in 1996 with 33 sites and 11 revised sites; and the fourth series in 1998 with 9 sites and 15 revised sites. In the 2017 revision a surface exchange between the objects 1605 and 1606 was made.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-bln:wmts",
+    "title": "ILNM",
+    "type": "Dataset"
+  }
+}

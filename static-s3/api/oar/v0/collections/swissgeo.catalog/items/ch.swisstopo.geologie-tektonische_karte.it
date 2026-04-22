@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.geologie-tektonische_karte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-tektonische_karte?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-tektonische_karte?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/dati-di-base",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/a4cdef47-505e-41ab-b6a7-ad5b92d80e41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La Carta tettonica della Svizzera (TK500) illustra le unità tettoniche e gli elementi strutturali dell'intera Svizzera e delle regioni limitrofe. Le unità raggruppano rocce con una storia geodinamica comune e sono separate tra loro da discontinuità tettoniche. All'interno di alcune unità, è stata introdotta una demarcazione tra basamento cristallino e una o più serie successive di copertura sedimentaria. Le unità sono raggruppate in domini strutturali separati dalle discontinuità tettoniche principali. Le unità e le sottounità possono essere localizzate inserendo il loro nome nel campo di ricerca, così come alcune linee strutturali (non tutte hanno un nome). La carta attuale (4a edizione, 2024) è accompagnata da <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500-ERL.pdf?approved=true\" target=\"_blank\">note esplicative</a> che forniscono una breve definizione di ciascuna unità rappresentata. Una tavola allegata mostra tre <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500_Plate-II_Profile.pdf?approved=true\" target=\"_blank\">sezioni tettoniche</a> da NW–SE a N–S, che attraversano l'intera carta e mostrano le principali strutture in profondità. Un'altra tavola contiene una serie di <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/a4cdef47-505e-41ab-b6a7-ad5b92d80e41/attachments/TK500_Plate-III_Paleogeography.pdf?approved=true\" target=\"_blank\">schemi paleogeografici</a> dal Giurassico Medio (170 Ma) ai giorni nostri, che rappresentano l'evoluzione delle relazioni spaziali tra i diversi domini tettonici dalla carta.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-tektonische_karte:wmts",
+    "title": "Tettonica 500",
+    "type": "Dataset"
+  }
+}

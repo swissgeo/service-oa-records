@@ -1,0 +1,34 @@
+{
+  "id": "ch.swisstopo.geologie-geologischer_atlas.metadata:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geologischer_atlas.metadata/items/ch.swisstopo.geologie-geologischer_atlas.metadata:wms?language=en",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geologischer_atlas.metadata?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.geologie-geologischer_atlas.metadata",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.geologie-geologischer_atlas.metadata"
+    ]
+  }
+}

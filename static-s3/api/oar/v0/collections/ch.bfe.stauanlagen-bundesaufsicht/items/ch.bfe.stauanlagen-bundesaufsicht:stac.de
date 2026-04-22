@@ -1,0 +1,34 @@
+{
+  "id": "ch.bfe.stauanlagen-bundesaufsicht:stac",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfe.stauanlagen-bundesaufsicht/items/ch.bfe.stauanlagen-bundesaufsicht:stac?language=de",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfe.stauanlagen-bundesaufsicht?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfe.stauanlagen-bundesaufsicht",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/stac-api-landingpage",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "STAC Download Collection",
+    "protocol": "ogcapi:stac",
+    "externalIds": [
+      "ch.bfe.stauanlagen-bundesaufsicht"
+    ]
+  }
+}

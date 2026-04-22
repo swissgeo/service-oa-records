@@ -1,0 +1,102 @@
+{
+  "id": "ch.agroscope.korridore-feuchtgebietsarten_bereiche",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.agroscope.korridore-feuchtgebietsarten_bereiche?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://link.springer.com/article/10.1007/s11273-020-09739-8",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/1f1c2f2c-2c96-4f01-b404-63e6cd1d3e32",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Agroscope",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Der Datensatz zeigt potenzielle Ausbreitungskorridore für Arten offener Feuchtgebiete (OFG-Arten) zwischen Feuchtgebieten in nationalen und regionalen Inventaren. Die Korridorraster ergänzt die idealisierten Least-Costs-Pfade aus dem verwandtem Layer, \"Korridore Qualität\" mit Fehlerbalken und liefert so eine zweidimensionale Darstellung potenzieller Korridore um die optimalen Ausbreitungsrouten herum. Zusammen heben die beiden Karten potenzielle Routen zwischen geschützten Feuchtgebieten hervor und ordnen sie nach ihrer Durchlässigkeit ein, was eine räumlich explizite Priorisierung von Wiedervernässungsinitiativen ermöglicht.Die Bewegungskorridore wurden durch Pufferung der kostengünstigsten Pfade zwischen Feuchtgebieten in Schritten von 10 % Erhöhung der Kosten-Entfernung erstellt. Die dunkelsten blauen Korridore enthalten die 10 % der Zellen mit der geringsten Abweichung der Kostenentfernung vom Pfad der geringsten Kosten. Neben der Hervorhebung möglicher sekundärer und tertiärer Routen zwischen Standorten kann die Interpretation dieser Karten nützliche Einblicke in die lokale Landschaft und die Konnektivität innerhalb der Region bieten. In Gebieten, in denen der Weg der geringsten Kosten durch einen breiten Streifen feuchter Lebensräume führt, wird der Korridor breiter, was darauf hindeutet, dass der Weg der geringsten Kosten hier nur eine von vielen möglichen Routen durch den Standort ist. Wenn sich der Korridor hingegen verengt, ist die Ausbreitung auf einen schmalen Streifen eines geeigneten Lebensraums beschränkt. Weitere Einzelheiten über die Erstellung und Anwendung der Korridorkarten finden Sie unter: Churko, G., Walter, T., Szerencsits, E., & Gramlich, A. (2020). Improving wetland connectivity through the promotion of wet arable land. Wetlands Ecology and Management, 28(4), 667–680. Churko, Greg, Szerencsits, Erich, Gramlich, Anja, Prasuhn, Volker, & Walter, Thomas. (2018). Arten der Feucht-(Acker-) Flächen in der Schweiz und Korridore zwischen Schutzobjekten. Agroscope Science, 76, 1–39. Roberti G., Gramlich A., Benz R., Szerencsits E., Churko G., Prasuhn V., Leifeld J., Zorn A., Jacot-Ammann K., Herzog F., Fabian Y. Entscheidungshilfe für feuchte und nasse Ackerflächen : Unterstützung bei der Identifikation von Flächen, auf denen Alternativen zur Entwässerung in Betracht zu ziehen sind. Agroscope Transfer, 449, 2022, 1-68.",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.korridore-feuchtgebietsarten_bereiche:wmts",
+    "title": "Feuchtgebietskorridore - Bereiche",
+    "type": "Dataset"
+  }
+}

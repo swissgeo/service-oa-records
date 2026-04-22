@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ammoniakkonzentration",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-ammoniakkonzentration?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.luftreinhaltung-ammoniakkonzentration?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/air/effets-de-la-pollution-atmospherique/effets-de-la-pollution-atmospherique-sur-les-ecosystemes/les-polluants-atmospheriques-azotes-portent-atteinte-a-la-biodiv.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/47b30108-d19e-4ac1-ab93-cba6a777003b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'ammoniac peut causer des dommages aux plantes et aux animaux et contribue à l'augmentation des dépôts azotés. Les niveaux critiques (« critical levels ») d'ammoniac dans l'air sont définis dans la Convention CEE-ONU sur la pollution atmosphérique transfrontière à longue distance. Ils ne s'appliquent toutefois qu'aux surfaces contenant des écosystèmes sensibles. Le niveau critique annuel moyen d'ammoniac est fixé à 1 µg/m³ pour les lichens et les bryophytes et à une valeur comprise entre 2 et 4 µg/m³ pour les plantes supérieures. La série temporelle montre les cartes de la concentration d'ammoniac moyenne pour les années 1990, 2000, 2005. 2010, 2015 et 2020 sur une grille de 500m. La modélisation se base sur les émissions nationales d'ammoniac, dont plus de 90 % proviennent de l'agriculture. Des informations détaillées à ce sujet sont fournies dans le rapport Critical Loads of Nitrogen and their Exceedances (disponible uniquement en anglais). Des renseignements concernant le calcul des émissions d'ammoniac sont donnés sur le site Internet relatif au modèle Agrammon. Les concentrations d'ammoniac peuvent localement diverger des données modélisées. Les pixels individuels ne doivent pas être utilisés pour l'évaluation de sites uniques.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-ammoniakkonzentration:wmts",
+    "title": "Concentration d'ammoniac",
+    "type": "Dataset"
+  }
+}

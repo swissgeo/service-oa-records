@@ -1,0 +1,102 @@
+{
+  "id": "ch.bazl.intrinsisches-bodenrisiko_sora_100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bazl.intrinsisches-bodenrisiko_sora_100?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bazl.intrinsisches-bodenrisiko_sora_100?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bazl.admin.ch/dam/it/sd-web/98bYHOD-6sNv/Documentation_SORA2.5.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/72037378-6da9-4202-98f8-ef9731ea31a4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'aviazione civile UFAC",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "L'articolo 11 del Regolamento europeo sugli aeromobili senza pilota (UE) 2019/947 richiede una valutazione del rischio utilizzando la metodologia SORA (Specific Operational Risk Assessment) per gli aeromobili senza pilota (UAS) della categoria specifica. Parte di questa valutazione prevede la stima del rischio per le persone non coinvolte nel sorvolo.Questa mappa è stata progettata per essere utilizzata nell'ambito di tale metodologia di valutazione del rischio. La mappa mostra una stima della densità di popolazione media, calcolata a partire dai dati relativi alla popolazione (STAPOP) e agli impieghi (STATENT) dell'Ufficio federale di statistica (UST). Inoltre, laddove non erano disponibili dati svizzeri, sono stati utilizzati i dati del Global Human Settlement Layer (GHSL) della Commissione europea. I dati devono essere utilizzati come linee guida, pertanto eventuali discrepanze possono essere motivate e argomentate dal richiedente nella valutazione del rischio SORA. L'estensione della mappa copre il territorio per il quale l'Ufficio federale dell'aviazione civile è autorizzato a rilasciare permessi di volo per UAS, ossia la Svizzera e il Liechtenstein. Inoltre, i dati si estendono fino a 5 km oltre il confine svizzero nei Paesi limitrofi, per consentire una corretta valutazione del rischio di deriva in prossimità dei confini. Questa versione della mappa, con una risoluzione spaziale di 100m × 100m, è adatta ai voli di droni al di sotto di 50 m (164 ft) dal suolo. Per ulteriori informazioni, si invita a consultare il materiale guida dell'UFAC.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.intrinsisches-bodenrisiko_sora_100:wmts",
+    "title": "SORA rischio al suolo 100",
+    "type": "Dataset"
+  }
+}

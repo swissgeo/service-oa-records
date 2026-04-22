@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.geologie-geomol_hoehe_top_lias",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol_hoehe_top_lias?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol_hoehe_top_lias?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/api/records/b8cacfe8-1af6-419f-bee1-c2d5aba84ad8/attachments/Bericht_Geomol_DE.pdf",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b01cb837-8675-4fd4-9ab3-654493304ec9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "This map depicts a 2D view of the modelled Top Lias stratigraphic horizon surface and the location of the modelled faults where they intersect this horizon surface. The elevation maps listed under the GeoMol17 model were created for the publication of the GeoMol final report and thus correspond to the 2017 version. The geological 3D model is regularly updated with new data and is available online at <a href=\"https://viewer.swissgeol.ch/?lon=7.58406&lat=45.38694&elevation=251358&heading=1&pitch=-59&map=ch.swisstopo.pixelkarte-grau&map_transparency=0.90&layers=base_permocarboniferous%2Cbase_permocarboniferous_supposed%2Ctop_muschelkalk%2Ctop_dogger%2Cbase_mesozoic%2Ctop_lias%2Ctop_keuper%2Ctop_cretaceous%2Ctop_upper_malm%2Ctop_lower_malm%2Ctop_umm%2Ctop_usm%2Ctop_omm%2Cfaults_geomol&layers_visibility=true%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue%2Ctrue&layers_transparency=0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.00%2C0.41\" target=\"_blank\">viewer.swissgeol.ch</a>. GeoMol17 is a detailed 3D geological model of the Swiss Molasse Basin, created by swisstopo in collaboration with five partners. It provides a unified geological interpretation of the entire Swiss Plateau and consists of 12 stratigraphic horizon surfaces (Cenozoic, Mesozoic and Permocarboniferous) and around 550 fault surfaces. The <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/b8cacfe8-1af6-419f-bee1-c2d5aba84ad8/attachments/Bericht_Geomol_DE.pdf\" target=\"_blank\">GeoMol – Geological 3D model of the Swiss Molasse Basin</a> report contains a detailed documentation of the input data, the methodology and the results, as well as their uncertainties and fields of application. This digital elevation map consists of a grid with a mesh size of 100 metres and shows the elevation in metres above mean sea level. Geological 3D models represent simplifications of the actual geology. The user acknowledges that the authors have taken all reasonable efforts to verify the information contained in the geological 3D model. There is no guarantee that the data given is correct at a specific point in the subsurface. Under no circumstances will the publisher be held liable for any loss or damage of a material or immaterial nature arising from the access of, the use or non-use of the published information, from misuse or technical breakdown.<ul> Further GeoMol map layers: <ul> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_omm&topic=geol\" target=\"_blank\">Top OMM</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_usm&topic=geol\" target=\"_blank\">Top USM</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_basis_kaenozoikum&topic=geol\" target=\"_blank\">Base «Cenozoic»</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_kreide&topic=geol\" target=\"_blank\">Top «Cretaceous»</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_oberer_malm&topic=geol\" target=\"_blank\">Top Upper Malm</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_unterer_malm&topic=geol\" target=\"_blank\">Top Lower Malm</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_dogger&topic=geol\" target=\"_blank\">Top Dogger</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_keuper&topic=geol\" target=\"_blank\">Top Keuper</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_top_muschelkalk&topic=geol\" target=\"_blank\">Top Muschelkalk</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol_hoehe_basis_mesozoikum&topic=geol\" target=\"_blank\">Base «Mesozoic»</a></li>",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol_hoehe_top_lias:wms",
+    "title": "Top Lias",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ch.bafu.neophyten-syrische_seidenpflanze:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.neophyten-syrische_seidenpflanze/items/ch.bafu.neophyten-syrische_seidenpflanze:wms?language=it",
+      "rel": "self",
+      "title": "Link to this distribution record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.neophyten-syrische_seidenpflanze?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.neophyten-syrische_seidenpflanze",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bafu.neophyten-syrische_seidenpflanze"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ch.swisstopo.swisseo_vhi_v100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisseo_vhi_v100?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisseo_vhi_v100?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/en/satelliteimage-swisseo-vhi",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/bc4d0e6b-e92e-4f28-a7d2-f41bf61e98bc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Map of forest condition based on the VHI (Vegetation Health Index), which reflects the current state of forest in relation to historical data 1991-2020. The index is based on satellite data (Meteosat, Landsat 5,7,8, and Sentinel-2) of different spatial resolutions, aggregated of ten and thirty metres respectively. The VHI consists of two components: one part (VCI - Vegetation Condition Index) represents the local biophysical conditions of the vegetation, and the other part (TCI - Thermal Condition Index) characterizes the climatic conditions (temperature). Both components depict the current situation in relation to a reference period. The combined VHI is used to assess drought and other disturbances or stress factors— the lower the value, the greater the stress and its impact on vegetation. Values from 100 down to 60 indicate excellent vegetation condition, values up to 50 are good, and values up to 40 are normal. Below 40, the vegetation shows signs of stress, up to 30 it is lightly stressed, up to 20 stressed, up to 10 severely stressed and values below 10 indicate an extremely stressed vegetation condition. The forest area is shown on the map, providing a robust indicator of the regional vegetation conditions. The dataset was developed in collaboration with MeteoSwiss for the federal drought portal.Contains modified Copernicus Sentinel data.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisseo_vhi_v100:wms",
+    "title": "swissEO VHI forest",
+    "type": "Dataset"
+  }
+}

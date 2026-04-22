@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bafu.admin.ch/bafu/fr/home/themes/eaux/info-specialistes/mesures-pour-la-protection-des-eaux.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c80d9b2e-522e-45cb-a587-c5fe028d63df",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV, cantons",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Depuis les années 1980, l’OFEV (anciennement OFEFP) gère une base de données contenant des informations relatives aux stations centrales d’épuration des eaux (STEP). Les fiches techniques de bases ont été remplies par les exploitants de STEP au moment de la construction des installations puis mises à jour de façon irrégulière et non systématique lors de rénovations techniques.Les indicateurs relatifs à l’évacuation des eaux usées proviennent du relevé effectué par le VSA en 2011 et reposent sur la recommandation de 2006. La part d’eaux usées dans le milieu récepteur par débit d’étiage a été estimée dans le cadre du projet de l’OFEV Stratégie Micropoll. À l’avenir, la définition des indicateurs se fondera sur la version mise à jour. La saisie est effectuée périodiquement. Par ailleurs, l’OFEV relève tous les cinq ans environ l’état de l’évacuation des eaux communales auprès des cantons. Le dernier recensement date du 1er janvier 2011.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-klaeranlagen_reinigungstyp:wmts",
+    "title": "ARA - Type de traitement",
+    "type": "Dataset"
+  }
+}

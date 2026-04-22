@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.swisseo_ndvi_diff_v100",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.swisseo_ndvi_diff_v100?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.swisseo_ndvi_diff_v100?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/it/immaginisatellitari-swisseo-ndvidiff",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b144c4ba-971b-4e17-b809-47ee38ecfa26",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Carta delle variazioni dell'NDVI (Normalized Difference Vegetation Index) rispetto al periodo dell'anno precedente, basata su dati satellitari (Sentinel-2) con una risoluzione spaziale di dieci metri. L'indice indica una variazione della densità e/o del contenuto di clorofilla (\"verde\") della vegetazione. Un aumento dell'NDVI può essere dovuto alla crescita, a una maggiore produttività o a un recupero dopo un precedente calo di vitalità, mentre una diminuzione dell'NDVI è solitamente conseguenza della gestione o di disturbi naturali (danni da tempeste, siccità, danni da insetti, ecc.). Questo set di dati è stato sviluppato in collaborazione con la BFH-HAFL e l'Ufficio federale dell'ambiente (UFAM) per waldmonitoring.ch e per il portale siccità della Confederazione. Contiene dati Copernicus Sentinel modificati.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisseo_ndvi_diff_v100:wms",
+    "title": "swissEO NDVIdiff",
+    "type": "Dataset"
+  }
+}

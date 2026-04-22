@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.agroscope.admin.ch/agroscope/fr/home/themes/environnement-ressources/sol-eaux-elements-nutritifs/landwirtschaftlicher-gewaesserschutz/modiffus.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/5de5d77b-a349-4da0-9b55-467d6455f466",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de l'environnement OFEV",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Les apports de phosphore dans les eaux représentent une pollution indésirable. Chaque année, environ 3400 t de phosphore total (phosphore sous forme dissoute et particulaire) provenant de sources diffuses parviennent dans les eaux suisses. Les apports élevés sont avant tout dus à l'érosion naturelle dans les Alpes et sont constitués de phosphore particulaire, dont l'effet eutrophisant est quasi nul. Les calculs des apports de phosphore dus à l'érosion natuelle sont en outre entachés de grandes incertitudes. Seuls 31 % des apports diffus de phosphore total proviennent de la surface utilisée à des fins agricoles. </p><p> Ces apports ont été calculés au moyen du modèle de flux de matières MODIFFUS, pour toutes les sources diffuses (terres cultivées, prairies permanentes, forêts, glaciers, surfaces végétalisées dans les zones urbanisées, etc.) et leurs voies d'apport (érosion des sols, lessivage, ruissellement, drainage, dépôts atmosphériques, etc.). La carte montre les pertes cumulées par catégorie d'utilisation des sols dans le quadrillage hectométrique utilisé dans la statistique de la superficie 2013/18. Le modèle tient compte de conditions climatiques moyennes, l'année de référence étant 2020. </p><p> Ces valeurs modélisées ne peuvent être comparées aux valeurs mesurées dans les eaux, étant donné qu'elles ne prennent pas en considération les processus de transformation et de dépôt qui interviennent aussi bien dans les eaux qu'en dehors de celles-ci. Les résultats peuvent être interprétés pour des unités hydrologiques ou administratives d'une surface supérieure à 50 km2, mais non pour chaque pixel.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor:wmts",
+    "title": "Apports diffus de phosphore total",
+    "type": "Dataset"
+  }
+}

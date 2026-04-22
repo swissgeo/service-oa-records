@@ -1,0 +1,102 @@
+{
+  "id": "ch.bafu.trockenheitsindex",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.trockenheitsindex?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.trockenheitsindex?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.trockenheit.admin.ch/de/trockenheit/trockenheitsindex",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/df0d7761-5e2c-488f-91ca-e362d2f208de",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale dell'ambiente UFAM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "La carta mostra l'indice combinato di siccità (CDI) per ciascuna regione. Il CDI integra i vari aspetti della siccità in un unico valore. Esso include i dati relativi a precipitazioni, umidità del suolo modellata nonché portata (corsi d'acqua) e il livello delle acque (laghi). L'indice viene calcolato confrontando le deviazioni dei parametri dai valori statisticamente attesi nel periodo di misurazione 1991–2020 (noto come «periodo di riferimento»). Indica principalmente la frequenza con cui si verifica un evento e può assumere valori da 1 a 5. Valori più elevati indicano un deficit idrico insolito o estremo per la stagione in oggetto.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.trockenheitsindex:wms",
+    "title": "Indice di siccità",
+    "type": "Dataset"
+  }
+}

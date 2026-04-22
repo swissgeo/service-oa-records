@@ -1,0 +1,97 @@
+{
+  "id": "ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten?language=it",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten?language=it",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/63ed59b1-d9fb-4c6e-a629-550c8f6b9bf2",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Ufficio federale di topografia swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Questo dataset mostra la posizione dei dati di input e il perimetro del modello ditemperatura GeoMol15. In quanto tale, è consigliato di usare questo dataset in combinazione con i dataset di temperature GeoMol15 associati, per esempio: <ul> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperatur_top_omm&topic=geol\" target=\"_blank\">Temperature Top OMM</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperatur_top_omalm&topic=geol\" target=\"_blank\">Temperature Top Malm superiore</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperatur_top_muschelkalk&topic=geol\" target=\"_blank\">Temperature Top Muschelkalk</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_500&topic=geol\" target=\"_blank\">Temperature 500 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_1000&topic=geol\" target=\"_blank\">Temperature 1000 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_1500&topic=geol\" target=\"_blank\">Temperature 1500 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_2000&topic=geol\" target=\"_blank\">Temperature 2000 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_3000&topic=geol\" target=\"_blank\">Temperature 3000 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-temperaturverteilung_4000&topic=geol\" target=\"_blank\">Temperature 4000 m depth</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-isotherme_60&topic=geol\" target=\"_blank\">Elevazione isotherma 60 °C</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-isotherme_100&topic=geol\" target=\"_blank\">Elevazione isotherma 100 °C</a></li> <li><a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geomol-isotherme_150&topic=geol\" target=\"_blank\">Elevazione isotherma 150 °C</a></li> </ul>Le posizioni dei dati di input mostrate in questo dataset includono sia i foraggi, uno dei quali è fittizio, sia il perimetro del modello di temperatura del metodo FE (Geowatt AG, 2015). Ulteriori dettagli si trovano nell'Infobox associata a ciascuno dei dataset di temperatura.",
+    "language": {
+      "alternate": "Italian",
+      "code": "it",
+      "dir": "ltr",
+      "name": "Italiano"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geomol-temperaturmodell_eingangsdaten:wmts",
+    "title": "Modello di temperatura - dati",
+    "type": "Dataset"
+  }
+}

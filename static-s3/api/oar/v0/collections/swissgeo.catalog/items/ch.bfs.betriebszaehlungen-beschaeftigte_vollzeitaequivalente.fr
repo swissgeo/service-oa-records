@@ -1,0 +1,102 @@
+{
+  "id": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.bfs.admin.ch/bfs/fr/home/services/geostat/geodonnees-statistique-federale/etablissements-emplois/statistique-structurel-entreprises-statent-depuis-2011.assetdetail.32258833.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/1a764cdd-9d11-4cfe-b440-66d7caef7fa4",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de la statistique OFS",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Depuis 1995 les coordonnées des établissements identifiés par chaque recensement fédéral des entreprises ont été déterminés. Un grand nombre de variables touchant les établissements, les emplois et les activités économiques selon la NOGA (Nomenclature générale des activités économiques) sont agrégées par hectare après chaque relevé et diffusées sous forme de géodonnées.Dès 2011, le recensement des entreprises est remplacé par la statistique structurelle des entreprises (STATENT), un relevé exhaustif réalisé sur la base des données tirées des registres de l'AVS. La STATENT fournit des informations centrales sur la structure de l'économie suisse (par ex. nombre d'entreprises, nombre d'établissements, nombre d'emplois, etc.) et donne ainsi une vue d'ensemble du paysage économique de la Suisse. L'emploi en équivalent plein temps (EPT) est déterminé par la conversion du volume de travail, qui est habituellement mesuré en termes d'emploi ou d'heures de travail, en emplois à plein temps.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente:wmts",
+    "title": "Emploi (EPT)",
+    "type": "Dataset"
+  }
+}

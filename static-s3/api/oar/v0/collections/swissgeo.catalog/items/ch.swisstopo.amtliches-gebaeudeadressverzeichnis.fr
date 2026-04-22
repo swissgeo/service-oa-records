@@ -1,0 +1,102 @@
+{
+  "id": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.amtliches-gebaeudeadressverzeichnis?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.amtliches-gebaeudeadressverzeichnis?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.swisstopo.admin.ch/fr/repertoire-officiel-des-adresses-de-batiments",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/150c38c5-2650-4018-b5c7-939e2cdd56ce",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Office fédéral de topographie swisstopo ",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Jeu de données officiel pour le \"Répertoire officiel des adresses de bâtiments\", ID197, selon le catalogue des géodonnées basé sur la législation fédérale. Le répertoire officiel des adresses de bâtiments contient toutes les adresses de bâtiments officielles en Suisse qui sont contraignantes pour les autorités. Tous les bâtiments doivent avoir une ou plusieurs adresses univoques. Les bâtiments à usage d'habitation, les lieux de travail et les bâtiments d'intérêt public général doivent figurer dans la liste officielle des adresses des bâtiments.Il s'agit d'une collection qui donne accès à la fois aux adresses des bâtiments de Suisse et du Liechtenstein.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.amtliches-gebaeudeadressverzeichnis:wms",
+    "title": "Rép.off. des adresses de bâtiments",
+    "type": "Dataset"
+  }
+}

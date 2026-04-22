@@ -1,0 +1,102 @@
+{
+  "id": "ch.sem.sachplan-asyl_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.sem.sachplan-asyl_kraft?language=fr",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.sem.sachplan-asyl_kraft?language=fr",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.sem.admin.ch/sem/fr/home/asyl/asylverfahren/asylregionen-baz/sachplan-asyl.html",
+      "rel": "describedby",
+      "title": "Details"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/23a9027d-37a1-4ba4-b529-54c658540914",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Secrétariat d’Etat aux migrations SEM",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Par l'élaboration du plan sectoriel Asile (PSA), le Secrétariat d'État aux migrations assure, dans les grandes lignes, la planification et la coordination des centres fédéraux pour requérants d'asile. Le PSA contient un aperçu de l'ensemble des centres fédéraux et des principes servant à les coordonner avec les objectifs stratégiques et à faciliter la collaboration entre les autorités concernées. Chaque inscription au plan sectoriel constitue la base d'une approbation des plans d'un projet ayant des effets considérables sur le territoire et l'environnement.",
+    "language": {
+      "alternate": "French",
+      "code": "fr",
+      "dir": "ltr",
+      "name": "Français"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.sem.sachplan-asyl_kraft:wms",
+    "title": "PS Asile",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ch.swisstopo.geologie-tiefengeothermie_projekte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.swisstopo.geologie-tiefengeothermie_projekte?language=en",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.swisstopo.geologie-tiefengeothermie_projekte?language=en",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/2df11e59-d85a-40cf-98cf-4b941577e23c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Federal Office of Topography swisstopo",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "This map shows deep geothermal plants in operation as well as current and former deep geothermal projects in Switzerland. A project may involve geophysical prospection and one or more boreholes. Additional information can be found in the <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-reflexionsseismik&topic=georessourcen\" target=\"_blank\">Reflection seismic</a> and <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-bohrungen_tiefer_500&topic=georessourcen\" target=\"_blank\">Deep wells</a> layers. The project status corresponds to one of the following: – Prospection: Following regulatory approval by the canton(s) geophysical and geological studies are employed to identify a reservoir in the subsurface (permit zones shown, if available). – Under development: A reservoir has been identified and deemed suitable for producing geothermal energy. Permits required for the construction of a geothermal plant have been obtained and construction will begin shortly or is already in progress. – In operation: The plant is producing geothermal energy. – Abandoned: For any one of various reasons, the project has been stopped. Projects and plants are classified in the following types of system: Deep geothermal probe, Hydrothermal, Enhanced Geothermal System (EGS) and High temperature aquifer thermal energy storage (HT-ATES). Shallow geothermal energy production (i.e., <500 m depth to reservoir) is not featured. The map does not purport to be complete.",
+    "language": {
+      "code": "en",
+      "dir": "ltr",
+      "name": "English"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-tiefengeothermie_projekte:wms",
+    "title": "Deep geothermal projects",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ch.bafu.gewaesser-uferbestockung_vegetation",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog/items/ch.bafu.gewaesser-uferbestockung_vegetation?language=de",
+      "rel": "self",
+      "title": "This Record"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Swissgeo Catalog"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/v0/collections/ch.bafu.gewaesser-uferbestockung_vegetation?language=de",
+      "rel": "distributions",
+      "title": "Distributions"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c1e84bbb-be87-455b-8705-25ec16efda19",
+      "rel": "alternate",
+      "title": "GeoCat Metadata"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "properties": {
+    "contacts": [
+      {
+        "country": "CH",
+        "organisation": "Bundesamt für Umwelt BAFU",
+        "role": "dataOwner"
+      }
+    ],
+    "description": "Für die Erstellung der schweizweiten Bestockungskarte wurden Berechnungen auf der Basis von verfügbaren Geodaten durchgeführt. Bestockung wurde definiert als Vegetation über 2.5 m Höhe. Sie wurde für einen je 15m breiten Uferstreifen entlang der Flüsse und Seen (Bestockung im Uferstreifen) sowie für die Gewässerfläche der Flüsse (überhängende Vegetation) berechnet. Die Bestockung wurde für alle offene Flüsse mit einer Breite ab 1 m berechnet Folgende Datengrundlagen wurden verwendet: - Vegetationshöhenmodell des Landesforstinventars - Bodenbedeckung aus dem topographischen Landschaftsmodell swissTLM3D der swisstopo - Gewässernetz aus dem topographischen Landschaftsmodell swissTLM3D der swisstopo - Ökomorphologie-Daten des BAFU sowie der Kantone St. Gallen und Zug",
+    "language": {
+      "alternate": "German",
+      "code": "de",
+      "dir": "ltr",
+      "name": "Deutsch"
+    },
+    "languages": [
+      {
+        "alternate": "German",
+        "code": "de",
+        "dir": "ltr",
+        "name": "Deutsch"
+      },
+      {
+        "alternate": "French",
+        "code": "fr",
+        "dir": "ltr",
+        "name": "Français"
+      },
+      {
+        "alternate": "Italian",
+        "code": "it",
+        "dir": "ltr",
+        "name": "Italiano"
+      },
+      {
+        "code": "en",
+        "dir": "ltr",
+        "name": "English"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesser-uferbestockung_vegetation:wmts",
+    "title": "Bestockungskarte",
+    "type": "Dataset"
+  }
+}
