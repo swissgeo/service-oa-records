@@ -350,24 +350,23 @@ def main() -> None:
 
   steps = (args[0],) if args else _STEPS
 
-  client: OpenSearch | None = None
+  if "generate" in steps:
+    log.info("=== Step 1: generate ===")
+    step_generate()
+
   if "import" in steps or "index" in steps:
     client = _make_client()
     if not client.ping():
       log.error("Cannot connect to OpenSearch at %s", OPENSEARCH_URL)
       sys.exit(1)
 
-  if "generate" in steps:
-    log.info("=== Step 1: generate ===")
-    step_generate()
+    if "index" in steps:
+      log.info("=== Step 2: index ===")
+      step_index(client)
 
-  if "index" in steps:
-    log.info("=== Step 2: index ===")
-    step_index(client)  # type: ignore[arg-type]
-
-  if "import" in steps:
-    log.info("=== Step 3: import ===")
-    step_import(client)  # type: ignore[arg-type]
+    if "import" in steps:
+      log.info("=== Step 3: import ===")
+      step_import(client)
 
   log.info("Done!")
 
