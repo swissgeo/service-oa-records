@@ -15,8 +15,8 @@ run-docker-compose:
 # Index the swissgeo catalogue into the running OpenSearch
 # possible steps:
 #   generate: generate the catalogue data
-#   import: import the catalogue data into OpenSearch
 #   index: create the index in OpenSearch
+#   import: import the catalogue data into OpenSearch
 etl-catalogue step="":
     FORCE=1 uv run python3 scripts/load-opensearch-catalogue.py {{step}}
 

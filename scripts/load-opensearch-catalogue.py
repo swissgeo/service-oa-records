@@ -7,8 +7,8 @@
 
 Steps (run in sequence when no argument is given):
   generate  — build documents and write to .generated/<index>/<id>.json
+  index     — create or recreate OpenSearch indices
   import    — bulk-index documents from .generated/<index>/
-  index    — create or recreate OpenSearch indices
 
 Usage:
     python3 load-opensearch-catalogue.py [generate|import|index]
@@ -98,7 +98,7 @@ def load_catalog_records(items_dir: Path) -> list[dict]:
     links = [link for link in base.get("links", []) if "services.dev.sgdi.tech" not in link.get("href", "")]
     links.append(
       {
-        "href": f"/collections/swissgeo-distributions-os/items/{record_id}",
+        "href": f"/collections/swissgeo-distributions/items/{record_id}",
         "rel": "distributions",
         "title": "Distributions",
       },
@@ -184,7 +184,7 @@ def load_distribution_records(collections_dir: Path) -> list[dict]:
     if title is not None:
       data["properties"]["title"] = title.removeprefix("Distributions for ")
 
-    catalog_href = f"/collections/swissgeo-catalogue-os/items/{dataset_id}"
+    catalog_href = f"/collections/swissgeo-catalogue/items/{dataset_id}"
     for dist in data.get("records", []):
       new_links = []
       for link in dist.get("links", []):
@@ -200,7 +200,7 @@ def load_distribution_records(collections_dir: Path) -> list[dict]:
           service_id = link["href"].rsplit("/", 1)[-1]
           new_links.append(
             {
-              "href": (f"/collections/geoadmin-services-os/items/{service_id}"),
+              "href": (f"/collections/geoadmin-services/items/{service_id}"),
               "rel": "service",
             },
           )
@@ -308,7 +308,7 @@ def step_index(client: OpenSearch) -> None:
 # Entry point
 # ---------------------------------------------------------------------------
 
-_STEPS = ("generate", "import", "index")
+_STEPS = ("generate", "index", "import")
 
 
 def _make_client() -> OpenSearch:
@@ -337,7 +337,7 @@ def _make_client() -> OpenSearch:
 
 
 def main() -> None:
-  """Run generate → import → index (or a single named step)."""
+  """Run generate → index → import (or a single named step)."""
   logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -361,13 +361,13 @@ def main() -> None:
     log.info("=== Step 1: generate ===")
     step_generate()
 
-  if "import" in steps:
-    log.info("=== Step 2: import ===")
-    step_import(client)  # type: ignore[arg-type]
-
   if "index" in steps:
-    log.info("=== Step 3: index ===")
+    log.info("=== Step 2: index ===")
     step_index(client)  # type: ignore[arg-type]
+
+  if "import" in steps:
+    log.info("=== Step 3: import ===")
+    step_import(client)  # type: ignore[arg-type]
 
   log.info("Done!")
 
