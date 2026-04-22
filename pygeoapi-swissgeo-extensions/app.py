@@ -39,7 +39,7 @@ _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignor
 
 
 async def _redirect_to_api(request: Request) -> RedirectResponse:
-    return RedirectResponse(url="/api/oar/v1")
+    return RedirectResponse(url="/api/oar/rc1")
 
 
 APP = Starlette(
