@@ -25,3 +25,6 @@ cp-data:
 
 fetch-api-from-s3:
     aws s3 --profile swisstopo-swissgeo-dev sync s3://oa-records-static-dev-swissgeo static-s3
+
+lint:
+    uv run ruff check . --fix
