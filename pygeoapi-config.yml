@@ -28,29 +28,48 @@ logging:
 metadata:
   identification:
     title: SWISSGEO OGC API Records
-    description: Minimal OGC API Records PoC
+    description:
+      de: SWISSGEO OGC API Records Katalog für Metadaten und Links.
+      en: SWISSGEO OGC API Records catalogue for metadata and links.
+      fr: Catalogue SWISSGEO OGC API Records pour les métadonnées et les liens.
+      it: Catalogo SWISSGEO OGC API Records per metadati e link.
     keywords:
       - geospatial
       - ogc
       - switzerland
-    terms_of_service: https://creativecommons.org/licenses/by/4.0/
+    terms_of_service: https://www.geo.admin.ch/de/allgemeine-nutzungsbedingungen-bgdi/
     url: https://www.swisstopo.admin.ch
   license:
-    name: CC-BY 4.0 license
-    url: https://creativecommons.org/licenses/by/4.0/
+    name:
+      en: swisstopo OGD Terms of Use
+      de: swisstopo OGD Nutzungsbedingungen
+      fr: Conditions d'utilisation OGD swisstopo
+      it: Condizioni d'uso OGD swisstopo
+    url:
+      en: https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata-and-geoservices
+      de: https://www.swisstopo.admin.ch/de/nutzungsbedingungen-kostenlose-geodaten-und-geodienste
+      fr: https://www.swisstopo.admin.ch/fr/conditions-utilisation-geodonnees-et-geoservices-gratuit
+      it: https://www.swisstopo.admin.ch/it/condizioni-utilizzo-geodati-e-geoservizi-gratuiti
   provider:
-    name: swisstopo PoC
+    name: Bundesamt für Landestopografie swisstopo
     url: https://www.swisstopo.admin.ch
   contact:
-    name: swisstopo
+    name: KOGIS – Koordination, Geoinformation und Services
+    url: https://www.geo.admin.ch
+    address: Seftigenstrasse 264
+    city: Wabern
+    postalcode: "3084"
+    country: Switzerland
+    phone: +41 58 469 01 11
+    email: info@geo.admin.ch
     role: pointOfContact
 
 resources:
-  swissgeo-catalogue-os:
+  swissgeo-catalog:
     type: collection
-    title: SWISSGEO Catalog (OpenSearch)
-    description: Swiss geodata catalog backed by OpenSearch
-    keywords: [switzerland, geodata, catalog, swisstopo, opensearch]
+    title: SWISSGEO Catalog
+    description: Swiss geodata catalog
+    keywords: [switzerland, geodata, catalog, swisstopo]
     links:
       - type: text/html
         rel: canonical
@@ -65,7 +84,7 @@ resources:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
         data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-catalog
-        resource_id: swissgeo-catalogue-os
+        resource_id: swissgeo-catalogue-os (OpenSearch)
         aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
         id_field: externalId
         time_field: recordCreated
@@ -76,11 +95,11 @@ resources:
           - fr
           - it
 
-  swissgeo-distributions-os:
+  swissgeo-distributions:
     type: collection
-    title: SWISSGEO Distributions (OpenSearch)
-    description: Swiss geodata distributions backed by OpenSearch
-    keywords: [switzerland, geodata, distributions, swisstopo, opensearch]
+    title: SWISSGEO Distributions
+    description: Swiss geodata distributions
+    keywords: [switzerland, geodata, distributions, swisstopo]
     links:
       - type: text/html
         rel: canonical
@@ -106,11 +125,11 @@ resources:
           - fr
           - it
 
-  geoadmin-services-os:
+  geoadmin-services:
     type: collection
-    title: GeoAdmin Services (OpenSearch)
-    description: GeoAdmin services backed by OpenSearch
-    keywords: [switzerland, geodata, services, geoadmin, opensearch]
+    title: GeoAdmin Services
+    description: GeoAdmin services
+    keywords: [switzerland, geodata, services, geoadmin]
     links:
       - type: text/html
         rel: canonical
