@@ -13,8 +13,12 @@ run-docker-compose:
     docker compose up
 
 # Index the swissgeo catalogue into the running OpenSearch
-load-catalogue:
-    FORCE=1 uv run python3 scripts/load-opensearch-catalogue.py
+# possible steps:
+#   generate: generate the catalogue data
+#   import: import the catalogue data into OpenSearch
+#   index: create the index in OpenSearch
+etl-catalogue step="":
+    FORCE=1 uv run python3 scripts/load-opensearch-catalogue.py {{step}}
 
 cp-data:
     kubectl cp v0 oa-records/$(kubectl get pods -n oa-records -o jsonpath='{.items[0].metadata.name}'):/pygeoapi

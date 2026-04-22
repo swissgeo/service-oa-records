@@ -15,8 +15,8 @@ server:
     - it
   cors: true
   map:
-    url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
-    attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+    url: https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg
+    attribution: '&copy; <a href="https://www.swisstopo.admin.ch">swisstopo</a>'
   pretty_print: true
   limits:
     default_items: 10
@@ -27,7 +27,7 @@ logging:
 
 metadata:
   identification:
-    title: Swiss Geospatial Data - minimal PoC
+    title: SWISSGEO OGC API Records
     description: Minimal OGC API Records PoC
     keywords:
       - geospatial

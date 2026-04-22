@@ -93,7 +93,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     link patching on top of the standard OpenSearchCatalogueProvider.
     """
 
-    def __init__(self, provider_def: dict) -> None:  # noqa: D107
+    def __init__(self, provider_def: dict) -> None:
         LOGGER.info("SwissGeoProvider.__init__ called:")
         if str(provider_def.get("aws4auth", "false")).lower() == "true":
             self._inject_aws4auth(provider_def)  # calls super() internally
@@ -127,7 +127,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         _original_opensearch = _os_mod.OpenSearch
 
-        def _aws_opensearch(host, **kwargs):  # noqa: ANN001, ANN003, ANN202, ARG001
+        def _aws_opensearch(host, **kwargs):  # noqa: ANN001, ANN202, ARG001
             return OpenSearch(
                 hosts=[host],
                 http_auth=awsauth,
@@ -152,10 +152,10 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         properties: list | None = None,
         sortby: list | None = None,
         select_properties: list | None = None,
-        skip_geometry: bool = False,  # noqa: FBT001, FBT002
+        skip_geometry: bool = False,
         q: str | None = None,
         filterq: str | None = None,
-        **kwargs,  # noqa: ANN003
+        **kwargs,
     ):
         """Execute a catalogue query with language-aware post-processing."""
         if select_properties is None:
@@ -194,7 +194,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         return result
 
-    def get(self, identifier: str, **kwargs) -> dict | None:  # noqa: ANN003
+    def get(self, identifier: str, **kwargs) -> dict | None:
         """Fetch a single record by ID with language-aware post-processing."""
         lang, fmt = _get_lang_and_fmt()
         LOGGER.debug(
