@@ -7,7 +7,7 @@ get_plugin_locale receives a plain string instead of a list, causing
 best_match to always fall back to the default locale.
 
 Usage:
-    uvicorn app:APP --host 0.0.0.0 --port 80 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions
+    uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions
 """
 
 import pygeoapi.starlette_app as _starlette_mod
