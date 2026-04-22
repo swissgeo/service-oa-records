@@ -11,14 +11,6 @@ FROM python:3.14-slim AS production
 
 WORKDIR /pygeoapi
 
-COPY --from=builder /pygeoapi/.venv /pygeoapi/.venv
-
-COPY pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
-COPY pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
-COPY pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
-COPY scripts /pygeoapi/scripts
-COPY static-s3 /pygeoapi/static-s3
-
 ENV PYGEOAPI_CONFIG=/pygeoapi/pygeoapi-config.yml
 ENV PYGEOAPI_OPENAPI=/pygeoapi/pygeoapi-openapi.yml
 ENV PYTHONPATH=/pygeoapi/pygeoapi-swissgeo-extensions
@@ -27,6 +19,13 @@ ENV PATH="/pygeoapi/.venv/bin:$PATH"
 RUN groupadd --gid 1001 pygeoapi \
  && useradd --uid 1001 --gid pygeoapi --no-create-home pygeoapi \
  && chown -R pygeoapi:pygeoapi /pygeoapi
+
+COPY --from=builder --chown=pygeoapi:pygeoapi /pygeoapi/.venv /pygeoapi/.venv
+COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
+COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
+COPY --chown=pygeoapi:pygeoapi pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
+COPY --chown=pygeoapi:pygeoapi scripts /pygeoapi/scripts
+COPY --chown=pygeoapi:pygeoapi static-s3 /pygeoapi/static-s3
 
 USER pygeoapi
 

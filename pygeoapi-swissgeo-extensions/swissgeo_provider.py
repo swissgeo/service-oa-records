@@ -1,5 +1,4 @@
-"""
-SwissGeo OpenSearch catalogue provider for OGC API Records.
+"""SwissGeo OpenSearch catalogue provider for OGC API Records.
 
 Extends OpenSearchCatalogueProvider with language-aware field selection:
 when a locale is requested via the ``language`` kwarg, ``title`` and
@@ -41,9 +40,11 @@ _local = threading.local()
 
 
 def set_request_params(
-    lang: str | None, fmt: str | None, server_url: str | None = None
+    lang: str | None,
+    fmt: str | None,
+    server_url: str | None = None,
 ) -> None:
-    """Called by app.py in the executor thread before the API call."""
+    """Set lang, fmt, and server_url on the current thread-local before an API call."""
     _local.lang = lang
     _local.fmt = fmt
     _local.server_url = server_url
@@ -55,7 +56,7 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     fmt = getattr(_local, "fmt", None)
     if lang is None:
         try:
-            from flask import request as flask_request
+            from flask import request as flask_request  # noqa: PLC0415
 
             lang = flask_request.args.get("lang", "")
             fmt = fmt or flask_request.args.get("f", None)
@@ -77,23 +78,22 @@ def _get_server_url() -> str:
     if server_url is not None:
         return server_url.rstrip("/")
     try:
-        from flask import request as flask_request
+        from flask import request as flask_request  # noqa: PLC0415
 
         return flask_request.host_url.rstrip("/")
     except RuntimeError as e:
-        LOGGER.debug("Could not read lang/fmt from Flask request context: %s", e)
+        LOGGER.debug("Could not read server_url from Flask request context: %s", e)
     return ""
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
-    """
-    OGC API Records provider backed by OpenSearch.
+    """OGC API Records provider backed by OpenSearch.
 
     Adds language-aware title/description field selection and same-host
     link patching on top of the standard OpenSearchCatalogueProvider.
     """
 
-    def __init__(self, provider_def):
+    def __init__(self, provider_def: dict) -> None:
         LOGGER.info("SwissGeoProvider.__init__ called:")
         if str(provider_def.get("aws4auth", "false")).lower() == "true":
             self._inject_aws4auth(provider_def)  # calls super() internally
@@ -102,17 +102,19 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         self.resource_id = provider_def.get("resource_id", self.name)
 
     def _inject_aws4auth(self, provider_def: dict) -> None:
-        """Monkey-patch the OpenSearch constructor in the parent module so that
-        super().__init__() builds an AWS4Auth-authenticated client instead of
-        an unauthenticated one."""
-        import pygeoapi.provider.opensearch_ as _os_mod
+        """Monkey-patch OpenSearch in the parent module.
+
+        Ensures super().__init__() builds an AWS4Auth-authenticated client
+        instead of an unauthenticated one.
+        """
+        import pygeoapi.provider.opensearch_ as _os_mod  # noqa: PLC0415
 
         region = provider_def.get(
-            "aws_region", os.environ.get("AWS_DEFAULT_REGION", "eu-central-1")
+            "aws_region", os.environ.get("AWS_DEFAULT_REGION", "eu-central-1"),
         )
         service = provider_def.get("aws_service", "es")
         LOGGER.info(
-            "Configuring AWS SigV4 auth (region=%s service=%s)", region, service
+            "Configuring AWS SigV4 auth (region=%s service=%s)", region, service,
         )
         credentials = boto3.Session().get_credentials().get_frozen_credentials()
         awsauth = AWS4Auth(
@@ -125,7 +127,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         _original_opensearch = _os_mod.OpenSearch
 
-        def _aws_opensearch(host, **kwargs):
+        def _aws_opensearch(host, **kwargs):  # noqa: ANN001, ANN202, ARG001
             return OpenSearch(
                 hosts=[host],
                 http_auth=awsauth,
@@ -136,25 +138,34 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         _os_mod.OpenSearch = _aws_opensearch  # ty: ignore[invalid-assignment]
         try:
-            super(SwissGeoProvider, self).__init__(provider_def)
+            super().__init__(provider_def)
         finally:
             _os_mod.OpenSearch = _original_opensearch
 
-    def query(
+    def query(  # noqa: ANN201, PLR0913
         self,
-        offset=0,
-        limit=10,
-        resulttype="results",
-        bbox=[],
-        datetime_=None,
-        properties=[],
-        sortby=[],
-        select_properties=[],
-        skip_geometry=False,
-        q=None,
-        filterq=None,
+        offset: int = 0,
+        limit: int = 10,
+        resulttype: str = "results",
+        bbox: list | None = None,
+        datetime_: str | None = None,
+        properties: list | None = None,
+        sortby: list | None = None,
+        select_properties: list | None = None,
+        skip_geometry: bool = False,
+        q: str | None = None,
+        filterq: str | None = None,
         **kwargs,
     ):
+        """Execute a catalogue query with language-aware post-processing."""
+        if select_properties is None:
+            select_properties = []
+        if sortby is None:
+            sortby = []
+        if properties is None:
+            properties = []
+        if bbox is None:
+            bbox = []
         lang, fmt = _get_lang_and_fmt()
         LOGGER.debug("SwissGeoProvider.query lang=%s fmt=%s", lang, fmt)
 
@@ -183,10 +194,14 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         return result
 
-    def get(self, identifier, **kwargs):
+    def get(self, identifier: str, **kwargs) -> dict | None:
+        """Fetch a single record by ID with language-aware post-processing."""
         lang, fmt = _get_lang_and_fmt()
         LOGGER.debug(
-            "SwissGeoProvider.get identifier=%s lang=%s fmt=%s", identifier, lang, fmt
+            "SwissGeoProvider.get identifier=%s lang=%s fmt=%s",
+            identifier,
+            lang,
+            fmt,
         )
 
         result = super().get(identifier, **kwargs)
@@ -203,9 +218,10 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
 
 def _apply_lang(props: dict, lang: str) -> None:
-    """
-    Overwrite ``title`` and ``description`` with their localised variants
-    if the variant exists and is non-empty, then strip all per-lang fields.
+    """Overwrite ``title`` and ``description`` with localised variants.
+
+    If the per-language variant exists and is non-empty it replaces the
+    generic field, then all per-lang fields are stripped.
     """
     for field in ("title", "description"):
         localised = props.get(f"{field}_{lang}", "")
@@ -238,11 +254,11 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
 
 
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
+    """Append ``lang`` (and ``f`` if present) to same-host and relative links.
+
+    External links are left untouched.
     """
-    Append ``lang`` (and ``f`` if present) to relative links and links
-    starting with the request's server URL. External links are left untouched.
-    """
-    params = {"lang": lang}
+    params: dict[str, str] = {"lang": lang}
     if fmt:
         params["f"] = fmt
     qs = urlencode(params)
