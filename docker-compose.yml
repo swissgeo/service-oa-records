@@ -47,6 +47,8 @@ services:
       - "8080"
       - --app-dir
       - /pygeoapi/pygeoapi-swissgeo-extensions
+      - --log-config
+      - /pygeoapi/logging-conf.yaml
 
   opensearch:
     image: opensearchproject/opensearch:2

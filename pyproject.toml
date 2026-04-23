@@ -13,6 +13,8 @@ dependencies = [
     "uvicorn[standard]",
     "starlette",
     "debugpy",
+    "logging-utilities",
+    "pyyaml",
 ]
 
 [tool.ty.environment]
