@@ -1,0 +1,73 @@
+version: 1
+disable_existing_loggers: False # this allows getting loggers at module level
+
+root:
+  handlers:
+    - console
+  level: DEBUG
+  propagate: True
+
+loggers:
+  uvicorn:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  uvicorn.access:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  uvicorn.error:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  pygeoapi.provider:
+    level: INFO
+    handlers:
+      - console
+    propagate: True
+  pygeoapi.l10n:
+    # Only log ERROR level and above, since pygeoapi.l10n tries to translate every python dict
+    # when a dict doesn't have all languages, it raises an error.
+    level: ERROR
+    handlers:
+      - console
+  pygeoapi.api.itemtypes:
+    # Only log ERROR level and above; pygeoapi logs a harmless WARNING when the
+    # ?offset param is absent (int(None) → TypeError) and falls back to offset=0.
+    level: ERROR
+    handlers:
+      - console
+  botocore:
+    level: WARNING
+    handlers:
+      - console
+  boto3:
+    level: WARNING
+    handlers:
+      - console
+
+filters:
+  isotime:
+    (): logging_utilities.filters.TimeAttribute
+    isotime: False
+    utc_isotime: True
+  const_attributes:
+    (): logging_utilities.filters.ConstAttribute
+    service_type: pygeoapi
+
+formatters:
+  standard:
+    format: "%(asctime)s %(levelname)s %(name)s %(message)s"
+    datefmt: "%Y-%m-%dT%H:%M:%S%z"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    stream: ext://sys.stdout
+    formatter: standard
+    filters:
+      - isotime
+      - const_attributes

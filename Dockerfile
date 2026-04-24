@@ -24,7 +24,7 @@ COPY --from=builder --chown=pygeoapi:pygeoapi /pygeoapi/.venv /pygeoapi/.venv
 COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
 COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
 COPY --chown=pygeoapi:pygeoapi pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
-COPY --chown=pygeoapi:pygeoapi logging-conf.yaml /pygeoapi/logging-conf.yaml
+COPY --chown=pygeoapi:pygeoapi config-files /pygeoapi/config-files
 COPY --chown=pygeoapi:pygeoapi scripts /pygeoapi/scripts
 COPY --chown=pygeoapi:pygeoapi static-s3 /pygeoapi/static-s3
 
@@ -42,5 +42,5 @@ CMD [ \
   "--app-dir", \
   "/pygeoapi/pygeoapi-swissgeo-extensions", \
   "--log-config", \
-  "/pygeoapi/logging-conf.yaml" \
+  "/pygeoapi/config-files/logging-conf.yaml" \
 ]
