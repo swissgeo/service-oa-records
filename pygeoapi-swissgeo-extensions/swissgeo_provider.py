@@ -24,6 +24,7 @@ Usage in pygeoapi-config.yml:
 import logging
 import os
 import threading
+import time
 from urllib.parse import urlencode, urlparse
 
 import boto3
@@ -75,10 +76,29 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
   def __init__(self, provider_def: dict) -> None:
     LOGGER.info("SwissGeoProvider.__init__ called")
     if str(provider_def.get("aws4auth", "false")).lower() == "true":
-      self._inject_aws4auth(provider_def)  # calls super() internally
+      self._wait_for_credentials()
+      self._inject_aws4auth(provider_def)
     else:
       super().__init__(provider_def)
     self.resource_id = provider_def.get("resource_id", self.name)
+
+  _CRED_RETRIES = 3
+  _CRED_RETRY_DELAY = 2.0
+
+  def _wait_for_credentials(self) -> None:
+    for attempt in range(1, self._CRED_RETRIES + 1):
+      creds = boto3.Session().get_credentials()
+      if creds is not None and creds.get_frozen_credentials().access_key:
+        return
+      if attempt == self._CRED_RETRIES:
+        raise RuntimeError(f"AWS credentials unavailable after {self._CRED_RETRIES} attempts")
+      LOGGER.warning(
+        "AWS credentials not ready (attempt %d/%d), retrying in %.1fs",
+        attempt,
+        self._CRED_RETRIES,
+        self._CRED_RETRY_DELAY,
+      )
+      time.sleep(self._CRED_RETRY_DELAY)
 
   def _inject_aws4auth(self, provider_def: dict) -> None:
     """Monkey-patch OpenSearch in the parent module.
