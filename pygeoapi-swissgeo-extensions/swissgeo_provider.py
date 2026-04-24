@@ -73,7 +73,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
   """
 
   def __init__(self, provider_def: dict) -> None:
-    LOGGER.info("SwissGeoProvider.__init__ called:")
+    LOGGER.info("SwissGeoProvider.__init__ called")
     if str(provider_def.get("aws4auth", "false")).lower() == "true":
       self._inject_aws4auth(provider_def)  # calls super() internally
     else:

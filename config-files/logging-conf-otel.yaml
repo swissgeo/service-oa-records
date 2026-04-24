@@ -1,0 +1,96 @@
+version: 1
+disable_existing_loggers: False # this allows getting loggers at module level
+
+root:
+  handlers:
+    - console
+  level: INFO
+  propagate: True
+
+loggers:
+  uvicorn:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  uvicorn.access:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  uvicorn.error:
+    level: WARNING
+    handlers:
+      - console
+    propagate: False
+  pygeoapi.l10n:
+    # Only log ERROR level and above, since pygeoapi.l10n tries to translate every python dict
+    # when a dict doesn't have all languages, it raises an error.
+    level: ERROR
+    handlers:
+      - console
+  pygeoapi.api.itemtypes:
+    # Only log ERROR level and above; pygeoapi logs a harmless WARNING when the
+    # ?offset param is absent (int(None) → TypeError) and falls back to offset=0.
+    level: ERROR
+    handlers:
+      - console
+  botocore:
+    level: WARNING
+    handlers:
+      - console
+  boto3:
+    level: WARNING
+    handlers:
+      - console
+
+filters:
+  isotime:
+    (): logging_utilities.filters.TimeAttribute
+    isotime: False
+    utc_isotime: True
+  const_attributes:
+    (): logging_utilities.filters.ConstAttribute
+    service_type: pygeoapi
+
+formatters:
+  json:
+    (): logging_utilities.formatters.json_formatter.JsonFormatter
+    add_always_extra: False
+    filter_attributes:
+      - utc_isotime
+      - service_type
+    remove_empty: True
+    ignore_missing: True
+    fmt:
+      # OTEL semantic conventions (semconv) v1.40.0
+      # https://opentelemetry.io/docs/specs/semconv/
+      code.file.path: pathname
+      code.line.number: lineno
+      code.function.name: funcName
+      process.pid: process
+      thread.id: thread
+
+      # Custom attributes fields - not following OTEL semantic conventions
+      event.category: web # Custom (ecs) attribute
+      event.duration: duration # Custom (ecs) attribute
+      event.kind: event # Custom (ecs) attribute
+      log.logger: name # No semconv equivalent. Rename to InstrumentationScope.name in otel-collector
+      service.type: service_type # No semconv equivalent
+
+      # OTEL Log fields https://opentelemetry.io/docs/specs/otel/logs/data-model/#log-and-event-record-definition
+      # These fields need to be moved to root level by otel-collectors
+      body.string: message # body.text needs to be moved to body.text in otel-collector
+      otelSpanID: otelSpanID
+      otelTraceID: otelTraceID
+      severity_text: levelname # severity_number is parsed by otel-collectors based on severity_text
+      Timestamp: utc_isotime
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: json
+    stream: ext://sys.stdout
+    filters:
+      - isotime
+      - const_attributes

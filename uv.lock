@@ -650,6 +650,15 @@ wheels = [
 ]
 
 [[package]]
+name = "logging-utilities"
+version = "5.4.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/dd/8d/5704ca2b246c9692e5189a6ccccf8ec76b6cfca10385905ecb70132d9e3e/logging_utilities-5.4.1.tar.gz", hash = "sha256:1c26cadfd7b7e8320d7fcade91234bad2a1787f861b2141e8e92c52e6b07501b", size = 69727, upload-time = "2026-04-21T06:06:38.654Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4c/c3/6c70fd6ea2b056061034d0a61813d8f8e8a401322df2514357380f9302fb/logging_utilities-5.4.1-py3-none-any.whl", hash = "sha256:de9619fc30aee332f8bcf8bbb5de12cc064285e3467e3384d275cb5e2c5b4e90", size = 34925, upload-time = "2026-04-21T06:06:37.13Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1696,11 +1705,13 @@ source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
     { name = "debugpy" },
+    { name = "logging-utilities" },
     { name = "opensearch-dsl" },
     { name = "opensearch-py" },
     { name = "packaging" },
     { name = "pygeoapi", version = "0.21.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "pygeoapi", version = "0.23.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "pyyaml" },
     { name = "requests-aws4auth" },
     { name = "starlette" },
     { name = "tinydb" },
@@ -1720,10 +1731,12 @@ dev = [
 requires-dist = [
     { name = "boto3" },
     { name = "debugpy" },
+    { name = "logging-utilities" },
     { name = "opensearch-dsl" },
     { name = "opensearch-py" },
     { name = "packaging", specifier = ">=26.0" },
     { name = "pygeoapi" },
+    { name = "pyyaml" },
     { name = "requests-aws4auth" },
     { name = "starlette" },
     { name = "tinydb" },
