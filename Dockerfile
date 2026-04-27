@@ -23,24 +23,13 @@ RUN groupadd --gid 1001 pygeoapi \
 COPY --from=builder --chown=pygeoapi:pygeoapi /pygeoapi/.venv /pygeoapi/.venv
 COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
 COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
-COPY --chown=pygeoapi:pygeoapi pygeoapi-openapi.yml /pygeoapi/pygeoapi-openapi.yml
+COPY --chown=pygeoapi:pygeoapi docker-entrypoint.sh /pygeoapi/docker-entrypoint.sh
 COPY --chown=pygeoapi:pygeoapi config-files /pygeoapi/config-files
 COPY --chown=pygeoapi:pygeoapi scripts /pygeoapi/scripts
 COPY --chown=pygeoapi:pygeoapi static-s3 /pygeoapi/static-s3
 
 USER pygeoapi
 
-EXPOSE 8080
+EXPOSE 80
 
-CMD [ \
-  "uvicorn", \
-  "app:APP", \
-  "--host", \
-  "0.0.0.0", \
-  "--port", \
-  "8080", \
-  "--app-dir", \
-  "/pygeoapi/pygeoapi-swissgeo-extensions", \
-  "--log-config", \
-  "/pygeoapi/config-files/logging-conf.yaml" \
-]
+ENTRYPOINT [ "./docker-entrypoint.sh" ]

@@ -2,9 +2,7 @@ server:
   bind:
     host: 0.0.0.0
     port: 8080
-  url: /
-  api_rules:
-    url_prefix: /api/oar/rc1
+  url: ${PYGEOAPI_HOSTNAME:-http://localhost:8080}${API_PREFIX:-/api/oar/rc1}
   mimetype: application/json; charset=UTF-8
   encoding: utf-8
   language: en
@@ -84,7 +82,7 @@ resources:
       - type: record
         name: swissgeo_provider.SwissGeoProvider
         data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-catalog
-        resource_id: swissgeo-catalogue
+        resource_id: swissgeo-catalog
         aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
         id_field: externalId
         time_field: recordCreated

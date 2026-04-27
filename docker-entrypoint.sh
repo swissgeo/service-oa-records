@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+pygeoapi openapi generate pygeoapi-config.yml --output-file pygeoapi-openapi.yml
+
+if [ "${DEBUG}" = "true" ]; then
+    python -m debugpy --listen 0.0.0.0:5678 --wait-for-client -m uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions --log-config /pygeoapi/config-files/logging-conf.yaml
+else
+    uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions --log-config /pygeoapi/config-files/logging-conf.yaml
+fi
