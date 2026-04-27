@@ -152,8 +152,11 @@ class TestEnsureSelfLink:
     _ensure_self_link(links, "my-collection", "")
     assert links == []
 
-  def test_prepends_server_url_when_available(self) -> None:
-    set_request_params(lang=None, fmt=None, server_url="https://api.example.com")
+  def test_prepends_server_url_when_available(self, monkeypatch) -> None:
+    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
+    monkeypatch.setenv("API_PREFIX", "/")
+
+    set_request_params(lang=None, fmt=None)
     links: list = []
     _ensure_self_link(links, "col", "abc")
     assert links[0]["href"].startswith("https://api.example.com")
@@ -193,8 +196,11 @@ class TestPatchLinks:
     _patch_links(links, "de", None)
     assert "lang=" not in links[0]["href"]
 
-  def test_patches_same_host_link(self) -> None:
-    set_request_params(lang=None, fmt=None, server_url="https://api.example.com")
+  def test_patches_same_host_link(self, monkeypatch) -> None:
+    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
+    monkeypatch.setenv("API_PREFIX", "/")
+
+    set_request_params(lang=None, fmt=None)
     links = [{"href": "https://api.example.com/collections/col/items/1"}]
     _patch_links(links, "it", None)
     assert "lang=it" in links[0]["href"]
@@ -211,8 +217,11 @@ class TestPatchLinks:
     _patch_links(links, "de", None)
     assert links[0]["href"] == ""
 
-  def test_prepends_server_url_to_relative_link(self) -> None:
-    set_request_params(lang=None, fmt=None, server_url="https://api.example.com")
+  def test_prepends_server_url_to_relative_link(self, monkeypatch) -> None:
+    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
+    monkeypatch.setenv("API_PREFIX", "")
+
+    set_request_params(lang=None, fmt=None)
     links = [{"href": "/collections/col"}]
     _patch_links(links, "en", None)
     assert links[0]["href"].startswith("https://api.example.com/collections/col")

@@ -3,6 +3,7 @@
 import logging
 import os
 import time
+from collections.abc import Generator
 from contextlib import contextmanager
 
 import boto3
@@ -33,7 +34,7 @@ def wait_for_credentials() -> None:
 
 
 @contextmanager
-def patched_opensearch(provider_def: dict):
+def patched_opensearch(provider_def: dict) -> Generator[None, None, None]:
   """Context manager that monkey-patches OpenSearch with AWS SigV4 auth, then restores it.
 
   Usage::

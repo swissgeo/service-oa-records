@@ -4,19 +4,17 @@ services:
     image: pygeoapi-custom
     ports:
       - "8080:8080"
+      - "5678:5678"
     volumes:
       - ./pygeoapi-config.yml:/pygeoapi/pygeoapi-config.yml
       - ./data:/pygeoapi/data
     env_file:
       - .env-docker
+    environment:
+      - PYDEBUG=${PYDEBUG}
     depends_on:
       opensearch:
         condition: service_healthy
-
-  pygeoapi-debug:
-    extends: pygeoapi
-    environment:
-      - DEBUG=true
 
   opensearch:
     image: opensearchproject/opensearch:2

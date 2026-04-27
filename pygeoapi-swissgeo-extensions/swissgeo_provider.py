@@ -40,7 +40,7 @@ def set_request_params(
   lang: str | None,
   fmt: str | None,
 ) -> None:
-  """Set lang, fmt, server_url, and url_prefix on the current thread-local before an API call."""
+  """Set lang, fmt on the current thread-local before an API call."""
   _local.lang = lang
   _local.fmt = fmt
 
@@ -57,10 +57,7 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
 
 def _get_base_url() -> str:
   """Return the server base URL set by app.py, or fall back to env vars."""
-
-  return (
-    f"{os.environ.get('PYGEOAPI_HOSTNAME', 'http://localhost:8080')}/{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
-  )
+  return f"{os.environ.get('PYGEOAPI_HOSTNAME', 'http://localhost:8080')}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
