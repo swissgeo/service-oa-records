@@ -32,13 +32,9 @@ def _call_api_threadsafe_with_lang(
   api_request: APIRequest,
   *args: object,
 ) -> tuple:
-  headers = api_request.headers
-  host = headers.get("host", "")
-  scheme = headers.get("x-forwarded-proto", "http")
   set_request_params(
     lang=api_request.params.get("lang", None),
     fmt=api_request.params.get("f", None),
-    server_url=f"{scheme}://{host}" if host else None,
   )
   return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
 
@@ -53,6 +49,6 @@ async def _redirect_to_api(_request: Request) -> RedirectResponse:
 APP = Starlette(
   routes=[
     Route("/", _redirect_to_api),
-    Mount("/", app=_PYGEOAPI_APP),
+    Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
   ]
 )

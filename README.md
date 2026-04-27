@@ -99,10 +99,10 @@ Copy `.env-docker` (or create one from `.env-local`) to configure environment va
 
 ## Debugging
 
-Start `pygeoapi-debug` instead of the default `pygeoapi` service:
+Have ENV `PYDEBUG=true` set.
 
 ```bash
-docker compose --profile debug up
+PYDEBUG=true docker compose --profile debug up
 ```
 
 This runs pygeoapi under [debugpy](https://github.com/microsoft/debugpy) listening on port 5678, with the local `pygeoapi-swissgeo-extensions/` directory mounted into the container so edits are reflected without a rebuild.

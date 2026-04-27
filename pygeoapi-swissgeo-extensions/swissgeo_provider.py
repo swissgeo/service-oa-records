@@ -24,13 +24,10 @@ Usage in pygeoapi-config.yml:
 import logging
 import os
 import threading
-import time
 from urllib.parse import urlencode, urlparse
 
-import boto3
-from opensearchpy import OpenSearch, RequestsHttpConnection
+import aws4auth as _aws4auth
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
-from requests_aws4auth import AWS4Auth
 
 LOGGER = logging.getLogger(__name__)
 
@@ -42,12 +39,10 @@ _local = threading.local()
 def set_request_params(
   lang: str | None,
   fmt: str | None,
-  server_url: str | None = None,
 ) -> None:
-  """Set lang, fmt, and server_url on the current thread-local before an API call."""
+  """Set lang, fmt on the current thread-local before an API call."""
   _local.lang = lang
   _local.fmt = fmt
-  _local.server_url = server_url
 
 
 def _get_lang_and_fmt() -> tuple[str, str | None]:
@@ -60,10 +55,9 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
 
 
-def _get_server_url() -> str:
-  """Return the server base URL set by app.py, or empty string."""
-  server_url = getattr(_local, "server_url", None)
-  return server_url.rstrip("/") if server_url else ""
+def _get_base_url() -> str:
+  """Return the server base URL set by app.py, or fall back to env vars."""
+  return f"{os.environ.get('PYGEOAPI_HOSTNAME', 'http://localhost:8080')}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
@@ -76,73 +70,11 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
   def __init__(self, provider_def: dict) -> None:
     LOGGER.info("SwissGeoProvider.__init__ called")
     if str(provider_def.get("aws4auth", "false")).lower() == "true":
-      self._wait_for_credentials()
-      self._inject_aws4auth(provider_def)
+      with _aws4auth.patched_opensearch(provider_def):
+        super().__init__(provider_def)
     else:
       super().__init__(provider_def)
     self.resource_id = provider_def.get("resource_id", self.name)
-
-  _CRED_RETRIES = 3
-  _CRED_RETRY_DELAY = 2.0
-
-  def _wait_for_credentials(self) -> None:
-    for attempt in range(1, self._CRED_RETRIES + 1):
-      creds = boto3.Session().get_credentials()
-      if creds is not None and creds.get_frozen_credentials().access_key:
-        return
-      if attempt == self._CRED_RETRIES:
-        raise RuntimeError(f"AWS credentials unavailable after {self._CRED_RETRIES} attempts")
-      LOGGER.warning(
-        "AWS credentials not ready (attempt %d/%d), retrying in %.1fs",
-        attempt,
-        self._CRED_RETRIES,
-        self._CRED_RETRY_DELAY,
-      )
-      time.sleep(self._CRED_RETRY_DELAY)
-
-  def _inject_aws4auth(self, provider_def: dict) -> None:
-    """Monkey-patch OpenSearch in the parent module.
-
-    Ensures super().__init__() builds an AWS4Auth-authenticated client
-    instead of an unauthenticated one.
-    """
-    import pygeoapi.provider.opensearch_ as _os_mod  # noqa: PLC0415
-
-    region = provider_def.get(
-      "aws_region",
-      os.environ.get("AWS_DEFAULT_REGION", "eu-central-1"),
-    )
-    service = provider_def.get("aws_service", "es")
-    LOGGER.info(
-      "Configuring AWS SigV4 auth (region=%s service=%s)",
-      region,
-      service,
-    )
-    credentials = boto3.Session().get_credentials().get_frozen_credentials()
-    awsauth = AWS4Auth(
-      credentials.access_key,
-      credentials.secret_key,
-      region,
-      service,
-      session_token=credentials.token,
-    )
-
-    _original_opensearch = _os_mod.OpenSearch
-
-    def _aws_opensearch(host, **kwargs):  # noqa: ANN001, ANN202, ARG001
-      return OpenSearch(
-        hosts=[host],
-        http_auth=awsauth,
-        use_ssl=True,
-        verify_certs=True,
-        connection_class=RequestsHttpConnection,
-      )
-
-    _os_mod.OpenSearch = _aws_opensearch  # ty: ignore[invalid-assignment]
-    try:
-      super().__init__(provider_def)
-    finally:
-      _os_mod.OpenSearch = _original_opensearch
 
   def query(  # noqa: ANN201, PLR0913
     self,
@@ -241,10 +173,10 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
     return
   if not item_id:
     return
-  server_url = _get_server_url()
+  base_url = _get_base_url()
   href = f"/collections/{collection_id}/items/{item_id}"
-  if server_url:
-    href = f"{server_url}{href}"
+  if base_url:
+    href = f"{base_url}{href}"
   links.insert(
     0,
     {
@@ -264,7 +196,7 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
   if fmt:
     params["f"] = fmt
   qs = urlencode(params)
-  server_url = _get_server_url()
+  base_url = _get_base_url()
 
   for link in links:
     href = link.get("href", "")
@@ -272,9 +204,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
       continue
     parsed = urlparse(href)
     is_relative = not parsed.scheme
-    is_same_host = server_url and href.startswith(server_url)
+    is_same_host = base_url and href.startswith(base_url)
     if is_relative or is_same_host:
-      if is_relative and server_url:
-        href = f"{server_url}{href}"
+      if is_relative and base_url:
+        href = f"{base_url}{href}"
       sep = "&" if "?" in href else "?"
       link["href"] = f"{href}{sep}{qs}"
