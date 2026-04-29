@@ -1,7 +1,7 @@
 FROM python:3.14-slim AS builder
 
 WORKDIR /pygeoapi
-
+RUN apt-get update && apt-get install -y git
 RUN pip install uv
 
 COPY pyproject.toml uv.lock ./

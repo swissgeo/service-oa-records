@@ -17,6 +17,9 @@ dependencies = [
     "pyyaml",
 ]
 
+[tool.uv.sources]
+logging-utilities = { git = "https://github.com/geoadmin/lib-py-logging-utilities", branch = "feat_GPS-646_otel_logger" }
+
 [tool.ty.environment]
 extra-paths = ["pygeoapi-swissgeo-extensions"]
 
