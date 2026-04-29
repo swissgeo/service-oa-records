@@ -54,42 +54,14 @@ filters:
     service_type: pygeoapi
 
 formatters:
-  json:
-    (): logging_utilities.formatters.json_formatter.JsonFormatter
-    add_always_extra: False
-    filter_attributes:
-      - utc_isotime
-      - service_type
-    remove_empty: True
-    ignore_missing: True
-    fmt:
-      # OTEL semantic conventions (semconv) v1.40.0
-      # https://opentelemetry.io/docs/specs/semconv/
-      code.file.path: pathname
-      code.line.number: lineno
-      code.function.name: funcName
-      process.pid: process
-      thread.id: thread
-
-      # Custom attributes fields - not following OTEL semantic conventions
-      event.category: web # Custom (ecs) attribute
-      event.duration: duration # Custom (ecs) attribute
-      event.kind: event # Custom (ecs) attribute
-      log.logger: name # No semconv equivalent. Rename to InstrumentationScope.name in otel-collector
-      service.type: service_type # No semconv equivalent
-
-      # OTEL Log fields https://opentelemetry.io/docs/specs/otel/logs/data-model/#log-and-event-record-definition
-      # These fields need to be moved to root level by otel-collectors
-      body.string: message # body.text needs to be moved to body.text in otel-collector
-      otelSpanID: otelSpanID
-      otelTraceID: otelTraceID
-      severity_text: levelname # severity_number is parsed by otel-collectors based on severity_text
-      Timestamp: utc_isotime
+  otel:
+    # needs at least logging_utilties 5.5.0
+    (): logging_utilities.formatters.otel_formatter.OtelFormatter
 
 handlers:
   console:
     class: logging.StreamHandler
-    formatter: json
+    formatter: otel
     stream: ext://sys.stdout
     filters:
       - isotime
