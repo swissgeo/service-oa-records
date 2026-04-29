@@ -184,7 +184,7 @@ def load_distribution_records(collections_dir: Path) -> list[dict]:
     if title is not None:
       data["properties"]["title"] = title.removeprefix("Distributions for ")
 
-    catalog_href = f"/collections/swissgeo-catalogue/items/{dataset_id}"
+    catalog_href = f"/collections/swissgeo-catalog/items/{dataset_id}"
     for dist in data.get("records", []):
       new_links = []
       for link in dist.get("links", []):
