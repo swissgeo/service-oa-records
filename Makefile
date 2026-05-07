@@ -75,7 +75,7 @@ dockerrun: dockerbuild
 
 .PHONY: lint
 lint: ## Run the linter on the code base and type-checker ty
-	$(RUFF) check
+	$(RUFF) check --fix
 	$(TY) check
 
 .PHONY: test-ci
