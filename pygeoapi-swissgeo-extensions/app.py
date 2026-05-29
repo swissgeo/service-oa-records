@@ -11,9 +11,11 @@ Usage:
 """
 
 import asyncio
-from collections.abc import Callable
+from collections.abc import AsyncGenerator, Callable
+from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
+from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
 from starlette.applications import Starlette
@@ -46,9 +48,18 @@ async def _redirect_to_api(_request: Request) -> RedirectResponse:
   return RedirectResponse(url="/api/oar/rc1")
 
 
+@asynccontextmanager
+async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
+  yield
+  shutdown_otel()
+
+
 APP = Starlette(
   routes=[
     Route("/", _redirect_to_api),
     Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
-  ]
+  ],
+  lifespan=_lifespan,
 )
+
+initialize_instrumentation(APP)

@@ -52,6 +52,9 @@ ci-check-format: format ## Check the format (CI)
 		exit 1; \
 	fi
 
+.PHONY: load-catalogue
+load-catalogue: ## Load the OpenSearch catalogue (generate → index → import). Pass STEP=generate|index|import to run a single step.
+	$(PYTHON) scripts/load-opensearch-catalogue.py $(STEP)
 
 .PHONY: dockerbuild
 dockerbuild:  ## Build the docker image locally
