@@ -7,16 +7,19 @@ services:
       - "5678:5678"
     volumes:
       - ./pygeoapi-config.yml:/pygeoapi/pygeoapi-config.yml
+      - ./config-files/logging-conf.yaml:/pygeoapi/config-files/logging-conf.yaml
       - ./data:/pygeoapi/data
     env_file:
       - .env-docker
     environment:
       - PYDEBUG=${PYDEBUG}
-      - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317
       - OTEL_EXPORTER_OTLP_INSECURE=true
     depends_on:
       opensearch:
         condition: service_healthy
+      otel-collector:
+        condition: service_started
 
   opensearch:
     image: opensearchproject/opensearch:3
@@ -63,10 +66,19 @@ services:
       opensearch:
         condition: service_healthy
 
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    volumes:
+      - ./config-files/local-otel-collector-config.yml:/etc/otelcol-contrib/config.yaml
+    ports:
+      - "4317:4317" # OTLP gRPC receiver
+      - "4318:4318" # OTLP HTTP receiver
+    depends_on:
+      - jaeger
+
   jaeger:
     image: jaegertracing/all-in-one:latest
     ports:
-      - "4317:4317"   # OTLP gRPC receiver
       - "16686:16686" # Jaeger UI
     environment:
       - COLLECTOR_OTLP_ENABLED=true
