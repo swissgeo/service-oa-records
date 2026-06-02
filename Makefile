@@ -4,8 +4,6 @@ SHELL = /bin/bash
 
 SERVICE_NAME := service-oa-records
 
-CURRENT_DIR := $(shell pwd)
-
 # Docker metadata
 GIT_HASH := $(shell git rev-parse HEAD)
 GIT_HASH_SHORT := $(shell git rev-parse --short HEAD)
@@ -21,9 +19,6 @@ DOCKER_IMG_LOCAL_TAG := $(DOCKER_REGISTRY)/swissgeo/$(SERVICE_NAME):local-$(USER
 # AWS variables
 AWS_DEFAULT_REGION = eu-central-1
 
-# Flask specific
-APP_SRC_DIR := app
-
 # Commands
 UV_RUN := uv run
 PYTHON := $(UV_RUN) python3
@@ -31,14 +26,16 @@ TEST := $(UV_RUN) pytest
 RUFF := $(UV_RUN) ruff
 TY := $(UV_RUN) ty
 
-# Logging
-LOGS_DIR = $(PWD)/logs
+
+.PHONY: setup
+setup: ## Create virtual env with all packages for development uv
+	uv sync
 
 
 .PHONY: ci
-ci:
-	# Create virtual env with all packages for development using the Pipfile.lock
+ci: ## Create virtual env with all packages for development using the uv.lock (CI)
 	uv sync --frozen
+
 
 .PHONY: format
 format: ## Call ruff format to make sure your code is easier to read and respects some conventions.
@@ -55,36 +52,41 @@ ci-check-format: format ## Check the format (CI)
 		exit 1; \
 	fi
 
+
 .PHONY: dockerbuild
-dockerbuild:
+dockerbuild:  ## Build the docker image locally
 	docker compose build
+
 
 .PHONY: dockerlogin
 dockerlogin: ## Login to the AWS Docker Registry (ECR)
 	aws --profile swisstopo-swissgeo-builder ecr get-login-password --region $(AWS_DEFAULT_REGION) | docker login --username AWS --password-stdin $(DOCKER_REGISTRY)
+
 
 .PHONY: dockerpush
 dockerpush: dockerlogin dockerbuild ## Push to the docker registry
 	docker tag pygeoapi-custom $(DOCKER_IMG_LOCAL_TAG)
 	docker push $(DOCKER_IMG_LOCAL_TAG)
 
+
 .PHONY: dockerrun
-dockerrun: dockerbuild
+dockerrun: dockerbuild ## Run the docker image locally
 	docker compose up
 
 
 .PHONY: lint
-lint: ## Run the linter on the code base and type-checker ty
+lint: ## Run the ruff linter on the code base and type-checker ty
 	$(RUFF) check --fix
 	$(TY) check
 
+
 .PHONY: test-ci
-test-ci: $(LOGS_DIR) ## Run tests in the CI
+test-ci: ## Run tests in the CI (with coverage report in xml format for codecov)
 	$(TEST) --cov --cov-branch --cov-report=xml:coverage.xml
 
 
 .PHONY: test
-test:
+test: ## Run tests with coverage report in html format
 	$(TEST) --cov --cov-branch --cov-report=html
 
 
