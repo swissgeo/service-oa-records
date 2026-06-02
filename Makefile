@@ -79,7 +79,7 @@ lint: ## Run the linter on the code base and type-checker ty
 	$(TY) check
 
 .PHONY: test-ci
-test-ci: $(LOGS_DIR) ## Run tests in the CI
+test-ci: ## Run tests in the CI
 	$(TEST) --cov --cov-branch --cov-report=xml:coverage.xml
 
 
