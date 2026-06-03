@@ -1,11 +1,14 @@
-# oar-pygeoadmin
+# service-oa-records
 
 OGC API Records service for SwissGeo, built on [pygeoapi](https://pygeoapi.io/) with an OpenSearch backend and multilingual record support.
 
-| Branch | Status |
-|--------|-----------|
-| develop | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop)) |
-| main | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)) |
+| Branch | Status | Coverage |
+|--------|-----------|-------|
+| develop | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop)) | [![codecov-develop](https://codecov.io/gh/swissgeo/service-oa-records/branch/develop/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
+| main | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)) | [![codecov-main](https://codecov.io/gh/swissgeo/service-oa-records/branch/main/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
+
+> [!NOTE]
+> This is still in POC phase
 
 ## Overview
 
