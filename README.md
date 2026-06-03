@@ -4,8 +4,8 @@ OGC API Records service for SwissGeo, built on [pygeoapi](https://pygeoapi.io/) 
 
 | Branch | Status | Coverage |
 |--------|-----------|-------|
-| develop | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop)) | [![codecov-develop](https://codecov.io/gh/swissgeo/service-oa-records/branch/develop/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
-| main | ![Build Status]([CODEBUILD_BADGE_URL](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSkNYM3hWbjFqVkVkNWxta2w3ZjY3M3RLd3pWOU5Pc1RCbTJKd1JTaFdrc3gzZThQbmM0Y1Q2K2VBT2lwWkErc0hOYlpRbE5DdnZkR3htUzdmUVVQRGNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IjVsdkt5QUdBQm5NSWtIOTciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)) | [![codecov-main](https://codecov.io/gh/swissgeo/service-oa-records/branch/main/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
+| develop | ![Build Status](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiaDdjQ3ROL0NVSzQyRFN5Ukpjc282ZjE1cjc4N25RcHNWVVliRE9laEgzbUdmcmxFdHEyTWxDNkc1ZU9rVU95T0ZRazZ0RS9mRFphMXpVeVZ1VDBmSXZFPSIsIml2UGFyYW1ldGVyU3BlYyI6Ii9GZlhsODB4QkJ4UHgrVDIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop) | [![codecov-develop](https://codecov.io/gh/swissgeo/service-oa-records/branch/develop/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
+| main | ![Build Status](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiaDdjQ3ROL0NVSzQyRFN5Ukpjc282ZjE1cjc4N25RcHNWVVliRE9laEgzbUdmcmxFdHEyTWxDNkc1ZU9rVU95T0ZRazZ0RS9mRFphMXpVeVZ1VDBmSXZFPSIsIml2UGFyYW1ldGVyU3BlYyI6Ii9GZlhsODB4QkJ4UHgrVDIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main) | [![codecov-main](https://codecov.io/gh/swissgeo/service-oa-records/branch/main/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
 
 > [!NOTE]
 > This is still in POC phase
