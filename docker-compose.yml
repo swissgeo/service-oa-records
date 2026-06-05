@@ -43,17 +43,16 @@ services:
 
   catalogue-loader:
     build: .
-    image: pygeoapi-custom
     volumes:
       - ./static-s3:/pygeoapi/static-s3
       - ./scripts:/opt
     environment:
       - OPENSEARCH_URL=http://opensearch:9200
-    command: ["python3", "/opt/load-opensearch-catalogue.py"]
+    entrypoint: ["python3", "/opt/load-opensearch-catalogue.py"]
     depends_on:
       opensearch:
         condition: service_healthy
-    restart: on-failure
+    restart: no
 
   opensearch-dashboards:
     image: opensearchproject/opensearch-dashboards:3

@@ -6,7 +6,6 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Exporter(StrEnum):
   OTLP = "otlp"
-  CONSOLE = "console"
 
 
 class Settings(BaseSettings):
@@ -27,8 +26,6 @@ class Settings(BaseSettings):
   otel_exporter_otlp_endpoint: str = "http://localhost:4317"
   otel_exporter_otlp_headers: str = ""
   otel_exporter_otlp_insecure: bool = False
-  # Console exporter
-  otel_enable_console_exporter: bool = False
   # Metrics
   otel_enable_metrics: bool = False
 

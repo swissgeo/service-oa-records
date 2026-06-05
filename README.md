@@ -84,7 +84,6 @@ Key environment variables:
 | `PYGEOAPI_SERVER_URL` | `/` | Base URL used to identify same-host links for patching |
 | `OPENSEARCH_URL` | `http://localhost:9200` | OpenSearch base URL |
 | `PYGEOAPI_CONFIG` | `/pygeoapi/pygeoapi-config.yml` | pygeoapi config file path |
-| `PYGEOAPI_OPENAPI` | `/pygeoapi/pygeoapi-openapi.yml` | OpenAPI spec file path |
 
 ## Running locally
 
@@ -95,7 +94,7 @@ docker compose up
 This starts:
 - **pygeoapi** on `http://localhost:8080/api/oar/r/` (uvicorn, via `app.py`)
 - **OpenSearch** on port 9200
-- **catalogue-loader** — one-shot container that loads records from `v0/` into OpenSearch
+- **catalogue-loader** — one-shot container that loads records from `static-s3/` into OpenSearch
 - **OpenSearch Dashboards** on `http://localhost:5602`
 
 Copy `.env-docker` (or create one from `.env-local`) to configure environment variables before starting.
@@ -119,9 +118,6 @@ pygeoapi-swissgeo-extensions/
   app.py                  # Starlette entrypoint; patches call_api_threadsafe
   swissgeo_provider.py    # SwissGeoProvider: language selection + link patching
 pygeoapi-config.yml       # pygeoapi server + collection configuration
-pygeoapi-openapi.yml      # Generated OpenAPI specification
 scripts/                  # Data loading scripts
-v0/                       # Seed catalogue data
-Dockerfile
-docker-compose.yml
+static-s3/                # 1:1 catalog data from S3
 ```

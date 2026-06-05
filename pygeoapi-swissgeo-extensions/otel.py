@@ -10,18 +10,16 @@ from opentelemetry.instrumentation.urllib3 import URLLib3Instrumentor
 from opentelemetry.sdk._logs import LoggerProvider, LoggingHandler
 from opentelemetry.sdk._logs.export import (
   BatchLogRecordProcessor,
-  ConsoleLogRecordExporter,
   LogRecordExporter,
 )
 from opentelemetry.sdk.metrics import MeterProvider
 from opentelemetry.sdk.metrics.export import (
-  ConsoleMetricExporter,
   MetricExporter,
   PeriodicExportingMetricReader,
 )
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import BatchSpanProcessor, ConsoleSpanExporter, SpanExporter
+from opentelemetry.sdk.trace.export import BatchSpanProcessor, SpanExporter
 from settings import Exporter, get_settings
 from starlette.applications import Starlette
 
@@ -84,14 +82,6 @@ def _get_exporters() -> tuple[
           insecure=settings.otel_exporter_otlp_insecure,
         )
       )
-
-  if settings.otel_enable_console_exporter:
-    if Exporter.CONSOLE in settings.otel_trace_exporters:
-      span_exporters.append(ConsoleSpanExporter())
-    if Exporter.CONSOLE in settings.otel_metrics_exporters:
-      metric_exporters.append(ConsoleMetricExporter())
-    if Exporter.CONSOLE in settings.otel_logging_exporters:
-      logs_exporters.append(ConsoleLogRecordExporter())
 
   return logs_exporters, span_exporters, metric_exporters
 
