@@ -8,19 +8,13 @@ from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExport
 from opentelemetry.instrumentation.asgi import OpenTelemetryMiddleware
 from opentelemetry.instrumentation.urllib3 import URLLib3Instrumentor
 from opentelemetry.sdk._logs import LoggerProvider, LoggingHandler
-from opentelemetry.sdk._logs.export import (
-  BatchLogRecordProcessor,
-  LogRecordExporter,
-)
+from opentelemetry.sdk._logs.export import BatchLogRecordProcessor
 from opentelemetry.sdk.metrics import MeterProvider
-from opentelemetry.sdk.metrics.export import (
-  MetricExporter,
-  PeriodicExportingMetricReader,
-)
+from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import BatchSpanProcessor, SpanExporter
-from settings import Exporter, get_settings
+from opentelemetry.sdk.trace.export import BatchSpanProcessor
+from settings import get_settings
 from starlette.applications import Starlette
 
 _resource = Resource.create({"service.name": "service-oa-records"})
@@ -41,83 +35,30 @@ def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:
   return log_provider, trace_provider
 
 
-def _get_exporters() -> tuple[
-  list[LogRecordExporter],
-  list[SpanExporter],
-  list[MetricExporter],
-]:
+def _setup_exporters(
+  log_provider: LoggerProvider | None,
+  trace_provider: TracerProvider | None,
+) -> None:
   settings = get_settings()
 
-  if settings.otel_sdk_disabled:
-    return [], [], []
-
-  metric_exporters: list[MetricExporter] = []
-  logs_exporters: list[LogRecordExporter] = []
-  span_exporters: list[SpanExporter] = []
-
-  if settings.otel_enable_otlp_exporter:
-    if Exporter.OTLP in settings.otel_trace_exporters:
-      span_exporters.append(
-        OTLPSpanExporter(
-          endpoint=settings.otel_exporter_otlp_endpoint,
-          headers=settings.otel_exporter_otlp_headers,
-          insecure=settings.otel_exporter_otlp_insecure,
-        )
-      )
-
-    if Exporter.OTLP in settings.otel_metrics_exporters:
-      metric_exporters.append(
-        OTLPMetricExporter(
-          endpoint=settings.otel_exporter_otlp_endpoint,
-          headers=settings.otel_exporter_otlp_headers,
-          insecure=settings.otel_exporter_otlp_insecure,
-        )
-      )
-
-    if Exporter.OTLP in settings.otel_logging_exporters:
-      logs_exporters.append(
-        OTLPLogExporter(
-          endpoint=settings.otel_exporter_otlp_endpoint,
-          headers=settings.otel_exporter_otlp_headers,
-          insecure=settings.otel_exporter_otlp_insecure,
-        )
-      )
-
-  return logs_exporters, span_exporters, metric_exporters
-
-
-def _setup_log_processors(
-  provider: LoggerProvider | None,
-  exporters: list[LogRecordExporter],
-) -> None:
-  if provider is None:
+  if settings.otel_sdk_disabled or not settings.otel_enable_otlp_exporter:
     return
 
-  for exporter in exporters:
-    provider.add_log_record_processor(BatchLogRecordProcessor(exporter))
+  if log_provider is not None:
+    log_provider.add_log_record_processor(BatchLogRecordProcessor(OTLPLogExporter(**settings.otlp_kwargs)))
+
+  if trace_provider is not None:
+    trace_provider.add_span_processor(BatchSpanProcessor(OTLPSpanExporter(**settings.otlp_kwargs)))
 
 
-def _setup_span_processors(
-  provider: TracerProvider | None,
-  exporters: list[SpanExporter],
-) -> None:
-  if provider is None:
-    return
-
-  for exporter in exporters:
-    provider.add_span_processor(BatchSpanProcessor(exporter))
-
-
-def _setup_metrics(exporters: list[MetricExporter]) -> MeterProvider | None:
+def _setup_metrics() -> MeterProvider | None:
   settings = get_settings()
 
-  if settings.otel_sdk_disabled or not settings.otel_enable_metrics:
+  if settings.otel_sdk_disabled or not settings.otel_enable_metrics or not settings.otel_enable_otlp_exporter:
     return None
 
-  metric_readers = [PeriodicExportingMetricReader(exporter) for exporter in exporters]
-
   meter_provider = MeterProvider(
-    metric_readers=metric_readers,
+    metric_readers=[PeriodicExportingMetricReader(OTLPMetricExporter(**settings.otlp_kwargs))],
     resource=_resource,
   )
   metrics.set_meter_provider(meter_provider)
@@ -139,12 +80,9 @@ def _setup_metrics(exporters: list[MetricExporter]) -> MeterProvider | None:
 
 log_provider, trace_provider = _get_providers()
 
-log_exporters, span_exporters, metric_exporters = _get_exporters()
+_setup_exporters(log_provider, trace_provider)
 
-_setup_log_processors(log_provider, log_exporters)
-_setup_span_processors(trace_provider, span_exporters)
-
-meter_provider = _setup_metrics(metric_exporters)
+meter_provider = _setup_metrics()
 
 
 def get_otel_handler() -> logging.Handler:

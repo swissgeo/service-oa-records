@@ -1,11 +1,4 @@
-from enum import StrEnum
-
-from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
-
-
-class Exporter(StrEnum):
-  OTLP = "otlp"
 
 
 class Settings(BaseSettings):
@@ -29,22 +22,13 @@ class Settings(BaseSettings):
   # Metrics
   otel_enable_metrics: bool = False
 
-  # Configure exporters
-  otel_trace_exporters: list[Exporter] = [Exporter.OTLP]
-  otel_metrics_exporters: list[Exporter] = [Exporter.OTLP]
-  otel_logging_exporters: list[Exporter] = [Exporter.OTLP]
-
-  @field_validator(
-    "otel_trace_exporters",
-    "otel_metrics_exporters",
-    "otel_logging_exporters",
-    mode="before",
-  )
-  @classmethod
-  def parse_list(cls, v: str | list[str]) -> list[str]:
-    if isinstance(v, list):
-      return v
-    return v.split(",")
+  @property
+  def otlp_kwargs(self) -> dict:
+    return {
+      "endpoint": self.otel_exporter_otlp_endpoint,
+      "headers": self.otel_exporter_otlp_headers,
+      "insecure": self.otel_exporter_otlp_insecure,
+    }
 
 
 _settings: Settings | None = None
