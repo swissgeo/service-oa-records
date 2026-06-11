@@ -13,8 +13,14 @@ dependencies = [
     "uvicorn[standard]",
     "starlette",
     "debugpy",
-    "logging-utilities",
     "pyyaml",
+    "pydantic-settings>=2.0",
+    # List of available opentelemetry-instrumentation can be found here
+    # https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation#readme
+    "opentelemetry-exporter-otlp~=1.41",
+    "opentelemetry-instrumentation-asgi==0.62b1",
+    "opentelemetry-instrumentation-urllib3==0.62b1",
+    "opentelemetry-sdk~=1.41",
 ]
 
 [tool.ty.environment]

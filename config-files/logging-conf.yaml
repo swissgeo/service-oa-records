@@ -4,25 +4,11 @@ disable_existing_loggers: False # this allows getting loggers at module level
 root:
   handlers:
     - console
-  level: INFO
+  # Default level is WARNING to avoid noisy log output from dependencies.
+  level: WARNING
   propagate: True
 
 loggers:
-  uvicorn:
-    level: WARNING
-    handlers:
-      - console
-    propagate: False
-  uvicorn.access:
-    level: WARNING
-    handlers:
-      - console
-    propagate: False
-  uvicorn.error:
-    level: WARNING
-    handlers:
-      - console
-    propagate: False
   pygeoapi.provider:
     level: INFO
     handlers:
@@ -40,23 +26,6 @@ loggers:
     level: ERROR
     handlers:
       - console
-  botocore:
-    level: WARNING
-    handlers:
-      - console
-  boto3:
-    level: WARNING
-    handlers:
-      - console
-
-filters:
-  isotime:
-    (): logging_utilities.filters.TimeAttribute
-    isotime: False
-    utc_isotime: True
-  const_attributes:
-    (): logging_utilities.filters.ConstAttribute
-    service_type: pygeoapi
 
 formatters:
   standard:
@@ -68,6 +37,3 @@ handlers:
     class: logging.StreamHandler
     stream: ext://sys.stdout
     formatter: standard
-    filters:
-      - isotime
-      - const_attributes

@@ -27,9 +27,12 @@ import threading
 from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
+from opentelemetry import trace
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 
 LOGGER = logging.getLogger(__name__)
+
+_tracer = trace.get_tracer(__name__)
 
 _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 
@@ -67,6 +70,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
   link patching on top of the standard OpenSearchCatalogueProvider.
   """
 
+  @_tracer.start_as_current_span("SwissGeoProvider.__init__")
   def __init__(self, provider_def: dict) -> None:
     LOGGER.info("SwissGeoProvider.__init__ called")
     if str(provider_def.get("aws4auth", "false")).lower() == "true":
@@ -76,6 +80,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       super().__init__(provider_def)
     self.resource_id = provider_def.get("resource_id", self.name)
 
+  @_tracer.start_as_current_span("SwissGeoProvider.query")
   def query(  # noqa: ANN201, PLR0913
     self,
     offset: int = 0,
@@ -128,6 +133,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
     return result
 
+  @_tracer.start_as_current_span("SwissGeoProvider.get")
   def get(self, identifier: str, **kwargs) -> dict | None:
     """Fetch a single record by ID with language-aware post-processing."""
     lang, fmt = _get_lang_and_fmt()

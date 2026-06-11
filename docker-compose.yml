@@ -7,14 +7,19 @@ services:
       - "5678:5678"
     volumes:
       - ./pygeoapi-config.yml:/pygeoapi/pygeoapi-config.yml
+      - ./config-files/logging-conf.yaml:/pygeoapi/config-files/logging-conf.yaml
       - ./data:/pygeoapi/data
     env_file:
       - .env-docker
     environment:
       - PYDEBUG=${PYDEBUG}
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317
+      - OTEL_EXPORTER_OTLP_INSECURE=true
     depends_on:
       opensearch:
         condition: service_healthy
+      otel-collector:
+        condition: service_started
 
   opensearch:
     image: opensearchproject/opensearch:3
@@ -38,17 +43,16 @@ services:
 
   catalogue-loader:
     build: .
-    image: pygeoapi-custom
     volumes:
       - ./static-s3:/pygeoapi/static-s3
       - ./scripts:/opt
     environment:
       - OPENSEARCH_URL=http://opensearch:9200
-    command: ["python3", "/opt/load-opensearch-catalogue.py"]
+    entrypoint: ["python3", "/opt/load-opensearch-catalogue.py"]
     depends_on:
       opensearch:
         condition: service_healthy
-    restart: on-failure
+    restart: no
 
   opensearch-dashboards:
     image: opensearchproject/opensearch-dashboards:3
@@ -60,6 +64,33 @@ services:
     depends_on:
       opensearch:
         condition: service_healthy
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    volumes:
+      - ./config-files/local-otel-collector-config.yml:/etc/otelcol-contrib/config.yaml
+    ports:
+      - "4317:4317" # OTLP gRPC receiver
+      - "4318:4318" # OTLP HTTP receiver
+      - "9464:9464" # Prometheus scrape endpoint
+    depends_on:
+      - jaeger
+
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./config-files/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    depends_on:
+      - otel-collector
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686" # Jaeger UI
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
 
 volumes:
   pgdata:
