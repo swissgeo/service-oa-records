@@ -1,0 +1,113 @@
+{
+  "id": "ch.swisstopo.geologie-geotope",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geotope?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-geotope.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e7dd54e9-fc98-4e5c-b46a-694d1ba6c84e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Universität Lausanne",
+        "country": "CH",
+        "role": "resourceProvider"
+      }
+    ],
+    "description": "Geotopes are geoscientific natural monuments. Geotopes that represent geological history show the development of the landscape, the climate and life, the formation and disappearance of mountains and the origins of rocks. Other geotopes shed light on the processes taking place on the Earth's surface and in the Earth's interior. They also include the hidden world of caves and groundwater. A final group of geotopes consists of active elements of the landscape, such as scree slopes, flood plains and groundwater springs. Geotopes are spatially limited parts of the mineral, uninhabited Earth (geosphere). Depending on their thematic content, they can be an individual occurrence in one location or an entire portion of the landscape. They must be protected against influences that can impair their substance, structure, form or natural development. The geotopes listed here are of national importance and are taken from the informal inventory of the Swiss geotope working group (Swiss Academy of Sciences SCNAT). The inventory is not based on a systematic survey and, therefore, does not claim to be complete. Sources: Felber, M. (1999): Inventar der Geotope nationaler Bedeutung. Geologia Insubrica 4/1. Reynard, E., Berger, J.-P., Constandache, M., Felber, M., Grangier, L., Häuselmann, P., Jeannin, P.-Y. & Martin, S. (2012): Révision de l'inventaire des géotopes suisses: rapport final. – Geosciences, Platform of the Swiss Academy of Science.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geotope:wmts",
+    "title": "Geotopes in Switzerland",
+    "type": "Dataset"
+  }
+}

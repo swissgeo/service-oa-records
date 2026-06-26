@@ -1,0 +1,103 @@
+{
+  "id": "ch.bfs.bildungsstand",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.bildungsstand?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.bildungsstand.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/83a05456-9a08-44f0-8311-f85ca73e1604",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "BFS/OFS GEOSTAT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The “Educational attainment – Geodata” product provides detailed information on the highest level of education completed by the permanent resident population aged 25 to 64 across Switzerland. This data is based on several statistical surveys conducted by the federal administration and is supplemented by a two-stage imputation model that estimates missing data. The level of education is reported according to a three-stage nomenclature: compulsory schooling, secondary level II, and tertiary level. Data is available for the reference years 1990 and 2000, as well as for each year from 2017 onwards. It is provided for all of Switzerland at three spatial resolutions: hectares (100 x 100 m grid), first-level spatial statistical units (USPAT1 regions), and municipalities.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Educational attainment",
+    "type": "Dataset"
+  }
+}

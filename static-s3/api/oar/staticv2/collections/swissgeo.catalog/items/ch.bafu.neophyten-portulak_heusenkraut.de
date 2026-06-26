@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.neophyten-portulak_heusenkraut",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-portulak_heusenkraut?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/01a84c21-44b3-4bd4-be2b-e6def443a08f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Boden und Biotechnologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Info Flora GENÈVE",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Das Set Invasive gebietsfremde Pflanzen enthält die Karten der potentiellen Verbreitung von 56 in der Schweiz vorkommenden invasiven gebietsfremden Arten sowie solchen aus Nachbarländern mit dem Potential sich in die Schweiz auszudehnen. Die Karten sind das Ergebnis einer Modellierung der Uni Lausanne zur Vorhersage der Verbreitung von invasiven Pflanzen, welche in der Schwarzen Liste resp. der Watchliste aufgeführt sind. Das Modell basiert auf den verfügbaren Daten von GBIF (Global Biodiversity Information Facility), verknüpft mit aktuellen Klimadaten von Worldclim (1km Auflösung) sowie den verfügbaren Daten von InfoFlora verknüpft mit Klimadaten der WSL (100 m Auflösung). Die Karten mit 100 m Auflösung beinhalten weitere Variablen wie Landnutzung und Geologie.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.neophyten-portulak_heusenkraut:wmts",
+    "title": "Invasive gebietsfremde Pflanzen - Potentialkarte Portulak-Heusenkraut",
+    "type": "Dataset"
+  }
+}

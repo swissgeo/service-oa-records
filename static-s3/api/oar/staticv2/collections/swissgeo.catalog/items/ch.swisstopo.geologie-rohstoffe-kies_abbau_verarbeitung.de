@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-kies_abbau_verarbeitung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-kies_abbau_verarbeitung?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-rohstoffe-kies_abbau_verarbeitung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/734f4f95-2d81-459b-b8fc-1b1b8a249d14",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Fachgruppe Georessourcen Schweiz",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Kies und Sand sind für die Bauwirtschaft wichtige Rohstoffe. Sie werden unter anderem als Zuschlagstoff in Beton verwendet oder als Schüttmaterial im Erdbau eingesetzt. Dieser Datensatz zeigt die in Betrieb stehenden sowie stillgelegten Produktions- und Abbaustandorte der Kies- und Sandindustrie in der Schweiz, die runde Gesteinskörnungen aus Lockergesteinsformationen produzieren. Der Datensatz bietet zudem eine Übersicht der Kies und Sand führenden geologischen Einheiten, basierend auf dem Datensatz GeoCover. Die Produktions- und Abbaustandorte der Kies- und Sandindustrie, die gebrochene, aus Fels gewonnene Gesteinskörnungen herstellen, werden auf dem Datensatz <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-rohstoffe-gebrochene_gesteine_abbau&topic=georessourcen\" target=\"_blank\">Felsgebrochene Gesteinskörnungen</a> separat abgebildet. Für eine Standortentwicklung eines Rohstoffabbaus ist eine detaillierte geologische Untersuchung der Vorkommen vor Ort unumgänglich. Die Perimeter der Abbaustellen in Betrieb sind als Hinweis zu verstehen. Diese basieren auf dem Topografischen Landschaftsmodell (TLM) und SWISSIMAGE-Luftbildern. Für detaillierte Informationen zu den Abbauaktivitäten wenden Sie sich bitte an die zuständigen kantonalen Behörden. Dieser Datensatz wird periodisch aktualisiert und hat keinen Anspruch auf Vollständigkeit.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-kies_abbau_verarbeitung:wms",
+    "title": "Rohstoffe, Produktions- und Abbaustandorte der Kies- und Sandindustrie",
+    "type": "Dataset"
+  }
+}

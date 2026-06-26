@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.moose",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.moose?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.moose.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/07b046a7-1b21-4cd0-b605-a113f2e5e94d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La carta mostra tutti i luoghi di ritrovamento conosciuti di biofite minacciate e protette in Svizzera. Sono state considerate le specie incluse nella Lista rossa appartenenti alle categorie CR (in pericolo d’estinzione), EN (minac-ciata), VU (vulnerabile) e RE (estinta nella regione o in Svizzera) e di tutte le specie protette a livello nazionale o cantonale dall’ordinanza sulla protezione della natura e del paesaggio (OPN). Sulla carta i punti corrispondono ai luoghi esatti del ritrovamento (con una tolleranza di ±10-100 metri) oppure, nei casi in cui il quadrato chilometrico è conosciuto, alle coordinate geografiche dell’angolo inferiore sinistro di detto quadrato.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.moose:wmts",
+    "title": "Lista rossa delle biofite minacciate in Svizzera",
+    "type": "Dataset"
+  }
+}

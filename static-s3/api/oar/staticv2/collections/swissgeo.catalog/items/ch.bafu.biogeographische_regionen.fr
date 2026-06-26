@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.biogeographische_regionen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.biogeographische_regionen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.biogeographische_regionen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/fc110d43-cfbc-4029-a73c-f24bd67c9689",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La base du développement des régions biogéographiques de Suisse (6 ou 12 classes) était les surfaces homogènes des bassins fluviaux, dans lesquels les informations pertinentes et suffisamment complètes sur les espèces provenant des centres de données info-faune, info-flore, station ornithologique et bryophytes ont été analysées et classées selon des groupes de similarité.Les données faunistiques ont été traitées sur la base de la méthode de Wohlgemuth (1996), à laquelle ont été ajoutées d'autres méthodes de calcul des indices de dissimilitude, des matrices d'espèces et des tests. Une grande partie des analyses a été réalisée à l'aide du logiciel libre R. Les résultats ont été présentés dans un premier temps en six groupes, puis dans un deuxième temps en douze groupes. À quelques exceptions près, les limites des bassins versants ont été établies (OFEV, Div. Hydrologie, sous-bassins versants 40 km² / 2 km², état 2020) : Dans quelques cas, des critères topographiques et des avis d'experts ont été utilisés.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.biogeographische_regionen:wmts",
+    "title": "Régions biogéographiques de Suisse (CH)",
+    "type": "Dataset"
+  }
+}

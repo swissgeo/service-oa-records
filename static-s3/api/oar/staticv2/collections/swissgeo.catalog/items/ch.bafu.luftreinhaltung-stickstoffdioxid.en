@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.luftreinhaltung-stickstoffdioxid",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-stickstoffdioxid?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-stickstoffdioxid.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8b99b3cc-b38b-4b67-903f-edc83faa0846",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The term \"nitrogen oxides\" (NOx) embraces nitrogen dioxide (NO₂) and nitrogen monoxide (NO). Nitrogen oxides form in the combustion of motor and heating fuels, especially when combustion is at high temperatures. Road transport is the main source. They are an important precursor in the formation of acid rain, secondary particulate matter and - in combination with volatile organic compounds - photo-oxidants (ozone/summer smog). Along with ammonia they form particulate matter and contribute to the over-fertilisation of ecosystems. Nitrogen dioxide and other irritant gases are also a causal factor in diseases of the respiratory tract. Children are particularly susceptible. The time series shows the modeled maps of the annual mean values since 1990 in a 200 m grid, and in a 100 m grid from 2020. The NO₂ concentrations may deviate locally from the modeled data. Individual pixels should not be used to evaluate individual locations. The annual limit for NO₂ set in the Ordinance on Air Pollution Control is 30 µg/m³.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-stickstoffdioxid:wmts",
+    "title": "Air pollution by nitrogen dioxide",
+    "type": "Dataset"
+  }
+}

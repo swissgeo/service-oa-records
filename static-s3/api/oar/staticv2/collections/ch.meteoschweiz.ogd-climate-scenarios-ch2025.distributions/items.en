@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025.distributions/items?language=en",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.ogd-climate-scenarios-ch2025.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "en"
+    }
+  ]
+}

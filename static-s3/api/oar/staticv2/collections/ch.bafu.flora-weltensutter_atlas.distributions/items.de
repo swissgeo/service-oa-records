@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.flora-weltensutter_atlas:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions/items/ch.bafu.flora-weltensutter_atlas:wmts?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.flora-weltensutter_atlas?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.flora-weltensutter_atlas",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.flora-weltensutter_atlas"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.flora-weltensutter_atlas:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions/items/ch.bafu.flora-weltensutter_atlas:wms?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.flora-weltensutter_atlas?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.flora-weltensutter_atlas",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.flora-weltensutter_atlas"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.flora-weltensutter_atlas:api3features",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions/items/ch.bafu.flora-weltensutter_atlas:api3features?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.flora-weltensutter_atlas?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.flora-weltensutter_atlas",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [
+        {
+          "uriTemplate": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bafu.flora-weltensutter_atlas/{featureId}/htmlPopup?lang={lang}",
+          "rel": "preview",
+          "title": "HTML popup for a feature of this distribution",
+          "type": "application/html",
+          "variables": {
+            "featureId": {
+              "type": "string",
+              "description": "Feature ID"
+            },
+            "lang": {
+              "type": "string",
+              "enum": [
+                "de",
+                "fr",
+                "it",
+                "en"
+              ],
+              "default": "de",
+              "description": "Language code"
+            }
+          }
+        }
+      ],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "Geoadmin Features",
+        "protocol": "geoadmin:features",
+        "externalIds": [
+          "ch.bafu.flora-weltensutter_atlas"
+        ],
+        "renderable": true
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions/items?language=de",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.flora-weltensutter_atlas.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "de"
+    }
+  ]
+}

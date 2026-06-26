@@ -1,0 +1,104 @@
+{
+  "id": "ch.meteoschweiz.messnetz-flugwetter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-flugwetter?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messnetz-flugwetter.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/7a069711-0dbf-45c4-9b43-60b66d407e74",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di meteorologia e climatologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "MeteoSvizzera è responsabile della sicurezza di volo dal punto di vista meteorologico e grazie ai rilevamenti meteorologici fornisce un importante contributo alla sicurezza aerea. Senza la possibilità di conoscere esattamente l'attuale situazione meteorologica l'intenso traffico aereo odierno sarebbe impensabile. Per permettere agli aerei di decollare, i collaboratori di MeteoSvizzera sorvegliano 24 ore su 24 le condizioni atmosferiche negli aeroporti di Zurigo e Ginevra. In aggiunta alle osservazioni visuali, che rimangono comunque importanti, si utilizzano una serie di strumenti di misura appositamente concepiti per l'aviazione, come ad esempio il cielometro, e il trasmissometro, nonché diversi sensori per determinare il tempo in atto. Questi strumenti non sono impiegati solo nei due aeroporti internazionali di Zurigo e a Ginevra, ma anche negli aeroporti regionali. Le informazioni fornite da questi strumenti sono utilizzate per la sicurezza aerea e per elaborare le informazioni per i piloti.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.messnetz-flugwetter:geojson",
+    "title": "Osservazione meteorologiche per l'aviazione",
+    "type": "Dataset"
+  }
+}

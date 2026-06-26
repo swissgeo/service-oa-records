@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.auen-vegetationskarten",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.auen-vegetationskarten?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.auen-vegetationskarten.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/ab76361f-657d-4705-9053-95f89ecab126",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "En 1987, afin de donner la possibilité aux cantons de prendre aussi rapidement que possible les mesures nécessaires à la protection des zones alluviales potentiellement d'importance nationale, l'OFEV leur a fourni une cartographie détaillée de la végétation des objets de l'inventaire, tel qu'il a été mis en consultation. La méthode de cartographie a été décrite dans le rapport technique CE 199 (OFEFP, 1993). Elle s'est appuyée sur l'interprétation de photographies aériennes, suivie d'une vérification et d'une cartographie dans le terrain, à l'échelle 1 : 10 000. Les cartes montrent quelles unités de végétation (végétation primaire et, en partie, végétation complémentaire) et quelles influences anthropiques (utilisations ou « atteintes ») ont été identifiées au moment de la cartographie. Parmi les objets qui ont été agrandis après la consultation, les surfaces additionnelles ont été, dans 23 cas, recensées et cartographiées selon les mêmes critères au cours d'une seconde phase de cartographie. Depuis, presque tous les objets nouvellement admis dans l'inventaire des zones alluviales, dans le cadre du 2ème complément (étape a en 2003 et étape b en 2017), ont été recensés par photogrammétrie au moyen de photographies aériennes à infrarouge à l'échelle 1 : 5 000 et cartographiés sur le terrain selon la même méthode. Les zones alluviales alpines (1er complément à l'inventaire des zones alluviales de 2001) ont été cartographiées selon une méthode spécifique, adaptée à ce niveau d'altitude et également publiées sur map.geo.admin.ch (base de données « Végétation alluviale alpine »).",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.auen-vegetationskarten:wmts",
+    "title": "Cartographie des zones alluviales d'importance nationale",
+    "type": "Dataset"
+  }
+}

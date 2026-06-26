@@ -1,0 +1,103 @@
+{
+  "id": "ch.swisstopo.transformation-bezugsrahmen_hoehe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.transformation-bezugsrahmen_hoehe?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.transformation-bezugsrahmen_hoehe.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b3362599-3bc6-4615-a290-546792f89c83",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal office of topography swisstopo, survey",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Differences of orthometric heights LHN95 (National Height System 1995) minus offical levelled heights LN02 (National Levelling 1902).Due to local distortions of LN02 and that only reference points of the national levelling lines have been used, the transformation is only an approximation. The differences are composed of a part depending on position and of a local vertical scale factor.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.transformation-bezugsrahmen_hoehe:wms",
+    "title": "Height transformation HTRANS LHN95-LN02",
+    "type": "Dataset"
+  }
+}

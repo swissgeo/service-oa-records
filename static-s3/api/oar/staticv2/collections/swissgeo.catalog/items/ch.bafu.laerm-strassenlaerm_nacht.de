@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.laerm-strassenlaerm_nacht",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.laerm-strassenlaerm_nacht?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.laerm-strassenlaerm_nacht.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/89a0b0bc-10ff-4e3e-a4e4-36d081e2e672",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Lärm und NIS",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Karte zeigt, welcher Lärmbelastung die Bevölkerung durch den Strassenverkehr in der Nacht ausgesetzt ist. Die Angaben basieren auf flächendeckenden Modellberechnungen (sonBASE). Das Strassennetz der Schweiz, das in diese Berechnung einbezogen wurde, umfasst ca. 45 000 km. Die Verkehrs¬daten für den Strassenverkehr wurden auf der Basis des NPVM ermittelt. Dazu wurden ca. 4000 Verkehrszäh¬lungen aus dem Jahr 2021 verarbeitet, die von den Bundesämtern ASTRA und BFS sowie von den Kantonen und Städten durchgeführt wurden. Daten sind gesetzlich nicht verbindlich. Verbindliche Angaben zur Belastung wie auch zur Lärmsanierung geben die jeweiligen Vollzugsbehörden. Bei Nationalstrassen: Bundesamt für Strassen (ASTRA). Bei Haupt- und übrige Strassen: Die Kantonalen Vollzugsbehörden",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.laerm-strassenlaerm_nacht:wmts",
+    "title": "Lärmbelastung durch Strassenverkehr (Lr_Nacht)",
+    "type": "Dataset"
+  }
+}

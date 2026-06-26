@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_boden",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_boden?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-wasserverfuegbarkeit_boden.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/843579c9-927b-4691-b4b4-aa3a90c98007",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Den Bäumen steht in der Vegetationszeit häufiger weniger Wasser zur Verfügung •Das Wasserangebot in der Vegetationszeit ist für Wachstum und Vitalität der Wälder entscheidend. Die Verfügbarkeit des Wassers kann aus der Differenz zwischen dem Niederschlag und der potenziellen Verdunstung berechnet werden. Dies ist die klimatische Wasserbilanz. Erweitert um den Bodenspeicher ergibt sich die Standortswasserbilanz. •Die Standortswasserbilanz steht in enger Beziehung zum Vorkommen der Bäume, ihrer Vitalität und zum Wachstum. •Die Baumarten haben unterschiedliche Ansprüche an das Wasserangebot. Während Eichen genügsam sind, brauchen Fichten deutlich mehr Wasser in der Vegetationszeit. •Trend: Wiederkehr und Ausdehnung gelb bis roter Gebiete nehmen in der Periode 1981-2018 zu. Periode 1981-2018, April bis August, räumliche Auflösung 250m x 250m. Quelle: Remund et al. (2016).",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_boden:wmts",
+    "title": "Wasserverfügbarkeit im Boden (Standortwasserbilanz)",
+    "type": "Dataset"
+  }
+}

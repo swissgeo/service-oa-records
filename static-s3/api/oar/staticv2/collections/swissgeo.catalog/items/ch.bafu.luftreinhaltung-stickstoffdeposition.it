@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.luftreinhaltung-stickstoffdeposition",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-stickstoffdeposition?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-stickstoffdeposition.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/e96fe990-b20e-489e-b213-dc8c1fa6e255",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "La serie temporale mostra la deposizione complessiva di azoto sotto forma di modellizzazione per gli anni 1990, 2000, 2005, 2010, 2015 e 2020, rappresentata in in una griglia di 500m come somma di apporti umidi, secchi o gassosi. L'apporto totale di azoto in Svizzera è stato di 59.000 tonnellate nel 2020, costituite per due terzi circa da composti azotati ridotti (NH₃, NH₄⁺). Tuttavia questa percentuale può variare considerevolmente a livello locale (a seconda della quota di deposizione umida come pure degli emettitori circostanti). La modellizzazione è basata su condizioni meteorologiche medie. I dettagli della modellizzazione sono descritti nel rapporto Critical Loads of Nitrogen and their Exceedances (disponibile solo in inglese). A livello locale la deposizione di azoto può divergere dai dati modellizzati. I singoli pixel non devono essere usati per valutare singoli siti.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-stickstoffdeposition:wmts",
+    "title": "Deposizione di azoto",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.typisierung-fliessgewaesser",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.typisierung-fliessgewaesser?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.typisierung-fliessgewaesser.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/50a848cc-fe89-426a-940b-cc409cb4ff50",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wasser",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Fliessgewässertypisierung ordnet die Vielfalt der Schweizer Fliessgewässer. Die Gewässertypen werden anhand abiotischer, physiographischer Kriterien definiert, ohne Berücksichtigung der anthropogenen Einflüsse. Sie sind eine erste Grundlage für die Beurteilung des Gewässerzustandes und eine hilfreiche Orientierung für Aufwertungsmassnahmen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.typisierung-fliessgewaesser:wmts",
+    "title": "Typisierung der Schweizer Fliessgewässer",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.blw.gewaesseranschlusskarte-direkt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.gewaesseranschlusskarte-direkt?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.gewaesseranschlusskarte-direkt.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f03ce6ec-d927-4171-88a4-2369a75d4685",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landwirtschaft",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Office fédéral de l'agriculture",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "A titre de complément, une autre carte a été établie qui différencie les surfaces attenantes à des cours d’eau, entre surfaces en connexion directe et surfaces en connexion indirecte. Les surfaces en connexion directe se situent à côté de cours d’eau ou sont connectées à des cours d’eau par des fossés de drainage temporaire ou par des isobathes. L’écoulement des eaux de surfaces peut parvenir aussi indirectement dans les cours d’eau par les puits de drainage et les regards du système d’évacuation des eaux de chaussée. Grâce à ces informations, il est possible de planifier le cas échéant de manière encore mieux ciblée les mesures contre l’apport de substances polluantes dans les eaux. Six catégories de probabilité de connexion de surfaces agricoles à des eaux de surface ont été établies.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.gewaesseranschlusskarte-direkt:wmts",
+    "title": "Carte des surfaces directement ou indirectement attenantes à des eaux de surface, probabilité de surfaces attenantes",
+    "type": "Dataset"
+  }
+}

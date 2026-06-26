@@ -1,0 +1,22 @@
+{
+  "id": "ch.astra.baulinien-nationalstrassen_v2_0.oereb.distributions",
+  "title": "Distribution Collection for ch.astra.baulinien-nationalstrassen_v2_0.oereb.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.baulinien-nationalstrassen_v2_0.oereb.distributions/items?language=fr",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.baulinien-nationalstrassen_v2_0.oereb.distributions?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

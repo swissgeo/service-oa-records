@@ -1,0 +1,103 @@
+{
+  "id": "ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/9e7a53d4-3880-4dec-9988-92d49ba812c9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "astra",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Designated area in which the land must be kept free for future national road systems. Plot-specific representation with a line on a large-scale plan. Constructional changes that contradict this purpose are not permitted. Limited effect of five years maximum; possible extension of up to three years. Legal basis (MwA Art. 14 Para. 1): “After consulting the cantons, the responsible department can specify project planning zones in order to keep space free for roads as a precaution.” There is no data for this data set; the metadata set serves solely as a description of the corresponding level of the Feature Service for the federal data.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Reserved zones for motorways V2.0 PLR",
+    "type": "Dataset"
+  }
+}

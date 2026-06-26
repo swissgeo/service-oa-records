@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.naqua-grundwasser_nitrat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.naqua-grundwasser_nitrat?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.naqua-grundwasser_nitrat.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ea282e54-364b-4023-87c1-cdccbac295b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Sezione Basi idrogeologiche",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "I nitrati sono nutrienti essenziali per le piante e finiscono nelle acque sotterranee soprattutto a causa dell’impiego eccessivo di concimi aziendali o minerali. Secondo l’ordinanza sulla protezione delle acque OPAc le concentrazioni di nitrati nelle acque sot-terranee non devono essere superiori a 25 mg/l. Le concentrazioni di nitrati nelle acque sotterranee della Svizzera sono rilevate nel quadro dell’Osservazione nazionale delle acque sotterranee NAQUA. La rete di misurazione delle acque di superficie è costituita da oltre 500 stazioni ed è gestita dall’UFAM in stretta collaborazione con i Cantoni. Fonte: Osservazione nazionale delle acque sotterranee NAQUA, Ufficio federale dell’ambiente",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.naqua-grundwasser_nitrat:wmts",
+    "title": "Nitrati nelle acque sotterranee (Osservazione nazionale delle acque sotterranee NAQUA)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ch.bfs.erreichbarkeit-restaurants.distributions",
+  "title": "Distribution Collection for ch.bfs.erreichbarkeit-restaurants.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.erreichbarkeit-restaurants.distributions/items?language=de",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.erreichbarkeit-restaurants.distributions?language=de",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "de"
+    }
+  ]
+}

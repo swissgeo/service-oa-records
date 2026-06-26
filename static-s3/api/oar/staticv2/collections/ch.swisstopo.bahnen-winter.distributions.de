@@ -1,0 +1,22 @@
+{
+  "id": "ch.swisstopo.bahnen-winter.distributions",
+  "title": "Distribution Collection for ch.swisstopo.bahnen-winter.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.bahnen-winter.distributions/items?language=de",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.bahnen-winter.distributions?language=de",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "de"
+    }
+  ]
+}

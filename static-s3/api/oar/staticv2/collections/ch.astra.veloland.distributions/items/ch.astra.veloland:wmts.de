@@ -1,0 +1,41 @@
+{
+  "id": "ch.astra.veloland:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.veloland.distributions/items/ch.astra.veloland:wmts?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.veloland.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.veloland?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.astra.veloland",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.astra.veloland"
+    ]
+  }
+}

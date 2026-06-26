@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.uas-aktivitaetszonen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.uas-aktivitaetszonen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.uas-aktivitaetszonen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d3528da5-c074-4ff6-bc70-53ab7983d46d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Zivilluftfahrt",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die UAS Aktivitätszonenkarte (UAS Awareness map) zeigt Gebiete mit genehmigten Betriebsaktivitäten von unbemannten Luftfahrzeugen (UAS).Zweck der Veröffentlichung dieser Gebiete ist es, das Situationsbewusstsein der bemannten Luftfahrt zu erhöhen und relevante Kontaktinformationen bereitzustellen. Die Konsultation dieser Informationen über die UAS Aktivitätszonenkarte (UAS Awareness Map) hat keinen Einfluss auf die Flugsicherheit und ist nicht verpflichtend. <br></br> Die UAS Aktivitätszonenkarte (UAS Awareness Map) stellt ausschliesslich ausgewählte UAS-Operationen dar, insbesondere permanente oder regelmässig wiederkehrende Einsätze sowie Aktivitäten in lokal identifizierten Hotspot-Gebieten, die nicht für eine offizielle Veröffentlichung als luftfahrtbezogene Information qualifizieren. <br></br> Wichtiger Hinweis: <ul> <li>Der UAS-Betreiber / Fernpilot bleibt vollständig verantwortlich für die Luftraumüberwachung und die Gewährleistung der Staffelung gegenüber bemannten Luftfahrzeugen.[UAS.SPEC.060 (3) Annex der Durchführungsverordnung (EU) 2019/947 / SERA.3201].</li> <li>Die dargestellten Gebiete dienen ausschliesslich der situativen Information.</li> <li>Die dargestellten Betriebsvolumina entsprechen Einsätzen, die in der Spezifischen Kategorie genehmigt wurden, mit Verfahren, die entsprechend dem bewerteten lokalen Risikoniveau festgelegt und validiert sind und den Anforderungen der Verordnung (EU) 2019/947 entsprechen.</li> </ul> Bei Fragen oder Koordinationsanfragen wenden Sie sich bitte an den jeweiligen Betreiber. Die Kontaktdaten sind im Informationspanel der Zonen verfügbar.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.uas-aktivitaetszonen:wms",
+    "title": "UAS Aktivitätszonen Schweiz",
+    "type": "Dataset"
+  }
+}

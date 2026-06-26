@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.waldschadenflaechen-vivian",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.waldschadenflaechen-vivian?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.waldschadenflaechen-vivian.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/34fdf24c-b275-4d48-852b-f79d86358318",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division forêts, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Inventaire de la Confédération recensant les dégâts causés par l’ouragan Vivian en février 1990.Recensement des dégâts étendus en forêt. Critères de recensement: Dégâts étendus: surfaces forestières détruites avec un degré de recouvrement du peuplement restant égal ou inférieur à 0,2 (20%), ce chiffre ne dépend pas du degré de recouvrement avant l’ouragan. Surfaces minimales: 0,2 hectare par surface recensée. Caractéristiques du site: la pente, l’altitude et l’exposition constituent des données forestières importantes et sont relevées pour chaque surfa-ce sinistrée. Unités de relevé et unités d’exploitation: la plus petite unité de relevé est la surface sinis-trée, la plus petite unité d’exploitation est la commune politique. Pour la détermination des communes, les données numériques de swissto-po sont déterminantes.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.waldschadenflaechen-vivian:wmts",
+    "title": "Surfaces forestières sinistrées Vivian 1990",
+    "type": "Dataset"
+  }
+}

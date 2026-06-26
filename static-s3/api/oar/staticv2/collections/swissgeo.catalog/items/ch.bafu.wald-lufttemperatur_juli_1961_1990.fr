@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wald-lufttemperatur_juli_1961_1990",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-lufttemperatur_juli_1961_1990?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-lufttemperatur_juli_1961_1990.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/3f128c98-955d-4efa-9412-c152a9f84093",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division forêts, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Beschreibung (fr) Les valeurs utilisées pour effectuer le calcul sur toute la surface sont celles enregistrées par les stations de mesure MétéoSuisse entre 1961 et 1990. Par température journalière de l'air, on entend la courbe de température journalière moyenne (1961-1990). À partir de cette courbe, on sélectionne la température la plus élevée, qui se produit dans l'après-midi vers 15 h à toutes les stations en raison du rayonnement solaire. La température maximale journalière moyenne s'écarte légèrement du maximum de température journalier moyen. La température maximale journalière a été jugée pertinente pour la végétation, car elle est associée à un rayonnement solaire élevé. Les températures ont été interpolées en surface et verticalement à différents niveaux d'altitude au moyen de gradients. L'exposition, le rayonnement, les surfaces glaciaires et les lacs d'air froid ont également été pris en compte. La carte qui en résulte présente une résolution spatiale de 25 m x 25 m. Elle a été utilisée pour la modélisation des étages de végétation forestière.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-lufttemperatur_juli_1961_1990:wmts",
+    "title": "Températures maximales journalières moyennes de l'air en juillet, période 1961-1990",
+    "type": "Dataset"
+  }
+}

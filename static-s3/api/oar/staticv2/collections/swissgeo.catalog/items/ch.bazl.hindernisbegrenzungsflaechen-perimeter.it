@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.hindernisbegrenzungsflaechen-perimeter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.hindernisbegrenzungsflaechen-perimeter?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.hindernisbegrenzungsflaechen-perimeter.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b1ccf10f-77b6-45b8-afa7-8ed92100476c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell’aviazione civile",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Secondo l'articolo 63 dell'ordinanza del 23 novembre 1994 sull'infrastruttura aeronautica (OSIA; RS 748.131.1), è necessaria un'autorizzazione dell'UFAC nel caso in cui edifici, impianti e piantagioni attraversino la superficie di un catasto di limitazione degli ostacoli o di un piano delle zone di sicurezza. Per quanto concerne le presenti superfici di limitazione degli ostacoli, si tratta di perimetri atti a delimitare lo spazio aereo intorno agli aerodromi che di norma deve essere libero da ostacoli per ragioni di sicurezza aerea. I presenti geodati comprendono tutti i perimetri 2D dei piani delle zone di sicurezza validi o esposti al pubblico (ID OGI 108), dei catasti civili delle superfici di limitazione degli ostacoli approvati (ID OGI 106) nonché zone di avviso per i catasti militari delle superfici di limitazione degli ostacoli (ID OGI 2011) o dei catasti civili previsti.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Perimetro delle superfici di limitazione degli ostacoli",
+    "type": "Dataset"
+  }
+}

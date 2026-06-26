@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.wrz-jagdbanngebiete_select",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wrz-jagdbanngebiete_select?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wrz-jagdbanngebiete_select.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/35f25047-ea29-4422-9497-3dac46e00eb9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment / Biodiversity and Landscape Division",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Wildlife reserves are created to protect selected mammals and birds and their habitats. The 43 federal wildlife reserves listed here are based on Art. 11 of the Swiss Hunting Act. Winter sports may only be practised on marked routes. Participants in winter sports are therefore subject to the same access restrictions as those for statutory wildlife areas with designated routes. Within statutory designated wildlife areas and wildlife reserves, only permitted paths and trails marked on the map may be accessed. Prepared cross-country skiing trails, winter hiking trails and roads that are cleared or passable in winter are not shown on the map. Participants in winter sports may, of course, use these routes. Ski lifts and aerial cableways are marked in the wildlife reserves (federal game reserves). They indicate where there are infrastructures that may be used for winter sports, along with the corresponding ski slopes. Ski slopes are not shown. The campaign “Respektiere deine Grenzen” (\"Respect your limits\") is committed to protecting wildlife and raising public awareness of wildlife reserves.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-jagdbanngebiete_select:wmts",
+    "title": "Wildlife reserves",
+    "type": "Dataset"
+  }
+}

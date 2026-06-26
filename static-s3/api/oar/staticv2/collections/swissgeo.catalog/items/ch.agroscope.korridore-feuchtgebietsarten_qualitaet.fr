@@ -1,0 +1,104 @@
+{
+  "id": "ch.agroscope.korridore-feuchtgebietsarten_qualitaet",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.agroscope.korridore-feuchtgebietsarten_qualitaet?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_qualitaet.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/136c4bee-fd84-429d-81a4-6a334c145850",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Agroscope coordination SIG",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le jeu de données décrit la qualité des corridors migratoires potentiels entre les zones humides répertoriées dans l'inventaire national et régional des espèces des zones humides ouvertes (espèces OFG).Cette carte est basée sur un modèle de paysage classé selon son aptitude à servir d'habitat aux espèces OFG. Les berges et les zones humides se caractérisent par une grande aptitude et donc par un faible coût de propagation. Ce jeu de données sur l'aptitude a ensuite été utilisé pour calculer par paires le « chemin le moins coûteux » entre les zones humides pour la propagation des espèces OFG. L'ensemble de données connexe « zones de corridors » complète les chemins les moins coûteux idéalisés de cette couche avec des barres d'erreur et donne une définition spatiale aux routes migratoires potentielles. Ensemble, les deux cartes mettent en évidence les routes potentielles entre les zones humides protégées et les classent en fonction de leur perméabilité, ce qui permet une hiérarchisation spatiale explicite des initiatives de remise en eau. Les chemins les moins coûteux sont classés en fonction de leur perméabilité, mesurée par le coût total du déplacement le long d'un chemin divisé par la distance euclidienne entre les zones humides connectées (colonne du tableau : « Cost_to_EucDist_Ratio »). Les lignes rouges ont une perméabilité élevée ou un faible rapport coût/longueur, tandis que les lignes orange ont une perméabilité moyenne et les lignes jaunes une faible perméabilité. La répartition en trois catégories est basée sur des quantiles, c'est-à-dire que les lignes rouges représentent les 33 % des voies les plus rentables avec la perméabilité la plus élevée. Pour plus de détails sur la construction et l'application des cartes de corridors, voir : Churko, G., Walter, T., Szerencsits, E., & Gramlich, A. (2020). Improving wetland connectivity through the promotion of wet arable land. Wetlands Ecology and Management, 28(4), 667–680. Churko, Greg, Szerencsits, Erich, Gramlich, Anja, Prasuhn, Volker, & Walter, Thomas. (2018). Arten der Feucht-(Acker-) Flächen in der Schweiz und Korridore zwischen Schutzobjekten. Agroscope Science, 76, 1–39. Roberti G., Gramlich A., Benz R., Szerencsits E., Churko G., Prasuhn V., Leifeld J., Zorn A., Jacot-Ammann K., Herzog F., Fabian Y. Entscheidungshilfe für feuchte und nasse Ackerflächen : Unterstützung bei der Identifikation von Flächen, auf denen Alternativen zur Entwässerung in Betracht zu ziehen sind. Agroscope Transfer, 449, 2022, 1-68.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.agroscope.korridore-feuchtgebietsarten_qualitaet:wmts",
+    "title": "Qualité des corridors potentiels entre les objets protégés pour les espèces des zones humides ouvertes (OFG-Arten)",
+    "type": "Dataset"
+  }
+}

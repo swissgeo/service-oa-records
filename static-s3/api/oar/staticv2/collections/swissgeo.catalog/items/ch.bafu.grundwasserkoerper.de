@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.grundwasserkoerper",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.grundwasserkoerper?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.grundwasserkoerper.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2bd1ab86-83ec-4c3e-b937-ab81b4968bc6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Sektion Hydrogeologische Grundlagen",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Der Layer Grundwasserkörper zeigt eine vereinfachte und flächendeckende Unterteilung von hydrogeologischen Übersichtseinheiten für die Schweiz.. Die Grundwasserkörper sind dabei nicht als Bewirtschaftungseinheiten, sondern als fachtechnische Elemente der Umweltberichterstattung entwickelt worden, herausgegeben durch das Bundesamt für Umwelt BAFU. Sie dienen derzeit als räumlicher Bezug für die nationale Datenlieferung zum landesweiten Zustand des Grundwassers an die europäische Umweltagentur. Die Bemessung der Grundwasserkörper erfolgte GIS-basiert unter Berücksichtigung der Hauptkriterien Flussgebiete und dominierender Grundwasserleitertyp sowie spezifischer Grössenkriterien. Alle herangezogenen Parameter stammen aus schweizweit vorliegenden Datensätzen, insbesondere aus dem Layer Grundwasservorkommen 500. <a href=\"https://www.bafu.admin.ch/dam/bafu/de/dokumente/wasser/geodaten/2023%20Grundwasserk%C3%B6rper%20der%20Schweiz.pdf.download.pdf/2023%20Grundwasserk%C3%B6rper%20der%20Schweiz.pdf?approved=true\" target=\"_blank\">Grundwasserkörper der Schweiz – Aqua & Gass</a>",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.grundwasserkoerper:wmts",
+    "title": "Grundwasserkörper der Schweiz",
+    "type": "Dataset"
+  }
+}

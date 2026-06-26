@@ -1,0 +1,113 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/da98f1ff-d427-4e8f-b4fc-691e6ff31ed0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Forest Division, Federal Office of the Environment",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Countrywide vegetation height models (VHM) were generated for Switzerland based on Copernicus Sentinel-2 imagery and the digital terrain model (DTM) swissALTI3D from the Swiss Federal Office of Topography swisstopo. A Convolutional Neural Network (CNN) model was trained to estimate the maximum vegetation height at the spatial resolution of the Sentinel-2 pixel of 10 m. Vegetation heights from the spatially higher-resolved VHM Lidar NFI were used as reference data for the CNN training. Within the framework of the Swiss National Forest Inventory (NFI), the VHMs were modelled annually based on available Sentinel-2 imagery from May – September of the respective year. Further details on the creation of the VHM Sentinel NFI can be found in the paper Jiang et al. (2023, https://doi.org/10.1016/j.srs.2023.100099). Contains modified Copernicus Sentinel data.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_sentinel:wmts",
+    "title": "Vegetation height model Sentinel NFI",
+    "type": "Dataset"
+  }
+}

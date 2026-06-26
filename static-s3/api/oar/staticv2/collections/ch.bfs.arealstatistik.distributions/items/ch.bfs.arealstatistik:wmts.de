@@ -1,0 +1,41 @@
+{
+  "id": "ch.bfs.arealstatistik:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.arealstatistik.distributions/items/ch.bfs.arealstatistik:wmts?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.arealstatistik.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.arealstatistik?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfs.arealstatistik",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bfs.arealstatistik"
+    ]
+  }
+}

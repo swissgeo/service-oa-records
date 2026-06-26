@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.fauna-wildtierkorridor_national",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.fauna-wildtierkorridor_national?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fauna-wildtierkorridor_national.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/df8e620a-6f8a-41f8-85fb-394d6ceda8a0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "In einem ersten Schritt wurden aus bestehenden Daten die bekannten Wildtierkorridore kantonsweise erfasst sowie potentielle Korridore mittels GIS ermittelt und in Wildtierkorridore von überregionalem, regionalem und lokalen Interesse eingeteilt. Anschliessend wurde für die ganze Schweiz das überregionale und regionale Vernetzungssystem in den Grundzügen visualisiert. Die Korridore wurden dann entsprechend der Bedeutung der Achse, auf der sie liegen, als Wildtierkorridore von überregionalem resp. regionalem Interesse klassifiziert. Die Daten für die Verbindungsachsen und Wildtierkorridore wurden von der Schweizerischen Vogelwarte Sempach im GIS erfasst und bearbeitet. Die überregionalen Korridore und die Verbindungsachsen wurden 2012 aufgrund der Angaben der kantonalen Jagdverwaltungen durch das BAFU aktualisiert. 2017, 2023 und 2025 wurden die Korridore einer weiteren Revision unterzogen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fauna-wildtierkorridor_national:wmts",
+    "title": "Wildtierkorridore Überregional",
+    "type": "Dataset"
+  }
+}

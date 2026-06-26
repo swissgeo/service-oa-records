@@ -1,0 +1,104 @@
+{
+  "id": "ch.meteoschweiz.klimaszenarien-raumklima",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.klimaszenarien-raumklima?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.klimaszenarien-raumklima.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/6791cfd3-d53b-4ea3-bb43-8c6fd0db08b7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Meteorologie und Klimatologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Basierend auf den Klimaszenarien CH2018 wurden an 45 Stationen stündliche, physikalisch konsistente Daten von Temperatur, Feuchte, Wind und Strahlung berechnet. Diese repräsentieren typische Jahre (sogenannte Design Reference Years) und warme Sommer der Zukunft. Erhältlich sind die Daten für die Zeiträume 2020-2049 und 2045-2074 unter der Annahme verschiedener Emissionsszenarien der Treibhausgase. Sie bilden eine wichtige Grundlage für Gebäudesimulationen durch Ergänzung der Klimadaten von SIA 2028 und wurden in gemeinsamen Projekten durch MeteoSchweiz, Baudirektion Kanton Zürich, BAFU, SIA und HSLU finanziert und erarbeitet.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.klimaszenarien-raumklima:wmts",
+    "title": "Klimaszenarien fürs zukünftige Innenraumklima (SIA 2028)",
+    "type": "Dataset"
+  }
+}

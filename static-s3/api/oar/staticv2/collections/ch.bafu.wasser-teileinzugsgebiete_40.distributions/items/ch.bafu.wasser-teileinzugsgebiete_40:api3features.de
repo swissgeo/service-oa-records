@@ -1,0 +1,66 @@
+{
+  "id": "ch.bafu.wasser-teileinzugsgebiete_40:api3features",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wasser-teileinzugsgebiete_40.distributions/items/ch.bafu.wasser-teileinzugsgebiete_40:api3features?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wasser-teileinzugsgebiete_40.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wasser-teileinzugsgebiete_40?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.wasser-teileinzugsgebiete_40",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [
+    {
+      "uriTemplate": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bafu.wasser-teileinzugsgebiete_40/{featureId}/htmlPopup?lang={lang}",
+      "rel": "preview",
+      "title": "HTML popup for a feature of this distribution",
+      "type": "application/html",
+      "variables": {
+        "featureId": {
+          "type": "string",
+          "description": "Feature ID"
+        },
+        "lang": {
+          "type": "string",
+          "enum": [
+            "de",
+            "fr",
+            "it",
+            "en"
+          ],
+          "default": "de",
+          "description": "Language code"
+        }
+      }
+    }
+  ],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "Geoadmin Features",
+    "protocol": "geoadmin:features",
+    "externalIds": [
+      "ch.bafu.wasser-teileinzugsgebiete_40"
+    ],
+    "renderable": true
+  }
+}

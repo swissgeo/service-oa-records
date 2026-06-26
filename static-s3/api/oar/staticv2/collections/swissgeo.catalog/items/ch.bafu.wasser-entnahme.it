@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wasser-entnahme",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wasser-entnahme?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wasser-entnahme.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/a4ecf3a4-9943-4826-a997-9d7523e4d8ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La legge federale del 24 gennaio 1991 sulla protezione delle acque (LPAc), che contempla le disposizioni relative ai deflussi residuali è entrata in vigore il 1° novembre 1992. Secondo l'articolo 80 e segg. LPAc conformemente alle prescrizioni delle autorità, i tratti dei corsi d’acqua con deflussi residuali devono essere, ove possibile, risanati. Ai fini del risanamento, i Cantoni hanno innanzitutto compilato e inol-trato alla Confederazione un inventario dei prelievi d’acqua esistenti. In base a questo inventario, i Cantoni valutano detti prelievi e decidono se e in che misura è necessario risanarli. Essi raccolgono i risultati della loro indagine in un rapporto che inoltrano alle autorità federali. Per poter vigilare sull’esecuzione della LPAc nel campo dei deflussi residuali e dei risanamenti e per informare l’opinione pubblica e altri enti interessati, i dati relativi ai prelievi d’acqua inoltrati dai Cantoni vengono rappresentati in forma di carta nazionale dei deflussi residuali (scala 1: 200 000).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wasser-entnahme:wmts",
+    "title": "Carta dei deflussi residuali della Svizzera: prelievi d'acqua",
+    "type": "Dataset"
+  }
+}

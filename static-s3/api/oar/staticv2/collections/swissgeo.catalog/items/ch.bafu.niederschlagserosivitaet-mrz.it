@@ -1,0 +1,98 @@
+{
+  "id": "ch.bafu.niederschlagserosivitaet-mrz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.niederschlagserosivitaet-mrz?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.niederschlagserosivitaet-mrz.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c91931dd-73a0-47d0-aef2-7939625fa3b3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [],
+    "description": "<p>Le carte mensili del potenziale erosivo delle precipitazioni (carte del fattore R) in Svizzera hanno una risoluzione spaziale di 100 metri. Le carte mostrano la variabilità spaziale e stagionale del potenziale erosivo delle precipitazioni in MJ mm ha⁻¹ h⁻¹ mese⁻¹. Le tonalità blu chiaro indicano un effetto erosivo esiguo delle precipitazioni, mentre quelle blu scuro indicano un effetto erosivo elevato.</p> <p>I fattori R mensili sono stati calcolati sulla base delle precipitazioni misurate in 87 stazioni automatizzate con un intervallo di misurazione di 10 minuti (periodo medio di misurazione di 19,5 anni per stazione). Le stazioni coprono tutte le zone agricole della Svizzera. Per poter escludere l'influsso della neve, le temperature di 71 stazioni sono state registrate a cadenza oraria o estrapolate dalla stazione più vicina.</p> <p>Il confronto delle dodici carte mensili del fattore R indica che i mesi estivi (giugno, luglio e agosto) presentano il maggiore potenziale erosivo delle precipitazioni nell'andamento annuale. In questo periodo, i fattori R sono particolarmente elevati soprattutto al sud delle Alpi (Cantone Ticino), nelle zone montane del nord delle Alpi e in una parte delle zone di pianura. Tra giugno e settembre si registra il 62 per cento del totale potenziale erosivo annuale delle precipitazioni in Svizzera. L'identificazione delle regioni e dei periodi caratterizzati da precipitazioni con elevato effetto erosivo consente una protezione mirata contro l'erosione e una migliore comprensione delle dinamiche dei processi erosivi sull'arco di un anno.</p> L'allestimento delle carte mensili del potenziale erosivo delle precipitazioni in Svizzera è descritto in dettaglio nel documento «Regionalization of monthly rainfall erosivity patterns in Switzerland» di Schmidt et al. (Hydrology and Earth System Sciences: 20. 2016. S. 4359–4373).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.niederschlagserosivitaet-mrz:wmts",
+    "title": "Carte mensili del potenziale erosivo delle precipitazioni (fattore R) in Svizzera, espresso in MJ mm ha⁻¹ h⁻¹ mese⁻¹, marzo",
+    "type": "Dataset"
+  }
+}

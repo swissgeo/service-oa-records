@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4bfbbf20-d90e-4131-8fe2-4c454ad45c16",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "BFS/OFS GEOSTAT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Depuis 1990 on a attribué des coordonnées aux bâtiments d'habitation identifiés par les recensements fédéraux de la population. Depuis 2010, le recensement de la population est réalisé sur la base de l'exploitation des registres des personnes communaux et cantonaux, complétée par des données issues d'échantillons. La statistique de la population et des ménages (STATPOP) fournit des chiffres clés sur l'effectif, la structure (âge, sexe, état civil, nationalité, etc.), l'évolution et la répartition géographique de la population, ainsi que des données sur le nombre et la taille des ménages.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner:wmts",
+    "title": "Statistique de la population : habitants",
+    "type": "Dataset"
+  }
+}

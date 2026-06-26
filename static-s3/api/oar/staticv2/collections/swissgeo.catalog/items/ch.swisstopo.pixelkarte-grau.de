@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.pixelkarte-grau",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-grau?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.pixelkarte-grau.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/74aef814-0c97-4261-a2c1-df4a948aca8e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "swisstopo erstellt Landeskarten in den Massstäben 1:10‘000 bis 1:1 Million. Der Layer Landeskarten (grau) nutzt die unterschiedlichen Massstäbe und zeigt die geeignetste Karte in Abhängigkeit der gewählten Zoomstufe an. Der Layer Landeskarte (grau) dient als Hintergrundkarte im Geoportal des Bundes. Er ist auch in den Geodiensten WMS und WMTS verfügbar. Einmal jährlich wird eine Kopie der WMTS-Kachelpyramide im JPEG-Format und Web-Mercator-Koordinatensystem (EPSG:3857) bis Zoom Level/Tile Matrix 18 (0,5 m Auflösung) zum Download bereitgestellt.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-grau:wmts",
+    "title": "Landeskarten der Schweiz (grau)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo-vd.geometa-gemeinde",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo-vd.geometa-gemeinde?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo-vd.geometa-gemeinde.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/9114e8ee-f90c-4c05-af2e-0fe999f833bb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo, misurazione",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Indicazioni statistiche e amministrative sul Comune, con link al portale cantonale dei geodati. Trovate inoltre un link ai metadati della misurazione ufficiale. L’estratto (file INTERLIS) contiene tra l’altro la data dell’ultimo aggiornamento di ogni livello della misurazione ufficiale, l’indirizzo dell’unità emittente, l’area geografica interessata nonché indicazioni relative alla precisione dei dati.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-vd.geometa-gemeinde:wms",
+    "title": "Informazioni sul Comune in relazione alla misurazione ufficiale",
+    "type": "Dataset"
+  }
+}

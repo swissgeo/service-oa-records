@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wald-niederschlag_april_august_2085_gering",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_april_august_2085_gering?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-niederschlag_april_august_2085_gering.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/fa6960ab-794e-42c5-ac9f-14895a5f2b3a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die Karte zeigt die Niederschlagssumme (in mm) für die Monate April bis August berechnet für die Periode 2070-2099. Als Grundlage dient die Karte «Niederschlag April-August 1981-2010», abgeleitet von den Normwertkarten für Niederschlag von MeteoSchweiz. Für die Berechnung der Änderung der Niederschlagssumme in der Zukunft wurde als Repräsentativer Konzentrationspfad RCP 2.6 mit der Modellkombination DMI_HIRHAM_ECEARTH_EUR11 als Projektion für einen geringen Klimawandel gewählt (NCCS 2018; Bereitstellung der Daten durch Remund et al. 2020). Die resultierende Karte hat eine räumliche Auflösung von 25 m x 25 m. Sie wurde für die Modellierung von Vegetationshöhenstufen verwendet.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-niederschlag_april_august_2085_gering:wmts",
+    "title": "Niederschlagssumme April-August, Periode 2070-2099, Szenario RCP 2.6",
+    "type": "Dataset"
+  }
+}

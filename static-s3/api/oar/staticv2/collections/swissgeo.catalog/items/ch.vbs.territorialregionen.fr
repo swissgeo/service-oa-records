@@ -1,0 +1,98 @@
+{
+  "id": "ch.vbs.territorialregionen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.vbs.territorialregionen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.vbs.territorialregionen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f1d7d608-74d7-46fc-a478-b4357409f34b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [],
+    "description": "Les divisions territoriales (div ter) forment le trait d'union avec les autorités civiles et assurent la coopération avec les cantons. Elles sont le point de contact des autorités civiles lorsque ces dernières nécessitent l'appui de l'armée. De plus, les divisions territoriales conduisent les opérations/engagements de soutien et de sûreté ainsi que les engagements d'aide en cas de catastrophe à l'intérieur du pays et immédiatement au-delà de la frontière. Elles peuvent être engagées dans le cadres d'opérations/engagements et conduire les formations qui leur sont subordonnées à l'engagement. Elles portent la responsabilité de l'instruction et de la disponibilité à la conduite des états-majors de liaison cantonaux.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.vbs.territorialregionen:wms",
+    "title": "Divisions territoriales",
+    "type": "Dataset"
+  }
+}

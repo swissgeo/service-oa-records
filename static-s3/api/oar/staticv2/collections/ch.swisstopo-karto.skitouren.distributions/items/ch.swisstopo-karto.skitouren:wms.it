@@ -1,0 +1,41 @@
+{
+  "id": "ch.swisstopo-karto.skitouren:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo-karto.skitouren.distributions/items/ch.swisstopo-karto.skitouren:wms?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo-karto.skitouren.distributions?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo-karto.skitouren?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo-karto.skitouren",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo-karto.skitouren"
+    ]
+  }
+}

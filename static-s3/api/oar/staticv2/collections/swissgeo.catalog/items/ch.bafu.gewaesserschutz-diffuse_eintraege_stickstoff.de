@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/9b7dc233-813b-490b-b13c-3b3ab787e11f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wasser",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Stickstoffeinträge in Gewässer stellen eine unerwünschte Belastung dar. Im Rahmen des Übereinkommens über den Schutz der Meeresumwelt des Nordostatlantiks (OSPAR) hat sich die Schweiz verpflichtet, die über den Rhein aus der Schweiz gelangende Stickstofffracht gegenüber 1985 um 50% zu reduzieren. Dieses Ziel ist noch nicht erreicht. Insgesamt gelangen pro Jahr rund 48‘000 t Gesamt-Stickstoff aus diffusen Quellen in die Gewässer der Schweiz. Hohe Einträge erfolgen von intensiv genutzten Ackerflächen, insbesondere von drainierten Flächen.</p><p>Die Gesamt-Stickstoffeinträge in die Gewässer wurden mit dem Stoffflussmodell MODIFFUS über alle diffusen Eintragsquellen (Ackerland, Dauergrünland, Wald, Gletscher, Siedlungsgrünflächen etc.) und alle diffusen Eintragspfade (Bodenerosion, Auswaschung, Abschwemmung, Drainage, atmosphärische Deposition etc.) berechnet. Die Karte zeigt die aufsummierten Verluste pro Landnutzungskategorie im Hektarraster, basierend auf der Arealstatistik 2013/18. Es wurden mittlere klimatische Bedingungen zugrunde gelegt, das Bezugsjahr ist 2020. </p><p> Diese modellierten Werte sind nicht gleichzusetzen mit gemessenen Werten in Gewässern, da sie die Umwandlungs- und Ablagerungsprozesse sowohl in der Landschaft als auch im Gewässer selbst nicht berücksichtigen. Die Resultate sind für hydrologische oder administrative Einheiten ab 50 km² Grösse interpretierbar, nicht aber für einzelne Pixel.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-diffuse_eintraege_stickstoff:wmts",
+    "title": "Diffuse Gesamt-Stickstoffeinträge in die Gewässer",
+    "type": "Dataset"
+  }
+}

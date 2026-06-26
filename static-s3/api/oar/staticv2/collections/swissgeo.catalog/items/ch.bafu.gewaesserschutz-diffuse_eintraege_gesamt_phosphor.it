@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/5de5d77b-a349-4da0-9b55-467d6455f466",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Gli apporti di fosforo nelle acque sono fonti di inquinamento indesiderate. Complessivamente, ogni anno finiscono nelle acque svizzere circa 3400 tonnellate di fosforo totale (fosforo disciolto e particolato) provenienti da fonti diffuse. Apporti considerevoli sono riconducibili in particolare all'erosione naturale delle Alpi sotto forma di fosforo particolato, il cui effetto eutrofizzante è estremamente contenuto. Per di più, proprio riguardo ai calcoli relativi agli apporti di fosforo dovuti a erosione naturale vi è ancora un grande margine di incertezza. Dalle superfici a uso agricolo proviene soltanto il 31 per cento degli apporti diffusi di fosforo totale.</p><p> Gli apporti di fosforo totale nelle acque sono stati calcolati con il modello per flussi di sostanze MODIFFUS, considerando tutte le fonti di apporto diffuse (terreni coltivi, prati permanenti, boschi, ghiacciai, superfici verdi urbane ecc.) e tutti i percorsi di apporto diffusi (erosione del suolo, dilavamento, ruscellamento, drenaggio, deposizione atmosferica ecc.). La carta mostra le perdite cumulate per categoria di utilizzazione del territorio in un reticolo ettometrico basato sulla Statistica di superficie 2013/18. Per il calcolo sono state considerate condizioni climatiche medie ed è stato preso il 2020 come anno di riferimento. </p><p> I valori modellizzati non sono equiparabili con i valori misurati nelle acque, in quanto non tengono conto dei processi di trasformazione e di sedimentazione né nel paesaggio né nelle acque stesse. I risultati possono essere interpretati per unità idrologiche o amministrative a partire da 50 chilometri quadrati, ma non per singoli pixel.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-diffuse_eintraege_gesamt_phosphor:wmts",
+    "title": "Apporti diffusi di fosforo totale nelle acque",
+    "type": "Dataset"
+  }
+}

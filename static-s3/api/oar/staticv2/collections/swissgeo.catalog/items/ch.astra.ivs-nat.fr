@@ -1,0 +1,104 @@
+{
+  "id": "ch.astra.ivs-nat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.ivs-nat?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.ivs-nat.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/70b6e2ac-c7ea-4699-a22e-65792aa3b0b9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral des routes",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "L’inventaire des voies de communication de la Suisse (IVS) offre une mine d’informations sur leur tracé, leur histoire, leur état et leur importance, conformément aux dispositions de la loi fédérale sur la protection de la nature et du paysage (LPN). L’IVS comprend deux parties : l’inventaire fédéral et les autres voies de communication historiques (ordonnance concernant l’inventaire fédéral des voies de communication historiques de la Suisse OIVS, art. 3). La première regroupe les objets d’importance nationale dotés d’une signification historique exceptionnelle. Les objets dont la valeur sur le plan de l’histoire nationale ne s’accompagne pas d’une portée architecturale véritablement remarquable ne font pas partie de l’inventaire fédéral. Relèvent également de cette seconde catégorie de nombreux objets dont l’importance régionale ou locale a été reconnue au niveau cantonal. Vous trouverez des informations complémentaires sur le site Internet de l’IVS : http://www.ivs.admin.ch/. Vous pouvez également consulter la banque de données de l’inventaire au moyen de l’application WebGIS ou télécharger des fiches sur le site suivant : http://ivs-gis.admin.ch (cf. OIVS, art. 4).",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-nat:wmts",
+    "title": "Inventaire fédéral des voies de communication historiques de la Suisse (IVS)",
+    "type": "Dataset"
+  }
+}

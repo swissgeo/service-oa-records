@@ -1,0 +1,41 @@
+{
+  "id": "ch.are.bauzonen:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.are.bauzonen.distributions/items/ch.are.bauzonen:wmts?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.are.bauzonen.distributions?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.are.bauzonen?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.are.bauzonen",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.are.bauzonen"
+    ]
+  }
+}

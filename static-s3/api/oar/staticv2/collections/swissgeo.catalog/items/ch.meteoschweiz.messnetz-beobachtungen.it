@@ -1,0 +1,104 @@
+{
+  "id": "ch.meteoschweiz.messnetz-beobachtungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-beobachtungen?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messnetz-beobachtungen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/bb2c81cc-0f41-4bd0-919e-c7671e27cd12",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di meteorologia e climatologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le osservazioni visuali da parte di addetti alla stazione completano le informazioni sulla situazione meteorologica. Sono effettuate da tre a otto volte al giorno. Le osservazioni visuali descrivono le condizioni dell'atmosfera alla stazione di osservazione e nelle sue immediate vicinanze. Le osservazioni visuali e la lettura di alcuni strumenti di misura sono effettuate da tre a otto volte al giorno, 365 giorni all'anno, da osservatori ed osservatrici e trasmessi online a MeteoSvizzera. Le comunicazioni sono cifrate con codici internazionali e disponibili globalmente.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.messnetz-beobachtungen:geojson",
+    "title": "Osservazione visuale meteorologiche",
+    "type": "Dataset"
+  }
+}

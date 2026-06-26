@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.schutzgebiete-biosphaerenreservate:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions/items/ch.bafu.schutzgebiete-biosphaerenreservate:wmts?language=en",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions?language=en",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.schutzgebiete-biosphaerenreservate",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.schutzgebiete-biosphaerenreservate"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.schutzgebiete-biosphaerenreservate:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions/items/ch.bafu.schutzgebiete-biosphaerenreservate:wms?language=en",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions?language=en",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.schutzgebiete-biosphaerenreservate",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.schutzgebiete-biosphaerenreservate"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.schutzgebiete-biosphaerenreservate:api3features",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions/items/ch.bafu.schutzgebiete-biosphaerenreservate:api3features?language=en",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions?language=en",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.schutzgebiete-biosphaerenreservate",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [
+        {
+          "uriTemplate": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bafu.schutzgebiete-biosphaerenreservate/{featureId}/htmlPopup?lang={lang}",
+          "rel": "preview",
+          "title": "HTML popup for a feature of this distribution",
+          "type": "application/html",
+          "variables": {
+            "featureId": {
+              "type": "string",
+              "description": "Feature ID"
+            },
+            "lang": {
+              "type": "string",
+              "enum": [
+                "de",
+                "fr",
+                "it",
+                "en"
+              ],
+              "default": "de",
+              "description": "Language code"
+            }
+          }
+        }
+      ],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "Geoadmin Features",
+        "protocol": "geoadmin:features",
+        "externalIds": [
+          "ch.bafu.schutzgebiete-biosphaerenreservate"
+        ],
+        "renderable": true
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions/items?language=en",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "en"
+    }
+  ]
+}

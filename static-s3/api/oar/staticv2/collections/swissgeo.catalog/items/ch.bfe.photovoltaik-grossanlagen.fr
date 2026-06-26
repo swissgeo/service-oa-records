@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.photovoltaik-grossanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.photovoltaik-grossanlagen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.photovoltaik-grossanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/792e9166-3546-4890-a97f-8b7c5e84e8d6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'énergie",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Les installations photovoltaïques de haute altitude peuvent produire plus d'électricité par kilowatt de puissance installée et, selon l'emplacement et l'orientation, pendant le semestre d'hiver que des installations comparables en plaine. Ceci parce que les conditions de rayonnement sont meilleures (atmosphère plus fine, moins de brouillard) et parce que la lumière du soleil est réfléchie par la neige (ce qu'on appelle l'effet albédo). Ce jeu de données contient toutes les informations sur les grandes installations photovoltaïques prévues ou réalisées qui ont été notifiées à l'OFEN.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.photovoltaik-grossanlagen:wms",
+    "title": "Grandes installations photovoltaïques en Suisse",
+    "type": "Dataset"
+  }
+}

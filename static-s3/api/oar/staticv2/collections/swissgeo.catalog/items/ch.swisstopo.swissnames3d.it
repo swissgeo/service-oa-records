@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.swissnames3d",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.swissnames3d?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.swissnames3d.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/ab24e5cc-7f53-451a-820a-f113fa545943",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "swissNAMES3D è la raccolta dei nomi geografici la più completa della Svizzera e del Principato del Liechtenstein. swissNAMES3D comprende oltre 437'000 dati georeferenziati e suddivisi in diverse categorie. La nuova serie di dati sostituisce dal 2015 il precedente prodotto SwissNames che era basato sui nomi della Carta Nazionale ed era stato aggiornato nel 2008. All'interno del geoportale federale, il layer \"nomi geografici\" corrisponde a una selezione di swissNAMES3D in funzione del livello di zoom scelto.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swissnames3d:wmts",
+    "title": "swissNAMES3D nomi geografici della misurazione nazionale",
+    "type": "Dataset"
+  }
+}

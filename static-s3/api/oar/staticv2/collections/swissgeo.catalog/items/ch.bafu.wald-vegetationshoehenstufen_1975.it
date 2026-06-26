@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_1975",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_1975?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-vegetationshoehenstufen_1975.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/195c406f-8f07-45af-b705-9bddb97d4f01",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Divisione foreste, Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Questa carta mostra la quota delle diverse fasce della vegetazione forestale in Svizzera per il periodo 1961-1990. Le seguenti fasce altitudinali sono presenti solo nelle valli meridionali: «iperinsubrica», «collinare con faggio» e «montana inferiore/superiore». Per sviluppare questa carta sono state quantificate e affinate le fasce altitudinali presentate in Frehner et al. (2005/2009). A tale scopo, i rispettivi limiti superiori sono stati modellizzati e combinati con i modelli degli areali di faggio e abete (areale principale, secondario e relitto). (Zischg et al. subm.). Anche il limite superiore naturale della foresta è stato modellato usando una procedura analoga (Könz et al. 2021). I parametri climatici e dati geologici di base sono stati utilizzati come base per modellizzare i limiti e le areale.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_1975:wmts",
+    "title": "Fasce altitudinali modellati per 1975",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-felslabore",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-felslabore?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-felslabore.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f995a522-62cb-4316-a762-f6a319985ed7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Felslabore der Schweiz sind Forschungseinrichtungen, in denen unterhalb der Erdoberfläche die Eigenschaften der umgebenden Gesteine und die darin ablaufenden Prozesse untersucht werden. Ziel ist dabei die Gesteine in Bezug auf ihre Eignung für verschiedene Anwendungen zu untersuchen. So stehen unter anderem die Eignung der Gesteinseinheiten für die Endlagerung radioaktiver Abfälle, für die Speicherung von CO2 oder Untersuchungen zur Nutzung von geothermischen Ressourcen im Zentrum der Arbeiten. Bezüglich der in situ-Arbeiten gibt es 3 Ziele: 1) Entwicklung von neuen Methoden und Technologien zur Erschliessung und Untersuchung des Untergrunds, 2) Charakterisierung des Gesteins, Ermittlung der Kennwerte und Identifikation der thermischen, hydraulischen und felsmechanischen Prozesse, und 3) Demonstrationsexperimente, Validierung neuer Technologien.Die Felslabore spielen eine wichtige Rolle bezüglich gesellschaftlicher Akzeptanz von Technologien und Prozessen, die im Untergrund eingesetzt werden. So können sich Besucher ein Bild unter Tage machen und eine Meinung bilden.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-felslabore:wms",
+    "title": "Felslabore in der Schweiz",
+    "type": "Dataset"
+  }
+}

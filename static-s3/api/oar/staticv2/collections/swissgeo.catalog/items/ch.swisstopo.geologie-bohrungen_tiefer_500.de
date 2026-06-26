@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-bohrungen_tiefer_500",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-bohrungen_tiefer_500?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-bohrungen_tiefer_500.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/a61d9f7a-00cd-4448-a36d-b81423f1f566",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Diese Karte zeigt die tiefen Bohrungen in der Schweiz an. Die Daten stammen vom Bundesamt für Landestopografie swisstopo, von Universitäten, Kantonen und privaten Unternehmen. Die Metadaten sind öffentlich zugänglich. Die damit verbundenen Dokumente, wenn sie öffentlich sind, sind über den Kartenviewer des Geoportal des Bundes (map.geo.admin.ch) zugänglich. Für Auskünfte über die Dokumentation wenden Sie sich bitte direkt an den Rechteinhaber. Die Karte wird regelmässig überarbeitet und stellt keinen Anspruch auf Vollständigkeit. MD = Measured depth, TVD = True vertical depth, TD = Total depth",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-bohrungen_tiefer_500:wms",
+    "title": "Tiefe Bohrungen",
+    "type": "Dataset"
+  }
+}

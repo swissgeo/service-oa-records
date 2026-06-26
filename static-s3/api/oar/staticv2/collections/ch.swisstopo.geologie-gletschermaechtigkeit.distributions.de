@@ -1,0 +1,22 @@
+{
+  "id": "ch.swisstopo.geologie-gletschermaechtigkeit.distributions",
+  "title": "Distribution Collection for ch.swisstopo.geologie-gletschermaechtigkeit.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-gletschermaechtigkeit.distributions/items?language=de",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-gletschermaechtigkeit.distributions?language=de",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "de"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch.bafu.bundesinventare-bln",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-bln?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.bundesinventare-bln.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/bc3f1564-1e56-44e9-98b6-f0d8c5130410",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Article 5 of the Federal Act of 1 July 1966 on the Protection of Nature and Cultural Heritage (NCHA) orders the Federal Council to compile inventories of sites of national importance (federal inventories). The cantons must be heard when these inventories are enacted. The Federal Inventory of Landscapes and Natural Monuments of National Importance (ILNM) is the first federal inventory under the NCHA. The preliminary stage is the CLN Inventory (Inventory of Landscapes and Natural Monuments of National Importance), a reference whose first edition was released by private organizations in 1963 and has been periodically expanded and revised. The ILNM inventory has gradually taken legal effect. To date, the Federal Council has approved four inventory development series: the first series in 1977 with 65 sites; the second series in 1983 with 54 sites; the third series in 1996 with 33 sites and 11 revised sites; and the fourth series in 1998 with 9 sites and 15 revised sites. In the 2017 revision a surface exchange between the objects 1605 and 1606 was made.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-bln:wmts",
+    "title": "Federal Inventory of Landscapes and Natural Monuments",
+    "type": "Dataset"
+  }
+}

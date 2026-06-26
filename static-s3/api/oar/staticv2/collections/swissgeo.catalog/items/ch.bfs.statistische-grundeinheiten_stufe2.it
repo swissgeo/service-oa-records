@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfs.statistische-grundeinheiten_stufe2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.statistische-grundeinheiten_stufe2?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.statistische-grundeinheiten_stufe2.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/eb6eb99f-7723-4e08-879f-286c3c670270",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "BFS/OFS GEOSTAT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le unità territoriali statistiche di base di secondo livello (USPAT2) con circa 10 000 abitanti sono formate raggruppando USPAT1 o Comuni. Queste unità consentono di analizzare l'intero territorio svizzero sulla base di entità di dimensioni demografiche simili. Le loro dimensioni sono state definite in modo da poter produrre potenzialmente risultati di indagini con un campione sufficientemente ampio.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.statistische-grundeinheiten_stufe2:wmts",
+    "title": "Unità territoriali statistiche di base di secondo livello (USPAT2)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.fischerei-nasenlaichplaetze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.fischerei-nasenlaichplaetze?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-nasenlaichplaetze.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/d8730e9f-fdd3-41aa-91c2-cdde00176fdd",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les données comprennent les coordonnées des (environ 100) sites de frai de Suisse ainsi que le nombre moyen d’individus actifs sur chaque site (moyenne sur 10 ans). Elles proviennent du suivi du nase, réalisé conjointement par l’OFEV et les services de pêches cantonaux entre 1995 et 2004 à l’échelle du pays. Il s’agissait d’évaluer le potentiel reproductif d’une espèce de poisson fortement menacée et protégée dans toute l’Europe par la convention de Berne.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.fischerei-nasenlaichplaetze:wmts",
+    "title": "Sites de frai du nase (1995 – 2004)",
+    "type": "Dataset"
+  }
+}

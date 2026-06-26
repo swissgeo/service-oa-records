@@ -1,0 +1,41 @@
+{
+  "id": "ch.nagra.aeromagnetische-karte_1500:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.nagra.aeromagnetische-karte_1500.distributions/items/ch.nagra.aeromagnetische-karte_1500:wms?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.nagra.aeromagnetische-karte_1500.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.nagra.aeromagnetische-karte_1500?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.nagra.aeromagnetische-karte_1500",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.nagra.aeromagnetische-karte_1500"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bak.halteplaetze-jenische_sinti_roma",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bak.halteplaetze-jenische_sinti_roma?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bak.halteplaetze-jenische_sinti_roma.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/51193e6b-d3d6-4202-8d1c-8bdb49f59535",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de la culture",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "La collection de géodonnées \"Aires de stationnement, de passage et de transit pour les Yénisch, Manouches et Roms contient des informations sur les zones réservées au passage et au stationnement des populations Yénisch, Manouches et Roms, qui mènent principalement un mode de vie itinérante. La création et la gestion des zones sont principalement du ressort des cantons et des communes. L'autorité fédérale responsable est l'Office fédéral de la culture. Le jeu de données est publié par l'Office fédéral de la culture en collaboration avec la Fondation \"Un avenir pour les gens de voyage suisses\" et l'Office fédéral du développement territorial ARE.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.halteplaetze-jenische_sinti_roma:wmts",
+    "title": "Aires de stationnement, de passage et de transit pour les Yénisch, Manouches et Roms",
+    "type": "Dataset"
+  }
+}

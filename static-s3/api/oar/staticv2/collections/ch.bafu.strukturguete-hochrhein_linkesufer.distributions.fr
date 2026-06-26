@@ -1,0 +1,22 @@
+{
+  "id": "ch.bafu.strukturguete-hochrhein_linkesufer.distributions",
+  "title": "Distribution Collection for ch.bafu.strukturguete-hochrhein_linkesufer.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.strukturguete-hochrhein_linkesufer.distributions/items?language=fr",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.strukturguete-hochrhein_linkesufer.distributions?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

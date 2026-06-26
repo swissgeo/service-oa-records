@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2c1a7345-fdd3-48ac-88fb-92afec7866b3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La mappa mostra la percentuale di veicoli plug-in (veicoli elettrici a batteria e ibridi plug-in) per ogni comune selezionato che non avranno punti di ricarica a casa o al lavoro nel 2035. È indicata anche la percentuale di veicoli plug-in che non possono essere ricaricati a casa (espressa come cifra decimale). La disponibilità di punti di ricarica a domicilio e presso il posto di lavoro dipende da varie ipotesi sulla strategia di sviluppo dell'infrastruttura di ricarica, alcune delle quali sono locali. Per mostrare la gamma di possibili sviluppi, i tre scenari di ricarica «Comodo», «Pianificato» e «Flessibile» sono stati ideati partendo dalle ipotesi di base dello studio dell'UFE «Verständnis Ladeinfrastruktur 2050» per mostrare le direzioni in cui potrebbe svilupparsi l'infrastruttura di ricarica in Svizzera. Nello scenario di ricarica «Pianificato» molti non possono ricaricare a domicilio e ricaricano quindi soprattutto presso punti di ricarica rapida nel quartiere, a destinazione o durante il viaggio.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.ladebedarfswelt-heimladeverfuegbarkeit_geplant:wmts",
+    "title": "Disponibilità di ricarica a domicilio nello scenario di ricarica «Pianificato» per l'anno 2035",
+    "type": "Dataset"
+  }
+}

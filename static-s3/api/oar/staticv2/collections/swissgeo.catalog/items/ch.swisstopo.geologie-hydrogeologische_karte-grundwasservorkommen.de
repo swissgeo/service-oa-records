@@ -1,0 +1,114 @@
+{
+  "id": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f198f6f6-8efa-4235-a55f-99767ea0206c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "distributor"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Das Bundesamt für Umwelt BAFU ist die zuständige Fachstelle der Landesgeologie für Hydrogeologie. Die Hydrogeologische Karte 1:500'000 ist in die Serie Geokarten (GK500) integriert und gliedert sich in zwei Blätter. Das erste (GK500-Hydro) stellt die verschiedenen Grundwasservorkommen der Schweiz und deren Ergiebigkeit, das zweite (GK500-Hydro_Vul) die Empfindlichkeit der Grundwasservorkommen bezüglich möglicher Gefährdungen durch Schadstoffe dar. Das Blatt Grundwasservorkommen zeigt zudem die Art der Grundwasserzirkulation (Karst-, Kluft- und Lockergesteine), die wichtigsten Quell- und Grundwasserfassungen sowie hydrodynamische Angaben zu den Infiltrations- und Exfiltrationsgebieten. Die beiden Blätter wurden ursprünglich als Tafeln 8.6 und 8.7 des Hydrologischen Atlas der Schweiz HADES (BAFU, 2004 und 2007) herausgegeben.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen:wmts",
+    "title": "Hydrogeologische Karte der Schweiz: Grundwasservorkommen 1:500000",
+    "type": "Dataset"
+  }
+}

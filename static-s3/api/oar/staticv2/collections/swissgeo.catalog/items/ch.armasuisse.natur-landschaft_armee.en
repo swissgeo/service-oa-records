@@ -1,0 +1,108 @@
+{
+  "id": "ch.armasuisse.natur-landschaft_armee",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.armasuisse.natur-landschaft_armee?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.armasuisse.natur-landschaft_armee.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b7ed249a-0ee4-4430-acd4-de34097955ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "armasuisse Immobilien",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Rüstung - armasuisse / UNSN",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The DDPS is one of the most important landowners in Switzerland. A large part of the areas used for military purposes are within the perimeter of nature and landscape protection inventories. The military usage favours the preservation of natural values in many places, for example, in amphibian spawning sites. However, it can also have adverse effects, which should be minimised. The interests of national defence and nature conservation are of equal importance in the Federal Constitution.For 25 years, the DDPS has been protecting and promoting the diversity of species and their habitats on the army sites with the programme Nature, Landscape and the Armed Forces (NLA). As part of this programme, the natural values as well as the utilisation by the Armed Forces and by third parties have been recorded on the larger sites such as military training areas, shooting ranges and aerodromes, the conflicts identified and measures to mitigate them defined and implemented. The respective files are updated periodically or in the case of major changes. The NLA data represents the mapped valuable natural values and habitats on areas used for military purposes. Valuable refers, on the one hand, to all habitats which have a protection status. Either the habitat is protected by the NCHA or the area is in a national, cantonal or communal inventory. In addition to these protected habitats, other habitats/ areas worthy of protection are also recorded, such as species-rich areas or areas where the main purpose is to promote biodiversity.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.armasuisse.natur-landschaft_armee:wmts",
+    "title": "Nature Landscape Armed Forces (NLA), natural values/ habitats on land used for military purposes",
+    "type": "Dataset"
+  }
+}

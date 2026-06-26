@@ -1,0 +1,67 @@
+{
+  "id": "ch.bfe.ladebedarfswelt-fahrzeuge:api3features",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.ladebedarfswelt-fahrzeuge.distributions/items/ch.bfe.ladebedarfswelt-fahrzeuge:api3features?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.ladebedarfswelt-fahrzeuge.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.ladebedarfswelt-fahrzeuge?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfe.ladebedarfswelt-fahrzeuge",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [
+    {
+      "uriTemplate": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bfe.ladebedarfswelt-fahrzeuge/{featureId}/htmlPopup?lang={lang}",
+      "rel": "preview",
+      "title": "HTML popup for a feature of this distribution",
+      "type": "application/html",
+      "variables": {
+        "featureId": {
+          "type": "string",
+          "description": "Feature ID"
+        },
+        "lang": {
+          "type": "string",
+          "enum": [
+            "de",
+            "fr",
+            "it",
+            "en"
+          ],
+          "default": "de",
+          "description": "Language code"
+        }
+      }
+    }
+  ],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "Geoadmin Features",
+    "protocol": "geoadmin:features",
+    "externalIds": [
+      "ch.bfe.ladebedarfswelt-fahrzeuge"
+    ],
+    "queryable": true,
+    "renderable": true
+  }
+}

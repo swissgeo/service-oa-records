@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.feststoffe-geschiebemessnetz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.feststoffe-geschiebemessnetz?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.feststoffe-geschiebemessnetz.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/05ba053f-60ca-492b-a1f5-bd70f6de8761",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente / Divisione Idrologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Una banca dati per il rilevamento su scala nazionale del trasporto solido di fondo nelle acque svizzere. Dopo gli eventi devastanti dell'estate 1987, che hanno provocato ingenti danni in molte regioni della Svizzera, il Gruppo di lavoro per l'idrologia applicata (GHO) ha proposto d'istituire una banca dati relativa al trasporto solido di fondo. La banca dati SOLID è il frutto della collaborazione tra l'UFAM, i Cantoni e vari istituti di ricerca: questi ultimi forniscono i dati relativi ai volumi di materiale trasportato sul fondo, raccolto nelle piazze di deposito. Tali volumi sono periodicamente stimati per mezzo di strumenti di misurazione o in occasione dello svuotamento delle piazze di deposito. La banca dati SOLID raccoglie i dati di circa cento piazze di deposito.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.feststoffe-geschiebemessnetz:wmts",
+    "title": "Banca dati per il rilevamento del trasporto solido di fondo (Confederazione)",
+    "type": "Dataset"
+  }
+}

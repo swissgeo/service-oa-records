@@ -1,0 +1,109 @@
+{
+  "id": "ch.blw.hanglagen-abschwemmung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.hanglagen-abschwemmung?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.hanglagen-abschwemmung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c2ea0f75-f3c7-4d17-87b6-b717b7a57a72",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landwirtschaft",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Office fédéral de l'agriculture",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le jeu de données « Terrains en pente et ruissellement » sert à déterminer les surfaces sur lesquelles des mesures contre le ruissellement doivent être prises. Les prescriptions concernant les mesures contre le ruissellement se fondent sur les PER, conformément à l'annexe 1, ch. 6.1a.4, de l'OPD et aux instructions du service d'homologation des produits phytosanitaires de l'Office fédéral de la sécurité alimentaire et des affaires vétérinaires relatives aux mesures de réduction des risques lors de l'application de produits phytosanitaires. Ce jeu de données a été élaboré selon une méthode homogène à l'échelle nationale. La production se base sur le modèle numérique d'altitude MNT25 (maille de 25m) de swisstopo. Les classes de pente suivantes ont été distinguées : <=2 pour cent ; >2 pour cent.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.hanglagen-abschwemmung:wmts",
+    "title": "Terrains en pente et ruissellement",
+    "type": "Dataset"
+  }
+}

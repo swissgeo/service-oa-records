@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.neophyten-goetterbaum",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-goetterbaum?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-goetterbaum.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/3e6ea819-319c-4f72-bc3f-7e9a2bea6d24",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Info Flora GENÈVE",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le set « plantes exotiques envahissantes » contient les cartes de distribution potentielle pour 56 plantes exotiques envahissantes en Suisse et répertoriées dans la Liste Noire et la Watch-List, ou présentes dans les pays voisins et ayant le potentiel de coloniser la Suisse. Les cartes sont le résultat de modélisation de l'Université de Lausanne et prédisent leur potentiel de propagation de ces espèces en Suisse. Les modèles sont basés respectivement sur les données d'occurrence du GBIF (Global Biodiversity Information Facility) et associées aux données climatiques de Worldclim (résolution de 1km), et sur les données d'occurrence d'infoflora associées aux données climatiques du WSL (résolution de 100m). Les cartes à 100m utilisent également d'autres variables telles que l'utilisation du sol et de la géologie.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.neophyten-goetterbaum:wmts",
+    "title": "Plantes exotiques envahissantes - Carte de distribution potentiel Ailante",
+    "type": "Dataset"
+  }
+}

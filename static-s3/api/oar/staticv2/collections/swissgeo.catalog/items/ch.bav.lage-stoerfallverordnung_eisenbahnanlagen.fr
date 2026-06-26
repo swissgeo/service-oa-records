@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.lage-stoerfallverordnung_eisenbahnanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.lage-stoerfallverordnung_eisenbahnanlagen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.lage-stoerfallverordnung_eisenbahnanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/dc35a63d-58c9-42b6-911f-c9b086314a5c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral des transports OFT",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Section Environnement OFT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Situation et domaines attenants du réseau ferré concerné par l'ordonnance sur la protection contre les accidents majeurs. La construction de nouveaux bâtiments ou d'installations dans le domaine attenant (domaines de consultation) peut entraîner une augmentation considérable des risques. Les planifications d'utilisations prévues dans une partie du domaine attenant ou dans l'intégralité de celui-ci requièrent une procédure de coordination entre l'aménagement du territoire et le domaine des événements.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.lage-stoerfallverordnung_eisenbahnanlagen:wmts",
+    "title": "Situation et domaines attenants conformément à l'ordonnance sur la protection contre les accidents majeurs - domaine des installations ferroviaires",
+    "type": "Dataset"
+  }
+}

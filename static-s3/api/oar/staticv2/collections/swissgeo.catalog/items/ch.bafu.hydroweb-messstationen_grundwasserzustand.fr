@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_grundwasserzustand",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_grundwasserzustand?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydroweb-messstationen_grundwasserzustand.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/f87d692e-8d65-4188-94ba-61b4c61d621c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Section Bases hydrogéologiques",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La carte donne un aperçu actuel des niveaux d'eaux souterraines et des débits de sources suisses. Afin de placer la situation actuelle dans le contexte d'un développement pluriannuel, on utilise des centiles qui se fondent sur des valeurs journalières de la période de référence 1991 à 2020. Pour les séries de données plus courtes on utilise, comme référence, la période allant du début des mesures jusqu'en 2020. A) Niveau des eaux souterraines ou débit des sources bas : une valeur est nettement inférieure à la moyenne pluriannuelle lorsqu'elle se situe en deçà du 10e centile de la période de référence. B) Niveau des eaux souterraines ou débit des sources normaux : le niveau des eaux souterraines ou le débit des sources se trouve entre le 10e et le 90e centile de la période de référence. C) Niveau des eaux souterraines ou débit des sources élevé : une valeur est nettement supérieure à la moyenne pluriannuelle lorsqu'elle dépasse le 90e centile de la période de référence. La tendance indique si le niveau des eaux souterraines ou le débit des sources enregistré à une station de mesure était en hausse ou en baisse au cours des sept jours précédents ou si aucune tendance n'est observable. La tendance au jour de mesure j est déterminée en soustrayant des valeurs moyennes mesurées des jours j-8 et j-7 les valeurs moyennes mesurées des jours j-2 et j-1. Source : Observation nationale des eaux souterraines NAQUA.</p><p> <a href=\"https://www.bafu.admin.ch/bafu/fr/home/themes/eaux/eaux-souterraines/observation-nationale-des-eaux-souterraines-naqua/module-quant.html\" target=\"_blank\">NAQUA, module QUANT : Quantité des eaux souterraines (niveaux des eaux souterraines et débits des sources) – Informations supplémentaires sur le réseau d'observation de l'OFEV</a>",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydroweb-messstationen_grundwasserzustand:geojson",
+    "title": "Situation générale des niveaux d'eau souterraine et des débits de source",
+    "type": "Dataset"
+  }
+}

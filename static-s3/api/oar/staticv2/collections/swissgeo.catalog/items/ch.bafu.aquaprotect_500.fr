@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.aquaprotect_500",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.aquaprotect_500?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.aquaprotect_500.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/7609e210-80c7-4acc-b7b4-b569f0e5679e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division Prévention des dangers, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "custodian"
+      }
+    ],
+    "description": "Les zones inondables Aquaprotect représentent une vue d’ensemble sommaire, à échelle nationale, des zones potentiellement inondables lors de rares voire de très rares débits de crue. Cette vue d’ensemble est réalisée à partir de méthodes simples. Elle donne une vision globale des dangers et risques. À cause de cela elle ne remplace pas les cartes des dangers (http://www.bafu.admin.ch/cartes-dangers). Elle ne prend pas en compte les mesures de protection existantes contre les crues, elle permet seulement une estimation grossière d’un risque éventuel de crue lors de l'absence de cartes des dangers. Les zones inondables mises en évidence dans Aquaprotect existent pour les débits de crue avec des périodes de retour de 50, 100, 250 et 500 ans. Le débit de crue avec une période de retour de 100 ans, considéré comme une longue période, peut se produire en moyenne une fois tous les 100 ans. Même si une zone définie n’est pas signalée comme inondable par les cartes Aquaprotect, le risque de crue ne peut pas être tenu pour inexistant. Du fait de leur représentation simplifiée, les surfaces indiquées donnent un aperçu approximatif. Si l'échelle choisie est inférieure à 1:50 000, alors les zones inondables sont représentées par des hachures. En effet, des représentations trop précises conduiraient à des déductions erronées.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.aquaprotect_500:wmts",
+    "title": "Zones inondables Aquaprotect: période de retour de 500 ans",
+    "type": "Dataset"
+  }
+}

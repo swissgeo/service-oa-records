@@ -1,9 +1,0 @@
-{
-  "id": "ch.swisstopo-vd.geometa-grundbuch_wmstile",
-  "itemType": "record",
-  "links": [],
-  "records": [],
-  "recordsArrayName": "records",
-  "title": "Distributions for ch.swisstopo-vd.geometa-grundbuch_wmstile",
-  "type": "Collection"
-}

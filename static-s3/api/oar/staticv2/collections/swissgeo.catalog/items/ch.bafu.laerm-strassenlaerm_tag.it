@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.laerm-strassenlaerm_tag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.laerm-strassenlaerm_tag?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.laerm-strassenlaerm_tag.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/87f3f029-4685-4d51-9de2-2a409b32aff5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il piano mostra l'esposizione della popolazione al rumore del traffico stradale diurno. I dati si basano su calcoli eseguiti con il modello sonBASE per l'intera superficie nazionale. La rete stradale svizzera considerata in questo calcolo comprende circa 45 000 km. I dati sul traffico stradale sono stati determinati sulla base dell'MTVN. A tale scopo sono stati elaborati circa 4000 censimenti del traffico stradale del 2021 svolti da USTRA e UST, così come da Cantoni e Città. Dati relativi all'inquinamento e al risanamento fonico legalmente vincolanti sono forniti dalle autorità esecutive competenti: l'Ufficio federale delle strade (USTRA) per le strade nazionali, le autorità esecutive cantonali per le strade principali e le altre strade.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.laerm-strassenlaerm_tag:wmts",
+    "title": "Esposizione al rumore del traffico stradale (Lr_giorno)",
+    "type": "Dataset"
+  }
+}

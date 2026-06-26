@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wald-kontinentalitaet_jahr_1000m_1981_2010",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-kontinentalitaet_jahr_1000m_1981_2010?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-kontinentalitaet_jahr_1000m_1981_2010.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d4c9adad-69d9-4dd4-82f9-5865b3416f47",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die thermische Kontinentalität in °C wurde als Differenz zwischen dem Höchst- und Tiefstwert des Tagesganges der Temperatur des Jahres im untersuchten Zeitraum (1981-2010) berechnet. Die Karte zeigt die thermische Kontinentalität im Jahr auf 1000 m ü. M. Die resultierende Karte hat eine räumliche Auflösung von 25 m x 25 m. Sie wurde für die Modellierung von Vegetationshöhenstufen verwendet.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-kontinentalitaet_jahr_1000m_1981_2010:wmts",
+    "title": "Thermische Kontinentalität auf 1000 m ü. M. im Jahr, Periode 1981-2010",
+    "type": "Dataset"
+  }
+}

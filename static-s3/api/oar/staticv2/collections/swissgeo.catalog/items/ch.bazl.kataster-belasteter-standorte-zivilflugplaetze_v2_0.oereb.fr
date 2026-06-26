@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.kataster-belasteter-standorte-zivilflugplaetze_v2_0.oereb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.kataster-belasteter-standorte-zivilflugplaetze_v2_0.oereb?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.kataster-belasteter-standorte-zivilflugplaetze_v2_0.oereb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/72a1ca16-02d2-4793-9422-0c066036239b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'aviation civile",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Cadastre public des sites pollués dans le périmètre des aérodromes civils. Le cadastre renseigne dans la mesure du possible sur l'emplacement, le type et la quantité de déchets présents sur le site, sur la période de stockage des déchets et sur les investigations et les mesures de protection de l'environnement déjà réalisées. On distingue entre les types de sites suivants: aires d'exploitation, lieux d'accident et sites de stockage.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Cadastre des sites pollués – domaine des aérodromes civils (CSP OFAC) V2.0 RDPPF",
+    "type": "Dataset"
+  }
+}

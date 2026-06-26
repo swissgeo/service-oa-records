@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.erneuerbarheizen-mehrfamilienhaeuser",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.erneuerbarheizen-mehrfamilienhaeuser.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c91a9264-9349-4555-904f-b7c500e31e74",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Energie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Gebäude- und Wohnungsbesitzerinnen und -besitzer mit einer Öl-, Gas- oder Elektroheizung erfahren mit der Impulsberatung «erneuerbar heizen», mit welchen erneuerbaren Wärmequellen ihr Gebäude sinnvoll und CO2-arm beheizt werden kann. Bei der Impulsberatung erneuerbar heizen kommt ein Berater oder eine Beraterin zum Kunden (Hauseigentümer/Verwalter/ Stockwerkeigentümerschaften) nach Hause. Im Beratungsgespräch wird der Energiebedarf des Gebäudes, die standortspezifischen Faktoren und die Wünsche der Eigentümer diskutiert. Der Berater prüft diese Faktoren und überliefert dem Hauseigentümer / der Hauseigentümerin oder Stockwerkeigentümerschaft eine Checkliste mit der Ausgangslage und den Empfehlungen zum Heizsystemwechsel. Die Checkliste ist eine gute Basis, um allenfalls einen Variantenvergleich in Auftrag zu geben, sich die richtigen Offerten einzuholen und ein erfolgreiches Bauprojekt zu starten. Dieser Datenbestand enthält alle im Rahmen des Programms «erneuerbar heizen» geschulten Impulsberater und Impulsberaterinnen, welche die Qualitätskriterien erfüllen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.erneuerbarheizen-mehrfamilienhaeuser:wms",
+    "title": "Impulsberatung erneuerbar heizen: MFH mit mehr als 6 Wohneinheiten",
+    "type": "Dataset"
+  }
+}

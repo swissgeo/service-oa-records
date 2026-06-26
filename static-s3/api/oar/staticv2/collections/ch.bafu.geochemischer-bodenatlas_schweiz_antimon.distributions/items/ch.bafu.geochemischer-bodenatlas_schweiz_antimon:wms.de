@@ -1,0 +1,41 @@
+{
+  "id": "ch.bafu.geochemischer-bodenatlas_schweiz_antimon:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.geochemischer-bodenatlas_schweiz_antimon.distributions/items/ch.bafu.geochemischer-bodenatlas_schweiz_antimon:wms?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.geochemischer-bodenatlas_schweiz_antimon.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.geochemischer-bodenatlas_schweiz_antimon?language=de",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.geochemischer-bodenatlas_schweiz_antimon",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bafu.geochemischer-bodenatlas_schweiz_antimon"
+    ]
+  }
+}

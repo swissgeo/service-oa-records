@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.hiks-siegfried",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.hiks-siegfried?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.hiks-siegfried.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d3b21424-70a4-4984-a693-aa7f11813c53",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "L'Atlante topografico della Svizzera fu pubblicato tra il 1870 e il 1926, inizialmente sotto la direzione del colonnello Hermann Siegfried. Si tratta della prima carta generale dettagliata della Svizzera, alla scala 1:25'000 per l'Altipiano centrale, il Giura e il sud del Ticino, e alla scala 1:50'000 per le Alpi. In totale, tenendo conto degli aggiornamenti periodici effettuati fino al 1949, furono pubblicati oltre 4000 fogli aggiornati. Per la realizzazione iniziale vennero applicate due tecniche diverse: l'incisione su rame per i 462 fogli alla scala 1:25'000 e la litografia per i 142 fogli alla scala 1:50'000. Con lo strumento di rappresentazione storica dei dati – denominato «viaggio nel tempo» – tutte le edizioni della Carta sono consultabili in modo interattivo, anche tramite il livello “Divisione carta Siegfried 25/50 Raster”.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.hiks-siegfried:wmts",
+    "title": "Atlante topografico della Svizzera (Carta Siegfried)",
+    "type": "Dataset"
+  }
+}

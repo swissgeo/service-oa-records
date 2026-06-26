@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydrologie-q347",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydrologie-q347?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydrologie-q347.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/83e6752a-e668-4ade-9ad5-fd9d555d35da",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Hydrologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Wer einem Fliessgewässer mit ständiger (ganzjähriger) Wasserführung Wasser entnimmt - sei dies zur Elektrizitätsproduktion, zur Bewässerung oder zur Kühlung -, braucht eine Bewilligung. Diese Bewilligung wird nur erteilt, wenn eine angemessene Restwassermenge im Fluss- oder Bachbett bleibt. Angewendet werden diese Restwasservorschriften gemäss Gewässerschutzgesetz nur bei neuen Wasserentnahmen sowie bei bestehenden Entnahmen, wenn die Konzession abläuft und deshalb erneuert werden muss. Die Abflussmenge Q347 ist eine der Grundlagen für die Festsetzung von Mindestrestwassermengen. Zur Bestimmung des Q347 braucht es Messungen oder geeignete Abschätzverfahren. Die Karte „Grundlagen zur Bestimmung der Abflussmenge Q347\" fasst Mess- und Modellwerte zusammen. Bei letzteren handelt es sich um grobe Schätzwerte, die mit weitergehenden Methoden verbessert werden können. Ein so gewonnener Schätzwert muss dennoch im Allgemeinen mit einer Kurzzeitmessung überprüft werden.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-q347:wmts",
+    "title": "Grundlagen zur Bestimmung der Abflussmenge Q347",
+    "type": "Dataset"
+  }
+}
