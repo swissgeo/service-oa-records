@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydrologie-untersuchungsgebiete_stationen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydrologie-untersuchungsgebiete_stationen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydrologie-untersuchungsgebiete_stationen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/9ce0ce29-35b2-4fdd-bfc8-247e189dca8f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Hydrologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Seit 1957 betreibt die Abteilung Hydrologie ein Netz von hydrologischen Untersuchungsgebieten, mit dem Ziel, die langfristigen Veränderungen des Wasserhaushaltes in möglichst naturnahen Einzugsgebieten der unterschiedlichen Klimaregionen der Schweiz zu beobachten. Sie stellt daher für rund 40 Einzugsgebiete die natürlichen Abflusshöhen bereit und berechnet für viele dieser Gebiete die monatlichen bzw. jährlichen Gebietsniederschläge sowie die jährliche Gebietsverdunstung. Ausserdem stehen Einzugsgebietskenngrössen zur Morphometrie, Geologie/Hydrogeologie, Pedologie und Landnutzung zur Verfügung.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-untersuchungsgebiete_stationen:wmts",
+    "title": "Messstationen der hydrologischen Untersuchungsgebiete",
+    "type": "Dataset"
+  }
+}

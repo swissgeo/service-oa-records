@@ -1,0 +1,108 @@
+{
+  "id": "ch.swisstopo.geologie-rohstoffe-ziegel_abbau",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-rohstoffe-ziegel_abbau?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-rohstoffe-ziegel_abbau.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3d0120f4-34b2-40cf-b61c-127bd9a27522",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Georesources Switzerland Group",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "This dataset shows the brickwork production and mining sites in operation and decommissioned of the brickworks in Switzerland. Clay, marl and also sandstone are the most important raw materials for the brick, roof tile and ceramics industries. An overview of the occurrences of these raw materials is shown at a scale of 1:500'000. For detailed geological information at a scale of 1:25'000, please refer to the GeoCover dataset. In case it is desired to develop a mining site, it is essential to conduct a detailed geological investigation on the location of interest. The perimeters of the active mining sites are to be considered as indications. They are based on the Topographic Landscape Model (TLM) and SWISSIMAGE aerial photographs. For detailed information on mining activities, please contact the relevant cantonal authorities. This map is periodically updated and does not claim to be exhaustive.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-rohstoffe-ziegel_abbau:wmts",
+    "title": "Raw materials, production and mining sites of the brickworks industry",
+    "type": "Dataset"
+  }
+}

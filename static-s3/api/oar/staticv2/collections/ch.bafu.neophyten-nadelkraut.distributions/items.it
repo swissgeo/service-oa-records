@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.neophyten-nadelkraut:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions/items/ch.bafu.neophyten-nadelkraut:wmts?language=it",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions?language=it",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-nadelkraut?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-nadelkraut",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.neophyten-nadelkraut"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.neophyten-nadelkraut:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions/items/ch.bafu.neophyten-nadelkraut:wms?language=it",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions?language=it",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-nadelkraut?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-nadelkraut",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.neophyten-nadelkraut"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions/items?language=it",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-nadelkraut.distributions?language=it",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "it"
+    }
+  ]
+}

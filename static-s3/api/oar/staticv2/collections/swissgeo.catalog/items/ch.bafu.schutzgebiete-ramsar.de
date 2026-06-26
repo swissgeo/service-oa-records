@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.schutzgebiete-ramsar",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-ramsar?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-ramsar.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d960a5c8-44e4-4d10-a9f6-95f58568563c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Zum Schutz der Feuchtgebiete, insbesondere als Lebensraum für Wasser- und Watvögel, wurde 1971 in der iranischen Stadt Ramsar eine Konvention von internationaler Bedeutung unterzeichnet. Die Schweiz ratifizierte das meist als Ramsar-Konvention bezeichnete Übereinkommen 1976 und verpflichtet sich damit, die nachhaltige Nutzung von Feuchtgebieten sicherzustellen und diesen Gebieten speziellen Schutz zu gewähren. Bislang sind in 4 Etappen 11 Gebiete bei der Ramsar-Konvention angemeldet worden, wobei 3 Gebiete in der Zwischenzeit an neue Schutzperimeter angepasst wurden. Ausgewählt wurden sie vor allem aufgrund ihrer Bedeutung als Lebensraum für Wasservögel. Die Gebiete umfassen Uferabschnitte von Seen, Flussdeltas, gestaute Flussabschnitte, ein Riedgebiet und im alpinen Bereich Gletschervorfelder und ein Moorgebiet. Sie dienen als offizielle Unterlagen für die Anmeldung bei der IUCN und Dokumentation der einzelnen Feuchtgebiete in der Ramsar-Datenbank.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-ramsar:wmts",
+    "title": "Übereinkommen über Feuchtgebiete, insbesondere als Lebensraum für Wasser- und Watvögel, von internationaler Bedeutung (Ramsar-Konvention)",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ch.bazl.gebirgslandeplaetze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.gebirgslandeplaetze?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.gebirgslandeplaetze.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/d31ecd5b-e00c-430b-ab2e-d9148a199b9c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Mountain landing sites are landing fields that are located outside an aerodrome at over 1100 m altitude and that have no infrastructure. They are used for instruction and training purposes, and to transport tourists. The authoritative list of mountain landing sites approved by the FOCA with specific additional information is published in the Swiss aeronautical publication in the VFR Manual under AGA 3-3-1. Use of mountain landing sites by fixed-wing aircraft: only if the site is suitable. Use of mountain landing sites by helicopters: outlanding may take place within a reasonable distance, i.e. within a radius of up to 400 m from the point determined by the coordinates within the limits of the topographical description (Swiss Federal Council decision of 7 May 1980). Please note: This is not an official aeronautical data publication. The information provided does not necessarily reflect the latest operational data.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.gebirgslandeplaetze:wmts",
+    "title": "Mountain landing sites: specially designated landing sites situated above 1100 m altitude",
+    "type": "Dataset"
+  }
+}

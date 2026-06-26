@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.schutzgebiete-aulav_liechtenstein",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.schutzgebiete-aulav_liechtenstein?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.schutzgebiete-aulav_liechtenstein.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/25c6e9dd-b658-41fa-8f8d-3fc2775e3a6f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Abt. Vermessung und Geoinformation (ATG)",
+        "country": "LI",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Territori degni di particolare tutela ai sensi della legge sulla protezione della natura del Principato del Liechtenstein (Naturschutzgesetz; NSchG) e altre zone protette nelle quali sono vietati gli atterraggi esterni, le esercitazioni per gli atterraggi di emergenza e i voli stazionari a scopo d'istruzione. La banca dati contiene un elenco delle zone protette di cui all'articolo 1, 4 e 8 dell'ordinanza del 18 ottobre 2016 sui decolli e gli atterraggi di aeromobili fuori degli aerodromi del Principato del Liechtenstein (Aussenlandeverordnung; AuLaV) a) zone di protezione del paesaggio (art. 18 NSchG); b) zone di protezione della natura (art. 19 NSchG); c) zone di protezione delle piante (art. 21 NSchG); d) prati magri (art. 22 NSchG); e) zone di silenzio (art. 23 NSchG). La banca dati enumera anche le zone particolarmente sensibili stabilite dal Governo al capoverso 2 del suddetto articolo. Tra esse rientrano le zone in cui sono siti oggetti degni di protezione, gli habitat particolarmente degni di protezione o gli oggetti elencati in inventari ai sensi della Naturschutzgesetz, nonché gli importanti corridoi faunistici.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.schutzgebiete-aulav_liechtenstein:wmts",
+    "title": "Zone protette della pubblicazione civile degli ostacoli alla navigazione aerea – Zone protette Liechtenstein",
+    "type": "Dataset"
+  }
+}

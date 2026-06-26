@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.pixelkarte-farbe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.pixelkarte-farbe?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.pixelkarte-farbe.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f9c31be1-887c-4203-8b11-57b40ecc039b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "swisstopo produce delle carte nazionali a diverse scale tra 1:10'000 fino a 1:1 milione. Il layer carte nazionali (a colori) combina le diverse scale e mostra, al momento della visualizzazione, la carta più adatta in funzione del livello di zoom. Il layer carte nazionali (a colori) è utilizzato come carta di fondo per il geoportale federale. La carta nazionale è inoltre disponibile come geoservizio WMS e WMTS. Una volta all'anno viene resa disponibile per il download una copia della matrice delle tessere WMTS in formato JPEG e nel sistema di coordinate Web Mercator (EPSG:3857) fino al zoom level/tile matrix 18 (risoluzione di 0,5 m).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.pixelkarte-farbe:wmts",
+    "title": "Carte nazionali della Svizzera (a colori)",
+    "type": "Dataset"
+  }
+}

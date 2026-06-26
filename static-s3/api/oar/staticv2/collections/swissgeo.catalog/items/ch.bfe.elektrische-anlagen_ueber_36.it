@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.elektrische-anlagen_ueber_36",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.elektrische-anlagen_ueber_36?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.elektrische-anlagen_ueber_36.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d4aba7f1-426a-4427-9b62-97c6513a51d8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Esercente e l'Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La rete elettrica è il risultato del collegamento tra produttori e consumatori di energia elettrica. La rete permette di trasportare, trasformare (da una tensione più alta a una tensione più bassa e viceversa) e distribuire l'energia elettrica. In quanto anello di congiunzione tra produzione e consumo, la rete elettrica è di fondamentale importanza per la sicurezza dell'approvvigionamento elettrico. Sono impianti elettrici tutti i componenti di una rete elettrica necessari ai fini del trasporto di energia elettrica, come ad esempio linee, sottostazioni e stazioni di trasformazione. Il set di geodati di base «Impianti elettrici con una tensione nominale superiore a 36 kV» contiene un quadro geografico generale degli impianti elettrici delle reti ad altissima e ad alta tensione della Svizzera. Alcuni exercente non hanno ancora fornito i dati, quindi la panoramica non è ancora completa.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.elektrische-anlagen_ueber_36:wms",
+    "title": "Impianti elettrici con una tensione nominale superiore a 36 kV",
+    "type": "Dataset"
+  }
+}

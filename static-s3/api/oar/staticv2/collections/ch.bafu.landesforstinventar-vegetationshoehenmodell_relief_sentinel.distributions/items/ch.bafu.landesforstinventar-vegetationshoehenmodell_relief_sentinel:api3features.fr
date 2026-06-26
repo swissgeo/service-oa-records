@@ -1,0 +1,42 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel:api3features",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel.distributions/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel:api3features?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel?language=fr",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "Geoadmin Features",
+    "protocol": "geoadmin:features",
+    "externalIds": [
+      "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel"
+    ],
+    "queryable": true
+  }
+}

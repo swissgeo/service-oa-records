@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.geologie-gletscherausdehnung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gletscherausdehnung?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-gletscherausdehnung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f6fb6139-f13e-4a56-bf01-01b7dd4358d5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Rete di monitoraggio dei ghiacciai svizzeri",
+        "country": "CH",
+        "role": "originator"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La rete di monitoraggio dei ghiacciai svizzeri (GLAMOS) ha come obbiettivo di documentare a lungo termine i cambiamenti dei ghiacciai in Svizzera. A questo scopo vengono raccolti sistematicamente i dati sullo sviluppo dell'area, del volume, ma anche dell'accumulo di neve e dello scioglimento del ghiaccio, così come i movimento di flusso e la temperatura dei ghiacciai. Queste informazioni sono importanti per capire l'interazione tra ghiacciai e clima. Gli inventari dei ghiacciai includono i contorni, le aree e altri parametri per tutti i ghiacciai di una determinata zona in durante un momento specifico. Per le Alpi svizzere, questi inventari completi sono disponibili per gli anni 1850 (ricostruiti a posteriori), 1973, 2010 e 2016 (derivati da immagini aeree).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gletscherausdehnung:wmts",
+    "title": "Estensione dei ghiacciai",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ch.swisstopo.lubis-luftbilder-dritte-kantone:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.lubis-luftbilder-dritte-kantone.distributions/items/ch.swisstopo.lubis-luftbilder-dritte-kantone:wms?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.lubis-luftbilder-dritte-kantone.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.lubis-luftbilder-dritte-kantone?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.swisstopo.lubis-luftbilder-dritte-kantone",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.swisstopo.lubis-luftbilder-dritte-kantone"
+    ]
+  }
+}

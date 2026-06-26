@@ -1,0 +1,109 @@
+{
+  "id": "ch.astra.mountainbikeland-sperrungen_umleitungen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.mountainbikeland-sperrungen_umleitungen?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.mountainbikeland-sperrungen_umleitungen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/fa5f0dfb-162f-4b83-828c-7b880ad5e972",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale delle strade",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Fondazione SvizzeraMobile",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il set di dati contiene le chiusure e le deviazioni sulla rete dei percorsi di \"La Svizzera in mountain bike\" della Svizzera e del Principato del Liechtenstein, che sono state segnalate a SvizzeraMobile. Il set completa i geodati \"La Svizzera in mountain bike\" (Traffico lento – La Svizzera in mountain bike), ed è pubblicato dall'Ufficio federale delle strade (USTRA), dall'Ufficio federale di topografia (swisstopo), da SvizzeraMobile e dai cantoni. Link verso il disclaimer: https://schweizmobil.ch/it/chiusure-deviazioni",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.mountainbikeland-sperrungen_umleitungen:wms",
+    "title": "Chiusure / Deviazioni \"La Svizzera in mountain bike\"",
+    "type": "Dataset"
+  }
+}

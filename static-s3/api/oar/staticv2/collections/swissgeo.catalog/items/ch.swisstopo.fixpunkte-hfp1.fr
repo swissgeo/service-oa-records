@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.fixpunkte-hfp1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-hfp1?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.fixpunkte-hfp1.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/1ca6ef94-7204-424c-b2a6-d73158305df6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de topographie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Office fédéral de topographie, mensuration",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les points de mensuration constituent la base de toutes les données à référence spatiale. L’utilisation des points dits fixes est recommandée pour tous les travaux techniques nécessitant des mesures fiables et précises d’ouvrages. Par point fixe altimétrique, on entend un point matérialisé de façon durable à l'aide d'une cheville dont l'altitude est connue. La mensuration nationale (swisstopo) est responsable des points fixes altimétriques de première catégorie (PFA1). Ces derniers composent le cadre de référence altimétrique de tous les travaux de mensuration effectués en Suisse. L'altitude usuelle NF02 des PFA1 a été déterminée par nivellement de précision fédéral.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-hfp1:wms",
+    "title": "Points fixes altimétriques (PFA1) (mensuration nationale)",
+    "type": "Dataset"
+  }
+}

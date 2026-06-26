@@ -1,0 +1,104 @@
+{
+  "id": "ch.meteoschweiz.messnetz-atmosphaere",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.messnetz-atmosphaere?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messnetz-atmosphaere.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/8a1f0d78-5415-4b25-ac08-f4c8d632af39",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Meteorologie und Klimatologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "MeteoSchweiz überwacht die Atmosphäre und misst deren Eigenschaften und Zusammensetzung. Dazu werden verschiedene Instrumente und Methoden eingesetzt, unter anderem Radiosondierungen, Fernerkundungsgeräte, Flugzeugmessungen und Satelliten. Von diversen Parametern (Temperatur, Feuchte, Wind, Aerosole, Ozon) werden auf diese Weise Totalgehalte und Profile gemessen, also auch die vertikale Dimension dargestellt. Die Anforderungen an die Erhebung von meteorologischen Messdaten lassen sich aus dem Bundesgesetz über die Meteorologie und Klimatologie (MetG) ableiten. Unter Berücksichtigung der Anforderungen anderer Bundesämter erstellt MeteoSchweiz Messkonzepte. Darin wird festgelegt, welche Grösse zu welchem Zweck an welchem Ort mit welchem System gemessen wird.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.meteoschweiz.messnetz-atmosphaere:geojson",
+    "title": "Atmosphärenstationen",
+    "type": "Dataset"
+  }
+}

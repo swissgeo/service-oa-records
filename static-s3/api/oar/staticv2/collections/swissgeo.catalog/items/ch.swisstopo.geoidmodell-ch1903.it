@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.geoidmodell-ch1903",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geoidmodell-ch1903?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geoidmodell-ch1903.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/2b20aece-5cb1-41f1-a618-7c6e1ff6a81b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo, misurazione",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il modello del geoide della Svizzera nella versione 2004 (CHGeo2004) nel sistema di riferimento CH1903. Il modello rappresenta la superficie zero di riferimento per la determinazione delle altitudini (vicino al livello medio del mare) e serve alla trasformazione tra le altitudini ellissoidali e le altitudini ortometriche (RAN 95). Le altitudini del geoide sono registrate su una griglia regolare con una risoluzione di 1 x 1 km e interpolate tramite il metodo biquadratico. Il modello è disponibile in diversi sistemi di riferimento e in differenti formati.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geoidmodell-ch1903:wmts",
+    "title": "Modello del geoide CHGeo2004 in CH1903",
+    "type": "Dataset"
+  }
+}

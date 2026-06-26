@@ -1,0 +1,103 @@
+{
+  "id": "ch.astra.konsultationsbereiche-nationalstrassen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.konsultationsbereiche-nationalstrassen?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.konsultationsbereiche-nationalstrassen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/92fa644c-ca5c-4edf-a3d1-114d27720475",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Roads Office",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The Major Accidents Ordinance (MAO, SR 814.012) aims to protect the population and the environment from severe damage caused by major accidents. It stipulates that the owners of a transport route, an enterprise, or a pipeline facility must independently implement safety measures and governs the control and assessment procedures carried out by the authorities. The MAO applies to transit roads as defined in the Ordinance on Transit Roads, on which dangerous goods are transported or handled in accordance with the Ordinance of 17 April 1985 on the Transport of Dangerous Goods by Road (SDR) or the corresponding international agreements (ADR). According to Article 1 of the Ordinance on Transit Roads, transit roads are open to general through traffic. These include motorways, expressways, and main roads.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.konsultationsbereiche-nationalstrassen:wmts",
+    "title": "Location and surrounding areas in accordance with the Major Accidents Ordinance in the area of the motorway",
+    "type": "Dataset"
+  }
+}

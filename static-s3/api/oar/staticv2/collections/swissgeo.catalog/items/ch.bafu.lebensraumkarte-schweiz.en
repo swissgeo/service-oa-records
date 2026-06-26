@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.lebensraumkarte-schweiz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.lebensraumkarte-schweiz?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.lebensraumkarte-schweiz.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/88a5a85f-8dee-4539-915e-1887635efec9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The dataset maps Swiss habitats according to the TypoCH classification ('Lebensräume der Schweiz', Delarze et al. 2015) area-wide, to at least the second level of detail of the classification (habitat group); if possible, up to the third level of detail (habitat type). The dataset relies on the existing Switzerland-wide land cover mapping from the Swisstopo Topographic Landscape Model (TLM) to record the coarse habitat classes at level 1 of the TypoCH classification and for habitat classes at the second level that can be well identified with this information (for example, class 1. water bodies, 3. glaciers, rock, debris and scree, 9. buildings). Habitat types were then mapped at a finer level of detail (TypoCH 3rd level where possible) using a combination of different methods, in particular distribution models based on machine learning and complex rule sets both of which rely heavily on Earth observation data. In total, 84 habitat types or groups are mapped.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.lebensraumkarte-schweiz:wmts",
+    "title": "Habitat Map of Switzerland",
+    "type": "Dataset"
+  }
+}

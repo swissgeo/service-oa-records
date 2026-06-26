@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.swisstne-base",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.swisstne-base?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.swisstne-base.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/73a9f69a-5f43-42ae-8abf-fb08ffeb68df",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de topographie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Office fédéral de topographie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "swissTNE Base est la base de référence spatiale du Réseau des transports CH, la future infrastructure nationale de géodonnées pour les transports et la mobilité. Ce réseau de base représente les quatre catégories de voies de transport – rail, route, câble et eau – de manière multimodale sans information métier. Il sert de dénominateur commun pour le référencement et la mise en relation de données spatiales sur les transports et la mobilité, que celles-ci soient disponibles sous forme géométrique, détaillée ou agrégée. Pour l'instant, le jeu de données se base exclusivement sur le modèle topographique du paysage TLM, il sera développé et complété dans le cadre de la réalisation du Réseau des transports CH. En outre, le produit swissTNE BaseTLM fournit des informations métiers essentielles sur ces géométries, dérivées de swissTLM3D.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swisstne-base:wmts",
+    "title": "Réseau des transports CH - swissTNE Base",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.geoidmodell-etrs89",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geoidmodell-etrs89?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geoidmodell-etrs89.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/8454f7d9-e3f2-4cc7-be6d-a82196660ccd",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo, Vermessung",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Geoidmodell der Schweiz in der Version von 2004 (CHGeo2004) im Bezugssystem ETRS89. Es bildet die Null-Referenzfläche für die Höhenbestimmung (genäherter mittlerer Meeresspiegel) und dient der Umrechnung zwischen ellipsoidischen Höhen und orthometrischen Höhen LHN95. Die Geoidhöhen sind in einem regelmässigen Gitter von 30 x 30 Sekunden abgespeichert und werden mittels der biquadratischen Methode interpoliert. Das Modell liegt in verschiedenen Referenzsystemen und Datenformaten vor.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geoidmodell-etrs89:wmts",
+    "title": "Geoidmodell CHGeo2004 in ETRS89",
+    "type": "Dataset"
+  }
+}

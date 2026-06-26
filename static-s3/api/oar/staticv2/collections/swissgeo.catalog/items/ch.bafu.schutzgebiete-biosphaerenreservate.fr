@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.schutzgebiete-biosphaerenreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-biosphaerenreservate?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-biosphaerenreservate.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/c212a19c-6e06-4ca4-bdee-3ec62ccd7b1e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les réserves de biosphère font partie du programme « L'homme et la biosphère » (MAB) lancé par l'UNESCO en 1970. Il s'agit de zones protégées représentatives et connectées au plan international pour la conservation de la biodiversité de la planète. Elles devraient servir d'exemples d'exploitation durable, c'est-à-dire intégrer équitablement les aspects écologiques et économiques. Par ailleurs, les réserves de biosphère sont des lieux de recherche et de perfectionnement. Typiquement, elles comprennent actuellement trois zones: la zone centrale, la zone tampon et la zone de développement. La décision d'inscrire un site est prise, sur demande de l'État, par le Conseil international de coordination du programme MAB de l'UNESCO, sur la base de critères établis et précisés dans un catalogue de critères pour la Suisse. Les critères incluent notamment la représentativité, la taille, l'unité naturelle et politique, ainsi que l'adhésion de la population.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-biosphaerenreservate:wmts",
+    "title": "Réserves de biosphère",
+    "type": "Dataset"
+  }
+}

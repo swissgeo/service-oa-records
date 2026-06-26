@@ -1,0 +1,109 @@
+{
+  "id": "ch.bfe.energieforschung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.energieforschung?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.energieforschung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/5bbd5006-448d-48ce-86ec-d7d285257534",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Con il Programma pilota e di dimostrazione (Programma P+D), l'UFE promuove lo sviluppo e la sperimentazione di nuove tecnologie, soluzioni e approcci nei settori dell'uso parsimonioso ed efficiente dell'energia, del suo trasporto e stoccaggio nonché dello sfruttamento delle fonti rinnovabili. Il programma P+D si posiziona all'interfaccia tra la ricerca e il mercato e mira ad aumentare il livello di maturità delle nuove tecnologie per portarle infine alla maturità di mercato.Questa banca dati contiene gli attuali progetti pilota e dimostrativi sostenuti dall'Ufficio federale dell'energia.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energieforschung:wms",
+    "title": "Progetti pilota e dimostrativi in corso dell'Ufficio federale dell'energia",
+    "type": "Dataset"
+  }
+}

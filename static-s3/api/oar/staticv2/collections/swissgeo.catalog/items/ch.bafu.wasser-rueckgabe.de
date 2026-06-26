@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wasser-rueckgabe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wasser-rueckgabe?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wasser-rueckgabe.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ed1931ac-81bc-4517-9860-80090e530e33",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wasser",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Das Bundesgesetz vom 24. Januar 1991 über den Schutz der Gewässer (GSchG) mit seinen Bestimmungen betreffend Restwassermengen ist am 1. November 1992 in Kraft getreten. Gemäss Artikel 80 ff GSchG müssen bestehende Restwasserstrecken auf Anordnung der Behörden – wenn immer möglich – saniert werden. Eine erste Etappe im Hinblick auf diese Sanierung bestand für die Kantone darin, ein Inventar der bestehenden Wasserentnahmen anzulegen und dem Bund einzureichen. Auf dieser Grundlage beurteilen die Kantone die aufgeführten Wasserentnahmen und entscheiden, ob und in welchem Ausmass eine Sanierung notwendig ist. Sie halten die Ergebnisse ihrer Untersuchung in einem Bericht fest und unterbreiten diesen Bericht ebenfalls dem Bund. Damit der Vollzug des GSchG im Bereich Restwasser / Sanierungen überblickt werden kann und zur Information der Öffentlichkeit und anderer interessierter Stellen, werden die von den Kantonen eingereichten Daten zu den Wasserentnahmen in einer nationalen Restwasserkarte dargestellt (Massstab 1 : 200’000).",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wasser-rueckgabe:wmts",
+    "title": "Restwasserkarte Schweiz: Wasserrückgabe",
+    "type": "Dataset"
+  }
+}

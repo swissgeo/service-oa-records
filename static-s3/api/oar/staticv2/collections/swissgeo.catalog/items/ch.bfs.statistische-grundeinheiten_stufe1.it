@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfs.statistische-grundeinheiten_stufe1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.statistische-grundeinheiten_stufe1?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.statistische-grundeinheiten_stufe1.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/4a2a7766-8a90-45f0-ade4-113cd7e1934e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "BFS/OFS GEOSTAT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le unità territoriali statistiche di base di primo livello (USPAT1) consentono un'analisi dettagliata del territorio. Sono stabili nel tempo, il che significa che non sono influenzate da fusioni di Comuni. Nelle aree rurali, offrono l'opportunità di distinguere le diverse aree urbanizzate, che di solito comprendono più di 250 abitanti o più di 250 posti di lavoro e 20 stabilimenti o più di 125 abitazioni appartenenti allo stesso Comune. Le aree urbane con più di 15 000 abitanti sono ulteriormente suddivise in settori urbani che generalmente comprendono tra 7 500 e 15 000 abitanti.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.statistische-grundeinheiten_stufe1:wmts",
+    "title": "Unità territoriali statistiche di base di primo livello (USPAT1)",
+    "type": "Dataset"
+  }
+}

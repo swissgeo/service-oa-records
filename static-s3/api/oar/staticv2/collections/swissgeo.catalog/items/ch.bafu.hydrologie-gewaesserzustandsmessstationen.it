@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydrologie-gewaesserzustandsmessstationen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydrologie-gewaesserzustandsmessstationen?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydrologie-gewaesserzustandsmessstationen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f48022fc-52a9-4303-95c7-18f5096f1a00",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente / Divisione Idrologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La serie di dati rappresenta i siti di misurazione presso i quali viene rilevato lo stato delle acque. I Cantoni, responsabili tra l’altro dell’esecuzione della protezione delle acque, conducono la maggior parte delle analisi. La Confederazione si limita ad effettuare analisi di interesse nazionale. I dati dei Cantoni e della Confederazione vengono raccolti nella banca dati sullo stato delle acque (DBGZ) gestita dall’Ufficio federale dell’ambiente (UFAM).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologie-gewaesserzustandsmessstationen:wmts",
+    "title": "Siti di misurazione dello stato delle acque CH",
+    "type": "Dataset"
+  }
+}

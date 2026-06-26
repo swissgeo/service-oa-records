@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.fischerei-aeschen_laichplaetze:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions/items/ch.bafu.fischerei-aeschen_laichplaetze:wmts?language=en",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions?language=en",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.fischerei-aeschen_laichplaetze?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.fischerei-aeschen_laichplaetze",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.fischerei-aeschen_laichplaetze"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.fischerei-aeschen_laichplaetze:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions/items/ch.bafu.fischerei-aeschen_laichplaetze:wms?language=en",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions?language=en",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.fischerei-aeschen_laichplaetze?language=en",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.fischerei-aeschen_laichplaetze",
+          "type": "application/json",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.fischerei-aeschen_laichplaetze"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions/items?language=en",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.fischerei-aeschen_laichplaetze.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "en"
+    }
+  ]
+}

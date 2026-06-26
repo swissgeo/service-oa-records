@@ -1,0 +1,114 @@
+{
+  "id": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ae5fa63c-c153-496a-b8a6-c896126398b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Zivilluftfahrt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Zivilluftfahrt",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Bundesamt für Raumentwicklung",
+        "country": "CH",
+        "role": "specialistAuthority"
+      }
+    ],
+    "description": "Der Sachplan Verkehr, Teil Infrastruktur Luftfahrt (SIL) ist das Planungs- und Koordinationsinstrument des Bundes für die zivile Luftfahrt. Er legt die Ziele und Vorgaben für die Infrastruktur der Zivilluftfahrt der Schweiz für die Behörden verbindlich fest. Für die einzelnen Flugplätze bestimmt er den Zweck, das beanspruchte Areal, die Grundzüge der Nutzung, die Erschliessung sowie die Rahmenbedingungen zum Betrieb. Er stellt zudem die Auswirkungen auf Raum und Umwelt dar (Verordnung über die Infrastruktur der Luftfahrt VIL Art. 3a). Der SIL bildet somit die Grundlage für die Genehmigung der Bauten und des Betriebs aller Infrastrukturanlagen der zivilen Luftfahrt: Landesflughäfen, Regionalflugplätze, zivil mitbenutzte Militärflugplätze, Flugfelder, Heliports, Gebirgslandeplätze und Flugsicherungsanlagen. Der SIL besteht aus zwei Teilen: dem Konzeptteil mit den generellen Zielen und Vorgaben sowie einem Objektteil, mit den konkreten Festlegungen für jede Anlage.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft:wms",
+    "title": "Sachplan Verkehr, Teil Infrastruktur Luftfahrt (SIL)",
+    "type": "Dataset"
+  }
+}

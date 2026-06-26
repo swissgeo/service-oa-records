@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.naqua-grundwasser_voc",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.naqua-grundwasser_voc?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.naqua-grundwasser_voc.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/c5f01eb1-d755-4450-bc4f-3871589de62f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Hydrogeological Basics Section",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Volatile organic compounds (VOCs) include various organic substances, such as monocyclic aromatic hydrocarbons (MAH) and volatile halogenated hydrocarbons (VHH). MAHs and VHHs are used and processed as solvents, coolants or raw materials in industry and commerce. Fuels also contain VOCs. These substances can enter groundwater through production, transport and storage processes or even when they are used or removed. Under the Waters Protection Ordi-nance (WPO), concentrations of monocyclic aromatic hydrocarbons in groundwater should not exceed 1 micrograms/l. Concentrations of various volatile organic compounds in Swiss groundwater are recorded as part of the NAQUA National Groundwater Monitoring program. The National Groundwater Monitoring Network includes more than 500 monitoring sites and is run by the FOEN in close collaboration with the cantons.Source: NAQUA National Groundwater Monitor-ing, Federal Office of the Environment",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.naqua-grundwasser_voc:wmts",
+    "title": "Volatile organic compounds (VOCs) in groundwater (NAQUA National Groundwater Monitoring)",
+    "type": "Dataset"
+  }
+}

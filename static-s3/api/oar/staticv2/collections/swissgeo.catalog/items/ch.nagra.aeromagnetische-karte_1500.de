@@ -1,0 +1,114 @@
+{
+  "id": "ch.nagra.aeromagnetische-karte_1500",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.nagra.aeromagnetische-karte_1500?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.nagra.aeromagnetische-karte_1500.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b814401b-9eb2-4e6c-b4a9-f24df7b8bba6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Nationale Genossenschaft für die Lagerung radioaktiver Abfälle",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Gesamtmagnetisierung eines Gesteins setzt sich aus der induzierten Magnetisierung, die durch das Magnetfeld der Erde hervorgerufen wird, und der remanenten Magnetisierung, die das Gestein bei seiner Bildung erhalten hat, zusammen. Regional oder lokal begrenzte Abweichungen des geomagnetischen Feldes aus einem globalen Modell, genannt Anomalien, werden vom Flugzeug gemessen. Diese Anomalien können die Identifizierung der geologischen und tektonischen Strukturen und der Präsenz der Konzentration von Mineralien ermöglichen.Im Rahmen des geophysikalischen untersuchungsprogramms der Nagra im Gebiet der Nordschweiz wurde von der Schweizerischen Geophysikalischen Kommission ein Netz von 6'250 km aeromagnetischer Linien geflogen. Das Resultat dieser Aufnahme wurde auf 4 Karten im Massstab 1:100'000 dargestellt: 2 Karten des Totalfeldes (Flughöhen von 1500 m und 1100 m) und 2 Karten des Residualfeldes nach Abzug des regionalen Trends. Sie zeigen keine Anomalien, die eine Bestimmung der Tiefe der Grundgebirgsoberfläche und des darin eingesenkten Permo-Karbon-Troges ermöglichen würden. - Papierkarte: E. KLINGELE, 1982. - Vektorkarte: Online-Version, nur Residualfeld, E. KLINGELE, 2010.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.nagra.aeromagnetische-karte_1500:wmts",
+    "title": "Aeromagnetische Karte 1:100000 Aargau bis Schaffhausen (1500 m)",
+    "type": "Dataset"
+  }
+}

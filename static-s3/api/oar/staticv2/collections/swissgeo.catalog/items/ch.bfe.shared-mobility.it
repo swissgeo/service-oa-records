@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.shared-mobility",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.shared-mobility?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.shared-mobility.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/8444f497-8319-4949-8530-73095c991474",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Operatori della Shared Mobility e l'Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Con il termine shared mobility si intende l'utilizzo comune e condiviso di mezzi di trasporto quali automobili, taxi, biciclette, biciclette elettriche, biciclette da carico, scooter, monopattini elettrici ecc. Tali mezzi non sono più intesi come proprietà individuale, ma come proprietà collettiva alla quale si può accedere in base alle necessità. In questo modo la mobilità diventa un servizio (Mobility-as-a-Service, MaaS). La shared mobility consente di spostarsi in maniera orientata alle necessità, economica nonché efficiente in materia di utilizzo di risorse e di energia. In Svizzera esistono diversi fornitori che mettono a disposizione ampie offerte di shared mobility. Grazie all'utilizzo di app e di piattaforme per la prenotazione è possibile prenotare in modo semplice e veloce un veicolo e averlo a propria disposizione in tempi brevi. Il sistema invia all'utente una combinazione di mezzi di trasporto diversi creando soluzioni che attingono all'intera catena della mobilità, garantendo una mobilità digitalizzata e sostenibile. Questa base dati mostra in tempo reale i luoghi e la disponibilità delle offerte di shared mobility. Ulteriori informazioni riguardo al download di dati e ai fornitori della shared mobility sono disponibili sul sito: www.sharedmobility.ch/info",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.shared-mobility:geojson",
+    "title": "Dove trovare offerte disponibili di shared mobility in tempo reale",
+    "type": "Dataset"
+  }
+}

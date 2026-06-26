@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.wrz-wildruhezonen_portal",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wrz-wildruhezonen_portal?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wrz-wildruhezonen_portal.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4a0c8bc7-89d1-484e-a34a-454a31267c41",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment / Biodiversity and Landscape Division",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Wildlife requires areas of refuge in which it will not be disturbed. In accordance with Article 7 Paragraph 4 of the Swiss Hunting Act (HuntA), designated wildlife areas are designed to prevent excessive interference due the increase in recreational activities. There are now statutory wildlife areas and reserves which are delineated through a legislative process (cantonal hunting law, municipal zone planning, etc.), as well as recommended wildlife areas and reserves. Within statutory designated wildlife areas and wildlife reserves, only permitted paths and trails marked on the map may be accessed. Prepared cross-country skiing trails, winter hiking trails and roads that are cleared or passable in winter are not shown on the map. Participants in winter sports may, of course, use these routes. In recommended wildlife areas, the permitted paths and trails are to be understood as suggestions. The status of the work currently varies significantly between cantons, which is why the dataset is incomplete. The map is updated at least once a year (at the start of winter). Please take note of the general information and changes below (e.g. perimeter adjustments), which have not yet been incorporated into the map. The campaign “Respektiere deine Grenzen” (\"Respect your limits\") is committed to protecting wildlife and raising public awareness of wildlife reserves.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-wildruhezonen_portal:wmts",
+    "title": "Designated wildlife areas",
+    "type": "Dataset"
+  }
+}

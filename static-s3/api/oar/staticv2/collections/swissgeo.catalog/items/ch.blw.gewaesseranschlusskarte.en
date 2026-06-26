@@ -1,0 +1,108 @@
+{
+  "id": "ch.blw.gewaesseranschlusskarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.gewaesseranschlusskarte?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.gewaesseranschlusskarte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/77c1fecd-d698-442f-b957-65664297b26d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landwirtschaft",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office for Agriculture",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The potential water connection map shows areas in a worst case scenario (permanent fallow land, no buffer strips or construction measures) where, if the land is not cultivated in a suitable way, there is a significant risk of sediment input into bodies of water. Therefore, it helps with the targeted planning of measures to protect the bodies of water. The model for identifying the connection between bodies of water and agricultural areas that are at potential risk of erosion is based on the erosion risk map 2. The water connection model allows the probability of a connection to a body of water to be calculated for every cell in the grid on the erosion risk map 2. In order to move from potential to actual water connections, information is needed about the use of the areas that are at risk and about possible measures to reduce runoff. This information must be obtained in the field.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.gewaesseranschlusskarte:wmts",
+    "title": "Water connection map, probability of connection",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.sachplan-infrastruktur-luftfahrt_kraft.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/ae5fa63c-c153-496a-b8a6-c896126398b1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Bundesamt für Raumentwicklung",
+        "country": "CH",
+        "role": "specialistAuthority"
+      }
+    ],
+    "description": "The sectoral plan on transport, aviation infrastructure section (SIL) is the federal planning and coordination tool for the civil aviation. Therein the goals and objectives for the infrastructure of Switzerland's civil aviation are bindingly established for authorities. Concerning the individual aerodromes it determines the purpose, the claimed area, the broad use, the exploitation and the conditions for operation. It also represents the impact on space and the environment (Verordnung über die Infrastruktur der Luftfahrt VIL Art. 3a). Thus, the SIL is the basis for approval of the construction and operation of all infrastructure of civil aviation: national airports, regional aerodromes, co-use civil- military aerodromes, airfields, heliports, mountain landing sites and air traffic control systems.The SIL consists of two parts: the concept of the general goals and objectives, and an object part, with the specific requirements for each facility.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.sachplan-infrastruktur-luftfahrt_kraft:wms",
+    "title": "Sectoral plan on transport, aviation infrastructure section (SIL)",
+    "type": "Dataset"
+  }
+}

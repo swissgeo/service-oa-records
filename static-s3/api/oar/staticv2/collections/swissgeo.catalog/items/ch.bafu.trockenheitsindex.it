@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.trockenheitsindex",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.trockenheitsindex?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.trockenheitsindex.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/df0d7761-5e2c-488f-91ca-e362d2f208de",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente / Divisione Idrologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La carta mostra l'indice combinato di siccità (CDI) per ciascuna regione. Il CDI integra i vari aspetti della siccità in un unico valore. Esso include i dati relativi a precipitazioni, umidità del suolo modellata nonché portata (corsi d'acqua) e il livello delle acque (laghi). L'indice viene calcolato confrontando le deviazioni dei parametri dai valori statisticamente attesi nel periodo di misurazione 1991–2020 (noto come «periodo di riferimento»). Indica principalmente la frequenza con cui si verifica un evento e può assumere valori da 1 a 5. Valori più elevati indicano un deficit idrico insolito o estremo per la stagione in oggetto.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.trockenheitsindex:wms",
+    "title": "Situazione attuale della siccità in Svizzera",
+    "type": "Dataset"
+  }
+}

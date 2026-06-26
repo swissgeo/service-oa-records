@@ -1,0 +1,98 @@
+{
+  "id": "ch.bafu.erosion-gruenland_bodenabtrag_feb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.erosion-gruenland_bodenabtrag_feb?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.erosion-gruenland_bodenabtrag_feb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2ed54e2b-e0da-406b-a7d0-5b0fbcd7f62b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [],
+    "description": "Monatliche Erosionsrisikokarten für das Schweizer Dauergrünland mit einer räumlichen Auflösung von 100 m. Die Karten zeigen den mittleren Bodenabtrag in Tonnen pro Hektare und Monat. Grüne Farbtöne bedeuten ein geringes, gelbe ein mittleres und rote ein hohes Erosionsrisiko.Die monatlichen Erosionsrisikokarten wurden mit der Revised Universal Soil Loss Equation (RUSLE) gerechnet. Für diese RUSLE-Anwendung wurde die monatliche Dynamik der Faktoren Niederschlagserosivität (R-Faktor) und Bodenbedeckung (C-Faktor) wie folgt berücksichtigt: A(Monat)=R(Monat)*K*C(Monat)*L*S*P wobei A(Monat) der Bodenabtrag in Tonnen pro Hektare und Monat und R(Monat) und C(Monat) der monatliche R-Faktor (MJ mm ha⁻¹ h⁻¹ Monat⁻¹) und C-Faktor (dimensionslos) sind. Die weiteren Erosionsfaktoren sind die Bodenerodierbarkeit (K-Faktor), die Hanglänge (L-Faktor) und die Hangneigung (S-Faktor) sowie Schutzmassnahmen (P-Faktor). Die RUSLE-Faktoren wurden an die besonderen Umweltbedingungen des Schweizer Dauergrünlands angepasst. Der P-Faktor ist als Konstante mit dem Wert 1 in die Berechnung eingeflossen, da räumliche Daten zum Weidemanagement und dessen Einfluss auf die Bodenerosion fehlen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.erosion-gruenland_bodenabtrag_feb:wmts",
+    "title": "Monatliche Erosionsrisikokarten des Schweizer Dauergrünlands, mittlerer Bodenabtrag in Tonnen/(ha*Monat), Februar",
+    "type": "Dataset"
+  }
+}

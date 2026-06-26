@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.transformation-bezugsrahmen_hoehe",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.transformation-bezugsrahmen_hoehe?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.transformation-bezugsrahmen_hoehe.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/b3362599-3bc6-4615-a290-546792f89c83",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo, Vermessung",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Unterschied der orthometrischen Höhen LHN95 (Landeshöhennetz 1995) minus offizielle Gebrauchshöhen LN02 (Landesnivellement 1902).Wegen den lokal variierenden Verzerrungen in LN02 und der alleinigen Abstützung auf Höhenfixpunkte des Landesnivellement ist diese Transformation nur eine Näherung. Der Unterschied setzt sich zusammen aus einem lageabhängigen Anteil und einem lokalen Höhenmassstab.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.transformation-bezugsrahmen_hoehe:wms",
+    "title": "Höhentransformation HTRANS LHN95-LN02",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.shared-mobility",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.shared-mobility?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.shared-mobility.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/8444f497-8319-4949-8530-73095c991474",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Prestataires de mobilité partagée et Office fédéral de l'énergie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La mobilité partagée désigne l'utilisation commune et partagée de moyens de transport tels que la voiture, le taxi, le vélo, le vélo électrique, le cargobike, le scooter/la trottinette électrique, etc. Ces moyens de déplacement ne sont plus considérés comme des biens individuels mais comme des biens communs, accessibles en cas de besoin. La mobilité se conçoit dès lors en tant que service (Mobility as a Service [MaaS]). La mobilité partagée permet de se déplacer de façon adaptée aux besoins, et ce de manière économique, efficace en énergie et économe en ressources. En Suisse, divers prestataires proposent une offre complète de mobilité partagée. Vous pouvez réserver ou utiliser un véhicule rapidement et en toute simplicité grâce aux applications ou aux plateformes de réservation des prestataires. En alliant différents moyens de transport, on obtient des solutions pour l'ensemble de la chaîne de mobilité, ce qui contribue à la numérisation et à la durabilité de la mobilité. Ce jeu de données présente la géolocalisation et la disponibilité en temps réel d'offres de mobilité partagée. Pour de plus amples informations concernant le téléchargement des données et les prestataires partenaires de mobilité partagée, veuillez vous rendre sur: www.sharedmobility.ch/info",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.shared-mobility:geojson",
+    "title": "Géolocalisation et disponibilité en temps réel d'offres de mobilité partagée",
+    "type": "Dataset"
+  }
+}

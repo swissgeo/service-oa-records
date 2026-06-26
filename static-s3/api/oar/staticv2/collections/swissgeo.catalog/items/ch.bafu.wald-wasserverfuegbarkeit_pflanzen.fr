@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-wasserverfuegbarkeit_pflanzen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-wasserverfuegbarkeit_pflanzen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/668e4c81-5926-4457-9097-b362244b2660",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division forêts, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Institut fédéral de recherches sur la forêt, la neige et le paysage WSL",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Les arbres disposent de toujours moins d'eau:•Les plantes et les sols rejettent de l'eau dans l'atmosphère ; plus l'air est chaud et sec, plus les volumes rejetés sont importants. L'eau s'évapore par les feuilles des plantes. L'évapotranspiration correspond à l'ensemble du volume d'eau rejeté dans l'atmosphère. •L'évapotranspiration actuelle (ET) dépend de la disponibilité effective en eau (quantités de précipitations et capacité des sols à stocker ces dernières). L'évapotranspiration potentielle (ETP) correspond à la quantité d'eau rejetée dans l'atmosphère lorsque l'eau est disponible en quantité suffisante. •Si le rapport ET/ETP est inférieur à 0,8, il faut s'attendre à des effets nuisibles dus à la sécheresse : les stomates restent souvent fermés, ce qui limite la photosynthèse. •Dans les zones bleues (surtout bleu foncé), la situation n'est pas problématique. •Dans les zones jaunes à rouges (surtout bordeaux), il faut s'attendre à des effets nuisibles dus à la sécheresse. •Tendance : les zones jaunes à rouges s'étendent de plus en plus d'une année à l'autre (période de 1981 à 2018). Période 1981-2018, avril à août, résolution 250 m x 250 m. Source : Remund et al. (2016)",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-wasserverfuegbarkeit_pflanzen:wmts",
+    "title": "Eau disponible pour les plantes",
+    "type": "Dataset"
+  }
+}

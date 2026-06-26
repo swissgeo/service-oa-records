@@ -1,0 +1,98 @@
+{
+  "id": "ch.astra.ivs-gelaendekarte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.ivs-gelaendekarte?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.ivs-gelaendekarte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c99e4a84-b340-4c83-ad3f-f5bcb15a1bf1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [],
+    "description": "Die Geländekarte stellt die kartografische Grundlage der Ersterfassung des Inventars dar. Sie beinhaltet ergänzende Angaben zu den Objekten nach Artikel 3 der Verordnung über das Bundesinventar der historischen Verkehrswege der Schweiz VIVS sowie zu den Objekten von regionaler und lokaler Bedeutung. Die Geländekarte wird vorerst nicht nachgeführt und deshalb nur als Zusatzinformation in der elektronischen Publikation sowie als gesonderte Karte in der gedruckten Ausgabe (vgl. Art. 4 VIVS) geführt. Der Kanton Solothurn hat für die Neubeurteilung der Objekte von regionaler/lokaler Bedeutung die Geländekarten überarbeitet. Diese überarbeiteten Versionen sind im vorliegenden Datensatz enthalten.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-gelaendekarte:wmts",
+    "title": "Bundesinventar der historischen Verkehrswege der Schweiz, Geländekarte",
+    "type": "Dataset"
+  }
+}

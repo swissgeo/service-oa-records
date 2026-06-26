@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/e1b8837d-8c19-4b65-a8b5-21aaff44fa91",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "swissBOUNDARIES3D Bezirksgrenzen umfasst die administrativen Grenzen der Schweizer Amtsbezirke. Der Amtsbezirk ist eine administrative Einheit welche sich hierarchisch zwischen Kanton und Gemeinde eingliedert. Die Kantone Genf, Uri, Obwalden, Nidwalden, Glarus, Zug, Basel-Stadt und Appenzell Innerrhoden sind nicht weiter in Amtsbezirke unterteilt. swissBOUNDARIES3D Bezirksgrenzen ist ein Derivat des Elterndatensatzes swissBOUNDARIES3D.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill:wmts",
+    "title": "swissBoundaries3D Bezirksgrenzen",
+    "type": "Dataset"
+  }
+}

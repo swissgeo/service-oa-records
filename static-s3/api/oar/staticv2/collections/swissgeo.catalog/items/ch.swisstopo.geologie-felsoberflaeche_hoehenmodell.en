@@ -1,0 +1,103 @@
+{
+  "id": "ch.swisstopo.geologie-felsoberflaeche_hoehenmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-felsoberflaeche_hoehenmodell?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-felsoberflaeche_hoehenmodell.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/133b54a9-60d1-481c-85e8-e1a222d6ac3f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The national bedrock elevation model represents the bedrock surface, which also corresponds to the base of the unconsolidated deposits. The model has a 10 x 10 m raster cell size and shows the altitude in meters above sea level. The bedrock elevation model (BEM) is part of the larger swissBEDROCK dataset, which also includes the <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-lockergestein_maechtigkeitsmodell&topic=geol\" target=\"_blank\">thickness model of unconsolidated deposits (TMUD)</a>, uncertainty estimates and changes compared to previous versions. The full swissBEDROCK dataset can be <a href=\"https://www.swisstopo.admin.ch/en/swissbedrock-en\" target=\"_blank\">downloaded here</a> or viewed and queried on <a href=\"https://viewer.swissgeol.ch/?lon=8.39730&lat=44.63444&elevation=238404&heading=341&pitch=-48&layers=ch.swisstopo.swissbedrock-geotiff%2Cch.swisstopo.swissbedrock-geotiff-with-terrain&layers_transparency=0.5%2C0&layers_visibility=false%2Ctrue&map=empty_map\" target=\"_blank\">viewer.swissgeol.ch</a> on a cell basis. The model consists of data provided by third parties and parts that have been modelled by the Federal Office of Topography. A <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_ReleaseNotes_R1.pdf?approved=true\" target=\"_blank\">release notes</a> file is provided detailing the origin and characteristics of the various model components. More information on the methodological overview and workflow can be found in the <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_model_description.pdf?approved=true\" target=\"_blank\">model description</a>. 3D models represent a simplification of the real geological settings. The user acknowledges that the authors have taken every reasonable effort to ensure that information contained in the presented 3D geological model is as accurate as possible. There is no guarantee that the given data related to a definite point in the subsurface is accurate. Under no circumstances will the publisher be liable for any loss or damage of a material or immaterial nature arising from access to, use or non-use of published information, or from misuse or technical breakdown.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-felsoberflaeche_hoehenmodell:wmts",
+    "title": "Bedrock elevation model",
+    "type": "Dataset"
+  }
+}

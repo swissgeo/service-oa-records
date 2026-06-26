@@ -1,0 +1,104 @@
+{
+  "id": "ch.bag.zeckenstichmodell",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bag.zeckenstichmodell?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bag.zeckenstichmodell.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/a30c52be-0d18-4b5f-8872-5981b0666376",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Spin-off A&K Strategy GmbH",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "L'Office fédéral de la santé publique présente la mise à jour du \"Modèle de tique\" pour la Suisse et la Principauté du Liechtenstein. Il montre la répartition géographique statique des zones où les tiques peuvent s'établir et survivre dans la nature. Les différents niveaux de risque d'entrer en contact avec des tiques sont représentés par couleur, risques élevés (zones rouges) ou nuls (zone bleues). Les conditions sur lesquelles se base le modèle correspondent au début de l'été : des conditions météorologiques douces et humides avec des températures de 15 à 20 degrés Celsius et une humidité relative de 80 %. Le risque de piqûre de tique est le résultat de la probabilité d'une piqûre de tique et de l'exposition (où et à quelle fréquence les gens passent du temps à l'extérieur). Pour avoir une idée du risque actuel de piqûre de tiques, il faut combiner le présent \"Modèle de tique\" avec l'activité extérieure et les conditions météorologiques actuelles. De plus, l'activité des tiques est soumise à la saisonnalité ; elle commence au début du printemps avec des températures de sept degrés et augmente progressivement au printemps et au début de l'été jusqu'aux premières chaleurs estivales. Après plusieurs jours avec des températures supérieures à 30 degrés et un soleil radieux, l'activité des tiques et donc le risque de piqûre de tiques s'effondre. En automne, lorsque les températures baissent et que l'humidité relative augmente à nouveau, le risque de piqûre de tique augmente à nouveau. Si la température est inférieure à sept degrés, le risque de piqûre de tique diminue car les tiques réduisent leurs fonctions corporelles, afin de survivre à l'hiver, elles hibernent.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bag.zeckenstichmodell:wmts",
+    "title": "Modèle de tique",
+    "type": "Dataset"
+  }
+}

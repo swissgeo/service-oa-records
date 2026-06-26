@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/9c4bf1ae-ee0a-491c-9ce3-156a3001a954",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le immissioni di fosforo nelle acque costituiscono un inquinamento indesiderato. Negli ultimi decenni, le elevate immissioni di fosforo disciolto hanno causato l'eutrofizzazione dei laghi dell'Altipiano. Complessivamente, ogni anno finiscono nelle acque svizzere circa 740 tonnellate di fosforo emesse da fonti diffuse. Le principali immissioni provengono dalle superfici agricole inerbite su terreni declivi. </p><p>Le immissioni di fosforo disciolto nelle acque sono state calcolate con il modello per flussi di sostanze MODIFFUS, considerando tutte le fonti d'immissione (terreni coltivi, prati permanenti, boschi, ghiacciai, superfici verdi urbane ecc.) e i percorsi di immissione (dilavamento, ruscellamento, drenaggio, deposizione atmosferica ecc.). La carta mostra le perdite cumulate per categoria di utilizzazione del territorio in un reticolo ettometrico basato sulla Statistica di superficie2013/18. Per il calcolo sono state considerate condizioni climatiche medie e l'anno di riferimento è il 2020.</p><p> I valori modellizzati non sono equiparabili con i valori misurati nelle acque, in quanto non tengono conto dei processi di trasformazione e di sedimentazione né nel paesaggio né nelle acque. I risultati possono essere interpretati per unità idrologiche o amministrative a partire da 50 chilometri quadrati, ma non per singoli pixel.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-diffuse_eintraege_phosphor:wmts",
+    "title": "Immissioni diffuse di fosforo disciolto nelle acque, valori modellizzati",
+    "type": "Dataset"
+  }
+}

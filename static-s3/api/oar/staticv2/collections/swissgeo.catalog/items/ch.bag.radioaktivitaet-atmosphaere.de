@@ -1,0 +1,104 @@
+{
+  "id": "ch.bag.radioaktivitaet-atmosphaere",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bag.radioaktivitaet-atmosphaere?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bag.radioaktivitaet-atmosphaere.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/170800fb-e85c-42b7-8c4b-ba33b364b79f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Gesundheit",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Konzentration von aerosolgebundener Radioaktivität in der Aussenluft bei 6 von der Sektion Umweltradioaktivität (URA) des Bundesamtes für Gesundheit (BAG) betriebenen Stationen. Die Filter der Hoch-Volumen-Aerosolsammler werden wöchentlich gewechselt und anschliessend gammaspektrometrisch (HPGe) gemessen. Dargestellt sind die neuesten verfügbaren Messwerte in Mikro-Becquerel pro Kubikmeter (µBq/m3).",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bag.radioaktivitaet-atmosphaere:wms",
+    "title": "Radioaktivität in der Atmosphäre",
+    "type": "Dataset"
+  }
+}

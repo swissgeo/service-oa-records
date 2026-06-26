@@ -1,0 +1,104 @@
+{
+  "id": "ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.projektierungszonen-nationalstrassen_v2_0.oereb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/9e7a53d4-3880-4dec-9988-92d49ba812c9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "astra",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Porzioni di territorio descritte con precisione ove le parcelle devono venir mantenute disponibili per infrastrutture stradali future. In queste zone, alcune nuove costruzioni e trasformazioni volte ad aumentare il valore degli edifici esistenti non possono venir effettuate senza autorizzazione. L'effetto è limitato a 5 anni, prolungabili una volta per un periodo di tre anni.Base legale (LSN art. 14 cpv. 1): «Per assicurare la disponibilità dell'area stradale, il Dipartimento competente, uditi i Cantoni, può determinare delle zone riservate.» Non esistono né dati né un modello minimo di geodati su questo livello d'informazione. I metadati hanno per unico scopo la descrizione del «feature service» del rispettivo livello nei catasti cantonali RDPP.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Zone riservate riservate per le strade nazionali V2.0 RDPP",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.mittlere-abfluesse_zukunft",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.mittlere-abfluesse_zukunft?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.mittlere-abfluesse_zukunft.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/144e7781-cfff-404c-ae9c-474525ed9a1f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment / Hydrology Division",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The map shows the percentage changes in summer runoff towards the end of the century (2070-2099) compared to the reference period (1981 - 2010) as calculated in the hydrological scenarios Hydro-CH2018 for a scenario without climate change mitigation (RCP8.5). Shown in each case is the median of the entire range of simulations. In summer, the hydrological scenarios show a median runoff decrease of 30-50% without climate change mitigation by the end of the century. Responsible for this decrease are reduced summer precipitation, higher evapotranspiration and the decrease of glacier and snowmelt water. In the Hydro-CH2018 project, which is a thematic area of the National Centre for Climate Services (NCCS, www.nccs.admin.ch) and is led by the FOEN, various specialized hydrological models were used depending on the research question. For this reason, it is possible that several, slightly different results are available at certain stations, e.g. Thur Andelfingen (details can be found in the synthesis report \"Impacts of climate change on Swiss water bodies\"). Clicking on the link in the object information will take you to the Hydrological Atlas of Switzerland, where all results for all stations, all climate scenarios and all time periods including uncertainty range can be found.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.mittlere-abfluesse_zukunft:wmts",
+    "title": "Mean runoff in the future - results from the Hydro-CH2018 project",
+    "type": "Dataset"
+  }
+}

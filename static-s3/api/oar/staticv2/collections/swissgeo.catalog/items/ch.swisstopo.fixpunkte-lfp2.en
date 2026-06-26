@@ -1,0 +1,103 @@
+{
+  "id": "ch.swisstopo.fixpunkte-lfp2",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-lfp2?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.fixpunkte-lfp2.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/12ee04c7-b38d-4809-b417-ce304df6c7cc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Cantons [V+D]",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Vermessungspunkte bilden die Grundlage aller Daten mit Raumbezug. Diese Fixpunkte (Lagefixpunkte (LFP) und die Höhenfixpunkte (HFP)) werden für alle vermessungstechnischen Arbeiten genutzt, die eine zuverlässige und präzise Bestimmung erfordern. Unter einem Lagefixpunkt versteht man einen dauerhaft mit einem Stein oder einem Bolzen (zum Teil unter Schacht) versicherten Punkt mit bekannten Koordinaten und eventuell bekannter Höhe. Die Lagefixpunkte der Kategorien 2 (LFP2) dienen zur Verdichtung des Punktnetzes und bilden die Grundlage der amtlichen Vermessung. Die Kantone sind zuständig für die Fixpunkte der Kategorie 2. Die Daten basieren auf dem Modell Fixpunkt-Datenservice 2.0 der KGK (Datenmodell KGKCGC_FPDS2_V1_1, Version 1.1).",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-lfp2:wms",
+    "title": "Planimetric control Points LFP2 (Cadastral surveying)",
+    "type": "Dataset"
+  }
+}

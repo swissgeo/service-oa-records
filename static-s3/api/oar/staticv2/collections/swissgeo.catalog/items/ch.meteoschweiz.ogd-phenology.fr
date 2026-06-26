@@ -1,0 +1,109 @@
+{
+  "id": "ch.meteoschweiz.ogd-phenology",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.ogd-phenology?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.ogd-phenology.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/27a3ac47-8dcc-4bd4-95cf-8eda423d6a04",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Office fédéral de météorologie et de climatologie MétéoSuisse",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le réseau d'observations phénologiques de MétéoSuisse comprend 170 stations. Pour décrire le développement de la végétation, 26 espèces de plantes différentes sont examinées au cours des saisons. Ces informations permettent d'analyser les effets du changement climatique sur la végétation et d'élaborer des modèles prévisionnels du début de la floraison. Pour chaque station et espèce de plante, le jeu de données comprend les phénophases en résolution annuelle ('y').",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Observations phénologiques - Données",
+    "type": "Dataset"
+  }
+}

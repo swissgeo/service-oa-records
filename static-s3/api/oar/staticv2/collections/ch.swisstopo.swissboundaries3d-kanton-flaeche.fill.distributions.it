@@ -1,0 +1,22 @@
+{
+  "id": "ch.swisstopo.swissboundaries3d-kanton-flaeche.fill.distributions",
+  "title": "Distribution Collection for ch.swisstopo.swissboundaries3d-kanton-flaeche.fill.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.swissboundaries3d-kanton-flaeche.fill.distributions/items?language=it",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.swissboundaries3d-kanton-flaeche.fill.distributions?language=it",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "it"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/359e590e-4c29-494a-80ba-182a9682173c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment / Hydrology Division",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Federal Office for the Environment",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Within the National Surface Water Quality Monitoring Programme (NAWA), water quality is recorded jointly by the federal and cantonal authorities at around 100 monitoring stations. The chemical water status is assessed on the basis of the total phosphorus concentration by the “Physicochemical Water Quality, Nutrients” method in the Modular Stepwise Procedure (www.modul-stufen-konzept.ch). Phosphorus is an essential nutrient for aquatic organisms. Phosphorus can enter a watercourse in a diffuse manner from agricultural land, and at specific points through wastewater infiltration and stormwater overflows, or by erosion of rock containing phosphorus due to weathering. In contrast to lakes, phosphorus in rivers and streams is not normally limiting for algae and plant growth. As inputs from natural sources are generally low, total phosphorus is primarily an indicator of anthropogenic pollution.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_phosphor_gesamt:wms",
+    "title": "Assessment of the Chemical Water Status: Total Phosphorus",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ch.bazl.luftraeume-fluginformationsgebiet:wmts",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.luftraeume-fluginformationsgebiet.distributions/items/ch.bazl.luftraeume-fluginformationsgebiet:wmts?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.luftraeume-fluginformationsgebiet.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.luftraeume-fluginformationsgebiet?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bazl.luftraeume-fluginformationsgebiet",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMTS Layer",
+    "protocol": "ogc:wmts",
+    "externalIds": [
+      "ch.bazl.luftraeume-fluginformationsgebiet"
+    ]
+  }
+}

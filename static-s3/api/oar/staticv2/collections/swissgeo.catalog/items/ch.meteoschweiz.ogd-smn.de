@@ -1,0 +1,109 @@
+{
+  "id": "ch.meteoschweiz.ogd-smn",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.ogd-smn?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.ogd-smn.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/35323752-ed32-4cc1-8a75-898c749b777b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Meteorologie und Klimatologie MeteoSchweiz",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Meteorologie und Klimatologie MeteoSchweiz",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "SwissMetNet, das automatische Messnetz von MeteoSchweiz, zählt 160 automatische Messstationen. Der Datensatz enthält pro Station aktuelle Messwerte zu Temperatur, Niederschlag, Wind, Druck, Schnee, Feuchte Sonnenschein und Strahlung in den Auflösungen 10 Minuten ('t'), stündlich ('h'), täglich ('d'), monatlich ('m') und jährlich ('y'). Es gibt aktualisierte Datensätze seit Mitternacht ('now'), vom aktuellen Jahr bis gestern ('recent') sowie seit Messbeginn in Zehnjahresschritten ('historical'). Wenn Sie stündliche, tägliche, monatliche oder jährliche Werte benötigen, empfehlen wir Ihnen dringend, die entsprechende Auflösung herunterzuladen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Automatische Wetterstationen - Messwerte",
+    "type": "Dataset"
+  }
+}

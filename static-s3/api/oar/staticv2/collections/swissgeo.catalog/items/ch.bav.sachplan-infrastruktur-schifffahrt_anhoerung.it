@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/414ae620-4afc-46eb-8a0c-5c0c33d0b1eb",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dei trasporti UFT",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Sezione Pianificazione UFT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Audizioni dei Cantoni e dei Comuni in corso o concluse nonché informazione e partecipazione della popolazione conformemente all'articolo 19 OPT in relazione al piano settoriale dei trasporti, parte infrastruttura navigazione (SIF).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.sachplan-infrastruktur-schifffahrt_anhoerung:wms",
+    "title": "Piano settoriale dei trasporti, parte infrastruttura navigazione (SIF): consultazione",
+    "type": "Dataset"
+  }
+}

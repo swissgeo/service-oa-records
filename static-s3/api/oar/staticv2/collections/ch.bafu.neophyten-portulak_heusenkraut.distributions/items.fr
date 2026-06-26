@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.neophyten-portulak_heusenkraut:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions/items/ch.bafu.neophyten-portulak_heusenkraut:wmts?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-portulak_heusenkraut?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-portulak_heusenkraut",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.neophyten-portulak_heusenkraut"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.neophyten-portulak_heusenkraut:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions/items/ch.bafu.neophyten-portulak_heusenkraut:wms?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-portulak_heusenkraut?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-portulak_heusenkraut",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.neophyten-portulak_heusenkraut"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions/items?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-portulak_heusenkraut.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch.meteoschweiz.ogd-obs",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.ogd-obs?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.ogd-obs.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e94cba9b-812a-4fd7-a7dd-6d8dcd0530f3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Meterology and Climatology MeteoSwiss",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Meterology and Climatology MeteoSwiss",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The information on current weather events is supplemented by visual human observations by MeteoSwiss. Meteorological observers at 8 stations make visual observations between three and eight times per day every day of the year. The data set contains current data for each station on visibility, current and past weather, ground conditions and clouds in daily ('d'), monthly ('m') and yearly ('y') resolutions. There are updated data sets from the current year up to yesterday ('recent') and since the beginning of the measurement ('historical'). If you need monthly or yearly values, we strongly recommend that you download the corresponding resolution.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Meteorological visual observations - Data",
+    "type": "Dataset"
+  }
+}

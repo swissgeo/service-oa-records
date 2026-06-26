@@ -1,0 +1,22 @@
+{
+  "id": "ch.swisstopo.vec200-building.distributions",
+  "title": "Distribution Collection for ch.swisstopo.vec200-building.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.vec200-building.distributions/items?language=fr",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.vec200-building.distributions?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

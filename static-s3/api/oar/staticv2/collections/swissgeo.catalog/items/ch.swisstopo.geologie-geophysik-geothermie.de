@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-geothermie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-geothermie?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-geophysik-geothermie.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2d8174b2-8c4a-44ea-b470-cb3f216b90d1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die geothermische Karte zeigt die Wärmeenergie, die im Untergrund produziert wird und die durch 1 m2 an die Erdoberfläche strömt (mW/m2). Die Wärmefluss-Daten werden aus Temperaturgradient (Mittelwert ca. 30 K/km) und Wärmeleitfähigkeit der Gesteine (Mittelwert ca. 3 W/(m·K) berechnet. Die Wärme selbst wird grösstenteils in der Erdkruste (ca. 30 km mächtig) durch radioaktive Zerfallsprozesse freigesetzt. Im Mittel beträgt der Wärmefluss in der Schweiz rund 90 mW/m2. Die Nordschweiz hat die höchsten Werte und der Alpenraum/Jura hat die tiefsten Werte. Abweichungen vom regionalen Wärmeflusstrend können ein Hinweis auf zirkulierende Tiefenwässer in durchlässigen Gesteinsschichten sein. - Quelle: <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/2d8174b2-8c4a-44ea-b470-cb3f216b90d1/attachments/Beitrag_GP_030_Medici-Rybach.pdf?approved=true\" target=\"_blank\">F. MEDICI & L. RYBACH, Geothermal map of Switzerland 1995 (heat flow density), Beiträge zur Geologie der Schweiz, Serie Geophysik, Nr. GP-30</a>.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geophysik-geothermie:wmts",
+    "title": "Geothermische Karte der Schweiz 1:500000",
+    "type": "Dataset"
+  }
+}

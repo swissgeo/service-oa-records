@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/32a8a3cd-d269-4915-b983-54fd979ca486",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "La domanda di calore e di freddo è di importanza fondamentale per la pianificazione strategica delle reti termiche. Vale la pena costruire una rete termica in un'area soltanto se vi è un sufficiente volume di vendita di calore e/o freddo. Nella pianificazione strategica la domanda di calore serve a identificare aree contigue di dimensioni maggiori che possono essere idonee a una rete termica. Un'area è considerata idonea a partire da una densità di calore di 700 MWh/a per ettaro. Oltre alla densità di calore, per la fornitura di calore è importante anche il livello di temperatura necessario. L'industria e l'artigianato necessitano in parte di un livello di calore molto elevato (in certi casi 1000 °C e oltre), che una rete termica non è in grado di fornire. Pertanto la domanda di calore dell'industria è stata rilevata in un set di dati a sé stante. La domanda di calore degli edifici abitativi e del terziario è particolarmente interessante per le reti termiche, visto che la maggior parte degli edifici di queste categorie può essere approvvigionata con temperatura basse, comprese tra circa 12°C e un massimo di 90°C. La base di dati è costituita dalla statistica degli edifici e delle abitazioni (SEA) del 2014 e dalla statistica strutturale delle imprese (STATENT) dell'UST del 2013, integrate dalle cifre del rapporto annuale dell'UFE sul consumo energetico nell'industria e nel terziario (rapporto «Energieverbrauch in der Industrie und im Dienstleistungssektor»). La domanda di calore è rappresentata come densità di calore nella griglia ettometrica. La densità di calore è indicata tramite una scala cromatica. I dati sono da intendersi come materiale informativo per il pubblico, non hanno carattere ufficiale e non sono vincolanti sotto il profilo giuridico.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude:wmts",
+    "title": "Reti termiche: domanda degli edifici abitativi e del terziario",
+    "type": "Dataset"
+  }
+}

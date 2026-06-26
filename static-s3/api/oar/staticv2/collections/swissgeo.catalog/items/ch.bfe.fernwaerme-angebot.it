@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.fernwaerme-angebot",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.fernwaerme-angebot?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.fernwaerme-angebot.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b6c8d9c6-a2ca-435a-af0a-6a8ac94199fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Negli impianti di depurazione delle acque (IDA) si trattano e purificano le acque reflue. Le acque reflue sono acque contaminate dall'uso (cucina, igiene personale, bucato) che vengono smaltite attraverso la rete fognaria. Tali acque hanno una temperatura media di 10-20°C. Questo calore può essere recuperato con una pompa di calore e utilizzato come fonte di calore per una rete di teleriscaldamento. La mappa indica il potenziale termico degli IDA in Svizzera, stimato in base al numero di abitanti allacciati. I dati ricavati devono essere intesi come valori indicativi e non possono pertanto essere utilizzati come base per una pianificazione definitiva.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.fernwaerme-angebot:wmts",
+    "title": "Potenziale degli impianti di depurazione delle acque in termini di recupero termico",
+    "type": "Dataset"
+  }
+}

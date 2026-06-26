@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.energiestaedte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.energiestaedte?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.energiestaedte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/393940cd-6a67-4190-8b91-378669cdea1d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'énergie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le label «Cité de l’énergie» atteste les performances des communes qui pratiquent et mettent en œuvre une politique énergétique exemplaire en matière de développement durable. Les Cités de l’énergie promeuvent les énergies renouvelables et une mobilité respectueuse de l’environnement et elles favorisent l’utilisation efficace des ressources. Pour obtenir le label «Cité de l’énergie», une commune doit avoir décidé ou concrétisé au minimum 50% de la marge de manœuvre dont elle dispose en matière de politique énergétique (marge de manœuvre calculée sur la base du catalogue d’exigences correspondant). La plus haute distinction pour les cités de l’énergie est le «European Energy Award®GOLD». Cette distinction est octroyée aux Cités de l’énergie qui ont mis en œuvre au moins 75% des mesures du catalogue élaboré lors de la procédure de certification. Le GOLD Award récompense les Cités de l’énergie pour leur engagement en faveur d’un avenir énergétique durable. Il se fonde sur divers aspects de la politique énergétique communale: planification du développement et aménagement du territoire, bâtiments et installations communales, approvisionnement et gestion des déchets, mobilité, organisation interne, communication et coopération.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energiestaedte:wms",
+    "title": "Cités de l’énergie",
+    "type": "Dataset"
+  }
+}

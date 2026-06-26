@@ -1,0 +1,103 @@
+{
+  "id": "ch.bfe.kehrichtverbrennungsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.kehrichtverbrennungsanlagen?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.kehrichtverbrennungsanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/d9596eaf-5629-4756-9a46-4f178407b905",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Swiss Federal Office of Energy",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Waste incineration is the burning of combustible waste components to reduce the volume of the waste while using the energy it contains.In 2017, Switzerland had 30 municipal waste incineration plants each with a capacity of between 30,000 and 230,000 tonnes per year. About four million tonnes of combustible waste from Switzerland and abroad is incinerated to generate thermal energy in municipal incinerators. The heat generated during combustion is used to produce electricity, operate district heating networks or as process heat in industrial plants. In 2017, the 30 municipal incinerators produced a record amount of energy totalling 4,036 gigawatt hours (GWh) of heat and 2,338 GWh of electricity. They thus contribute around 2.5 percent of Switzerland's total energy requirements and just under 4 percent of the country's overall electricity production. The geodata document the current volume of recycled waste and the amount of energy generated and supplied. All information is based on the data provided by the plant operators. The information is for the general public and does not constitute official information or legally binding statements.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.kehrichtverbrennungsanlagen:wmts",
+    "title": "Waste incineration plants (MWI)",
+    "type": "Dataset"
+  }
+}

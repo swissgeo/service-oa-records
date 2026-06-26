@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.energiestaedte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.energiestaedte?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.energiestaedte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/393940cd-6a67-4190-8b91-378669cdea1d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il label Città dell’energia è un riconoscimento per i Comuni che adottano e vivono una politica energetica comunale sostenibile. Le città dell’energia promuovono le energie rinnovabili, una mobilità sostenibile e utilizzano in modo efficiente le risorse. Per ottenere il riconoscimento i Comuni devono avere realizzato o deciso formalmente il 50 % delle misure possibili nell’ambito del proprio margine di manovra politico, scelte sulla base del Catalogo Città dell’energia standardizzato. Il massimo riconoscimento per le città dell’energia è l’«European Energy Award®GOLD», rilasciato solo alle città che hanno attuato almeno il 75 % delle misure definite nel catalogo stilato nell’ambito della procedura di certificazione. Con il GOLD-Award le città dell’energia coronano il proprio impegno per un futuro energetico sostenibile. Il riconoscimento è basato sulla valutazione della politica energetica comunale nei settori della pianificazione dello sviluppo, dell’ordinamento territoriale, degli edifici e degli impianti comunali, dei sistemi di approvvigionamento e di smaltimento, della mobilità, dell’organizzazione interna nonché della comunicazione e della cooperazione.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.energiestaedte:wms",
+    "title": "Città dell’energia",
+    "type": "Dataset"
+  }
+}

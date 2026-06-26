@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wald-foehnhaeufigkeit_jahr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-foehnhaeufigkeit_jahr?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-foehnhaeufigkeit_jahr.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/12e6b1d6-b517-4919-b04c-5196947ac760",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division forêts, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "La carte montre le nombre d'heures de foehn moyen par an (en %). Par exemple, une valeur de 12 % signifie que le foehn souffle pendant 44 jours de l'année au total avec une durée variable des occurrences de foehn. Les stations climatiques de MétéoSuisse dans les régions à foehn ont servi de base de calcul (différentes périodes). Pour chaque station, le nombre d'heures de foehn par jour a été calculé. Les critères de foehn étaient les suivants :- Humidité relative : de jour < 50 %, de nuit < 55 %, - Vitesse du vent : > 5 km/h, - Plage de direction du vent : direction du vent typique (en °) en cas de foehn +/- 60°. Les valeurs mesurées aux différentes stations ont ensuite été interpolées pour chaque région à foehn. Les régions de couleur grise ne sont pas considérées comme des régions à foehn. La fréquence du foehn n'a donc pas été calculée pour ces régions. La carte qui en résulte présente une résolution spatiale de 25 m x 25 m. Elle a été utilisée pour la modélisation des étages de végétation forestière.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-foehnhaeufigkeit_jahr:wmts",
+    "title": "Fréquence annuelle de foehn, période variable (maximum 1969-2013)",
+    "type": "Dataset"
+  }
+}

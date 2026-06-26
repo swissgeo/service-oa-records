@@ -1,0 +1,109 @@
+{
+  "id": "ch.blw.hanglagen-abschwemmung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.hanglagen-abschwemmung?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.hanglagen-abschwemmung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c2ea0f75-f3c7-4d17-87b6-b717b7a57a72",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landwirtschaft",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale dell'agricoltura",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il set di dati «Zone declive Dilavamento» serve per determinare le superfici su cui vanno adottate misure per la riduzione del dilavamento. Le prescrizioni concernenti le misure per la riduzione del dilavamento si basano sulle esigenze relative alla PER secondo l'allegato 1 numero 6.1a.4 OPD e sulle istruzioni del servizio d'omologazione dei prodotti fitosanitari dell'Ufficio federale della sicurezza alimentare e di veterinaria concernenti misure per la riduzione dei rischi nell'utilizzo di prodotti fitosanitari. I calcoli sono stati effettuati secondo criteri unitari per tutta la Svizzera. La produzione si basa sul modello digitale di elevazione DHM25 (dimensione maglia 25m) di swisstopo. Sono state distinte le seguenti classi di inclinazione del pendio: <=2 per cento; >2 per cento.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.hanglagen-abschwemmung:wmts",
+    "title": "Zone declive Dilavamento",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.silvaprotect-sturz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-sturz?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.silvaprotect-sturz.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/238d97d6-8853-4e26-af30-dc5cbadd58dc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Gefahrenprävention",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Stein- und Blockschlag charakterisieren sich durch isolierte Sturzbewegungen (Fallen, Springen, Rollen) von einzelnen Steinen oder Blöcken von bis zu mehreren Kubikmetern Grösse. Sie können Geschwindigkeiten von bis zu 30 m/s erreichen. Bei Hangneigungen unter 30° kommen die bewegten Steine und Blöcke im Allgemeinen zum Stillstand. Wald kann die kinetische Energie der Blöcke stark reduzieren. Der vorliegende Layer zeigt eine Übersichts-Gefahrenhinweiskarte der potentiellen Stein- und Blockschlagtrajektorien beruhend auf Modellierungen des Prozesses Stein- und Blockschlag aus dem Projekt SilvaProtect-CH. Die Sturzprozesse sind ohne Wirkung des Waldes modelliert.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.silvaprotect-sturz:wmts",
+    "title": "SilvaProtect-CH (Gefahrenhinweis auf nationaler Stufe): Sturz",
+    "type": "Dataset"
+  }
+}

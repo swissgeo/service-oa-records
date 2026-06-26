@@ -1,0 +1,118 @@
+{
+  "id": "ch.bazl.luftfahrtkarten-icao",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.luftfahrtkarten-icao?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.luftfahrtkarten-icao.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f27432fa-948b-4608-98d5-22ebe118c98a",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Topography swisstopo, Cartography",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "skyguide",
+        "country": "CH",
+        "role": "publisher"
+      },
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "specialistAuthority"
+      }
+    ],
+    "description": "The official Aeronautical Chart ICAO 1:500'000 of Switzerland is published in cooperation with skyguide. The chart includes airports and airfields, classified air space, restricted and hazardous areas as well as air navigation obstacles. The printed chart is available folded. There are air traffic control information and an index of airport radio frequencies included in this product. The map is normally annually revised. The pixel chart is delivered as a georeferenced TIF-file (raster format). The chart content is available either as a colour combination or seperated in 3 thematic colour layers (basic map, airspace/air traffic control information, air navigation obstacles/transmission lines), in a resolution of 254 dpi.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.luftfahrtkarten-icao:wmts",
+    "title": "Aeronautical Chart ICAO Switzerland 1:500'000",
+    "type": "Dataset"
+  }
+}

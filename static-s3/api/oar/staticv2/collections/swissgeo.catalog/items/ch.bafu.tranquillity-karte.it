@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.tranquillity-karte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.tranquillity-karte?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.tranquillity-karte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/a9e8cdf5-037e-46aa-8784-e63be1f08618",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Lehrstuhl für Planung von Landschaft und Urbanen Systemen PLUS",
+        "country": "CH",
+        "role": "distributor"
+      },
+      {
+        "organization": "Fondazione svizzera per la tutela del paesaggio (FP)",
+        "country": "CH",
+        "role": "distributor"
+      },
+      {
+        "organization": "Ufficio federale dell'ambiente / Divisione Biodiversità e paesaggio",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La “Tranquillity map dell'Altopiano centrale svizzero” mostra dove si trovano aree pressoché naturali e poco rumorose nell'Altopiano, in prossimità di grandi insediamenti, adatte a uno svago di carattere tranquillo. A tale scopo, la regione biogeografica dell'Altopiano centrale è stata suddivisa in una griglia di celle di 100 x 100 metri. Calcolando vari fattori positivi e negativi che influenzano l'esperienza della tranquillità e dello svago, sia a livello visuale che a livello acustico, è stato calcolato un valore di \"tranquillità\" per ciascuna di queste celle.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.tranquillity-karte:wmts",
+    "title": "Tranquillity map",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.bafu.klima-co2_ausstoss_gebaeude",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.klima-co2_ausstoss_gebaeude?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.klima-co2_ausstoss_gebaeude.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/60ea1623-d68f-4deb-bce0-850a19b67e22",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Statistik",
+        "country": "CH",
+        "role": "custodian"
+      },
+      {
+        "organization": "Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "distributor"
+      }
+    ],
+    "description": "Le parc immobilier suisse est responsable d'environ un quart des émissions de CO2. Des réductions dans ce domaine sont essentielles pour atteindre les objectifs climatiques.</p><p> La carte « Emissions de CO2 des bâtiments (SIA 380/1) » permet d'estimer les émissions de CO2 de chaque immeuble d'habitation. Ces émissions de CO2 sont calculées pour un besoin de chauffage et d'eau chaude dans des conditions normalisées. Pour le calcul, sont utilisées les données publiques du Registre fédéral des bâtiments et des logements RegBL de l'Office fédéral de la statistique. Ces données ne sont pas toutes à jour et ne contiennent pas suffisamment d'informations sur la rénovation des bâtiments. Un calculateur interactif de CO₂ permet de simuler comment la valeur de CO2 évolue si les rénovations énergétiques sont prises en compte ou si un changement de source d'énergie est effectué. Les données saisies ne sont pas sauvegardées. Vous pouvez utiliser cet outil pour chaque bâtiment sous \"Informations sur l'objet\". </p><p> Les données doivent être considérées comme une estimation approximative et ne constituent pas des données officielles ou contraignantes.</p><p> La visualisation du CO2 à l'aide du calculateur de CO2 crée de la transparence et montre qu'il est particulièrement important de tenir à jour les données RegBL. Les propriétaires fonciers peuvent contribuer à l'actualisation des données climatiques et énergétiques des bâtiments dans le RegBL. Un lien sous \"Information sur l'objet\" pour chaque bâtiment décrit comment signaler les éventuelles données obsolètes.</p><p> Vous trouverez de plus amples informations sous https://www.bafu.admin.ch/fr/calculateur-co2-batiments .",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.klima-co2_ausstoss_gebaeude:wmts",
+    "title": "Estimation des émissions de CO₂ directes sur la base des besoins en chaleur selon la norme SIA 380/1 (2016)",
+    "type": "Dataset"
+  }
+}
