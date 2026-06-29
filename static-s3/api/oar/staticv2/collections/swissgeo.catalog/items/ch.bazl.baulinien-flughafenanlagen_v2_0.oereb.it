@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.baulinien-flughafenanlagen_v2_0.oereb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.baulinien-flughafenanlagen_v2_0.oereb?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.baulinien-flughafenanlagen_v2_0.oereb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/da5860d9-e805-4deb-9cfc-a4c3ee322fb7",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell’aviazione civile",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "L'UFAC può determinare allineamenti per assicurare impianti aeroportuali esistenti o futuri. Gli allineamenti devono corrispondere allo stato finale prevedibile delle opere e tener conto della pianificazione del territorio e della protezione dell'ambiente. Possono essere delimitati verticalmente. Entro gli allineamenti non può essere eseguita alcuna trasformazione edilizia o altro intervento contrari al loro scopo. Sono eccettuati i provvedimenti di manutenzione o per l'eliminazione di pericoli e di immissioni nocive.Fino ad oggi, l'UFAC non ha fatto ricorso a questo strumento; pertanto non esistono né dati né un modello minimo di geodati su questo livello d'informazione. I metadati hanno per unico scopo la descrizione del «Feature Service» del rispettivo livello nei catasti cantonali RDPP.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Allineamenti per gli impianti aeroportuali V2.0 RDPP",
+    "type": "Dataset"
+  }
+}

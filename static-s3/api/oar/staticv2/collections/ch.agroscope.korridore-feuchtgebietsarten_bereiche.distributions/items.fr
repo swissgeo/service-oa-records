@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.agroscope.korridore-feuchtgebietsarten_bereiche:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions/items/ch.agroscope.korridore-feuchtgebietsarten_bereiche:wmts?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.agroscope.korridore-feuchtgebietsarten_bereiche?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.korridore-feuchtgebietsarten_bereiche",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.agroscope.korridore-feuchtgebietsarten_bereiche"
+        ]
+      }
+    },
+    {
+      "id": "ch.agroscope.korridore-feuchtgebietsarten_bereiche:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions/items/ch.agroscope.korridore-feuchtgebietsarten_bereiche:wms?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.agroscope.korridore-feuchtgebietsarten_bereiche?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.agroscope.korridore-feuchtgebietsarten_bereiche",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.agroscope.korridore-feuchtgebietsarten_bereiche"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions/items?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.agroscope.korridore-feuchtgebietsarten_bereiche.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

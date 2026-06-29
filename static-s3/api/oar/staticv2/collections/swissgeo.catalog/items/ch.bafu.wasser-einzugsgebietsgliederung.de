@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wasser-einzugsgebietsgliederung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wasser-einzugsgebietsgliederung?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wasser-einzugsgebietsgliederung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/43c19bab-c5f9-4ded-accd-67c91790ada5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wasser",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Mit dem Geobasisdatensatz «Topographische Einzugsgebiete Schweizer Gewässer» steht eine fein aufgelöste und schweizweit flächendeckende Datengrundlage zur Verfügung. Sie bildet zusammen mit dem digitalen Gewässernetz eine feste Einheit.Der Datensatz beinhaltet ein flächendeckendes Mosaik aus über 22'000 aus der Topographie abgeleiteten Teileinzugsgebieten. Er deckt die Schweiz sowie das angrenzende Ausland ab, wobei sämtliche Gewässer mit einer Einzugsgebietsfläche grösser 1-1.5 km² berücksichtigt sind. Die Teileinzugsgebiete sind hierarchisch strukturiert und ermöglichen rasch und einfach Auswertungen über Gesamteinzugsgebiete. Der Geobasisdatensatz ist eine Erhebung von gesamtschweizerischem Interesse über die hydrologischen Verhältnisse. Von ihm geht keinerlei Rechtswirkung aus und er stellt in keiner Art und Weise eine verbindliche Vorgabe dar bei der Definition von Einzugsgebieten.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Topographische Einzugsgebiete Schweizer Gewässer",
+    "type": "Dataset"
+  }
+}

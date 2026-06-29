@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.neophyten-vielblaettrige_lupine:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions/items/ch.bafu.neophyten-vielblaettrige_lupine:wmts?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-vielblaettrige_lupine?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-vielblaettrige_lupine",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.neophyten-vielblaettrige_lupine"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.neophyten-vielblaettrige_lupine:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions/items/ch.bafu.neophyten-vielblaettrige_lupine:wms?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-vielblaettrige_lupine?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-vielblaettrige_lupine",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.neophyten-vielblaettrige_lupine"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions/items?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-vielblaettrige_lupine.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

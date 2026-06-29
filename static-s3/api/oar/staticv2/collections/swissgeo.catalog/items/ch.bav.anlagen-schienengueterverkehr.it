@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.anlagen-schienengueterverkehr",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.anlagen-schienengueterverkehr?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.anlagen-schienengueterverkehr.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/dda92878-86a1-4191-a073-9721671d6bc1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dei trasporti UFT",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Sezione Traffico merci UFT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La concezione del trasporto di merci per ferrovia è una concezione ai sensi dell'articolo 3 della legge sul trasporto di merci (LTM; RS 742.41) e dell'articolo 13 della legge federale sulla pianificazione del territorio (LPT; RS 700). Essa definisce da una parte i principali interessi della Confederazione che vanno tenuti in considerazione nell'ambito della pianificazione di impianti del traffico merci ferroviario e dall'altra contiene un elenco de gli impianti esistenti al momento dell'adozione della concezione. La carta sottostante riporta questi impianti. Il contenuto della carta non ha carattere giuridicamente vincolante. Attivando la funzione di interrogazione si ottengono informazioni di dettaglio sull'impianto selezionato. Per una corretta interpretazione della carta e dei risultati dell'interrogazione è bene tener conto delle informazioni contenute nella concezione del trasporto di merci per ferrovia e nel relativo rapporto esplicativo.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.anlagen-schienengueterverkehr:wms",
+    "title": "Elenco degli impianti del traffico merci ferroviario ai sensi della concezione del trasporto di merci per ferrovia",
+    "type": "Dataset"
+  }
+}

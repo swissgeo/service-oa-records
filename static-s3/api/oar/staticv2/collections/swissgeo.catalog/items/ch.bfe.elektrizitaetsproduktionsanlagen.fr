@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.elektrizitaetsproduktionsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.elektrizitaetsproduktionsanlagen?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.elektrizitaetsproduktionsanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e5a00bdb-5022-4856-ad4a-d1afe7bf38b0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'énergie",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Une installation de production d'électricité est un dispositif technique destiné à produire de l'électricité.Il est dans l'intérêt de tous de disposer d'un aperçu géographique de l'ensemble des installations de production d'électricité de la Suisse. Le développement des installations produisant de l'électricité avec des énergies renouvelables doit notamment être présenté de manière transparente. Il importe aussi de montrer quelle est la proportion de ces installations par rapport à celles produisant de l'électricité avec des énergies non renouvelables. Cet aperçu doit permettre de faire la distinction entre l‘hydraulique, le photovoltaïque, l'éolien, la biomasse, la géothermie, l'énergie nucléaire, le pétrole, le gaz naturel et le charbon. Cette base de données comprend uniquement les installations de production d'électricité enregistrées dans le système suisse des garanties d'origine. Sont donc concernées d'une part les installations d'une puissance supérieure à 30 kilovoltampères (kVA) et les petites installations (à partir de 2 kilowatts (kW)) qui se sont enregistrées sur une base volontaire et d'autre part, les installations encouragées par une rétribution de l'injection, une rétribution unique, un financement des frais supplémentaires ou une contribution d'investissement (art. 19 et 24, LEne). Seules les installations de production d'électricité en service sont prises en compte.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.elektrizitaetsproduktionsanlagen:wms",
+    "title": "Installations de production d'électricité",
+    "type": "Dataset"
+  }
+}

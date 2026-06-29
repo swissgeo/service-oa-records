@@ -1,0 +1,22 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ammoniakkonzentration.distributions",
+  "title": "Distribution Collection for ch.bafu.luftreinhaltung-ammoniakkonzentration.distributions",
+  "type": "Collection",
+  "itemType": "record",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-ammoniakkonzentration.distributions/items?language=en",
+      "rel": "items",
+      "title": "Link to the items of this collection",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-ammoniakkonzentration.distributions?language=en",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "en"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.feststoffe-geschiebemessnetz",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.feststoffe-geschiebemessnetz?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.feststoffe-geschiebemessnetz.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/05ba053f-60ca-492b-a1f5-bd70f6de8761",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'environnement /Division Hydrologie",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Une banque de données pour la détermination des volumes de charriage dans les cours d’eau à l’échelle de la Suisse. Après les événements dévastateurs de l'été 1987, qui ont provoqué des dégâts importants dans un grand nombre de régions de Suisse, le Groupe pour l'Hydrologie Opérationnelle (GHO) a proposé la création d'une banque de données des volumes de charriage. Pour la banque de données Solid, l'OFEV travaille en collaboration avec les cantons et les instituts de recherche. Ceux-ci fournissent les valeurs des charriages transportés et accumulés dans les dépotoirs. Ces quantités sont estimées à l'aide d'instruments topographiques ou lors de la vidange des dépotoirs. La banque de données Solid regroupe une centaine de dépotoirs.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.feststoffe-geschiebemessnetz:wmts",
+    "title": "Banque de données pour la détérmination des volumes de charriage (Confédération)",
+    "type": "Dataset"
+  }
+}

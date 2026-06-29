@@ -1,0 +1,103 @@
+{
+  "id": "ch.bakom.mobilnetz-3g",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bakom.mobilnetz-3g?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bakom.mobilnetz-3g.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/f424dac9-9157-4557-9a28-09b068ddb8f9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Kommunikation",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The broadband map provides an overview of Switzerland's access to modern telecommunications networks. The coverage situation of mobile communication networks is shown in the form of statistical data per grid square (100 x 100 metres). For each cell, you can see the number of operators theoretically providing an outdoor 3G connection (on the street, in a public square, etc.). The coverage shown on the map is an compilation of the data provided by the different mobile network operators. Information on the coverage is calculated using predictive models and does not guarantee accuracy. The actual coverage situation should be determined by making enquiries with the service providers: <a href=\"https://www.salt.ch/fr/coverage/\">Salt</a>, <a href=\"https://sunrise.mapplus.ch/\">Sunrise UPC</a>, <a href=\"https://scmplc.begasoft.ch/plcapp/pages/gis/netzabdeckung.jsf\">Swisscom</a>",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.mobilnetz-3g:wmts",
+    "title": "3G - UMTS / HSPA availability",
+    "type": "Dataset"
+  }
+}

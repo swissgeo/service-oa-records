@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfs.statistische-grundeinheiten_stufe1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfs.statistische-grundeinheiten_stufe1?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfs.statistische-grundeinheiten_stufe1.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/4a2a7766-8a90-45f0-ade4-113cd7e1934e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "BFS/OFS GEOSTAT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les Unités spatiales statistiques de base de premier niveau (USPAT1) permettent une analyse fine du territoire. Elles sont stables dans le temps, c'est-à-dire qu'elles ne sont pas sensibles aux fusions de communes. Dans les régions rurales, elles donnent l'occasion de séparer différentes zones urbanisées qui comprennent généralement plus de 250 habitants ou plus de 250 emplois et 20 établissements ou plus de 125 logements appartenant à une même commune. Les zones urbaines de plus de 15 000 habitants sont de plus subdivisées en secteurs urbains qui de manière générale comprennent entre 7 500 et 15 000 habitants.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfs.statistische-grundeinheiten_stufe1:wmts",
+    "title": "Unités spatiales statistiques de base de premier niveau (USPAT1)",
+    "type": "Dataset"
+  }
+}

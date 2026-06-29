@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.luftreinhaltung-schwefeldioxid",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-schwefeldioxid?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-schwefeldioxid.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/446fdb6e-5768-4549-8f58-187ca82e8dea",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Forti carichi di anidride solforosa (SO₂) possono interessare soprattutto le vie respiratorie; soggetti particolarmente a rischio sono gli asmatici e chi è affetto da malattie croniche delle vie respiratorie. L'SO₂ è tossico per le piante. È anche un importante precursore per la formazione di precipitazioni acide e di particolato secondario. Le emissioni di anidride solforosa derivano dalla combustione di combustibili contenenti zolfo e da alcuni processi industriali. Le serie temporali mostrano le mappe modellate dei valori medi annuali dal 1980 su una griglia di 200 m, dal 2020 in poi su una griglia di 100 m. Localmente, la concentrazione di SO₂ può discostarsi dai dati modellati. I singoli pixel non devono essere utilizzati per la valutazione delle singole località. Il valore limite annuale per l'SO₂ indicato nell'Ordinanza contro l'inquinamento atmosferico è di 30 µg/m³.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-schwefeldioxid:wmts",
+    "title": "Inquinamento atmosferico da anidride solforosa",
+    "type": "Dataset"
+  }
+}

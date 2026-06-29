@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.lebensraumkarte-schweiz_gehoelze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.lebensraumkarte-schweiz_gehoelze?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.lebensraumkarte-schweiz_gehoelze.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/abb1f4cf-69c7-4b26-a232-9a82d0329dd6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Nell'ambito del progetto \"Creazione di una mappa degli habitat della Svizzera\", è stato creato un livello aggiuntivo per alberi e arbusti isolati al di fuori delle foreste, tenendo conto della classificazione TypoCH [1]. Questo livello integra la mappa degli habitat esistente identificando alberi isolati (TypoCH: STR6000) e arbusti (TypoCH: 5.3) al di fuori delle foreste su tutto il territorio.La derivazione è stata eseguita secondo le regole di eCognition utilizzando dati LiDAR SwissSurface3D (modelli di altezza della vegetazione) e relazioni spaziali di vicinato.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.lebensraumkarte-schweiz_gehoelze:wmts",
+    "title": "Mappa degli habitat della Svizzera v1.2: Alberi, cespugli, arbusti e siepi isolati v1.0",
+    "type": "Dataset"
+  }
+}

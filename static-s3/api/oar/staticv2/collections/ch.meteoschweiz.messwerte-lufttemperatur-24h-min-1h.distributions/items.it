@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h:geojson",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h.distributions/items/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h:geojson?language=it",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h.distributions?language=it",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h?language=it",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h",
+          "type": "application/json",
+          "hreflang": "it"
+        },
+        {
+          "href": "https://data.geo.admin.ch/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h_it.json",
+          "rel": "about",
+          "title": "Link to GeoJSON file",
+          "type": "application/geo+json"
+        },
+        {
+          "href": "https://api3.geo.admin.ch/static/vectorStyles/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h.json",
+          "rel": "styled-by",
+          "title": "Link to style file for the GeoJSON layer",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "GeoJSON Layer",
+        "protocol": "geojson"
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h.distributions/items?language=it",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.meteoschweiz.messwerte-lufttemperatur-24h-min-1h.distributions?language=it",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "it"
+    }
+  ]
+}

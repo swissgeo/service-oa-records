@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/c63a8513-7d77-4e11-9f6f-8d36debb036b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Diese Karte bildet die Höhenstufen der Waldvegetation in der Schweiz für die Periode 2070 - 2099 unter Annahme einer weniger trockenen Klimazukunft ab. Folgende Höhenstufen kommen nur in den Südtälern vor: «mediterran», «hyperinsubrisch», «collin mit Buche», und «unter-/obermontan». Als Grundlage für die Verschiebung der Höhenstufen in die Zukunft dient die Karte «Vegetationshöhenstufen modelliert für 1995». Unter den Repräsentativen Konzentrationspfaden wurde RCP 4.5 mit der Modellkombination SMHI-RCA_MPIESM_EUR44 als «weniger trockene» Klimaprojektion gewählt (NCCS 2018). Dieses Modell schätzt im Vergleich zur Periode 1981-2010 für die Monate April bis August, die als für die Klimaeignung der Bäume am relevantesten angesehen werden, eine durchschnittliche Erwärmung um 1.8 °C (Nordschweiz), resp. 2.3 °C (Südschweiz), und eine Reduktion der Niederschläge um 4.0% (Nordschweiz) bzw. 0.5% (Südschweiz) (Remund 2020). Die natürliche obere Waldgrenze wurde mit einem analogen Vorgehen modelliert (Könz et al. 2021). --- Quelle: Zischg et al. (subm.)",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken:wmts",
+    "title": "Vegetationshöhenstufen modelliert für 2085 mit weniger trockener Klimazukunft",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.fixpunkte-lfp1",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.fixpunkte-lfp1?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.fixpunkte-lfp1.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/7a49183b-9766-40dd-936c-fb09fdded185",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo, misurazione",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "I punti di misurazione costituiscono la base di tutti i dati a riferimento spaziale. L’utilizzo dei punti cosiddetti fissi è raccomandato per tutti i lavori tecnici che necessitano di misure affidabili e precise nelle zone considerate. Per punto fisso planimetrico s'intende un punto assicurato durevolmente con un cippo o un bollone (talvolta sotto chiusino) con coordinate conosciute e eventualmente altezza conosciuta. I punti fissi planimetrici della prima categoria sono di responsabilità della confederazione (swisstopo). Ne esistono di diversi tipi: * I punti fissi della prima categoria (PFP1) costituiscono la base per tutti i lavori di misurazione in Svizzera. Le coordinate MN03 dei punti fissi planimetrici storici sono state determinate tramite triangolazione all’inizio del 20esimo secolo. * I punti d'appoggio per la trasformazione (PAT1) sono dei punti misurati in modo preciso nei quadri di riferimento MN03 e MN95. * I punti EUREF sono punti fissi planimetrici della rete di riferimento GNSS europea EUREF (European Reference Frame). * I punti MN95 sono dei punti fissi planimetrici che servono da base per il nuovo quadro di riferimento MN95. Le loro coordinate sono state misurate in maniera precisa secondo il metodo GNSS. Siccome a volte un punto fisso può essere di differenti tipi, i simboli della leggenda possono sovrapporsi sulla carta.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.fixpunkte-lfp1:wms",
+    "title": "Punti fissi planimetrici PFP1 (misurazione nazionale)",
+    "type": "Dataset"
+  }
+}

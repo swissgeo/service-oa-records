@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.auen-ausserhalb_bundesinventar_alpin",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.auen-ausserhalb_bundesinventar_alpin?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.auen-ausserhalb_bundesinventar_alpin.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ecee1c92-9d66-41c7-af14-900902f54527",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Im Rahmen der systematischen Inventarisierungen der Auengebiete wurden auch Objekte evaluiert, die letztlich nicht als Objekte von nationaler Bedeutung in das Bundesinventar aufgenommen wurden. In der Regel haben diese Objekte einen Auswahl- und Bewertungsprozess durchlaufen und weisen spezifische Qualitäten auf, die regionale oder lokale Bedeutung begründen können. Damit diese Objekte von den zuständigen Fachstellen und der interessierten Öffentlichkeit wahrgenommen werden können, publiziert sie das BAFU als Objekte ausserhalb des Bundesinventars.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.auen-ausserhalb_bundesinventar_alpin:wmts",
+    "title": "Alpine Auengebiete ausserhalb Bundesinventar",
+    "type": "Dataset"
+  }
+}

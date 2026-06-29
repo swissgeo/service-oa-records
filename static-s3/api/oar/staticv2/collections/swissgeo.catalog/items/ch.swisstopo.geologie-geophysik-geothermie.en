@@ -1,0 +1,103 @@
+{
+  "id": "ch.swisstopo.geologie-geophysik-geothermie",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geophysik-geothermie?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-geophysik-geothermie.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/2d8174b2-8c4a-44ea-b470-cb3f216b90d1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Topography swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The geothermal map shows the thermal energy that is produced in the subsurface and traverses the Earth's surface within an area of 1 m2 (mW/m2). The heat flow data is calculated from the temperature gradient (average value approx. 30 K/km) and heat conductivity of the rock (average value approx. 3 W/(m·K). The heat itself is released in the Earth's crust (ca. 30 km thick) generally by radioactive decay processes. On average, the heat flow in Switzerland is around 90 mW/m2. The highest figures are found in northern Switzerland and the lowest in the Alps/Jura. Differences are caused by deep groundwater circulating in permeable rock strata. - Source: <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/2d8174b2-8c4a-44ea-b470-cb3f216b90d1/attachments/Beitrag_GP_030_Medici-Rybach.pdf?approved=true\" target=\"_blank\">F. MEDICI & L. RYBACH, Geothermal map of Switzerland 1995 (heat flow density), Contributions to the Geology of Switzerland, Geophysical Series, No. GP-30</a>.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geophysik-geothermie:wmts",
+    "title": "Geothermal Map of Switzerland 1:500000",
+    "type": "Dataset"
+  }
+}

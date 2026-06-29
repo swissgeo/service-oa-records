@@ -1,0 +1,41 @@
+{
+  "id": "ch.bfe.windenergie-potenzialgebiete:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.windenergie-potenzialgebiete.distributions/items/ch.bfe.windenergie-potenzialgebiete:wms?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.windenergie-potenzialgebiete.distributions?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.windenergie-potenzialgebiete?language=en",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bfe.windenergie-potenzialgebiete",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bfe.windenergie-potenzialgebiete"
+    ]
+  }
+}

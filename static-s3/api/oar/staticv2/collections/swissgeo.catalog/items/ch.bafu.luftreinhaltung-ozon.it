@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.luftreinhaltung-ozon",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.luftreinhaltung-ozon?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.luftreinhaltung-ozon.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/88d9db83-6c8e-4d3e-a17b-9f86bd45df06",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "L'ozono troposferico ha effetti negativi sia sulla salute umana che sulla vegetazione. In particolare, livelli elevati causano irritazione delle vie respiratorie e dei tessuti polmonari. Nelle piante, alte concentrazioni di ozono causano danni visibili alle foglie e agli aghi e possono portare alla perdita del raccolto. L'ozono troposferico è un inquinante secondario e si forma dagli ossidi di azoto e dai composti organici volatili sotto l'influenza della luce solare. Le serie temporali mostrano le mappe modellate dei valori medi annuali dal 1990 su una griglia di 200 m, dal 2020 in poi su una griglia di 100 m. Localmente, la concentrazione di Oᴣ può discostarsi dai dati modellati. I singoli pixel non devono essere utilizzati per la valutazione delle singole località. Il valore limite per il 98° percentile dei valori mensili su mezz'ora de l'Oᴣ indicato nell'Ordinanza contro l'inquinamento atmosferico è di 100 µg/m³.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.luftreinhaltung-ozon:wmts",
+    "title": "Inquinamento atmosferico da Ozono",
+    "type": "Dataset"
+  }
+}

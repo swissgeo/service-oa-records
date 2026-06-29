@@ -1,0 +1,103 @@
+{
+  "id": "ch.astra.ivs-nat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.astra.ivs-nat?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.astra.ivs-nat.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/70b6e2ac-c7ea-4699-a22e-65792aa3b0b9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Roads Office",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The inventory of historical routes in Switzerland (IHR) contains comprehensive information about the course of the historical routes, their history, their condition and their importance in terms of the Natural Culture and Heritage Act (NCHA). The IHR consists of two parts: the federal inventory and the additional historical routes (Ordinance on the Federal Inventory of Historic Swiss Transport Routes (ITRO), Article 3). The objects of national importance with visible historic substance make up the legally protected federal inventory. Objects which are of national importance in a historical context but which have no or little structural substance are not included in the federal inventory. Numerous objects which have been designated by the cantons as being of regional or local importance also form part of the IHR but not of the federal inventory. You can find more information about the inventory via the following link: http://www.ivs.admin.ch/. The complete dataset of the inventory can be displayed in the following WebGIS application and also downloaded: http://ivs-gis.admin.ch (see Article 4 of the ITRO).",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.astra.ivs-nat:wmts",
+    "title": "Federal inventory of historical routes in Switzerland (IHR)",
+    "type": "Dataset"
+  }
+}

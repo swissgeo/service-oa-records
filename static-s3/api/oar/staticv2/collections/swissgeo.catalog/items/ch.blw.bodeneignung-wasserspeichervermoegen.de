@@ -1,0 +1,109 @@
+{
+  "id": "ch.blw.bodeneignung-wasserspeichervermoegen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.bodeneignung-wasserspeichervermoegen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-wasserspeichervermoegen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/6caf4d0f-52da-433a-809f-92781316ad0e",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landwirtschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Info Fauna Karch",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Der Begriff bezieht sich auf das Wasser, das vom Boden durch Tensionskräfte festgehalten und durch die Pflanzen leicht aufnehmbar ist (Saugspannung 0,1 - 1 Atm). Überschlagsmässig kann pro 1 cm physiologische Gründigkeit mit 1 mm leicht verfügbarem Wasser (0,1 - 1 Atm Saugspannung) gerechnet werden. Die physiologische Gründigkeit ergibt sich aus der gesamten durchwurzelbaren Schicht, abzüglich Bodenskelett und grosse Hohlräume in Sand-Kiesböden, zudem Abzüge für kompaktes Gefüge und sauerstoffarme Horizonte.(Details: Bodeneignungskarte der Schweiz, März 1980)",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.blw.bodeneignung-wasserspeichervermoegen:wmts",
+    "title": "Digitale Bodeneignungskarte der Schweiz - Wasserspeichervermögen",
+    "type": "Dataset"
+  }
+}

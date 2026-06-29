@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_1975",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_1975?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-vegetationshoehenstufen_1975.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/195c406f-8f07-45af-b705-9bddb97d4f01",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Diese Karte bildet die Höhenstufen der Waldvegetation in der Schweiz für die Periode 1961-1990 ab. Folgende Höhenstufen kommen nur in den Südtälern vor: «hyperinsubrisch», «collin mit Buche», und «unter-/obermontan». Zur Herleitung der Karte wurden die in Frehner et al. (2005/2009) dargestellten Höhenstufen quantifiziert und verfeinert. Dazu wurden ihre jeweiligen oberen Grenzen modelliert und mit Modellierungen des Buchenareals sowie der Tannenareale (Haupt-, Neben- und Reliktareale) kombiniert (Zischg et al. subm.). Ebenfalls wurde die natürliche obere Waldgrenze mit einem analogen Vorgehen modelliert (Könz et al. 2021). Als Grundlage zur Modellierung der Grenzen und Areale wurden Klimaparameter und geologische Grundlagendaten verwendet.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_1975:wmts",
+    "title": "Vegetationshöhenstufen modelliert für 1975",
+    "type": "Dataset"
+  }
+}

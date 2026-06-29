@@ -1,0 +1,104 @@
+{
+  "id": "ch.are.wohnungsinventar-zweitwohnungsanteil",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.are.wohnungsinventar-zweitwohnungsanteil?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.are.wohnungsinventar-zweitwohnungsanteil.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/ed80ebde-99a0-4523-bc8a-4ec23426d966",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Raumentwicklung",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Der Kartendienst Wohnungsinventar zeigt als Status in blauer Grundierung die Gemeinden, die den baurechtlichen Bestimmungen des Zweitwohnungsgesetzes (ZWG, SR 702) unterstehen und Zweitwohnungen nur unter strengen Auflagen erstellen dürfen (ZWG Art. 7ff.). Das ZWG definiert als Grenze einen Zweitwohnungsanteil von 20 Prozent. Zur Berechnung der Zweitwohnungsanteile verpflichtet das ZWG alle Schweizer Gemeinden jährlich ein Wohnungsinventar zu erstellen. Die Grundlage dafür bildet das eidgenössische Gebäude- und Wohnungsregister (GWR). Das GWR wird von den Gemeinden gepflegt und durch das Bundesamt für Raumentwicklung per 31.12. ausgewertet. Ende März publiziert das ARE die Wohnungsinventare und Zweitwohnungsanteile. Gemeinden, deren Zweitwohnungsanteil im März neu die Grenze von 20 Prozent unter- oder überschreitet, befinden sich in einem Verfahren zur Überprüfung des Zweitwohnungsanteils. Ende Oktober wird in der Liste der Verfahrensstand (Status) aktualisiert. Die Prozentangaben des Wohnungsinventars bleiben bis zur nächsten Publikation der Wohnungsinventare Ende März unverändert, da im Prüfungsverfahren für den Entscheid unter oder über 20 Prozent Zweitwohnungsanteil nicht in jedem Fall die genauen Werte ermittelt werden müssen. Für genauere Informationen zu laufenden Verfahren sind die Gemeinden zuständig. Die Gemeinden müssen im Wohnungsinventar die Gesamtzahl der Wohnungen sowie die Erstwohnungen ausweisen, es gibt für sie jedoch keine Pflicht, Erstwohnungen gleichgestellte Wohnungen oder Zweitwohnungen im GWR als solche zu deklarieren. Deshalb lassen sich die Daten der Wohnungsinventare in Bezug auf die Zweitwohnungen zwischen Gemeinden nicht vergleichen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.are.wohnungsinventar-zweitwohnungsanteil:wmts",
+    "title": "Wohnungsinventar und Zweitwohnungsanteil",
+    "type": "Dataset"
+  }
+}

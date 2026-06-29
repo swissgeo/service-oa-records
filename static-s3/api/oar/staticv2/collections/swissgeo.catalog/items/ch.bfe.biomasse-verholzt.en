@@ -1,0 +1,108 @@
+{
+  "id": "ch.bfe.biomasse-verholzt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.biomasse-verholzt?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.biomasse-verholzt.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b8539dc3-3a56-467e-8433-80f522bfd6fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Swiss Federal Office of Energy",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Biomass is a renewable resource for energy which can be transformed into several forms of energy: heat, electricity, biogas or liquid fuels. Woody types of biomass were investigated using methodically comparable approaches: forest wood, wood from landscape maintenance, waste wood and industrial wood residues. Within the implementation of the energy strategy 2050 the Swiss government foresees a massive increase in the share of renewable energy. The Swiss Competence Center for Energy Research (SCCER) Biosweet (Biomass for Swiss Energy Future) seeks solutions to the technical, social and political challenges posed by the Energy Transition with regard to biomass. The Swiss Federal Institute for Forest, Snow and Landscape Research WSL quantified and localised the potential of important biomass resources in Switzerland, particularly with regard to their sustainable availability. The results are useful as a basis for identifying promising biomass-use pathways and the best sites for their implementation. Data (https://www.envidat.ch/dataset/swiss-biomass-potentials) and a detailed report are available online (https://www.dora.lib4ri.ch/wsl/islandora/object/wsl%3A13277/datastream/PDF/Thees-2017-Biomassepotenziale_der_Schweiz_f%C3%BCr_die-%28published_version%29.pdf). This map shows the sustainable potential of woody biomass for bioenergy (maximum amount of nationally produced woody biomass that could be used, after deducting any ecological, economic, legal and political constraints) in Switzerland at the municipality level in primary energy (maximum amount of energy available in a resource without conversion) in terajoules.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biomasse-verholzt:wmts",
+    "title": "Sustainable potential of woody biomass resources for bioenergy in Switzerland at the municipality level",
+    "type": "Dataset"
+  }
+}

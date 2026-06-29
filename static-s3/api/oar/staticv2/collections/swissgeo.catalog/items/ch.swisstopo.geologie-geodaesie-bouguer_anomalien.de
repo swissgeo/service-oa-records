@@ -1,0 +1,119 @@
+{
+  "id": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geodaesie-bouguer_anomalien?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-geodaesie-bouguer_anomalien.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/618c9697-129f-47c7-830a-7a256b4c2499",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "distributor"
+      },
+      {
+        "organization": "Schweizerische Geophysikalische Kommission",
+        "country": "CH",
+        "role": "originator"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Fallbeschleunigung oder Schwere hängt vom Ort des Messpunktes und der Massenverteilung im Untergrund ab. Als Bouguer-Anomalie bezeichnet man die Differenz zwischen der in einem bestimmten Punkt auf der Erdoberfläche gemessenen Schwere und jenem Schwerewert, welchen man für eine schalenförmig homogene Erde am selben Punkt erwarten würde. Die Bouguer-Anomalien sind mit Hilfe der internationalen Schwereformel von 1967 berechnet, wobei die Geländeeinwirkung bis 167 km Entfernung (Zone O2 nach Hayford) mit konstanter Dichte von 2670 kg/m3 berücksichtigt ist. Die Karte verdeutlicht einerseits die regionalen negativen Schwereanomalien entlang der Alpen und anderseits die positive Anomalie der Sesia-Finero-Zone, welche einen Massenüberschuss im Erdinnern bedeutet.- Von E. KLINGELE & R. OLIVIER, 1979- Neue Ausgabe R. OLIVIER, B. DUMONT & E. KLINGELE, 2008",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geodaesie-bouguer_anomalien:wmts",
+    "title": "Schwerekarte der Schweiz (Bouguer-Anomalien) 1:500000",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch.bafu.bundesinventare-moorlandschaften",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-moorlandschaften?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.bundesinventare-moorlandschaften.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/7ed73e2f-0a41-4e8b-a7ff-413f2d9b5ece",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Mire landscapes are essentially semi-natural landscapes shaped by mires that are also home to other noteworthy natural and cultural elements. They are the last remaining habitats for various animal and plant species. The scientific mire landscape inventory was compiled from 1987 to 1990 by Hintermann & Weber AG on behalf of the FDHA. Under Art. 23b of the Federal Act of 1 July 1966 on the Protection of Nature and Cultural Heritage (NCHA), the Federal Council designates the mire landscapes of particular beauty and national importance in consideration of existing settlements and uses and assesses their situation. It also works closely with the cantons and hears the property owners concerned. In 1996, the Federal Council enacted the protection of mire landscapes provision that contained an appendix with a federal inventory of 88 sites. It was first revised in 2001 at the request of the Canton of Vaud, followed by a second revision that including the definitive entry of the Grimsel site in 2004, and two other revisions in 2007, 2015 and 2017. It counts now 89 sites.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-moorlandschaften:wmts",
+    "title": "Federal Inventory of Mire Landscapes of Particular Beauty and National Significance",
+    "type": "Dataset"
+  }
+}

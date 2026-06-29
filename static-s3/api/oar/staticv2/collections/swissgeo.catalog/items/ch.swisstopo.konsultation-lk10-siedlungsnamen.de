@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo.konsultation-lk10-siedlungsnamen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.konsultation-lk10-siedlungsnamen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.konsultation-lk10-siedlungsnamen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/changeme 38p316cgfoe2",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Landeskarte 1:10'000 ist die grossmassstäblichste topografische Karte von swisstopo. Sie zeichnet sich durch die sehr detaillierte Verkehrs-, Siedlungs-, Gelände- und Vegetationsdarstellung sowie einer dichten Beschriftung aus. Ergänzt werden die Inhalte mit der Felszeichnung und dem Relief. Der Kartenperimeter umfasst das Landesgebiet der Schweiz und des Fürstentums Liechtenstein. Die Nachführung erfolgt jährlich basierend auf der aktuellsten Version des Topografischen Landschaftsmodells TLM von swisstopo. Die Landeskarte 1:10'000 wird in digitaler Form farbig und in Graustufen erstellt. Beide Versionen dienen als Basiskarte in den ersten vier Zoomstufen im Geodatenviewer des Bundes map.geo.admin.ch. Die Landeskarte 1:10'000 steht ebenfalls als Swiss Map Raster 10 in Form von georeferenzierten TIF-Dateien und als Swiss Map Vector 10 zur Verfügung und kann für individuelle Perimeterausschnitte bezogen werden.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Landeskarte 1:10'000 (farbig)",
+    "type": "Dataset"
+  }
+}

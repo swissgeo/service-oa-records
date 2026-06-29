@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/922ddfaf-8e1b-43b1-87f5-1bbd1e884aa5",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dei trasporti UFT",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Sezione Pianificazione UFT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Si tratta da un lato di impianti non ancora in esercizio per i quali le attività d’incidenza territoriale e il processo relativo al piano settoriale sono conclusi conformemente all’articolo 5 OPT. Esiste un progetto di pubblicazione, la procedura di approvazione dei piani è stata avviata o è stata emessa la relativa decisione; il progetto viene realizzato. D'altro canto, il piano settoriale può fornire indicazioni sulla situazione territoriale e materiale, in particolare sugli edifici e gli impianti già esistenti, ai fini di una migliore comprensione delle indicazioni.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.sachplan-infrastruktur-schifffahrt_ausgangslage:wms",
+    "title": "Piano settoriale dei trasporti, parte infrastruttura navigazione (SIF): statu quo",
+    "type": "Dataset"
+  }
+}

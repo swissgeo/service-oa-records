@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/cb537abf-20f7-4051-ac25-60deaff9d222",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Wald",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidg. Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Eidgenössische Forschungsanstalt WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Informationen zu Vegetationshöhen werden mit Methoden der Fernerkundung mit aktiven und passiven Sensoren ermittelt. Ein aktiver Sensor ist LiDAR. Ein passiver Sensor ist ein optischer Sensor, zum Beispiel eine Luftbildkamera. LiDAR wird in der Schweiz auf regionaler, kantonaler und nationaler Ebene aufgenommen. Stereo – Lufbilder werden auf nationaler Ebene regelmässig in einem 3-Jahres Turnus aufgezeichnet. Aus diesen planbaren Grundlagendaten der swisstopo werden regelmässig 3D Datensätze, digitale Oberlächenmodelle (DOM), mit hoher Auflösung im Rahmen des Landesforstinventars (LFI) erstellt. Aus der Differenz des DOM und dem digitalen Terrainmodell der swisstopo (swissAlti3D) wird ein normalisiertes digitales Oberflächenmodell (nDOM) berechnet. Gebäude werden mit einer Kombination aus den Grundflächen des Topographischen Landschaftsmodells (TLM) der swisstopo und den spektralen Informationen der Stereo – Luftbilder eliminiert. Das Endresutat ist ein Modell der Vegetationshöhe (Vegetationshöhenmodell VHM) über die Schweiz.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief_sentinel:wmts",
+    "title": "Reliefschattierung zum Vegetationshöhenmodell Sentinel LFI",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.armasuisse.natur-landschaft_armee",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.armasuisse.natur-landschaft_armee?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.armasuisse.natur-landschaft_armee.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/b7ed249a-0ee4-4430-acd4-de34097955ad",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "armasuisse Immobili",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio fed. dell'armamento - armasuisse / UNSN",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Il DDPS è uno dei più importanti proprietari di fondi della Svizzera. Gran parte delle superfici utilizzate a scopo militare è ubicata entro il perimetro degli inventari di protezione della natura e del paesaggio. In molte località, come nelle zone di riproduzione degli anfibi, l'uso militare favorisce la salvaguardia dei valori ecologici, ma può avere anche un impatto negativo che deve essere contenuto il più possibile. La Costituzione federale considera gli interessi di difesa nazionale e quelli di protezione della natura alla stessa stregua.Da 25 anni, il DDPS protegge e promuove la biodiversità delle specie e dei rispettivi habitat presenti nelle aree militari con il programma Natura - Paesaggio - Esercito (NPEs), nel quadro del quale sono stati registrati sia i valori ecologici delle aree più estese (come le piazze d'armi, le piazze di tiro o gli aerodromi), sia gli utilizzi da parte dell'esercito e di terzi. Dopodiché sono stati individuati i conflitti presenti nonché definite e implementate le misure idonee a neutralizzarli. I dossier pertinenti vengono aggiornati periodicamente e in caso di variazioni sensibili. I dati ottenuti con il programma NPEs forniscono una mappatura dei valori ecologici e degli habitat più importanti presenti sulle aree utilizzate dall'esercito. Si considerano importanti tutti gli habitat aventi statuto di protezione. L'habitat può essere protetto ai sensi della legge sulla protezione della natura e del paesaggio oppure si tratta di un'area registrata in un inventario nazionale, cantonale o comunale. Oltre a questi habitat protetti, sono contemplati anche altri spazi vitali e aree sensibili, ad esempio zone estremamente diversificate dal punto di vista delle specie o aree che hanno come scopo principale quello di promuovere la biodiversità.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.armasuisse.natur-landschaft_armee:wmts",
+    "title": "Natura Paesaggio Esercito (NPE), valori naturali/ habitat su terreni militari",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.kehrichtverbrennungsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.kehrichtverbrennungsanlagen?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.kehrichtverbrennungsanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/d9596eaf-5629-4756-9a46-4f178407b905",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'energia",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "L'incenerimento dei rifiuti consiste nel bruciare i loro componenti combustibili a pressione atmosferica, allo scopo di ridurne il volume e di utilizzare l'energia che contengono. Nel 2017, il parco svizzero di IIR comprendeva 30 impianti con capacità compresa tra 30 000 e 230 000 tonnellate all'anno. La quantità totale di rifiuti combustibili provenienti dalla Svizzera e dall'estero che viene termovalorizzata negli IIR è di circa 4 milioni di tonnellate. Il calore generato durante la combustione viene utilizzato per la produzione di energia elettrica o per alimentare reti di teleriscaldamento, oppure come calore di processo in impianti industriali. Nel 2017 i 30 IIR hanno prodotto una quantità record di energia per un totale di 4036 gigawattora (GWh) di calore e 2338 GWh di elettricità. Questi impianti contribuiscono così nella misura del 2,5 per cento circa alla copertura del fabbisogno energetico complessivo della Svizzera e del 4 per cento circa alla produzione di elettricità. I geodati specifici «IIR» documentano lo stato attuale delle quantità di rifiuti riciclati e delle quantità di energia fornita all'esterno, basandosi sulle informazioni rilasciate dai gestori degli impianti. I dati sono da intendersi come materiale informativo per il pubblico, non hanno carattere ufficiale e non sono vincolanti sotto il profilo giuridico.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.kehrichtverbrennungsanlagen:wmts",
+    "title": "Impianti di incenerimento di rifiuti (IIR)",
+    "type": "Dataset"
+  }
+}

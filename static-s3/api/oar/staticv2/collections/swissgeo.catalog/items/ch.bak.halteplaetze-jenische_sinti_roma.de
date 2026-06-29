@@ -1,0 +1,104 @@
+{
+  "id": "ch.bak.halteplaetze-jenische_sinti_roma",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bak.halteplaetze-jenische_sinti_roma?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bak.halteplaetze-jenische_sinti_roma.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/51193e6b-d3d6-4202-8d1c-8bdb49f59535",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Kultur",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die Sammlung von Geodaten \"Standplätze, Durchgangs und Transitplätze für Jenische, Sinti und Roma \" enthält Informationen über die Plätze, die für den Durchgang und die Stationierung der Jenischen, Sinti und Roma reserviert sind, die überwiegend einen nomadischen Lebensstil führen. Die Einrichtung und Verwaltung der Gebiete liegt hauptsächlich in der Verantwortung der Kantone und Gemeinden. Auf nationaler Ebene ist das Bundesamt für Kultur zuständig. Die Sammlung wird vom Bundesamt für Kultur in Zusammenarbeit mit der Stiftung \"Zukunft für Schweizer Fahrende\" und dem Bundesamt für Raumentwicklung ARE veröffentlicht.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bak.halteplaetze-jenische_sinti_roma:wmts",
+    "title": "Standplätze, Durchgangs und Transitplätze für Jenische, Sinti und Roma",
+    "type": "Dataset"
+  }
+}

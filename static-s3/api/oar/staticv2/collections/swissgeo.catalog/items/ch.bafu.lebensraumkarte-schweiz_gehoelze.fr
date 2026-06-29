@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.lebensraumkarte-schweiz_gehoelze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.lebensraumkarte-schweiz_gehoelze?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.lebensraumkarte-schweiz_gehoelze.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/abb1f4cf-69c7-4b26-a232-9a82d0329dd6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Dans le cadre du projet « Création d'une carte des habitats de Suisse », une couche supplémentaire pour les arbres isolés et les buissons hors forêt a été créée, qui tient compte de la classification TypoCH [1]. Cette couche complète la carte des habitats existante en recensant les arbres isolés (TypoCH : STR6000) et les buissons (TypoCH : 5.3) hors forêt sur l'ensemble du territoire.La dérivation a été effectuée selon des règles dans eCognition à l'aide des données LiDAR SwissSurface3D (modèles de hauteur de végétation) et des relations de voisinage spatiales.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.lebensraumkarte-schweiz_gehoelze:wmts",
+    "title": "Carte des habitats de Suisse v1.2: Arbres, buissons, arbustes et haies isolés hors forêt v1.0",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.blw.bodeneignung-kulturland:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions/items/ch.blw.bodeneignung-kulturland:wmts?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.bodeneignung-kulturland?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.blw.bodeneignung-kulturland",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.blw.bodeneignung-kulturland"
+        ]
+      }
+    },
+    {
+      "id": "ch.blw.bodeneignung-kulturland:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions/items/ch.blw.bodeneignung-kulturland:wms?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.bodeneignung-kulturland?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.blw.bodeneignung-kulturland",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.blw.bodeneignung-kulturland"
+        ]
+      }
+    },
+    {
+      "id": "ch.blw.bodeneignung-kulturland:api3features",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions/items/ch.blw.bodeneignung-kulturland:api3features?language=de",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions?language=de",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.blw.bodeneignung-kulturland?language=de",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.blw.bodeneignung-kulturland",
+          "type": "application/json",
+          "hreflang": "de"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [
+        {
+          "uriTemplate": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.blw.bodeneignung-kulturland/{featureId}/htmlPopup?lang={lang}",
+          "rel": "preview",
+          "title": "HTML popup for a feature of this distribution",
+          "type": "application/html",
+          "variables": {
+            "featureId": {
+              "type": "string",
+              "description": "Feature ID"
+            },
+            "lang": {
+              "type": "string",
+              "enum": [
+                "de",
+                "fr",
+                "it",
+                "en"
+              ],
+              "default": "de",
+              "description": "Language code"
+            }
+          }
+        }
+      ],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "Geoadmin Features",
+        "protocol": "geoadmin:features",
+        "externalIds": [
+          "ch.blw.bodeneignung-kulturland"
+        ],
+        "queryable": true,
+        "renderable": true
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions/items?language=de",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.blw.bodeneignung-kulturland.distributions?language=de",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "de"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-swissbedrock",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-swissbedrock?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-swissbedrock.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f7836146-3f9a-4807-9011-618800409236",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "swissBEDROCK ist ein umfassender Datensatz, der detaillierte Informationen über die Felsoberfläche der Schweiz bereitstellt.Zusätzlich zum Höhenmodell der Felsoberfläche (BEM) enthält es Informationen über die Mächtigkeit des Lockergesteins (TMUD), Angaben zu Unsicherheiten, Autoren sowie Änderungen gegenüber früheren Versionen. Der Datensatz ist als Multiband-Rasterdatensatz (Rasterzellengröße 10 x 10 Meter) mit <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/Attribute_Table.pdf?approved=true\" target=\"_blank\">11 Informationsbändern</a> pro Zelle strukturiert. Er unterstützt Versionierung für Transparenz und Rückverfolgbarkeit und wird durch automatisierte Aktualisierungen innerhalb definierter Gebiete gepflegt, unter Verwendung neuer Bohrloch- und Kartierungsinformationen oder durch Ersetzungen mit Beiträgen Dritter. Der vollständige swissBEDROCK-Datensatz kann <a href=\"https://www.swisstopo.admin.ch/de/swissbedrock-de\" target=\"_blank\">hier heruntergeladen</a> oder auf <a href=\"https://viewer.swissgeol.ch/?lon=8.41012&lat=46.83165&elevation=425641&heading=0&pitch=-90&map=ch.swisstopo.pixelkarte-grau&map_transparency=0.00&layers=ch.swisstopo.swissbedrock-geotiff&layers_visibility=true&layers_transparency=0.50&layers_timestamp=\" target=\"_blank\">viewer.swissgeol.ch</a> zellweise angezeigt und abgefragt werden. Eine Datei mit den <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_ReleaseNotes_R1.pdf?approved=true\" target=\"_blank\">Versionshinweisen</a> wird bereitgestellt, die Herkunft und Eigenschaften der verschiedenen Modellkomponenten beschreibt. Weitere Informationen zur methodischen Übersicht und zum Arbeitsablauf sind in der <a href=\"https://www.geocat.ch/geonetwork/srv/api/records/f7836146-3f9a-4807-9011-618800409236/attachments/swissBEDROCK_model_description.pdf?approved=true\" target=\"_blank\">Modellbeschreibung</a> zu finden. 3D-Modelle stellen Vereinfachungen der realen Geologie dar. Der Nutzer anerkennt, dass die Autoren alle zumutbaren Aufwände unternommen haben, um die Informationen im geologischen 3D-Modell zu verifizieren. Es gibt keine Garantie, dass die angegebenen Daten an einem bestimmten Punkt im Untergrund korrekt sind. Der Herausgeber ist unter keinen Umständen für jegliche Verluste oder Schäden materieller oder immaterieller Art haftbar, welche aus dem Zugriff auf, die Nutzung oder Nichtnutzung der veröffentlichen Informationen, durch Missbrauch oder technische Störungen entstehen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "swissBEDROCK",
+    "type": "Dataset"
+  }
+}

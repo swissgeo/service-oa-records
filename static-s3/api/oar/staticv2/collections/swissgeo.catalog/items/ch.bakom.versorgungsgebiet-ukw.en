@@ -1,0 +1,108 @@
+{
+  "id": "ch.bakom.versorgungsgebiet-ukw",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bakom.versorgungsgebiet-ukw?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bakom.versorgungsgebiet-ukw.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/60a2fcd0-3a04-4fea-9bae-c3e0f9b31604",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Communications",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Communications",
+        "country": "CH",
+        "role": "publisher"
+      }
+    ],
+    "description": "Coverage areas of all private local/regional radio broadcasters with a performance mandate and fee-splitting in accordance with Article 38 and a performance mandate in accordance with Article 43 of the Radio and Television Act (RTVA). The corresponding technical provisions and planning foundations, plus the extent of the individual coverage areas, based on Article 38 of the Radio and Television Ordinance (RTVO), can be found in Annex 1 (Radio) and Annex 2 (Television) of the RTVO.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bakom.versorgungsgebiet-ukw:wmts",
+    "title": "Local/regional radio coverage areas",
+    "type": "Dataset"
+  }
+}

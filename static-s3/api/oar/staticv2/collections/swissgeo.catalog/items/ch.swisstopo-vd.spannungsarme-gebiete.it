@@ -1,0 +1,109 @@
+{
+  "id": "ch.swisstopo-vd.spannungsarme-gebiete",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo-vd.spannungsarme-gebiete?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo-vd.spannungsarme-gebiete.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c8b1a15e-b4db-49b0-ad3a-5b113c072fca",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Ufficio federale di topografia swisstopo, misurazione",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Nel caso di lavori sul campo eseguiti per la misurazione ufficiale occorre effettuare di volta in volta un aggiustamento locale o quanto meno fornire la prova che è possibile rinunciare a tale aggiustamento. Nelle zone di tensioni trascurabili un aggiustamento locale diviene superfluo, perché l'esattezza geometrica soddisfa criteri di qualità superiori. Nell'applicazione pratica, la conoscenza di queste zone di tensioni trascurabili facilita il lavoro con i metodi di misurazione satellitari e in particolare con servizi di posizionamento quali ad esempio swipos.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo-vd.spannungsarme-gebiete:wmts",
+    "title": "Zone di tensioni trascurabili",
+    "type": "Dataset"
+  }
+}

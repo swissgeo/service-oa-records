@@ -1,0 +1,41 @@
+{
+  "id": "ch.bafu.erosion-gruenland_bodenabtrag_jul:wms",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.erosion-gruenland_bodenabtrag_jul.distributions/items/ch.bafu.erosion-gruenland_bodenabtrag_jul:wms?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.erosion-gruenland_bodenabtrag_jul.distributions?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.erosion-gruenland_bodenabtrag_jul?language=it",
+      "rel": "dataset",
+      "title": "Link to parent dataset ch.bafu.erosion-gruenland_bodenabtrag_jul",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+      "rel": "dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "type": "Distribution",
+    "title": "WMS Layer",
+    "protocol": "ogc:wms",
+    "externalIds": [
+      "ch.bafu.erosion-gruenland_bodenabtrag_jul"
+    ]
+  }
+}

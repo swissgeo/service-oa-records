@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/c63a8513-7d77-4e11-9f6f-8d36debb036b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Divisione foreste, Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Questa carta mostra la quota delle diverse fasce altitudinali della vegetazione forestale in Svizzera per il periodo 2070-2099 nell'ipotesi di un futuro di clima meno secco. Le seguenti fasce altitudinali sono presenti solo nelle valli meridionali: «mediterraneo», «iperinsubrica», «collinare con faggio» e «montana inferiore/superiore». La carta «Fasce altitudinali modellati per 1995» serve come base per lo spostamento delle fasce altitudinali nel futuro. Il percorso di concentrazione rappresentativo RCP 4.5 con la combinazione di modelli SMHI-RCA_MPIESM_EUR44 è stata scelta come la proiezione «meno secca» (NCCS 2018). Questo modello stima un riscaldamento medio di 1.8 °C (Svizzera settentrionale), rispettivamente di 2.3 °C (Svizzera meridionale), e una riduzione delle precipitazioni del 4.0% (Svizzera settentrionale), rispettivamente dello 0.5% (Svizzera meridionale) per i mesi aprile-agosto, che sono considerati i più rilevanti in relazione all'idoneità climatica degli alberi, rispetto al periodo 1981-2010 (Remund 2020). Il limite superiore naturale della foresta è stato modellato con un approccio analogo (Könz et al. 2021). --- Fonte: Zischg et al. (subm.)",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-vegetationshoehenstufen_2085_weniger_trocken:wmts",
+    "title": "Fasce altitudinali modellati per 2085 con futuro clima meno secco",
+    "type": "Dataset"
+  }
+}

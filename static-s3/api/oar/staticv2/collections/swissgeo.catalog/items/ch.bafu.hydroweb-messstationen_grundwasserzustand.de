@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydroweb-messstationen_grundwasserzustand",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydroweb-messstationen_grundwasserzustand?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydroweb-messstationen_grundwasserzustand.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/f87d692e-8d65-4188-94ba-61b4c61d621c",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Sektion Hydrogeologische Grundlagen",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Karte zeigt einen Überblick über die aktuellen Grundwasserstände und Quellabflüsse in der Schweiz. Um die aktuelle Situation in die langjährige Entwicklung einzuordnen, werden Perzentile basierend auf den Tageswerten der Referenzperiode 1991-2020 herangezogen. Bei kürzeren Datenreihen wird die verfügbare Referenzperiode Messbeginn-2020 verwendet. A) Tiefer Grundwasserstand bzw. Quellabfluss: Eine deutliche Unterschreitung der mittleren Verhältnisse ist erreicht, wenn der aktuelle Messwert unter dem langjährigen 10. Perzentil der Referenzperiode liegt. B) Normale Verhältnisse: Der aktuelle Grundwasserstand bzw. Quellabfluss liegt zwischen dem 10. Perzentil und dem 90. Perzentil der Referenzperiode. C) Hoher Grundwasserstand bzw. Quellabfluss: Eine deutliche Überschreitung der langjährigen mittleren Verhältnisse ist erreicht, wenn der aktuelle Messwert über dem 90. Perzentil der Referenzperiode liegt. Die Tendenz gibt an, ob der Grundwasserstand bzw. Quellabfluss an einer Messstelle über die sieben Vortage steigend oder fallend war, oder ob keine Tendenz feststellbar war. Die Tendenz am aktuellen Messtag t wird wie folgt bestimmt: gemittelte Messwerte der Tage t-8 und t-7 minus gemittelte Messwerte der Tage t-2 und t-1. Quelle: Nationale Grundwasserbeobachtung NAQUA.</p><p> <a href=\"https://www.bafu.admin.ch/bafu/de/home/themen/wasser/grundwasser/nationale-grundwasserbeobachtung-naqua/modul-quant.html\" target=\"_blank\">NAQUA, Modul QUANT: Grundwasserquantität (Grundwasserstände und Quellabflüsse) - Hintergrundinformationen zum BAFU-Messnetz</a>",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydroweb-messstationen_grundwasserzustand:geojson",
+    "title": "Allgemeine Lage der Grundwasserstände und Quellschüttungen",
+    "type": "Dataset"
+  }
+}

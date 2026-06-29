@@ -1,0 +1,109 @@
+{
+  "id": "ch.bfe.biomasse-verholzt",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.biomasse-verholzt?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.biomasse-verholzt.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/b8539dc3-3a56-467e-8433-80f522bfd6fc",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de l'énergie",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Institut fédéral de recherches sur la forêt, la neige et le paysage WSL",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "La biomasse est une ressource renouvelable pour l'énergie qui peut être transformée en plusieurs formes d'énergie : chaleur, électricité, biogaz ou combustibles liquides. La biomasse est principalement stockable et peut donc être utilisée pour compenser les fluctuations de la production d'énergie éolienne et solaire. Les types de biomasse ligneuse ont été étudiés à l'aide d'approches méthodique comparables : bois de forêt, bois usagé, sous-produits ligneux et bois récolté hors forêt.Dans le cadre de la mise en oeuvre de la stratégie énergétique 2050, le gouvernement suisse prévoit une augmentation massive de la part des énergies renouvelables. Le Centre de compétences suisse pour la recherche énergétique (SCCER) Biosweet (Biomass for Swiss Energy Future) cherche des solutions aux défis techniques, sociaux et politiques que pose la transition énergétique dans le domaine de la biomasse. L'institut fédéral de recherches sur la forêt, la neige et le paysage (WSL) a quantifié et localisé le potentiel d'importantes ressources de biomasse en Suisse, notamment en ce qui concerne leur disponibilité pour une exploitation durable. Les résultats sont utiles pour (i) optimiser les processus de conversion afin de tenir compte des développements technologiques et (ii) identifier les voies prometteuses d'utilisation de la biomasse et les meilleurs sites pour leur mise en œuvre. Les données (https://www.envidat.ch/dataset/swiss-biomass-potentials) et un rapport détaillé sont disponibles en ligne (https://www.dora.lib4ri.ch/wsl/islandora/object/wsl%3A13277/datastream/PDF/Thees-2017-Biomassepotenziale_der_Schweiz_f%C3%BCr_die-%28published_version%29.pdf). Cette carte montre le potentiel durable (quantité maximale de biomasse produite au niveau national qui pourrait être utilisée, après déduction des contraintes écologiques, économiques, juridiques et politiques) de la biomasse ligneuse pour la bioénergie en Suisse au niveau communal en énergie primaire (quantité maximale d'énergie disponible dans une ressource sans conversion) en terajoules.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biomasse-verholzt:wmts",
+    "title": "Potentiel durable des ressources de biomasse ligneuse pour la production de bioénergie en Suisse à l'échelle municipale",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ch.bafu.bundesinventare-vogelreservate",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.bundesinventare-vogelreservate?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.bundesinventare-vogelreservate.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8fc6f748-80ce-47b2-8d49-b05a0c8ba975",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Switzerland is especially important as a wintering and resting site for various migratory waterbirds. As a result, in 1974 the Federal Council signed a convention on watercourses and wetlands of international importance that was concluded in 1971 in Ramsar (Ramsar Convention). It was ratified by the Federal Parliament in 1975. An inventory of waterbird reserves of international importance was developed for Switzerland in 1976 based on earlier criteria. The Swiss Ornithological Institution in Sempach submitted the second revised version of this inventory in 1995, which included reserves of national importance. Under Article 11 of the new Federal Act of 20 June 1986 on the Hunting and Protection of Wild Mammals and Birds (HuntA), the federal government is required to exclude reserves of waterbirds and migratory birds of international importance. After being revised in 1992, 2001, 2009, 2015 and 2023, the current inventory contains the most important sites included in the inventory of the Swiss Ornithological Institute, of which 10 are of international importance and 25 are of national importance.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.bundesinventare-vogelreservate:wmts",
+    "title": "Federal Inventory of Reserves for Waterbirds and Migratory Birds of international and national importance",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.projektierungszonen-eisenbahnanlagen_v2_0.oereb",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.projektierungszonen-eisenbahnanlagen_v2_0.oereb?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.projektierungszonen-eisenbahnanlagen_v2_0.oereb.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/fb441e60-07c7-49cd-ad66-dbdba593b0e1",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dei trasporti UFT",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Sezione Diritto UFT",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Per assicurare la disponibilità dei terreni necessari a costruzioni e impianti ferroviari futuri, l'UFT può determinare zone riservate concernenti regioni esattamente delimitate. In queste regioni non può essere eseguita alcuna trasformazione contraria allo scopo delle zone riservate. Tali zone hanno una validità di 5 anni, con possibilità di proroga.Fino ad oggi l'UFT non ha fatto ricorso a questo strumento; pertanto non esistono né dati né un modello minimo di geodati su questo livello d'informazione. I metadati hanno per unico scopo la descrizione del «feature service» del rispettivo livello nei catasti cantonali RDPP.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": null,
+    "title": "Zone riservate per gli impianti ferroviari V2.0 RDPP",
+    "type": "Dataset"
+  }
+}

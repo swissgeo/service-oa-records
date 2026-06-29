@@ -1,0 +1,103 @@
+{
+  "id": "ch.bfe.elektrizitaetsproduktionsanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.elektrizitaetsproduktionsanlagen?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.elektrizitaetsproduktionsanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e5a00bdb-5022-4856-ad4a-d1afe7bf38b0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Swiss Federal Office of Energy",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "An electricity production plant is a technical facility for generating electricity. It is in the public interest to have a spatial overview of all electricity production plants in Switzerland. In particular, the expansion of production plants that produce electricity from renewable energy should be presented transparently. The ratio of plants producing electricity from renewable energy to plants producing electricity from non-renewable energy can also be shown. A distinction is made between hydropower, photovoltaics, wind energy, biomass, geothermal energy, nuclear energy, oil, natural gas and coal. This database contains all electricity production plants that are registered in the Swiss proof of origin system and includes all plants with an output exceeding 30 kilovolt-amperes (kVA), as well as small plants (more than 2 kilowatts) that have been voluntarily registered to display proof of origin. The database also includes plants that are subsidised by a feed-in rate, a one-off payment, additional cost financing or an investment contribution (pursuant to Art. 19 and 24; EnA). Only electricity production plants that are in operation are included.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.elektrizitaetsproduktionsanlagen:wms",
+    "title": "Electricity production plants",
+    "type": "Dataset"
+  }
+}

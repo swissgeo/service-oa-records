@@ -1,0 +1,37 @@
+{
+  "id": "api3features-geoadminch",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/api3features-geoadminch?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://docs.geo.admin.ch/explore-data/get-layer-metadata.html",
+      "rel": "service-doc",
+      "title": "Service Documentation (DE)",
+      "type": "application/json"
+    },
+    {
+      "href": "https://api3.geo.admin.ch/rest/services/ech/MapServer",
+      "rel": "describes",
+      "title": "Root URL of the Geoadmin Features Dataservice",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "properties": {
+    "title": "api3features-geoadminch",
+    "type": "geoadmin:features"
+  }
+}

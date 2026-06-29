@@ -1,0 +1,108 @@
+{
+  "id": "ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/474bf1cb-ffd3-45d7-a24b-0d89beaa4ad2",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "For aerodromes at which certain noise levels occur, the Swiss environmental legislation (SR 814.41) stipulates that exposure curves have to be produced and reported. This procedure involves the depiction of noise exposure curves in the noise pollution cadastre, which merely takes the form of an inventory of the noise situation and does not have a direct legal impact on the involved real estate owners. Aerodrome operators use this instrument in order to develop action plans to prevent excessive noise exposure, whereas the relevant authorities use it in order to adapt their spatial planning. Noise levels are depicted on topographic maps in the form of curves, which indicate the exposure resulting from the average operation of aircraft during the applicable night-time period. These curves are produced from calculations based on actual or predicted aircraft movements and the known noise emissions of the various types of aircraft.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.laermbelastungskataster-zivilflugplaetze_letzte-nachtstunde:wms",
+    "title": "Noise pollution register for civil aerodromes - Noise exposure for the last night hour Lrn (from 05 to 06)",
+    "type": "Dataset"
+  }
+}

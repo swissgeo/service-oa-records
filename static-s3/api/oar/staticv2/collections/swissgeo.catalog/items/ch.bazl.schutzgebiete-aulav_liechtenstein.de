@@ -1,0 +1,104 @@
+{
+  "id": "ch.bazl.schutzgebiete-aulav_liechtenstein",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.schutzgebiete-aulav_liechtenstein?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.schutzgebiete-aulav_liechtenstein.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/25c6e9dd-b658-41fa-8f8d-3fc2775e3a6f",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Abt. Vermessung und Geoinformation (ATG)",
+        "country": "LI",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Besonders schützenswerte Gebiete im Sinne des Naturschutzgesetzes (NSchG) und weitere Schutzgebiete, in denen Aussenlandungen, Notlandeübungen und Schwebeflüge zu Ausbildungszwecken nicht zulässig sind. Der Datensatz beinhaltet einen Zusammenzug folgender gesetzlicher Schutzgebiete gemäss Art. 1, 4 und 8 der Verordnung vom 18. Oktober 2016 über das Abfliegen und Landen mit Luftfahrzeugen ausserhalb von Flugplätzen (Aussenlandeverordnung; AuLaV) a) Landschaftsschutzgebiete (Art. 18 NSchG); b) Naturschutzgebiete (Art. 19 NSchG); c) Pflanzenschutzgebiete (Art. 21 NSchG); d) Magerwiesen (Art. 22 NSchG); e) Ruhezonen (Art. 23 NSchG). Ausserdem enthält der Datensatz gemäss Art. 4 Abs. 2 der AuLaV die von der Regierung festgelegten besonders empfindlichen Gebiete. Darunter fallen insbesondere Gebiete mit schützenswerten Objekten, besonders schützenswerten Lebensräumen oder Inventarobjekte im Sinne des Naturschutzgesetzes sowie bedeutsame Wildtierkorridore.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.schutzgebiete-aulav_liechtenstein:wmts",
+    "title": "Schutzgebiete der zivilen Luftfahrthindernispublikation – Schutzgebiete Liechtenstein",
+    "type": "Dataset"
+  }
+}

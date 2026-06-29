@@ -1,0 +1,108 @@
+{
+  "id": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gewaesserschutz-chemischer_zustand_nitrat.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/e1a5a3ea-483e-4ccc-968e-0026d7df5e61",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment / Hydrology Division",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Federal Office for the Environment",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Within the National Surface Water Quality Monitoring Programme (NAWA), water quality is recorded jointly by the federal and cantonal authorities at around 100 monitoring stations. The chemical water status is assessed on the basis of the nitrate concentration by the “Physicochemical Water Quality, Nutrients” method in the Modular Stepwise Procedure (MSP / MSK www.modul-stufen-konzept.ch). Nitrogen is an essential nutrient for aquatic organisms and is taken up by plants mainly in the form of nitrates (NO3-). Most of the inorganic nitrogen present in surface waters is in the form of nitrate. Limitation of algae and plant growth due to low nitrate levels is the exception in Swiss waters. No negative effects on the biocoenoses in the water caused by nitrate concentrations of less than 10 mg/l N are observed. Nitrate concentrations above 1.5 mg/l N are generally indicative of runoff and leaching from agricultural land or infiltration of municipal wastewater. The numerical requirement in the Waters Protection Ordinance for nitrate in surface waters used as a source of drinking water is 5.6 mg/l.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gewaesserschutz-chemischer_zustand_nitrat:wms",
+    "title": "Assessment of the Chemical Water Status: Nitrate",
+    "type": "Dataset"
+  }
+}

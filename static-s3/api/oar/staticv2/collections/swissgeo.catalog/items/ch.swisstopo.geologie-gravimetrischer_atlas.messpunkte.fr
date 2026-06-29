@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/297a1958-3636-45af-a17c-e90120605132",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de topographie swisstopo",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Un réseau des points de mesure de la pesanteur avec une densité de 0.5 point par kilomètre carré couvrant l’ensemble du territoire suisse a permis l'élaboration des cartes de Bouguer à haute résolution (échelles 1:100000 et 1:500000). On nomme anomalie de Bouguer la différence entre l’intensité de la pesanteur mesurée en un point donnée de la surface terrestre et la valeur calculée au même point d’un modèle de Terre idéale, dotée d’un croûte homogène. Les calculs des anomalies gravitaires de la croûte terrestre se basent sur la formule internationale de gravité de 1967. L'incidence de la topographie a été prise en compte avec une densité constante de 2670 kg / m3 jusqu’à distance de 167 km (zone O2 de Hayford).- L'Atlas gravimétrique de la Suisse (GRAV100) est une publication de la Commission suisse de géophysique (organe de l'Académie suisse des sciences naturelles).",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-gravimetrischer_atlas.messpunkte:wmts",
+    "title": "Atlas gravimétrique de la Suisse : points de mesure 1:100000",
+    "type": "Dataset"
+  }
+}

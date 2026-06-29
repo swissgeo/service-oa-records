@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/bc4bd921-cec6-4f29-a784-29049c9f8026",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Der Datensatz Pärke enthält das Schutzgebiet \"Schweizerischer Nationalpark\", welches nach dem Nationalparkgesetz vom 19. Dezember 1980 (SR454) geschützt ist und die beim BAFU angemeldeten Parkprojekte gemäss dem auf den 1. Dezember 2007 revidierte Natur- und Heimatschutzgesetz (SR451). Es definiert drei Parkkategorien von nationaler Bedeutung: Nationalpärke, Regionale Naturpärke und Naturerlebnispärke. Die Parkregionen können je nach Stand des Projekts das Label Kandidatur für den Aufbau eines Parks oder das markengeschützte Parklabel für den eigentlichen Betrieb beantragen. Pärke von nationaler Bedeutung helfen aussergewöhnliche natürliche Lebensräume zu schützen und aufzuwerten. Gleichzeitig begünstigen die Pärke die wirtschaftliche Entwicklung einer Region.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.schutzgebiete-paerke_nationaler_bedeutung_perimeter:wmts",
+    "title": "Schweizerischer Nationalpark und Pärke von nationaler Bedeutung (Perimeter)",
+    "type": "Dataset"
+  }
+}

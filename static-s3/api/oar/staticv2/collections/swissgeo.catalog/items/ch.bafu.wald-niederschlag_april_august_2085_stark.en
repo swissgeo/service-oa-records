@@ -1,0 +1,103 @@
+{
+  "id": "ch.bafu.wald-niederschlag_april_august_2085_stark",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wald-niederschlag_april_august_2085_stark?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wald-niederschlag_april_august_2085_stark.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/4419848b-1a5b-47b0-ae82-b737cacc7c48",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Forest Division, Federal Office of the Environment",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "The map shows the precipitation sum (in mm) for the months April to August calculated for the period 2070-2099. The precipitation anomalies of the climate scenario were added to the map «Precipitation April-August 1981-2010», derived from the standard value maps for precipitation from MeteoSwiss. Among the representative concentration pathways, RCP 8.5 with the model combination CLMCOM-CCLM5_HADGEM_EUR44 was selected as a projection for strong climate change (NCCS 2018; Provision of the data by Remund et al. 2020) for the calculation of the precipitation sum in the future. The resulting map has a spatial resolution of 25 m x 25 m. It was used for modelling altitudinal belts of forest vegetation.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wald-niederschlag_april_august_2085_stark:wmts",
+    "title": "Precipitation sum April-August, period 2070-2099, Scenario RCP 8.5",
+    "type": "Dataset"
+  }
+}

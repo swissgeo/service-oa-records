@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.silvaprotect-hangmuren",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.silvaprotect-hangmuren?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.silvaprotect-hangmuren.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/e1f63878-1ddd-4a51-9d3b-f0f077990357",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division Prévention des dangers, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les coulées de boue se déclenchent à la surface de versants indépendamment d’un torrent. Elles sont constituées d’un mélange de matériel meuble (généralement sol et végétation) et de grande quantité d’eau qui se déplace rapidement vers l’aval. La vitesse du processus est élevée en raison de sa forte teneur en eau (1 à 10 m/s), si bien que les conséquences peuvent être dévastatrices. La surface touchée par le déplacement de la masse est donc souvent 10 à 100 fois plus étendue comparativement à la niche d’arrachement, souvent très petite. Ce thème donne un aperçu sous forme de carte indicative des surfaces potentiellement touchées par les coulées de boue, établi sur la base de la modélisation de ce processus dans le projet SilvaProtect-CH. Les processus des coulées de boue sont modélisés sans tenir compte de l'effet de la forêt.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.silvaprotect-hangmuren:wmts",
+    "title": "SilvaProtect-CH (indications de danger au niveau national) : coulées de boue",
+    "type": "Dataset"
+  }
+}

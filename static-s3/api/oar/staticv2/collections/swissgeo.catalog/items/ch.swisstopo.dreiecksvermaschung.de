@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.dreiecksvermaschung",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.dreiecksvermaschung?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.dreiecksvermaschung.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/fb7fe701-04b1-4a0c-ba3a-90dbc5bd23d3",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Landestopografie swisstopo, Vermessung",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Die Dreiecksvermaschung auf Stufe Landesvermessung (FINELTRA-LV) wurde in den Neunziger Jahren fertig gestellt und ermöglichte, Geodaten von LV03 nach LV95 und umgekehrt mit einer Genauigkeit von ungefähr einem Dezimeter zu transformieren. In den letzten Jahren wurde diese Dreiecksvermaschung durch die Kantone systematisch verdichtet und durch swisstopo in 2006 zu einem Datensatz mit der Bezeichnung CHENyx06 vereint. Mit CHENyx06 können Geodaten im Durchschnitt mit einer Genauigkeit von 2 cm von LV03 nach LV95 und umgekehrt transformiert werden. Bei den Eckpunkten der einzelnen Dreiecke handelt es sich um sogenannte Transformationsstützpunkte (TSP). Diese Punkte wurden sowohl im Bezugsrahmen LV03 wie auch in LV95 sehr präzise eingemessen. Die TSP der Kategorie 1 und 2 können im Fixpunkt-Datenservice-Viewer oder im nationalen Geodatenportal map.geo.admin.ch > Ebene Lagefixpunkte abgerufen werden. Informationen zu den anderen TSP's sind bei den Kantonen erhältlich.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.dreiecksvermaschung:wmts",
+    "title": "Bezugsrahmenwechsel LV03 - LV95: Dreiecksvermaschung (CHENyx06 und FINELTRA LV)",
+    "type": "Dataset"
+  }
+}

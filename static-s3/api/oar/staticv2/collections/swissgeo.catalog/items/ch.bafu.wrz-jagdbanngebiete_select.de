@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.wrz-jagdbanngebiete_select",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.wrz-jagdbanngebiete_select?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.wrz-jagdbanngebiete_select.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/35f25047-ea29-4422-9497-3dac46e00eb9",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Umwelt / Abteilung Biodiversität und Landschaft",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Wildtierschutzgebiete haben den Schutz ausgewählter Säugetiere und Vögel sowie ihrer Lebensräume zum Ziel. Die hier berücksichtigten 43 Eidgenössischen Jagdbanngebiete stützen sich auf Art. 11 des Jagdgesetzes. Schneesportarten dürfen nur auf markierten Routen ausgeübt werden. Damit gelten für Schneesportler die gleichen Zutrittsbeschränkungen wie für rechtsverbindliche Wildruhezonen mit Routengebot. Innerhalb von rechtsverbindlichen Wildruhezonen und Wildtierschutzgebieten dürfen nur die in der Karte eingezeichneten erlaubten Routen und Wege begangen werden. Nicht eingezeichnet sind präparierte (Langlauf-)Loipen, Winterwanderwege und im Winter geräumte oder befahrbare Strassen. Diese dürfen von Schneesportlern selbstverständlich begangen werden. Skilifte oder Luftseilbahnen sind in Wildtierschutzgebieten (eidg. Jagdbanngebieten) eingetragen. Sie geben an, wo sich Infrastrukturen befinden, die von Schneesportlern zusammen mit den dazugehörigen Skipisten benutzt werden dürfen. Skipisten sind nicht eingezeichnet. Die Kampagne \"Respektiere deine Grenzen\" setzt sich für den Schutz der Wildtiere und die Bekanntmachung der Wildtierschutzgebiete in der Bevölkerung ein.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.wrz-jagdbanngebiete_select:wmts",
+    "title": "Wildtierschutzgebiete",
+    "type": "Dataset"
+  }
+}

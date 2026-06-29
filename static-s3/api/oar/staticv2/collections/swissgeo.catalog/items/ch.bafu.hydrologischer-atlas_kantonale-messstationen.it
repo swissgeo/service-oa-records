@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydrologischer-atlas_kantonale-messstationen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydrologischer-atlas_kantonale-messstationen?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydrologischer-atlas_kantonale-messstationen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/48143f81-0076-463f-a71d-b888cc7fe01b",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale dell'ambiente / Divisione Idrologia",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Questo set di dati rappresenta le ubicazioni delle stazioni di misurazione idrometrica dei Cantoni (origine dei dati: \"CANTONE\") e di privati (origine dei dati: „HADES “). Esso riproduce lo stato relativo all'anno 2000. I numeri indicati corrispondono alla definizione riportata sul foglio dell'Atlante HADES 5.1.2. Le altre caratteristiche del set di dati sono tratte dalla tabella relativa al foglio dell'Atlante.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrologischer-atlas_kantonale-messstationen:wmts",
+    "title": "Stazioni di misura cantonali e private (HADES 5.1.2)",
+    "type": "Dataset"
+  }
+}

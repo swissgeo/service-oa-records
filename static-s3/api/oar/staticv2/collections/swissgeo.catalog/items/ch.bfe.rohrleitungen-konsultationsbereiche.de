@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.rohrleitungen-konsultationsbereiche",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.rohrleitungen-konsultationsbereiche?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.rohrleitungen-konsultationsbereiche.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/9188dcff-dced-43b9-8127-b3104f09c175",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Energie",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die Störfallverordnung (StFV, SR 814.012) bezweckt den Schutz der Bevölkerung und der Umwelt vor schweren Schädigungen infolge von Störfällen. Sie regelt das eigenverantwortliche Umsetzen von Sicherheitsmassnahmen durch die Inhaber eines Verkehrswegs, eines Betriebs oder einer Rohrleitungsanlage und das Kontroll- und Beurteilungsverfahren durch die Behörden. Die geografische Lage der unterstellten Rohleitungsanlagen und der von der Vollzugsbehörde festgelegte, für raumplanerische Entscheide relevante angrenzende Bereich (Konsultationsbereich) werden durch die Vollzugsbehörde (Bundesamt für Energie BFE) veröffentlicht (Art. 20 Abs. 1 StFV). Der Datenbestand enthält sämtliche Rohrleitungsanlagen nach der Rohrleitungsverordnung vom 2. Februar 2000 (RLV, SR 746.11), welche die Kriterien nach Anhang 1.3 StFV erfüllen. Zudem enthält er von den Rohrleitungsanlagen abgeleitete angrenzende Bereiche (Konsultationsbereiche). Der Konsultationsbereich beträgt 300 Meter auf beiden Seiten der Rohrleitungsanlage, falls der Druck grösser gleich 67.5 bar und der Durchmesser der Rohrleitung grösser gleich 24 Zoll ist. Ansonsten beträgt der Konsultationsbereich 100 Meter auf beiden Seiten der Rohrleitung. Die Daten werden jährlich in Zusammenarbeit mit den Betreibenden aktualisiert. Daher ist es möglich, dass die Daten zum Zeitpunkt der Betrachtung punktuell nicht mehr aktuell sind. Für den Einzelfall ist eine Auskunft des Betreibenden einzuholen. Die Daten werden nicht zum Download angeboten.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.rohrleitungen-konsultationsbereiche:wmts",
+    "title": "Lage und angrenzende Bereiche gemäss Störfallverordnung im Bereich Rohrleitungsanlagen",
+    "type": "Dataset"
+  }
+}

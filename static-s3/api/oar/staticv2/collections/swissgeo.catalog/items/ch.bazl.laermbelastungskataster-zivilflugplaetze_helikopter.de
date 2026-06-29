@@ -1,0 +1,109 @@
+{
+  "id": "ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7d6f8271-37ef-40e2-a7c0-8014100697b8",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Zivilluftfahrt",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Bundesamt für Zivilluftfahrt",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Für Flugplätze, von denen eine gewisse Lärmbelastung ausgeht, muss gestützt auf das schweizerische Umweltrecht (LSV, SR 814.41) die Lärmbelastung ausgewiesen und dargestellt werden. Dies geschieht in der Form von Lärmbelastungskurven im Lärmbelastungskataster. Die Lärmbelastungsskataster stellen lediglich ein Inventar der Lärmsituation dar und haben keine direkten juristischen Auswirkungen für die betroffenen Grundeigentümer. Den Betreibern der Helikopterflugfelder dient dieses Instrument, um Massnahmenpläne gegen übermässige Lärmbelastungen auszuarbeiten, den Behörden um die Raumplanung darauf abzustimmen. Auf den Landeskarten wird die Lärmbelastung mit Kurven gleicher Schallpegel dargestellt. Diese zeigen die Belastung für den Tagesdurchschnitt eines mittleren Spitzentages an. Die Lärmbelastungskurven stammen aus Berechnungen, die auf den tatsächlichen bzw. prognostizierten Flugbewegungen und den bekannten Lärmemissionen der verschiedenen Helikoptertypen beruhen.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.laermbelastungskataster-zivilflugplaetze_helikopter:wms",
+    "title": "Lärmbelastungskataster für zivile Flugplätze - Lärmbelastung Helikopter Lr",
+    "type": "Dataset"
+  }
+}

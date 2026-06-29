@@ -1,0 +1,109 @@
+{
+  "id": "ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/88237a28-1e39-440f-89c4-a26c8a605243",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Office fédéral de aviation civile",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Office fédéral de aviation civile",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "La législation environnementale suisse (OPB, RS 814.41) impose de déterminer et de décrire l'exposition au bruit générée par les installations aéroportuaires bruyantes. L'exposition au bruit est représentée sous forme de courbes de bruit reportées dans un cadastre de bruit. Ayant uniquement valeur d'inventaire, les cadastres de bruit ne déploient aucun effet juridique direct sur les propriétaires concernés. Par contre, les exploitants d'aérodrome utilisent cet instrument pour élaborer des plans anti-bruit en cas de nuisances excessives tandis que les autorités en tiennent compte dans l'aménagement du territoire. Sur les cartes nationales, l'exposition au bruit est représentée sous forme de courbes isophoniques. Celles-ci expriment l'exposition au bruit correspondant au niveau sonore moyen d'un jour avec trafic de pointe moyen. Les courbes se basent sur des calculs qui prennent en compte les mouvements - effectifs et prévisionnels - d'aéronefs et les émissions de bruit connues des différents types d'avions.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.laermbelastungskataster-zivilflugplaetze_kleinluftfahrzeuge:wms",
+    "title": "Cadastres de bruit pour les aérodromes civils - Exposition au bruit due au trafic des petits aéronefs Lrk",
+    "type": "Dataset"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/55eb4917-ce3b-423b-873f-2c8efb1c6762",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Divisione foreste, Ufficio federale dell'ambiente",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Istituto federale di ricerca per la foresta, la neve e il paesaggio WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Le informazioni relative all'altezza della vegetazione vengono ottenute con metodi di teledetezione mediante sensori attivi e passivi. Un sensore attivo è il LiDAR. Un sensore passivo è un sensore ottico, come ad esempio un apparecchio fotografico per immagini aeree. L'acquisizione dei dati LiDAR in Svizzera ha luogo su scala regionale, cantonale e nazionale. Vengono effettuate regolarmente riprese fotografiche stereoscopiche a livello nazionale con cadenza triennale. In base a questi dati di base pianificarbili di swisstopo vengono quindi realizzati regolarmente set di dati in 3D - modelli digitali della superficie (MDS) - con una risoluzione elevata nell'ambito dell'Inventario Forestale Nazionale (IFN). In base alla differenza tra il MDS e il modello digitale del terreno di swisstopo (swissAlti3D) è possibile calcolare il modello digitale della superficie normalizzato (MDSn). Le costruzioni vengono eliminate utilizzando una combinazione delle superfici di base del modello topografico del paesaggio (TLM) e delle informazioni spettrali delle immagini aeree stereoscopiche. Il risultato finale è costituito da un modello di altezza della vegetazione (modello di altezza della vegetazione VHM) in Svizzera.",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief:wmts",
+    "title": "Ombreggiature del rilievo della vegetazione IFN",
+    "type": "Dataset"
+  }
+}

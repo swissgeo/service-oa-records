@@ -1,0 +1,104 @@
+{
+  "id": "ch.bafu.hydrogeologie-markierversuche",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.hydrogeologie-markierversuche?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.hydrogeologie-markierversuche.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/fedac2fe-5f2b-4b4f-a21d-3c9fc216c496",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Section Bases hydrogéologiques",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les essais de traçage sont l’une des principales techniques utilisée en hydrogéologie appliquée pour marquer l’eau et suivre son déplacement. La couche montre les points d’injection de traçages répertoriés dans la base de données InfoTracer depuis 1984. InfoTracer est l’outil de l’OFEV permettant la coordination d’informations entre les agents qui réalisent les essais de traçage, habituellement des bureaux privés ou des instituts de recherche, et les cantons. Les informations de cette couche offrent une vue d’ensemble des traçages effectués dans le passé ainsi qu’une connaissance du périmètre concerné pour de nouvelles injections. Des traceurs sont généralement injectés dans les eaux souterraines, dans la zone non saturée ou dans les eaux de surface avec lien possible avec les eaux souterraines. InfoTracer comprend en outre des métadonnées des essais de traçage (date, milieu d'injection, traceur utilisé, service responsable) afin notamment d'éviter toute injection inutile de traceurs ou de prévenir des interférences entre différents traçages. Les résultats des essais de traçage ne sont toutefois pas archivés.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.hydrogeologie-markierversuche:wmts",
+    "title": "Essais de traçage dans les eaux souterraines",
+    "type": "Dataset"
+  }
+}

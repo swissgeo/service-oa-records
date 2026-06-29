@@ -1,0 +1,114 @@
+{
+  "id": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief?language=fr",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/fra/catalog.search#/metadata/55eb4917-ce3b-423b-873f-2c8efb1c6762",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Division forêts, Office fédéral de l'environnement",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Institut fédéral de recherches sur la forêt, la neige et le paysage WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Institut fédéral de recherches sur la forêt, la neige et le paysage WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Les informations sur la hauteur de la végétation sont obtenues par des méthodes de télédétection utilisant des capteurs actifs et passifs. Le LiDAR est un exemple de capteur actif. Un capteur passif est un capteur optique, par exemple un appareil de prises de vues aériennes. L'acquisition de données LiDAR est réalisée en Suisse à l'échelle régionale, cantonale et nationale. Des photographies stéréoscopiques sont prises de l'ensemble du territoire national selon une périodicité de trois ans. Ces données de base programmées fournies par swisstopo servent à élaborer régulièrement des jeux de données 3D – des modèles numériques de surface (MNS) – à haute résolution dans le cadre de l'inventaire forestier national (IFN). La différence entre le MNS et le modèle numérique de terrain de swisstopo (swissAlti3D) permet de calculer un modèle numérique de surface normalisé (MNSn). Les constructions sont gommées en combinant les surfaces de base du modèle topographique du paysage (MTP) de swisstopo et les informations spectrales des images stéréoscopiques. Le résultat final est un modèle de la hauteur de la végétation (MHV) en Suisse.",
+    "language": {
+      "code": "fr",
+      "name": "Français",
+      "dir": "ltr",
+      "alternate": "French"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-vegetationshoehenmodell_relief:wmts",
+    "title": "Estompage du relief appliqué au modèle de la hauteur de la végétation de l'IFN",
+    "type": "Dataset"
+  }
+}

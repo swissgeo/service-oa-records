@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "ch.bafu.neophyten-essbares_zypergras:wmts",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions/items/ch.bafu.neophyten-essbares_zypergras:wmts?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-essbares_zypergras?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-essbares_zypergras",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wmts-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMTS Layer",
+        "protocol": "ogc:wmts",
+        "externalIds": [
+          "ch.bafu.neophyten-essbares_zypergras"
+        ]
+      }
+    },
+    {
+      "id": "ch.bafu.neophyten-essbares_zypergras:wms",
+      "links": [
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions/items/ch.bafu.neophyten-essbares_zypergras:wms?language=fr",
+          "rel": "self",
+          "title": "This Record",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions?language=fr",
+          "rel": "collection",
+          "title": "Link to the collection this item belongs to",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.neophyten-essbares_zypergras?language=fr",
+          "rel": "dataset",
+          "title": "Link to parent dataset ch.bafu.neophyten-essbares_zypergras",
+          "type": "application/json",
+          "hreflang": "fr"
+        },
+        {
+          "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/geoadmin.services/items/wms-geoadminch",
+          "rel": "dataservice",
+          "type": "application/json"
+        }
+      ],
+      "linkTemplates": [],
+      "type": "Feature",
+      "properties": {
+        "type": "Distribution",
+        "title": "WMS Layer",
+        "protocol": "ogc:wms",
+        "externalIds": [
+          "ch.bafu.neophyten-essbares_zypergras"
+        ]
+      }
+    }
+  ],
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions/items?language=fr",
+      "rel": "self",
+      "title": "Link to this resource",
+      "type": "application/json",
+      "hreflang": "fr"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.neophyten-essbares_zypergras.distributions?language=fr",
+      "rel": "collection",
+      "title": "Link to the collection these items belong to",
+      "type": "application/json",
+      "hreflang": "fr"
+    }
+  ]
+}

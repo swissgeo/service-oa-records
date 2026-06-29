@@ -49,16 +49,16 @@ SERVICES_INDEX = os.environ.get("OS_SERVICES_INDEX", "geoadmin-services")
 ITEMS_DIR = Path(
   os.environ.get(
     "ITEMS_DIR",
-    "static-s3/api/oar/v0/collections/swissgeo.catalog/items",
+    "static-s3/api/oar/staticv2/collections/swissgeo.catalog/items",
   ),
 )
 COLLECTIONS_DIR = Path(
-  os.environ.get("COLLECTIONS_DIR", "static-s3/api/oar/v0/collections"),
+  os.environ.get("COLLECTIONS_DIR", "static-s3/api/oar/staticv2/collections"),
 )
 SERVICES_ITEMS_DIR = Path(
   os.environ.get(
     "SERVICES_ITEMS_DIR",
-    "static-s3/api/oar/v0/collections/geoadmin.services/items",
+    "static-s3/api/oar/staticv2/collections/geoadmin.services/items",
   ),
 )
 GENERATED_DIR = Path(os.environ.get("GENERATED_DIR", ".generated"))
@@ -166,49 +166,64 @@ def load_services_records(services_items_dir: Path) -> list[dict]:
   return records
 
 
+def _rewrite_dist_links(links: list[dict], catalog_href: str) -> list[dict]:
+  new_links = []
+  for link in links:
+    rel = link.get("rel", "")
+    if rel in ("self", "collection"):
+      continue
+    if rel == "dataset":
+      new_links.append({"href": catalog_href, "rel": "dataset", "title": "Dataset Record"})
+    elif rel == "dataservice":
+      service_id = link["href"].rsplit("/", 1)[-1]
+      new_links.append({"href": f"/collections/geoadmin-services/items/{service_id}", "rel": "dataservice"})
+    else:
+      new_links.append(link)
+  return new_links
+
+
 def load_distribution_records(collections_dir: Path) -> list[dict]:
-  """Load distribution records from per-language collection files."""
-  by_id: dict[str, Path] = {}
-  for path in collections_dir.iterdir():
-    parts = path.name.rsplit(".", 1)
-    if len(parts) == LANG_PARTS and parts[1] in LANGUAGES:
-      dataset_id, lang = parts
-      if dataset_id not in by_id or lang == "de":
-        by_id[dataset_id] = path
+  """Load distribution records from per-language item files in <dataset>.distributions/ dirs."""
+  dist_dirs: list[Path] = sorted(
+    p for p in collections_dir.iterdir() if p.is_dir() and p.name.endswith(".distributions")
+  )
 
   records = []
-  for dataset_id, path in sorted(by_id.items()):
-    data = json.loads(path.read_text())
-    title = data.pop("title", None)
-    data.setdefault("properties", {})
-    if title is not None:
-      data["properties"]["title"] = title.removeprefix("Distributions for ")
+  for dist_dir in dist_dirs:
+    dataset_id = dist_dir.name.removesuffix(".distributions")
+    dist_items_dir = dist_dir / "items"
+    if not dist_items_dir.exists():
+      continue
+
+    by_item_id: dict[str, dict[str, Path]] = defaultdict(dict)
+    for path in dist_items_dir.iterdir():
+      parts = path.name.rsplit(".", 1)
+      if len(parts) == LANG_PARTS and parts[1] in LANGUAGES:
+        item_id, lang = parts
+        by_item_id[item_id][lang] = path
 
     catalog_href = f"/collections/swissgeo-catalog/items/{dataset_id}"
-    for dist in data.get("records", []):
-      new_links = []
-      for link in dist.get("links", []):
-        if link.get("title") == "Dataset Record":
-          new_links.append(
-            {
-              "href": catalog_href,
-              "rel": "dataset",
-              "title": "Dataset Record",
-            },
-          )
-        elif link.get("rel") == "service":
-          service_id = link["href"].rsplit("/", 1)[-1]
-          new_links.append(
-            {
-              "href": (f"/collections/geoadmin-services/items/{service_id}"),
-              "rel": "service",
-            },
-          )
-        else:
-          new_links.append(link)
-      dist["links"] = new_links
+    dist_items = []
+    for _item_id, lang_files in sorted(by_item_id.items()):
+      base_path = lang_files.get("de") or lang_files.get("en") or next(iter(lang_files.values()))
+      item = json.loads(base_path.read_text())
+      item["links"] = _rewrite_dist_links(item.get("links", []), catalog_href)
+      dist_items.append(item)
 
-    records.append(data)
+    properties: dict = {}
+    for lang in LANGUAGES:
+      catalog_file = ITEMS_DIR / f"{dataset_id}.{lang}"
+      if catalog_file.exists():
+        catalog = json.loads(catalog_file.read_text())
+        properties[f"title_{lang}"] = catalog.get("properties", {}).get("title", "")
+
+    record = {
+      "id": dataset_id,
+      "type": "FeatureCollection",
+      "features": dist_items,
+      "properties": properties,
+    }
+    records.append(record)
 
   return records
 

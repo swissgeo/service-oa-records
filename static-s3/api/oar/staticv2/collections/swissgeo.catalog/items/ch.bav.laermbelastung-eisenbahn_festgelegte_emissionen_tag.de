@@ -1,0 +1,109 @@
+{
+  "id": "ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/2d35d97f-e7b9-4d40-8654-d6adfaf26240",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Verkehr BAV",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Sektion Umwelt BAV",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Im Lärmbelastungskataster sind die verbindlichen Belastungswerte des Eisenbahnlärms festgehalten. Ausgewiesen werden sowohl Emissions- als auch Immissionswerte.Die festgelegten Emissionen Lr,e in [dB(A)] bildeten die Grundlage zur Festlegung der zulässigen Immissionen im Rahmen der Lärmsanierung oder von Ausbauprojekten in der Tagperiode.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bav.laermbelastung-eisenbahn_festgelegte_emissionen_tag:wmts",
+    "title": "Lärmbelastungskataster für Eisenbahnanlagen - Eisenbahnlärm, festgelegte Emissionen Tag",
+    "type": "Dataset"
+  }
+}

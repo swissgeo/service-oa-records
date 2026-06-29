@@ -1,0 +1,104 @@
+{
+  "id": "ch.bfe.biogasanlagen",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bfe.biogasanlagen?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bfe.biogasanlagen.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/d303ef3f-2ab2-4b83-9d81-7594173e3728",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Energie",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "In Biogasanlagen wird aus organischem Material mittels Vergärung Gas erzeugt. Das dabei entstehende Gasgemisch besteht zum überwiegenden Teil aus energiereichem Methan (CH4) und aus Kohlendioxid (CO2). Biogas kann zur Erzeugung von Strom und Wärme sowie als Treibstoff genutzt werden. Die Schweiz zählt mehr als 100 Biogasanlagen. Bei der inländischen Biogasproduktion werden ausschliesslich Abfälle und Speisereste aus Haushalten, der Nahrungsmittelindustrie und der Landwirtschaft verwertet. Biogas ist damit nicht nur ein erneuerbarer und CO2-neutraler, sondern auch ein nachhaltiger Energieträger. Mit Biogas kann direkt in einem Blockheizkraftwerk (BHKW) Strom und Wärme erzeugt werden. Es kann aber auch zu Biomethan aufbereitet und anschliessend ins Erdgasnetz eingespeist werden. Es steht dann wiederum für die Strom- und Wärmeproduktion oder als Treibstoff zur Verfügung. Die Geodaten über Biogasanlagen geben Auskunft über den derzeitigen Stand solcher Energieerzeugungsanlagen in der Schweiz. Derzeit beruhen die Daten nur auf der Liste der KEV-Bezüger. Das langfristige Ziel besteht darin, alle in der Schweiz in Betrieb stehenden Biogasanlagen erfassen zu können – ob sie nun Elektrizität oder Wärme vor Ort produzieren oder ob sie Biomethan ins Erdgasnetz einspeisen. Die Daten sind zur Information der breiten Öffentlichkeit bestimmt und stellen keine amtlichen oder verbindlichen Angaben dar.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bfe.biogasanlagen:wms",
+    "title": "Biogasanlagen",
+    "type": "Dataset"
+  }
+}

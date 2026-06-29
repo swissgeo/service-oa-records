@@ -1,0 +1,113 @@
+{
+  "id": "ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/71d15ae8-33db-4b1f-ae43-799d0af472e0",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Federal Office for the Environment",
+        "country": "CH",
+        "role": "custodian"
+      },
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Federal Office of Civil Aviation",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "These data show the geographical situation and adjoining areas in accordance with Art. 11a para. 2 of the MAO (SR:814.012) within which the construction of new buildings and installations may lead to a significant increase in the risk of a major accident. Building projects located totally or partly in the adjoining area are subject to a consultation procedure with the enforcement authority for risk assessment (Art. 11a para. 3 MAO).",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bazl.betriebe-stoerfallverordnung-zivilflugplaetze:wmts",
+    "title": "Location and adjoining areas of businesses in accordance with the Major Accidents Ordinance in the area of civil aerodromes",
+    "type": "Dataset"
+  }
+}

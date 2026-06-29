@@ -1,0 +1,113 @@
+{
+  "id": "ch.bafu.landesforstinventar-waldmischungsgrad",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.landesforstinventar-waldmischungsgrad?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.landesforstinventar-waldmischungsgrad.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b07a4589-159b-4c3a-b1e7-dbdad11f7e62",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Forest Division, Federal Office of the Environment",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Swiss Federal Institute for Forest, Snow and Landscape Research WSL",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "Information on the degree of forest mix rate NFI is modelled using remote sensing methods. Based on the freely available Copernicus (ESA) Sentinel-1 and -2 satellite data (image stacks from previous years), the proportion of deciduous and coniferous wood is evaluated nationwide in grid cells with a spatial resolution of 10 metres. A machine learning method is used for this purpose. Interpreted polygons of aerial photographs serve as reference data for the modelling. Each raster cell carries the information on the proportion of deciduous trees. The data set refers to all stands nationwide, not only to the LFI forest area. The spatially explicit forest mix rate NFI may differ from the mix rate NFI of the terrestrial sample survey. In the terrestrial determination of the degree of mixing, the basal area ratio of deciduous and coniferous trees is used. In the case of the forest mix rate NFI based on the Sentinel-1 and -2 satellite data, the ratio of the visible tree crowns of deciduous and coniferous tree proportions is calculated.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.landesforstinventar-waldmischungsgrad:wmts",
+    "title": "Forest mix rate NFI",
+    "type": "Dataset"
+  }
+}

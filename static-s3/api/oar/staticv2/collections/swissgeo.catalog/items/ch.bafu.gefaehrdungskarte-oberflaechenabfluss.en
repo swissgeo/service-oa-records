@@ -1,0 +1,118 @@
+{
+  "id": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.bafu.gefaehrdungskarte-oberflaechenabfluss?language=en",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=en",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "en"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.bafu.gefaehrdungskarte-oberflaechenabfluss.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/6b59f9ee-9e5f-4b12-86cf-f8afb539ae5d",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Gebäudeversicherung Luzern",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Kanton Luzern",
+        "country": "CH",
+        "role": "owner"
+      },
+      {
+        "organization": "Hazard Prevention Division, Federal Office for the Environment",
+        "country": "CH",
+        "role": "pointOfContact"
+      },
+      {
+        "organization": "Fürstentum Liechtenstein",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "The areas affected by overland flow were determined using a simplified method the over entire Switzerland and Liechtenstein. They were determined by modelling without any verification in the field. The map shows areas that are potentially affected by rare to very rare events. It provides a rough overview of the hazard of overland flow. It does neither take into account flooding due to overflowing watercourses, nor due to protective structures or culverts under roads or embankments (e.g. railway embankment appear according to the DTM as dykes without vaults). This map allows - in the absence of a more detailed hazard map - a rough assessment of the hazardous overland flow. The return period of the event represented is estimated to be larger than 100 years - an event that, over a long period of observation, would appear on average once every 100 years. It cannot be ruled out that areas not affected by the hazard map may be affected. It has to be used on a scale coarser than 1: 12,500 (Liechtenstein: 1:10,000) because of the potential for misinterpretation of affected and unaffected areas respectively. The map is not legally binding. The cantons are free to use it as an indicative hazard map and publish it on their cantonal geoportals.",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.bafu.gefaehrdungskarte-oberflaechenabfluss:wmts",
+    "title": "Overland flow map",
+    "type": "Dataset"
+  }
+}

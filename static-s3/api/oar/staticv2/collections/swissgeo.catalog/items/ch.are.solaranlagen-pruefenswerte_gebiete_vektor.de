@@ -1,0 +1,104 @@
+{
+  "id": "ch.are.solaranlagen-pruefenswerte_gebiete_vektor",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.are.solaranlagen-pruefenswerte_gebiete_vektor?language=de",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=de",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "de"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.are.solaranlagen-pruefenswerte_gebiete_vektor.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/metadata/7cb03c15-3d4c-437f-ae6c-6745af2d0ad6",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Bundesamt für Raumentwicklung",
+        "country": "CH",
+        "role": "owner"
+      }
+    ],
+    "description": "Die prüfenswerten Gebiete aus Sicht Bund geben erste Hinweise, welche Flächen aufgrund der angewandten Methode im Dokument «Freistehende Photovoltaikanlagen: Methodische Grundlage des Bundes» als Eignungsgebiete gemäss Artikel 10 Energiegesetz in Frage kommen könnten. In keinem Fall können die ausgewiesenen Flächen dabei als eine hinreichende oder exklusive Voraussetzung für das raumplanerische Ausweisen von Eignungsgebieten für Solaranlagen von nationaler Bedeutung oder auch von Zonen für die Solarenergienutzung nach kantonalem Recht betrachtet werden. Die entsprechenden Grundlagen- und Planungsarbeiten der Kantone (bzw. Gemeinden) sind im Gange oder noch vorzunehmen. Damit verbundene Entscheide der Planungsbehörden werden durch diese Karte nicht präjudiziert.Dieser Datensatz sollte im Massstab kleiner als 1:25'000 dargestellt werden. Für die schweizweite Übersicht ist dann auf den Datensatz \"Anteil prüfenswerter Gebiete\" zu wechseln. Die beiden Datensätze gehören zusammen und zeigen unterschiedliche Informationen in einer nationalen bzw. regionalen Betrachtung. Dieser Datensatz ist mit einer weiterführenden Abfragefunktion versehen. Für Rasterzellen, welche zu den nicht betrachteten Gebieten gehören (Siedlungs- und Verkehrszonen, grosse Gewässer und Wald), sind jedoch keine Zusatzinformationen abrufbar.",
+    "language": {
+      "code": "de",
+      "name": "Deutsch",
+      "dir": "ltr",
+      "alternate": "German"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.are.solaranlagen-pruefenswerte_gebiete_vektor:wmts",
+    "title": "Prüfenswerte Gebiete aus Sicht Bund für freistehende Photovoltaikanlagen von nationaler Bedeutung",
+    "type": "Dataset"
+  }
+}

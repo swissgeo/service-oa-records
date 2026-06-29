@@ -1,0 +1,104 @@
+{
+  "id": "ch.swisstopo.geologie-geocover.metadata",
+  "links": [
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog/items/ch.swisstopo.geologie-geocover.metadata?language=it",
+      "rel": "self",
+      "title": "This Record",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/swissgeo.catalog?language=it",
+      "rel": "collection",
+      "title": "Link to the collection this item belongs to",
+      "type": "application/json",
+      "hreflang": "it"
+    },
+    {
+      "href": "https://services.dev.sgdi.tech/api/oar/staticv2/collections/ch.swisstopo.geologie-geocover.metadata.distributions/items",
+      "rel": "distributions",
+      "title": "Distributions",
+      "type": "application/json"
+    },
+    {
+      "href": "https://www.geocat.ch/geonetwork/srv/ita/catalog.search#/metadata/f7485f4f-2224-4b76-a43c-52cbf8883a42",
+      "rel": "alternate",
+      "title": "GeoCat Metadata",
+      "type": "application/json"
+    }
+  ],
+  "linkTemplates": [],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          5.96,
+          45.82
+        ],
+        [
+          5.96,
+          47.81
+        ],
+        [
+          10.49,
+          47.81
+        ],
+        [
+          10.49,
+          45.82
+        ],
+        [
+          5.96,
+          45.82
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "contacts": [
+      {
+        "organization": "Ufficio federale di topografia swisstopo",
+        "country": "CH",
+        "role": "pointOfContact"
+      }
+    ],
+    "description": "I set di dati GeoCover sono disponibili secondo la suddivisione del reticolo nazionale in scala 1:25 000. Il livello «Divisione GeoCover» mostra il perimetro, il numero e il nome di ogni foglio. Cliccando sul perimetro di un foglio, i metadati specifici del foglio (autore, stato, banca dati utilizzata) appaiono nelle «Informazioni oggetto».I fogli descritti come aggiornati, contrassegnati dal colore verde, sono stati rielaborati dando priorità all'adeguamento dei dati alla nuova topografia. Per ogni set di dati aggiornato, è disponibile un rapporto più dettagliato sul lavoro svolto nel livello <a href=\"https://map.geo.admin.ch/?layers=ch.swisstopo.geologie-geocover&topic=geol\" target=\"_blank\">GeoCover - dati vettoriali</a>. I fogli contrassegnati in giallo sono in fase di aggiornamento o lo saranno nei prossimi anni. Infine, i fogli in blu saranno sostituiti con nuovi dati non appena i rilievi saranno completati (senza lavoro di redazione in una prima fase).",
+    "language": {
+      "code": "it",
+      "name": "Italiano",
+      "dir": "ltr",
+      "alternate": "Italian"
+    },
+    "languages": [
+      {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr",
+        "alternate": "German"
+      },
+      {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr",
+        "alternate": "French"
+      },
+      {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr",
+        "alternate": "Italian"
+      },
+      {
+        "code": "en",
+        "name": "English",
+        "dir": "ltr"
+      }
+    ],
+    "preferredDistributionId": "ch.swisstopo.geologie-geocover.metadata:wms",
+    "title": "Suddivisione dei fogli dei set di dati geologici vettoriali GeoCover",
+    "type": "Dataset"
+  }
+}
