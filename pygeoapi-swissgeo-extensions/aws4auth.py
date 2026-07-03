@@ -51,10 +51,14 @@ def patched_opensearch(provider_def: dict) -> Generator[None, None, None]:
     os.environ.get("AWS_DEFAULT_REGION", "eu-central-1"),
   )
   service = provider_def.get("aws_service", "es")
+  timeout = int(provider_def.get("timeout", os.environ.get("OPENSEARCH_TIMEOUT", "30")))
+  max_retries = int(provider_def.get("max_retries", os.environ.get("OPENSEARCH_MAX_RETRIES", "3")))
   LOGGER.info(
-    "Configuring AWS SigV4 auth (region=%s service=%s)",
+    "Configuring AWS SigV4 auth (region=%s service=%s timeout=%ds max_retries=%d)",
     region,
     service,
+    timeout,
+    max_retries,
   )
   credentials = boto3.Session().get_credentials().get_frozen_credentials()
   awsauth = AWS4Auth(
@@ -74,6 +78,9 @@ def patched_opensearch(provider_def: dict) -> Generator[None, None, None]:
       use_ssl=True,
       verify_certs=True,
       connection_class=RequestsHttpConnection,
+      timeout=timeout,
+      max_retries=max_retries,
+      retry_on_timeout=True,
     )
 
   _os_mod.OpenSearch = _aws_opensearch  # ty: ignore[invalid-assignment]
