@@ -4,16 +4,18 @@ import sys
 import threading
 from pathlib import Path
 
+from babel import Locale
+
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
 from swissgeo_provider import (
-  _apply_lang,
   _ensure_self_link,
   _get_lang_and_fmt,
   _local,
   _patch_links,
+  _translate_props,
   set_request_params,
 )
 
@@ -83,46 +85,51 @@ class TestGetLangAndFmt:
 
 
 # ---------------------------------------------------------------------------
-# _apply_lang
+# _translate_props
 # ---------------------------------------------------------------------------
 
 
-class TestApplyLang:
-  def test_title_replaced_with_localised_variant(self) -> None:
-    props = {"title": "Default", "title_de": "Deutsch"}
-    _apply_lang(props, "de")
+class TestTranslateProps:
+  def test_title_collapsed_to_requested_lang(self) -> None:
+    props = {"title": {"de": "Deutsch", "fr": "Français"}}
+    _translate_props(props, "de")
     assert props["title"] == "Deutsch"
 
-  def test_description_replaced_with_localised_variant(self) -> None:
-    props = {"description": "Default", "description_fr": "Français"}
-    _apply_lang(props, "fr")
+  def test_description_collapsed_to_requested_lang(self) -> None:
+    props = {"description": {"de": "Deutsch", "fr": "Français"}}
+    _translate_props(props, "fr")
     assert props["description"] == "Français"
 
-  def test_falls_back_to_original_when_localised_empty(self) -> None:
-    props = {"title": "Default", "title_de": ""}
-    _apply_lang(props, "de")
-    assert props["title"] == "Default"
+  def test_accepts_babel_locale(self) -> None:
+    locale = Locale("de")
+    props = {"title": {"de": "Deutsch", "fr": "Français"}}
+    _translate_props(props, locale)
+    assert props["title"] == "Deutsch"
 
-  def test_falls_back_to_original_when_localised_missing(self) -> None:
-    props = {"title": "Default"}
-    _apply_lang(props, "it")
-    assert props["title"] == "Default"
+  def test_falls_back_to_first_lang_when_requested_missing(self) -> None:
+    props = {"title": {"de": "Deutsch"}}
+    _translate_props(props, "it")
+    assert props["title"] == "Deutsch"
 
-  def test_per_lang_fields_stripped(self) -> None:
-    props = {
-      "title": "T",
-      "title_de": "T-de",
-      "title_fr": "T-fr",
-      "description_en": "D-en",
-    }
-    _apply_lang(props, "de")
-    assert "title_de" not in props
-    assert "title_fr" not in props
-    assert "description_en" not in props
+  def test_no_language_leaves_struct_untouched(self) -> None:
+    props = {"title": {"de": "Deutsch", "fr": "Français"}}
+    _translate_props(props, None)
+    assert props["title"] == {"de": "Deutsch", "fr": "Français"}
+
+  def test_non_dict_field_untouched(self) -> None:
+    props = {"title": "plain string"}
+    _translate_props(props, "de")
+    assert props["title"] == "plain string"
+
+  def test_missing_field_ignored(self) -> None:
+    props = {"description": {"de": "Deutsch"}}
+    _translate_props(props, "de")
+    assert "title" not in props
+    assert props["description"] == "Deutsch"
 
   def test_non_lang_fields_untouched(self) -> None:
-    props = {"title": "T", "extra": "keep me"}
-    _apply_lang(props, "en")
+    props = {"title": {"en": "T"}, "extra": "keep me"}
+    _translate_props(props, "en")
     assert props["extra"] == "keep me"
 
 

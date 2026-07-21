@@ -15,9 +15,7 @@ loggers:
       - console
     propagate: True
   pygeoapi.l10n:
-    # Only log ERROR level and above, since pygeoapi.l10n tries to translate every python dict
-    # when a dict doesn't have all languages, it raises an error.
-    level: ERROR
+    level: WARNING
     handlers:
       - console
   pygeoapi.api.itemtypes:

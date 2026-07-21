@@ -114,14 +114,15 @@ def load_catalog_records(items_dir: Path) -> list[dict]:
         **{k: v for k, v in base["properties"].items() if k not in ("title", "description", "language")},
       },
     }
+    title: dict[str, str] = {}
+    description: dict[str, str] = {}
     for lang in LANGUAGES:
       if lang in lang_data:
         props = lang_data[lang]["properties"]
-        record["properties"][f"title_{lang}"] = props.get("title", "")
-        record["properties"][f"description_{lang}"] = props.get(
-          "description",
-          "",
-        )
+        title[lang] = props.get("title", "")
+        description[lang] = props.get("description", "")
+    record["properties"]["title"] = title
+    record["properties"]["description"] = description
 
     records.append(record)
 
@@ -156,10 +157,12 @@ def load_services_records(services_items_dir: Path) -> list[dict]:
     if "linkTemplates" in base:
       record["linkTemplates"] = base["linkTemplates"]
 
+    title: dict[str, str] = {}
     for lang in LANGUAGES:
       if lang in lang_data:
         props = lang_data[lang].get("properties", {})
-        record["properties"][f"title_{lang}"] = props.get("title", "")
+        title[lang] = props.get("title", "")
+    record["properties"]["title"] = title
 
     records.append(record)
 
@@ -210,12 +213,13 @@ def load_distribution_records(collections_dir: Path) -> list[dict]:
       item["links"] = _rewrite_dist_links(item.get("links", []), catalog_href)
       dist_items.append(item)
 
-    properties: dict = {}
+    title: dict[str, str] = {}
     for lang in LANGUAGES:
       catalog_file = ITEMS_DIR / f"{dataset_id}.{lang}"
       if catalog_file.exists():
         catalog = json.loads(catalog_file.read_text())
-        properties[f"title_{lang}"] = catalog.get("properties", {}).get("title", "")
+        title[lang] = catalog.get("properties", {}).get("title", "")
+    properties: dict = {"title": title}
 
     record = {
       "id": dataset_id,

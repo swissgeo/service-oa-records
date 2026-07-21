@@ -1,8 +1,10 @@
 """SwissGeo OpenSearch catalogue provider for OGC API Records.
 
 Extends OpenSearchCatalogueProvider with language-aware field selection:
-``title`` and ``description`` are transparently swapped for their per-language
-variants (``title_de``, ``title_fr``, …) before handing results back to pygeoapi.
+``title`` and ``description`` arrive as nested per-language objects
+(``{"de": …, "fr": …}``) and are collapsed to the language pygeoapi resolves
+(passed in via the ``language`` kwarg) using ``pygeoapi.l10n.translate``,
+before handing results back to pygeoapi.
 
 Also patches same-host links to carry ``lang`` and ``f`` query params.
 
@@ -28,6 +30,7 @@ from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
 from opentelemetry import trace
+from pygeoapi import l10n
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 
 LOGGER = logging.getLogger(__name__)
@@ -105,8 +108,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       properties = []
     if bbox is None:
       bbox = []
+    language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
-    LOGGER.debug("SwissGeoProvider.query lang=%s fmt=%s", lang, fmt)
+    LOGGER.debug("SwissGeoProvider.query language=%s fmt=%s", language, fmt)
 
     result = super().query(
       offset=offset,
@@ -124,7 +128,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     )
 
     for feature in result.get("features", []):
-      _apply_lang(feature["properties"], lang)
+      _translate_props(feature.get("properties", {}), language)
       links = feature.setdefault("links", [])
       _ensure_self_link(links, self.resource_id, feature.get("id", ""))
       _patch_links(links, lang, fmt)
@@ -136,18 +140,19 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
   @_tracer.start_as_current_span("SwissGeoProvider.get")
   def get(self, identifier: str, **kwargs) -> dict | None:
     """Fetch a single record by ID with language-aware post-processing."""
+    language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
     LOGGER.debug(
-      "SwissGeoProvider.get identifier=%s lang=%s fmt=%s",
+      "SwissGeoProvider.get identifier=%s language=%s fmt=%s",
       identifier,
-      lang,
+      language,
       fmt,
     )
 
     result = super().get(identifier, **kwargs)
 
     if result:
-      _apply_lang(result["properties"], lang)
+      _translate_props(result.get("properties", {}), language)
       links = result.setdefault("links", [])
       _ensure_self_link(links, self.resource_id, identifier)
       _patch_links(links, lang, fmt)
@@ -157,20 +162,20 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     return result
 
 
-def _apply_lang(props: dict, lang: str) -> None:
-  """Overwrite ``title`` and ``description`` with localised variants.
+def _translate_props(props: dict, language) -> None:  # noqa: ANN001
+  """Collapse the ``title``/``description`` language structs in place.
 
-  If the per-language variant exists and is non-empty it replaces the
-  generic field, then all per-lang fields are stripped.
+  Uses pygeoapi's own :func:`pygeoapi.l10n.translate` so behaviour matches
+  the rest of the framework: the value for *language* is returned, falling
+  back to the first available language, then to the struct itself. Only the
+  known language-struct fields are translated to avoid l10n warnings on
+  non-locale sibling keys (``type``, ``rel``, …).
   """
+  if not language:
+    return
   for field in ("title", "description"):
-    localised = props.get(f"{field}_{lang}", "")
-    if localised:
-      props[field] = localised
-
-  for language in _SUPPORTED_LANGS:
-    for field in ("title", "description"):
-      props.pop(f"{field}_{language}", None)
+    if isinstance(props.get(field), dict):
+      props[field] = l10n.translate(props[field], language)
 
 
 def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:

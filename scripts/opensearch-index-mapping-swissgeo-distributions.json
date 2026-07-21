@@ -5,7 +5,14 @@
       "type": {"type": "keyword"},
       "properties": {
         "properties": {
-          "title": {"type": "text"}
+          "title": {
+            "properties": {
+              "de": {"type": "text"},
+              "en": {"type": "text"},
+              "fr": {"type": "text"},
+              "it": {"type": "text"}
+            }
+          }
         }
       },
       "records": {"type": "object", "enabled": false}

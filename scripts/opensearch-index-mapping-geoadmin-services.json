@@ -7,7 +7,14 @@
       "linkTemplates": {"type": "object", "enabled": false},
       "properties": {
         "properties": {
-          "title": {"type": "text"},
+          "title": {
+            "properties": {
+              "de": {"type": "text"},
+              "en": {"type": "text"},
+              "fr": {"type": "text"},
+              "it": {"type": "text"}
+            }
+          },
           "type": {"type": "keyword"}
         }
       }
