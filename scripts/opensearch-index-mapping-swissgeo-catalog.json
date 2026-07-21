@@ -7,14 +7,22 @@
       "properties": {
         "properties": {
           "type": {"type": "keyword"},
-          "title_de": {"type": "text"},
-          "title_en": {"type": "text"},
-          "title_fr": {"type": "text"},
-          "title_it": {"type": "text"},
-          "description_de": {"type": "text"},
-          "description_en": {"type": "text"},
-          "description_fr": {"type": "text"},
-          "description_it": {"type": "text"},
+          "title": {
+            "properties": {
+              "de": {"type": "text"},
+              "en": {"type": "text"},
+              "fr": {"type": "text"},
+              "it": {"type": "text"}
+            }
+          },
+          "description": {
+            "properties": {
+              "de": {"type": "text"},
+              "en": {"type": "text"},
+              "fr": {"type": "text"},
+              "it": {"type": "text"}
+            }
+          },
           "keywords": {"type": "keyword"},
           "preferredDistributionId": {"type": "keyword"}
         }
