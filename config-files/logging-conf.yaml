@@ -15,7 +15,7 @@ loggers:
       - console
     propagate: True
   pygeoapi.l10n:
-    level: WARNING
+    level: ERROR
     handlers:
       - console
   pygeoapi.api.itemtypes:
