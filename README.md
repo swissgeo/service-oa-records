@@ -58,6 +58,44 @@ pygeoapi's Starlette integration runs provider calls in a thread pool. By the ti
 
 `_patch_links()` appends `?lang=<lang>&f=<fmt>` to any link whose `href` is relative or starts with `PYGEOAPI_SERVER_URL`. External links are left untouched.
 
+## Sorting
+
+Requests that don't pass `sortby` get a default ordering, so results are reproducible and offset paging never skips or repeats a record:
+
+| Request | Default order |
+|---|---|
+| Browsing (no `q`) | `title.<lang>` ascending, then `id` |
+| Free-text search (`q=…`) | `_score` descending, then `id` |
+
+`id` is always the last key: OpenSearch gives no ordering guarantee between documents that tie on the primary key, which makes `offset`/`limit` paging unstable. Search keeps `_score` first because *any* explicit sort clause makes OpenSearch drop relevance scoring — sorting search hits alphabetically would bury the best match.
+
+The sort language is the one pygeoapi negotiated for the request, so the order always matches the titles actually rendered. A record with no title in that language sorts last.
+
+Clients can override with e.g. `?sortby=title.fr`, `?sortby=-title.de` or `?sortby=id`.
+
+### Index requirements
+
+OpenSearch **cannot sort on a `text` field** — it rejects the query with `Text fields are not optimised for operations that require per-document field data`. Each `properties.title.<lang>` therefore carries a `raw` keyword sub-field:
+
+```json
+"de": {"type": "text", "fields": {"raw": {"type": "keyword", "normalizer": "sortable", "ignore_above": 1024}}}
+```
+
+Two details are load-bearing:
+
+- **The sub-field must be named `raw`.** pygeoapi hardcodes a `.raw` suffix when sorting a field it considers a string (`pygeoapi/provider/opensearch_.py`), so `keyword` — the more common convention — would not be found.
+- **The `sortable` normalizer** (`lowercase` + `asciifolding`, defined under `settings.analysis`) gives real alphabetical order. Raw keyword sorting is byte order, which would place `Öschinensee` after `Zürich` and every lowercase title after every uppercase one.
+
+`asciifolding` is a built-in filter, so no `analysis-icu` plugin is needed on the managed AWS domain.
+
+> [!IMPORTANT]
+> These are mapping changes: existing indexes must be recreated and reloaded, otherwise the `raw` sub-field is missing and every record sorts as if it had no title.
+> ```bash
+> just etl-catalogue          # FORCE=1, recreates the indexes and reimports
+> ```
+
+Because `title.<lang>`, `id` and `_score` are registered as provider fields, they also show up as queryables.
+
 ## Configuration
 
 Provider registration in `pygeoapi-config.yml`:

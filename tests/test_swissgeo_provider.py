@@ -20,6 +20,7 @@ from swissgeo_provider import (
   _get_lang_and_fmt,
   _local,
   _patch_links,
+  _sort_lang,
   _translate_props,
   set_request_params,
 )
@@ -472,7 +473,6 @@ class TestProviderQuery:
     provider.query()
 
     assert captured["select_properties"] == []
-    assert captured["sortby"] == []
     assert captured["properties"] == []
     assert captured["bbox"] == []
 
@@ -531,3 +531,304 @@ class TestProviderGet:
     set_request_params(lang="en", fmt=None)
 
     assert provider.get("missing") is None
+
+
+# ---------------------------------------------------------------------------
+# _sort_lang
+# ---------------------------------------------------------------------------
+
+
+class TestSortLang:
+  def test_falls_back_when_language_missing(self) -> None:
+    assert _sort_lang(None, "fr") == "fr"
+
+  def test_falls_back_on_empty_string(self) -> None:
+    assert _sort_lang("", "it") == "it"
+
+  @pytest.mark.parametrize("code", ["de", "fr", "it", "en"])
+  def test_supported_codes(self, code) -> None:
+    assert _sort_lang(code, "en") == code
+
+  def test_accepts_babel_locale(self) -> None:
+    assert _sort_lang(Locale("de"), "en") == "de"
+
+  def test_babel_locale_with_territory_stripped(self) -> None:
+    assert _sort_lang(Locale("de", "CH"), "en") == "de"
+
+  def test_hyphenated_tag_stripped(self) -> None:
+    assert _sort_lang("fr-CH", "en") == "fr"
+
+  def test_unsupported_language_falls_back(self) -> None:
+    assert _sort_lang("es", "de") == "de"
+
+  def test_case_insensitive(self) -> None:
+    assert _sort_lang("DE", "en") == "de"
+
+
+# ---------------------------------------------------------------------------
+# Default sort ordering
+# ---------------------------------------------------------------------------
+
+
+def _capture_sortby(monkeypatch) -> dict:
+  """Stub the parent query and capture the kwargs it receives."""
+  captured = {}
+
+  def fake_query(_self, **kwargs) -> dict:
+    captured.update(kwargs)
+    return {"features": []}
+
+  monkeypatch.setattr(
+    swissgeo_provider.OpenSearchCatalogueProvider,
+    "query",
+    fake_query,
+  )
+  return captured
+
+
+class TestDefaultSort:
+  def setup_method(self) -> None:
+    _local.__dict__.clear()
+
+  def test_defaults_to_localised_title_then_id(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang="de", fmt=None)
+
+    _make_provider().query(language="de")
+
+    assert captured["sortby"] == [
+      {"property": "title.de", "order": "+"},
+      {"property": "id", "order": "+"},
+    ]
+
+  @pytest.mark.parametrize("code", ["de", "fr", "it", "en"])
+  def test_sort_language_follows_requested_language(self, monkeypatch, code) -> None:
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang=code, fmt=None)
+
+    _make_provider().query(language=code)
+
+    assert captured["sortby"][0]["property"] == f"title.{code}"
+
+  def test_falls_back_to_thread_local_lang(self, monkeypatch) -> None:
+    """No ``language`` kwarg: the lang app.py stashed is used instead."""
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang="it", fmt=None)
+
+    _make_provider().query()
+
+    assert captured["sortby"][0]["property"] == "title.it"
+
+  def test_defaults_to_en_without_any_language(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+
+    _make_provider().query()
+
+    assert captured["sortby"][0]["property"] == "title.en"
+
+  def test_explicit_sortby_takes_precedence(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang="de", fmt=None)
+    explicit = [{"property": "title.fr", "order": "-"}]
+
+    _make_provider().query(sortby=explicit, language="de")
+
+    assert captured["sortby"] == explicit
+
+  def test_tiebreaker_not_appended_to_explicit_sortby(self, monkeypatch) -> None:
+    """An explicit sort is passed through untouched, not augmented."""
+    captured = _capture_sortby(monkeypatch)
+    explicit = [{"property": "id", "order": "-"}]
+
+    _make_provider().query(sortby=explicit)
+
+    assert captured["sortby"] == explicit
+
+
+class TestDefaultSortWithFreeTextSearch:
+  """A ``q`` search must stay relevance-ranked.
+
+  Any explicit sort clause makes OpenSearch drop ``_score``, so defaulting to
+  the title here would return search hits alphabetically and bury the best
+  match.
+  """
+
+  def setup_method(self) -> None:
+    _local.__dict__.clear()
+
+  def test_relevance_is_primary_key_for_search(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang="de", fmt=None)
+
+    _make_provider().query(q="zermatt", language="de")
+
+    assert captured["sortby"] == [
+      {"property": "_score", "order": "-"},
+      {"property": "id", "order": "+"},
+    ]
+
+  def test_search_still_gets_a_stable_tiebreaker(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+
+    _make_provider().query(q="zermatt")
+
+    assert captured["sortby"][-1] == {"property": "id", "order": "+"}
+
+  def test_title_sort_used_when_q_is_empty_string(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+    set_request_params(lang="de", fmt=None)
+
+    _make_provider().query(q="", language="de")
+
+    assert captured["sortby"][0]["property"] == "title.de"
+
+  def test_explicit_sortby_still_wins_over_relevance(self, monkeypatch) -> None:
+    captured = _capture_sortby(monkeypatch)
+    explicit = [{"property": "title.de", "order": "+"}]
+
+    _make_provider().query(q="zermatt", sortby=explicit, language="de")
+
+    assert captured["sortby"] == explicit
+
+
+# ---------------------------------------------------------------------------
+# get_fields / mask_prop
+#
+# These make pygeoapi resolve the nested per-language title leaves: without
+# them neither the sortby validation nor the sort-clause builder can see them.
+# ---------------------------------------------------------------------------
+
+
+class TestGetFields:
+  def _provider_with_parent_fields(self, monkeypatch, parent_fields=None) -> SwissGeoProvider:
+    provider = _make_provider()
+    fields = parent_fields if parent_fields is not None else {"q": {"type": "string"}}
+    monkeypatch.setattr(
+      swissgeo_provider.OpenSearchCatalogueProvider,
+      "get_fields",
+      lambda _self: fields,
+    )
+    return provider
+
+  @pytest.mark.parametrize("code", ["de", "fr", "it", "en"])
+  def test_registers_title_leaf_per_language(self, monkeypatch, code) -> None:
+    provider = self._provider_with_parent_fields(monkeypatch)
+    assert f"title.{code}" in provider.get_fields()
+
+  def test_title_leaves_typed_string_to_reach_raw_subfield(self, monkeypatch) -> None:
+    """``string`` is what makes pygeoapi append ``.raw`` to the sort property."""
+    provider = self._provider_with_parent_fields(monkeypatch)
+    assert provider.get_fields()["title.de"] == {"type": "string"}
+
+  def test_id_registered_as_keyword(self, monkeypatch) -> None:
+    """``keyword`` keeps pygeoapi from appending ``.raw`` to ``id``."""
+    provider = self._provider_with_parent_fields(monkeypatch)
+    assert provider.get_fields()["id"] == {"type": "keyword"}
+
+  def test_score_registered_as_keyword(self, monkeypatch) -> None:
+    provider = self._provider_with_parent_fields(monkeypatch)
+    assert provider.get_fields()["_score"] == {"type": "keyword"}
+
+  def test_parent_fields_preserved(self, monkeypatch) -> None:
+    provider = self._provider_with_parent_fields(
+      monkeypatch, {"q": {"type": "string"}, "keywords": {"type": "keyword"}}
+    )
+    fields = provider.get_fields()
+    assert fields["q"] == {"type": "string"}
+    assert fields["keywords"] == {"type": "keyword"}
+
+  def test_written_back_to_fields_attribute(self, monkeypatch) -> None:
+    """``BaseProvider.fields`` reads ``_fields`` directly, not get_fields()."""
+    provider = self._provider_with_parent_fields(monkeypatch)
+    provider.get_fields()
+    assert "title.de" in provider.fields
+    assert "id" in provider.fields
+
+
+class TestMaskProp:
+  def test_root_level_id_not_prefixed(self) -> None:
+    assert _make_provider().mask_prop("id") == "id"
+
+  def test_score_not_prefixed(self) -> None:
+    assert _make_provider().mask_prop("_score") == "_score"
+
+  def test_nested_property_still_prefixed(self) -> None:
+    assert _make_provider().mask_prop("title.de") == "properties.title.de"
+
+  def test_other_properties_unaffected(self) -> None:
+    assert _make_provider().mask_prop("keywords") == "properties.keywords"
+
+
+# ---------------------------------------------------------------------------
+# End-to-end sort clause
+#
+# Exercises pygeoapi's own sortby translation against a stubbed OpenSearch
+# client, to pin down the exact field paths the backend receives. This is the
+# part that breaks silently: OpenSearch refuses to sort on a `text` field, so
+# the clause must target the `raw` keyword sub-field from the index mapping.
+# ---------------------------------------------------------------------------
+
+
+def _provider_with_fake_client() -> tuple[SwissGeoProvider, list]:
+  """Provider wired to a fake OpenSearch client that records query bodies."""
+  provider = _make_provider()
+  bodies = []
+
+  class FakeClient:
+    def search(self, index, from_, size, body) -> dict:  # noqa: ARG002
+      bodies.append(body)
+      return {"hits": {"total": {"value": 0}, "hits": []}}
+
+  provider.os_ = FakeClient()
+  provider.index_name = "swissgeo-catalog"
+  provider.properties = []
+  provider.select_properties = []
+  provider.time_field = None
+  provider.id_field = "externalId"
+  provider._fields = {
+    "title.de": {"type": "string"},
+    "title.fr": {"type": "string"},
+    "id": {"type": "keyword"},
+    "_score": {"type": "keyword"},
+  }
+  return provider, bodies
+
+
+class TestSortClauseSentToOpenSearch:
+  def setup_method(self) -> None:
+    _local.__dict__.clear()
+
+  def test_title_sort_targets_raw_keyword_subfield(self) -> None:
+    """`properties.title.de` is a text field; sorting it directly would fail."""
+    provider, bodies = _provider_with_fake_client()
+    set_request_params(lang="de", fmt=None)
+
+    provider.query(language="de")
+
+    assert bodies[0]["sort"][0] == {"properties.title.de.raw": {"order": "asc"}}
+
+  def test_tiebreaker_sorts_on_root_id_without_raw(self) -> None:
+    provider, bodies = _provider_with_fake_client()
+    set_request_params(lang="de", fmt=None)
+
+    provider.query(language="de")
+
+    assert bodies[0]["sort"][1] == {"id": {"order": "asc"}}
+
+  def test_descending_explicit_sort_translated(self) -> None:
+    provider, bodies = _provider_with_fake_client()
+
+    provider.query(sortby=[{"property": "title.fr", "order": "-"}])
+
+    assert bodies[0]["sort"] == [{"properties.title.fr.raw": {"order": "desc"}}]
+
+  def test_search_sorts_on_score_metadata_field(self) -> None:
+    """``_score`` must reach OpenSearch bare: neither prefixed nor ``.raw``-ed."""
+    provider, bodies = _provider_with_fake_client()
+
+    provider.query(q="zermatt")
+
+    assert bodies[0]["sort"] == [
+      {"_score": {"order": "desc"}},
+      {"id": {"order": "asc"}},
+    ]

@@ -6,7 +6,12 @@ Extends OpenSearchCatalogueProvider with language-aware field selection:
 (passed in via the ``language`` kwarg) using ``pygeoapi.l10n.translate``,
 before handing results back to pygeoapi.
 
-Also patches same-host links to carry ``lang`` and ``f`` query params.
+Also patches same-host links to carry ``lang`` and ``f`` query params, and
+applies a default ordering when the client sends no ``sortby``: alphabetical
+by localised title when browsing, relevance when searching, always with ``id``
+as a tiebreaker so offset paging is stable. This relies on the ``raw`` keyword
+sub-field of ``properties.title.<lang>`` in the index mapping — see the Sorting
+section of README.md.
 
 Usage in pygeoapi-config.yml:
     providers:
@@ -39,6 +44,22 @@ _tracer = trace.get_tracer(__name__)
 
 _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 
+# Fields the parent provider looks up under ``properties.`` via mask_prop().
+# ``id`` lives at the document root and ``_score`` is OpenSearch metadata, so
+# neither may be prefixed.
+_ROOT_FIELDS = {"id", "_score"}
+
+# Relevance, used as the primary key for free-text searches.
+_SCORE_FIELD = "_score"
+
+# Secondary sort key. Titles are not unique, and OpenSearch gives no ordering
+# guarantee between documents that tie on the primary key, which would make
+# offset-based paging skip or repeat records.
+_TIEBREAK_FIELD = "id"
+
+# Sortable leaf fields exposed to clients, e.g. ``?sortby=-title.fr``.
+_TITLE_FIELD = "title"
+
 # Styles are served outside the records API prefix, so relative links to them
 # are resolved against the hostname instead of the base URL.
 _STYLES_PREFIX = "/api/oas/v0/styles"
@@ -63,6 +84,20 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     return "en", fmt
   primary = lang.split("-")[0].split("_")[0].lower()
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
+
+
+def _sort_lang(language, fallback: str) -> str:  # noqa: ANN001
+  """Resolve *language* to a supported primary language code.
+
+  ``language`` is whatever pygeoapi negotiated (a ``babel.Locale`` or a string);
+  *fallback* is the already-validated code from the thread-local. Sorting must
+  use the same language as :func:`_translate_props` so the order matches the
+  titles that are actually rendered.
+  """
+  if not language:
+    return fallback
+  primary = str(language).split("-")[0].split("_")[0].lower()
+  return primary if primary in _SUPPORTED_LANGS else fallback
 
 
 def _get_hostname() -> str:
@@ -92,6 +127,56 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       super().__init__(provider_def)
     self.resource_id = provider_def.get("resource_id", self.name)
 
+  def get_fields(self) -> dict:
+    """Register the per-language title fields and ``id`` as queryable.
+
+    The parent only picks up keys directly under ``properties`` that carry a
+    ``type``. ``title`` is an object of language sub-fields and therefore never
+    appears, so neither pygeoapi's ``sortby`` validation nor its sort-clause
+    builder can resolve it. Declaring the leaves explicitly makes
+    ``?sortby=title.de`` (and the default sort below) work.
+
+    ``string`` is deliberate: it is what makes the parent target the sortable
+    ``.raw`` sub-field defined in the index mapping. ``id`` is a ``keyword``
+    so it is sorted on directly.
+
+    The result is written back to ``_fields`` because ``BaseProvider.fields`` —
+    which pygeoapi consults to validate ``sortby`` — reads that attribute
+    directly instead of calling this method.
+    """
+    fields = super().get_fields()
+    for lang in sorted(_SUPPORTED_LANGS):
+      fields[f"{_TITLE_FIELD}.{lang}"] = {"type": "string"}
+    fields[_TIEBREAK_FIELD] = {"type": "keyword"}
+    fields[_SCORE_FIELD] = {"type": "keyword"}
+    self._fields = fields
+    return fields
+
+  def mask_prop(self, property_name: str) -> str:
+    """Resolve a field name to its OpenSearch path.
+
+    The parent prefixes everything with ``properties.``; root-level fields
+    such as ``id`` must not be.
+    """
+    if property_name in _ROOT_FIELDS:
+      return property_name
+    return super().mask_prop(property_name)
+
+  def _default_sortby(self, lang: str, q: str | None) -> list[dict]:
+    """Build the ordering used when the client did not ask for one.
+
+    Browsing is alphabetical by localised title. Free-text searches keep
+    relevance first: any explicit ``sort`` makes OpenSearch drop ``_score``
+    entirely, which would return search hits in alphabetical order and bury
+    the best match.
+
+    Either way ``id`` breaks ties, because OpenSearch gives no ordering
+    guarantee between equally-ranked documents and offset paging would
+    otherwise skip or repeat records.
+    """
+    primary = {"property": _SCORE_FIELD, "order": "-"} if q else {"property": f"{_TITLE_FIELD}.{lang}", "order": "+"}
+    return [primary, {"property": _TIEBREAK_FIELD, "order": "+"}]
+
   @_tracer.start_as_current_span("SwissGeoProvider.query")
   def query(  # noqa: ANN201, PLR0913
     self,
@@ -119,7 +204,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       bbox = []
     language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
-    LOGGER.debug("SwissGeoProvider.query language=%s fmt=%s", language, fmt)
+    if not sortby:
+      sortby = self._default_sortby(_sort_lang(language, lang), q)
+    LOGGER.debug("SwissGeoProvider.query language=%s fmt=%s sortby=%s", language, fmt, sortby)
 
     result = super().query(
       offset=offset,
