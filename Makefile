@@ -35,11 +35,15 @@ HTTP_PORT ?= 8080
 SERVE_ARGS := app:APP --host 0.0.0.0 --port $(HTTP_PORT) \
 	--app-dir $(APP_SRC_DIR) --log-config config-files/logging-conf.yaml
 
-# The app always runs on the host (like service-control), so there is a single env
-# file. uv loads it into the environment of every `uv run` below; `dockerrun` passes
+# The app always runs on the host (like service-control), so one env file covers
+# both. uv loads it into the environment of every `uv run` below; `dockerrun` passes
 # the relevant values through to the container, which runs with --net=host.
-ENV_FILE ?= .env-local
-export UV_ENV_FILE := $(ENV_FILE)
+# `.env` is created from `.env.default`; `.env.local` overrides it when present.
+ENV_FILE ?= $(if $(wildcard .env.local),.env.local,.env)
+# $(wildcard ...) so the variable is empty when the file does not exist: uv errors
+# out on a missing UV_ENV_FILE, which would break CI-only targets (format, lint,
+# test) that need no runtime config.
+export UV_ENV_FILE := $(wildcard $(ENV_FILE))
 
 # Read back the value the recipes need at the shell level (i.e. outside `uv run`).
 OPENSEARCH_URL = $(shell sed -n 's/^OPENSEARCH_URL=//p' $(ENV_FILE) 2>/dev/null)
@@ -53,13 +57,12 @@ OPENSEARCH_INDEXES := swissgeo-catalog swissgeo-distributions geoadmin-services
 export PYTHONPATH := $(CURRENT_DIR)/$(APP_SRC_DIR)
 
 
-$(ENV_FILE):
-	@echo "$(ENV_FILE) is missing, creating it from .env-local.default"
-	cp .env-local.default $(ENV_FILE)
+.env:
+	cp .env.default .env
 
 
 .PHONY: setup
-setup: $(ENV_FILE) ## Create virtualenv with all packages for development
+setup: .env ## Create virtualenv with all packages for development
 	uv sync
 	# Start a new shell with the virtualenv activated and OPENSEARCH_URL exported, so
 	# that the app and the catalogue scripts find the service-control OpenSearch.
@@ -67,7 +70,7 @@ setup: $(ENV_FILE) ## Create virtualenv with all packages for development
 
 
 .PHONY: ci
-ci: ## Create virtual env with all packages for development using the uv.lock (CI)
+ci: .env ## Create virtual env with all packages for development using the uv.lock (CI)
 	uv sync --frozen
 
 
@@ -87,7 +90,7 @@ ci-check-format: format ## Check the format (CI)
 	fi
 
 .PHONY: check-opensearch-up
-check-opensearch-up: $(ENV_FILE) ## Check that the service-control OpenSearch is reachable
+check-opensearch-up: .env ## Check that the service-control OpenSearch is reachable
 	@if ! curl -sf -m 3 -o /dev/null $(OPENSEARCH_URL)/_cluster/health; then \
 		>&2 echo "ERROR: no OpenSearch at $(OPENSEARCH_URL)"; \
 		>&2 echo "       This service expects the OpenSearch server from service-control."; \
@@ -111,7 +114,7 @@ check-opensearch: check-opensearch-up ## Check that OpenSearch is reachable with
 
 
 .PHONY: openapi
-openapi: $(ENV_FILE) ## Generate the OpenAPI document from the pygeoapi config
+openapi: .env ## Generate the OpenAPI document from the pygeoapi config
 	# $$PYGEOAPI_* come from $(ENV_FILE), which uv loads into the child environment,
 	# so expand them inside the `uv run` shell rather than in make's.
 	$(UV_RUN) sh -c 'pygeoapi openapi generate "$$PYGEOAPI_CONFIG" --output-file "$$PYGEOAPI_OPENAPI"'

@@ -87,9 +87,10 @@ Key environment variables:
 make setup
 ```
 
-Creates the virtualenv with `uv sync`, creates `.env-local` from `.env-local.default` if it
-is missing, and drops you into a shell with those variables exported. `.env-local` is
-gitignored, so local overrides (e.g. a different `OPENSEARCH_URL`) survive.
+Creates the virtualenv with `uv sync`, creates `.env` from `.env.default` if it is missing,
+and drops you into a shell with those variables exported. `.env` is gitignored, so local
+overrides (e.g. a different `OPENSEARCH_URL`) survive. A `.env.local`, if present, takes
+precedence over `.env`.
 
 ### Run on the host
 

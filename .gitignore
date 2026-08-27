@@ -152,6 +152,7 @@ activemq-data/
 
 # Environments
 .env
+.env.local
 .envrc
 .venv
 env/
@@ -220,6 +221,3 @@ __marimo__/
 
 # Locally generated pygeoapi OpenAPI document
 pygeoapi-openapi.yml
-
-# Local (host) env file, generated from .env-local.default
-.env-local
