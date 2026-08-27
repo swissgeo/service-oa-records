@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-python3 /pygeoapi/scripts/create-opensearch-indexes.py
-
 pygeoapi openapi generate pygeoapi-config.yml --output-file "${PYGEOAPI_OPENAPI:-/pygeoapi/pygeoapi-openapi.yml}"
 
 if [ "${PYDEBUG}" = "true" ]; then

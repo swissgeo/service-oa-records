@@ -152,6 +152,7 @@ activemq-data/
 
 # Environments
 .env
+.env.local
 .envrc
 .venv
 env/
@@ -217,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Locally generated pygeoapi OpenAPI document
+pygeoapi-openapi.yml
