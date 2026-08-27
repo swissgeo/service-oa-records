@@ -217,3 +217,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Locally generated pygeoapi OpenAPI document
+pygeoapi-openapi.yml
+
+# Local (host) env file, generated from .env-local.default
+.env-local

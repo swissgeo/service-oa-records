@@ -32,23 +32,10 @@ SwissGeoProvider          ← extends OpenSearchCatalogueProvider
   └─ _patch_links() – appends ?lang=…&f=… to same-host links
   │
   ▼
-OpenSearch  (swissgeo-catalog / swissgeo-distributions index)
+OpenSearch
 ```
 
 ## swissgeo_provider.py
-
-
-
-## Language handling
-
-OpenSearch records carry per-language fields alongside the generic ones:
-
-| Generic field | Localised variants |
-|---|---|
-| `title` | `title_de`, `title_fr`, `title_it`, `title_en` |
-| `description` | `description_de`, `description_fr`, `description_it`, `description_en` |
-
-`SwissGeoProvider._apply_lang()` promotes the requested language's variant into the generic `title`/`description` fields and strips all per-language fields before pygeoapi serialises the response. Supported languages: `en`, `de`, `fr`, `it` (falls back to `en`).
 
 ### Why `app.py` is needed
 
@@ -87,29 +74,52 @@ Key environment variables:
 
 ## Running locally
 
+> [!IMPORTANT]
+> This service does not start any backing services of its own. It expects the
+> [`service-control`](https://github.com/swissgeo/service-control) stack to be running,
+> which provides OpenSearch on `localhost:9200` (with the catalogue indexes loaded) and
+> the OTLP collector on `localhost:4317`. Start that stack first.
+> Also run `manage.py oar_opensearch_export` at least once to create the OpenSearch indexes and write the data.
+
+### Setup
+
 ```bash
-docker compose up
+make setup
 ```
 
-This starts:
-- **pygeoapi** on `http://localhost:8080/api/oar/r/` (uvicorn, via `app.py`)
-- **OpenSearch** on port 9200
-- **catalogue-loader** — one-shot container that loads records from `static-s3/` into OpenSearch
-- **OpenSearch Dashboards** on `http://localhost:5602`
+Creates the virtualenv with `uv sync`, creates `.env-local` from `.env-local.default` if it
+is missing, and drops you into a shell with those variables exported. `.env-local` is
+gitignored, so local overrides (e.g. a different `OPENSEARCH_URL`) survive.
 
-Copy `.env-docker` (or create one from `.env-local`) to configure environment variables before starting.
+### Run on the host
+
+```bash
+make serve
+```
+
+
+
+### Run the built image
+
+```bash
+make dockerrun
+```
+
+Builds the image and runs it with `--net=host`, so it reaches the same
+`localhost:9200` / `localhost:4317` as `make serve`. This is for verifying the deployment
+artifact; day-to-day development uses `make serve`.
 
 ## Debugging
 
-Have ENV `PYDEBUG=true` set.
-
 ```bash
-PYDEBUG=true docker compose --profile debug up
+make serve-debug
 ```
 
-This runs pygeoapi under [debugpy](https://github.com/microsoft/debugpy) listening on port 5678, with the local `pygeoapi-swissgeo-extensions/` directory mounted into the container so edits are reflected without a rebuild.
+Runs the app under [debugpy](https://github.com/microsoft/debugpy) listening on port 5678 and
+waiting for a client, so you can attach before the first request is handled.
 
-Then attach your debugger (e.g. **"Attach to Docker (swissgeo_provider)"** in Zed) to `localhost:5678`.
+Then attach your debugger (e.g. **"Attach to Docker (swissgeo_provider)"** in Zed) to
+`localhost:5678`.
 
 ## Project structure
 
@@ -118,6 +128,5 @@ pygeoapi-swissgeo-extensions/
   app.py                  # Starlette entrypoint; patches call_api_threadsafe
   swissgeo_provider.py    # SwissGeoProvider: language selection + link patching
 pygeoapi-config.yml       # pygeoapi server + collection configuration
-scripts/                  # Data loading scripts
 static-s3/                # 1:1 catalog data from S3
 ```

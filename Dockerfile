@@ -25,7 +25,6 @@ COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-s
 COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
 COPY --chown=pygeoapi:pygeoapi docker-entrypoint.sh /pygeoapi/docker-entrypoint.sh
 COPY --chown=pygeoapi:pygeoapi config-files /pygeoapi/config-files
-COPY --chown=pygeoapi:pygeoapi scripts /pygeoapi/scripts
 COPY --chown=pygeoapi:pygeoapi static-s3 /pygeoapi/static-s3
 
 USER pygeoapi
