@@ -267,6 +267,16 @@ class TestPatchLinks:
     assert links[0]["href"].startswith("/collections/col")
     assert "lang=de" in links[0]["href"]
 
+  def test_styles_link_prepends_hostname_only(self, monkeypatch) -> None:
+    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
+    monkeypatch.setenv("API_PREFIX", "/api/oar/rc1")
+
+    set_request_params(lang=None, fmt=None)
+    links = [{"href": "/api/oas/v0/styles/base"}]
+    _patch_links(links, "de", None)
+    assert links[0]["href"].startswith("https://api.example.com/api/oas/v0/styles/base")
+    assert "lang=de" in links[0]["href"]
+
   def test_both_lang_and_fmt_appended(self) -> None:
     links = [{"href": "/items/1"}]
     _patch_links(links, "fr", "html")

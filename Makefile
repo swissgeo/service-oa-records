@@ -4,6 +4,8 @@ SHELL = /bin/bash
 
 SERVICE_NAME := service-oa-records
 
+CURRENT_DIR := $(shell pwd)
+
 # Docker metadata
 GIT_HASH := $(shell git rev-parse HEAD)
 GIT_HASH_SHORT := $(shell git rev-parse --short HEAD)
@@ -25,15 +27,50 @@ PYTHON := $(UV_RUN) python3
 TEST := $(UV_RUN) pytest
 RUFF := $(UV_RUN) ruff
 TY := $(UV_RUN) ty
+UVICORN := $(UV_RUN) uvicorn
+
+# Application specific
+APP_SRC_DIR := pygeoapi-swissgeo-extensions
+HTTP_PORT ?= 8080
+SERVE_ARGS := app:APP --host 0.0.0.0 --port $(HTTP_PORT) \
+	--app-dir $(APP_SRC_DIR) --log-config config-files/logging-conf.yaml
+
+# The app always runs on the host (like service-control), so one env file covers
+# both. uv loads it into the environment of every `uv run` below; `dockerrun` passes
+# the relevant values through to the container, which runs with --net=host.
+# `.env` is created from `.env.default`; `.env.local` overrides it when present.
+ENV_FILE ?= $(if $(wildcard .env.local),.env.local,.env)
+# $(wildcard ...) so the variable is empty when the file does not exist: uv errors
+# out on a missing UV_ENV_FILE, which would break CI-only targets (format, lint,
+# test) that need no runtime config.
+export UV_ENV_FILE := $(wildcard $(ENV_FILE))
+
+# Read back the value the recipes need at the shell level (i.e. outside `uv run`).
+OPENSEARCH_URL = $(shell sed -n 's/^OPENSEARCH_URL=//p' $(ENV_FILE) 2>/dev/null)
+OTEL_ENDPOINT  = $(shell sed -n 's/^OTEL_EXPORTER_OTLP_ENDPOINT=//p' $(ENV_FILE) 2>/dev/null)
+
+# Aliases the collections in pygeoapi-config.yml resolve to
+OPENSEARCH_INDEXES := swissgeo-catalog swissgeo-distributions geoadmin-services
+
+# Mirrors ENV PYTHONPATH in the Dockerfile, so that pygeoapi can import
+# swissgeo_provider when running from the repo root.
+export PYTHONPATH := $(CURRENT_DIR)/$(APP_SRC_DIR)
+
+
+.env:
+	cp .env.default .env
 
 
 .PHONY: setup
-setup: ## Create virtual env with all packages for development uv
+setup: .env ## Create virtualenv with all packages for development
 	uv sync
+	# Start a new shell with the virtualenv activated and OPENSEARCH_URL exported, so
+	# that the app and the catalogue scripts find the service-control OpenSearch.
+	uv run $$SHELL
 
 
 .PHONY: ci
-ci: ## Create virtual env with all packages for development using the uv.lock (CI)
+ci: .env ## Create virtual env with all packages for development using the uv.lock (CI)
 	uv sync --frozen
 
 
@@ -52,13 +89,51 @@ ci-check-format: format ## Check the format (CI)
 		exit 1; \
 	fi
 
-.PHONY: load-catalogue
-load-catalogue: ## Load the OpenSearch catalogue (generate → index → import). Pass STEP=generate|index|import to run a single step.
-	$(PYTHON) scripts/load-opensearch-catalogue.py $(STEP)
+.PHONY: check-opensearch-up
+check-opensearch-up: .env ## Check that the service-control OpenSearch is reachable
+	@if ! curl -sf -m 3 -o /dev/null $(OPENSEARCH_URL)/_cluster/health; then \
+		>&2 echo "ERROR: no OpenSearch at $(OPENSEARCH_URL)"; \
+		>&2 echo "       This service expects the OpenSearch server from service-control."; \
+		>&2 echo "       Start it there first (see README), then retry."; \
+		exit 1; \
+	fi
+
+
+.PHONY: check-opensearch
+check-opensearch: check-opensearch-up ## Check that OpenSearch is reachable with the expected indexes
+	@missing=""; \
+	for idx in $(OPENSEARCH_INDEXES); do \
+		curl -sf -m 3 -o /dev/null $(OPENSEARCH_URL)/$$idx || missing="$$missing $$idx"; \
+	done; \
+	if [[ -n "$$missing" ]]; then \
+		>&2 echo "ERROR: OpenSearch at $(OPENSEARCH_URL) is up but missing index/alias:$$missing"; \
+		>&2 echo "       Load the catalogue from the service-control stack."; \
+		exit 1; \
+	fi
+	@echo "OpenSearch OK at $(OPENSEARCH_URL)"
+
+
+.PHONY: openapi
+openapi: .env ## Generate the OpenAPI document from the pygeoapi config
+	# $$PYGEOAPI_* come from $(ENV_FILE), which uv loads into the child environment,
+	# so expand them inside the `uv run` shell rather than in make's.
+	$(UV_RUN) sh -c 'pygeoapi openapi generate "$$PYGEOAPI_CONFIG" --output-file "$$PYGEOAPI_OPENAPI"'
+
+
+.PHONY: serve
+serve: check-opensearch openapi ## Serve the application locally
+	$(UVICORN) $(SERVE_ARGS) --reload
+
+
+.PHONY: serve-debug
+serve-debug: check-opensearch openapi ## Serve the application locally for debugging
+	$(PYTHON) -m debugpy --listen localhost:5678 --wait-for-client \
+		-m uvicorn $(SERVE_ARGS)
+
 
 .PHONY: dockerbuild
 dockerbuild:  ## Build the docker image locally
-	docker compose build
+	docker build -t $(DOCKER_IMG_LOCAL_TAG) .
 
 
 .PHONY: dockerlogin
@@ -68,13 +143,20 @@ dockerlogin: ## Login to the AWS Docker Registry (ECR)
 
 .PHONY: dockerpush
 dockerpush: dockerlogin dockerbuild ## Push to the docker registry
-	docker tag pygeoapi-custom $(DOCKER_IMG_LOCAL_TAG)
 	docker push $(DOCKER_IMG_LOCAL_TAG)
 
 
 .PHONY: dockerrun
-dockerrun: dockerbuild ## Run the docker image locally
-	docker compose up
+dockerrun: check-opensearch dockerbuild ## Run the locally built docker image
+	# --net=host so that localhost:9200 (OpenSearch) and localhost:4317 (collector)
+	# resolve exactly as they do for `make serve`. PYGEOAPI_* are already baked into
+	# the image, so only the endpoints are passed through.
+	docker run \
+		-it --net=host \
+		--env OPENSEARCH_URL="$(OPENSEARCH_URL)" \
+		--env OTEL_EXPORTER_OTLP_ENDPOINT="$(OTEL_ENDPOINT)" \
+		--env OTEL_EXPORTER_OTLP_INSECURE=true \
+		$(DOCKER_IMG_LOCAL_TAG)
 
 
 .PHONY: lint

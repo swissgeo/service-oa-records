@@ -39,6 +39,10 @@ _tracer = trace.get_tracer(__name__)
 
 _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 
+# Styles are served outside the records API prefix, so relative links to them
+# are resolved against the hostname instead of the base URL.
+_STYLES_PREFIX = "/api/oas/v0/styles"
+
 _local = threading.local()
 
 
@@ -61,9 +65,14 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
 
 
+def _get_hostname() -> str:
+  """Return the server hostname set by app.py, or fall back to the default."""
+  return os.environ.get("PYGEOAPI_HOSTNAME", "http://localhost:8080")
+
+
 def _get_base_url() -> str:
   """Return the server base URL set by app.py, or fall back to env vars."""
-  return f"{os.environ.get('PYGEOAPI_HOSTNAME', 'http://localhost:8080')}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
+  return f"{_get_hostname()}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
 
 
 class SwissGeoProvider(OpenSearchCatalogueProvider):
@@ -201,6 +210,10 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
   """Append ``lang`` (and ``f`` if present) to same-host and relative links.
 
+  Relative links are made absolute with the base URL, except styles links
+  (``_STYLES_PREFIX``) which live outside the records API prefix and are
+  resolved against the hostname only.
+
   External links are left untouched.
   """
   params: dict[str, str] = {"lang": lang}
@@ -217,7 +230,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     is_relative = not parsed.scheme
     is_same_host = base_url and href.startswith(base_url)
     if is_relative or is_same_host:
-      if is_relative and base_url:
-        href = f"{base_url}{href}"
+      if is_relative:
+        prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
+        if prefix:
+          href = f"{prefix}{href}"
       sep = "&" if "?" in href else "?"
       link["href"] = f"{href}{sep}{qs}"
