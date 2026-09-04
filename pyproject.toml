@@ -61,6 +61,7 @@ ignore = [
     "TD",     # Ignore flake8-todos
     "FIX",    # Ignore fixme comments
     "COM812", # flak8-commas missing-trailing-comma is ignored to avoid conflict with formatter which enforces trailing commas
+    "CPY001", # Ignore missing copyright notice at top of file
 ]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
