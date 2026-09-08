@@ -531,3 +531,85 @@ class TestProviderGet:
     set_request_params(lang="en", fmt=None)
 
     assert provider.get("missing") is None
+
+
+class TestResolveSortby:
+  def setup_method(self) -> None:
+    _local.__dict__.clear()
+
+  def test_title_rewritten_to_negotiated_language_subfield(self) -> None:
+    provider = _make_provider()
+    sortby = [{"property": "title", "order": "+"}]
+
+    resolved = provider._resolve_sortby(sortby, Locale("de"))
+
+    assert resolved == [{"property": "title.de.sort", "order": "+"}]
+
+  def test_descending_order_preserved(self) -> None:
+    provider = _make_provider()
+    sortby = [{"property": "title", "order": "-"}]
+
+    resolved = provider._resolve_sortby(sortby, Locale("fr"))
+
+    assert resolved == [{"property": "title.fr.sort", "order": "-"}]
+
+  def test_unsupported_locale_falls_back_to_en(self) -> None:
+    provider = _make_provider()
+    sortby = [{"property": "title", "order": "+"}]
+
+    resolved = provider._resolve_sortby(sortby, Locale("es"))
+
+    assert resolved == [{"property": "title.en.sort", "order": "+"}]
+
+  def test_falls_back_to_request_lang_when_language_absent(self) -> None:
+    provider = _make_provider()
+    set_request_params(lang="it", fmt=None)
+
+    resolved = provider._resolve_sortby([{"property": "title", "order": "+"}], None)
+
+    assert resolved == [{"property": "title.it.sort", "order": "+"}]
+
+  def test_other_properties_left_untouched(self) -> None:
+    provider = _make_provider()
+    sortby = [{"property": "recordCreated", "order": "-"}]
+
+    resolved = provider._resolve_sortby(sortby, Locale("de"))
+
+    assert resolved == sortby
+
+  def test_empty_sortby_returned_as_is(self) -> None:
+    provider = _make_provider()
+
+    assert provider._resolve_sortby([], Locale("de")) == []
+
+  def test_query_passes_resolved_sortby_to_parent(self, monkeypatch) -> None:
+    captured = {}
+
+    def fake_query(_self, **kwargs) -> dict:
+      captured.update(kwargs)
+      return {"features": []}
+
+    provider = _make_provider()
+    monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "query", fake_query)
+    set_request_params(lang="de", fmt=None)
+
+    provider.query(sortby=[{"property": "title", "order": "+"}], language="de")
+
+    assert captured["sortby"] == [{"property": "title.de.sort", "order": "+"}]
+
+
+class TestGetFields:
+  def test_registers_title_and_language_sort_subfields(self, monkeypatch) -> None:
+    provider = _make_provider()
+    monkeypatch.setattr(
+      swissgeo_provider.OpenSearchCatalogueProvider,
+      "get_fields",
+      lambda _self: {"keywords": {"type": "keyword"}},
+    )
+
+    fields = provider.get_fields()
+
+    assert fields["title"] == {"type": "keyword"}
+    assert fields["keywords"] == {"type": "keyword"}
+    for lang in ("de", "en", "fr", "it"):
+      assert fields[f"title.{lang}.sort"] == {"type": "keyword"}
