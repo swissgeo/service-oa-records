@@ -27,15 +27,22 @@ Usage in pygeoapi-config.yml:
           - it
 """
 
+from __future__ import annotations
+
 import logging
 import os
 import threading
+from typing import TYPE_CHECKING
 from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
 from opentelemetry import trace
 from pygeoapi import l10n
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
+
+if TYPE_CHECKING:
+  # Babel ships with pygeoapi; only needed for the locale type hints below.
+  from babel import Locale
 
 LOGGER = logging.getLogger(__name__)
 
@@ -73,7 +80,7 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
 
 
-def _locale_to_lang(language) -> str:  # noqa: ANN001
+def _locale_to_lang(language: Locale | str) -> str:
   """Reduce pygeoapi's negotiated locale to a supported language code.
 
   *language* is a Babel ``Locale`` (or a string in tests); anything outside
@@ -134,7 +141,11 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       )
     return fields
 
-  def _resolve_sortby(self, sortby: list, language) -> list:  # noqa: ANN001
+  def _resolve_sortby(
+    self,
+    sortby: list,
+    language: Locale | str | None,
+  ) -> list:
     """Rewrite a ``title`` sort onto the language-specific sort subfield.
 
     ``title`` is stored per language, so sorting needs a concrete subfield:
@@ -238,7 +249,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     return result
 
 
-def _translate_props(props: dict, language) -> None:  # noqa: ANN001
+def _translate_props(props: dict, language: Locale | str | None) -> None:
   """Collapse the ``title``/``description`` language structs in place.
 
   Uses pygeoapi's own :func:`pygeoapi.l10n.translate` so behaviour matches
