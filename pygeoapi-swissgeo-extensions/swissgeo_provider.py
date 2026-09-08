@@ -8,6 +8,10 @@ before handing results back to pygeoapi.
 
 Also patches same-host links to carry ``lang`` and ``f`` query params.
 
+Supports ``?sortby=title`` / ``?sortby=-title``: the request language decides
+which per-language sort subfield in the index is used (see
+:meth:`SwissGeoProvider._resolve_sortby`).
+
 Usage in pygeoapi-config.yml:
     providers:
       - type: record
@@ -23,9 +27,12 @@ Usage in pygeoapi-config.yml:
           - it
 """
 
+from __future__ import annotations
+
 import logging
 import os
 import threading
+from typing import TYPE_CHECKING
 from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
@@ -33,11 +40,19 @@ from opentelemetry import trace
 from pygeoapi import l10n
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 
+if TYPE_CHECKING:
+  # Babel ships with pygeoapi; only needed for the locale type hints below.
+  from babel import Locale
+
 LOGGER = logging.getLogger(__name__)
 
 _tracer = trace.get_tracer(__name__)
 
 _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
+
+# Only ``title`` carries per-language ``.sort`` keyword subfields in the index
+# mapping, so it is the sole sortable property we advertise.
+_SORTABLE_FIELD = "title"
 
 # Styles are served outside the records API prefix, so relative links to them
 # are resolved against the hostname instead of the base URL.
@@ -63,6 +78,19 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     return "en", fmt
   primary = lang.split("-")[0].split("_")[0].lower()
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
+
+
+def _locale_to_lang(language: Locale | str) -> str:
+  """Reduce pygeoapi's negotiated locale to a supported language code.
+
+  *language* is a Babel ``Locale`` (or a string in tests); anything outside
+  the supported set falls back to ``en``.
+  """
+  primary = getattr(language, "language", None)
+  if primary is None:
+    primary = str(language).split("-")[0].split("_")[0]
+  primary = primary.lower()
+  return primary if primary in _SUPPORTED_LANGS else "en"
 
 
 def _get_hostname() -> str:
@@ -92,6 +120,53 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       super().__init__(provider_def)
     self.resource_id = provider_def.get("resource_id", self.name)
 
+  def get_fields(self) -> dict:
+    """Advertise ``title`` as a queryable so it passes pygeoapi's sort check.
+
+    The parent only enumerates top-level mapping keys that carry a ``type``;
+    ``title`` is a bare object container of per-language subfields, so it is
+    dropped and ``?sortby=title`` would 400 with 'bad sortby property'.
+
+    Each concrete ``title.<lang>.sort`` subfield is registered too: the parent
+    looks the resolved property up in ``self.fields`` when building the sort
+    clause, and typing it ``keyword`` keeps it from appending a ``.raw``
+    suffix that does not exist in the mapping.
+    """
+    fields = super().get_fields()
+    fields.setdefault(_SORTABLE_FIELD, {"type": "keyword"})
+    for lang in _SUPPORTED_LANGS:
+      fields.setdefault(
+        f"{_SORTABLE_FIELD}.{lang}.sort",
+        {"type": "keyword"},
+      )
+    return fields
+
+  def _resolve_sortby(
+    self,
+    sortby: list,
+    language: Locale | str | None,
+  ) -> list:
+    """Rewrite a ``title`` sort onto the language-specific sort subfield.
+
+    ``title`` is stored per language, so sorting needs a concrete subfield:
+    ``title`` becomes ``title.<lang>.sort``, which the parent then masks to
+    ``properties.title.<lang>.sort``. *language* is pygeoapi's negotiated
+    locale (already resolved through the configured fallbacks); the
+    thread-local set from the request is used only if it is absent.
+    """
+    if not sortby:
+      return sortby
+
+    lang = _locale_to_lang(language) if language else _get_lang_and_fmt()[0]
+
+    resolved = []
+    for sort in sortby:
+      if sort.get("property") == _SORTABLE_FIELD:
+        resolved.append({**sort, "property": f"{_SORTABLE_FIELD}.{lang}.sort"})
+      else:
+        resolved.append(sort)
+    return resolved
+
   @_tracer.start_as_current_span("SwissGeoProvider.query")
   def query(  # noqa: ANN201, PLR0913, PLR0917
     self,
@@ -120,6 +195,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
     LOGGER.debug("SwissGeoProvider.query language=%s fmt=%s", language, fmt)
+
+    sortby = self._resolve_sortby(sortby, language)
+    LOGGER.debug("SwissGeoProvider.query sortby=%s", sortby)
 
     result = super().query(
       offset=offset,
@@ -171,7 +249,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     return result
 
 
-def _translate_props(props: dict, language) -> None:  # noqa: ANN001
+def _translate_props(props: dict, language: Locale | str | None) -> None:
   """Collapse the ``title``/``description`` language structs in place.
 
   Uses pygeoapi's own :func:`pygeoapi.l10n.translate` so behaviour matches
