@@ -133,7 +133,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     suffix that does not exist in the mapping.
 
     Rename the concepts field to concept so that it gets accepted as query
-    parameter. Gets rewritten in the query function to conctacts again.
+    parameter. Gets rewritten in the query function to concepts again.
     """
     fields = super().get_fields()
     fields.setdefault(_SORTABLE_FIELD, {"type": "keyword"})
