@@ -499,7 +499,7 @@ class TestProviderGet:
   def setup_method(self) -> None:
     _local.__dict__.clear()
 
-  def test_translates_and_adds_links(self, monkeypatch) -> None:
+  def test_translates(self, monkeypatch) -> None:
     provider = _make_provider("col")
     parent_result = {
       "id": "rec-1",
@@ -516,9 +516,6 @@ class TestProviderGet:
 
     assert result is not None
     assert result["properties"]["description"] == "Beschreibung"
-    self_links = [link for link in result["links"] if link["rel"] == "self"]
-    assert len(self_links) == 1
-    assert "col/items/rec-1" in self_links[0]["href"]
 
   def test_patches_distribution_links(self, monkeypatch) -> None:
     provider = _make_provider("col")

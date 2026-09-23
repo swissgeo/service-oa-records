@@ -248,7 +248,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     if result:
       _translate_props(result.get("properties", {}), language)
       links = result.setdefault("links", [])
-      _ensure_self_link(links, self.resource_id, identifier)
       _patch_links(links, lang, fmt)
       for dist in result.get("features", []):
         _patch_links(dist.get("links", []), lang, fmt)
@@ -273,7 +272,10 @@ def _translate_props(props: dict, language: Locale | str | None) -> None:
 
 
 def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
-  """Insert a ``rel=self`` link if none is present in *links*."""
+  """Insert a ``rel=self`` link if none is present in *links*.
+
+  This is only the case for links of features inside feature collections.
+  """
   if any(link.get("rel") == "self" for link in links):
     return
   if not item_id:
