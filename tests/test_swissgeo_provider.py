@@ -414,32 +414,6 @@ class TestProviderQuery:
     assert "col/items/rec-1" in self_links[0]["href"]
     assert all("lang=de" in link["href"] for link in feature["links"])
 
-  def test_patches_distribution_links(self, monkeypatch) -> None:
-    provider = _make_provider("col")
-    parent_result = {
-      "features": [
-        {
-          "id": "rec-1",
-          "properties": {},
-          "features": [
-            {"links": [{"href": "/dist/1"}]},
-          ],
-        },
-      ],
-    }
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "query",
-      lambda _self, **_kwargs: parent_result,
-    )
-    set_request_params(lang="fr", fmt="json")
-
-    result = provider.query(language="fr")
-
-    dist_link = result["features"][0]["features"][0]["links"][0]
-    assert "lang=fr" in dist_link["href"]
-    assert "f=json" in dist_link["href"]
-
   def test_empty_result_returned_unchanged(self, monkeypatch) -> None:
     provider = _make_provider("col")
     monkeypatch.setattr(
@@ -516,25 +490,6 @@ class TestProviderGet:
 
     assert result is not None
     assert result["properties"]["description"] == "Beschreibung"
-
-  def test_patches_distribution_links(self, monkeypatch) -> None:
-    provider = _make_provider("col")
-    parent_result = {
-      "id": "rec-1",
-      "properties": {},
-      "features": [{"links": [{"href": "/dist/1"}]}],
-    }
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "get",
-      lambda _self, _identifier, **_kwargs: parent_result,
-    )
-    set_request_params(lang="it", fmt=None)
-
-    result = provider.get("rec-1", language="it")
-
-    assert result is not None
-    assert "lang=it" in result["features"][0]["links"][0]["href"]
 
   def test_none_result_returned_as_is(self, monkeypatch) -> None:
     provider = _make_provider("col")

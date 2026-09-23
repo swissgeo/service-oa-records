@@ -226,8 +226,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       links = feature.setdefault("links", [])
       _ensure_self_link(links, self.resource_id, feature.get("id", ""))
       _patch_links(links, lang, fmt)
-      for dist in feature.get("features", []):
-        _patch_links(dist.get("links", []), lang, fmt)
 
     return result
 
@@ -249,8 +247,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       _translate_props(result.get("properties", {}), language)
       links = result.setdefault("links", [])
       _patch_links(links, lang, fmt)
-      for dist in result.get("features", []):
-        _patch_links(dist.get("links", []), lang, fmt)
 
     return result
 
