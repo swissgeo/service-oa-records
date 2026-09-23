@@ -476,6 +476,24 @@ class TestProviderQuery:
     assert captured["properties"] == []
     assert captured["bbox"] == []
 
+  def test_rewrites_concept_query_param_to_concepts(self, monkeypatch) -> None:
+    provider = _make_provider("col")
+    captured = {}
+
+    def mocked_query(self, *args, **kwargs) -> dict:  # noqa: ARG001
+      captured.update(kwargs)
+      return {"type": "FeatureCollection", "features": []}
+
+    monkeypatch.setattr(
+      swissgeo_provider.OpenSearchCatalogueProvider,
+      "query",
+      mocked_query,
+    )
+
+    provider.query(properties=[("concept", "xyz")])
+
+    assert captured["properties"] == [("concepts", "xyz")]
+
 
 class TestProviderGet:
   def setup_method(self) -> None:
@@ -613,3 +631,16 @@ class TestGetFields:
     assert fields["keywords"] == {"type": "keyword"}
     for lang in ("de", "en", "fr", "it"):
       assert fields[f"title.{lang}.sort"] == {"type": "keyword"}
+
+  def test_registers_concepts_as_concept(self, monkeypatch) -> None:
+    provider = _make_provider()
+    monkeypatch.setattr(
+      swissgeo_provider.OpenSearchCatalogueProvider,
+      "get_fields",
+      lambda _self: {"concepts": {"type": "keyword"}},
+    )
+
+    fields = provider.get_fields()
+
+    assert fields["concept"] == {"type": "keyword"}
+    assert "concepts" not in fields

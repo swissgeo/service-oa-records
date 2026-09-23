@@ -131,6 +131,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     looks the resolved property up in ``self.fields`` when building the sort
     clause, and typing it ``keyword`` keeps it from appending a ``.raw``
     suffix that does not exist in the mapping.
+
+    Rename the concepts field to concept so that it gets accepted as query
+    parameter. Gets rewritten in the query function to concepts again.
     """
     fields = super().get_fields()
     fields.setdefault(_SORTABLE_FIELD, {"type": "keyword"})
@@ -139,6 +142,8 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         f"{_SORTABLE_FIELD}.{lang}.sort",
         {"type": "keyword"},
       )
+    if "concepts" in fields:
+      fields.setdefault("concept", fields.pop("concepts"))
     return fields
 
   def _resolve_sortby(
@@ -198,6 +203,8 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
     sortby = self._resolve_sortby(sortby, language)
     LOGGER.debug("SwissGeoProvider.query sortby=%s", sortby)
+
+    properties = [("concepts", value) if key == "concept" else (key, value) for key, value in properties]
 
     result = super().query(
       offset=offset,
