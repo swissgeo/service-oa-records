@@ -276,10 +276,7 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
     return
   if not item_id:
     return
-  base_url = _get_base_url()
   href = f"/collections/{collection_id}/items/{item_id}"
-  if base_url:
-    href = f"{base_url}{href}"
   links.insert(
     0,
     {
@@ -311,11 +308,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
       continue
     parsed = urlparse(href)
     is_relative = not parsed.scheme
-    is_same_host = base_url and href.startswith(base_url)
-    if is_relative or is_same_host:
-      if is_relative:
-        prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
-        if prefix:
-          href = f"{prefix}{href}"
+    if is_relative:
+      prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
+      if prefix:
+        href = f"{prefix}{href}"
       sep = "&" if "?" in href else "?"
       link["href"] = f"{href}{sep}{qs}"

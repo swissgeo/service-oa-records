@@ -164,15 +164,6 @@ class TestEnsureSelfLink:
     _ensure_self_link(links, "my-collection", "")
     assert links == []
 
-  def test_prepends_server_url_when_available(self, monkeypatch) -> None:
-    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
-    monkeypatch.setenv("API_PREFIX", "/")
-
-    set_request_params(lang=None, fmt=None)
-    links: list = []
-    _ensure_self_link(links, "col", "abc")
-    assert links[0]["href"].startswith("https://api.example.com")
-
   def test_self_link_type_is_geojson(self) -> None:
     links: list = []
     _ensure_self_link(links, "col", "xyz")
@@ -207,15 +198,6 @@ class TestPatchLinks:
     links = [{"href": "https://external.example.com/resource"}]
     _patch_links(links, "de", None)
     assert "lang=" not in links[0]["href"]
-
-  def test_patches_same_host_link(self, monkeypatch) -> None:
-    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
-    monkeypatch.setenv("API_PREFIX", "/")
-
-    set_request_params(lang=None, fmt=None)
-    links = [{"href": "https://api.example.com/collections/col/items/1"}]
-    _patch_links(links, "it", None)
-    assert "lang=it" in links[0]["href"]
 
   def test_uses_ampersand_when_query_string_already_present(self) -> None:
     links = [{"href": "/items/1?f=json"}]
