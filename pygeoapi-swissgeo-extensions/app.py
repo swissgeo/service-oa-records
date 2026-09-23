@@ -48,7 +48,7 @@ def _call_api_threadsafe_with_lang(
 
   set_request_params(
     lang=api_request.params.get("lang", None),
-    fmt=api_request.params.get("f", None),
+    fmt=api_request.format,
   )
   return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
 
