@@ -227,8 +227,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       links = feature.setdefault("links", [])
       _ensure_self_link(links, self.resource_id, feature.get("id", ""))
       _patch_links(links, lang, fmt)
-      for dist in feature.get("features", []):
-        _patch_links(dist.get("links", []), lang, fmt)
 
     return result
 
@@ -249,10 +247,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     if result:
       _translate_props(result.get("properties", {}), language)
       links = result.setdefault("links", [])
-      _ensure_self_link(links, self.resource_id, identifier)
       _patch_links(links, lang, fmt)
-      for dist in result.get("features", []):
-        _patch_links(dist.get("links", []), lang, fmt)
 
     return result
 
@@ -274,15 +269,15 @@ def _translate_props(props: dict, language: Locale | str | None) -> None:
 
 
 def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
-  """Insert a ``rel=self`` link if none is present in *links*."""
+  """Insert a ``rel=self`` link if none is present in *links*.
+
+  This is only the case for links of features inside feature collections.
+  """
   if any(link.get("rel") == "self" for link in links):
     return
   if not item_id:
     return
-  base_url = _get_base_url()
   href = f"/collections/{collection_id}/items/{item_id}"
-  if base_url:
-    href = f"{base_url}{href}"
   links.insert(
     0,
     {"href": href, "rel": "self"},
@@ -290,7 +285,7 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
 
 
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
-  """Append ``lang`` (and ``f`` if present) and add content type to same-host and relative links
+  """Append ``lang`` (and ``f`` if present) and add content type to relative links.
 
   Relative links are made absolute with the base URL, except styles links
   (``_STYLES_PREFIX``) which live outside the records API prefix and are
@@ -310,12 +305,10 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
       continue
     parsed = urlparse(href)
     is_relative = not parsed.scheme
-    is_same_host = base_url and href.startswith(base_url)
-    if is_relative or is_same_host:
-      if is_relative:
-        prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
-        if prefix:
-          href = f"{prefix}{href}"
+    if is_relative:
+      prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
+      if prefix:
+        href = f"{prefix}{href}"
       sep = "&" if "?" in href else "?"
       link["href"] = f"{href}{sep}{qs}"
 

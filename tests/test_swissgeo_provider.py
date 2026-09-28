@@ -164,15 +164,6 @@ class TestEnsureSelfLink:
     _ensure_self_link(links, "my-collection", "")
     assert links == []
 
-  def test_prepends_server_url_when_available(self, monkeypatch) -> None:
-    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
-    monkeypatch.setenv("API_PREFIX", "/")
-
-    set_request_params(lang=None, fmt=None)
-    links: list = []
-    _ensure_self_link(links, "col", "abc")
-    assert links[0]["href"].startswith("https://api.example.com")
-
 
 # ---------------------------------------------------------------------------
 # _patch_links
@@ -202,15 +193,6 @@ class TestPatchLinks:
     links = [{"href": "https://external.example.com/resource"}]
     _patch_links(links, "de", None)
     assert "lang=" not in links[0]["href"]
-
-  def test_patches_same_host_link(self, monkeypatch) -> None:
-    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
-    monkeypatch.setenv("API_PREFIX", "/")
-
-    set_request_params(lang=None, fmt=None)
-    links = [{"href": "https://api.example.com/collections/col/items/1"}]
-    _patch_links(links, "it", None)
-    assert "lang=it" in links[0]["href"]
 
   def test_uses_ampersand_when_query_string_already_present(self) -> None:
     links = [{"href": "/items/1?f=json"}]
@@ -283,15 +265,6 @@ class TestPatchLinks:
     links = [{"href": "/collections/col/items/1"}]
     _patch_links(links, "de", "json")
     assert links[0]["type"] == "application/json"
-
-  def test_adds_content_type_to_same_host_link(self, monkeypatch) -> None:
-    monkeypatch.setenv("PYGEOAPI_HOSTNAME", "https://api.example.com")
-    monkeypatch.setenv("API_PREFIX", "/")
-
-    set_request_params(lang=None, fmt=None)
-    links = [{"href": "https://api.example.com/collections/col/items/1"}]
-    _patch_links(links, "it", "jsonld")
-    assert links[0]["type"] == "application/ld+json"
 
   def test_does_not_adds_content_type_if_no_fmt_given(self) -> None:
     links = [{"href": "/collections/col/items/1"}]
@@ -443,32 +416,6 @@ class TestProviderQuery:
     assert "col/items/rec-1" in self_links[0]["href"]
     assert all("lang=de" in link["href"] for link in feature["links"])
 
-  def test_patches_distribution_links(self, monkeypatch) -> None:
-    provider = _make_provider("col")
-    parent_result = {
-      "features": [
-        {
-          "id": "rec-1",
-          "properties": {},
-          "features": [
-            {"links": [{"href": "/dist/1"}]},
-          ],
-        },
-      ],
-    }
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "query",
-      lambda _self, **_kwargs: parent_result,
-    )
-    set_request_params(lang="fr", fmt="json")
-
-    result = provider.query(language="fr")
-
-    dist_link = result["features"][0]["features"][0]["links"][0]
-    assert "lang=fr" in dist_link["href"]
-    assert "f=json" in dist_link["href"]
-
   def test_empty_result_returned_unchanged(self, monkeypatch) -> None:
     provider = _make_provider("col")
     monkeypatch.setattr(
@@ -528,7 +475,7 @@ class TestProviderGet:
   def setup_method(self) -> None:
     _local.__dict__.clear()
 
-  def test_translates_and_adds_links(self, monkeypatch) -> None:
+  def test_translates(self, monkeypatch) -> None:
     provider = _make_provider("col")
     parent_result = {
       "id": "rec-1",
@@ -545,28 +492,6 @@ class TestProviderGet:
 
     assert result is not None
     assert result["properties"]["description"] == "Beschreibung"
-    self_links = [link for link in result["links"] if link["rel"] == "self"]
-    assert len(self_links) == 1
-    assert "col/items/rec-1" in self_links[0]["href"]
-
-  def test_patches_distribution_links(self, monkeypatch) -> None:
-    provider = _make_provider("col")
-    parent_result = {
-      "id": "rec-1",
-      "properties": {},
-      "features": [{"links": [{"href": "/dist/1"}]}],
-    }
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "get",
-      lambda _self, _identifier, **_kwargs: parent_result,
-    )
-    set_request_params(lang="it", fmt=None)
-
-    result = provider.get("rec-1", language="it")
-
-    assert result is not None
-    assert "lang=it" in result["features"][0]["links"][0]["href"]
 
   def test_none_result_returned_as_is(self, monkeypatch) -> None:
     provider = _make_provider("col")
