@@ -38,6 +38,7 @@ from urllib.parse import urlencode, urlparse
 import aws4auth as _aws4auth
 from opentelemetry import trace
 from pygeoapi import l10n
+from pygeoapi.api import F_JSON, FORMAT_TYPES
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 
 if TYPE_CHECKING:
@@ -279,16 +280,12 @@ def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:
   href = f"/collections/{collection_id}/items/{item_id}"
   links.insert(
     0,
-    {
-      "href": href,
-      "rel": "self",
-      "type": "application/geo+json",
-    },
+    {"href": href, "rel": "self"},
   )
 
 
 def _patch_links(links: list, lang: str, fmt: str | None) -> None:
-  """Append ``lang`` (and ``f`` if present) to same-host and relative links.
+  """Append ``lang`` (and ``f`` if present) and add content type to relative links.
 
   Relative links are made absolute with the base URL, except styles links
   (``_STYLES_PREFIX``) which live outside the records API prefix and are
@@ -314,3 +311,8 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
         href = f"{prefix}{href}"
       sep = "&" if "?" in href else "?"
       link["href"] = f"{href}{sep}{qs}"
+
+      if fmt == F_JSON and link.get("rel") == "self":
+        link["type"] = "application/geo+json"
+      elif fmt in FORMAT_TYPES:
+        link["type"] = FORMAT_TYPES[fmt]

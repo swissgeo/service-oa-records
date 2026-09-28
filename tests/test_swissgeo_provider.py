@@ -164,11 +164,6 @@ class TestEnsureSelfLink:
     _ensure_self_link(links, "my-collection", "")
     assert links == []
 
-  def test_self_link_type_is_geojson(self) -> None:
-    links: list = []
-    _ensure_self_link(links, "col", "xyz")
-    assert links[0]["type"] == "application/geo+json"
-
 
 # ---------------------------------------------------------------------------
 # _patch_links
@@ -265,6 +260,31 @@ class TestPatchLinks:
     href = links[0]["href"]
     assert "lang=fr" in href
     assert "f=html" in href
+
+  def test_adds_content_type_to_relative_link(self) -> None:
+    links = [{"href": "/collections/col/items/1"}]
+    _patch_links(links, "de", "json")
+    assert links[0]["type"] == "application/json"
+
+  def test_does_not_adds_content_type_if_no_fmt_given(self) -> None:
+    links = [{"href": "/collections/col/items/1"}]
+    _patch_links(links, "de", None)
+    assert "type" not in links[0]
+
+  def test_does_not_adds_content_type_if_unkown_fmt_given(self) -> None:
+    links = [{"href": "/collections/col/items/1"}]
+    _patch_links(links, "de", "foo")
+    assert "type" not in links[0]
+
+  def test_self_link_type_is_geojson_if_json(self) -> None:
+    links = [{"href": "/collections/col/items/1", "rel": "self"}]
+    _patch_links(links, "de", "json")
+    assert links[0]["type"] == "application/geo+json"
+
+  def test_self_link_type_is_not_geojson_if_not_json(self) -> None:
+    links = [{"href": "/collections/col/items/1", "rel": "self"}]
+    _patch_links(links, "de", "html")
+    assert links[0]["type"] == "text/html"
 
 
 # ---------------------------------------------------------------------------
