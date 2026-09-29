@@ -71,6 +71,15 @@ Key environment variables:
 | `PYGEOAPI_SERVER_URL` | `/` | Base URL used to identify same-host links for patching |
 | `OPENSEARCH_URL` | `http://localhost:9200` | OpenSearch base URL |
 | `PYGEOAPI_CONFIG` | `/pygeoapi/pygeoapi-config.yml` | pygeoapi config file path |
+| `THREADPOOL_MAX_WORKERS` | `16` | Threads running the API calls; also the OpenSearch connection pool size |
+| `OPENSEARCH_TIMEOUT` | `30` | OpenSearch request timeout in seconds |
+| `OPENSEARCH_MAX_RETRIES` | `3` | OpenSearch retries, also on timeouts |
+| `UVICORN_LIMIT_CONCURRENCY` | `100` (image) | Open connections/requests before uvicorn answers 503 |
+| `MALLOC_ARENA_MAX` | `2` (image) | Limits glibc malloc arenas to reduce memory fragmentation |
+
+pygeoapi creates a new provider instance for every request. `SwissGeoProvider` therefore
+creates the OpenSearch client and reads the index mapping only once per index, and shares
+both across instances. With `aws4auth: true` a single refreshable SigV4 signer is used.
 
 ## Running locally
 
@@ -121,6 +130,9 @@ waiting for a client, so you can attach before the first request is handled.
 
 Then attach your debugger (e.g. **"Attach to Docker (swissgeo_provider)"** in Zed) to
 `localhost:5678`.
+
+To debug the container instead, build the image with `--build-arg INSTALL_DEBUGPY=true`
+(debugpy is not part of the production image) and run it with `PYDEBUG=true`.
 
 ## Project structure
 

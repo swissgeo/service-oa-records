@@ -36,10 +36,13 @@ from typing import TYPE_CHECKING
 from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
+from opensearchpy import OpenSearch, RequestsHttpConnection
 from opentelemetry import trace
 from pygeoapi import l10n
 from pygeoapi.api import F_JSON, FORMAT_TYPES
+from pygeoapi.provider.base import BaseProvider, ProviderConnectionError, ProviderQueryError
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
+from settings import get_settings
 
 if TYPE_CHECKING:
   # Babel ships with pygeoapi; only needed for the locale type hints below.
@@ -60,6 +63,11 @@ _SORTABLE_FIELD = "title"
 _STYLES_PREFIX = "/api/oas/v0/styles"
 
 _local = threading.local()
+
+# OpenSearch client and field definitions per ``data`` URL, shared by all
+# provider instances (see SwissGeoProvider.__init__).
+_shared_state: dict[str, tuple[OpenSearch, dict]] = {}
+_shared_state_lock = threading.Lock()
 
 
 def set_request_params(
@@ -104,6 +112,33 @@ def _get_base_url() -> str:
   return f"{_get_hostname()}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
 
 
+def _create_client(host: str, provider_def: dict) -> OpenSearch:
+  """Create an OpenSearch client, signed with AWS SigV4 if ``aws4auth`` is set."""
+  settings = get_settings()
+  timeout = int(provider_def.get("timeout", settings.opensearch_timeout))
+  max_retries = int(provider_def.get("max_retries", settings.opensearch_max_retries))
+  if str(provider_def.get("aws4auth", "false")).lower() == "true":
+    return OpenSearch(
+      hosts=[host],
+      http_auth=_aws4auth.aws_auth(provider_def),
+      use_ssl=True,
+      verify_certs=True,
+      connection_class=RequestsHttpConnection,
+      timeout=timeout,
+      max_retries=max_retries,
+      retry_on_timeout=True,
+      pool_maxsize=settings.threadpool_max_workers,
+    )
+  return OpenSearch(
+    host,
+    verify_certs=False,
+    timeout=timeout,
+    max_retries=max_retries,
+    retry_on_timeout=True,
+    pool_maxsize=settings.threadpool_max_workers,
+  )
+
+
 class SwissGeoProvider(OpenSearchCatalogueProvider):
   """OGC API Records provider backed by OpenSearch.
 
@@ -113,13 +148,38 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
   @_tracer.start_as_current_span("SwissGeoProvider.__init__")
   def __init__(self, provider_def: dict) -> None:
-    LOGGER.info("SwissGeoProvider.__init__ called")
-    if str(provider_def.get("aws4auth", "false")).lower() == "true":
-      with _aws4auth.patched_opensearch(provider_def):
-        super().__init__(provider_def)
-    else:
-      super().__init__(provider_def)
+    # pygeoapi instantiates a new provider for every request. The parent
+    # __init__ builds a new OpenSearch client and fetches the index mapping
+    # each time, which exhausts memory under load. Only the first instance per
+    # index connects; later ones reuse its client and field definitions.
+    BaseProvider.__init__(self, provider_def)
+    self.select_properties = []
+    self.os_host, self.index_name = self.data.rsplit("/", 1)
     self.resource_id = provider_def.get("resource_id", self.name)
+
+    with _shared_state_lock:
+      state = _shared_state.get(self.data)
+      if state is None:
+        state = self._connect(provider_def)
+        _shared_state[self.data] = state
+    self.os_, fields = state
+    # Each instance gets its own copy, as get_fields() adds entries to it.
+    self._fields = dict(fields)
+
+  def _connect(self, provider_def: dict) -> tuple[OpenSearch, dict]:
+    """Create the OpenSearch client and load the field definitions."""
+    LOGGER.info("Connecting to OpenSearch index %s", self.index_name)
+    self.os_ = _create_client(self.os_host, provider_def)
+    if not self.os_.ping():
+      msg = f"Cannot connect to OpenSearch: {self.os_host}"
+      LOGGER.error(msg)
+      raise ProviderConnectionError(msg)
+    try:
+      self.get_fields()
+    except Exception as err:
+      LOGGER.exception("Cannot read the fields of index %s", self.index_name)
+      raise ProviderQueryError(err) from err
+    return self.os_, self._fields
 
   def get_fields(self) -> dict:
     """Advertise ``title`` as a queryable so it passes pygeoapi's sort check.
