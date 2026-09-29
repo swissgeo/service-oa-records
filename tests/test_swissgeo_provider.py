@@ -2,8 +2,6 @@
 
 import sys
 import threading
-from collections.abc import Generator
-from contextlib import contextmanager
 from pathlib import Path
 
 from babel import Locale
@@ -314,59 +312,134 @@ class TestGetBaseUrl:
 # ---------------------------------------------------------------------------
 
 
+class _FakeClient:
+  def __init__(self, reachable=True) -> None:
+    self.reachable = reachable
+
+  def ping(self) -> bool:
+    return self.reachable
+
+
 class TestProviderInit:
-  def _stub_parent_init(self, monkeypatch) -> None:
-    """Stub the parent __init__ so it sets ``name`` without OpenSearch."""
+  @pytest.fixture(autouse=True)
+  def _fake_opensearch(self, monkeypatch) -> None:
+    """Replace the OpenSearch client and mapping lookup, and reset the cache."""
+    monkeypatch.setattr(swissgeo_provider, "_shared_state", {})
+    self.clients = []
 
-    def fake_init(self, provider_def) -> None:
-      self.name = provider_def.get("name", "swissgeo-catalog")
+    def fake_create_client(host, _provider_def) -> _FakeClient:
+      client = _FakeClient()
+      self.clients.append((host, client))
+      return client
 
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "__init__",
-      fake_init,
-    )
+    def fake_get_fields(provider) -> dict:
+      provider._fields.setdefault("keywords", {"type": "keyword"})
+      return provider._fields
 
-  def test_resource_id_defaults_to_name(self, monkeypatch) -> None:
-    self._stub_parent_init(monkeypatch)
-    provider = SwissGeoProvider({"name": "my-catalog"})
-    assert provider.resource_id == "my-catalog"
+    monkeypatch.setattr(swissgeo_provider, "_create_client", fake_create_client)
+    monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "get_fields", fake_get_fields)
 
-  def test_resource_id_from_provider_def(self, monkeypatch) -> None:
-    self._stub_parent_init(monkeypatch)
-    provider = SwissGeoProvider({"name": "my-catalog", "resource_id": "explicit"})
+  @staticmethod
+  def _provider_def(**kwargs) -> dict:
+    return {
+      "name": "swissgeo_provider.SwissGeoProvider",
+      "type": "record",
+      "data": "http://opensearch:9200/my-catalog",
+      **kwargs,
+    }
+
+  def test_resource_id_defaults_to_name(self) -> None:
+    provider = SwissGeoProvider(self._provider_def())
+    assert provider.resource_id == "swissgeo_provider.SwissGeoProvider"
+
+  def test_resource_id_from_provider_def(self) -> None:
+    provider = SwissGeoProvider(self._provider_def(resource_id="explicit"))
     assert provider.resource_id == "explicit"
 
-  def test_aws4auth_branch_uses_patched_context(self, monkeypatch) -> None:
-    self._stub_parent_init(monkeypatch)
-    called = {"patched": False}
+  def test_splits_host_and_index(self) -> None:
+    provider = SwissGeoProvider(self._provider_def())
+    assert provider.os_host == "http://opensearch:9200"
+    assert provider.index_name == "my-catalog"
+    assert self.clients[0][0] == "http://opensearch:9200"
 
-    @contextmanager
-    def fake_patched(_provider_def) -> Generator[None, None, None]:
-      called["patched"] = True
-      yield
+  def test_client_and_fields_shared_per_index(self) -> None:
+    first = SwissGeoProvider(self._provider_def())
+    second = SwissGeoProvider(self._provider_def())
 
-    monkeypatch.setattr(swissgeo_provider._aws4auth, "patched_opensearch", fake_patched)
+    assert len(self.clients) == 1
+    assert second.os_ is first.os_
+    assert second.get_fields()["keywords"] == {"type": "keyword"}
 
-    provider = SwissGeoProvider({"name": "cat", "aws4auth": "true"})
+  def test_separate_client_per_index(self) -> None:
+    first = SwissGeoProvider(self._provider_def())
+    second = SwissGeoProvider(self._provider_def(data="http://opensearch:9200/other"))
 
-    assert called["patched"] is True
-    assert provider.resource_id == "cat"
+    assert len(self.clients) == 2
+    assert second.os_ is not first.os_
 
-  def test_no_aws4auth_skips_patched_context(self, monkeypatch) -> None:
-    self._stub_parent_init(monkeypatch)
-    called = {"patched": False}
+  def test_instances_get_own_fields_copy(self) -> None:
+    first = SwissGeoProvider(self._provider_def())
+    second = SwissGeoProvider(self._provider_def())
 
-    @contextmanager
-    def fake_patched(_provider_def) -> Generator[None, None, None]:
-      called["patched"] = True
-      yield
+    first._fields["extra"] = {"type": "keyword"}
 
-    monkeypatch.setattr(swissgeo_provider._aws4auth, "patched_opensearch", fake_patched)
+    assert "extra" not in second._fields
 
-    SwissGeoProvider({"name": "cat", "aws4auth": "false"})
+  def test_unreachable_opensearch_raises_and_is_not_cached(self, monkeypatch) -> None:
+    monkeypatch.setattr(swissgeo_provider, "_create_client", lambda *_: _FakeClient(reachable=False))
+    with pytest.raises(swissgeo_provider.ProviderConnectionError):
+      SwissGeoProvider(self._provider_def())
+    assert swissgeo_provider._shared_state == {}
 
-    assert called["patched"] is False
+  def test_field_lookup_error_raises_query_error(self, monkeypatch) -> None:
+    def failing_get_fields(_provider) -> dict:
+      raise KeyError("mappings")
+
+    monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "get_fields", failing_get_fields)
+    with pytest.raises(swissgeo_provider.ProviderQueryError):
+      SwissGeoProvider(self._provider_def())
+    assert swissgeo_provider._shared_state == {}
+
+
+class TestCreateClient:
+  @pytest.fixture(autouse=True)
+  def _capture_opensearch(self, monkeypatch) -> None:
+    self.calls = []
+
+    def fake_opensearch(*args, **kwargs) -> object:
+      self.calls.append((args, kwargs))
+      return object()
+
+    monkeypatch.setattr(swissgeo_provider, "OpenSearch", fake_opensearch)
+
+  def test_plain_client_uses_settings(self) -> None:
+    swissgeo_provider._create_client("http://opensearch:9200", {})
+
+    args, kwargs = self.calls[0]
+    settings = swissgeo_provider.get_settings()
+    assert args == ("http://opensearch:9200",)
+    assert "http_auth" not in kwargs
+    assert kwargs["timeout"] == settings.opensearch_timeout
+    assert kwargs["max_retries"] == settings.opensearch_max_retries
+    assert kwargs["pool_maxsize"] == settings.threadpool_max_workers
+
+  def test_provider_def_overrides_timeout_and_retries(self) -> None:
+    swissgeo_provider._create_client("http://opensearch:9200", {"timeout": "5", "max_retries": "1"})
+
+    _, kwargs = self.calls[0]
+    assert kwargs["timeout"] == 5
+    assert kwargs["max_retries"] == 1
+
+  def test_aws4auth_client_is_signed(self, monkeypatch) -> None:
+    auth = object()
+    monkeypatch.setattr(swissgeo_provider._aws4auth, "aws_auth", lambda _provider_def: auth)
+
+    swissgeo_provider._create_client("https://search.aws", {"aws4auth": "true"})
+
+    _, kwargs = self.calls[0]
+    assert kwargs["hosts"] == ["https://search.aws"]
+    assert kwargs["http_auth"] is auth
+    assert kwargs["connection_class"] is swissgeo_provider.RequestsHttpConnection
 
 
 # ---------------------------------------------------------------------------

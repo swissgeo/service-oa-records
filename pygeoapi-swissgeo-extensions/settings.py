@@ -24,6 +24,14 @@ class Settings(BaseSettings):
   # Metrics
   otel_enable_metrics: bool = False
 
+  # Size of the thread pool running the pygeoapi API calls. Also used as the
+  # OpenSearch connection pool size, so every worker thread can hold a connection.
+  threadpool_max_workers: int = 16
+
+  # OpenSearch client
+  opensearch_timeout: int = 30
+  opensearch_max_retries: int = 3
+
   @property
   def otlp_kwargs(self) -> dict:
     return {

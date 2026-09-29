@@ -21,7 +21,7 @@ server:
     max_items: 100
 
 logging:
-  level: DEBUG
+  level: INFO
 
 metadata:
   identification:

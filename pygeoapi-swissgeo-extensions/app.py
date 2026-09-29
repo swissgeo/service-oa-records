@@ -17,12 +17,14 @@ Usage:
 
 import asyncio
 from collections.abc import AsyncGenerator, Callable
+from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
 from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
+from settings import get_settings
 from starlette.applications import Starlette
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
@@ -62,6 +64,12 @@ async def _redirect_to_api(_request: Request) -> RedirectResponse:
 
 @asynccontextmanager
 async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
+  # pygeoapi runs the API calls in the loop's default executor. Bound it
+  # explicitly: the asyncio default derives from the node's CPU count, not the
+  # container's limits.
+  asyncio.get_running_loop().set_default_executor(
+    ThreadPoolExecutor(max_workers=get_settings().threadpool_max_workers, thread_name_prefix="pygeoapi"),
+  )
   yield
   shutdown_otel()
 
