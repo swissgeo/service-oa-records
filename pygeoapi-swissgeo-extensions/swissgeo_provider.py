@@ -323,7 +323,7 @@ def _translate_props(props: dict, language: Locale | str | None) -> None:
   """
   if not language:
     return
-  for field in ("title", "description", "name", "acronym"):
+  for field in ("title", "description", "name", "acronym", "additionalSearchText"):
     if isinstance(props.get(field), dict):
       props[field] = l10n.translate(props[field], language)
 
