@@ -1,10 +1,9 @@
 """Tests for swissgeo_provider helper functions."""
 
+import copy
 import sys
 import threading
 from pathlib import Path
-
-from babel import Locale
 
 import pytest
 
@@ -19,6 +18,31 @@ from swissgeo_provider import (
   _local,
   _patch_links,
   set_request_params,
+)
+
+
+def _localized_mapping(record_fields: dict) -> dict:
+  """Build an index mapping in the localized layout written by service-control."""
+  subtree = {"dynamic": False, "properties": {"properties": {"properties": record_fields}}}
+  return {
+    "properties": {
+      "id": {"type": "keyword"},
+      "type": {"type": "keyword", "index": False},
+      **dict.fromkeys(("de", "fr", "it", "rm", "en"), subtree),
+    },
+  }
+
+
+_SORT_FIELDS = {"sort": {"type": "keyword", "normalizer": "sort_normalizer"}}
+
+_DATASET_MAPPING = _localized_mapping(
+  {
+    "type": {"type": "keyword", "index": False},
+    "title": {"type": "search_as_you_type", "fields": _SORT_FIELDS},
+    "description": {"type": "search_as_you_type"},
+    "concepts": {"type": "keyword"},
+    "preferredDistributionId": {"type": "keyword", "index": False},
+  },
 )
 
 # ---------------------------------------------------------------------------
@@ -282,12 +306,8 @@ class TestProviderInit:
       self.clients.append((host, client))
       return client
 
-    def fake_get_fields(provider) -> dict:
-      provider._fields.setdefault("keywords", {"type": "keyword"})
-      return provider._fields
-
     monkeypatch.setattr(swissgeo_provider, "_create_client", fake_create_client)
-    monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "get_fields", fake_get_fields)
+    monkeypatch.setattr(SwissGeoProvider, "_fetch_mapping", lambda _provider: _DATASET_MAPPING)
 
   @staticmethod
   def _provider_def(**kwargs) -> dict:
@@ -318,7 +338,7 @@ class TestProviderInit:
 
     assert len(self.clients) == 1
     assert second.os_ is first.os_
-    assert second.get_fields()["keywords"] == {"type": "keyword"}
+    assert second.get_fields()["title"] == {"type": "string"}
 
   def test_separate_client_per_index(self) -> None:
     first = SwissGeoProvider(self._provider_def())
@@ -342,10 +362,10 @@ class TestProviderInit:
     assert swissgeo_provider._shared_state == {}
 
   def test_field_lookup_error_raises_query_error(self, monkeypatch) -> None:
-    def failing_get_fields(_provider) -> dict:
+    def failing_fetch_mapping(_provider) -> dict:
       raise KeyError("mappings")
 
-    monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "get_fields", failing_get_fields)
+    monkeypatch.setattr(SwissGeoProvider, "_fetch_mapping", failing_fetch_mapping)
     with pytest.raises(swissgeo_provider.ProviderQueryError):
       SwissGeoProvider(self._provider_def())
     assert swissgeo_provider._shared_state == {}
@@ -402,10 +422,14 @@ class TestCreateClient:
 # ---------------------------------------------------------------------------
 
 
-def _make_provider(resource_id="col") -> SwissGeoProvider:
+def _make_provider(resource_id="col", mapping=_DATASET_MAPPING) -> SwissGeoProvider:
   """Build a SwissGeoProvider without touching the real parent __init__."""
   provider = object.__new__(SwissGeoProvider)
   provider.resource_id = resource_id
+  provider.index_name = "idx"
+  provider._fields = {}
+  # setattr: an instance attribute stands in for the method here.
+  setattr(provider, "_fetch_mapping", lambda: mapping)  # noqa: B010
   return provider
 
 
@@ -493,6 +517,20 @@ class TestProviderQuery:
 
     assert captured["properties"] == [("concepts", "xyz")]
 
+  def test_sets_request_language(self, monkeypatch) -> None:
+    provider = _make_provider("col")
+    monkeypatch.setattr(
+      swissgeo_provider.OpenSearchCatalogueProvider,
+      "query",
+      lambda _self, **_kwargs: {"features": []},
+    )
+    set_request_params(lang="fr", fmt=None)
+
+    provider.query()
+
+    assert provider.lang == "fr"
+    assert provider.mask_prop("concepts") == "fr.properties.concepts"
+
 
 class TestProviderGet:
   def setup_method(self) -> None:
@@ -515,6 +553,7 @@ class TestProviderGet:
 
     assert result is not None
     assert result["properties"]["description"] == "Beschreibung"
+    assert provider.lang == "de"
 
   def test_none_result_returned_as_is(self, monkeypatch) -> None:
     provider = _make_provider("col")
@@ -532,50 +571,43 @@ class TestResolveSortby:
   def setup_method(self) -> None:
     _local.__dict__.clear()
 
-  def test_title_rewritten_to_negotiated_language_subfield(self) -> None:
+  def test_title_rewritten_to_sort_subfield(self) -> None:
     provider = _make_provider()
     sortby = [{"property": "title", "order": "+"}]
 
-    resolved = provider._resolve_sortby(sortby, Locale("de"))
-
-    assert resolved == [{"property": "title.de.sort", "order": "+"}]
+    assert provider._resolve_sortby(sortby) == [{"property": "title.sort", "order": "+"}]
 
   def test_descending_order_preserved(self) -> None:
     provider = _make_provider()
     sortby = [{"property": "title", "order": "-"}]
 
-    resolved = provider._resolve_sortby(sortby, Locale("fr"))
+    assert provider._resolve_sortby(sortby) == [{"property": "title.sort", "order": "-"}]
 
-    assert resolved == [{"property": "title.fr.sort", "order": "-"}]
+  def test_any_field_with_sort_subfield_rewritten(self) -> None:
+    provider = _make_provider(
+      mapping=_localized_mapping({"name": {"type": "search_as_you_type", "fields": _SORT_FIELDS}}),
+    )
 
-  def test_unsupported_locale_falls_back_to_en(self) -> None:
+    resolved = provider._resolve_sortby([{"property": "name", "order": "+"}])
+
+    assert resolved == [{"property": "name.sort", "order": "+"}]
+
+  def test_text_field_without_sort_subfield_rejected(self) -> None:
     provider = _make_provider()
-    sortby = [{"property": "title", "order": "+"}]
 
-    resolved = provider._resolve_sortby(sortby, Locale("es"))
+    with pytest.raises(swissgeo_provider.ProviderInvalidQueryError):
+      provider._resolve_sortby([{"property": "description", "order": "+"}])
 
-    assert resolved == [{"property": "title.en.sort", "order": "+"}]
-
-  def test_falls_back_to_request_lang_when_language_absent(self) -> None:
+  def test_keyword_properties_left_untouched(self) -> None:
     provider = _make_provider()
-    set_request_params(lang="it", fmt=None)
+    sortby = [{"property": "concept", "order": "-"}]
 
-    resolved = provider._resolve_sortby([{"property": "title", "order": "+"}], None)
-
-    assert resolved == [{"property": "title.it.sort", "order": "+"}]
-
-  def test_other_properties_left_untouched(self) -> None:
-    provider = _make_provider()
-    sortby = [{"property": "recordCreated", "order": "-"}]
-
-    resolved = provider._resolve_sortby(sortby, Locale("de"))
-
-    assert resolved == sortby
+    assert provider._resolve_sortby(sortby) == sortby
 
   def test_empty_sortby_returned_as_is(self) -> None:
     provider = _make_provider()
 
-    assert provider._resolve_sortby([], Locale("de")) == []
+    assert provider._resolve_sortby([]) == []
 
   def test_query_passes_resolved_sortby_to_parent(self, monkeypatch) -> None:
     captured = {}
@@ -590,34 +622,223 @@ class TestResolveSortby:
 
     provider.query(sortby=[{"property": "title", "order": "+"}], language="de")
 
-    assert captured["sortby"] == [{"property": "title.de.sort", "order": "+"}]
+    assert captured["sortby"] == [{"property": "title.sort", "order": "+"}]
+    assert provider.mask_prop("title.sort") == "de.properties.title.sort"
 
 
 class TestGetFields:
-  def test_registers_title_and_language_sort_subfields(self, monkeypatch) -> None:
+  def test_reads_fields_from_language_subtree(self) -> None:
     provider = _make_provider()
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "get_fields",
-      lambda _self: {"keywords": {"type": "keyword"}},
-    )
 
     fields = provider.get_fields()
 
-    assert fields["title"] == {"type": "keyword"}
-    assert fields["keywords"] == {"type": "keyword"}
-    for lang in ("de", "en", "fr", "it"):
-      assert fields[f"title.{lang}.sort"] == {"type": "keyword"}
+    assert fields == {
+      "type": {"type": "keyword"},
+      "title": {"type": "string"},
+      "title.sort": {"type": "keyword"},
+      "description": {"type": "string"},
+      "concept": {"type": "keyword"},
+      "preferredDistributionId": {"type": "keyword"},
+      "q": {"type": "string"},
+    }
 
-  def test_registers_concepts_as_concept(self, monkeypatch) -> None:
+  def test_registers_concepts_as_concept(self) -> None:
     provider = _make_provider()
-    monkeypatch.setattr(
-      swissgeo_provider.OpenSearchCatalogueProvider,
-      "get_fields",
-      lambda _self: {"concepts": {"type": "keyword"}},
-    )
 
     fields = provider.get_fields()
 
     assert fields["concept"] == {"type": "keyword"}
     assert "concepts" not in fields
+
+  def test_translates_date_and_number_types(self) -> None:
+    provider = _make_provider(
+      mapping=_localized_mapping({"created": {"type": "date"}, "size": {"type": "long"}}),
+    )
+
+    fields = provider.get_fields()
+
+    assert fields["created"] == {"type": "string", "format": "date"}
+    assert fields["size"] == {"type": "number", "format": "long"}
+
+  def test_skips_object_fields_without_type(self) -> None:
+    provider = _make_provider(
+      mapping=_localized_mapping({"title": {"type": "text"}, "links": {"properties": {"href": {"type": "keyword"}}}}),
+    )
+
+    fields = provider.get_fields()
+
+    assert "links" not in fields
+    assert fields["title"] == {"type": "string"}
+
+  def test_cached_fields_not_refetched(self) -> None:
+    provider = _make_provider()
+    provider._fields = {"cached": {"type": "keyword"}}
+
+    assert provider.get_fields() == {"cached": {"type": "keyword"}}
+
+  def test_old_mapping_layout_raises(self) -> None:
+    provider = _make_provider(mapping={"properties": {"properties": {"properties": {}}}})
+
+    with pytest.raises(swissgeo_provider.ProviderQueryError, match="localized mapping"):
+      provider.get_fields()
+
+
+class TestFetchMapping:
+  def test_returns_mapping_of_first_index(self) -> None:
+    class _Indices:
+      def get_mapping(self, index) -> dict:
+        assert index == "my-alias"
+        return {"my-index-v2": {"mappings": _DATASET_MAPPING}}
+
+    provider = object.__new__(SwissGeoProvider)
+    provider.index_name = "my-alias"
+    setattr(provider, "os_", type("_Client", (), {"indices": _Indices()})())  # noqa: B010
+
+    assert provider._fetch_mapping() == _DATASET_MAPPING
+
+
+class TestMaskProp:
+  def test_defaults_to_en(self) -> None:
+    assert _make_provider().mask_prop("title") == "en.properties.title"
+
+  def test_uses_request_language(self) -> None:
+    provider = _make_provider()
+    provider.lang = "it"
+
+    assert provider.mask_prop("dataset") == "it.properties.dataset"
+
+
+# ---------------------------------------------------------------------------
+# SwissGeoProvider against a fake OpenSearch client
+#
+# Runs the real parent query()/get(), so the request bodies show where the
+# provider points filters, sorting and search in the localized documents.
+# ---------------------------------------------------------------------------
+
+
+def _localized_doc(record_id: str, titles: dict[str, str]) -> dict:
+  """Build a document in the localized layout, with one record per language."""
+  return {
+    "id": record_id,
+    "type": "Feature",
+    **{
+      lang: {
+        "id": record_id,
+        "type": "Feature",
+        "properties": {"type": "Dataset", "title": title, "concepts": ["location"]},
+        "links": [],
+      }
+      for lang, title in titles.items()
+    },
+  }
+
+
+_DOC = _localized_doc("rec-1", {"de": "Wanderwege", "fr": "Chemins pédestres", "en": "Hiking trails"})
+
+
+class _FakeIndices:
+  def __init__(self, mapping: dict) -> None:
+    self.mapping = mapping
+
+  def get_mapping(self, index: str) -> dict:
+    return {f"{index}-20261007": {"mappings": self.mapping}}
+
+
+class _FakeOpenSearch:
+  def __init__(self, mapping: dict, docs: list[dict]) -> None:
+    self.indices = _FakeIndices(mapping)
+    self.docs = docs
+    self.searches: list[dict] = []
+
+  def ping(self) -> bool:
+    return True
+
+  def search(self, index: str, body: dict, **_kwargs) -> dict:  # noqa: ARG002
+    self.searches.append(body)
+    hits = [{"_id": doc["id"], "_source": copy.deepcopy(doc)} for doc in self.docs]
+    return {"hits": {"total": {"value": len(hits)}, "hits": hits}}
+
+  def get(self, index: str, id: str) -> dict:  # noqa: A002, ARG002
+    doc = next(doc for doc in self.docs if doc["id"] == id)
+    return {"_id": id, "_source": copy.deepcopy(doc)}
+
+
+class TestProviderAgainstOpenSearch:
+  @pytest.fixture(autouse=True)
+  def _fake_opensearch(self, monkeypatch) -> None:
+    monkeypatch.setattr(swissgeo_provider, "_shared_state", {})
+    _local.__dict__.clear()
+    self.client = _FakeOpenSearch(_DATASET_MAPPING, [_DOC])
+    monkeypatch.setattr(swissgeo_provider, "_create_client", lambda *_: self.client)
+
+  @staticmethod
+  def _provider() -> SwissGeoProvider:
+    return SwissGeoProvider(
+      {
+        "name": "swissgeo_provider.SwissGeoProvider",
+        "type": "record",
+        "data": "http://opensearch:9200/swissgeo-catalog",
+        "resource_id": "swissgeo-catalog",
+        "id_field": "externalId",
+        "title_field": "title",
+      },
+    )
+
+  def _query(self, lang: str, **kwargs) -> tuple[dict, dict]:
+    """Run a query in *lang*; return the result and the body sent to OpenSearch."""
+    set_request_params(lang=lang, fmt="json")
+    result = self._provider().query(**kwargs)
+    return result, self.client.searches[-1]
+
+  def test_returns_record_of_request_language(self) -> None:
+    result, _ = self._query("fr")
+
+    assert result["numberMatched"] == 1
+    feature = result["features"][0]
+    assert feature["properties"]["title"] == "Chemins pédestres"
+    assert feature["links"][0]["href"].endswith("/collections/swissgeo-catalog/items/rec-1?lang=fr&f=json")
+
+  def test_sorts_on_sort_subfield_of_request_language(self) -> None:
+    _, body = self._query("fr", sortby=[{"property": "title", "order": "+"}])
+
+    assert body["sort"] == [{"fr.properties.title.sort": {"order": "asc"}}]
+
+  def test_descending_sort(self) -> None:
+    _, body = self._query("de", sortby=[{"property": "title", "order": "-"}])
+
+    assert body["sort"] == [{"de.properties.title.sort": {"order": "desc"}}]
+
+  def test_filters_on_request_language_subtree(self) -> None:
+    _, body = self._query("it", properties=[("concept", "location")], select_properties=[], bbox=[])
+
+    assert body["query"]["bool"]["filter"] == [
+      {"match": {"it.properties.concepts": {"query": "location", "minimum_should_match": "100%"}}},
+    ]
+
+  def test_free_text_search_spans_all_languages(self) -> None:
+    _, body = self._query("fr", q="wander")
+
+    # No ``fields``: OpenSearch searches every indexed field, i.e. all languages.
+    assert body["query"]["bool"]["must"] == {"query_string": {"query": "wander"}}
+
+  def test_unsupported_sort_rejected_before_search(self) -> None:
+    set_request_params(lang="de", fmt=None)
+
+    with pytest.raises(swissgeo_provider.ProviderInvalidQueryError):
+      self._provider().query(sortby=[{"property": "description", "order": "+"}])
+    assert self.client.searches == []
+
+  def test_get_returns_record_of_request_language(self) -> None:
+    set_request_params(lang="en", fmt=None)
+
+    result = self._provider().get("rec-1")
+
+    assert result is not None
+    assert result["properties"]["title"] == "Hiking trails"
+    assert result["links"] == []
+
+  def test_old_mapping_layout_fails_at_startup(self) -> None:
+    self.client.indices.mapping = {"properties": {"properties": {"properties": {}}}}
+
+    with pytest.raises(swissgeo_provider.ProviderQueryError, match="localized mapping"):
+      self._provider()
