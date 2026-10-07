@@ -38,7 +38,6 @@ from urllib.parse import urlencode, urlparse
 import aws4auth as _aws4auth
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from opentelemetry import trace
-from pygeoapi import l10n
 from pygeoapi.api import F_JSON, FORMAT_TYPES
 from pygeoapi.provider.base import BaseProvider, ProviderConnectionError, ProviderQueryError
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
@@ -282,11 +281,14 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       **kwargs,
     )
 
-    for feature in result.get("features", []):
-      _translate_props(feature.get("properties", {}), language)
+    features = []
+    for original in result.get("features", []):
+      feature = original.get(lang, {})
       links = feature.setdefault("links", [])
       _ensure_self_link(links, self.resource_id, feature.get("id", ""))
       _patch_links(links, lang, fmt)
+      features.append(feature)
+    result["features"] = features
 
     return result
 
@@ -303,29 +305,12 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     )
 
     result = super().get(identifier, **kwargs)
-
+    result = result.get(lang) if result else None
     if result:
-      _translate_props(result.get("properties", {}), language)
       links = result.setdefault("links", [])
       _patch_links(links, lang, fmt)
 
     return result
-
-
-def _translate_props(props: dict, language: Locale | str | None) -> None:
-  """Collapse the ``title``/``description`` language structs in place.
-
-  Uses pygeoapi's own :func:`pygeoapi.l10n.translate` so behaviour matches
-  the rest of the framework: the value for *language* is returned, falling
-  back to the first available language, then to the struct itself. Only the
-  known language-struct fields are translated to avoid l10n warnings on
-  non-locale sibling keys (``type``, ``rel``, …).
-  """
-  if not language:
-    return
-  for field in ("title", "description", "name", "acronym", "additionalSearchText"):
-    if isinstance(props.get(field), dict):
-      props[field] = l10n.translate(props[field], language)
 
 
 def _ensure_self_link(links: list, collection_id: str, item_id: str) -> None:

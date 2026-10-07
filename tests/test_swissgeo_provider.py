@@ -18,7 +18,6 @@ from swissgeo_provider import (
   _get_lang_and_fmt,
   _local,
   _patch_links,
-  _translate_props,
   set_request_params,
 )
 
@@ -85,55 +84,6 @@ class TestGetLangAndFmt:
 
     assert results["a"] == "de"
     assert results["b"] == "fr"
-
-
-# ---------------------------------------------------------------------------
-# _translate_props
-# ---------------------------------------------------------------------------
-
-
-class TestTranslateProps:
-  def test_title_collapsed_to_requested_lang(self) -> None:
-    props = {"title": {"de": "Deutsch", "fr": "Français"}}
-    _translate_props(props, "de")
-    assert props["title"] == "Deutsch"
-
-  def test_description_collapsed_to_requested_lang(self) -> None:
-    props = {"description": {"de": "Deutsch", "fr": "Français"}}
-    _translate_props(props, "fr")
-    assert props["description"] == "Français"
-
-  def test_accepts_babel_locale(self) -> None:
-    locale = Locale("de")
-    props = {"title": {"de": "Deutsch", "fr": "Français"}}
-    _translate_props(props, locale)
-    assert props["title"] == "Deutsch"
-
-  def test_falls_back_to_first_lang_when_requested_missing(self) -> None:
-    props = {"title": {"de": "Deutsch"}}
-    _translate_props(props, "it")
-    assert props["title"] == "Deutsch"
-
-  def test_no_language_leaves_struct_untouched(self) -> None:
-    props = {"title": {"de": "Deutsch", "fr": "Français"}}
-    _translate_props(props, None)
-    assert props["title"] == {"de": "Deutsch", "fr": "Français"}
-
-  def test_non_dict_field_untouched(self) -> None:
-    props = {"title": "plain string"}
-    _translate_props(props, "de")
-    assert props["title"] == "plain string"
-
-  def test_missing_field_ignored(self) -> None:
-    props = {"description": {"de": "Deutsch"}}
-    _translate_props(props, "de")
-    assert "title" not in props
-    assert props["description"] == "Deutsch"
-
-  def test_non_lang_fields_untouched(self) -> None:
-    props = {"title": {"en": "T"}, "extra": "keep me"}
-    _translate_props(props, "en")
-    assert props["extra"] == "keep me"
 
 
 # ---------------------------------------------------------------------------
@@ -468,8 +418,8 @@ class TestProviderQuery:
     parent_result = {
       "features": [
         {
-          "id": "rec-1",
-          "properties": {"title": {"de": "Titel", "fr": "Titre"}},
+          "de": {"id": "rec-1", "properties": {"title": "Titel"}},
+          "fr": {"id": "rec-1", "properties": {"title": "Titre"}},
         },
       ],
     }
@@ -551,8 +501,8 @@ class TestProviderGet:
   def test_translates(self, monkeypatch) -> None:
     provider = _make_provider("col")
     parent_result = {
-      "id": "rec-1",
-      "properties": {"description": {"de": "Beschreibung", "en": "Description"}},
+      "de": {"id": "rec-1", "properties": {"description": "Beschreibung"}},
+      "en": {"id": "rec-1", "properties": {"description": "Description"}},
     }
     monkeypatch.setattr(
       swissgeo_provider.OpenSearchCatalogueProvider,
