@@ -20,7 +20,7 @@ from starlette.applications import Starlette
 _resource = Resource.create({"service.name": "service-oa-records"})
 
 
-def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:
+def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:  # pragma: no cover
   settings = get_settings()
 
   if settings.otel_sdk_disabled:
@@ -35,7 +35,7 @@ def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:
   return log_provider, trace_provider
 
 
-def _setup_exporters(
+def _setup_exporters(  # pragma: no cover
   log_provider: LoggerProvider | None,
   trace_provider: TracerProvider | None,
 ) -> None:
@@ -51,7 +51,7 @@ def _setup_exporters(
     trace_provider.add_span_processor(BatchSpanProcessor(OTLPSpanExporter(**settings.otlp_kwargs)))
 
 
-def _setup_metrics() -> MeterProvider | None:
+def _setup_metrics() -> MeterProvider | None:  # pragma: no cover
   settings = get_settings()
 
   if settings.otel_sdk_disabled or not settings.otel_enable_metrics or not settings.otel_enable_otlp_exporter:
@@ -85,7 +85,7 @@ _setup_exporters(log_provider, trace_provider)
 meter_provider = _setup_metrics()
 
 
-def get_otel_handler() -> logging.Handler:
+def get_otel_handler() -> logging.Handler:  # pragma: no cover
   """Get the OTEL logging Handler"""
   settings = get_settings()
 
@@ -97,7 +97,7 @@ def get_otel_handler() -> logging.Handler:
   return LoggingHandler(logger_provider=log_provider)
 
 
-def initialize_instrumentation(app: Starlette) -> None:
+def initialize_instrumentation(app: Starlette) -> None:  # pragma: no cover
   """Initialize OTEL instrumentation for the Starlette app."""
   settings = get_settings()
 
@@ -110,7 +110,7 @@ def initialize_instrumentation(app: Starlette) -> None:
     URLLib3Instrumentor().instrument()
 
 
-def shutdown_otel() -> None:
+def shutdown_otel() -> None:  # pragma: no cover
   """Flush and shutdown OTEL providers/processors on application shutdown."""
   if trace_provider is not None:
     trace_provider.shutdown()

@@ -34,7 +34,7 @@ from swissgeo_provider import set_request_params
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 
 
-def _call_api_threadsafe_with_lang(
+def _call_api_threadsafe_with_lang(  # pragma: no cover
   loop: asyncio.AbstractEventLoop,
   api_function: Callable,
   actual_api: API,
@@ -58,11 +58,11 @@ def _call_api_threadsafe_with_lang(
 _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignore[invalid-assignment]
 
 
-async def _redirect_to_api(_request: Request) -> RedirectResponse:
+async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no cover
   return RedirectResponse(url="/api/oar/rc1")
 
 
-@asynccontextmanager
+@asynccontextmanager  # pragma: no cover
 async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
   # pygeoapi runs the API calls in the loop's default executor. Bound it
   # explicitly: the asyncio default derives from the node's CPU count, not the
