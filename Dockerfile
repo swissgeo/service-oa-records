@@ -4,8 +4,11 @@ WORKDIR /pygeoapi
 
 RUN pip install uv
 
+# Set to true to include debugpy, for the PYDEBUG mode of docker-entrypoint.sh
+ARG INSTALL_DEBUGPY=false
+
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev
+RUN uv sync --frozen --no-dev $([ "$INSTALL_DEBUGPY" = "true" ] && echo "--group debug")
 
 FROM python:3.14-slim AS production
 
@@ -15,6 +18,12 @@ ENV PYGEOAPI_CONFIG=/pygeoapi/pygeoapi-config.yml
 ENV PYGEOAPI_OPENAPI=/pygeoapi/pygeoapi-openapi.yml
 ENV PYTHONPATH=/pygeoapi/pygeoapi-swissgeo-extensions
 ENV PATH="/pygeoapi/.venv/bin:$PATH"
+# Fewer glibc malloc arenas keep the memory freed by the worker threads from
+# fragmenting across arenas and inflating the RSS.
+ENV MALLOC_ARENA_MAX=2
+# uvicorn answers 503 once this many connections or requests are open, instead
+# of accepting more work than fits in memory.
+ENV UVICORN_LIMIT_CONCURRENCY=100
 
 RUN groupadd --gid 1001 pygeoapi \
  && useradd --uid 1001 --gid pygeoapi --no-create-home pygeoapi \

@@ -12,7 +12,6 @@ dependencies = [
     "packaging>=26.0",
     "uvicorn[standard]",
     "starlette",
-    "debugpy",
     "pyyaml",
     "pydantic-settings>=2.0",
     # List of available opentelemetry-instrumentation can be found here
@@ -27,7 +26,12 @@ dependencies = [
 extra-paths = ["pygeoapi-swissgeo-extensions"]
 
 [dependency-groups]
+# Installed in the Docker image only when built with INSTALL_DEBUGPY=true
+debug = [
+    "debugpy",
+]
 dev = [
+    { include-group = "debug" },
     "ruff",
     "ty",
     "pytest",
@@ -61,6 +65,7 @@ ignore = [
     "TD",     # Ignore flake8-todos
     "FIX",    # Ignore fixme comments
     "COM812", # flak8-commas missing-trailing-comma is ignored to avoid conflict with formatter which enforces trailing commas
+    "CPY001", # Ignore missing copyright notice at top of file
 ]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.

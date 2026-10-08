@@ -17,12 +17,14 @@ Usage:
 
 import asyncio
 from collections.abc import AsyncGenerator, Callable
+from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
 from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
+from settings import get_settings
 from starlette.applications import Starlette
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
@@ -32,7 +34,7 @@ from swissgeo_provider import set_request_params
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 
 
-def _call_api_threadsafe_with_lang(
+def _call_api_threadsafe_with_lang(  # pragma: no cover
   loop: asyncio.AbstractEventLoop,
   api_function: Callable,
   actual_api: API,
@@ -48,7 +50,7 @@ def _call_api_threadsafe_with_lang(
 
   set_request_params(
     lang=api_request.params.get("lang", None),
-    fmt=api_request.params.get("f", None),
+    fmt=api_request.format,
   )
   return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
 
@@ -56,12 +58,18 @@ def _call_api_threadsafe_with_lang(
 _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignore[invalid-assignment]
 
 
-async def _redirect_to_api(_request: Request) -> RedirectResponse:
+async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no cover
   return RedirectResponse(url="/api/oar/rc1")
 
 
-@asynccontextmanager
+@asynccontextmanager  # pragma: no cover
 async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
+  # pygeoapi runs the API calls in the loop's default executor. Bound it
+  # explicitly: the asyncio default derives from the node's CPU count, not the
+  # container's limits.
+  asyncio.get_running_loop().set_default_executor(
+    ThreadPoolExecutor(max_workers=get_settings().threadpool_max_workers, thread_name_prefix="pygeoapi"),
+  )
   yield
   shutdown_otel()
 
