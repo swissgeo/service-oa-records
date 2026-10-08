@@ -1,16 +1,18 @@
 """SwissGeo OpenSearch catalogue provider for OGC API Records.
 
-Extends OpenSearchCatalogueProvider with language-aware field selection:
-``title`` and ``description`` arrive as nested per-language objects
-(``{"de": …, "fr": …}``) and are collapsed to the language pygeoapi resolves
-(passed in via the ``language`` kwarg) using ``pygeoapi.l10n.translate``,
-before handing results back to pygeoapi.
+Extends OpenSearchCatalogueProvider for the localized index layout written
+by service-control: each document holds one complete record per language
+(``{"id": …, "type": …, "de": {record}, "fr": {record}, …}``), and only the
+fields inside ``<lang>.properties`` are indexed.
+
+The request language (``?lang=``, see app.py) selects the record subtree
+that is returned, filtered and sorted (see :meth:`SwissGeoProvider.mask_prop`).
+Free-text search (``?q=``) matches the records of all languages.
 
 Also patches same-host links to carry ``lang`` and ``f`` query params.
 
-Supports ``?sortby=title`` / ``?sortby=-title``: the request language decides
-which per-language sort subfield in the index is used (see
-:meth:`SwissGeoProvider._resolve_sortby`).
+Supports ``?sortby=<field>`` for fields that carry a ``sort`` keyword
+subfield in the index (``title``, ``name``, ``acronym``).
 
 Usage in pygeoapi-config.yml:
     providers:
@@ -32,20 +34,20 @@ from __future__ import annotations
 import logging
 import os
 import threading
-from typing import TYPE_CHECKING
 from urllib.parse import urlencode, urlparse
 
 import aws4auth as _aws4auth
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from opentelemetry import trace
 from pygeoapi.api import F_JSON, FORMAT_TYPES
-from pygeoapi.provider.base import BaseProvider, ProviderConnectionError, ProviderQueryError
+from pygeoapi.provider.base import (
+  BaseProvider,
+  ProviderConnectionError,
+  ProviderInvalidQueryError,
+  ProviderQueryError,
+)
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 from settings import get_settings
-
-if TYPE_CHECKING:
-  # Babel ships with pygeoapi; only needed for the locale type hints below.
-  from babel import Locale
 
 LOGGER = logging.getLogger(__name__)
 
@@ -53,9 +55,15 @@ _tracer = trace.get_tracer(__name__)
 
 _SUPPORTED_LANGS = {"de", "en", "fr", "it"}
 
-# Only ``title`` carries per-language ``.sort`` keyword subfields in the index
-# mapping, so it is the sole sortable property we advertise.
-_SORTABLE_FIELD = "title"
+# The field definitions are identical in every language subtree of the
+# mapping, so they are read from this one.
+_MAPPING_LANG = "de"
+
+# Keyword subfield the mapping adds to text fields that can be sorted on.
+_SORT_SUBFIELD = "sort"
+
+# Mapping types pygeoapi has to advertise as JSON Schema strings.
+_TEXT_TYPES = {"text", "search_as_you_type"}
 
 # Styles are served outside the records API prefix, so relative links to them
 # are resolved against the hostname instead of the base URL.
@@ -86,19 +94,6 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     return "en", fmt
   primary = lang.split("-")[0].split("_")[0].lower()
   return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
-
-
-def _locale_to_lang(language: Locale | str) -> str:
-  """Reduce pygeoapi's negotiated locale to a supported language code.
-
-  *language* is a Babel ``Locale`` (or a string in tests); anything outside
-  the supported set falls back to ``en``.
-  """
-  primary = getattr(language, "language", None)
-  if primary is None:
-    primary = str(language).split("-")[0].split("_")[0]
-  primary = primary.lower()
-  return primary if primary in _SUPPORTED_LANGS else "en"
 
 
 def _get_hostname() -> str:
@@ -138,12 +133,27 @@ def _create_client(host: str, provider_def: dict) -> OpenSearch:
   )
 
 
+def _field_schema(mapping_type: str) -> dict:
+  """Translate an OpenSearch mapping type into pygeoapi's field definition."""
+  if mapping_type in _TEXT_TYPES:
+    return {"type": "string"}
+  if mapping_type == "date":
+    return {"type": "string", "format": "date"}
+  if mapping_type in {"float", "long"}:
+    return {"type": "number", "format": mapping_type}
+  return {"type": mapping_type}
+
+
 class SwissGeoProvider(OpenSearchCatalogueProvider):
   """OGC API Records provider backed by OpenSearch.
 
-  Adds language-aware title/description field selection and same-host
-  link patching on top of the standard OpenSearchCatalogueProvider.
+  Adds language-aware record selection, filtering and sorting, and
+  same-host link patching on top of the standard OpenSearchCatalogueProvider.
   """
+
+  # Language subtree of the documents used for the current request; set by
+  # query() and get() (pygeoapi creates a provider instance per request).
+  lang = "en"
 
   @_tracer.start_as_current_span("SwissGeoProvider.__init__")
   def __init__(self, provider_def: dict) -> None:
@@ -162,7 +172,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         state = self._connect(provider_def)
         _shared_state[self.data] = state
     self.os_, fields = state
-    # Each instance gets its own copy, as get_fields() adds entries to it.
+    # Each instance gets its own copy, so changes to it stay local.
     self._fields = dict(fields)
 
   def _connect(self, provider_def: dict) -> tuple[OpenSearch, dict]:
@@ -181,53 +191,74 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     return self.os_, self._fields
 
   def get_fields(self) -> dict:
-    """Advertise ``title`` as a queryable so it passes pygeoapi's sort check.
+    """Return the fields of a record, read from one language subtree of the mapping.
 
-    The parent only enumerates top-level mapping keys that carry a ``type``;
-    ``title`` is a bare object container of per-language subfields, so it is
-    dropped and ``?sortby=title`` would 400 with 'bad sortby property'.
+    The parent expects the fields under a top-level ``properties`` object,
+    which the localized index no longer has.
 
-    Each concrete ``title.<lang>.sort`` subfield is registered too: the parent
-    looks the resolved property up in ``self.fields`` when building the sort
-    clause, and typing it ``keyword`` keeps it from appending a ``.raw``
-    suffix that does not exist in the mapping.
+    Text fields with a ``sort`` keyword subfield also register it as
+    ``<field>.sort`` (type ``keyword``): the parent looks the resolved sort
+    property up in ``self.fields``, and the ``keyword`` type keeps it from
+    appending a ``.raw`` suffix that does not exist in the mapping.
 
     Rename the concepts field to concept so that it gets accepted as query
     parameter. Gets rewritten in the query function to concepts again.
     """
-    fields = super().get_fields()
-    fields.setdefault(_SORTABLE_FIELD, {"type": "keyword"})
-    for lang in _SUPPORTED_LANGS:
-      fields.setdefault(
-        f"{_SORTABLE_FIELD}.{lang}.sort",
-        {"type": "keyword"},
+    if self._fields:
+      return self._fields
+
+    mapping = self._fetch_mapping()
+    try:
+      record = mapping["properties"][_MAPPING_LANG]["properties"]["properties"]["properties"]
+    except KeyError as err:
+      msg = (
+        f"Index {self.index_name} does not have the localized mapping "
+        f"(no {_MAPPING_LANG}.properties.properties); re-run oar_opensearch_export "
+        "in service-control"
       )
+      raise ProviderQueryError(msg) from err
+    fields = {}
+    for name, definition in record.items():
+      if "type" not in definition:
+        continue
+      fields[name] = _field_schema(definition["type"])
+      if _SORT_SUBFIELD in definition.get("fields", {}):
+        fields[f"{name}.{_SORT_SUBFIELD}"] = {"type": "keyword"}
     if "concepts" in fields:
-      fields.setdefault("concept", fields.pop("concepts"))
-    return fields
+      fields["concept"] = fields.pop("concepts")
+    # Same as OpenSearchCatalogueProvider: ``q`` is advertised as a field.
+    fields["q"] = {"type": "string"}
 
-  def _resolve_sortby(
-    self,
-    sortby: list,
-    language: Locale | str | None,
-  ) -> list:
-    """Rewrite a ``title`` sort onto the language-specific sort subfield.
+    self._fields = fields
+    return self._fields
 
-    ``title`` is stored per language, so sorting needs a concrete subfield:
-    ``title`` becomes ``title.<lang>.sort``, which the parent then masks to
-    ``properties.title.<lang>.sort``. *language* is pygeoapi's negotiated
-    locale (already resolved through the configured fallbacks); the
-    thread-local set from the request is used only if it is absent.
+  def _fetch_mapping(self) -> dict:
+    """Return the index mapping; an alias resolves to its (first) index."""
+    response = self.os_.indices.get_mapping(index=self.index_name)
+    return next(iter(response.values()))["mappings"]
+
+  def mask_prop(self, property_name: str) -> str:
+    """Map a record property onto its path in the request language subtree."""
+    return f"{self.lang}.properties.{property_name}"
+
+  def _resolve_sortby(self, sortby: list) -> list:
+    """Rewrite sorts on text fields onto their ``sort`` keyword subfield.
+
+    Text fields cannot be sorted on directly. Those without a ``sort``
+    subfield are rejected, as the parent would sort on a ``.raw`` subfield
+    that does not exist in the mapping.
     """
-    if not sortby:
-      return sortby
-
-    lang = _locale_to_lang(language) if language else _get_lang_and_fmt()[0]
-
+    fields = self.get_fields()
     resolved = []
     for sort in sortby:
-      if sort.get("property") == _SORTABLE_FIELD:
-        resolved.append({**sort, "property": f"{_SORTABLE_FIELD}.{lang}.sort"})
+      prop = sort["property"]
+      sort_field = f"{prop}.{_SORT_SUBFIELD}"
+      field = fields.get(prop, {})
+      if sort_field in fields:
+        resolved.append({**sort, "property": sort_field})
+      elif field.get("type") == "string" and "format" not in field:
+        msg = f"Cannot sort by text property {prop}"
+        raise ProviderInvalidQueryError(msg, user_msg=msg)
       else:
         resolved.append(sort)
     return resolved
@@ -259,9 +290,10 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
       bbox = []
     language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
-    LOGGER.debug("SwissGeoProvider.query language=%s fmt=%s", language, fmt)
+    self.lang = lang
+    LOGGER.debug("SwissGeoProvider.query lang=%s language=%s fmt=%s", lang, language, fmt)
 
-    sortby = self._resolve_sortby(sortby, language)
+    sortby = self._resolve_sortby(sortby)
     LOGGER.debug("SwissGeoProvider.query sortby=%s", sortby)
 
     properties = [("concepts", value) if key == "concept" else (key, value) for key, value in properties]
@@ -297,9 +329,11 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
     """Fetch a single record by ID with language-aware post-processing."""
     language = kwargs.get("language")
     lang, fmt = _get_lang_and_fmt()
+    self.lang = lang
     LOGGER.debug(
-      "SwissGeoProvider.get identifier=%s language=%s fmt=%s",
+      "SwissGeoProvider.get identifier=%s lang=%s language=%s fmt=%s",
       identifier,
+      lang,
       language,
       fmt,
     )

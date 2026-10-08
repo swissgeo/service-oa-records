@@ -27,8 +27,9 @@ pygeoapi Starlette app
 SwissGeoProvider          ← extends OpenSearchCatalogueProvider
   │  query() / get()
   ├─ reads lang from thread-local (set by app.py)
+  ├─ mask_prop()    – filters/sorts on <lang>.properties.<field>
   ├─ calls super().query() / super().get()
-  ├─ _apply_lang()  – overwrites title/description with localised variants
+  ├─ picks the <lang> record out of each document
   └─ _patch_links() – appends ?lang=…&f=… to same-host links
   │
   ▼
@@ -40,6 +41,24 @@ OpenSearch
 ### Why `app.py` is needed
 
 pygeoapi's Starlette integration runs provider calls in a thread pool. By the time the provider executes, the Starlette request context is no longer accessible. `app.py` monkey-patches `call_api_threadsafe` to call `set_request_params(lang, fmt)` just before dispatching each call, storing the values in a `threading.local` that `SwissGeoProvider` reads. Flask users are handled via a fallback `flask.request.args` read inside `_get_lang_and_fmt()`.
+
+### Localized index layout
+
+The indexes are written by `manage.py oar_opensearch_export` in service-control. Each
+document holds one complete record per language next to the shared `id` and `type`:
+
+```json
+{"id": "ch.bafu.moose", "type": "Feature", "de": {record}, "fr": {record}, "it": {record}, "rm": {record}, "en": {record}}
+```
+
+Only the fields under `<lang>.properties` that are listed in the mapping are indexed. The
+request language decides which record is returned and which subtree filters (`?concept=`,
+`?protocol=`, …) and sorting run against. Free-text search (`?q=`) matches the records of
+all languages, so `?q=wander&lang=fr` finds records by their German title too. The available
+fields are read from the `de` subtree of the mapping; they are the same in every language.
+
+Sorting is supported on text fields that have a `sort` keyword subfield in the mapping
+(`title`; `name` and `acronym` for organizations). Sorting on other text fields returns 400.
 
 ### Link patching
 
