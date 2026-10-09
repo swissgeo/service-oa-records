@@ -93,6 +93,7 @@ Key environment variables:
 | `THREADPOOL_MAX_WORKERS` | `16` | Threads running the API calls; also the OpenSearch connection pool size |
 | `OPENSEARCH_TIMEOUT` | `30` | OpenSearch request timeout in seconds |
 | `OPENSEARCH_MAX_RETRIES` | `3` | OpenSearch retries, also on timeouts |
+| `CACHE_CONTROL_HEADER` | `public, max-age=300` | `Cache-Control` header set on GET/HEAD responses, except 5xx and responses that already have one; empty disables it |
 | `UVICORN_LIMIT_CONCURRENCY` | `100` (image) | Open connections/requests before uvicorn answers 503 |
 | `MALLOC_ARENA_MAX` | `2` (image) | Limits glibc malloc arenas to reduce memory fragmentation |
 
