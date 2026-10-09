@@ -37,6 +37,7 @@ dev = [
     "pytest",
     "pytest-cov",
     "pytest-xdist",
+    "httpx2>=2.13.1",
 ]
 
 [tool.ruff]
