@@ -21,11 +21,13 @@ from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
+from cache_control import CacheControlMiddleware
 from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
 from settings import get_settings
 from starlette.applications import Starlette
+from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
@@ -79,6 +81,7 @@ APP = Starlette(
     Route("/", _redirect_to_api),
     Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
   ],
+  middleware=[Middleware(CacheControlMiddleware, value=get_settings().cache_control_header)],
   lifespan=_lifespan,
 )
 

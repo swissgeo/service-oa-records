@@ -32,6 +32,9 @@ class Settings(BaseSettings):
   opensearch_timeout: int = 30
   opensearch_max_retries: int = 3
 
+  # Cache-Control header added to GET/HEAD responses. Empty disables it.
+  cache_control_header: str = "public, max-age=300"
+
   @property
   def otlp_kwargs(self) -> dict:
     return {
