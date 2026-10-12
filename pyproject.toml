@@ -20,6 +20,12 @@ dependencies = [
     "opentelemetry-sdk~=1.41",
 ]
 
+[tool.uv]
+# pygeoapi always installs these, but only its raster/SQL providers and the
+# PostgreSQL process manager use them; we only use SwissGeoProvider.
+# Remove them from this list before configuring one of those plugins.
+exclude-dependencies = ["rasterio", "sqlalchemy"]
+
 [tool.ty.environment]
 extra-paths = ["pygeoapi-swissgeo-extensions"]
 
