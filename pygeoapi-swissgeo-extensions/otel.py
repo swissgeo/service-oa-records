@@ -21,49 +21,57 @@ _resource = Resource.create({"service.name": "service-oa-records"})
 
 
 def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:  # pragma: no cover
-  settings = get_settings()
+    settings = get_settings()
 
-  if settings.otel_sdk_disabled:
-    return None, None
+    if settings.otel_sdk_disabled:
+        return None, None
 
-  log_provider = LoggerProvider(resource=_resource)
-  set_logger_provider(log_provider)
+    log_provider = LoggerProvider(resource=_resource)
+    set_logger_provider(log_provider)
 
-  trace_provider = TracerProvider(resource=_resource)
-  trace.set_tracer_provider(trace_provider)
+    trace_provider = TracerProvider(resource=_resource)
+    trace.set_tracer_provider(trace_provider)
 
-  return log_provider, trace_provider
+    return log_provider, trace_provider
 
 
 def _setup_exporters(  # pragma: no cover
-  log_provider: LoggerProvider | None,
-  trace_provider: TracerProvider | None,
+    log_provider: LoggerProvider | None,
+    trace_provider: TracerProvider | None,
 ) -> None:
-  settings = get_settings()
+    settings = get_settings()
 
-  if settings.otel_sdk_disabled or not settings.otel_enable_otlp_exporter:
-    return
+    if settings.otel_sdk_disabled or not settings.otel_enable_otlp_exporter:
+        return
 
-  if log_provider is not None:
-    log_provider.add_log_record_processor(BatchLogRecordProcessor(OTLPLogExporter(**settings.otlp_kwargs)))
+    if log_provider is not None:
+        log_provider.add_log_record_processor(
+            BatchLogRecordProcessor(OTLPLogExporter(**settings.otlp_kwargs))
+        )
 
-  if trace_provider is not None:
-    trace_provider.add_span_processor(BatchSpanProcessor(OTLPSpanExporter(**settings.otlp_kwargs)))
+    if trace_provider is not None:
+        trace_provider.add_span_processor(
+            BatchSpanProcessor(OTLPSpanExporter(**settings.otlp_kwargs))
+        )
 
 
 def _setup_metrics() -> MeterProvider | None:  # pragma: no cover
-  settings = get_settings()
+    settings = get_settings()
 
-  if settings.otel_sdk_disabled or not settings.otel_enable_metrics or not settings.otel_enable_otlp_exporter:
-    return None
+    if (
+        settings.otel_sdk_disabled
+        or not settings.otel_enable_metrics
+        or not settings.otel_enable_otlp_exporter
+    ):
+        return None
 
-  meter_provider = MeterProvider(
-    metric_readers=[PeriodicExportingMetricReader(OTLPMetricExporter(**settings.otlp_kwargs))],
-    resource=_resource,
-  )
-  metrics.set_meter_provider(meter_provider)
+    meter_provider = MeterProvider(
+        metric_readers=[PeriodicExportingMetricReader(OTLPMetricExporter(**settings.otlp_kwargs))],
+        resource=_resource,
+    )
+    metrics.set_meter_provider(meter_provider)
 
-  return meter_provider
+    return meter_provider
 
 
 # ------------------------------------------------------------------------------
@@ -86,37 +94,39 @@ meter_provider = _setup_metrics()
 
 
 def get_otel_handler() -> logging.Handler:  # pragma: no cover
-  """Get the OTEL logging Handler"""
-  settings = get_settings()
+    """Get the OTEL logging Handler"""
+    settings = get_settings()
 
-  if settings.otel_sdk_disabled:
-    raise ValueError("Cannot use OTEL handler in logging configuration when OTEL_SDK_DISABLE is true")
-  if log_provider is None:
-    raise ValueError("OTEL log provider is not available")
+    if settings.otel_sdk_disabled:
+        raise ValueError(
+            "Cannot use OTEL handler in logging configuration when OTEL_SDK_DISABLE is true"
+        )
+    if log_provider is None:
+        raise ValueError("OTEL log provider is not available")
 
-  return LoggingHandler(logger_provider=log_provider)
+    return LoggingHandler(logger_provider=log_provider)
 
 
 def initialize_instrumentation(app: Starlette) -> None:  # pragma: no cover
-  """Initialize OTEL instrumentation for the Starlette app."""
-  settings = get_settings()
+    """Initialize OTEL instrumentation for the Starlette app."""
+    settings = get_settings()
 
-  if settings.otel_sdk_disabled:
-    return
+    if settings.otel_sdk_disabled:
+        return
 
-  if settings.otel_enable_asgi:
-    app.add_middleware(OpenTelemetryMiddleware)
-  if settings.otel_enable_opensearch:
-    URLLib3Instrumentor().instrument()
+    if settings.otel_enable_asgi:
+        app.add_middleware(OpenTelemetryMiddleware)
+    if settings.otel_enable_opensearch:
+        URLLib3Instrumentor().instrument()
 
 
 def shutdown_otel() -> None:  # pragma: no cover
-  """Flush and shutdown OTEL providers/processors on application shutdown."""
-  if trace_provider is not None:
-    trace_provider.shutdown()
+    """Flush and shutdown OTEL providers/processors on application shutdown."""
+    if trace_provider is not None:
+        trace_provider.shutdown()
 
-  if log_provider is not None:
-    log_provider.shutdown()
+    if log_provider is not None:
+        log_provider.shutdown()
 
-  if meter_provider is not None:
-    meter_provider.shutdown()
+    if meter_provider is not None:
+        meter_provider.shutdown()
