@@ -62,7 +62,9 @@ def client(cache_control_value: str) -> Iterator[TestClient]:
 
 @pytest.mark.parametrize("method", ["GET", "HEAD"])
 def test_sets_header_on_get_and_head(client: TestClient, method: str) -> None:
-  assert client.request(method, "/").headers["cache-control"] == _VALUE
+  response = client.request(method, "/")
+  assert response.headers["cache-control"] == _VALUE
+  assert response.headers["vary"] == "Accept, Accept-Language"
 
 
 @pytest.mark.parametrize("method", ["POST", "PUT", "DELETE", "OPTIONS"])

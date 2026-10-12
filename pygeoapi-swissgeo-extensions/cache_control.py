@@ -28,6 +28,11 @@ class CacheControlMiddleware:
         headers = MutableHeaders(scope=message)
         if "cache-control" not in headers:
           headers["Cache-Control"] = self.value
+        # pygeoapi returns different content based on Accept (html vs json) and
+        # Accept-Language (en, de, fr, ...) headers
+        # NOTE: because we already use the CORSMiddleware, vary header already includes "Origin",
+        # see https://github.com/Kludex/starlette/releases/tag/1.7.0
+        headers.add_vary_header("Accept, Accept-Language")
       await send(message)
 
     await self.app(scope, receive, send_with_cache_control)
