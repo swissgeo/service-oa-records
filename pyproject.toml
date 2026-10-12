@@ -4,12 +4,10 @@ version = "1.0.0"
 requires-python = ">=3.11"
 dependencies = [
     "pygeoapi",
-    "tinydb",
     "opensearch-py",
     "opensearch-dsl",
     "requests-aws4auth",
     "boto3",
-    "packaging>=26.0",
     "uvicorn[standard]",
     "starlette",
     "pyyaml",
@@ -21,6 +19,12 @@ dependencies = [
     "opentelemetry-instrumentation-urllib3==0.62b1",
     "opentelemetry-sdk~=1.41",
 ]
+
+[tool.uv]
+# pygeoapi always installs these, but only its raster/SQL providers and the
+# PostgreSQL process manager use them; we only use SwissGeoProvider.
+# Remove them from this list before configuring one of those plugins.
+exclude-dependencies = ["rasterio", "sqlalchemy"]
 
 [tool.ty.environment]
 extra-paths = ["pygeoapi-swissgeo-extensions"]
