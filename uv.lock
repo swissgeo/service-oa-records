@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -2357,14 +2357,12 @@ dependencies = [
     { name = "opentelemetry-instrumentation-asgi" },
     { name = "opentelemetry-instrumentation-urllib3" },
     { name = "opentelemetry-sdk" },
-    { name = "packaging" },
     { name = "pydantic-settings" },
     { name = "pygeoapi", version = "0.21.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "pygeoapi", version = "0.24.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
     { name = "pyyaml" },
     { name = "requests-aws4auth" },
     { name = "starlette" },
-    { name = "tinydb" },
     { name = "uvicorn", extra = ["standard"] },
 ]
 
@@ -2391,13 +2389,11 @@ requires-dist = [
     { name = "opentelemetry-instrumentation-asgi", specifier = "==0.62b1" },
     { name = "opentelemetry-instrumentation-urllib3", specifier = "==0.62b1" },
     { name = "opentelemetry-sdk", specifier = "~=1.41" },
-    { name = "packaging", specifier = ">=26.0" },
     { name = "pydantic-settings", specifier = ">=2.0" },
     { name = "pygeoapi" },
     { name = "pyyaml" },
     { name = "requests-aws4auth" },
     { name = "starlette" },
-    { name = "tinydb" },
     { name = "uvicorn", extras = ["standard"] },
 ]
 

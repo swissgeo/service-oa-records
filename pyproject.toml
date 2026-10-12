@@ -4,12 +4,10 @@ version = "1.0.0"
 requires-python = ">=3.11"
 dependencies = [
     "pygeoapi",
-    "tinydb",
     "opensearch-py",
     "opensearch-dsl",
     "requests-aws4auth",
     "boto3",
-    "packaging>=26.0",
     "uvicorn[standard]",
     "starlette",
     "pyyaml",
