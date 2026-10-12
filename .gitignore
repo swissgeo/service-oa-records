@@ -221,3 +221,6 @@ __marimo__/
 
 # Locally generated pygeoapi OpenAPI document
 pygeoapi-openapi.yml
+
+# git conflict files
+*.orig

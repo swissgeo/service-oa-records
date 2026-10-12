@@ -46,8 +46,8 @@ src = [
     "scripts",
 ]
 
-line-length = 120
-indent-width = 2
+line-length = 100
+indent-width = 4
 
 #------------------------------------------------------------------------------
 # Linting configuration
