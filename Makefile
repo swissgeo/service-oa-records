@@ -27,6 +27,7 @@ PYTHON := $(UV_RUN) python3
 TEST := $(UV_RUN) pytest
 RUFF := $(UV_RUN) ruff
 TY := $(UV_RUN) ty
+PRE_COMMIT := $(UV_RUN) pre-commit
 UVICORN := $(UV_RUN) uvicorn
 
 # Application specific
@@ -61,9 +62,21 @@ export PYTHONPATH := $(CURRENT_DIR)/$(APP_SRC_DIR)
 	cp .env.default .env
 
 
+.PHONY: git-info
+git-info: ## Print the current version information
+	@echo "GIT_HASH=$(GIT_HASH)"
+	@echo "GIT_HASH_SHORT=$(GIT_HASH_SHORT)"
+	@echo "GIT_BRANCH=$(GIT_BRANCH)"
+	@echo "GIT_DIRTY=$(GIT_DIRTY)"
+	@echo "GIT_TAG=$(GIT_TAG)"
+	@echo "AUTHOR=$(AUTHOR)"
+	@echo "DOCKER_IMG_LOCAL_TAG=$(DOCKER_IMG_LOCAL_TAG)"
+
+
 .PHONY: setup
 setup: .env ## Create virtualenv with all packages for development
 	uv sync
+	$(PRE_COMMIT) install
 	# Start a new shell with the virtualenv activated and OPENSEARCH_URL exported, so
 	# that the app and the catalogue scripts find the service-control OpenSearch.
 	uv run $$SHELL
@@ -133,7 +146,12 @@ serve-debug: check-opensearch openapi ## Serve the application locally for debug
 
 .PHONY: dockerbuild
 dockerbuild:  ## Build the docker image locally
-	docker build -t $(DOCKER_IMG_LOCAL_TAG) .
+	docker build \
+		--build-arg GIT_HASH="$(GIT_HASH)" \
+		--build-arg GIT_BRANCH="$(GIT_BRANCH)" \
+		--build-arg GIT_DIRTY="$(GIT_DIRTY)" \
+		--build-arg VERSION="$(GIT_TAG)" \
+		--build-arg AUTHOR="$(AUTHOR)" -t $(DOCKER_IMG_LOCAL_TAG) .
 
 
 .PHONY: dockerlogin
@@ -142,8 +160,9 @@ dockerlogin: ## Login to the AWS Docker Registry (ECR)
 
 
 .PHONY: dockerpush
-dockerpush: dockerlogin dockerbuild ## Push to the docker registry
-	docker push $(DOCKER_IMG_LOCAL_TAG)
+dockerpush: dockerbuild ## Push to the docker registry
+	set -o pipefail; \
+	docker push $(DOCKER_IMG_LOCAL_TAG) 2>&1 | grep --color=always -E "tag invalid: .*|$$"
 
 
 .PHONY: dockerrun
