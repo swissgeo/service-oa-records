@@ -156,7 +156,7 @@ resources:
   swissgeo-organizations:
     type: collection
     title: SWISSGEO Organizations
-    description: SWISSGEO services
+    description: SWISSGEO organizations
     keywords: [switzerland, geodata, organizations]
     extents:
       spatial:
@@ -171,6 +171,31 @@ resources:
         id_field: externalId
         time_field: recordCreated
         title_field: name
+        languages:
+          - en
+          - de
+          - fr
+          - it
+          - rm
+
+  swissgeo-thesauri:
+    type: collection
+    title: SWISSGEO Thesauri
+    description: SWISSGEO thesauri
+    keywords: [switzerland, geodata, thesauri]
+    extents:
+      spatial:
+        bbox: [5.9, 45.8, 10.5, 47.9]
+        crs: http://www.opengis.net/def/crs/OGC/1.3/CRS84
+    providers:
+      - type: record
+        name: swissgeo_provider.SwissGeoProvider
+        resource_id: swissgeo-thesauri
+        data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-thesauri
+        aws4auth: ${OPENSEARCH_AWS4AUTH:-false}
+        id_field: externalId
+        time_field: recordCreated
+        # don't define a title_field, this will use the id of the record
         languages:
           - en
           - de
