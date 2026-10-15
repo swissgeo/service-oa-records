@@ -1,9 +1,12 @@
 from functools import lru_cache
+from typing import ClassVar
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    SERVICE_NAME: ClassVar[str] = "service-oa-records"
+
     model_config = SettingsConfigDict(
         env_file=(".env", ".env.default"),
         env_file_encoding="utf-8",

@@ -42,6 +42,7 @@ dev = [
     "pytest-cov",
     "pytest-xdist",
     "httpx2>=2.13.1",
+    "pre-commit>=4.7.0",
 ]
 
 [tool.ruff]

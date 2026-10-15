@@ -14,14 +14,15 @@ from opentelemetry.sdk.metrics.export import PeriodicExportingMetricReader
 from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
+from opentelemetry.util.http import get_excluded_urls
 from settings import get_settings
 from starlette.applications import Starlette
 
-_resource = Resource.create({"service.name": "service-oa-records"})
+settings = get_settings()
+_resource = Resource.create({"service.name": settings.SERVICE_NAME})
 
 
 def _get_providers() -> tuple[LoggerProvider | None, TracerProvider | None]:  # pragma: no cover
-    settings = get_settings()
 
     if settings.otel_sdk_disabled:
         return None, None
@@ -39,7 +40,6 @@ def _setup_exporters(  # pragma: no cover
     log_provider: LoggerProvider | None,
     trace_provider: TracerProvider | None,
 ) -> None:
-    settings = get_settings()
 
     if settings.otel_sdk_disabled or not settings.otel_enable_otlp_exporter:
         return
@@ -56,7 +56,6 @@ def _setup_exporters(  # pragma: no cover
 
 
 def _setup_metrics() -> MeterProvider | None:  # pragma: no cover
-    settings = get_settings()
 
     if (
         settings.otel_sdk_disabled
@@ -95,7 +94,6 @@ meter_provider = _setup_metrics()
 
 def get_otel_handler() -> logging.Handler:  # pragma: no cover
     """Get the OTEL logging Handler"""
-    settings = get_settings()
 
     if settings.otel_sdk_disabled:
         raise ValueError(
@@ -109,13 +107,14 @@ def get_otel_handler() -> logging.Handler:  # pragma: no cover
 
 def initialize_instrumentation(app: Starlette) -> None:  # pragma: no cover
     """Initialize OTEL instrumentation for the Starlette app."""
-    settings = get_settings()
 
     if settings.otel_sdk_disabled:
         return
 
     if settings.otel_enable_asgi:
-        app.add_middleware(OpenTelemetryMiddleware)
+        # Unlike the framework instrumentors, the ASGI middleware doesn't read the
+        # OTEL_PYTHON_(ASGI_)EXCLUDED_URLS environment variables by itself.
+        app.add_middleware(OpenTelemetryMiddleware, excluded_urls=get_excluded_urls("ASGI"))
     if settings.otel_enable_opensearch:
         URLLib3Instrumentor().instrument()
 
