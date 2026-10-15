@@ -7,7 +7,8 @@ fields inside ``<lang>.properties`` are indexed.
 
 The request language (``?lang=``, see app.py) selects the record subtree
 that is returned, filtered and sorted (see :meth:`SwissGeoProvider.mask_prop`).
-Free-text search (``?q=``) matches the records of all languages.
+Free-text search (``?q=``) matches the records of all languages, and each
+search term also matches part of a word (see :func:`_free_text_query`).
 
 Also patches same-host links to carry ``lang`` and ``f`` query params.
 
@@ -33,6 +34,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 import threading
 from urllib.parse import urlencode, urlparse
 
@@ -68,6 +70,12 @@ _TEXT_TYPES = {"text", "search_as_you_type"}
 # Styles are served outside the records API prefix, so relative links to them
 # are resolved against the hostname instead of the base URL.
 _STYLES_PREFIX = "/api/oas/v0/styles"
+
+# Characters a free-text search may contain: ASCII letters and digits, the
+# letters of Latin-1 Supplement (without the multiplication and division
+# signs) and Latin Extended-A/B, and spaces. Everything else, including Lucene
+# query syntax, is stripped.
+_Q_STRIPPED_CHARS = re.compile(r"[^A-Za-z0-9\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f ]")
 
 _local = threading.local()
 
@@ -131,6 +139,23 @@ def _create_client(host: str, provider_def: dict) -> OpenSearch:
         retry_on_timeout=True,
         pool_maxsize=settings.threadpool_max_workers,
     )
+
+
+def _free_text_query(q: str | None) -> str | None:
+    """Turn the ``q`` search input into an OpenSearch ``query_string`` query.
+
+    Unsupported characters are stripped, so users cannot send Lucene query
+    syntax. Each remaining term is wrapped as ``*term*`` to also match part of
+    a word ("Essig Weg" becomes ``*Essig* *Weg*``). Returns None (no free-text
+    filter) if no term is left.
+    """
+    if q is None:
+        return None
+    # Tabs and line breaks separate terms like spaces do.
+    terms = _Q_STRIPPED_CHARS.sub("", re.sub(r"\s", " ", q)).split()
+    if not terms:
+        return None
+    return " ".join(f"*{term}*" for term in terms)
 
 
 def _field_schema(mapping_type: str) -> dict:
@@ -299,6 +324,9 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         properties = [
             ("concepts", value) if key == "concept" else (key, value) for key, value in properties
         ]
+
+        q = _free_text_query(q)
+        LOGGER.debug("SwissGeoProvider.query q=%s", q)
 
         result = super().query(
             offset=offset,
