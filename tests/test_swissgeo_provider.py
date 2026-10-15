@@ -13,6 +13,7 @@ import swissgeo_provider
 from swissgeo_provider import (
     SwissGeoProvider,
     _ensure_self_link,
+    _free_text_query,
     _get_base_url,
     _get_lang_and_fmt,
     _local,
@@ -108,6 +109,49 @@ class TestGetLangAndFmt:
 
         assert results["a"] == "de"
         assert results["b"] == "fr"
+
+
+# ---------------------------------------------------------------------------
+# _free_text_query
+# ---------------------------------------------------------------------------
+
+
+class TestFreeTextQuery:
+    @pytest.mark.parametrize(
+        ("q", "expected"),
+        [
+            ("ssigba", "*ssigba*"),
+            ("Wander", "*Wander*"),
+            ("Essig Weg", "*Essig* *Weg*"),
+            ("Fruchtfolgeflächen", "*Fruchtfolgeflächen*"),
+            ("Réseau à Zürich", "*Réseau* *à* *Zürich*"),
+            ("Ørsted ĉapelo", "*Ørsted* *ĉapelo*"),
+            ("LK25 2024", "*LK25* *2024*"),
+        ],
+    )
+    def test_wraps_each_term_in_wildcards(self, q, expected) -> None:
+        assert _free_text_query(q) == expected
+
+    @pytest.mark.parametrize(
+        ("q", "expected"),
+        [
+            ('title:"Essig" AND baum~2', "*titleEssig* *AND* *baum2*"),
+            ("Ess?g* OR (Weg)", "*Essg* *OR* *Weg*"),
+            ("-Wald +Weg || a/b\\c", "*Wald* *Weg* *abc*"),
+            ("2\u00d73 \u00f7 4", "*23* *4*"),
+            ("Essig—Baum", "*EssigBaum*"),
+            ("Wald 🌲 Weg", "*Wald* *Weg*"),
+        ],
+    )
+    def test_strips_unsupported_characters(self, q, expected) -> None:
+        assert _free_text_query(q) == expected
+
+    def test_merges_repeated_whitespace(self) -> None:
+        assert _free_text_query("  Essig \t\n  Weg  ") == "*Essig* *Weg*"
+
+    @pytest.mark.parametrize("q", [None, "", "   ", "*?:()", '""'])
+    def test_no_terms_left_disables_free_text_filter(self, q) -> None:
+        assert _free_text_query(q) is None
 
 
 # ---------------------------------------------------------------------------
@@ -837,7 +881,19 @@ class TestProviderAgainstOpenSearch:
         _, body = self._query("fr", q="wander")
 
         # No ``fields``: OpenSearch searches every indexed field, i.e. all languages.
-        assert body["query"]["bool"]["must"] == {"query_string": {"query": "wander"}}
+        assert body["query"]["bool"]["must"] == {"query_string": {"query": "*wander*"}}
+
+    def test_free_text_search_matches_part_of_words(self) -> None:
+        _, body = self._query("de", q='Essig AND title:"Weg"')
+
+        assert body["query"]["bool"]["must"] == {
+            "query_string": {"query": "*Essig* *AND* *titleWeg*"}
+        }
+
+    def test_free_text_search_without_terms_is_no_filter(self) -> None:
+        _, body = self._query("de", q="*:*")
+
+        assert "must" not in body["query"]["bool"]
 
     def test_unsupported_sort_rejected_before_search(self) -> None:
         set_request_params(lang="de", fmt=None)
