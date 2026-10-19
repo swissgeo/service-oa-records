@@ -1,7 +1,7 @@
 [project]
 name = "service-oa-records"
 version = "0.0.0" # NOTE: the version is not used
-requires-python = ">=3.11"
+requires-python = ">=3.14"
 dependencies = [
     "pygeoapi~=0.21",
     "opensearch-py~=3.2",
@@ -72,6 +72,9 @@ ignore = [
     "FIX",    # Ignore fixme comments
     "COM812", # flak8-commas missing-trailing-comma is ignored to avoid conflict with formatter which enforces trailing commas
     "CPY001", # Ignore missing copyright notice at top of file
+    "TC003", # Ignore type annotation not in TYPE_CHECKING block
+    "TC002", # Ignore type annotation not in TYPE_CHECKING block for third party import
+    "TC001", # Ignore type annotation not in TYPE_CHECKING block for first party import
 ]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.

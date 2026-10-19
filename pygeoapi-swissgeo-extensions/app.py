@@ -66,7 +66,7 @@ async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no
 
 
 @asynccontextmanager  # pragma: no cover
-async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
+async def _lifespan(_app: Starlette) -> AsyncGenerator[None]:
     # pygeoapi runs the API calls in the loop's default executor. Bound it
     # explicitly: the asyncio default derives from the node's CPU count, not the
     # container's limits.

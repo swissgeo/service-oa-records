@@ -3,17 +3,15 @@
 import sys
 from collections.abc import Generator
 from pathlib import Path
-from typing import TYPE_CHECKING, cast
+from typing import cast
 
 import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
 import aws4auth
+import boto3
 from botocore.credentials import Credentials
-
-if TYPE_CHECKING:
-    import boto3
 
 
 class _FakeSession:
@@ -28,7 +26,7 @@ class _FakeSession:
 
 
 @pytest.fixture(autouse=True)
-def _fake_boto3(monkeypatch) -> Generator[None, None, None]:
+def _fake_boto3(monkeypatch) -> Generator[None]:
     aws4auth._get_auth.cache_clear()
     _FakeSession.instances = 0
     monkeypatch.setattr(
