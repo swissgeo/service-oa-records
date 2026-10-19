@@ -1,17 +1,17 @@
 [project]
-name = "service-oaf-pygeoadmin"
-version = "1.0.0"
+name = "service-oa-records"
+version = "0.0.0" # NOTE: the version is not used
 requires-python = ">=3.11"
 dependencies = [
-    "pygeoapi",
-    "opensearch-py",
-    "opensearch-dsl",
-    "requests-aws4auth",
-    "boto3",
-    "uvicorn[standard]",
-    "starlette",
-    "pyyaml",
-    "pydantic-settings>=2.0",
+    "pygeoapi~=0.21",
+    "opensearch-py~=3.2",
+    "opensearch-dsl~=2.1",
+    "requests-aws4auth~=1.4",
+    "boto3~=1.43",
+    "uvicorn[standard]~=0.54",
+    "starlette~=1.7",
+    "pyyaml~=6.0",
+    "pydantic-settings~=2.15",
     # List of available opentelemetry-instrumentation can be found here
     # https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation#readme
     "opentelemetry-exporter-otlp~=1.41",
@@ -41,8 +41,8 @@ dev = [
     "pytest",
     "pytest-cov",
     "pytest-xdist",
-    "httpx2>=2.13.1",
-    "pre-commit>=4.7.0",
+    "httpx2",
+    "pre-commit",
 ]
 
 [tool.ruff]
