@@ -1,3 +1,4 @@
+#==============================================================================
 FROM python:3.14-slim AS builder
 
 WORKDIR /pygeoapi
@@ -10,6 +11,7 @@ ARG INSTALL_DEBUGPY=false
 COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev $([ "$INSTALL_DEBUGPY" = "true" ] && echo "--group debug")
 
+#==============================================================================
 FROM python:3.14-slim AS production
 
 WORKDIR /pygeoapi
@@ -34,6 +36,21 @@ COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-s
 COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
 COPY --chown=pygeoapi:pygeoapi docker-entrypoint.sh /pygeoapi/docker-entrypoint.sh
 COPY --chown=pygeoapi:pygeoapi config-files /pygeoapi/config-files
+
+# Set build infos as docker labels
+ARG VERSION=unknown
+ARG GIT_HASH=unknown
+ARG GIT_BRANCH=unknown
+ARG GIT_DIRTY=""
+ARG AUTHOR=unknown
+LABEL git.hash=$GIT_HASH
+LABEL git.branch=$GIT_BRANCH
+LABEL git.dirty=$GIT_DIRTY
+LABEL author=$AUTHOR
+LABEL version=$VERSION
+
+# Overwrite the version.py from source with the actual version
+RUN echo "__version__ = '$VERSION'" > /pygeoapi/pygeoapi-swissgeo-extensions/version.py
 
 USER pygeoapi
 

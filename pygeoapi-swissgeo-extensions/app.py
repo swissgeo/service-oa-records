@@ -21,65 +21,73 @@ from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
+from cache_control import CacheControlMiddleware
 from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
 from settings import get_settings
 from starlette.applications import Starlette
+from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
 from swissgeo_provider import set_request_params
+from syntheticz import syntheticz_endpoint
 
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 
 
 def _call_api_threadsafe_with_lang(  # pragma: no cover
-  loop: asyncio.AbstractEventLoop,
-  api_function: Callable,
-  actual_api: API,
-  api_request: APIRequest,
-  *args: object,
+    loop: asyncio.AbstractEventLoop,
+    api_function: Callable,
+    actual_api: API,
+    api_request: APIRequest,
+    *args: object,
 ) -> tuple:
-  # pygeoapi stores raw_locale as a plain string; best_match needs a list.
-  # Wrap it so get_plugin_locale resolves the requested language instead of
-  # falling back to the default locale.
-  raw_locale = api_request.raw_locale
-  if isinstance(raw_locale, str):
-    api_request._raw_locale = [raw_locale]  # noqa: SLF001
+    # pygeoapi stores raw_locale as a plain string; best_match needs a list.
+    # Wrap it so get_plugin_locale resolves the requested language instead of
+    # falling back to the default locale.
+    raw_locale = api_request.raw_locale
+    if isinstance(raw_locale, str):
+        api_request._raw_locale = [raw_locale]  # noqa: SLF001
 
-  set_request_params(
-    lang=api_request.params.get("lang", None),
-    fmt=api_request.format,
-  )
-  return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
+    set_request_params(
+        lang=api_request.params.get("lang", None),
+        fmt=api_request.format,
+    )
+    return _original_call_api_threadsafe(loop, api_function, actual_api, api_request, *args)
 
 
 _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignore[invalid-assignment]
 
 
 async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no cover
-  return RedirectResponse(url="/api/oar/rc1")
+    return RedirectResponse(url="/api/oar/rc1")
 
 
 @asynccontextmanager  # pragma: no cover
 async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
-  # pygeoapi runs the API calls in the loop's default executor. Bound it
-  # explicitly: the asyncio default derives from the node's CPU count, not the
-  # container's limits.
-  asyncio.get_running_loop().set_default_executor(
-    ThreadPoolExecutor(max_workers=get_settings().threadpool_max_workers, thread_name_prefix="pygeoapi"),
-  )
-  yield
-  shutdown_otel()
+    # pygeoapi runs the API calls in the loop's default executor. Bound it
+    # explicitly: the asyncio default derives from the node's CPU count, not the
+    # container's limits.
+    asyncio.get_running_loop().set_default_executor(
+        ThreadPoolExecutor(
+            max_workers=get_settings().threadpool_max_workers, thread_name_prefix="pygeoapi"
+        ),
+    )
+    yield
+    shutdown_otel()
 
 
 APP = Starlette(
-  routes=[
-    Route("/", _redirect_to_api),
-    Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
-  ],
-  lifespan=_lifespan,
+    routes=[
+        Route("/", _redirect_to_api),
+        # Must come before the pygeoapi mount, which would otherwise match the path.
+        Route("/api/oar/rc1/syntheticz", syntheticz_endpoint(_starlette_mod.CONFIG["resources"])),
+        Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
+    ],
+    middleware=[Middleware(CacheControlMiddleware, value=get_settings().cache_control_header)],
+    lifespan=_lifespan,
 )
 
 initialize_instrumentation(APP)

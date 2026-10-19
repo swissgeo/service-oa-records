@@ -93,12 +93,24 @@ Key environment variables:
 | `THREADPOOL_MAX_WORKERS` | `16` | Threads running the API calls; also the OpenSearch connection pool size |
 | `OPENSEARCH_TIMEOUT` | `30` | OpenSearch request timeout in seconds |
 | `OPENSEARCH_MAX_RETRIES` | `3` | OpenSearch retries, also on timeouts |
+| `CACHE_CONTROL_HEADER` | `public, max-age=300` | `Cache-Control` header set on GET/HEAD responses, except 5xx and responses that already have one; empty disables it |
 | `UVICORN_LIMIT_CONCURRENCY` | `100` (image) | Open connections/requests before uvicorn answers 503 |
 | `MALLOC_ARENA_MAX` | `2` (image) | Limits glibc malloc arenas to reduce memory fragmentation |
+| `OTEL_PYTHON_EXCLUDED_URLS` | | Comma-separated URL regexes not traced by the ASGI middleware (e.g. `/syntheticz`) |
 
 pygeoapi creates a new provider instance for every request. `SwissGeoProvider` therefore
 creates the OpenSearch client and reads the index mapping only once per index, and shares
 both across instances. With `aws4auth: true` a single refreshable SigV4 signer is used.
+
+## Synthetic check
+
+`GET /api/oar/rc1/syntheticz` checks that every OpenSearch index used by a `SwissGeoProvider`
+in `pygeoapi-config.yml` exists and is reachable. It returns `200` with `"status": "UP"`, or
+`500` with `"status": "DOWN"`, and is never cached:
+
+```json
+{"service": {"name": "service-oa-records", "version": "v0.5.0"}, "status": "UP", "external_systems": {"opensearch": {"status": "UP"}}}
+```
 
 ## Running locally
 
@@ -159,6 +171,7 @@ To debug the container instead, build the image with `--build-arg INSTALL_DEBUGP
 pygeoapi-swissgeo-extensions/
   app.py                  # Starlette entrypoint; patches call_api_threadsafe
   swissgeo_provider.py    # SwissGeoProvider: language selection + link patching
+  syntheticz.py           # /syntheticz health check of OpenSearch
 pygeoapi-config.yml       # pygeoapi server + collection configuration
 static-s3/                # 1:1 catalog data from S3
 ```
