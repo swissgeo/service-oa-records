@@ -67,9 +67,10 @@ _SORT_SUBFIELD = "sort"
 # Mapping types pygeoapi has to advertise as JSON Schema strings.
 _TEXT_TYPES = {"text", "search_as_you_type"}
 
-# Styles are served outside the records API prefix, so relative links to them
+# Styles and thesauri are served outside the records API prefix, so relative links to them
 # are resolved against the hostname instead of the base URL.
 _STYLES_PREFIX = "/api/oas/v0/styles"
+_THESAURI_PREFIX = "/api/thesauri"
 
 # Characters a free-text search may contain: ASCII letters and digits, the
 # letters of Latin-1 Supplement (without the multiplication and division
@@ -397,8 +398,8 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     """Append ``lang`` (and ``f`` if present) and add content type to relative links.
 
     Relative links are made absolute with the base URL, except styles links
-    (``_STYLES_PREFIX``) which live outside the records API prefix and are
-    resolved against the hostname only.
+    (``_STYLES_PREFIX``) and thesauri links (``_THESAURI_PREFIX``) which live outside the records
+    API prefix and are resolved against the hostname only.
 
     External links are left untouched.
     """
@@ -415,7 +416,9 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
         parsed = urlparse(href)
         is_relative = not parsed.scheme
         if is_relative:
-            prefix = _get_hostname() if href.startswith(_STYLES_PREFIX) else base_url
+            prefix = (
+                _get_hostname() if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
+            )
             if prefix:
                 href = f"{prefix}{href}"
             sep = "&" if "?" in href else "?"
