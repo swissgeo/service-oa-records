@@ -9,9 +9,10 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
-import aws4auth
 import boto3
 from botocore.credentials import Credentials
+
+import aws4auth
 
 
 class _FakeSession:

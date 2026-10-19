@@ -15,8 +15,9 @@ from opentelemetry.sdk.resources import Resource
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.util.http import get_excluded_urls
-from settings import get_settings
 from starlette.applications import Starlette
+
+from settings import get_settings
 
 settings = get_settings()
 _resource = Resource.create({"service.name": settings.SERVICE_NAME})

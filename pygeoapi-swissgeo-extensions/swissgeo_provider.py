@@ -38,7 +38,6 @@ import re
 import threading
 from urllib.parse import urlencode, urlparse
 
-import aws4auth as _aws4auth
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from opentelemetry import trace
 from pygeoapi.api import F_JSON, FORMAT_TYPES
@@ -49,6 +48,8 @@ from pygeoapi.provider.base import (
     ProviderQueryError,
 )
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
+
+import aws4auth as _aws4auth
 from settings import get_settings
 
 LOGGER = logging.getLogger(__name__)

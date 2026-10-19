@@ -20,15 +20,6 @@ dependencies = [
     "opentelemetry-sdk~=1.41",
 ]
 
-[tool.uv]
-# pygeoapi always installs these, but only its raster/SQL providers and the
-# PostgreSQL process manager use them; we only use SwissGeoProvider.
-# Remove them from this list before configuring one of those plugins.
-exclude-dependencies = ["rasterio", "sqlalchemy"]
-
-[tool.ty.environment]
-extra-paths = ["pygeoapi-swissgeo-extensions"]
-
 [dependency-groups]
 # Installed in the Docker image only when built with INSTALL_DEBUGPY=true
 debug = [
@@ -45,14 +36,25 @@ dev = [
     "pre-commit",
 ]
 
-[tool.ruff]
-src = [
-    "app",
-    "scripts",
-]
+[tool.uv]
+package = false # Do not install as a package
+# pygeoapi always installs these, but only its raster/SQL providers and the
+# PostgreSQL process manager use them; we only use SwissGeoProvider.
+# Remove them from this list before configuring one of those plugins.
+exclude-dependencies = ["rasterio", "sqlalchemy"]
 
+
+#===============================================================================
+# Ruff configuration
+[tool.ruff]
+src = ["pygeoapi-swissgeo-extensions"]
+
+# Same as Black.
 line-length = 100
 indent-width = 4
+
+# Assume Python 3.14
+target-version = "py314"
 
 #------------------------------------------------------------------------------
 # Linting configuration
@@ -84,6 +86,8 @@ fixable = ["ALL"]
 # Allow unused variables when underscore-prefixed.
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
+#------------------------------------------------------------------------------
+# ruff ignore per files
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = [
     "S101",    # Ignore usage of assert statements in tests
@@ -92,7 +96,6 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
     "PLR2004", # Ignore magic number in tests
     "SLF001",  # Ignore private member access in tests
 ]
-
 
 #------------------------------------------------------------------------------
 # Isort configuration
@@ -108,3 +111,24 @@ section-order = [
 
 [tool.ruff.lint.isort.sections]
 test = ["pytest"]
+
+#===============================================================================
+# ty configuration
+[tool.ty.environment]
+root = ["pygeoapi-swissgeo-extensions"]
+
+[tool.ty.src]
+exclude = ["pygeoapi-swissgeo-extensions/tests", "pygeoapi-swissgeo-extensions/stubs", "**/__pycache__"]
+
+
+#===============================================================================
+# Pytest configuration
+[tool.pytest]
+pythonpath = ["pygeoapi-swissgeo-extensions"]
+python_files = ["test_*.py"]
+
+
+#==============================================================================
+# Coverage configuration
+[tool.coverage.run]
+omit = ["*/tests/*"]

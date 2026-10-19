@@ -12,11 +12,12 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
-import swissgeo_provider
-import syntheticz
 from starlette.applications import Starlette
 from starlette.routing import Route
 from starlette.testclient import TestClient
+
+import swissgeo_provider
+import syntheticz
 from version import __version__
 
 _MAPPING = {
