@@ -265,9 +265,11 @@ class TestPatchLinks:
         monkeypatch.setenv("API_PREFIX", "/api/oar/rc1")
 
         set_request_params(lang=None, fmt=None)
-        links = [{"href": "/api/oas/v0/styles/base"}]
+        links = [{"href": "/api/oas/v0/styles/base"}, {"href": "/api/thesauri/base"}]
         _patch_links(links, "de", None)
         assert links[0]["href"].startswith("https://api.example.com/api/oas/v0/styles/base")
+        assert "lang=de" in links[0]["href"]
+        assert links[1]["href"].startswith("https://api.example.com/api/thesauri/base")
         assert "lang=de" in links[0]["href"]
 
     def test_both_lang_and_fmt_appended(self) -> None:
