@@ -7,8 +7,23 @@ OGC API Records service for SwissGeo, built on [pygeoapi](https://pygeoapi.io/) 
 | develop | ![Build Status](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiaDdjQ3ROL0NVSzQyRFN5Ukpjc282ZjE1cjc4N25RcHNWVVliRE9laEgzbUdmcmxFdHEyTWxDNkc1ZU9rVU95T0ZRazZ0RS9mRFphMXpVeVZ1VDBmSXZFPSIsIml2UGFyYW1ldGVyU3BlYyI6Ii9GZlhsODB4QkJ4UHgrVDIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=develop) | [![codecov-develop](https://codecov.io/gh/swissgeo/service-oa-records/branch/develop/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
 | main | ![Build Status](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiaDdjQ3ROL0NVSzQyRFN5Ukpjc282ZjE1cjc4N25RcHNWVVliRE9laEgzbUdmcmxFdHEyTWxDNkc1ZU9rVU95T0ZRazZ0RS9mRFphMXpVeVZ1VDBmSXZFPSIsIml2UGFyYW1ldGVyU3BlYyI6Ii9GZlhsODB4QkJ4UHgrVDIiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main) | [![codecov-main](https://codecov.io/gh/swissgeo/service-oa-records/branch/main/graph/badge.svg)](https://codecov.io/gh/swissgeo/service-oa-records) |
 
-> [!NOTE]
-> This is still in POC phase
+
+## Table of Content
+- [Table of Content](#table-of-content)
+- [Overview](#overview)
+- [swissgeo\_provider.py](#swissgeo_providerpy)
+  - [Why `app.py` is needed](#why-apppy-is-needed)
+  - [Localized index layout](#localized-index-layout)
+  - [Link patching](#link-patching)
+- [Configuration](#configuration)
+- [Synthetic check](#synthetic-check)
+- [Running locally](#running-locally)
+  - [Setup](#setup)
+  - [Run on the host](#run-on-the-host)
+  - [Run the built image](#run-the-built-image)
+- [Debugging](#debugging)
+- [Project structure](#project-structure)
+
 
 ## Overview
 

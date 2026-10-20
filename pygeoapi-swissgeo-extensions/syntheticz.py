@@ -9,6 +9,9 @@ import logging
 from collections.abc import Awaitable, Callable
 
 from opentelemetry import trace
+from starlette.requests import Request
+from starlette.responses import JSONResponse
+
 from schemas.syntheticz import (
     Syntheticz,
     SyntheticzExternalSystem,
@@ -16,8 +19,6 @@ from schemas.syntheticz import (
     SyntheticzStatus,
 )
 from settings import get_settings
-from starlette.requests import Request
-from starlette.responses import JSONResponse
 from swissgeo_provider import SwissGeoProvider
 from version import __version__
 

@@ -1,17 +1,17 @@
 [project]
-name = "service-oaf-pygeoadmin"
-version = "1.0.0"
-requires-python = ">=3.11"
+name = "service-oa-records"
+version = "0.0.0" # NOTE: the version is not used
+requires-python = ">=3.14"
 dependencies = [
-    "pygeoapi",
-    "opensearch-py",
-    "opensearch-dsl",
-    "requests-aws4auth",
-    "boto3",
-    "uvicorn[standard]",
-    "starlette",
-    "pyyaml",
-    "pydantic-settings>=2.0",
+    "pygeoapi~=0.21",
+    "opensearch-py~=3.2",
+    "opensearch-dsl~=2.1",
+    "requests-aws4auth~=1.4",
+    "boto3~=1.43",
+    "uvicorn[standard]~=0.54",
+    "starlette~=1.7",
+    "pyyaml~=6.0",
+    "pydantic-settings~=2.15",
     # List of available opentelemetry-instrumentation can be found here
     # https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation#readme
     "opentelemetry-exporter-otlp~=1.41",
@@ -19,15 +19,6 @@ dependencies = [
     "opentelemetry-instrumentation-urllib3==0.62b1",
     "opentelemetry-sdk~=1.41",
 ]
-
-[tool.uv]
-# pygeoapi always installs these, but only its raster/SQL providers and the
-# PostgreSQL process manager use them; we only use SwissGeoProvider.
-# Remove them from this list before configuring one of those plugins.
-exclude-dependencies = ["rasterio", "sqlalchemy"]
-
-[tool.ty.environment]
-extra-paths = ["pygeoapi-swissgeo-extensions"]
 
 [dependency-groups]
 # Installed in the Docker image only when built with INSTALL_DEBUGPY=true
@@ -41,18 +32,29 @@ dev = [
     "pytest",
     "pytest-cov",
     "pytest-xdist",
-    "httpx2>=2.13.1",
-    "pre-commit>=4.7.0",
+    "httpx2",
+    "pre-commit",
 ]
 
+[tool.uv]
+package = false # Do not install as a package
+# pygeoapi always installs these, but only its raster/SQL providers and the
+# PostgreSQL process manager use them; we only use SwissGeoProvider.
+# Remove them from this list before configuring one of those plugins.
+exclude-dependencies = ["rasterio", "sqlalchemy"]
+
+
+#===============================================================================
+# Ruff configuration
 [tool.ruff]
-src = [
-    "app",
-    "scripts",
-]
+src = ["pygeoapi-swissgeo-extensions"]
 
+# Same as Black.
 line-length = 100
 indent-width = 4
+
+# Assume Python 3.14
+target-version = "py314"
 
 #------------------------------------------------------------------------------
 # Linting configuration
@@ -72,6 +74,9 @@ ignore = [
     "FIX",    # Ignore fixme comments
     "COM812", # flak8-commas missing-trailing-comma is ignored to avoid conflict with formatter which enforces trailing commas
     "CPY001", # Ignore missing copyright notice at top of file
+    "TC003", # Ignore type annotation not in TYPE_CHECKING block
+    "TC002", # Ignore type annotation not in TYPE_CHECKING block for third party import
+    "TC001", # Ignore type annotation not in TYPE_CHECKING block for first party import
 ]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
@@ -81,6 +86,8 @@ fixable = ["ALL"]
 # Allow unused variables when underscore-prefixed.
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
+#------------------------------------------------------------------------------
+# ruff ignore per files
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = [
     "S101",    # Ignore usage of assert statements in tests
@@ -89,7 +96,6 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
     "PLR2004", # Ignore magic number in tests
     "SLF001",  # Ignore private member access in tests
 ]
-
 
 #------------------------------------------------------------------------------
 # Isort configuration
@@ -105,3 +111,24 @@ section-order = [
 
 [tool.ruff.lint.isort.sections]
 test = ["pytest"]
+
+#===============================================================================
+# ty configuration
+[tool.ty.environment]
+root = ["pygeoapi-swissgeo-extensions"]
+
+[tool.ty.src]
+exclude = ["pygeoapi-swissgeo-extensions/tests", "pygeoapi-swissgeo-extensions/stubs", "**/__pycache__"]
+
+
+#===============================================================================
+# Pytest configuration
+[tool.pytest]
+pythonpath = ["pygeoapi-swissgeo-extensions"]
+python_files = ["test_*.py"]
+
+
+#==============================================================================
+# Coverage configuration
+[tool.coverage.run]
+omit = ["*/tests/*"]

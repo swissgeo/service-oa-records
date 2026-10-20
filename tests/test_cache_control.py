@@ -8,13 +8,14 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
-from cache_control import CacheControlMiddleware
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 from starlette.routing import Route
 from starlette.testclient import TestClient
+
+from cache_control import CacheControlMiddleware
 
 _VALUE = "public, max-age=300"
 
