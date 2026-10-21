@@ -12,15 +12,15 @@ from opentelemetry import trace
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
-from schemas.syntheticz import (
+from swissgeo_oar.provider.opensearch import SwissGeoProvider
+from swissgeo_oar.schemas.syntheticz import (
     Syntheticz,
     SyntheticzExternalSystem,
     SyntheticzServiceDetails,
     SyntheticzStatus,
 )
-from settings import get_settings
-from swissgeo_provider import SwissGeoProvider
-from version import __version__
+from swissgeo_oar.settings import get_settings
+from swissgeo_oar.version import __version__
 
 LOGGER = logging.getLogger(__name__)
 
@@ -28,7 +28,7 @@ _tracer = trace.get_tracer(__name__)
 
 _OPENSEARCH = "opensearch"
 
-_PROVIDER_NAME = "swissgeo_provider.SwissGeoProvider"
+_PROVIDER_NAME = "swissgeo_oar.provider.opensearch.SwissGeoProvider"
 
 
 def _opensearch_providers(resources: dict) -> list[dict]:

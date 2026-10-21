@@ -1,24 +1,19 @@
 """Tests for the syntheticz endpoint."""
 
-import sys
 from collections.abc import Iterator
-from pathlib import Path
 from unittest.mock import MagicMock
 
 from opensearchpy.exceptions import ConnectionError as OpenSearchConnectionError
 from opensearchpy.exceptions import TransportError
-
-import pytest
-
-sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
-
 from starlette.applications import Starlette
 from starlette.routing import Route
 from starlette.testclient import TestClient
 
-import swissgeo_provider
-import syntheticz
-from version import __version__
+import pytest
+
+from swissgeo_oar import syntheticz
+from swissgeo_oar.provider import opensearch
+from swissgeo_oar.version import __version__
 
 _MAPPING = {
     "properties": {
@@ -32,7 +27,7 @@ _RESOURCES = {
         "providers": [
             {
                 "type": "record",
-                "name": "swissgeo_provider.SwissGeoProvider",
+                "name": "swissgeo_oar.provider.opensearch.SwissGeoProvider",
                 "data": "http://opensearch:9200/swissgeo-catalog",
             },
         ],
@@ -42,7 +37,7 @@ _RESOURCES = {
         "providers": [
             {
                 "type": "record",
-                "name": "swissgeo_provider.SwissGeoProvider",
+                "name": "swissgeo_oar.provider.opensearch.SwissGeoProvider",
                 "data": "http://opensearch:9200/swissgeo-distributions",
             },
         ],
@@ -60,10 +55,12 @@ def opensearch_client(monkeypatch: pytest.MonkeyPatch) -> MagicMock:
     client = MagicMock()
     client.ping.return_value = True
     client.indices.exists.return_value = True
-    monkeypatch.setattr(swissgeo_provider, "_shared_state", {})
-    monkeypatch.setattr(swissgeo_provider, "_create_client", lambda *_: client)
+    monkeypatch.setattr(opensearch, "_shared_state", {})
+    monkeypatch.setattr(opensearch, "_create_client", lambda *_: client)
     monkeypatch.setattr(
-        swissgeo_provider.SwissGeoProvider, "_fetch_mapping", lambda _provider: _MAPPING
+        opensearch.SwissGeoProvider,
+        "_fetch_mapping",
+        lambda _provider: _MAPPING,
     )
     return client
 
@@ -131,7 +128,7 @@ def test_syntheticz_down_when_client_creation_fails(
     def failing_create_client(*_: object) -> None:
         raise RuntimeError("AWS credentials unavailable")
 
-    monkeypatch.setattr(swissgeo_provider, "_create_client", failing_create_client)
+    monkeypatch.setattr(opensearch, "_create_client", failing_create_client)
 
     response = client.get("/syntheticz")
 
@@ -149,7 +146,7 @@ def test_client_is_shared_with_the_provider(
         created.append(host)
         return opensearch_client
 
-    monkeypatch.setattr(swissgeo_provider, "_create_client", counting_create_client)
+    monkeypatch.setattr(opensearch, "_create_client", counting_create_client)
 
     providers = syntheticz._opensearch_providers(_RESOURCES)
     syntheticz._check_opensearch(providers)
@@ -157,7 +154,7 @@ def test_client_is_shared_with_the_provider(
 
     # One client per index, created by the first check only
     assert created == ["http://opensearch:9200"] * 2
-    assert set(swissgeo_provider._shared_state) == {
+    assert set(opensearch._shared_state) == {
         "http://opensearch:9200/swissgeo-catalog",
         "http://opensearch:9200/swissgeo-distributions",
     }

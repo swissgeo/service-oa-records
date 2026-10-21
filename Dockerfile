@@ -8,8 +8,22 @@ RUN pip install uv
 # Set to true to include debugpy, for the PYDEBUG mode of docker-entrypoint.sh
 ARG INSTALL_DEBUGPY=false
 
+# Install the dependencies first, so that this layer is cached when only the
+# sources change.
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev $([ "$INSTALL_DEBUGPY" = "true" ] && echo "--group debug")
+RUN uv sync --frozen --no-dev --no-install-project \
+    $([ "$INSTALL_DEBUGPY" = "true" ] && echo "--group debug")
+
+COPY swissgeo_oar ./swissgeo_oar
+
+# Overwrite the version.py from source with the actual version
+ARG VERSION=unknown
+RUN echo "__version__ = '$VERSION'" > swissgeo_oar/version.py
+
+# Install the package itself into the virtualenv (not as an editable link to the
+# sources, which are not copied to the production image).
+RUN uv sync --frozen --no-dev --no-editable \
+    $([ "$INSTALL_DEBUGPY" = "true" ] && echo "--group debug")
 
 #==============================================================================
 FROM python:3.14-slim AS production
@@ -18,7 +32,6 @@ WORKDIR /pygeoapi
 
 ENV PYGEOAPI_CONFIG=/pygeoapi/pygeoapi-config.yml
 ENV PYGEOAPI_OPENAPI=/pygeoapi/pygeoapi-openapi.yml
-ENV PYTHONPATH=/pygeoapi/pygeoapi-swissgeo-extensions
 ENV PATH="/pygeoapi/.venv/bin:$PATH"
 # Fewer glibc malloc arenas keep the memory freed by the worker threads from
 # fragmenting across arenas and inflating the RSS.
@@ -32,7 +45,6 @@ RUN groupadd --gid 1001 pygeoapi \
  && chown -R pygeoapi:pygeoapi /pygeoapi
 
 COPY --from=builder --chown=pygeoapi:pygeoapi /pygeoapi/.venv /pygeoapi/.venv
-COPY --chown=pygeoapi:pygeoapi pygeoapi-swissgeo-extensions /pygeoapi/pygeoapi-swissgeo-extensions
 COPY --chown=pygeoapi:pygeoapi pygeoapi-config.yml /pygeoapi/pygeoapi-config.yml
 COPY --chown=pygeoapi:pygeoapi docker-entrypoint.sh /pygeoapi/docker-entrypoint.sh
 COPY --chown=pygeoapi:pygeoapi config-files /pygeoapi/config-files
@@ -48,9 +60,6 @@ LABEL git.branch=$GIT_BRANCH
 LABEL git.dirty=$GIT_DIRTY
 LABEL author=$AUTHOR
 LABEL version=$VERSION
-
-# Overwrite the version.py from source with the actual version
-RUN echo "__version__ = '$VERSION'" > /pygeoapi/pygeoapi-swissgeo-extensions/version.py
 
 USER pygeoapi
 

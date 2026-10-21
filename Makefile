@@ -31,10 +31,10 @@ PRE_COMMIT := $(UV_RUN) pre-commit
 UVICORN := $(UV_RUN) uvicorn
 
 # Application specific
-APP_SRC_DIR := pygeoapi-swissgeo-extensions
+APP_PACKAGE := swissgeo_oar
 HTTP_PORT ?= 8080
-SERVE_ARGS := app:APP --host 0.0.0.0 --port $(HTTP_PORT) \
-	--app-dir $(APP_SRC_DIR) --log-config config-files/logging-conf.yaml
+SERVE_ARGS := $(APP_PACKAGE).app:APP --host 0.0.0.0 --port $(HTTP_PORT) \
+	--log-config config-files/logging-conf.yaml
 
 # The app always runs on the host (like service-control), so one env file covers
 # both. uv loads it into the environment of every `uv run` below; `dockerrun` passes
@@ -52,11 +52,6 @@ OTEL_ENDPOINT  = $(shell sed -n 's/^OTEL_EXPORTER_OTLP_ENDPOINT=//p' $(ENV_FILE)
 
 # Aliases the collections in pygeoapi-config.yml resolve to
 OPENSEARCH_INDEXES := swissgeo-catalog swissgeo-distributions geoadmin-services
-
-# Mirrors ENV PYTHONPATH in the Dockerfile, so that pygeoapi can import
-# swissgeo_provider when running from the repo root.
-export PYTHONPATH := $(CURRENT_DIR)/$(APP_SRC_DIR)
-
 
 .env:
 	cp .env.default .env
