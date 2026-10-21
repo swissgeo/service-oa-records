@@ -12,7 +12,7 @@ Also injects the ``lang``/``f`` query params into the executor thread via a
 thread-local, used for same-host link patching in the provider.
 
 Usage:
-    uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions
+    uvicorn swissgeo_oar.app:APP --host 0.0.0.0 --port 8080
 """
 
 import asyncio
@@ -29,12 +29,12 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
 
-from cache_control import CacheControlMiddleware
-from disable_html import DisableHtmlMiddleware
-from otel import initialize_instrumentation, shutdown_otel
-from settings import get_settings
-from swissgeo_provider import set_request_params
-from syntheticz import syntheticz_endpoint
+from swissgeo_oar.cache_control import CacheControlMiddleware
+from swissgeo_oar.disable_html import DisableHtmlMiddleware
+from swissgeo_oar.otel import initialize_instrumentation, shutdown_otel
+from swissgeo_oar.provider.opensearch import set_request_params
+from swissgeo_oar.settings import get_settings
+from swissgeo_oar.syntheticz import syntheticz_endpoint
 
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 

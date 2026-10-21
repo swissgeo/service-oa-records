@@ -1,12 +1,6 @@
 """Tests for the Cache-Control middleware."""
 
-import sys
 from collections.abc import Iterator
-from pathlib import Path
-
-import pytest
-
-sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
@@ -15,7 +9,9 @@ from starlette.responses import PlainTextResponse
 from starlette.routing import Route
 from starlette.testclient import TestClient
 
-from cache_control import CacheControlMiddleware
+import pytest
+
+from swissgeo_oar.cache_control import CacheControlMiddleware
 
 _VALUE = "public, max-age=300"
 

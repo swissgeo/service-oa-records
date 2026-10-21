@@ -20,6 +20,10 @@ dependencies = [
     "opentelemetry-sdk~=1.41",
 ]
 
+[build-system]
+requires = ["uv_build>=0.13,<0.14"]
+build-backend = "uv_build"
+
 [dependency-groups]
 # Installed in the Docker image only when built with INSTALL_DEBUGPY=true
 debug = [
@@ -36,8 +40,12 @@ dev = [
     "pre-commit",
 ]
 
+[tool.uv.build-backend]
+# Flat layout: the package is at the repository root, not under src/
+module-name = "swissgeo_oar"
+module-root = ""
+
 [tool.uv]
-package = false # Do not install as a package
 # pygeoapi always installs these, but only its raster/SQL providers and the
 # PostgreSQL process manager use them; we only use SwissGeoProvider.
 # Remove them from this list before configuring one of those plugins.
@@ -47,7 +55,7 @@ exclude-dependencies = ["rasterio", "sqlalchemy"]
 #===============================================================================
 # Ruff configuration
 [tool.ruff]
-src = ["pygeoapi-swissgeo-extensions"]
+src = ["."]
 
 # Same as Black.
 line-length = 100
@@ -114,17 +122,13 @@ test = ["pytest"]
 
 #===============================================================================
 # ty configuration
-[tool.ty.environment]
-root = ["pygeoapi-swissgeo-extensions"]
-
 [tool.ty.src]
-exclude = ["pygeoapi-swissgeo-extensions/tests", "pygeoapi-swissgeo-extensions/stubs", "**/__pycache__"]
+exclude = ["**/__pycache__"]
 
 
 #===============================================================================
 # Pytest configuration
 [tool.pytest]
-pythonpath = ["pygeoapi-swissgeo-extensions"]
 python_files = ["test_*.py"]
 
 
