@@ -109,6 +109,7 @@ Key environment variables:
 | `OPENSEARCH_TIMEOUT` | `30` | OpenSearch request timeout in seconds |
 | `OPENSEARCH_MAX_RETRIES` | `3` | OpenSearch retries, also on timeouts |
 | `CACHE_CONTROL_HEADER` | `public, max-age=300` | `Cache-Control` header set on GET/HEAD responses, except 5xx and responses that already have one; empty disables it |
+| `HTML_ENABLED` | `false` | Serve pygeoapi's HTML output; when `false`, `f=html` returns 400 and `text/html` is ignored in `Accept` (browsers get JSON) |
 | `UVICORN_LIMIT_CONCURRENCY` | `100` (image) | Open connections/requests before uvicorn answers 503 |
 | `MALLOC_ARENA_MAX` | `2` (image) | Limits glibc malloc arenas to reduce memory fragmentation |
 | `OTEL_PYTHON_EXCLUDED_URLS` | | Comma-separated URL regexes not traced by the ASGI middleware (e.g. `/syntheticz`) |

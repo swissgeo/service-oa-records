@@ -38,6 +38,9 @@ class Settings(BaseSettings):
     # Cache-Control header added to GET/HEAD responses. Empty disables it.
     cache_control_header: str = "public, max-age=300"
 
+    # Serve pygeoapi's HTML output. When disabled, f=html is rejected and browsers get JSON.
+    html_enabled: bool = False
+
     @property
     def otlp_kwargs(self) -> dict:
         return {
