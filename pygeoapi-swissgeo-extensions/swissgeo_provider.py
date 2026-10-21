@@ -38,7 +38,6 @@ import re
 import threading
 from urllib.parse import urlencode, urlparse
 
-import aws4auth as _aws4auth
 from opensearchpy import OpenSearch, RequestsHttpConnection
 from opentelemetry import trace
 from pygeoapi.api import F_JSON, FORMAT_TYPES
@@ -49,6 +48,8 @@ from pygeoapi.provider.base import (
     ProviderQueryError,
 )
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
+
+import aws4auth as _aws4auth
 from settings import get_settings
 
 LOGGER = logging.getLogger(__name__)
@@ -226,9 +227,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
         ``<field>.sort`` (type ``keyword``): the parent looks the resolved sort
         property up in ``self.fields``, and the ``keyword`` type keeps it from
         appending a ``.raw`` suffix that does not exist in the mapping.
-
-        Rename the concepts field to concept so that it gets accepted as query
-        parameter. Gets rewritten in the query function to concepts again.
         """
         if self._fields:
             return self._fields
@@ -250,8 +248,7 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
             fields[name] = _field_schema(definition["type"])
             if _SORT_SUBFIELD in definition.get("fields", {}):
                 fields[f"{name}.{_SORT_SUBFIELD}"] = {"type": "keyword"}
-        if "concepts" in fields:
-            fields["concept"] = fields.pop("concepts")
+
         # Same as OpenSearchCatalogueProvider: ``q`` is advertised as a field.
         fields["q"] = {"type": "string"}
 
@@ -321,10 +318,6 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
 
         sortby = self._resolve_sortby(sortby)
         LOGGER.debug("SwissGeoProvider.query sortby=%s", sortby)
-
-        properties = [
-            ("concepts", value) if key == "concept" else (key, value) for key, value in properties
-        ]
 
         q = _free_text_query(q)
         LOGGER.debug("SwissGeoProvider.query q=%s", q)

@@ -21,16 +21,17 @@ from concurrent.futures import ThreadPoolExecutor
 from contextlib import asynccontextmanager
 
 import pygeoapi.starlette_app as _starlette_mod
-from cache_control import CacheControlMiddleware
-from otel import initialize_instrumentation, shutdown_otel
 from pygeoapi.api import API, APIRequest
 from pygeoapi.starlette_app import APP as _PYGEOAPI_APP
-from settings import get_settings
 from starlette.applications import Starlette
 from starlette.middleware import Middleware
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
+
+from cache_control import CacheControlMiddleware
+from otel import initialize_instrumentation, shutdown_otel
+from settings import get_settings
 from swissgeo_provider import set_request_params
 from syntheticz import syntheticz_endpoint
 
@@ -66,7 +67,7 @@ async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no
 
 
 @asynccontextmanager  # pragma: no cover
-async def _lifespan(_app: Starlette) -> AsyncGenerator[None, None]:
+async def _lifespan(_app: Starlette) -> AsyncGenerator[None]:
     # pygeoapi runs the API calls in the loop's default executor. Bound it
     # explicitly: the asyncio default derives from the node's CPU count, not the
     # container's limits.
