@@ -549,24 +549,6 @@ class TestProviderQuery:
         assert captured["properties"] == []
         assert captured["bbox"] == []
 
-    def test_rewrites_concept_query_param_to_concepts(self, monkeypatch) -> None:
-        provider = _make_provider("col")
-        captured = {}
-
-        def mocked_query(self, *args, **kwargs) -> dict:  # noqa: ARG001
-            captured.update(kwargs)
-            return {"type": "FeatureCollection", "features": []}
-
-        monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
-            "query",
-            mocked_query,
-        )
-
-        provider.query(properties=[("concept", "xyz")])
-
-        assert captured["properties"] == [("concepts", "xyz")]
-
     def test_sets_request_language(self, monkeypatch) -> None:
         provider = _make_provider("col")
         monkeypatch.setattr(
@@ -652,7 +634,7 @@ class TestResolveSortby:
 
     def test_keyword_properties_left_untouched(self) -> None:
         provider = _make_provider()
-        sortby = [{"property": "concept", "order": "-"}]
+        sortby = [{"property": "concepts", "order": "-"}]
 
         assert provider._resolve_sortby(sortby) == sortby
 
@@ -689,18 +671,10 @@ class TestGetFields:
             "title": {"type": "string"},
             "title.sort": {"type": "keyword"},
             "description": {"type": "string"},
-            "concept": {"type": "keyword"},
+            "concepts": {"type": "keyword"},
             "preferredDistributionId": {"type": "keyword"},
             "q": {"type": "string"},
         }
-
-    def test_registers_concepts_as_concept(self) -> None:
-        provider = _make_provider()
-
-        fields = provider.get_fields()
-
-        assert fields["concept"] == {"type": "keyword"}
-        assert "concepts" not in fields
 
     def test_translates_date_and_number_types(self) -> None:
         provider = _make_provider(
@@ -868,7 +842,7 @@ class TestProviderAgainstOpenSearch:
 
     def test_filters_on_request_language_subtree(self) -> None:
         _, body = self._query(
-            "it", properties=[("concept", "location")], select_properties=[], bbox=[]
+            "it", properties=[("concepts", "location")], select_properties=[], bbox=[]
         )
 
         assert body["query"]["bool"]["filter"] == [
