@@ -1,18 +1,14 @@
 """Tests for the AWS SigV4 auth of the OpenSearch client."""
 
-import sys
 from collections.abc import Generator
-from pathlib import Path
 from typing import cast
-
-import pytest
-
-sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
 import boto3
 from botocore.credentials import Credentials
 
-import aws4auth
+import pytest
+
+from swissgeo_oar.provider import aws4auth
 
 
 class _FakeSession:

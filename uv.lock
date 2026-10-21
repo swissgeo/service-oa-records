@@ -1581,7 +1581,7 @@ wheels = [
 [[package]]
 name = "service-oa-records"
 version = "0.0.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "boto3" },
     { name = "opensearch-dsl" },
