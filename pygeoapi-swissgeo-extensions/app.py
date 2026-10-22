@@ -30,6 +30,7 @@ from starlette.responses import RedirectResponse
 from starlette.routing import Mount, Route
 
 from cache_control import CacheControlMiddleware
+from disable_html import DisableHtmlMiddleware
 from otel import initialize_instrumentation, shutdown_otel
 from settings import get_settings
 from swissgeo_provider import set_request_params
@@ -87,7 +88,10 @@ APP = Starlette(
         Route("/api/oar/rc1/syntheticz", syntheticz_endpoint(_starlette_mod.CONFIG["resources"])),
         Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
     ],
-    middleware=[Middleware(CacheControlMiddleware, value=get_settings().cache_control_header)],
+    middleware=[
+        Middleware(CacheControlMiddleware, value=get_settings().cache_control_header),
+        *([] if get_settings().html_enabled else [Middleware(DisableHtmlMiddleware)]),
+    ],
     lifespan=_lifespan,
 )
 
