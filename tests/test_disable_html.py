@@ -1,12 +1,6 @@
 """Tests for the middleware disabling HTML output."""
 
-import sys
 from collections.abc import Iterator
-from pathlib import Path
-
-import pytest
-
-sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
 
 from pygeoapi.api import F_HTML, F_JSON, APIRequest
 from starlette.applications import Starlette
@@ -16,7 +10,9 @@ from starlette.responses import JSONResponse
 from starlette.routing import Route
 from starlette.testclient import TestClient
 
-from disable_html import DisableHtmlMiddleware
+import pytest
+
+from swissgeo_oar.disable_html import DisableHtmlMiddleware
 
 _BROWSER_ACCEPT = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
 
