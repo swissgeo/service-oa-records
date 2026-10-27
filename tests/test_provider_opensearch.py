@@ -1,16 +1,12 @@
-"""Tests for swissgeo_provider helper functions."""
+"""Tests for opensearch helper functions."""
 
 import copy
-import sys
 import threading
-from pathlib import Path
 
 import pytest
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "pygeoapi-swissgeo-extensions"))
-
-import swissgeo_provider
-from swissgeo_provider import (
+from swissgeo_oar.provider import opensearch
+from swissgeo_oar.provider.opensearch import (
     SwissGeoProvider,
     _ensure_self_link,
     _free_text_query,
@@ -344,7 +340,7 @@ class TestProviderInit:
     @pytest.fixture(autouse=True)
     def _fake_opensearch(self, monkeypatch) -> None:
         """Replace the OpenSearch client and mapping lookup, and reset the cache."""
-        monkeypatch.setattr(swissgeo_provider, "_shared_state", {})
+        monkeypatch.setattr(opensearch, "_shared_state", {})
         self.clients = []
 
         def fake_create_client(host, _provider_def) -> _FakeClient:
@@ -352,13 +348,13 @@ class TestProviderInit:
             self.clients.append((host, client))
             return client
 
-        monkeypatch.setattr(swissgeo_provider, "_create_client", fake_create_client)
+        monkeypatch.setattr(opensearch, "_create_client", fake_create_client)
         monkeypatch.setattr(SwissGeoProvider, "_fetch_mapping", lambda _provider: _DATASET_MAPPING)
 
     @staticmethod
     def _provider_def(**kwargs) -> dict:
         return {
-            "name": "swissgeo_provider.SwissGeoProvider",
+            "name": "swissgeo_oar.provider.opensearch.SwissGeoProvider",
             "type": "record",
             "data": "http://opensearch:9200/my-catalog",
             **kwargs,
@@ -366,7 +362,7 @@ class TestProviderInit:
 
     def test_resource_id_defaults_to_name(self) -> None:
         provider = SwissGeoProvider(self._provider_def())
-        assert provider.resource_id == "swissgeo_provider.SwissGeoProvider"
+        assert provider.resource_id == "swissgeo_oar.provider.opensearch.SwissGeoProvider"
 
     def test_resource_id_from_provider_def(self) -> None:
         provider = SwissGeoProvider(self._provider_def(resource_id="explicit"))
@@ -402,21 +398,19 @@ class TestProviderInit:
         assert "extra" not in second._fields
 
     def test_unreachable_opensearch_raises_and_is_not_cached(self, monkeypatch) -> None:
-        monkeypatch.setattr(
-            swissgeo_provider, "_create_client", lambda *_: _FakeClient(reachable=False)
-        )
-        with pytest.raises(swissgeo_provider.ProviderConnectionError):
+        monkeypatch.setattr(opensearch, "_create_client", lambda *_: _FakeClient(reachable=False))
+        with pytest.raises(opensearch.ProviderConnectionError):
             SwissGeoProvider(self._provider_def())
-        assert swissgeo_provider._shared_state == {}
+        assert opensearch._shared_state == {}
 
     def test_field_lookup_error_raises_query_error(self, monkeypatch) -> None:
         def failing_fetch_mapping(_provider) -> dict:
             raise KeyError("mappings")
 
         monkeypatch.setattr(SwissGeoProvider, "_fetch_mapping", failing_fetch_mapping)
-        with pytest.raises(swissgeo_provider.ProviderQueryError):
+        with pytest.raises(opensearch.ProviderQueryError):
             SwissGeoProvider(self._provider_def())
-        assert swissgeo_provider._shared_state == {}
+        assert opensearch._shared_state == {}
 
 
 class TestCreateClient:
@@ -428,13 +422,13 @@ class TestCreateClient:
             self.calls.append((args, kwargs))
             return object()
 
-        monkeypatch.setattr(swissgeo_provider, "OpenSearch", fake_opensearch)
+        monkeypatch.setattr(opensearch, "OpenSearch", fake_opensearch)
 
     def test_plain_client_uses_settings(self) -> None:
-        swissgeo_provider._create_client("http://opensearch:9200", {})
+        opensearch._create_client("http://opensearch:9200", {})
 
         args, kwargs = self.calls[0]
-        settings = swissgeo_provider.get_settings()
+        settings = opensearch.get_settings()
         assert args == ("http://opensearch:9200",)
         assert "http_auth" not in kwargs
         assert kwargs["timeout"] == settings.opensearch_timeout
@@ -442,9 +436,7 @@ class TestCreateClient:
         assert kwargs["pool_maxsize"] == settings.threadpool_max_workers
 
     def test_provider_def_overrides_timeout_and_retries(self) -> None:
-        swissgeo_provider._create_client(
-            "http://opensearch:9200", {"timeout": "5", "max_retries": "1"}
-        )
+        opensearch._create_client("http://opensearch:9200", {"timeout": "5", "max_retries": "1"})
 
         _, kwargs = self.calls[0]
         assert kwargs["timeout"] == 5
@@ -452,14 +444,14 @@ class TestCreateClient:
 
     def test_aws4auth_client_is_signed(self, monkeypatch) -> None:
         auth = object()
-        monkeypatch.setattr(swissgeo_provider._aws4auth, "aws_auth", lambda _provider_def: auth)
+        monkeypatch.setattr(opensearch._aws4auth, "aws_auth", lambda _provider_def: auth)
 
-        swissgeo_provider._create_client("https://search.aws", {"aws4auth": "true"})
+        opensearch._create_client("https://search.aws", {"aws4auth": "true"})
 
         _, kwargs = self.calls[0]
         assert kwargs["hosts"] == ["https://search.aws"]
         assert kwargs["http_auth"] is auth
-        assert kwargs["connection_class"] is swissgeo_provider.RequestsHttpConnection
+        assert kwargs["connection_class"] is opensearch.RequestsHttpConnection
 
 
 # ---------------------------------------------------------------------------
@@ -498,7 +490,7 @@ class TestProviderQuery:
             ],
         }
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "query",
             lambda _self, **_kwargs: parent_result,
         )
@@ -516,7 +508,7 @@ class TestProviderQuery:
     def test_empty_result_returned_unchanged(self, monkeypatch) -> None:
         provider = _make_provider("col")
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "query",
             lambda _self, **_kwargs: {"features": []},
         )
@@ -536,7 +528,7 @@ class TestProviderQuery:
 
         provider = _make_provider("col")
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "query",
             fake_query,
         )
@@ -552,7 +544,7 @@ class TestProviderQuery:
     def test_sets_request_language(self, monkeypatch) -> None:
         provider = _make_provider("col")
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "query",
             lambda _self, **_kwargs: {"features": []},
         )
@@ -575,7 +567,7 @@ class TestProviderGet:
             "en": {"id": "rec-1", "properties": {"description": "Description"}},
         }
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "get",
             lambda _self, _identifier, **_kwargs: parent_result,
         )
@@ -590,7 +582,7 @@ class TestProviderGet:
     def test_none_result_returned_as_is(self, monkeypatch) -> None:
         provider = _make_provider("col")
         monkeypatch.setattr(
-            swissgeo_provider.OpenSearchCatalogueProvider,
+            opensearch.OpenSearchCatalogueProvider,
             "get",
             lambda _self, _identifier, **_kwargs: None,
         )
@@ -629,7 +621,7 @@ class TestResolveSortby:
     def test_text_field_without_sort_subfield_rejected(self) -> None:
         provider = _make_provider()
 
-        with pytest.raises(swissgeo_provider.ProviderInvalidQueryError):
+        with pytest.raises(opensearch.ProviderInvalidQueryError):
             provider._resolve_sortby([{"property": "description", "order": "+"}])
 
     def test_keyword_properties_left_untouched(self) -> None:
@@ -651,7 +643,7 @@ class TestResolveSortby:
             return {"features": []}
 
         provider = _make_provider()
-        monkeypatch.setattr(swissgeo_provider.OpenSearchCatalogueProvider, "query", fake_query)
+        monkeypatch.setattr(opensearch.OpenSearchCatalogueProvider, "query", fake_query)
         set_request_params(lang="de", fmt=None)
 
         provider.query(sortby=[{"property": "title", "order": "+"}], language="de")
@@ -707,7 +699,7 @@ class TestGetFields:
     def test_old_mapping_layout_raises(self) -> None:
         provider = _make_provider(mapping={"properties": {"properties": {"properties": {}}}})
 
-        with pytest.raises(swissgeo_provider.ProviderQueryError, match="localized mapping"):
+        with pytest.raises(opensearch.ProviderQueryError, match="localized mapping"):
             provider.get_fields()
 
 
@@ -796,16 +788,16 @@ class _FakeOpenSearch:
 class TestProviderAgainstOpenSearch:
     @pytest.fixture(autouse=True)
     def _fake_opensearch(self, monkeypatch) -> None:
-        monkeypatch.setattr(swissgeo_provider, "_shared_state", {})
+        monkeypatch.setattr(opensearch, "_shared_state", {})
         _local.__dict__.clear()
         self.client = _FakeOpenSearch(_DATASET_MAPPING, [_DOC])
-        monkeypatch.setattr(swissgeo_provider, "_create_client", lambda *_: self.client)
+        monkeypatch.setattr(opensearch, "_create_client", lambda *_: self.client)
 
     @staticmethod
     def _provider() -> SwissGeoProvider:
         return SwissGeoProvider(
             {
-                "name": "swissgeo_provider.SwissGeoProvider",
+                "name": "swissgeo_oar.provider.opensearch.SwissGeoProvider",
                 "type": "record",
                 "data": "http://opensearch:9200/swissgeo-catalog",
                 "resource_id": "swissgeo-catalog",
@@ -874,7 +866,7 @@ class TestProviderAgainstOpenSearch:
     def test_unsupported_sort_rejected_before_search(self) -> None:
         set_request_params(lang="de", fmt=None)
 
-        with pytest.raises(swissgeo_provider.ProviderInvalidQueryError):
+        with pytest.raises(opensearch.ProviderInvalidQueryError):
             self._provider().query(sortby=[{"property": "description", "order": "+"}])
         assert self.client.searches == []
 
@@ -890,5 +882,5 @@ class TestProviderAgainstOpenSearch:
     def test_old_mapping_layout_fails_at_startup(self) -> None:
         self.client.indices.mapping = {"properties": {"properties": {"properties": {}}}}
 
-        with pytest.raises(swissgeo_provider.ProviderQueryError, match="localized mapping"):
+        with pytest.raises(opensearch.ProviderQueryError, match="localized mapping"):
             self._provider()

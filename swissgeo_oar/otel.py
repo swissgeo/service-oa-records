@@ -17,7 +17,7 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 from opentelemetry.util.http import get_excluded_urls
 from starlette.applications import Starlette
 
-from settings import get_settings
+from swissgeo_oar.settings import get_settings
 
 settings = get_settings()
 _resource = Resource.create({"service.name": settings.SERVICE_NAME})
@@ -81,7 +81,7 @@ def _setup_metrics() -> MeterProvider | None:  # pragma: no cover
 #
 #   handlers:
 #     otel:
-#       (): otel.get_otel_handler
+#       (): swissgeo_oar.otel.get_otel_handler
 #
 # At that point, get_otel_handler() must be importable and must already have access
 # to an initialized LoggerProvider.

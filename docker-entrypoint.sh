@@ -8,7 +8,7 @@ if [ "${PYDEBUG}" = "true" ]; then
         echo "PYDEBUG requires an image built with --build-arg INSTALL_DEBUGPY=true" >&2
         exit 1
     fi
-    python -m debugpy --listen 0.0.0.0:5678 -m uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions --log-config /pygeoapi/config-files/logging-conf.yaml
+    python -m debugpy --listen 0.0.0.0:5678 -m uvicorn swissgeo_oar.app:APP --host 0.0.0.0 --port 8080 --log-config /pygeoapi/config-files/logging-conf.yaml
 else
-    uvicorn app:APP --host 0.0.0.0 --port 8080 --app-dir /pygeoapi/pygeoapi-swissgeo-extensions --log-config /pygeoapi/config-files/logging-conf.yaml
+    uvicorn swissgeo_oar.app:APP --host 0.0.0.0 --port 8080 --log-config /pygeoapi/config-files/logging-conf.yaml
 fi

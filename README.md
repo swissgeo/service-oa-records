@@ -11,7 +11,7 @@ OGC API Records service for SwissGeo, built on [pygeoapi](https://pygeoapi.io/) 
 ## Table of Content
 - [Table of Content](#table-of-content)
 - [Overview](#overview)
-- [swissgeo\_provider.py](#swissgeo_providerpy)
+- [SwissGeoProvider](#swissgeoprovider)
   - [Why `app.py` is needed](#why-apppy-is-needed)
   - [Localized index layout](#localized-index-layout)
   - [Link patching](#link-patching)
@@ -51,7 +51,7 @@ SwissGeoProvider          ← extends OpenSearchCatalogueProvider
 OpenSearch
 ```
 
-## swissgeo_provider.py
+## SwissGeoProvider
 
 ### Why `app.py` is needed
 
@@ -86,7 +86,7 @@ Provider registration in `pygeoapi-config.yml`:
 ```yaml
 providers:
   - type: record
-    name: swissgeo_provider.SwissGeoProvider
+    name: swissgeo_oar.provider.opensearch.SwissGeoProvider
     data: ${OPENSEARCH_URL:-http://localhost:9200}/swissgeo-catalog
     id_field: externalId
     time_field: recordCreated
@@ -109,6 +109,7 @@ Key environment variables:
 | `OPENSEARCH_TIMEOUT` | `30` | OpenSearch request timeout in seconds |
 | `OPENSEARCH_MAX_RETRIES` | `3` | OpenSearch retries, also on timeouts |
 | `CACHE_CONTROL_HEADER` | `public, max-age=300` | `Cache-Control` header set on GET/HEAD responses, except 5xx and responses that already have one; empty disables it |
+| `HTML_ENABLED` | `false` | Serve pygeoapi's HTML output; when `false`, `f=html` returns 400 and `text/html` is ignored in `Accept` (browsers get JSON) |
 | `UVICORN_LIMIT_CONCURRENCY` | `100` (image) | Open connections/requests before uvicorn answers 503 |
 | `MALLOC_ARENA_MAX` | `2` (image) | Limits glibc malloc arenas to reduce memory fragmentation |
 | `OTEL_PYTHON_EXCLUDED_URLS` | | Comma-separated URL regexes not traced by the ASGI middleware (e.g. `/syntheticz`) |
@@ -174,7 +175,7 @@ make serve-debug
 Runs the app under [debugpy](https://github.com/microsoft/debugpy) listening on port 5678 and
 waiting for a client, so you can attach before the first request is handled.
 
-Then attach your debugger (e.g. **"Attach to Docker (swissgeo_provider)"** in Zed) to
+Then attach your debugger (e.g. **"Attach to Docker (swissgeo_oar)"** in Zed) to
 `localhost:5678`.
 
 To debug the container instead, build the image with `--build-arg INSTALL_DEBUGPY=true`
@@ -183,10 +184,23 @@ To debug the container instead, build the image with `--build-arg INSTALL_DEBUGP
 ## Project structure
 
 ```
-pygeoapi-swissgeo-extensions/
-  app.py                  # Starlette entrypoint; patches call_api_threadsafe
-  swissgeo_provider.py    # SwissGeoProvider: language selection + link patching
-  syntheticz.py           # /syntheticz health check of OpenSearch
-pygeoapi-config.yml       # pygeoapi server + collection configuration
-static-s3/                # 1:1 catalog data from S3
+swissgeo_oar/               # Python package, installed in the virtualenv by `uv sync`
+  app.py                    # Starlette entrypoint; patches call_api_threadsafe
+  settings.py               # pydantic settings, read from the environment
+  otel.py                   # OpenTelemetry setup
+  cache_control.py          # Cache-Control middleware
+  disable_html.py           # middleware disabling pygeoapi's HTML output
+  syntheticz.py             # /syntheticz health check of OpenSearch
+  schemas/                  # pydantic models of the API responses
+  provider/                 # pygeoapi providers
+    opensearch.py           # SwissGeoProvider: language selection + link patching
+    aws4auth.py             # AWS SigV4 auth for the OpenSearch client
+tests/
+pygeoapi-config.yml         # pygeoapi server + collection configuration
+config-files/               # uvicorn logging configuration
 ```
+
+The package is a regular pygeoapi plugin package, as recommended by the
+[pygeoapi plugin documentation](https://docs.pygeoapi.io/en/latest/plugins.html): providers
+are referenced in `pygeoapi-config.yml` by their dotted path, e.g.
+`swissgeo_oar.provider.opensearch.SwissGeoProvider`.

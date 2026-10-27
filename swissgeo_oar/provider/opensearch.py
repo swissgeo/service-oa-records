@@ -18,7 +18,7 @@ subfield in the index (``title``, ``name``, ``acronym``).
 Usage in pygeoapi-config.yml:
     providers:
       - type: record
-        name: swissgeo_provider.SwissGeoProvider
+        name: swissgeo_oar.provider.opensearch.SwissGeoProvider
         data: http://opensearch:9200/swissgeo-catalog
         id_field: externalId
         time_field: recordCreated
@@ -49,8 +49,8 @@ from pygeoapi.provider.base import (
 )
 from pygeoapi.provider.opensearch_ import OpenSearchCatalogueProvider
 
-import aws4auth as _aws4auth
-from settings import get_settings
+from swissgeo_oar.provider import aws4auth as _aws4auth
+from swissgeo_oar.settings import get_settings
 
 LOGGER = logging.getLogger(__name__)
 
