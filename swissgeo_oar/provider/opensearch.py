@@ -402,16 +402,19 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
         href = link.get("href", "")
         if not href:
             continue
+
         parsed = urlparse(href)
         is_relative = not parsed.scheme
-        if is_relative:
-            prefix = hostname if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
-            if prefix:
-                href = f"{prefix}{href}"
-            sep = "&" if "?" in href else "?"
-            link["href"] = f"{href}{sep}{qs}"
+        if not is_relative:
+            continue
 
-            if fmt == F_JSON and link.get("rel") == "self":
-                link["type"] = "application/geo+json"
-            elif fmt in FORMAT_TYPES:
-                link["type"] = FORMAT_TYPES[fmt]
+        prefix = hostname if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
+        if prefix:
+            href = f"{prefix}{href}"
+        sep = "&" if "?" in href else "?"
+        link["href"] = f"{href}{sep}{qs}"
+
+        if fmt == F_JSON and link.get("rel") == "self":
+            link["type"] = "application/geo+json"
+        elif fmt in FORMAT_TYPES:
+            link["type"] = FORMAT_TYPES[fmt]
