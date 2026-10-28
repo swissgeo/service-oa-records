@@ -33,7 +33,6 @@ Usage in pygeoapi-config.yml:
 from __future__ import annotations
 
 import logging
-import os
 import re
 import threading
 from urllib.parse import urlencode, urlparse
@@ -106,14 +105,10 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
 
 
-def _get_hostname() -> str:
-    """Return the server hostname set by app.py, or fall back to the default."""
-    return os.environ.get("PYGEOAPI_HOSTNAME", "http://localhost:8080")
-
-
 def _get_base_url() -> str:
     """Return the public base URL of the records API (hostname and prefix)."""
-    return f"{_get_hostname()}{get_settings().api_prefix}"
+    settings = get_settings()
+    return f"{settings.pygeoapi_hostname}{settings.api_prefix}"
 
 
 def _create_client(host: str, provider_def: dict) -> OpenSearch:
@@ -400,6 +395,7 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     if fmt:
         params["f"] = fmt
     qs = urlencode(params)
+    hostname = get_settings().pygeoapi_hostname
     base_url = _get_base_url()
 
     for link in links:
@@ -409,9 +405,7 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
         parsed = urlparse(href)
         is_relative = not parsed.scheme
         if is_relative:
-            prefix = (
-                _get_hostname() if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
-            )
+            prefix = hostname if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
             if prefix:
                 href = f"{prefix}{href}"
             sep = "&" if "?" in href else "?"
