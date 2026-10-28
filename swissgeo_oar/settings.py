@@ -14,6 +14,13 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
+    # Public URL of the API: the links in the responses are built from the hostname and
+    # the prefix, under which the pygeoapi API is also mounted.
+    # NOTE: server.url in pygeoapi-config.yml repeats these defaults, as pygeoapi reads
+    # that file itself (see tests/test_settings.py).
+    pygeoapi_hostname: str = "http://localhost:8080"
+    api_prefix: str = "/api/oar/rc1"
+
     # OTEL configuration
     otel_sdk_disabled: bool = False
     # Instrumentation
