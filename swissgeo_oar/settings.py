@@ -14,6 +14,11 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
+    # URL prefix under which the pygeoapi API is mounted, also used to build the links.
+    # NOTE: server.url in pygeoapi-config.yml repeats this default, as pygeoapi reads
+    # that file itself (see tests/test_settings.py).
+    api_prefix: str = "/api/oar/rc1"
+
     # OTEL configuration
     otel_sdk_disabled: bool = False
     # Instrumentation

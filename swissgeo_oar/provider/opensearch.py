@@ -112,8 +112,8 @@ def _get_hostname() -> str:
 
 
 def _get_base_url() -> str:
-    """Return the server base URL set by app.py, or fall back to env vars."""
-    return f"{_get_hostname()}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
+    """Return the public base URL of the records API (hostname and prefix)."""
+    return f"{_get_hostname()}{get_settings().api_prefix}"
 
 
 def _create_client(host: str, provider_def: dict) -> OpenSearch:
