@@ -33,7 +33,6 @@ Usage in pygeoapi-config.yml:
 from __future__ import annotations
 
 import logging
-import os
 import re
 import threading
 from urllib.parse import urlencode, urlparse
@@ -106,14 +105,10 @@ def _get_lang_and_fmt() -> tuple[str, str | None]:
     return (primary if primary in _SUPPORTED_LANGS else "en"), fmt
 
 
-def _get_hostname() -> str:
-    """Return the server hostname set by app.py, or fall back to the default."""
-    return os.environ.get("PYGEOAPI_HOSTNAME", "http://localhost:8080")
-
-
 def _get_base_url() -> str:
-    """Return the server base URL set by app.py, or fall back to env vars."""
-    return f"{_get_hostname()}{os.environ.get('API_PREFIX', '/api/oar/rc1')}"
+    """Return the public base URL of the records API (hostname and prefix)."""
+    settings = get_settings()
+    return f"{settings.pygeoapi_hostname}{settings.api_prefix}"
 
 
 def _create_client(host: str, provider_def: dict) -> OpenSearch:
@@ -400,24 +395,26 @@ def _patch_links(links: list, lang: str, fmt: str | None) -> None:
     if fmt:
         params["f"] = fmt
     qs = urlencode(params)
+    hostname = get_settings().pygeoapi_hostname
     base_url = _get_base_url()
 
     for link in links:
         href = link.get("href", "")
         if not href:
             continue
+
         parsed = urlparse(href)
         is_relative = not parsed.scheme
-        if is_relative:
-            prefix = (
-                _get_hostname() if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
-            )
-            if prefix:
-                href = f"{prefix}{href}"
-            sep = "&" if "?" in href else "?"
-            link["href"] = f"{href}{sep}{qs}"
+        if not is_relative:
+            continue
 
-            if fmt == F_JSON and link.get("rel") == "self":
-                link["type"] = "application/geo+json"
-            elif fmt in FORMAT_TYPES:
-                link["type"] = FORMAT_TYPES[fmt]
+        prefix = hostname if href.startswith((_STYLES_PREFIX, _THESAURI_PREFIX)) else base_url
+        if prefix:
+            href = f"{prefix}{href}"
+        sep = "&" if "?" in href else "?"
+        link["href"] = f"{href}{sep}{qs}"
+
+        if fmt == F_JSON and link.get("rel") == "self":
+            link["type"] = "application/geo+json"
+        elif fmt in FORMAT_TYPES:
+            link["type"] = FORMAT_TYPES[fmt]

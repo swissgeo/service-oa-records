@@ -36,6 +36,8 @@ from swissgeo_oar.provider.opensearch import set_request_params
 from swissgeo_oar.settings import get_settings
 from swissgeo_oar.syntheticz import syntheticz_endpoint
 
+settings = get_settings()
+
 _original_call_api_threadsafe = _starlette_mod.call_api_threadsafe
 
 
@@ -64,7 +66,7 @@ _starlette_mod.call_api_threadsafe = _call_api_threadsafe_with_lang  # ty: ignor
 
 
 async def _redirect_to_api(_request: Request) -> RedirectResponse:  # pragma: no cover
-    return RedirectResponse(url="/api/oar/rc1")
+    return RedirectResponse(url=settings.api_prefix)
 
 
 @asynccontextmanager  # pragma: no cover
@@ -74,7 +76,7 @@ async def _lifespan(_app: Starlette) -> AsyncGenerator[None]:
     # container's limits.
     asyncio.get_running_loop().set_default_executor(
         ThreadPoolExecutor(
-            max_workers=get_settings().threadpool_max_workers, thread_name_prefix="pygeoapi"
+            max_workers=settings.threadpool_max_workers, thread_name_prefix="pygeoapi"
         ),
     )
     yield
@@ -85,12 +87,15 @@ APP = Starlette(
     routes=[
         Route("/", _redirect_to_api),
         # Must come before the pygeoapi mount, which would otherwise match the path.
-        Route("/api/oar/rc1/syntheticz", syntheticz_endpoint(_starlette_mod.CONFIG["resources"])),
-        Mount("/api/oar/rc1", app=_PYGEOAPI_APP),
+        Route(
+            f"{settings.api_prefix}/syntheticz",
+            syntheticz_endpoint(_starlette_mod.CONFIG["resources"]),
+        ),
+        Mount(settings.api_prefix, app=_PYGEOAPI_APP),
     ],
     middleware=[
-        Middleware(CacheControlMiddleware, value=get_settings().cache_control_header),
-        *([] if get_settings().html_enabled else [Middleware(DisableHtmlMiddleware)]),
+        Middleware(CacheControlMiddleware, value=settings.cache_control_header),
+        *([] if settings.html_enabled else [Middleware(DisableHtmlMiddleware)]),
     ],
     lifespan=_lifespan,
 )
