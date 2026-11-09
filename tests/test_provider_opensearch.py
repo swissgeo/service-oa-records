@@ -690,6 +690,18 @@ class TestGetFields:
         assert "links" not in fields
         assert fields["title"] == {"type": "string"}
 
+    def test_skips_disabled_fields(self) -> None:
+        provider = _make_provider(
+            mapping=_localized_mapping(
+                {"title": {"type": "text"}, "contacts": {"type": "object", "enabled": False}}
+            ),
+        )
+
+        fields = provider.get_fields()
+
+        assert "contacts" not in fields
+        assert fields["title"] == {"type": "string"}
+
     def test_cached_fields_not_refetched(self) -> None:
         provider = _make_provider()
         provider._fields = {"cached": {"type": "keyword"}}

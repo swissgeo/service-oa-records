@@ -66,8 +66,11 @@ document holds one complete record per language next to the shared `id` and `typ
 {"id": "ch.bafu.moose", "type": "Feature", "de": {record}, "fr": {record}, "it": {record}, "rm": {record}, "en": {record}}
 ```
 
-Only the fields under `<lang>.properties` that are listed in the mapping are indexed. The
-request language decides which record is returned and which subtree filters (`?concept=`,
+Only the fields under `<lang>.properties` that the mapping defines as searchable are indexed.
+The mapping is strict, so it lists every field of a record; fields that are only returned
+(`contacts`, `attribution`, ...) are `enabled: false` and not exposed as queryables. See
+[Index Structure](https://github.com/swissgeo/service-control#index-structure) in service-control.
+The request language decides which record is returned and which subtree filters (`?concept=`,
 `?protocol=`, …) and sorting run against. Free-text search (`?q=`) matches the records of
 all languages, so `?q=wander&lang=fr` finds records by their German title too. The available
 fields are read from the `de` subtree of the mapping; they are the same in every language.
