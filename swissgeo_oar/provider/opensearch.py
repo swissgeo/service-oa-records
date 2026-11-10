@@ -28,6 +28,7 @@ Usage in pygeoapi-config.yml:
           - de
           - fr
           - it
+          - rm
 """
 
 from __future__ import annotations
@@ -55,7 +56,7 @@ LOGGER = logging.getLogger(__name__)
 
 _tracer = trace.get_tracer(__name__)
 
-_SUPPORTED_LANGS = {"de", "en", "fr", "it"}
+_SUPPORTED_LANGS = {"de", "en", "fr", "it", "rm"}
 
 # The field definitions are identical in every language subtree of the
 # mapping, so they are read from this one.
