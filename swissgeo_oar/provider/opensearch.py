@@ -239,7 +239,8 @@ class SwissGeoProvider(OpenSearchCatalogueProvider):
             raise ProviderQueryError(msg) from err
         fields = {}
         for name, definition in record.items():
-            if "type" not in definition:
+            # A disabled field is only stored in ``_source``, so it cannot be filtered or sorted on.
+            if "type" not in definition or definition.get("enabled") is False:
                 continue
             fields[name] = _field_schema(definition["type"])
             if _SORT_SUBFIELD in definition.get("fields", {}):
