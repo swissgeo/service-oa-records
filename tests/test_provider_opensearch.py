@@ -62,7 +62,7 @@ class TestGetLangAndFmt:
         lang, _fmt = _get_lang_and_fmt()
         assert lang == "de"
 
-    @pytest.mark.parametrize("code", ["de", "fr", "it", "en"])
+    @pytest.mark.parametrize("code", ["de", "fr", "it", "rm", "en"])
     def test_all_supported_langs(self, code) -> None:
         set_request_params(lang=code, fmt=None)
         lang, _ = _get_lang_and_fmt()
