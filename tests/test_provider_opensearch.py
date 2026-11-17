@@ -62,7 +62,7 @@ class TestGetLangAndFmt:
         lang, _fmt = _get_lang_and_fmt()
         assert lang == "de"
 
-    @pytest.mark.parametrize("code", ["de", "fr", "it", "en"])
+    @pytest.mark.parametrize("code", ["de", "fr", "it", "rm", "en"])
     def test_all_supported_langs(self, code) -> None:
         set_request_params(lang=code, fmt=None)
         lang, _ = _get_lang_and_fmt()
@@ -688,6 +688,18 @@ class TestGetFields:
         fields = provider.get_fields()
 
         assert "links" not in fields
+        assert fields["title"] == {"type": "string"}
+
+    def test_skips_disabled_fields(self) -> None:
+        provider = _make_provider(
+            mapping=_localized_mapping(
+                {"title": {"type": "text"}, "contacts": {"type": "object", "enabled": False}}
+            ),
+        )
+
+        fields = provider.get_fields()
+
+        assert "contacts" not in fields
         assert fields["title"] == {"type": "string"}
 
     def test_cached_fields_not_refetched(self) -> None:

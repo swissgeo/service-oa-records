@@ -12,6 +12,7 @@ server:
     - de
     - fr
     - it
+    - rm
   cors: true
   map:
     url: https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{z}/{x}/{y}.jpeg
@@ -93,6 +94,7 @@ resources:
           - de
           - fr
           - it
+          - rm
 
   swissgeo-distributions:
     type: collection
@@ -123,6 +125,7 @@ resources:
           - de
           - fr
           - it
+          - rm
 
   geoadmin-services:
     type: collection
@@ -153,6 +156,7 @@ resources:
           - de
           - fr
           - it
+          - rm
 
   swissgeo-organizations:
     type: collection
